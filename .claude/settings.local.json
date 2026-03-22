@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/nares/gcsemathsai -maxdepth 1 -name tailwind.config.* -o -name *.mjs -o -name *.json)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --yes)",
+      "Bash(mkdir /tmp/satact-init)",
+      "Read(//tmp/**)",
+      "Bash(npx create-next-app@latest satactmathai --typescript --tailwind --eslint --app --src-dir --no-import-alias --yes)",
+      "Bash(cp -r /tmp/satact-init/satactmathai/* /c/users/nares/satactmathai/)",
+      "Bash(cp /tmp/satact-init/satactmathai/.gitignore /c/users/nares/satactmathai/)",
+      "Bash(cp /tmp/satact-init/satactmathai/.eslintrc* /c/users/nares/satactmathai/)",
+      "Bash(cp /tmp/satact-init/satactmathai/eslint.config.mjs /c/users/nares/satactmathai/)",
+      "Bash(cp package.json package-lock.json next.config.ts tsconfig.json postcss.config.mjs eslint.config.mjs next-env.d.ts /c/users/nares/satactmathai/)",
+      "Bash(cp -r src /c/users/nares/satactmathai/)",
+      "Bash(cp -r public /c/users/nares/satactmathai/)",
+      "Bash(cp .gitignore /c/users/nares/satactmathai/)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:satactmathai-4kwj.vercel.app)",
+      "WebFetch(domain:satactmathai.vercel.app)",
+      "WebFetch(domain:satactmathai-4kwj-chunchukalanaresh-9918s-projects.vercel.app)",
+      "WebFetch(domain:www.satactmathai.com)",
+      "WebFetch(domain:satactmathai.com)",
+      "WebFetch(domain:satactmathai-4kwj-93iqiw2qd-chunchukalanaresh-9918s-projects.vercel.app)",
+      "Bash(nslookup:*)",
+      "WebFetch(domain:satactmathai-4kwj-git-main-chunchukalanaresh-9918s-projects.vercel.app)"
+    ]
+  }
+}
