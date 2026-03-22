@@ -27,7 +27,8 @@
       "WebFetch(domain:satactmathai.com)",
       "WebFetch(domain:satactmathai-4kwj-93iqiw2qd-chunchukalanaresh-9918s-projects.vercel.app)",
       "Bash(nslookup:*)",
-      "WebFetch(domain:satactmathai-4kwj-git-main-chunchukalanaresh-9918s-projects.vercel.app)"
+      "WebFetch(domain:satactmathai-4kwj-git-main-chunchukalanaresh-9918s-projects.vercel.app)",
+      "Bash(npx ts-node:*)"
     ]
   }
 }

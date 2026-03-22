@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:sat": "npx ts-node --project tsconfig.scripts.json scripts/run-all-sat-topics.ts",
+    "generate:act": "npx ts-node --project tsconfig.scripts.json scripts/run-all-act-topics.ts",
+    "generate:all": "npm run generate:sat && npm run generate:act"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",
@@ -27,6 +30,7 @@
     "eslint": "^9",
     "eslint-config-next": "^15.5.14",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
