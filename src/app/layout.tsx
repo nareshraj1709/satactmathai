@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     description: 'Boost your SAT/ACT math score with AI-powered practice.',
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: 'k523JR76eDXssB63wyLWTBxmcqIQs64KKuBFqXYYS-w',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
