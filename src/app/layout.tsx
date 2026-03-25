@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   verification: {
     google: 'k523JR76eDXssB63wyLWTBxmcqIQs64KKuBFqXYYS-w',
+    other: { 'msvalidate.01': ['969F490FB0B57C74181EAD0353ACB0E6'] },
   },
 }
 
