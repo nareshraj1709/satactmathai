@@ -1,0 +1,42 @@
+{
+  "id": "matrices-hard-5",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "If matrix A = [[2, -1], [3, 4]] and matrix B = [[1, 0], [-2, 5]], find the determinant of AB.",
+      "answer": "55",
+      "explanation": "First compute AB: [[2(1)–1(–2), 2(0)–1(5)], [3(1)+4(–2), 3(0)+4(5)]] = [[4, –5], [–5, 20]]. Then det(AB) = 4(20) – (–5)(–5) = 80 – 25 = 55. Alternatively, det(AB) = det(A) × det(B) = 11 × 5 = 55."
+    },
+    {
+      "question": "Matrix M = [[a, b], [c, d]] has determinant 6. If every entry is multiplied by –2, what is the determinant of the resulting matrix?",
+      "answer": "24",
+      "explanation": "Scaling all entries of a 2×2 matrix by factor k multiplies the determinant by k². Here k = –2, so the new determinant = 6 × (–2)² = 6 × 4 = 24."
+    },
+    {
+      "question": "Given A = [[1, 2, 0], [0, 3, 1], [2, –1, 4]], calculate the determinant using cofactor expansion along the first row.",
+      "answer": "10",
+      "explanation": "det(A) = 1·det([[3, 1], [–1, 4]]) – 2·det([[0, 1], [2, 4]]) + 0 = 1(12+1) – 2(0–2) = 13 + 4 = 10."
+    },
+    {
+      "question": "Two matrices P and Q satisfy PQ = I (the identity matrix). If det(P) = 1/5, what is det(Q)?",
+      "answer": "5",
+      "explanation": "Since PQ = I, det(PQ) = det(P) × det(Q) = det(I) = 1. Therefore, (1/5) × det(Q) = 1, so det(Q) = 5."
+    },
+    {
+      "question": "Matrix X = [[2, 3], [1, k]] has a determinant of 0. What is the value of k?",
+      "answer": "k = 3/2",
+      "explanation": "For a singular matrix, det(X) = 2k – 3(1) = 0. Solving: 2k – 3 = 0, so k = 3/2."
+    },
+    {
+      "question": "If C = [[4, –2], [6, 3]] and you need to find C², determine the (1,2) entry of C².",
+      "answer": "-14",
+      "explanation": "The (1,2) entry of C² equals row 1 of C times column 2 of C: (4)(–2) + (–2)(3) = –8 – 6 = –14."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:17:54.285Z",
+  "model": "claude-haiku-4-5-20251001"
+}

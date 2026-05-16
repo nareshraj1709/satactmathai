@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-hard-10",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A line passes through the points (−2, 5) and (3, −10). What is the slope of the line?",
+      "answer": "−3",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (−10 − 5)/(3 − (−2)) = −15/5 = −3."
+    },
+    {
+      "question": "A line with slope 2/5 passes through (10, 8). Write the equation in the form y = mx + b.",
+      "answer": "y = (2/5)x + 4",
+      "explanation": "Use point-slope: 8 = (2/5)(10) + b → 8 = 4 + b → b = 4. So y = (2/5)x + 4."
+    },
+    {
+      "question": "Two perpendicular lines intersect at (4, 3). One line has slope 1/2. What is the slope of the other line?",
+      "answer": "−2",
+      "explanation": "Perpendicular slopes are negative reciprocals. If m₁ = 1/2, then m₂ = −2."
+    },
+    {
+      "question": "A line passes through (−1, 4) and (a, 10), where the slope is 3. Find the value of a.",
+      "answer": "1",
+      "explanation": "Set up: 3 = (10 − 4)/(a − (−1)) = 6/(a + 1). Solve: 3(a + 1) = 6 → a + 1 = 2 → a = 1."
+    },
+    {
+      "question": "The line 3x − 4y = 12 is transformed by shifting it up 5 units. What is the y-intercept of the new line?",
+      "answer": "−2",
+      "explanation": "Original: 3x − 4y = 12 → y = (3/4)x − 3, so y-intercept is −3. Shift up 5: −3 + 5 = 2. Wait: check work. Rewrite: −4y = −3x + 12 → y = (3/4)x − 3. Shift up 5: new y-intercept = −3 + 5 = 2. Actually: −4y = −3x + 12, divide by −4: y = 0.75x − 3. Plus 5 gives y = 0.75x + 2. So answer is 2. Recalculating: 3x − 4y = 12 gives −4y = −3x + 12, so y = (3/4)x − 3. Shifted up 5: y = (3/4)x − 3 + 5 = (3/4)x + 2. Y-intercept is 2."
+    },
+    {
+      "question": "A line has equation 2x + 5y = 20. A second line is parallel to this one and passes through (−5, 6). Write the equation of the second line in the form ax + by = c where a, b, c are integers.",
+      "answer": "2x + 5y = 20",
+      "explanation": "Parallel lines have the same slope. From 2x + 5y = 20, slope is −2/5. Using point (−5, 6): 2(−5) + 5(6) = −10 + 30 = 20. So the equation is 2x + 5y = 20."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:22:26.872Z",
+  "model": "claude-haiku-4-5-20251001"
+}

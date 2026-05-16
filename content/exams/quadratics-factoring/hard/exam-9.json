@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-9",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Factor completely: $2x^4 - 8x^3 - 10x^2 + 40x$",
+      "answer": "$2x(x - 4)(x^2 - 5)$",
+      "explanation": "Factor out $2x$: $2x(x^3 - 4x^2 - 5x + 20)$. Group the cubic: $2x[x^2(x - 4) - 5(x - 4)] = 2x(x - 4)(x^2 - 5)$."
+    },
+    {
+      "question": "If $3x^2 + bx - 10 = (3x - 5)(x + 2)$, what is the value of $b$?",
+      "answer": "$b = 1$",
+      "explanation": "Expand: $(3x - 5)(x + 2) = 3x^2 + 6x - 5x - 10 = 3x^2 + x - 10$. Comparing coefficients, $b = 1$."
+    },
+    {
+      "question": "Solve for all real values of $x$: $x^2 - 7x + 6 = 0$",
+      "answer": "$x = 1$ or $x = 6$",
+      "explanation": "Factor: $(x - 1)(x - 6) = 0$. Setting each factor to zero gives $x = 1$ and $x = 6$."
+    },
+    {
+      "question": "A rectangle has length 3 cm longer than its width. If its area is 40 cm², find the width.",
+      "answer": "$5$ cm",
+      "explanation": "Let width = $w$. Then $w(w + 3) = 40$, so $w^2 + 3w - 40 = 0$. Factor: $(w + 8)(w - 5) = 0$. Since width is positive, $w = 5$."
+    },
+    {
+      "question": "Factor: $4x^4 - 25y^2$",
+      "answer": "$(2x^2 - 5y)(2x^2 + 5y)$",
+      "explanation": "Recognize as difference of squares: $(2x^2)^2 - (5y)^2 = (2x^2 - 5y)(2x^2 + 5y)$."
+    },
+    {
+      "question": "If $(x - 3)$ is a factor of $x^3 - 2x^2 - 9x + 18$, find all three roots.",
+      "answer": "$x = 3, -3, 2$",
+      "explanation": "Divide by $(x - 3)$ to get $x^2 + x - 6 = (x + 3)(x - 2)$. So the cubic factors as $(x - 3)(x + 3)(x - 2)$, giving roots $3, -3, 2$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:31.592Z",
+  "model": "claude-haiku-4-5-20251001"
+}

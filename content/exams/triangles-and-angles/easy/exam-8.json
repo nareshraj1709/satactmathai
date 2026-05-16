@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-8",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 45° and angle B measures 65°. What is the measure of angle C?",
+      "answer": "70°",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 45° − 65° = 70°."
+    },
+    {
+      "question": "A right triangle has one angle measuring 35°. What is the measure of the third angle?",
+      "answer": "55°",
+      "explanation": "One angle is 90° (right angle), another is 35°. The third angle = 180° − 90° − 35° = 55°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 80°. What is the measure of each base angle?",
+      "answer": "50°",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 80°, then each base angle = (180° − 80°) ÷ 2 = 50°."
+    },
+    {
+      "question": "Two angles of a triangle measure 28° and 112°. Is this triangle acute, right, or obtuse?",
+      "answer": "obtuse",
+      "explanation": "The third angle = 180° − 28° − 112° = 40°. Since one angle (112°) is greater than 90°, the triangle is obtuse."
+    },
+    {
+      "question": "In a right triangle, one of the acute angles measures 62°. What is the measure of the other acute angle?",
+      "answer": "28°",
+      "explanation": "In a right triangle, the two acute angles sum to 90°. So the other acute angle = 90° − 62° = 28°."
+    },
+    {
+      "question": "An equilateral triangle has all sides equal. What is the measure of each angle in an equilateral triangle?",
+      "answer": "60°",
+      "explanation": "In an equilateral triangle, all three angles are equal. Since the sum is 180°, each angle = 180° ÷ 3 = 60°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:54.277Z",
+  "model": "claude-haiku-4-5-20251001"
+}

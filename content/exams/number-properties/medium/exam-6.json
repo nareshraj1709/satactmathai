@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-6",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF uses the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A baker has 36 chocolate chips and 60 nuts. She wants to make identical batches of cookies using all ingredients, with each batch containing the same number of chocolate chips and the same number of nuts. What is the maximum number of batches she can make?",
+      "answer": "12",
+      "explanation": "The maximum number of batches equals the GCF of 36 and 60. GCF(36, 60) = 12, so she can make 12 batches, each with 3 chips and 5 nuts."
+    },
+    {
+      "question": "What is the least common multiple of 12 and 18?",
+      "answer": "36",
+      "explanation": "Prime factorizations: 12 = 2² × 3 and 18 = 2 × 3². The LCM uses the highest power of each prime: 2² × 3² = 36."
+    },
+    {
+      "question": "A number is divisible by both 6 and 8. What is the smallest positive integer that must divide this number?",
+      "answer": "24",
+      "explanation": "Any number divisible by both 6 and 8 must be divisible by their LCM. LCM(6, 8) = 24 since 6 = 2 × 3 and 8 = 2³, so LCM = 2³ × 3 = 24."
+    },
+    {
+      "question": "How many divisors does 72 have?",
+      "answer": "12",
+      "explanation": "First find the prime factorization: 72 = 2³ × 3². The number of divisors is (3+1)(2+1) = 4 × 3 = 12."
+    },
+    {
+      "question": "Two alarm clocks ring at different intervals. One rings every 15 minutes and the other every 25 minutes. If they both ring at 8:00 AM, at what time will they next ring together?",
+      "answer": "8:75 AM or 9:15 AM",
+      "explanation": "Find LCM(15, 25). Since 15 = 3 × 5 and 25 = 5², the LCM = 3 × 5² = 75 minutes. They ring together again 75 minutes later, at 9:15 AM."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:17.231Z",
+  "model": "claude-haiku-4-5-20251001"
+}

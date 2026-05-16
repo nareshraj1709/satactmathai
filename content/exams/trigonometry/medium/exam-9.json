@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-9",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A right triangle has an angle of 35° and the side opposite to it is 12 cm. Find the length of the hypotenuse to the nearest tenth.",
+      "answer": "20.9 cm",
+      "explanation": "Use sin(35°) = 12/h, so h = 12/sin(35°) ≈ 12/0.574 ≈ 20.9 cm. This is a direct SOH-CAH-TOA application."
+    },
+    {
+      "question": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ).",
+      "answer": "4/5",
+      "explanation": "Use the Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 − (3/5)² = 1 − 9/25 = 16/25, giving sin(θ) = 4/5 (positive in Q1)."
+    },
+    {
+      "question": "A ladder leaning against a wall makes a 65° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach? Round to the nearest tenth.",
+      "answer": "9.1 feet",
+      "explanation": "The height is the side opposite the 65° angle. Use sin(65°) = h/10, so h = 10 × sin(65°) ≈ 10 × 0.906 ≈ 9.1 feet."
+    },
+    {
+      "question": "On the unit circle, a point has coordinates (−1/2, √3/2). What angle in degrees (between 0° and 360°) corresponds to this point?",
+      "answer": "120°",
+      "explanation": "The point (−1/2, √3/2) is in the second quadrant with cosine = −1/2 and sine = √3/2. This matches the 60° reference angle, so the angle is 180° − 60° = 120°."
+    },
+    {
+      "question": "Simplify: sin²(x) + sin²(x)·cot²(x)",
+      "answer": "1",
+      "explanation": "Factor: sin²(x)(1 + cot²(x)). Since 1 + cot²(x) = csc²(x) = 1/sin²(x), we get sin²(x) · 1/sin²(x) = 1."
+    },
+    {
+      "question": "From the top of a 50-meter cliff, the angle of depression to a boat is 28°. How far is the boat from the base of the cliff? Round to the nearest meter.",
+      "answer": "94 meters",
+      "explanation": "The angle of depression equals the angle in the right triangle. Use tan(28°) = 50/d, so d = 50/tan(28°) ≈ 50/0.532 ≈ 94 meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:15.667Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-6",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study time (in hours) and test score (out of 100) for 12 students. The line of best fit has equation y = 5x + 45, where x is study time and y is test score. What test score does the model predict for a student who studies for 6 hours?",
+      "answer": "75",
+      "explanation": "Substitute x = 6 into y = 5x + 45: y = 5(6) + 45 = 30 + 45 = 75. The predicted score is 75."
+    },
+    {
+      "question": "A scatterplot displays the number of push-ups completed versus age (in years) for a group of athletes. The data shows a negative linear relationship. If one athlete aged 25 completed 40 push-ups, and the line of best fit passes through the point (30, 20), what is the slope of the line of best fit?",
+      "answer": "-4",
+      "explanation": "Use two points (25, 40) and (30, 20) to find slope: m = (20 − 40)/(30 − 25) = −20/5 = −4."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = −2x + 18. According to this model, for every 1-unit increase in x, how many units does y decrease?",
+      "answer": "2",
+      "explanation": "The slope is −2, which means for each unit increase in x, y decreases by 2 units. The rate of change is the absolute value of the slope in this context."
+    },
+    {
+      "question": "A scatterplot shows a weak positive relationship between hours of exercise per week and hours of sleep per night. A data point at (3, 7) lies above the line of best fit. What does this indicate about that individual?",
+      "answer": "The individual slept more than the model predicted",
+      "explanation": "A point above the line of best fit has a y-value greater than predicted by the model at that x-value. This person had more sleep than expected for their exercise level."
+    },
+    {
+      "question": "The line of best fit for average temperature (°C) versus month number is y = 2.5x + 8, valid for x = 1 to x = 12. Using this model, by how many degrees does the predicted temperature increase from month 2 to month 5?",
+      "answer": "7.5",
+      "explanation": "Change in temperature = 2.5(5) + 8 − [2.5(2) + 8] = 2.5(5 − 2) = 2.5(3) = 7.5°C."
+    },
+    {
+      "question": "A biologist plotted plant height (cm) against sunlight hours per day. The resulting scatterplot shows a strong positive linear relationship. The line of best fit is y = 3x + 2. If the actual height of a plant receiving 4 hours of sunlight is 13 cm, what is the residual for this data point?",
+      "answer": "-1",
+      "explanation": "Predicted height: y = 3(4) + 2 = 14 cm. Residual = actual − predicted = 13 − 14 = −1 cm."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:01.310Z",
+  "model": "claude-haiku-4-5-20251001"
+}

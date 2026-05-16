@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-easy-5",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Add the polynomials: (3x² + 2x + 5) + (x² - x + 3)",
+      "answer": "4x² + x + 8",
+      "explanation": "Combine like terms: 3x² + x² = 4x², 2x - x = x, and 5 + 3 = 8. Result: 4x² + x + 8."
+    },
+    {
+      "question": "Multiply: (x + 2)(x + 3)",
+      "answer": "x² + 5x + 6",
+      "explanation": "Use FOIL: x·x = x², x·3 + 2·x = 5x, 2·3 = 6. Combine: x² + 5x + 6."
+    },
+    {
+      "question": "What is the value of the polynomial 2x² - 3x + 1 when x = 2?",
+      "answer": "3",
+      "explanation": "Substitute x = 2: 2(2)² - 3(2) + 1 = 2(4) - 6 + 1 = 8 - 6 + 1 = 3."
+    },
+    {
+      "question": "Divide the polynomial 6x² + 9x by 3x.",
+      "answer": "2x + 3",
+      "explanation": "Factor out 3x from the numerator: 3x(2x + 3) divided by 3x equals 2x + 3."
+    },
+    {
+      "question": "Find the zeros of the polynomial x² - 5x + 6.",
+      "answer": "x = 2 and x = 3",
+      "explanation": "Factor: x² - 5x + 6 = (x - 2)(x - 3). Set each factor to zero: x = 2 or x = 3."
+    },
+    {
+      "question": "Subtract: (5x² + 4x - 1) - (2x² + x + 2)",
+      "answer": "3x² + 3x - 3",
+      "explanation": "Distribute the negative sign, then combine like terms: 5x² - 2x² = 3x², 4x - x = 3x, -1 - 2 = -3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:50:38.640Z",
+  "model": "claude-haiku-4-5-20251001"
+}

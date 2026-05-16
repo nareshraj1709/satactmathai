@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-10",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "If sin(θ) = 3/5 and π/2 < θ < π, find the value of tan(θ).",
+      "answer": "tan(θ) = -3/4",
+      "explanation": "Since sin(θ) = 3/5 and θ is in Quadrant II, use sin²(θ) + cos²(θ) = 1 to get cos²(θ) = 1 - 9/25 = 16/25. In Quadrant II, cos(θ) < 0, so cos(θ) = -4/5. Then tan(θ) = sin(θ)/cos(θ) = (3/5)/(-4/5) = -3/4."
+    },
+    {
+      "question": "Simplify: (sin²(α) - cos²(α))/(sin(α) - cos(α)). Express your answer as a single trigonometric expression.",
+      "answer": "sin(α) + cos(α)",
+      "explanation": "Factor the numerator: sin²(α) - cos²(α) = (sin(α) - cos(α))(sin(α) + cos(α)). Cancel the common factor (sin(α) - cos(α)) from numerator and denominator to get sin(α) + cos(α)."
+    },
+    {
+      "question": "A right triangle has legs of length 7 and 24. If θ is the acute angle opposite the side of length 7, what is sin(θ) + cos(θ)?",
+      "answer": "31/25",
+      "explanation": "The hypotenuse is √(7² + 24²) = √(49 + 576) = √625 = 25. Then sin(θ) = 7/25 (opposite/hypotenuse) and cos(θ) = 24/25 (adjacent/hypotenuse). Thus sin(θ) + cos(θ) = 7/25 + 24/25 = 31/25."
+    },
+    {
+      "question": "If tan(β) = 5/12 and β is in Quadrant I, find sin(β) - cos(β).",
+      "answer": "-7/13",
+      "explanation": "From tan(β) = 5/12, construct a right triangle with opposite = 5, adjacent = 12, hypotenuse = 13. Then sin(β) = 5/13 and cos(β) = 12/13. So sin(β) - cos(β) = 5/13 - 12/13 = -7/13."
+    },
+    {
+      "question": "Verify the identity: (1 - sin²(x))·sec(x) = cos(x). Show your work with one intermediate step.",
+      "answer": "cos²(x)·sec(x) = cos(x)",
+      "explanation": "Use the Pythagorean identity 1 - sin²(x) = cos²(x). Then cos²(x)·sec(x) = cos²(x)·(1/cos(x)) = cos(x)."
+    },
+    {
+      "question": "On the unit circle, a point P at angle θ has coordinates (−5/13, 12/13). Without finding θ explicitly, determine cos(2θ).",
+      "answer": "cos(2θ) = -119/169",
+      "explanation": "Use the double-angle formula cos(2θ) = cos²(θ) - sin²(θ) = (-5/13)² - (12/13)² = 25/169 - 144/169 = -119/169. Alternatively, cos(2θ) = 2cos²(θ) - 1 = 2(25/169) - 1 = 50/169 - 169/169 = -119/169."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:54.537Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-1",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "25% of $40 = 0.25 × 40 = $10. Sale price = $40 − $10 = $30."
+    },
+    {
+      "question": "A restaurant bill is $50 before tax. The tax rate is 8%. What is the total bill including tax?",
+      "answer": "$54",
+      "explanation": "Tax = 8% of $50 = 0.08 × 50 = $4. Total = $50 + $4 = $54."
+    },
+    {
+      "question": "Last year, a company had 200 employees. This year, it has 240 employees. What is the percent increase in the number of employees?",
+      "answer": "20%",
+      "explanation": "Increase = 240 − 200 = 40. Percent increase = (40 ÷ 200) × 100% = 20%."
+    },
+    {
+      "question": "A coat costs $80 and you want to leave a 15% tip. How much is the tip?",
+      "answer": "$12",
+      "explanation": "Tip = 15% of $80 = 0.15 × 80 = $12."
+    },
+    {
+      "question": "A book is marked down by 20% from its original price of $25. What is the new price?",
+      "answer": "$20",
+      "explanation": "20% of $25 = 0.20 × 25 = $5. New price = $25 − $5 = $20."
+    },
+    {
+      "question": "A video game costs $60 after a 10% discount. What was the original price?",
+      "answer": "$66.67 or $66⅔",
+      "explanation": "If the price is discounted by 10%, the customer pays 90% of the original. So 0.90 × original = $60. Original = $60 ÷ 0.90 ≈ $66.67."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:12.828Z",
+  "model": "claude-haiku-4-5-20251001"
+}

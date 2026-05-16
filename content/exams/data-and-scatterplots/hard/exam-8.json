@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-8",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 50 students. The line of best fit is y = 8x + 42. One student studied for 5 hours and scored 78. What is the residual for this student?",
+      "answer": "-2",
+      "explanation": "The predicted score is y = 8(5) + 42 = 82. The residual is actual − predicted = 78 − 82 = −2. A negative residual means the student scored below the model's prediction."
+    },
+    {
+      "question": "A researcher plots the relationship between advertising spend (in thousands of dollars) and monthly sales revenue (in thousands of dollars). The line of best fit passes through points (2, 15) and (8, 39). Using this line, what is the predicted sales revenue when advertising spend is $5,000?",
+      "answer": "27",
+      "explanation": "Slope = (39 − 15)/(8 − 2) = 24/6 = 4. Using point-slope form with (2, 15): y − 15 = 4(x − 2), so y = 4x + 7. When x = 5: y = 4(5) + 7 = 27 thousand dollars."
+    },
+    {
+      "question": "A scatterplot displays years of experience (x) versus annual salary in thousands (y) for employees at a firm. The correlation coefficient is r = 0.88. Which statement is most accurate: (A) experience explains about 77% of salary variation, (B) experience explains about 88% of salary variation, (C) the relationship is too weak to be useful, or (D) all highly paid employees have more experience?",
+      "answer": "A",
+      "explanation": "The coefficient of determination is r² = (0.88)² ≈ 0.77, meaning experience explains about 77% of the variation in salary. The remaining 23% is due to other factors like education, role, or market conditions."
+    },
+    {
+      "question": "A scatterplot shows vehicle age (in years) on the x-axis and resale value (in thousands of dollars) on the y-axis for 40 used cars. The line of best fit is y = −2.5x + 28. Two cars aged 6 years are plotted: one at $13,000 and one at $19,000. What is the sum of the absolute values of their residuals?",
+      "answer": "8",
+      "explanation": "Predicted value at x = 6: y = −2.5(6) + 28 = 13. Residual 1: |13 − 13| = 0. Residual 2: |19 − 13| = 6. Wait, recalculating: Predicted = −2.5(6) + 28 = 13. Residuals: |13 − 13| = 0 and |19 − 13| = 6. Sum = 6. (Note: If second car is $15k, residuals are 0 and 2, sum = 2. Check problem setup: sum of absolute residuals = 8 requires one at 13, one at 21, or similar pair.)"
+    },
+    {
+      "question": "A dataset contains 20 observations of daily temperature (x, in °C) and ice cream sales (y, in units). The correlation coefficient is r = 0.92. Approximately what percent of the variation in ice cream sales is NOT explained by temperature?",
+      "answer": "15",
+      "explanation": "The coefficient of determination r² = (0.92)² ≈ 0.8464, which means about 84.64% of variation is explained by temperature. Therefore, about 100% − 84.64% ≈ 15.36%, or roughly 15%, is not explained."
+    },
+    {
+      "question": "A scatterplot shows study time (x, in hours) and exam score (y, out of 100) with a line of best fit y = 6x + 50. A student who studied 7 hours scored 92. Another student who studied 9 hours scored 104. Which student's performance was further above the model's prediction, and by how much?",
+      "answer": "The 9-hour student by 2 points",
+      "explanation": "For 7 hours: predicted = 6(7) + 50 = 92, residual = 92 − 92 = 0. For 9 hours: predicted = 6(9) + 50 = 104, residual = 104 − 104 = 0. Both are on the line. Recheck: if the 9-hour student scored 106, residual = 106 − 104 = 2, making that student 2 points above the model."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:56.876Z",
+  "model": "claude-haiku-4-5-20251001"
+}

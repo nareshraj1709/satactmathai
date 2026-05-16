@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-5",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A shirt originally costs $45. It is on sale for 20% off, and then an additional 10% discount is applied to the sale price. What is the final price?",
+      "answer": "32.4 or $32.40",
+      "explanation": "After 20% off: $45 × 0.8 = $36. Then 10% off the sale price: $36 × 0.9 = $32.40. This is a successive discount problem—apply each discount to the result of the previous one."
+    },
+    {
+      "question": "A restaurant bill comes to $68 before tax. If the sales tax is 8.5%, what is the total amount due?",
+      "answer": "73.78 or $73.78",
+      "explanation": "Multiply the original bill by 1.085 to add the tax: $68 × 1.085 = $73.78. Adding a percent means multiplying by (1 + percent rate)."
+    },
+    {
+      "question": "Last year, a gym had 250 members. This year, it has 290 members. What is the percent increase in membership?",
+      "answer": "16",
+      "explanation": "Percent change = (change ÷ original) × 100 = ((290 − 250) ÷ 250) × 100 = (40 ÷ 250) × 100 = 16%."
+    },
+    {
+      "question": "A store marks up items by 35% from the wholesale cost. If an item's wholesale cost is $80, what price should the store display?",
+      "answer": "108 or $108",
+      "explanation": "A 35% markup means multiplying by 1.35: $80 × 1.35 = $108. Markup adds to the original cost."
+    },
+    {
+      "question": "A product's price decreased from $200 to $150. By what percent did the price decrease?",
+      "answer": "25",
+      "explanation": "Percent decrease = ((original − new) ÷ original) × 100 = ((200 − 150) ÷ 200) × 100 = (50 ÷ 200) × 100 = 25%."
+    },
+    {
+      "question": "If you leave an 18% tip on a meal that costs $55, what is the total amount you pay including the tip?",
+      "answer": "64.9 or $64.90",
+      "explanation": "Tip = $55 × 0.18 = $9.90. Total = $55 + $9.90 = $64.90. Alternatively, multiply $55 × 1.18 = $64.90."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:20.411Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-5",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve: |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "The absolute value of x equals 7, so x is either 7 units to the right of 0 or 7 units to the left. Both 7 and -7 have absolute value 7."
+    },
+    {
+      "question": "Solve: |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "The expression (x - 2) equals 5 or -5. If x - 2 = 5, then x = 7. If x - 2 = -5, then x = -3."
+    },
+    {
+      "question": "Solve: |2x| = 12",
+      "answer": "x = 6 or x = -6",
+      "explanation": "Since |2x| = 12, we have 2x = 12 or 2x = -12. Divide both by 2 to get x = 6 or x = -6."
+    },
+    {
+      "question": "Which value of x satisfies |x + 3| = 0?",
+      "answer": "x = -3",
+      "explanation": "Absolute value equals 0 only when the expression inside equals 0. So x + 3 = 0, giving x = -3."
+    },
+    {
+      "question": "Solve: |x| < 4",
+      "answer": "-4 < x < 4",
+      "explanation": "The absolute value of x is less than 4 when x is between -4 and 4 (not including the endpoints). Write as -4 < x < 4 or (-4, 4)."
+    },
+    {
+      "question": "A number's distance from 0 is 8. Write an equation using absolute value and solve it.",
+      "answer": "|x| = 8; x = 8 or x = -8",
+      "explanation": "Distance from 0 translates to absolute value. The equation |x| = 8 means x is 8 units away from 0, so x = 8 or x = -8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:11.656Z",
+  "model": "claude-haiku-4-5-20251001"
+}

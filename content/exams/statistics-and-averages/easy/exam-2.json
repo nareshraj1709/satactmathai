@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-2",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A student scores 78, 85, 92, and 81 on four tests. What is the mean score?",
+      "answer": "84",
+      "explanation": "Add all scores: 78 + 85 + 92 + 81 = 336. Divide by the number of tests: 336 ÷ 4 = 84."
+    },
+    {
+      "question": "The heights (in inches) of five people are 64, 70, 68, 70, and 72. What is the median height?",
+      "answer": "70",
+      "explanation": "Arrange in order: 64, 68, 70, 70, 72. The middle value is 70."
+    },
+    {
+      "question": "A dataset has the values 3, 5, 5, 7, 9, and 5. What is the mode?",
+      "answer": "5",
+      "explanation": "The mode is the value that appears most frequently. 5 appears three times, more than any other value."
+    },
+    {
+      "question": "The temperatures over five days are 72°F, 75°F, 68°F, 80°F, and 71°F. What is the range?",
+      "answer": "12",
+      "explanation": "Range = maximum − minimum = 80 − 68 = 12."
+    },
+    {
+      "question": "A dataset consists of 10, 12, 14, 16, and 18. What is the mean?",
+      "answer": "14",
+      "explanation": "Sum: 10 + 12 + 14 + 16 + 18 = 70. Mean: 70 ÷ 5 = 14."
+    },
+    {
+      "question": "The test scores for a class are 88, 91, 88, 95, and 88. What is the mode?",
+      "answer": "88",
+      "explanation": "88 appears three times in the dataset, more than any other value."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:39:39.555Z",
+  "model": "claude-haiku-4-5-20251001"
+}

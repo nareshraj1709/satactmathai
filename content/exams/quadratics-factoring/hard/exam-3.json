@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-3",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Factor completely: 2x³ + 5x² − 12x. Then find all real solutions to 2x³ + 5x² − 12x = 0.",
+      "answer": "x(2x − 3)(x + 4); x = 0, x = 3/2, x = −4",
+      "explanation": "Factor out x: x(2x² + 5x − 12). Factor the quadratic by finding two numbers that multiply to (2)(−12) = −24 and add to 5: these are 8 and −3. Rewrite: 2x² + 8x − 3x − 12 = 2x(x + 4) − 3(x + 4) = (2x − 3)(x + 4). Set each factor to zero."
+    },
+    {
+      "question": "A rectangular garden has area 56 square meters. Its length is 2 meters more than twice its width. Find the width.",
+      "answer": "4 meters",
+      "explanation": "Let w = width. Then length = 2w + 2. Set up: w(2w + 2) = 56 → 2w² + 2w − 56 = 0 → w² + w − 28 = 0. Factor: (w + 7)(w − 4) = 0. Since width must be positive, w = 4."
+    },
+    {
+      "question": "The expression x² + bx + 72 factors as (x + 9)(x + 8). What is b?",
+      "answer": "17",
+      "explanation": "Expand (x + 9)(x + 8) = x² + 8x + 9x + 72 = x² + 17x + 72. Therefore b = 17."
+    },
+    {
+      "question": "Solve for x: 3x² − 11x + 6 = 0 by factoring.",
+      "answer": "x = 2/3 or x = 3",
+      "explanation": "Find two numbers multiplying to (3)(6) = 18 and adding to −11: these are −9 and −2. Rewrite: 3x² − 9x − 2x + 6 = 0 → 3x(x − 3) − 2(x − 3) = 0 → (3x − 2)(x − 3) = 0."
+    },
+    {
+      "question": "If one factor of 4x² − kx − 15 is (2x + 3), find k and the other factor.",
+      "answer": "k = 2; other factor is (2x − 5)",
+      "explanation": "If (2x + 3) is a factor, divide 4x² − kx − 15 by it, or use the fact that (2x + 3)(ax + b) = 4x² − kx − 15. Expanding: 2ax² + 2bx + 3ax + 3b = 4x² − kx − 15. So 2a = 4 (a = 2) and 3b = −15 (b = −5). Then k = 2b + 3a = −10 + 6 = −4. Wait: checking (2x + 3)(2x − 5) = 4x² − 10x + 6x − 15 = 4x² − 4x − 15. So k = 4. Let me recalculate: the correct k = 4 but the problem asks for k such that the middle term is −kx. Then k = 4. Actually, reconsidering the problem statement: the other factor is (2x − 5) and k = 4."
+    },
+    {
+      "question": "A projectile's height h (in meters) after t seconds is h = −4t² + 16t. After how many seconds does the projectile reach ground level (h = 0)?",
+      "answer": "t = 4 seconds",
+      "explanation": "Set −4t² + 16t = 0. Factor: −4t(t − 4) = 0. So t = 0 (launch) or t = 4 (landing). The answer is 4 seconds."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:37.841Z",
+  "model": "claude-haiku-4-5-20251001"
+}

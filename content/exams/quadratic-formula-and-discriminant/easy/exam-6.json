@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-6",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve: x² + 5x + 6 = 0",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using the quadratic formula with a=1, b=5, c=6: x = (-5 ± √(25-24))/2 = (-5 ± 1)/2. This gives x = -2 and x = -3."
+    },
+    {
+      "question": "Find the discriminant of 2x² - 3x + 1 = 0. How many real solutions does this equation have?",
+      "answer": "Discriminant = 1; two real solutions",
+      "explanation": "The discriminant is b² - 4ac = (-3)² - 4(2)(1) = 9 - 8 = 1. Since it's positive, there are two distinct real solutions."
+    },
+    {
+      "question": "What is the discriminant of x² + 4x + 4 = 0?",
+      "answer": "0",
+      "explanation": "The discriminant is b² - 4ac = 4² - 4(1)(4) = 16 - 16 = 0. A discriminant of 0 means one repeated real solution."
+    },
+    {
+      "question": "Solve using the quadratic formula: x² - 2x - 3 = 0",
+      "answer": "x = 3 or x = -1",
+      "explanation": "With a=1, b=-2, c=-3: x = (2 ± √(4+12))/2 = (2 ± √16)/2 = (2 ± 4)/2. This gives x = 3 and x = -1."
+    },
+    {
+      "question": "The discriminant of a quadratic equation is -5. How many real solutions does the equation have?",
+      "answer": "0 real solutions",
+      "explanation": "When the discriminant is negative, the quadratic has no real solutions (only complex ones)."
+    },
+    {
+      "question": "Use the quadratic formula to solve: 2x² + 7x + 3 = 0",
+      "answer": "x = -1/2 or x = -3",
+      "explanation": "With a=2, b=7, c=3: x = (-7 ± √(49-24))/4 = (-7 ± √25)/4 = (-7 ± 5)/4. This gives x = -1/2 and x = -3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:33.356Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-3",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Solve for all values of x: |2x - 5| = |x + 3|",
+      "answer": "x = 8 or x = 2/3",
+      "explanation": "When two absolute values are equal, either the expressions inside are equal or they are opposites. Case 1: 2x - 5 = x + 3 gives x = 8. Case 2: 2x - 5 = -(x + 3) gives 3x = 2, so x = 2/3. Check both in the original equation."
+    },
+    {
+      "question": "Solve the inequality: |3x - 7| ≥ 11. Express your answer in interval notation.",
+      "answer": "(-∞, -4/3] ∪ [6, ∞)",
+      "explanation": "|3x - 7| ≥ 11 means 3x - 7 ≥ 11 or 3x - 7 ≤ -11. First gives 3x ≥ 18, so x ≥ 6. Second gives 3x ≤ -4, so x ≤ -4/3. Combine as a union of two rays."
+    },
+    {
+      "question": "For what values of a does the equation |x - 4| = a have exactly one solution?",
+      "answer": "a = 0",
+      "explanation": "The graph of y = |x - 4| is V-shaped with vertex at (4, 0). A horizontal line y = a intersects it at exactly one point only when the line touches the vertex, which occurs at a = 0."
+    },
+    {
+      "question": "Solve for x: |x + 2| - |x - 3| = 5",
+      "answer": "x = 3",
+      "explanation": "Split into regions: x < -2, -2 ≤ x < 3, and x ≥ 3. For x < -2: -(x+2) - (-(x-3)) = 1 ≠ 5. For -2 ≤ x < 3: (x+2) - (-(x-3)) = 2x - 1 = 5 gives x = 3 (boundary, check it). For x ≥ 3: (x+2) - (x-3) = 5 ✓ for all x ≥ 3, but the unique solution from the middle case is x = 3."
+    },
+    {
+      "question": "A manufacturing process produces parts with length L that must satisfy |L - 50| < 0.8 millimeters. If a part measures 49.5 mm, is it acceptable? Justify your answer.",
+      "answer": "Yes, the part is acceptable.",
+      "explanation": "|49.5 - 50| = |-0.5| = 0.5 < 0.8, so the tolerance condition is satisfied. The part falls within the acceptable range."
+    },
+    {
+      "question": "Solve for x: 2|x - 1| + 3 = 11",
+      "answer": "x = 5 or x = -3",
+      "explanation": "Isolate the absolute value: 2|x - 1| = 8, so |x - 1| = 4. This gives x - 1 = 4 or x - 1 = -4, yielding x = 5 or x = -3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:46.741Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-5",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is either red or green?",
+      "answer": "7/10",
+      "explanation": "Total marbles = 5 + 3 + 2 = 10. Red or green = 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "A two-way table shows that 80 students take French, 60 take Spanish, and 20 take both. How many students take at least one language if 200 students were surveyed?",
+      "answer": "120",
+      "explanation": "Use inclusion-exclusion: French + Spanish − Both = 80 + 60 − 20 = 120 students."
+    },
+    {
+      "question": "In a group of 150 people, 90 have a driver's license and 60 do not. If a person is selected at random, what is the probability they do NOT have a driver's license?",
+      "answer": "2/5",
+      "explanation": "Probability = 60/150 = 2/5."
+    },
+    {
+      "question": "A card is drawn from a standard 52-card deck. Given that the card is red, what is the probability it is an ace?",
+      "answer": "1/13",
+      "explanation": "There are 26 red cards total. Of these, 2 are red aces. Conditional probability = 2/26 = 1/13."
+    },
+    {
+      "question": "A survey of 200 people records whether they own a dog and whether they own a cat. 70 own dogs, 80 own cats, and 20 own both. How many people own neither a dog nor a cat?",
+      "answer": "70",
+      "explanation": "People owning at least one pet = 70 + 80 − 20 = 130. Neither = 200 − 130 = 70."
+    },
+    {
+      "question": "Two fair dice are rolled. What is the probability that the sum is 7 or 11?",
+      "answer": "2/9",
+      "explanation": "Sum = 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6 outcomes. Sum = 11: (5,6), (6,5) — 2 outcomes. Total = 8 outcomes out of 36. Probability = 8/36 = 2/9."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:20.386Z",
+  "model": "claude-haiku-4-5-20251001"
+}

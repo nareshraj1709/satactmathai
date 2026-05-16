@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-8",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF uses the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A baker is arranging cookies into identical gift boxes. She has 36 chocolate chip cookies and 60 oatmeal cookies. What is the maximum number of boxes she can fill so that each box contains the same number of each type of cookie with no cookies left over?",
+      "answer": "12",
+      "explanation": "Each box must contain equal numbers of each type. The maximum number of boxes equals the GCF of 36 and 60. GCF(36, 60) = 12."
+    },
+    {
+      "question": "What is the least common multiple of 15 and 24?",
+      "answer": "120",
+      "explanation": "Prime factorizations: 15 = 3 × 5 and 24 = 2³ × 3. LCM uses the highest power of each prime: 2³ × 3 × 5 = 120."
+    },
+    {
+      "question": "Two bells ring at different intervals. The first bell rings every 18 seconds and the second every 24 seconds. Both bells just rang together. In how many seconds will they ring together again?",
+      "answer": "72",
+      "explanation": "They ring together at multiples of LCM(18, 24). Prime factorizations: 18 = 2 × 3² and 24 = 2³ × 3. LCM = 2³ × 3² = 72 seconds."
+    },
+    {
+      "question": "Which of the following is a multiple of both 12 and 18? (Hint: find the LCM first.)\nIf the answer is a number, write just the number. If there are multiple valid answers, write the smallest positive one.",
+      "answer": "36",
+      "explanation": "LCM(12, 18): 12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36. The smallest common multiple is 36."
+    },
+    {
+      "question": "A number is divisible by 6. Which of the following must be true about this number?\n(A) It is divisible by both 2 and 3\n(B) It is divisible by both 3 and 4\n(C) It is a multiple of 12\nWrite only the letter of the correct answer.",
+      "answer": "A",
+      "explanation": "Since 6 = 2 × 3, any multiple of 6 must be divisible by both 2 and 3. Option B is false (e.g., 6 is not divisible by 4). Option C is false (e.g., 6 is not a multiple of 12)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:18.996Z",
+  "model": "claude-haiku-4-5-20251001"
+}

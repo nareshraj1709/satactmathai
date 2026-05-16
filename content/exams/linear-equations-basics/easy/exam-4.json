@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-4",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: y/2 - 3 = 7",
+      "answer": "y = 20",
+      "explanation": "Add 3 to both sides: y/2 = 10. Multiply both sides by 2: y = 20."
+    },
+    {
+      "question": "Maya has $45. After buying books, she has $12 left. If each book costs $11, how many books did she buy?\n\nWrite an equation and solve for the number of books.",
+      "answer": "3 books",
+      "explanation": "Set up: 45 - 11b = 12, where b is the number of books. Subtract 45 from both sides: -11b = -33. Divide by -11: b = 3."
+    },
+    {
+      "question": "Solve for x: 2x = 0.8",
+      "answer": "x = 0.4",
+      "explanation": "Divide both sides by 2: x = 0.8 ÷ 2 = 0.4."
+    },
+    {
+      "question": "Solve for z: 4z + 2z = 24",
+      "answer": "z = 4",
+      "explanation": "Combine like terms on the left: 6z = 24. Divide both sides by 6: z = 4."
+    },
+    {
+      "question": "Solve for x: x/4 + 1 = 3",
+      "answer": "x = 8",
+      "explanation": "Subtract 1 from both sides: x/4 = 2. Multiply both sides by 4: x = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:24.496Z",
+  "model": "claude-haiku-4-5-20251001"
+}

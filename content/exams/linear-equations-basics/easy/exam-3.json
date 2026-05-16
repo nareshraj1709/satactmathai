@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-3",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Then divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: y/4 = 7",
+      "answer": "y = 28",
+      "explanation": "Multiply both sides by 4 to isolate y: y = 7 × 4 = 28."
+    },
+    {
+      "question": "A video game costs $12 more than a book. If the game costs $35, how much does the book cost?",
+      "answer": "$23",
+      "explanation": "Let b = book cost. Then b + 12 = 35. Subtract 12: b = 23."
+    },
+    {
+      "question": "Solve for x: 2x − 8 = 0",
+      "answer": "x = 4",
+      "explanation": "Add 8 to both sides: 2x = 8. Divide by 2: x = 4."
+    },
+    {
+      "question": "Solve for m: 0.5m = 6",
+      "answer": "m = 12",
+      "explanation": "Divide both sides by 0.5 (or multiply by 2): m = 6 ÷ 0.5 = 12."
+    },
+    {
+      "question": "Solve for x: x − 9 = −3",
+      "answer": "x = 6",
+      "explanation": "Add 9 to both sides: x = −3 + 9 = 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:23.485Z",
+  "model": "claude-haiku-4-5-20251001"
+}

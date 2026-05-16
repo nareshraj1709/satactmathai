@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-9",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "What is the period of the function y = sin(2x)?",
+      "answer": "π",
+      "explanation": "The period of y = sin(bx) is 2π/b. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "A right triangle has sides of length 5 and 12. What is the length of the hypotenuse?",
+      "answer": "13",
+      "explanation": "Use the Pythagorean theorem: c² = 5² + 12² = 25 + 144 = 169, so c = 13."
+    },
+    {
+      "question": "In triangle ABC, angle A = 30°, angle B = 60°, and side a = 10. Find side b using the Law of Sines.",
+      "answer": "10√3",
+      "explanation": "Law of Sines: a/sin(A) = b/sin(B). So 10/sin(30°) = b/sin(60°). Since sin(30°) = 1/2 and sin(60°) = √3/2, we get b = 10(√3/2)/(1/2) = 10√3."
+    },
+    {
+      "question": "What is the amplitude of the function y = -3cos(x) + 2?",
+      "answer": "3",
+      "explanation": "The amplitude is the absolute value of the coefficient of the trigonometric function. Here the coefficient of cos(x) is -3, so amplitude = |-3| = 3."
+    },
+    {
+      "question": "A triangle has sides a = 6, b = 8, and c = 10. Is this a right triangle? Justify briefly.",
+      "answer": "Yes",
+      "explanation": "Check if a² + b² = c²: 6² + 8² = 36 + 64 = 100 = 10². Since the Pythagorean theorem holds, it is a right triangle."
+    },
+    {
+      "question": "Find the vertical shift of the function y = sin(x) - 4.",
+      "answer": "−4 or down 4",
+      "explanation": "The vertical shift is the constant term added or subtracted from the trigonometric function. Here the function shifts down by 4 units."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:23.180Z",
+  "model": "claude-haiku-4-5-20251001"
+}

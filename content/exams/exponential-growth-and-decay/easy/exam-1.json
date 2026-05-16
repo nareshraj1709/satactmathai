@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-1",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A bacteria population doubles every 3 hours. If you start with 50 bacteria, how many bacteria will you have after 6 hours?",
+      "answer": "200",
+      "explanation": "After 3 hours: 50 × 2 = 100. After 6 hours (another doubling): 100 × 2 = 200. Two doublings in 6 hours means multiply by 2² = 4, so 50 × 4 = 200."
+    },
+    {
+      "question": "Write an exponential function for a population that starts at 1000 and triples every year. Use P(t) where t is time in years.",
+      "answer": "P(t) = 1000 · 3^t",
+      "explanation": "Initial value is 1000 (the leading coefficient). The base is 3 (the growth factor for tripling). The general form is P(t) = a · b^t where a is initial amount and b is the growth factor."
+    },
+    {
+      "question": "A radioactive element decays to half its amount every 10 days. You start with 160 grams. How many grams remain after 20 days?",
+      "answer": "40",
+      "explanation": "After 10 days: 160 ÷ 2 = 80 grams. After 20 days (another half-life): 80 ÷ 2 = 40 grams. Two half-lives means multiply by (1/2)² = 1/4, so 160 × 1/4 = 40."
+    },
+    {
+      "question": "A car depreciates at a rate of 15% per year. If the car costs $20,000 today, what will it be worth after 1 year? (Round to the nearest dollar.)",
+      "answer": "17000",
+      "explanation": "If it depreciates 15%, it retains 85% of its value. After 1 year: 20,000 × 0.85 = 17,000 dollars."
+    },
+    {
+      "question": "An investment grows according to A(t) = 500 · (1.04)^t where t is in months. What is the initial investment amount?",
+      "answer": "500",
+      "explanation": "In the exponential form A(t) = a · b^t, the coefficient a is the initial amount when t = 0. So A(0) = 500 · (1.04)^0 = 500 · 1 = 500."
+    },
+    {
+      "question": "A virus spreads such that the number of infected people quadruples every week. If 2 people are infected initially, how many will be infected after 2 weeks?",
+      "answer": "32",
+      "explanation": "After 1 week: 2 × 4 = 8 people. After 2 weeks: 8 × 4 = 32 people. Alternatively, 2 × 4² = 2 × 16 = 32."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:52:53.818Z",
+  "model": "claude-haiku-4-5-20251001"
+}

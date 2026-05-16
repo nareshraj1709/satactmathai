@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-4",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve for x: |2x - 5| = |x + 3|",
+      "answer": "x = 8 or x = 2/3",
+      "explanation": "Set up two cases: (2x - 5) = (x + 3) gives x = 8; and (2x - 5) = -(x + 3) gives 3x = 2, so x = 2/3. Check both in the original equation."
+    },
+    {
+      "question": "Find all values of x that satisfy |3x - 7| < 5.",
+      "answer": "2/3 < x < 4",
+      "explanation": "Rewrite as -5 < 3x - 7 < 5. Add 7 to all parts: 2 < 3x < 12. Divide by 3: 2/3 < x < 4."
+    },
+    {
+      "question": "A manufacturing process produces bolts with length specified as |L - 10| ≤ 0.2 mm, where L is the measured length in mm. What is the range of acceptable lengths?",
+      "answer": "9.8 ≤ L ≤ 10.2",
+      "explanation": "The inequality |L - 10| ≤ 0.2 means -0.2 ≤ L - 10 ≤ 0.2. Add 10 to all parts to get 9.8 ≤ L ≤ 10.2."
+    },
+    {
+      "question": "Solve: |x - 4| + |x + 2| = 8",
+      "answer": "x = 5 or x = -3",
+      "explanation": "Test critical points x = 4 and x = -2 to determine sign regions. For x ≥ 4: (x - 4) + (x + 2) = 8 gives x = 5. For x ≤ -2: -(x - 4) - (x + 2) = 8 gives x = -3. Check that -2 < x < 4 yields no solution."
+    },
+    {
+      "question": "For what values of k does |2x - 3| = k have exactly one solution?",
+      "answer": "k = 0",
+      "explanation": "The absolute value equation |2x - 3| = k has exactly one solution when k = 0 (the expression equals zero at a single point x = 3/2). For any k > 0, there are two solutions."
+    },
+    {
+      "question": "Solve the compound inequality: |x + 1| ≥ 3 and |x - 2| < 4",
+      "answer": "-4 < x ≤ -4 or 2 ≤ x < 6",
+      "explanation": "|x + 1| ≥ 3 gives x ≤ -4 or x ≥ 2. |x - 2| < 4 gives -2 < x < 6. The intersection is (-4 < x ≤ -4) or (2 ≤ x < 6), which simplifies to x = -4 or 2 ≤ x < 6. (Note: If strict inequality intended at -4, answer is 2 ≤ x < 6.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:47.360Z",
+  "model": "claude-haiku-4-5-20251001"
+}

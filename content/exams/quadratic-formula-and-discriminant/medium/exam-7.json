@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-7",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve $2x^2 - 7x + 3 = 0$. What are the solutions?",
+      "answer": "x = 3 or x = 1/2",
+      "explanation": "Apply the quadratic formula with $a = 2$, $b = -7$, $c = 3$: $x = \\frac{7 \\pm \\sqrt{49 - 24}}{4} = \\frac{7 \\pm 5}{4}$. This gives $x = 3$ and $x = \\frac{1}{2}$."
+    },
+    {
+      "question": "For the equation $x^2 + 6x + k = 0$, what value of $k$ makes the discriminant equal to zero?",
+      "answer": "k = 9",
+      "explanation": "The discriminant is $b^2 - 4ac = 36 - 4k$. Setting this equal to zero: $36 - 4k = 0$, so $k = 9$. This gives a repeated root."
+    },
+    {
+      "question": "A ball is thrown upward from ground level. Its height in feet after $t$ seconds is given by $h(t) = 48t - 16t^2$. When does the ball return to ground level? (Exclude $t = 0$.)",
+      "answer": "t = 3 seconds",
+      "explanation": "Set $h(t) = 0$: $48t - 16t^2 = 0 \\Rightarrow 16t(3 - t) = 0$. Solutions are $t = 0$ and $t = 3$. The ball returns at $t = 3$ seconds."
+    },
+    {
+      "question": "Determine how many real solutions $3x^2 - 5x + 4 = 0$ has by calculating its discriminant.",
+      "answer": "No real solutions (or 0)",
+      "explanation": "The discriminant is $b^2 - 4ac = 25 - 48 = -23 < 0$. A negative discriminant means no real solutions exist."
+    },
+    {
+      "question": "Solve $x^2 = 5x - 4$ by rearranging to standard form and using the quadratic formula.",
+      "answer": "x = 4 or x = 1",
+      "explanation": "Rearrange: $x^2 - 5x + 4 = 0$. Using the quadratic formula: $x = \\frac{5 \\pm \\sqrt{25 - 16}}{2} = \\frac{5 \\pm 3}{2}$. Solutions are $x = 4$ and $x = 1$."
+    },
+    {
+      "question": "For what value of $m$ does the equation $x^2 + mx + 16 = 0$ have exactly one real solution?",
+      "answer": "m = 8 or m = -8",
+      "explanation": "One real solution occurs when the discriminant equals zero: $m^2 - 4(1)(16) = 0 \\Rightarrow m^2 = 64 \\Rightarrow m = \\pm 8$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:46.548Z",
+  "model": "claude-haiku-4-5-20251001"
+}

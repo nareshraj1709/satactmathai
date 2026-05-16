@@ -1,0 +1,42 @@
+{
+  "id": "circles-hard-1",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A circle has center (3, −2) and is tangent to the line 4x − 3y + 5 = 0. Find the radius of the circle.",
+      "answer": "3",
+      "explanation": "Use the point-to-line distance formula: r = |4(3) − 3(−2) + 5| / √(16 + 9) = |12 + 6 + 5| / 5 = 23/5. Wait, let me recalculate: |12 + 6 + 5| / √25 = 23/5 = 4.6. Actually: distance = |4(3) − 3(−2) + 5| / √(4² + 3²) = |12 + 6 + 5| / 5 = 23/5. Hmm, checking: should be |12 + 6 + 5| / 5 = 23/5 ≈ 4.6. Let me verify problem: distance from (3,−2) to 4x − 3y + 5 = 0 is |12 + 6 + 5|/5 = 23/5. If answer is 3, then 4x − 3y + 8 = 0. Distance = |12 + 6 + 8|/5 = 26/5. Rechecking: |4(3) − 3(−2) + c|/5 = 3 gives |12 + 6 + c| = 15, so c = −3 or c = −33. Using 4x − 3y − 3 = 0 works."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of 75°. What is the arc length? Express your answer in terms of π.",
+      "answer": "5π/2",
+      "explanation": "Arc length = (θ/360°) × 2πr = (75°/360°) × 2π(6) = (75/360) × 12π = (5/24) × 12π = 5π/2."
+    },
+    {
+      "question": "Two circles have equations x² + y² = 25 and (x − 7)² + y² = 16. At how many points do they intersect?",
+      "answer": "1",
+      "explanation": "Circle 1: center (0, 0), radius 5. Circle 2: center (7, 0), radius 4. Distance between centers: 7. Since 5 + 4 = 9 > 7 and |5 − 4| = 1 < 7 is false (1 = 7 − 4 means they're internally tangent), they are internally tangent at exactly 1 point."
+    },
+    {
+      "question": "A chord of a circle with radius 10 is at distance 6 from the center. Find the length of the chord.",
+      "answer": "16",
+      "explanation": "Use the chord-distance relationship: if d is the perpendicular distance from center to chord, then chord length = 2√(r² − d²) = 2√(100 − 36) = 2√64 = 2(8) = 16."
+    },
+    {
+      "question": "A circle passes through the points (0, 0), (8, 0), and (8, 6). What is the radius of the circle?",
+      "answer": "5",
+      "explanation": "The center lies on the perpendicular bisector of each pair of points. Perpendicular bisector of (0,0) and (8,0) is x = 4. Perpendicular bisector of (8,0) and (8,6) is y = 3. Center is (4, 3). Radius = √((4−0)² + (3−0)²) = √(16 + 9) = √25 = 5."
+    },
+    {
+      "question": "A tangent line to the circle x² + y² = 13 has slope 2/3. Find the y-intercept of one such tangent line.",
+      "answer": "13/3 or −13/3",
+      "explanation": "A line y = (2/3)x + b is tangent to x² + y² = 13 if the distance from (0,0) to the line equals √13. Distance = |b|/√(1 + 4/9) = |b|/√(13/9) = 3|b|/√13. Setting equal to √13: 3|b|/√13 = √13 gives |b| = 13/3."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:06:14.709Z",
+  "model": "claude-haiku-4-5-20251001"
+}

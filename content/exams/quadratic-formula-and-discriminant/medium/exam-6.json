@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-6",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A quadratic equation has discriminant Δ = −12. How many real solutions does the equation have?",
+      "answer": "0",
+      "explanation": "When Δ < 0, the quadratic has no real solutions—only two complex conjugate roots. A negative discriminant means the parabola does not cross the x-axis."
+    },
+    {
+      "question": "Solve using the quadratic formula: 2x² − 5x + 2 = 0. What are the two solutions?",
+      "answer": "x = 2 or x = 1/2",
+      "explanation": "Apply x = (5 ± √(25 − 16))/4 = (5 ± 3)/4. This gives x = 8/4 = 2 and x = 2/4 = 1/2."
+    },
+    {
+      "question": "For the equation x² + 6x + k = 0, the discriminant equals 12. What is the value of k?",
+      "answer": "k = 6",
+      "explanation": "Discriminant: Δ = 36 − 4k = 12. Solving: 4k = 24, so k = 6."
+    },
+    {
+      "question": "A projectile's height in feet is given by h(t) = −16t² + 48t + 5, where t is time in seconds. How many real times does the projectile reach exactly 10 feet in height? Use the discriminant to decide without solving.",
+      "answer": "2",
+      "explanation": "Set −16t² + 48t + 5 = 10, giving −16t² + 48t − 5 = 0. Discriminant: Δ = 2304 − 320 = 1984 > 0, so there are 2 real solutions (2 distinct times)."
+    },
+    {
+      "question": "Solve for x: 3x² + 7x − 20 = 0. Express your answer as a decimal or fraction.",
+      "answer": "x = 5/3 or x = −4",
+      "explanation": "Using the quadratic formula: x = (−7 ± √(49 + 240))/6 = (−7 ± 17)/6, giving x = 10/6 = 5/3 and x = −24/6 = −4."
+    },
+    {
+      "question": "For what value of c does the equation x² − 8x + c = 0 have exactly one real solution?",
+      "answer": "c = 16",
+      "explanation": "A quadratic has exactly one real solution when Δ = 0. Here, 64 − 4c = 0, so c = 16. The repeated root is x = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:47.704Z",
+  "model": "claude-haiku-4-5-20251001"
+}

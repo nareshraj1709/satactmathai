@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-1",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{36}$.",
+      "answer": "6",
+      "explanation": "The square root of 36 is the number that multiplies by itself to give 36. Since $6 \\times 6 = 36$, we have $\\sqrt{36} = 6$."
+    },
+    {
+      "question": "Simplify $\\sqrt{50}$.",
+      "answer": "$5\\sqrt{2}$",
+      "explanation": "Factor 50 as $25 \\times 2$. Then $\\sqrt{50} = \\sqrt{25 \\times 2} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x} = 7$.",
+      "answer": "$x = 49$",
+      "explanation": "Square both sides to isolate $x$: $(\\sqrt{x})^2 = 7^2$, so $x = 49$."
+    },
+    {
+      "question": "Simplify $\\frac{12}{3}$.",
+      "answer": "4",
+      "explanation": "Divide the numerator by the denominator: $12 \\div 3 = 4$."
+    },
+    {
+      "question": "Simplify $\\frac{x^2}{x}$ for $x \\neq 0$.",
+      "answer": "$x$",
+      "explanation": "Use the rule $\\frac{a^m}{a^n} = a^{m-n}$: $\\frac{x^2}{x} = x^{2-1} = x^1 = x$."
+    },
+    {
+      "question": "A square has area 64 square meters. What is the side length?",
+      "answer": "8 meters",
+      "explanation": "The side length of a square is the square root of its area: $s = \\sqrt{64} = 8$ meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:56:50.585Z",
+  "model": "claude-haiku-4-5-20251001"
+}

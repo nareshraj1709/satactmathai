@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-1",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "If sin(θ) = 3/5 and θ is in Quadrant II, find the exact value of tan(θ).",
+      "answer": "−3/4",
+      "explanation": "In Quadrant II, sin(θ) > 0 and cos(θ) < 0. Use sin²(θ) + cos²(θ) = 1: (3/5)² + cos²(θ) = 1 gives cos²(θ) = 16/25, so cos(θ) = −4/5. Then tan(θ) = sin(θ)/cos(θ) = (3/5)/(−4/5) = −3/4."
+    },
+    {
+      "question": "A ladder leaning against a wall makes an angle of 65° with the ground. If the ladder is 10 meters long, how far up the wall does it reach? (Round to the nearest tenth.)",
+      "answer": "9.1 meters",
+      "explanation": "The height is the side opposite the 65° angle. Use sin(65°) = h/10, so h = 10·sin(65°) ≈ 10(0.9063) ≈ 9.1 meters."
+    },
+    {
+      "question": "Simplify: (sin²(x) + cos²(x))/(sin(x)·sec(x)). Express your answer as a single trigonometric function.",
+      "answer": "cot(x)",
+      "explanation": "The numerator is 1 (Pythagorean identity). The denominator is sin(x)·(1/cos(x)) = sin(x)/cos(x) = tan(x). So 1/tan(x) = cot(x)."
+    },
+    {
+      "question": "On the unit circle, a point is located at angle θ = 5π/6. What are the coordinates (x, y) of this point?",
+      "answer": "(−√3/2, 1/2)",
+      "explanation": "5π/6 is in Quadrant II. Reference angle is π/6. cos(5π/6) = −cos(π/6) = −√3/2 and sin(5π/6) = sin(π/6) = 1/2. The point is (−√3/2, 1/2)."
+    },
+    {
+      "question": "If tan(α) = 2 and α is in Quadrant I, find sin(2α) exactly.",
+      "answer": "4/5",
+      "explanation": "Use the identity sin(2α) = 2sin(α)cos(α). From tan(α) = 2, construct a right triangle with opposite = 2, adjacent = 1, hypotenuse = √5. So sin(α) = 2/√5 and cos(α) = 1/√5. Then sin(2α) = 2·(2/√5)·(1/√5) = 4/5."
+    },
+    {
+      "question": "Solve for θ in the interval [0, 2π): sin(θ) = cos(θ). List all solutions separated by commas.",
+      "answer": "π/4, 5π/4",
+      "explanation": "Divide both sides by cos(θ) (valid where cos(θ) ≠ 0): tan(θ) = 1. Solutions occur at θ = π/4 + nπ. In [0, 2π), these are π/4 and 5π/4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:14.173Z",
+  "model": "claude-haiku-4-5-20251001"
+}

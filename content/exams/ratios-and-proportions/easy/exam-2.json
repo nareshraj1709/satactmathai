@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-2",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 eggs. If you use 6 eggs, how many cups of flour do you need?",
+      "answer": "4",
+      "explanation": "Set up the proportion: 2/3 = x/6. Cross-multiply: 3x = 12, so x = 4 cups."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 5:7. If there are 35 girls, how many boys are there?",
+      "answer": "25",
+      "explanation": "Use the ratio boys/girls = 5/7. So x/35 = 5/7. Cross-multiply: 7x = 175, giving x = 25."
+    },
+    {
+      "question": "A map has a scale of 1 inch to 50 miles. If two cities are 3 inches apart on the map, what is the actual distance between them in miles?",
+      "answer": "150",
+      "explanation": "Multiply the map distance by the scale factor: 3 inches × 50 miles/inch = 150 miles."
+    },
+    {
+      "question": "If 4 oranges cost $2.00, what is the cost of 10 oranges at the same rate?",
+      "answer": "$5.00",
+      "explanation": "Find the unit price: $2.00 ÷ 4 = $0.50 per orange. Then 10 × $0.50 = $5.00."
+    },
+    {
+      "question": "A car travels 120 miles in 2 hours. At this rate, how many miles will it travel in 5 hours?",
+      "answer": "300",
+      "explanation": "Find the speed: 120 miles ÷ 2 hours = 60 mph. Then 60 × 5 = 300 miles."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles is 3:2. If there are 15 red marbles, how many blue marbles are there?",
+      "answer": "10",
+      "explanation": "Use red/blue = 3/2. So 15/x = 3/2. Cross-multiply: 3x = 30, giving x = 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:33.500Z",
+  "model": "claude-haiku-4-5-20251001"
+}

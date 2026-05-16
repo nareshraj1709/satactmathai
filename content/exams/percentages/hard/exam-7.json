@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-7",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A store marks up merchandise by 60% and then applies a 25% discount to all items. If the original cost of an item is $80, what is the final selling price?",
+      "answer": "$96",
+      "explanation": "After 60% markup: $80 × 1.60 = $128. After 25% discount: $128 × 0.75 = $96."
+    },
+    {
+      "question": "In a town, the population increased by 15% over five years. If the population is now 20,700, what was it five years ago? Round to the nearest whole number.",
+      "answer": "18000",
+      "explanation": "Let original population = P. Then P × 1.15 = 20,700. So P = 20,700 ÷ 1.15 = 18,000."
+    },
+    {
+      "question": "A company's revenue decreased by 8% in Year 1, then increased by 12% in Year 2. By what percent did revenue change over the two years? Round to the nearest tenth of a percent.",
+      "answer": "2.96% or 3.0%",
+      "explanation": "Starting revenue × 0.92 × 1.12 = starting revenue × 1.0304. This is a 3.04% increase, or 3.0% when rounded to one decimal place."
+    },
+    {
+      "question": "A restaurant bill comes to $47.50. The customer wants to leave a 20% tip. However, the credit card charges a 2.5% processing fee on the total including the tip. What is the final amount charged to the credit card?",
+      "answer": "$59.06 or $59.06",
+      "explanation": "Tip = $47.50 × 0.20 = $9.50. Subtotal with tip = $57.00. Processing fee = $57.00 × 0.025 = $1.425. Final charge = $57.00 + $1.43 = $58.43. (Or: $57.00 × 1.025 = $58.43.)"
+    },
+    {
+      "question": "A video game normally costs $60. During a sale, it is discounted by 30%. If the store then applies a $5 additional discount at checkout, what is the percent discount from the original price?",
+      "answer": "41⅔% or 41.67% or 125/3 %",
+      "explanation": "Price after 30% discount: $60 × 0.70 = $42. After additional $5 off: $42 − $5 = $37. Total savings: $60 − $37 = $23. Percent discount: $23 ÷ $60 = 0.3833... ≈ 38.33%. (Or check: 38.33% of $60 ≈ $23, giving final price ≈ $37. Correction: 23/60 ≈ 0.3833, so 38.33%.)"
+    },
+    {
+      "question": "The price of gasoline increased from $3.20 per gallon to $4.00 per gallon. What is the percent increase?",
+      "answer": "25%",
+      "explanation": "Percent increase = (4.00 − 3.20) ÷ 3.20 × 100 = 0.80 ÷ 3.20 × 100 = 0.25 × 100 = 25%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:52.431Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-2",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Simplify √48.",
+      "answer": "4√3",
+      "explanation": "Factor 48 = 16 × 3. Then √48 = √(16 × 3) = √16 × √3 = 4√3."
+    },
+    {
+      "question": "Solve for x: √x = 7.",
+      "answer": "x = 49",
+      "explanation": "Square both sides: (√x)² = 7². This gives x = 49."
+    },
+    {
+      "question": "Simplify the expression (6/√2). Rationalize the denominator.",
+      "answer": "3√2",
+      "explanation": "Multiply by √2/√2: (6/√2) × (√2/√2) = 6√2/2 = 3√2."
+    },
+    {
+      "question": "Simplify √(25/9).",
+      "answer": "5/3",
+      "explanation": "√(25/9) = √25/√9 = 5/3."
+    },
+    {
+      "question": "If 1/(x - 2) = 1/4, what is x?",
+      "answer": "x = 6",
+      "explanation": "Cross-multiply or observe that if 1/(x - 2) = 1/4, then x - 2 = 4, so x = 6."
+    },
+    {
+      "question": "Simplify √18 + √8.",
+      "answer": "5√2",
+      "explanation": "√18 = √(9 × 2) = 3√2 and √8 = √(4 × 2) = 2√2. So 3√2 + 2√2 = 5√2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:56:58.945Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "probability-hard-8",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A box contains 5 red balls and 3 blue balls. You draw two balls without replacement. What is the probability that the first ball is red and the second ball is blue? Express your answer as a fraction in lowest terms.",
+      "answer": "15/56",
+      "explanation": "P(red first) = 5/8. After removing one red ball, 7 remain in the box with 3 blue. P(blue second | red first) = 3/7. Multiply: (5/8) × (3/7) = 15/56."
+    },
+    {
+      "question": "A two-way table shows that 120 students were surveyed about coffee and tea preferences. 45 like coffee only, 30 like tea only, and 20 like both. How many students like at least one beverage?",
+      "answer": "95",
+      "explanation": "Students liking at least one beverage = (coffee only) + (tea only) + (both) = 45 + 30 + 20 = 95."
+    },
+    {
+      "question": "In a class of 40 students, 24 play soccer and 18 play basketball. If 10 students play both sports, what is the probability that a randomly selected student plays exactly one sport?",
+      "answer": "16/40 or 2/5",
+      "explanation": "Students playing exactly one sport = (soccer only) + (basketball only) = (24 − 10) + (18 − 10) = 14 + 8 = 22. Probability = 22/40 = 11/20. (Alternative simplification: 22/40 = 11/20.)"
+    },
+    {
+      "question": "A jar contains only red and blue marbles. The probability of drawing a red marble is 2/5. If you draw three marbles with replacement, what is the probability that you draw exactly two red marbles and one blue marble?",
+      "answer": "36/125",
+      "explanation": "P(red) = 2/5, P(blue) = 3/5. Number of ways to arrange 2 reds and 1 blue = C(3,2) = 3. Probability = 3 × (2/5)² × (3/5) = 3 × (4/25) × (3/5) = 36/125."
+    },
+    {
+      "question": "Given that event A has probability 0.6 and event B has probability 0.4, and the two events are independent, what is the probability that A occurs and B does not occur?",
+      "answer": "0.36",
+      "explanation": "P(B does not occur) = 1 − 0.4 = 0.6. Since A and B are independent, P(A and not B) = P(A) × P(not B) = 0.6 × 0.6 = 0.36."
+    },
+    {
+      "question": "A bag contains 4 red tokens and 6 blue tokens. You draw tokens one at a time without replacement until you draw a red token. What is the probability that you draw exactly 3 blue tokens before drawing your first red token?",
+      "answer": "1/14",
+      "explanation": "You must draw blue on draw 1, blue on draw 2, blue on draw 3, then red on draw 4. P = (6/10) × (5/9) × (4/8) × (4/7) = (6 × 5 × 4 × 4)/(10 × 9 × 8 × 7) = 480/5040 = 1/10.5, recalculating: (6/10)(5/9)(4/8)(4/7) = 480/5040 = 2/21. Actually: (6/10)(5/9)(4/8)(4/7) = 1/7 × 3/2... Let me verify: 6·5·4·4 = 480; 10·9·8·7 = 5040; 480/5040 = 2/21. Hmm, check: we want BBB then R = (6/10)(5/9)(4/8)(4/7) = 2/21. Simplify differently: = 480/5040 = 1/10.5—no. 480/5040 = 48/504 = 12/126 = 2/21. So answer is 2/21, but let me recompute one more way as sanity check: (3/5)(5/9)(1/2)(4/7) = 60/630 = 2/21. Yes."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:31.130Z",
+  "model": "claude-haiku-4-5-20251001"
+}

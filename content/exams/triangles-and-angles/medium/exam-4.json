@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-4",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C in degrees?",
+      "answer": "55",
+      "explanation": "The sum of angles in any triangle is 180°. So angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one acute angle measuring 34°. What is the measure of the other acute angle in degrees?",
+      "answer": "56",
+      "explanation": "In a right triangle, the two acute angles are complementary (sum to 90°). So the other angle = 90° − 34° = 56°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 64°. What is the measure of each base angle in degrees?",
+      "answer": "58",
+      "explanation": "The two base angles of an isosceles triangle are equal. If the vertex angle is 64°, then 2b + 64 = 180, so b = 58°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. If one of the acute angles formed measures 73°, what is the measure of an obtuse angle formed at a different intersection point?",
+      "answer": "107",
+      "explanation": "When a transversal crosses parallel lines, an acute angle and an obtuse angle are supplementary. The obtuse angle = 180° − 73° = 107°."
+    },
+    {
+      "question": "An exterior angle of a triangle measures 128°. One of the non-adjacent interior angles measures 51°. What is the measure of the other non-adjacent interior angle in degrees?",
+      "answer": "77",
+      "explanation": "An exterior angle equals the sum of the two non-adjacent interior angles. So 128° = 51° + x, giving x = 77°."
+    },
+    {
+      "question": "In a 30-60-90 triangle, the side opposite the 30° angle has length 5. What is the length of the hypotenuse?",
+      "answer": "10",
+      "explanation": "In a 30-60-90 triangle, the sides are in ratio 1 : √3 : 2. The side opposite 30° is the shortest, so if it is 5, the hypotenuse is 2 × 5 = 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:23.358Z",
+  "model": "claude-haiku-4-5-20251001"
+}

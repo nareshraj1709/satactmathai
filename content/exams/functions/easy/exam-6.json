@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-6",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "If f(x) = 3x + 2, what is f(4)?",
+      "answer": "14",
+      "explanation": "Substitute x = 4 into f(x) = 3x + 2: f(4) = 3(4) + 2 = 12 + 2 = 14."
+    },
+    {
+      "question": "If g(x) = x² - 5, find g(-2).",
+      "answer": "-1",
+      "explanation": "Substitute x = -2: g(-2) = (-2)² - 5 = 4 - 5 = -1."
+    },
+    {
+      "question": "Let f(x) = 2x - 1 and h(x) = f(x) + 3. What is h(5)?",
+      "answer": "12",
+      "explanation": "First find f(5) = 2(5) - 1 = 9. Then h(5) = f(5) + 3 = 9 + 3 = 12."
+    },
+    {
+      "question": "If f(x) = x + 1 and g(x) = 2x, what is f(g(3))?",
+      "answer": "7",
+      "explanation": "Evaluate from the inside out: g(3) = 2(3) = 6. Then f(6) = 6 + 1 = 7."
+    },
+    {
+      "question": "The function p(t) = 50 - 5t represents the temperature in degrees after t hours. What is p(2)?",
+      "answer": "40",
+      "explanation": "Substitute t = 2: p(2) = 50 - 5(2) = 50 - 10 = 40 degrees."
+    },
+    {
+      "question": "If f(x) = 4x and g(x) = x - 3, what is g(f(2))?",
+      "answer": "5",
+      "explanation": "Evaluate from the inside out: f(2) = 4(2) = 8. Then g(8) = 8 - 3 = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:01.669Z",
+  "model": "claude-haiku-4-5-20251001"
+}

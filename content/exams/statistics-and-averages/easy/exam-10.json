@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-10",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Five test scores are 78, 85, 92, 78, and 87. What is the mode?",
+      "answer": "78",
+      "explanation": "The mode is the value that appears most frequently. The score 78 appears twice, while all others appear once. Therefore, the mode is 78."
+    },
+    {
+      "question": "A dataset has values 10, 15, 20, 25, and 30. What is the median?",
+      "answer": "20",
+      "explanation": "Arrange the five values in order (they already are). The median is the middle value, which is the third number: 20."
+    },
+    {
+      "question": "The mean of four numbers is 12. Three of the numbers are 10, 14, and 11. What is the fourth number?",
+      "answer": "15",
+      "explanation": "If the mean of four numbers is 12, their sum is 4 × 12 = 48. The sum of the three known numbers is 10 + 14 + 11 = 35. The fourth number is 48 − 35 = 15."
+    },
+    {
+      "question": "A set of data consists of 6, 8, 12, 15, and 24. What is the range?",
+      "answer": "18",
+      "explanation": "The range is the difference between the largest and smallest values. Range = 24 − 6 = 18."
+    },
+    {
+      "question": "Six students scored 85, 90, 88, 92, 89, and 86 on a quiz. What is the mean score, rounded to the nearest whole number?",
+      "answer": "88",
+      "explanation": "Sum: 85 + 90 + 88 + 92 + 89 + 86 = 530. Mean = 530 ÷ 6 ≈ 88.33, which rounds to 88."
+    },
+    {
+      "question": "The ages of five children are 4, 6, 7, 8, and 10. What is the median age?",
+      "answer": "7",
+      "explanation": "Arrange the five ages in order (they already are). The median is the middle value, which is the third number: 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:16.294Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-6",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you use 15 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 5/2 = 15/x. Cross-multiply: 5x = 30. Solve: x = 6 cups of sugar."
+    },
+    {
+      "question": "In a survey, the ratio of people who prefer coffee to tea is 7:3. If 210 people prefer coffee, how many prefer tea?",
+      "answer": "90",
+      "explanation": "Use the ratio 7:3. If 7 parts = 210, then 1 part = 30. Tea represents 3 parts: 3 × 30 = 90."
+    },
+    {
+      "question": "A map has a scale of 1 inch : 25 miles. Two cities are 3.5 inches apart on the map. What is the actual distance between them in miles?",
+      "answer": "87.5",
+      "explanation": "Set up: 1/25 = 3.5/x. Cross-multiply: x = 3.5 × 25 = 87.5 miles."
+    },
+    {
+      "question": "At a school, the ratio of students to teachers is 18:1. If there are 540 students, how many teachers are there?",
+      "answer": "30",
+      "explanation": "Set up the proportion: 18/1 = 540/x. Cross-multiply: 18x = 540. Solve: x = 30 teachers."
+    },
+    {
+      "question": "A paint mixture uses red and blue paint in the ratio 4:5. If the total amount of paint is 36 liters, how many liters of red paint are in the mixture?",
+      "answer": "16",
+      "explanation": "The ratio 4:5 means 4 + 5 = 9 total parts. Red paint is 4/9 of the total: (4/9) × 36 = 16 liters."
+    },
+    {
+      "question": "A car travels 120 miles in 2.5 hours at a constant speed. At this rate, how many miles will it travel in 4 hours?",
+      "answer": "192",
+      "explanation": "Find the speed: 120/2.5 = 48 miles per hour. In 4 hours: 48 × 4 = 192 miles."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:03.195Z",
+  "model": "claude-haiku-4-5-20251001"
+}

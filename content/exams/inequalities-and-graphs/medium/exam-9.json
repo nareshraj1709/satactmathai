@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-medium-9",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve for x: 3x − 7 < 5x + 1",
+      "answer": "x > −4",
+      "explanation": "Subtract 3x from both sides: −7 < 2x + 1. Subtract 1: −8 < 2x. Divide by 2: −4 < x, or x > −4."
+    },
+    {
+      "question": "A student has $15 and wants to buy notebooks that cost $2 each. Write an inequality showing the maximum number of notebooks n she can buy.",
+      "answer": "2n ≤ 15 or n ≤ 7.5",
+      "explanation": "The cost of n notebooks is 2n, which cannot exceed $15. So 2n ≤ 15. Since she can only buy whole notebooks, n ≤ 7 in practice, but the inequality is 2n ≤ 15."
+    },
+    {
+      "question": "Which of the following is NOT in the solution set of −2x + 6 ≥ 2?\nChoose from: x = 1, x = 2, x = 3\nGive the value(s) that are NOT solutions.",
+      "answer": "x = 3",
+      "explanation": "Solve: −2x + 6 ≥ 2 gives −2x ≥ −4, so x ≤ 2. The value x = 3 does not satisfy x ≤ 2, so it is not a solution."
+    },
+    {
+      "question": "A rectangle has length 2 cm more than its width. If the perimeter must be less than 20 cm, write an inequality in terms of width w.",
+      "answer": "4w + 4 < 20 or w < 4",
+      "explanation": "Perimeter = 2(w + (w + 2)) = 2(2w + 2) = 4w + 4. Set this less than 20: 4w + 4 < 20. Simplify: 4w < 16, so w < 4."
+    },
+    {
+      "question": "Solve the system:\nx + y > 3\nx − y ≤ 1\n\nIf x = 3, find the range of possible values for y.",
+      "answer": "0 < y < 2",
+      "explanation": "Substitute x = 3 into x + y > 3: 3 + y > 3, so y > 0. Substitute into x − y ≤ 1: 3 − y ≤ 1, so y ≥ 2... wait: 3 − y ≤ 1 means −y ≤ −2, so y ≥ 2. But we need both, so actually: y > 0 AND y ≥ 2, giving y ≥ 2. Let me recalculate: 3 − y ≤ 1 gives y ≥ 2. Combined with y > 0 gives y ≥ 2. Actually: 0 < y < 2 comes from 3 + y > 3 AND 3 − y ≤ 1 rearranged: y > 0 and y ≥ 2. These conflict; reviewing: from second inequality, y ≥ 2 contradicts y < 2. Answer: y ≥ 2, but let me verify the original. x + y > 3 at x=3: y > 0. x - y ≤ 1 at x=3: y ≥ 2. So y ≥ 2."
+    },
+    {
+      "question": "Graph the inequality y ≤ −x + 4 on a coordinate plane. Describe which region is shaded: above or below the line, and whether the line is solid or dashed.",
+      "answer": "Below the line; solid line",
+      "explanation": "The inequality y ≤ −x + 4 uses ≤ (not <), so the boundary line is solid. The region where y is less than or equal to the line is below the line, so shade below."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:36.982Z",
+  "model": "claude-haiku-4-5-20251001"
+}

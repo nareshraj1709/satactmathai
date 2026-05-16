@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-1",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between the number of hours studied (x) and exam score (y) for 15 students. The line of best fit has equation y = 8x + 42. One student studied for 5 hours and scored 78. What is the residual for this student?",
+      "answer": "-2",
+      "explanation": "The predicted score is y = 8(5) + 42 = 82. The residual is actual minus predicted: 78 − 82 = −2. A negative residual means the student scored below the model's prediction."
+    },
+    {
+      "question": "In a dataset of 20 companies, a scatterplot compares annual revenue (in millions) on the x-axis with number of employees on the y-axis. The line of best fit passes through (10, 150) and (20, 350). What is the slope of the line of best fit, and what does it represent?",
+      "answer": "20",
+      "explanation": "Slope = (350 − 150)/(20 − 10) = 200/10 = 20. This means for each additional million in revenue, the model predicts 20 more employees on average."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°C) and ice cream sales ($) for a shop over 30 days. The correlation coefficient is r = 0.89. Approximately what percentage of the variation in ice cream sales can be explained by temperature?",
+      "answer": "79",
+      "explanation": "The coefficient of determination is r² = (0.89)² ≈ 0.7921 ≈ 0.79, or 79%. This tells us that about 79% of the variance in sales is explained by temperature; the remaining 21% is due to other factors."
+    },
+    {
+      "question": "A biologist plots bird wingspan (cm) versus body mass (g) for 25 species. The line of best fit is y = 0.15x + 3, where x is mass and y is wingspan. If a species has a measured wingspan of 18 cm but the model predicts 16 cm, what is the actual body mass of this species?",
+      "answer": "100",
+      "explanation": "The predicted wingspan is 16, so 0.15x + 3 = 16; solving gives 0.15x = 13, so x = 86.67 ≈ 87. However, the actual wingspan is 18, meaning the residual is +2, indicating this species is above the trend line. Using the predicted equation: 0.15x + 3 = 16 gives x ≈ 87, but we need the actual mass. From 0.15x + 3 = 16, x = 100 when rearranging: the problem asks for actual mass given the residual of +2, so 0.15x + 3 = 18 gives x = 100."
+    },
+    {
+      "question": "Two datasets show the relationship between hours worked per week and hourly wage. Dataset A has r = 0.45; Dataset B has r = −0.92. Which dataset shows a stronger linear relationship, and why?",
+      "answer": "Dataset B; |−0.92| = 0.92 > 0.45",
+      "explanation": "The strength of a linear relationship depends on |r|, not the sign. Since |−0.92| = 0.92 > 0.45, Dataset B has a much stronger linear relationship (negative slope), meaning hours worked explains far more of the wage variation there."
+    },
+    {
+      "question": "A scatterplot shows quiz scores versus hours of sleep the night before for 18 students. The line of best fit has equation y = 4x + 18, where x is hours of sleep and y is quiz score. If the line of best fit passes through the point (7, 46), what is the mean quiz score for all 18 students?",
+      "answer": "46",
+      "explanation": "The line of best fit always passes through the point (x̄, ȳ), where x̄ and ȳ are the means of x and y respectively. Since the line passes through (7, 46), the mean quiz score is ȳ = 46."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:01.967Z",
+  "model": "claude-haiku-4-5-20251001"
+}

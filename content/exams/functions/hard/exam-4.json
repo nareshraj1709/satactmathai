@@ -1,0 +1,42 @@
+{
+  "id": "functions-hard-4",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Let f(x) = 2x + 3 and g(x) = x² − 1. Find f(g(−2)).",
+      "answer": "11",
+      "explanation": "First, g(−2) = (−2)² − 1 = 4 − 1 = 3. Then f(3) = 2(3) + 3 = 9 + 3 = 11."
+    },
+    {
+      "question": "If h(x) = √(x − 4) and h(a) = 5, what is the value of a?",
+      "answer": "29",
+      "explanation": "Set √(a − 4) = 5. Square both sides: a − 4 = 25. Solve: a = 29."
+    },
+    {
+      "question": "The function p(x) = (x − 1)³ + 2 is a transformation of f(x) = x³. Describe the transformation using words or notation.",
+      "answer": "Shift right 1 unit, shift up 2 units",
+      "explanation": "The (x − 1) inside the cube shifts the graph right; the +2 outside shifts it up. These are the only two transformations applied."
+    },
+    {
+      "question": "Let f(x) = 3x − 5. If f⁻¹(x) denotes the inverse function, find f⁻¹(7).",
+      "answer": "4",
+      "explanation": "Set 3x − 5 = 7. Solve: 3x = 12, so x = 4. Alternatively, f⁻¹(x) = (x + 5)/3, so f⁻¹(7) = (7 + 5)/3 = 4."
+    },
+    {
+      "question": "Given f(x) = 2x² + bx + 3, if f(1) = 8, find the value of b.",
+      "answer": "3",
+      "explanation": "Substitute x = 1: f(1) = 2(1)² + b(1) + 3 = 2 + b + 3 = 8. Solve: b = 3."
+    },
+    {
+      "question": "Let g(x) = x/(x + 2). For what value of x is g(g(x)) = 1/2?",
+      "answer": "2",
+      "explanation": "First find g(g(x)) = g(x/(x+2)) = (x/(x+2)) / ((x/(x+2)) + 2) = (x/(x+2)) / ((x + 2(x+2))/(x+2)) = x/(3x + 4). Set x/(3x + 4) = 1/2, cross-multiply: 2x = 3x + 4, so x = −4. Check: g(−4) = −4/(−2) = 2, g(2) = 2/4 = 1/2. ✓ Actually x = 2 gives g(2) = 1/2, and we need g(g(x)) = 1/2. Solving correctly: x = 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:01:19.115Z",
+  "model": "claude-haiku-4-5-20251001"
+}

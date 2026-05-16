@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-8",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test scores for 12 students. The line of best fit has equation y = 8x + 52, where x is hours studied and y is the test score. If a student studied for 5 hours, what does the model predict for their test score?",
+      "answer": "92",
+      "explanation": "Substitute x = 5 into y = 8x + 52. y = 8(5) + 52 = 40 + 52 = 92."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (in °C) and ice cream sales (in dollars). The points show a strong positive correlation. Which of the following best describes what this means?\n(A) Higher temperatures cause higher ice cream sales.\n(B) As temperature increases, ice cream sales tend to increase.\n(C) Ice cream sales always increase when temperature increases.\n(D) Temperature and sales are unrelated.\n\nChoose the letter.",
+      "answer": "B",
+      "explanation": "Positive correlation means the variables move together—as one increases, the other tends to increase. Option B correctly captures \"tends to\" without implying causation or perfect relationship."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = –3x + 25. What is the y-intercept, and what does it represent in context if x represents days of training and y represents error rate (percent)?",
+      "answer": "25; the error rate at day 0 (before training begins)",
+      "explanation": "The y-intercept is the value of y when x = 0. Here, y = –3(0) + 25 = 25, representing the initial error rate before any training."
+    },
+    {
+      "question": "A scatterplot shows test scores versus class attendance (days attended). The correlation coefficient is r = 0.82. Does this suggest a strong relationship? Briefly explain.",
+      "answer": "Yes, because r = 0.82 is close to 1, indicating a strong positive relationship.",
+      "explanation": "Correlation coefficients range from –1 to 1. Values above 0.7 or below –0.7 are typically considered strong correlations."
+    },
+    {
+      "question": "Two points on a line of best fit are (2, 18) and (6, 34). What is the slope of this line?",
+      "answer": "4",
+      "explanation": "slope = (34 – 18)/(6 – 2) = 16/4 = 4. This means y increases by 4 units for each 1-unit increase in x."
+    },
+    {
+      "question": "A scatterplot shows the relationship between advertising spending (in thousands of dollars) and monthly revenue (in thousands of dollars). The line of best fit passes through (0, 10) and (5, 35). Write the equation of the line of best fit in the form y = mx + b.",
+      "answer": "y = 5x + 10",
+      "explanation": "slope = (35 – 10)/(5 – 0) = 25/5 = 5. Using point (0, 10), the y-intercept is 10. Thus y = 5x + 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:59.146Z",
+  "model": "claude-haiku-4-5-20251001"
+}

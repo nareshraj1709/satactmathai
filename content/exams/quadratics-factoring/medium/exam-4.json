@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-4",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Factor the quadratic completely: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: x² - 5x + 6 = 0",
+      "answer": "x = 2, x = 3",
+      "explanation": "Factor: (x - 2)(x - 3) = 0. Set each factor equal to zero to get x = 2 and x = 3."
+    },
+    {
+      "question": "A rectangular garden has length 2 meters more than its width. If the area is 24 square meters, what is the width in meters?",
+      "answer": "4",
+      "explanation": "Let w = width. Then w(w + 2) = 24, so w² + 2w - 24 = 0. Factor: (w + 6)(w - 4) = 0. Since width must be positive, w = 4."
+    },
+    {
+      "question": "Factor completely: 2x² + 11x + 5",
+      "answer": "(2x + 1)(x + 5)",
+      "explanation": "Use AC method: a·c = 10. Find factors of 10 that add to 11: 1 and 10. Rewrite as 2x² + x + 10x + 5, then factor by grouping to get (2x + 1)(x + 5)."
+    },
+    {
+      "question": "Solve by factoring: 3x² - 12x = 0",
+      "answer": "x = 0, x = 4",
+      "explanation": "Factor out the GCF: 3x(x - 4) = 0. Set each factor to zero: x = 0 or x = 4."
+    },
+    {
+      "question": "Factor completely: x² - 49",
+      "answer": "(x - 7)(x + 7)",
+      "explanation": "This is a difference of squares: x² - 7² = (x - 7)(x + 7)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:59.416Z",
+  "model": "claude-haiku-4-5-20251001"
+}

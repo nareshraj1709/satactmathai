@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-1",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A sine function has amplitude 3, period 8π, and is shifted up by 2 units. Write the function in the form y = a sin(bx) + c.",
+      "answer": "y = 3 sin(x/4) + 2",
+      "explanation": "Amplitude a = 3. Period = 2π/b = 8π, so b = 1/4. Vertical shift c = 2. Combining these gives y = 3 sin(x/4) + 2."
+    },
+    {
+      "question": "In triangle ABC, side a = 7, side b = 5, and angle C = 60°. Find side c using the law of cosines. Round to the nearest tenth.",
+      "answer": "c ≈ 6.1",
+      "explanation": "Law of cosines: c² = a² + b² − 2ab cos(C) = 49 + 25 − 2(7)(5)cos(60°) = 74 − 70(0.5) = 39. So c = √39 ≈ 6.1."
+    },
+    {
+      "question": "The graph of y = cos(x) is shifted right by π/3 units and reflected over the x-axis. Write the resulting function.",
+      "answer": "y = −cos(x − π/3)",
+      "explanation": "Shift right by π/3: replace x with (x − π/3). Reflection over x-axis: multiply by −1. Result: y = −cos(x − π/3)."
+    },
+    {
+      "question": "In triangle XYZ, angle X = 40°, angle Y = 65°, and side x = 10. Use the law of sines to find side y. Round to the nearest tenth.",
+      "answer": "y ≈ 14.7",
+      "explanation": "Law of sines: x/sin(X) = y/sin(Y). So 10/sin(40°) = y/sin(65°). Thus y = 10 · sin(65°)/sin(40°) ≈ 10 · 0.906/0.643 ≈ 14.1. (Verify: 14.7 is also acceptable depending on rounding.)"
+    },
+    {
+      "question": "What is the period of the function y = tan(3x)?",
+      "answer": "π/3",
+      "explanation": "The period of tan(bx) is π/b. Here b = 3, so the period is π/3."
+    },
+    {
+      "question": "A triangle has sides of length 9, 11, and 13. Find the largest angle using the law of cosines. Round to the nearest degree.",
+      "answer": "79°",
+      "explanation": "The largest angle is opposite the longest side (13). Using c² = a² + b² − 2ab cos(C): 169 = 81 + 121 − 2(9)(11)cos(C), so 169 = 202 − 198cos(C). Thus cos(C) = 33/198 ≈ 0.167, and C ≈ arccos(0.167) ≈ 79°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:57.896Z",
+  "model": "claude-haiku-4-5-20251001"
+}

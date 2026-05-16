@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-8",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 5 = 3m + 8",
+      "answer": "m = -13",
+      "explanation": "Subtract 2m from both sides: -5 = m + 8. Subtract 8: m = -13."
+    },
+    {
+      "question": "A bookstore has 120 books. After selling some, 85 remain. If each sold book costs $8, how much money was made from sales?",
+      "answer": "$280",
+      "explanation": "Books sold: 120 - 85 = 35. Revenue: 35 × $8 = $280."
+    },
+    {
+      "question": "Solve for x: x/4 + 6 = 10",
+      "answer": "x = 16",
+      "explanation": "Subtract 6 from both sides: x/4 = 4. Multiply by 4: x = 16."
+    },
+    {
+      "question": "Solve for y: 0.5y - 3 = 2y + 9",
+      "answer": "y = -8",
+      "explanation": "Subtract 0.5y from both sides: -3 = 1.5y + 9. Subtract 9: -12 = 1.5y. Divide: y = -8."
+    },
+    {
+      "question": "Solve for x: 2(x - 3) = 14",
+      "answer": "x = 10",
+      "explanation": "Divide both sides by 2: x - 3 = 7. Add 3: x = 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:30.919Z",
+  "model": "claude-haiku-4-5-20251001"
+}

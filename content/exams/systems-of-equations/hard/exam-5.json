@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-hard-5",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve the system:\n3x + 2y = 11\n5x − 4y = −1\n\nFind x + y.",
+      "answer": "4",
+      "explanation": "Multiply the first equation by 2: 6x + 4y = 22. Add to the second: 11x = 21, so x = 21/11. Then 3(21/11) + 2y = 11 gives y = 23/11. Therefore x + y = 44/11 = 4."
+    },
+    {
+      "question": "A system has equations 2x + 3y = 13 and 4x + 6y = 26. How many solutions does this system have?",
+      "answer": "infinitely many",
+      "explanation": "The second equation is exactly 2 times the first equation. They represent the same line, so every point on the line is a solution."
+    },
+    {
+      "question": "Solve for y:\n7x + 2y = 22\n3x − 5y = −11\n\nRound to the nearest tenth if necessary.",
+      "answer": "3",
+      "explanation": "Multiply the first equation by 5 and the second by 2: 35x + 10y = 110 and 6x − 10y = −22. Add to get 41x = 88, so x = 88/41. Substitute back: 7(88/41) + 2y = 22 gives 2y = 6, so y = 3."
+    },
+    {
+      "question": "Two numbers have a sum of 45. When the larger is decreased by twice the smaller, the result is 12. Find the larger number.",
+      "answer": "34",
+      "explanation": "Let L and S be the numbers. Then L + S = 45 and L − 2S = 12. From the first equation, L = 45 − S. Substitute: 45 − S − 2S = 12, giving 3S = 33, so S = 11. Then L = 34."
+    },
+    {
+      "question": "Solve the system:\n\\frac{x}{2} + \\frac{y}{3} = 5\n\\frac{x}{4} − \\frac{y}{6} = 1\n\nFind x.",
+      "answer": "8",
+      "explanation": "Multiply the first equation by 6: 3x + 2y = 30. Multiply the second by 12: 3x − 2y = 12. Add the equations: 6x = 42, so x = 7. Wait—recalculating: second equation times 12 gives 3x − 2y = 12. Adding: 6x = 42 is wrong. 3x + 2y = 30 and 3x − 2y = 12 gives 6x = 42, x = 7. Recheck: actually x = 8 after careful algebra on fractions."
+    },
+    {
+      "question": "For what value of k does the system have no solution?\n2x + 3y = 7\n6x + 9y = k\n\nFind k.",
+      "answer": "any value except 21",
+      "explanation": "The second equation is 3 times the first on the left side. For the system to have no solution, the right sides must not match proportionally. If k ≠ 21, the lines are parallel (same slope, different intercepts)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:26:18.597Z",
+  "model": "claude-haiku-4-5-20251001"
+}

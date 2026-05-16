@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-2",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "The graph of y = 3sin(2x) has a period of what value?",
+      "answer": "π",
+      "explanation": "For y = A·sin(Bx), the period is 2π/B. Here B = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, angle A = 40°, angle B = 75°, and side a = 10. Using the Law of Sines, find side b to the nearest whole number.",
+      "answer": "15",
+      "explanation": "Law of Sines: a/sin(A) = b/sin(B). Thus b = a·sin(B)/sin(A) = 10·sin(75°)/sin(40°) ≈ 10·(0.966)/(0.643) ≈ 15."
+    },
+    {
+      "question": "What is the amplitude of the function y = –2cos(x) + 5?",
+      "answer": "2",
+      "explanation": "Amplitude is the absolute value of the coefficient of the trig function. Here |–2| = 2. The +5 is a vertical shift, not part of amplitude."
+    },
+    {
+      "question": "In triangle PQR, p = 8, q = 6, and angle R = 50°. Using the Law of Cosines, find side r to the nearest tenth.",
+      "answer": "6.1",
+      "explanation": "Law of Cosines: r² = p² + q² – 2pq·cos(R) = 64 + 36 – 2(8)(6)·cos(50°) ≈ 100 – 96(0.643) ≈ 37.3. So r ≈ √37.3 ≈ 6.1."
+    },
+    {
+      "question": "The function y = tan(x) has a vertical asymptote at x = π/2. Name one other vertical asymptote of this function.",
+      "answer": "x = 3π/2 or x = –π/2",
+      "explanation": "tan(x) has vertical asymptotes at odd multiples of π/2. Both 3π/2 and –π/2 are correct; accept either or other odd multiples."
+    },
+    {
+      "question": "A triangle has sides of length 5, 7, and 8. Using the Law of Cosines, find the measure of the angle opposite the side of length 7, to the nearest degree.",
+      "answer": "58°",
+      "explanation": "Let the angle opposite side 7 be B. By Law of Cosines: 7² = 5² + 8² – 2(5)(8)cos(B), so 49 = 89 – 80cos(B), giving cos(B) = 0.5, thus B ≈ 58°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:58.708Z",
+  "model": "claude-haiku-4-5-20251001"
+}

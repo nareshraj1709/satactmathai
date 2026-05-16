@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-5",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² + 5x - 3 = 0. Express your answer as two separate values.",
+      "answer": "x = 1/2 or x = -3",
+      "explanation": "Apply the quadratic formula: x = [-5 ± √(25 + 24)] / 4 = [-5 ± 7] / 4. This gives x = 2/4 = 1/2 and x = -12/4 = -3."
+    },
+    {
+      "question": "For the equation x² - 6x + 9 = 0, calculate the discriminant and determine the number of real solutions.",
+      "answer": "Discriminant = 0; one real solution",
+      "explanation": "Discriminant b² - 4ac = 36 - 36 = 0. When the discriminant equals zero, there is exactly one real solution (a repeated root)."
+    },
+    {
+      "question": "A projectile is launched upward and its height h in meters is given by h = -4.9t² + 20t + 1, where t is time in seconds. At what time does the projectile hit the ground? Round to the nearest hundredth.",
+      "answer": "t ≈ 4.16 seconds",
+      "explanation": "Set h = 0: -4.9t² + 20t + 1 = 0. Using the quadratic formula: t = [-20 ± √(400 + 19.6)] / (-9.8) = [-20 ± √419.6] / (-9.8). Taking the positive root gives t ≈ 4.16 seconds."
+    },
+    {
+      "question": "Determine the value(s) of k for which 3x² + kx + 12 = 0 has no real solutions.",
+      "answer": "k² < 144, or equivalently -12 < k < 12",
+      "explanation": "For no real solutions, the discriminant must be negative: k² - 4(3)(12) < 0, so k² < 144. This means -12 < k < 12."
+    },
+    {
+      "question": "Solve x² - 7x + 10 = 0 using the quadratic formula.",
+      "answer": "x = 5 or x = 2",
+      "explanation": "x = [7 ± √(49 - 40)] / 2 = [7 ± 3] / 2. This gives x = 5 and x = 2."
+    },
+    {
+      "question": "For what value of c does the equation 2x² - 8x + c = 0 have exactly one real solution?",
+      "answer": "c = 8",
+      "explanation": "For exactly one real solution, the discriminant must equal zero: 64 - 8c = 0. Solving gives c = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:48.120Z",
+  "model": "claude-haiku-4-5-20251001"
+}

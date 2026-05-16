@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-easy-7",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Add the polynomials: (3x² + 2x + 1) + (x² + 5x + 4)",
+      "answer": "4x² + 7x + 5",
+      "explanation": "Combine like terms: 3x² + x² = 4x², 2x + 5x = 7x, and 1 + 4 = 5."
+    },
+    {
+      "question": "Multiply: 2x(x + 3)",
+      "answer": "2x² + 6x",
+      "explanation": "Distribute 2x to both terms: 2x · x = 2x² and 2x · 3 = 6x."
+    },
+    {
+      "question": "Divide: (6x³ + 9x²) ÷ 3x",
+      "answer": "2x² + 3x",
+      "explanation": "Divide each term by 3x: 6x³ ÷ 3x = 2x² and 9x² ÷ 3x = 3x."
+    },
+    {
+      "question": "Find all zeros of f(x) = x² + 5x + 6 by factoring.",
+      "answer": "x = -2 and x = -3",
+      "explanation": "Factor: x² + 5x + 6 = (x + 2)(x + 3). Setting each factor to zero gives x = -2 and x = -3."
+    },
+    {
+      "question": "Subtract: (5x² + 3x) - (2x² - x)",
+      "answer": "3x² + 4x",
+      "explanation": "Distribute the negative: 5x² + 3x - 2x² + x. Combine like terms: 3x² + 4x."
+    },
+    {
+      "question": "Multiply: (x + 2)(x + 3)",
+      "answer": "x² + 5x + 6",
+      "explanation": "Use FOIL: x² + 3x + 2x + 6 = x² + 5x + 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:50:38.726Z",
+  "model": "claude-haiku-4-5-20251001"
+}

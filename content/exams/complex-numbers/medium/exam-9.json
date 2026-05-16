@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-medium-9",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Simplify: (3 + 2i)(4 - i)",
+      "answer": "14 + 5i",
+      "explanation": "Use FOIL: 3(4) + 3(-i) + 2i(4) + 2i(-i) = 12 - 3i + 8i - 2i² = 12 + 5i + 2 = 14 + 5i."
+    },
+    {
+      "question": "What is i^{47}?",
+      "answer": "-i",
+      "explanation": "Powers of i repeat every 4: i^1 = i, i^2 = -1, i^3 = -i, i^4 = 1. Since 47 = 4(11) + 3, i^{47} = i^3 = -i."
+    },
+    {
+      "question": "Divide: (6 + 8i)/(2 - i). Write your answer as a + bi.",
+      "answer": "(4/5) + (22/5)i",
+      "explanation": "Multiply by conjugate 2 + i: numerator = 12 + 6i + 16i - 8 = 4 + 22i; denominator = 4 + 1 = 5. Result: (4 + 22i)/5."
+    },
+    {
+      "question": "If z = 2 - 3i, find z̄ + z (where z̄ is the complex conjugate).",
+      "answer": "4",
+      "explanation": "The conjugate of 2 - 3i is 2 + 3i. Adding: (2 + 3i) + (2 - 3i) = 4."
+    },
+    {
+      "question": "Simplify: (1 + i)⁴",
+      "answer": "-4",
+      "explanation": "Calculate step-by-step: (1 + i)² = 1 + 2i - 1 = 2i. Then (2i)² = 4i² = -4."
+    },
+    {
+      "question": "A complex number has real part 5 and imaginary part −7. When you multiply this complex number by i, what is the resulting complex number?",
+      "answer": "7 + 5i",
+      "explanation": "The complex number is 5 - 7i. Multiplying by i: i(5 - 7i) = 5i - 7i² = 5i + 7 = 7 + 5i."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:11:05.110Z",
+  "model": "claude-haiku-4-5-20251001"
+}

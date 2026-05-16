@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-5",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "25% of $40 = 0.25 × 40 = $10. Sale price = $40 − $10 = $30."
+    },
+    {
+      "question": "A student scores 18 out of 20 on a quiz. What is the student's percent score?",
+      "answer": "90%",
+      "explanation": "Percent = (18 ÷ 20) × 100 = 0.9 × 100 = 90%."
+    },
+    {
+      "question": "A restaurant bill is $60. If you leave a 15% tip, how much is the tip?",
+      "answer": "$9",
+      "explanation": "15% of $60 = 0.15 × 60 = $9."
+    },
+    {
+      "question": "The price of a book increases from $20 to $24. What is the percent increase?",
+      "answer": "20%",
+      "explanation": "Change = $24 − $20 = $4. Percent increase = ($4 ÷ $20) × 100 = 0.2 × 100 = 20%."
+    },
+    {
+      "question": "A store buys a video game for $30 and sells it for $45. What is the percent markup?",
+      "answer": "50%",
+      "explanation": "Markup = $45 − $30 = $15. Percent markup = ($15 ÷ $30) × 100 = 0.5 × 100 = 50%."
+    },
+    {
+      "question": "If a jacket is discounted by 10%, and the original price is $50, how much do you save?",
+      "answer": "$5",
+      "explanation": "10% of $50 = 0.10 × 50 = $5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:53.638Z",
+  "model": "claude-haiku-4-5-20251001"
+}

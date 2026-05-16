@@ -1,0 +1,42 @@
+{
+  "id": "functions-medium-5",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Let f(x) = 2x − 3 and g(x) = x². Find f(g(2)).",
+      "answer": "5",
+      "explanation": "First evaluate g(2) = 2² = 4. Then f(4) = 2(4) − 3 = 8 − 3 = 5."
+    },
+    {
+      "question": "If h(x) = 3x + 1, what is the value of x when h(x) = 16?",
+      "answer": "5",
+      "explanation": "Set 3x + 1 = 16, so 3x = 15, giving x = 5."
+    },
+    {
+      "question": "A function f is defined by f(x) = (x − 2)². Describe what transformation has been applied to the parent function p(x) = x².",
+      "answer": "Horizontal shift right 2 units",
+      "explanation": "The expression (x − 2) inside the square indicates a rightward shift of 2 units compared to x²."
+    },
+    {
+      "question": "Let f(x) = 4x² and g(x) = x + 5. Find g(f(3)).",
+      "answer": "41",
+      "explanation": "f(3) = 4(3)² = 4(9) = 36. Then g(36) = 36 + 5 = 41."
+    },
+    {
+      "question": "The function k(x) = |x − 1| − 2 is a transformation of the absolute value parent function. What is the vertex of this function?",
+      "answer": "(1, −2)",
+      "explanation": "The vertex of |x − a| + b is at (a, b). Here a = 1 and b = −2, so the vertex is (1, −2)."
+    },
+    {
+      "question": "If f(x) = 2x − 7 and f(a) = 3, what is the value of a?",
+      "answer": "5",
+      "explanation": "Set 2a − 7 = 3, so 2a = 10, giving a = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:28.411Z",
+  "model": "claude-haiku-4-5-20251001"
+}

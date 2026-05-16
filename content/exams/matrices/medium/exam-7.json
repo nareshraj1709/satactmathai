@@ -1,0 +1,42 @@
+{
+  "id": "matrices-medium-7",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Find the determinant of the matrix $\\begin{pmatrix} 4 & -2 \\\\ 3 & 5 \\end{pmatrix}$.",
+      "answer": "26",
+      "explanation": "For a 2×2 matrix $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$, the determinant is $ad - bc$. Here: $4(5) - (-2)(3) = 20 + 6 = 26$."
+    },
+    {
+      "question": "Multiply the matrices $\\begin{pmatrix} 2 & 1 \\\\ 0 & 3 \\end{pmatrix} \\begin{pmatrix} 1 & 4 \\\\ -1 & 2 \\end{pmatrix}$. What is the entry in row 1, column 2?",
+      "answer": "9",
+      "explanation": "Row 1, column 2 comes from row 1 of the first matrix times column 2 of the second: $2(4) + 1(2) = 8 + 1 = 9$."
+    },
+    {
+      "question": "A matrix $A = \\begin{pmatrix} 3 & 2 \\\\ 1 & 4 \\end{pmatrix}$ is multiplied by a scalar 2. What is the determinant of $2A$?",
+      "answer": "40",
+      "explanation": "When a 2×2 matrix is multiplied by scalar $k$, the determinant is multiplied by $k^2$. Original det: $3(4) - 2(1) = 10$. So $\\det(2A) = 2^2 \\cdot 10 = 40$."
+    },
+    {
+      "question": "If $\\begin{pmatrix} x & 2 \\\\ 3 & 1 \\end{pmatrix} \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix}$, find the value of $x$.",
+      "answer": "x = 2",
+      "explanation": "Multiply row 1: $x(1) + 2(-1) = 0$, so $x - 2 = 0$, giving $x = 2$. Check with row 2: $3(1) + 1(-1) = 2$ ✓."
+    },
+    {
+      "question": "What is the trace (sum of diagonal entries) of $\\begin{pmatrix} 5 & -3 & 1 \\\\ 2 & 4 & 0 \\\\ -1 & 6 & 7 \\end{pmatrix}$?",
+      "answer": "16",
+      "explanation": "The trace is the sum of diagonal entries: $5 + 4 + 7 = 16$."
+    },
+    {
+      "question": "A manufacturer uses the matrix $\\begin{pmatrix} 2 & 3 \\\\ 1 & 4 \\end{pmatrix}$ to represent units of product A and B produced at two factories. If production is tripled, what is the determinant of the new matrix?",
+      "answer": "45",
+      "explanation": "Original determinant: $2(4) - 3(1) = 5$. When scaled by factor 3, determinant is multiplied by $3^2 = 9$. New determinant: $5 \\times 9 = 45$."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:17:04.856Z",
+  "model": "claude-haiku-4-5-20251001"
+}

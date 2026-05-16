@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-9",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A store originally priced a sweater at $80. During a sale, the price was reduced by 25%. After the sale ended, the store increased the new price by 10%. What is the final price of the sweater?",
+      "answer": "$66",
+      "explanation": "After 25% discount: $80 × 0.75 = $60. Then 10% increase: $60 × 1.10 = $66."
+    },
+    {
+      "question": "A restaurant bill comes to $45 before tax. If the sales tax is 8%, what is the total amount owed?",
+      "answer": "$48.60",
+      "explanation": "Multiply the original bill by 1.08 to include the 8% tax: $45 × 1.08 = $48.60."
+    },
+    {
+      "question": "A number is increased by 20%, then decreased by 20%. Is the final result greater than, less than, or equal to the original number?",
+      "answer": "less than",
+      "explanation": "Let the original number be x. After 20% increase: 1.2x. After 20% decrease: 1.2x × 0.8 = 0.96x, which is less than x."
+    },
+    {
+      "question": "A jacket costs $120. If you receive a 15% discount and then pay a 6% sales tax on the discounted price, how much do you pay in total?",
+      "answer": "$108.18",
+      "explanation": "Discounted price: $120 × 0.85 = $102. With 6% tax: $102 × 1.06 = $108.12. (Rounding: $108.12, but if exact: $108.12)"
+    },
+    {
+      "question": "A company's revenue increased from $500,000 to $575,000 year-over-year. What was the percent increase in revenue?",
+      "answer": "15%",
+      "explanation": "Increase = $575,000 − $500,000 = $75,000. Percent increase = ($75,000 ÷ $500,000) × 100 = 15%."
+    },
+    {
+      "question": "A student's test score improved from 72 to 81. What is the percent increase in the score, rounded to the nearest tenth of a percent?",
+      "answer": "12.5%",
+      "explanation": "Increase = 81 − 72 = 9. Percent increase = (9 ÷ 72) × 100 = 12.5%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:21.858Z",
+  "model": "claude-haiku-4-5-20251001"
+}

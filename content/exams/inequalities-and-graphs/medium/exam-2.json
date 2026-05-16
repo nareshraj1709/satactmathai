@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-medium-2",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for x: 3x - 7 < 2x + 4",
+      "answer": "x < 11",
+      "explanation": "Subtract 2x from both sides: x - 7 < 4. Add 7 to both sides: x < 11."
+    },
+    {
+      "question": "A phone plan costs $30 per month plus $0.15 per text message. If Maria wants to spend no more than $50 per month, what is the maximum number of text messages she can send?",
+      "answer": "133",
+      "explanation": "Set up: 30 + 0.15m ≤ 50. Subtract 30: 0.15m ≤ 20. Divide by 0.15: m ≤ 133.33. Max whole messages: 133."
+    },
+    {
+      "question": "Which inequality represents the graph of a solid horizontal line at y = -2 with the region above it shaded?",
+      "answer": "y ≥ -2",
+      "explanation": "A solid line means equality is included (≥ or ≤). Shading above the line means y-values are greater than the line's y-coordinate."
+    },
+    {
+      "question": "Solve the compound inequality: -3 ≤ 2x + 1 < 5",
+      "answer": "-2 ≤ x < 2",
+      "explanation": "Split into two parts: -3 ≤ 2x + 1 gives -4 ≤ 2x, so x ≥ -2. And 2x + 1 < 5 gives 2x < 4, so x < 2. Combine: -2 ≤ x < 2."
+    },
+    {
+      "question": "For the system y > 2x - 1 and y ≤ -x + 4, which point (x, y) satisfies both inequalities?",
+      "answer": "(1, 2)",
+      "explanation": "Test (1, 2): Is 2 > 2(1) - 1 = 1? Yes. Is 2 ≤ -1 + 4 = 3? Yes. Both true, so (1, 2) works."
+    },
+    {
+      "question": "Solve for x and express as an inequality: The difference between 5 times a number and 8 is at least 12.",
+      "answer": "x ≥ 4",
+      "explanation": "Write the equation: 5x - 8 ≥ 12. Add 8: 5x ≥ 20. Divide by 5: x ≥ 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:00.078Z",
+  "model": "claude-haiku-4-5-20251001"
+}

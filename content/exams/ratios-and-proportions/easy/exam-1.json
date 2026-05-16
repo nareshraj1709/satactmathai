@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-1",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of flour, how many cups of sugar do you need?",
+      "answer": "9",
+      "explanation": "Set up the proportion: 2/3 = 6/x. Cross-multiply: 2x = 18, so x = 9."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 4:5. If there are 20 boys, how many girls are there?",
+      "answer": "25",
+      "explanation": "Use the ratio 4:5. If 4 parts = 20 boys, then 1 part = 5. So 5 parts = 5 × 5 = 25 girls."
+    },
+    {
+      "question": "A map has a scale of 1 inch : 50 miles. If two cities are 3 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "150",
+      "explanation": "Scale means 1 inch represents 50 miles. Multiply: 3 inches × 50 miles/inch = 150 miles."
+    },
+    {
+      "question": "If 5 notebooks cost $15, what is the cost of 8 notebooks at the same rate?",
+      "answer": "$24",
+      "explanation": "Find the unit price: $15 ÷ 5 = $3 per notebook. Then 8 × $3 = $24."
+    },
+    {
+      "question": "A car travels 180 miles on 6 gallons of gas. At this rate, how many miles can it travel on 10 gallons?",
+      "answer": "300",
+      "explanation": "Find miles per gallon: 180 ÷ 6 = 30 mpg. Then 30 × 10 = 300 miles."
+    },
+    {
+      "question": "The ratio of red to blue marbles is 3:7. If there are 30 red marbles, how many blue marbles are there?",
+      "answer": "70",
+      "explanation": "Use the ratio 3:7. If 3 parts = 30 red, then 1 part = 10. So 7 parts = 7 × 10 = 70 blue marbles."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:33.384Z",
+  "model": "claude-haiku-4-5-20251001"
+}

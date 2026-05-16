@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-1",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: m/2 - 3 = 7",
+      "answer": "m = 20",
+      "explanation": "Add 3 to both sides: m/2 = 10. Multiply by 2: m = 20."
+    },
+    {
+      "question": "A movie ticket costs $12. You have $50. After buying one ticket, how much money do you have left? Write an equation and solve.",
+      "answer": "50 - 12 = 38; you have $38 left",
+      "explanation": "Start with $50, subtract the ticket cost of $12. The equation is 50 - 12 = x, which gives x = 38."
+    },
+    {
+      "question": "Solve for y: 4y = 2y + 8",
+      "answer": "y = 4",
+      "explanation": "Subtract 2y from both sides: 2y = 8. Divide by 2: y = 4."
+    },
+    {
+      "question": "Solve for x: 0.5x + 1.5 = 4.5",
+      "answer": "x = 6",
+      "explanation": "Subtract 1.5 from both sides: 0.5x = 3. Divide by 0.5: x = 6."
+    },
+    {
+      "question": "Solve for n: 2(n + 3) = 14",
+      "answer": "n = 4",
+      "explanation": "Divide both sides by 2: n + 3 = 7. Subtract 3: n = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:24.189Z",
+  "model": "claude-haiku-4-5-20251001"
+}

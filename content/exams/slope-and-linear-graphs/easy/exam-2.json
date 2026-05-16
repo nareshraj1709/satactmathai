@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-easy-2",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (2, 5) and (4, 9).",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (9 - 5)/(4 - 2) = 4/2 = 2."
+    },
+    {
+      "question": "What is the y-intercept of the line y = 3x - 7?",
+      "answer": "-7",
+      "explanation": "In slope-intercept form y = mx + b, the y-intercept is b. Here b = -7."
+    },
+    {
+      "question": "A line passes through (0, 2) and (1, 5). Write the equation of the line in the form y = mx + b.",
+      "answer": "y = 3x + 2",
+      "explanation": "Slope m = (5 - 2)/(1 - 0) = 3. Since the line passes through (0, 2), the y-intercept is 2. So y = 3x + 2."
+    },
+    {
+      "question": "What is the slope of a horizontal line?",
+      "answer": "0",
+      "explanation": "A horizontal line has no vertical change (Δy = 0), so the slope is 0/Δx = 0."
+    },
+    {
+      "question": "A line has slope -2 and passes through the point (3, 1). What is the y-intercept?",
+      "answer": "7",
+      "explanation": "Use y = mx + b: 1 = -2(3) + b gives 1 = -6 + b, so b = 7."
+    },
+    {
+      "question": "The line 2x + y = 8 can be written as y = mx + b. What is the slope?",
+      "answer": "-2",
+      "explanation": "Solve for y: y = -2x + 8. The slope is the coefficient of x, which is -2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:20:44.776Z",
+  "model": "claude-haiku-4-5-20251001"
+}

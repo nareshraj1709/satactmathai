@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-6",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A bacteria population doubles every 3 hours. If there are 50 bacteria at the start, how many bacteria will there be after 6 hours?",
+      "answer": "200",
+      "explanation": "After 6 hours, two doubling periods have passed (6 ÷ 3 = 2). Starting with 50: after 3 hours there are 100, and after 6 hours there are 200."
+    },
+    {
+      "question": "The value of a car depreciates by half every 5 years. If the car is worth $16,000 today, what will it be worth in 10 years?",
+      "answer": "$4,000",
+      "explanation": "In 10 years, there are two half-life periods (10 ÷ 5 = 2). After 5 years: $8,000. After 10 years: $4,000."
+    },
+    {
+      "question": "Write an exponential decay formula for a quantity that starts at 80 and decays by 25% each year. Let y be the quantity and t be the number of years.",
+      "answer": "y = 80(0.75)^t",
+      "explanation": "If the quantity decays by 25%, it retains 75% of its value each year. The initial amount is 80, so the formula is y = 80(0.75)^t."
+    },
+    {
+      "question": "A radioactive element has a half-life of 8 days. You start with 120 grams. How many grams remain after 16 days?",
+      "answer": "30",
+      "explanation": "16 days = 2 half-lives. After 8 days: 60 grams. After 16 days: 30 grams."
+    },
+    {
+      "question": "An investment grows by 10% per year. If you invest $200 initially, what is the value after 1 year?",
+      "answer": "$220",
+      "explanation": "Growth of 10% means multiplying by 1.10. Value = 200 × 1.10 = $220."
+    },
+    {
+      "question": "A virus population triples every 2 days. Write an exponential growth formula where P is the population and d is the number of days. Start with 5 viruses.",
+      "answer": "P = 5 · 3^(d/2)",
+      "explanation": "The population triples every 2 days, so the exponent is d/2. The formula is P = 5 · 3^(d/2)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:02.643Z",
+  "model": "claude-haiku-4-5-20251001"
+}

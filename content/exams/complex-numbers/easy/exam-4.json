@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-easy-4",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Simplify i³.",
+      "answer": "-i",
+      "explanation": "i³ = i² · i = (-1) · i = -i. Remember that i² = -1 by definition."
+    },
+    {
+      "question": "Compute (3 + 2i) + (1 - 5i).",
+      "answer": "4 - 3i",
+      "explanation": "Add real parts: 3 + 1 = 4. Add imaginary parts: 2i - 5i = -3i. Result: 4 - 3i."
+    },
+    {
+      "question": "What is i⁴?",
+      "answer": "1",
+      "explanation": "i⁴ = (i²)² = (-1)² = 1. Powers of i repeat every 4 terms."
+    },
+    {
+      "question": "Multiply (2 + i)(3 - i).",
+      "answer": "7 + i",
+      "explanation": "Use FOIL: 2·3 + 2·(-i) + i·3 + i·(-i) = 6 - 2i + 3i - i² = 6 + i + 1 = 7 + i."
+    },
+    {
+      "question": "Subtract (5 + 4i) - (2 + i).",
+      "answer": "3 + 3i",
+      "explanation": "Subtract real parts: 5 - 2 = 3. Subtract imaginary parts: 4i - i = 3i. Result: 3 + 3i."
+    },
+    {
+      "question": "Simplify i⁶.",
+      "answer": "-1",
+      "explanation": "i⁶ = i⁴ · i² = 1 · (-1) = -1. Alternatively, 6 = 4 + 2, so i⁶ has the same value as i²."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:10:34.491Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "functions-medium-6",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Let f(x) = 3x − 2 and g(x) = x² + 1. Find f(g(2)).",
+      "answer": "10",
+      "explanation": "First find g(2) = 2² + 1 = 5. Then f(5) = 3(5) − 2 = 15 − 2 = 10."
+    },
+    {
+      "question": "If h(x) = 2x + 5, what is the value of h(h(1))?",
+      "answer": "17",
+      "explanation": "h(1) = 2(1) + 5 = 7. Then h(7) = 2(7) + 5 = 14 + 5 = 17."
+    },
+    {
+      "question": "The function p(x) = (x − 3)² represents the square of a number decreased by 3. If p(k) = 16, what are the possible values of k?",
+      "answer": "k = 7 or k = −1",
+      "explanation": "(k − 3)² = 16, so k − 3 = ±4. Thus k − 3 = 4 gives k = 7, and k − 3 = −4 gives k = −1."
+    },
+    {
+      "question": "Let f(x) = 5 − x and g(x) = x/2. Find g(f(4)).",
+      "answer": "1/2 or 0.5",
+      "explanation": "f(4) = 5 − 4 = 1. Then g(1) = 1/2."
+    },
+    {
+      "question": "If j(x) = 2x² − 3x, evaluate j(x + 1) − j(x).",
+      "answer": "4x − 1",
+      "explanation": "j(x+1) = 2(x+1)² − 3(x+1) = 2(x² + 2x + 1) − 3x − 3 = 2x² + x − 1. Then j(x+1) − j(x) = (2x² + x − 1) − (2x² − 3x) = 4x − 1."
+    },
+    {
+      "question": "A function is defined as m(x) = |x − 4|. For what value(s) of x does m(x) = 3?",
+      "answer": "x = 1 or x = 7",
+      "explanation": "|x − 4| = 3 means x − 4 = 3 or x − 4 = −3, giving x = 7 or x = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:29.025Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-8",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55",
+      "explanation": "The sum of angles in a triangle is 180°. Therefore, angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one acute angle that measures 34°. What is the measure of the other acute angle?",
+      "answer": "56",
+      "explanation": "In a right triangle, the two acute angles are complementary (sum to 90°). The other acute angle = 90° − 34° = 56°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 72°. What is the measure of each base angle?",
+      "answer": "54",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 72°, then 2x + 72° = 180°, so x = 54°."
+    },
+    {
+      "question": "Two exterior angles of a triangle measure 115° and 128°. What is the measure of the third exterior angle?",
+      "answer": "117",
+      "explanation": "The sum of the three exterior angles of any triangle is always 360°. Therefore, the third exterior angle = 360° − 115° − 128° = 117°."
+    },
+    {
+      "question": "In triangle DEF, side DE = 8 cm, side EF = 12 cm, and side DF = 14 cm. Which angle in the triangle is the largest?",
+      "answer": "angle E",
+      "explanation": "In a triangle, the largest angle is opposite the longest side. Side DF = 14 cm is the longest, and it is opposite angle E."
+    },
+    {
+      "question": "An equilateral triangle has a side length of 10 cm. If you draw an altitude from one vertex to the opposite side, what is the length of that altitude? (Round to the nearest tenth if needed.)",
+      "answer": "8.7",
+      "explanation": "In an equilateral triangle, the altitude bisects the base. Using the Pythagorean theorem: h² + 5² = 10², so h² = 75, and h = √75 ≈ 8.7 cm."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:24.326Z",
+  "model": "claude-haiku-4-5-20251001"
+}

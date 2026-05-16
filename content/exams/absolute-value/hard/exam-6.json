@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-6",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve |2x - 5| = |x + 3| for all values of x.",
+      "answer": "x = 8 or x = 2/3",
+      "explanation": "Absolute value equations split into cases: either 2x - 5 = x + 3 (giving x = 8) or 2x - 5 = -(x + 3) (giving 3x = 2, so x = 2/3). Check both in the original equation."
+    },
+    {
+      "question": "For which values does |x - 4| + |x + 2| = 10?",
+      "answer": "x = 6 or x = -8",
+      "explanation": "The critical points are x = 4 and x = -8. Test three regions: x < -2 gives 6 - 2x = 10 (x = -8); -2 ≤ x < 4 gives 6 = 10 (no solution); x ≥ 4 gives 2x - 2 = 10 (x = 6)."
+    },
+    {
+      "question": "Solve the inequality |3x + 6| ≤ 12.",
+      "answer": "-6 ≤ x ≤ 2",
+      "explanation": "|3x + 6| ≤ 12 means -12 ≤ 3x + 6 ≤ 12. Subtract 6: -18 ≤ 3x ≤ 6. Divide by 3: -6 ≤ x ≤ 2."
+    },
+    {
+      "question": "A factory measures parts to a tolerance of |w - 50| < 2 millimeters, where w is the width. If a part measures 49.5 mm, does it pass inspection?",
+      "answer": "Yes",
+      "explanation": "Check: |49.5 - 50| = |-0.5| = 0.5. Since 0.5 < 2, the inequality is satisfied and the part passes."
+    },
+    {
+      "question": "Solve |x² - 4| = 5.",
+      "answer": "x = ±3 or x = ±√(-1) (no real solutions for the latter)",
+      "explanation": "Case 1: x² - 4 = 5 gives x² = 9, so x = ±3. Case 2: x² - 4 = -5 gives x² = -1, which has no real solutions. Answer: x = 3 or x = -3."
+    },
+    {
+      "question": "Solve the compound inequality |2x - 1| > 5 or |x + 4| ≤ 2.",
+      "answer": "x < -6 or x > 3 or -6 ≤ x ≤ -2",
+      "explanation": "First inequality: 2x - 1 > 5 or 2x - 1 < -5 gives x > 3 or x < -2. Second inequality: -2 ≤ x + 4 ≤ 2 gives -6 ≤ x ≤ -2. The union is x < -6 or x > 3, or equivalently, x ∈ (-∞, -6) ∪ (-6, -2] ∪ (3, ∞)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:47.189Z",
+  "model": "claude-haiku-4-5-20251001"
+}

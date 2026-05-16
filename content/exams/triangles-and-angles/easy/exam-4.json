@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-4",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 45° and angle B measures 65°. What is the measure of angle C?",
+      "answer": "70",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 45° − 65° = 70°."
+    },
+    {
+      "question": "A right triangle has one angle measuring 35°. What is the measure of the third angle?",
+      "answer": "55",
+      "explanation": "One angle is 90° (right angle), one is 35°. The third angle = 180° − 90° − 35° = 55°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle is 50°. What is the measure of each base angle?",
+      "answer": "65",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If vertex angle = 50°, then 2b + 50° = 180°, so each base angle = 65°."
+    },
+    {
+      "question": "Two angles in a triangle measure 28° and 62°. Is this triangle acute, right, or obtuse?",
+      "answer": "right",
+      "explanation": "The third angle = 180° − 28° − 62° = 90°. A triangle with a 90° angle is a right triangle."
+    },
+    {
+      "question": "In triangle PQR, the exterior angle at vertex Q is 120°. What is the measure of the interior angle at Q?",
+      "answer": "60",
+      "explanation": "An interior angle and its adjacent exterior angle are supplementary (sum to 180°). So interior angle Q = 180° − 120° = 60°."
+    },
+    {
+      "question": "A triangle has angles in the ratio 2:3:4. What is the measure of the largest angle?",
+      "answer": "80",
+      "explanation": "Let angles be 2x, 3x, and 4x. Then 2x + 3x + 4x = 180°, so 9x = 180°, x = 20°. The largest angle = 4(20°) = 80°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:55.412Z",
+  "model": "claude-haiku-4-5-20251001"
+}

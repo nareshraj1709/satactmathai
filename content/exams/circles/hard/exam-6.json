@@ -1,0 +1,42 @@
+{
+  "id": "circles-hard-6",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A circle has center (3, -2) and is tangent to the line y = 4. What is the radius of the circle?",
+      "answer": "6",
+      "explanation": "The distance from the center (3, -2) to the horizontal line y = 4 is |4 - (-2)| = 6. Since the circle is tangent to the line, the radius equals this distance."
+    },
+    {
+      "question": "A sector of a circle with radius 5 has arc length 4. What is the central angle in radians?",
+      "answer": "0.8 or 4/5",
+      "explanation": "Arc length = radius × angle (in radians). So 4 = 5 × θ, giving θ = 4/5 radians."
+    },
+    {
+      "question": "The circle x² + y² - 6x + 8y + 9 = 0 is tangent to the x-axis at exactly one point. Find the coordinates of that point.",
+      "answer": "(3, 0)",
+      "explanation": "Complete the square: (x - 3)² + (y + 4)² = 16. Center is (3, -4) with radius 4. Since the center is 4 units below the x-axis and radius is 4, the circle touches the x-axis at (3, 0)."
+    },
+    {
+      "question": "Two circles have radii 3 and 5, and their centers are 10 units apart. How many common tangent lines exist?",
+      "answer": "3",
+      "explanation": "Since the distance between centers (10) is greater than the sum of radii (8), the circles are external. External circles have 2 external tangents and 1 internal tangent, for a total of 3."
+    },
+    {
+      "question": "A sector has area 12π and central angle π/3 radians. What is the radius of the circle?",
+      "answer": "6",
+      "explanation": "Sector area = (1/2)r²θ. So 12π = (1/2)r²(π/3). Simplifying: 12π = πr²/6, giving r² = 72/π · π = 36, so r = 6."
+    },
+    {
+      "question": "A circle passes through (0, 0) and (4, 0), and has its center on the line y = x. What is the equation of the circle?",
+      "answer": "x² + y² - 4x - 4y = 0 or (x - 2)² + (y - 2)² = 8",
+      "explanation": "Center (h, h) is equidistant from (0, 0) and (4, 0). From (0, 0): h² + h² = 2h². From (4, 0): (h - 4)² + h² = 2h² - 8h + 16. Setting equal: 2h² = 2h² - 8h + 16, so h = 2. Center is (2, 2), radius = √8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:07:10.589Z",
+  "model": "claude-haiku-4-5-20251001"
+}

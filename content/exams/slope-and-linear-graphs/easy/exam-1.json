@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-easy-1",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (1, 3) and (4, 9).",
+      "answer": "2",
+      "explanation": "Use slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (9 − 3)/(4 − 1) = 6/3 = 2."
+    },
+    {
+      "question": "What is the y-intercept of the line y = 3x − 5?",
+      "answer": "-5",
+      "explanation": "In slope-intercept form y = mx + b, the y-intercept is b. Here b = −5."
+    },
+    {
+      "question": "Write the equation of a line with slope 2 and y-intercept 4.",
+      "answer": "y = 2x + 4",
+      "explanation": "Use slope-intercept form y = mx + b where m = 2 and b = 4."
+    },
+    {
+      "question": "A line passes through (0, 6) and (2, 10). What is its slope?",
+      "answer": "2",
+      "explanation": "m = (10 − 6)/(2 − 0) = 4/2 = 2."
+    },
+    {
+      "question": "Is the line y = −4x + 1 increasing or decreasing?",
+      "answer": "decreasing",
+      "explanation": "The slope is −4, which is negative. Negative slope means the line goes down from left to right."
+    },
+    {
+      "question": "Find the slope of the line passing through (2, 5) and (2, 9).",
+      "answer": "undefined",
+      "explanation": "The x-coordinates are the same, so the line is vertical. Vertical lines have undefined slope."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:07.538Z",
+  "model": "claude-haiku-4-5-20251001"
+}

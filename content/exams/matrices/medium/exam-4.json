@@ -1,0 +1,42 @@
+{
+  "id": "matrices-medium-4",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Let A = [[2, 3], [1, 4]]. Find the determinant of matrix A.",
+      "answer": "5",
+      "explanation": "For a 2×2 matrix [[a, b], [c, d]], det = ad − bc. Here: det(A) = (2)(4) − (3)(1) = 8 − 3 = 5."
+    },
+    {
+      "question": "Given B = [[1, 0], [2, 3]] and C = [[4, 1], [0, 2]], compute B + C.",
+      "answer": "[[5, 1], [2, 5]]",
+      "explanation": "Add corresponding elements: first row is (1+4, 0+1) = (5, 1); second row is (2+0, 3+2) = (2, 5)."
+    },
+    {
+      "question": "Find the product of matrices M = [[2, 1]] and N = [[3], [5]].",
+      "answer": "[[11]]",
+      "explanation": "For 1×2 times 2×1, multiply each element: (2)(3) + (1)(5) = 6 + 5 = 11. Result is a 1×1 matrix."
+    },
+    {
+      "question": "A matrix P has determinant −6. If you multiply one row of P by 2, what is the determinant of the new matrix?",
+      "answer": "-12",
+      "explanation": "Multiplying a single row (or column) by a scalar k multiplies the determinant by k. New det = 2 × (−6) = −12."
+    },
+    {
+      "question": "Compute the product [[3, 2], [1, 0]] × [[1, 0], [2, 1]].",
+      "answer": "[[7, 2], [1, 0]]",
+      "explanation": "Row 1: (3·1 + 2·2, 3·0 + 2·1) = (7, 2). Row 2: (1·1 + 0·2, 1·0 + 0·1) = (1, 0)."
+    },
+    {
+      "question": "A 2×2 matrix has determinant 8. After swapping its two rows, what is the determinant of the new matrix?",
+      "answer": "-8",
+      "explanation": "Swapping two rows multiplies the determinant by −1. New det = −1 × 8 = −8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:16:24.723Z",
+  "model": "claude-haiku-4-5-20251001"
+}

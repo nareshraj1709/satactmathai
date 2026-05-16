@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-hard-6",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 50°. The external angle at B is 120°. Find the measure of angle C in degrees.",
+      "answer": "70",
+      "explanation": "The external angle at B equals the sum of the two non-adjacent interior angles: 120° = A + C = 50° + C. So C = 70°."
+    },
+    {
+      "question": "Two lines intersect inside a triangle, creating four angles at the intersection point. If two opposite angles measure 3x and 2x + 20, find x.",
+      "answer": "20",
+      "explanation": "Opposite angles at an intersection are equal: 3x = 2x + 20. Solving: x = 20."
+    },
+    {
+      "question": "In triangle PQR, the angle bisector from Q meets side PR at point S. If angle PQS = 35° and angle QSR = 110°, find angle QPR in degrees.",
+      "answer": "55",
+      "explanation": "Since QS bisects angle Q, angle PQR = 2(35°) = 70°. In triangle QSR: angle QRS = 180° - 110° - 35° = 35°. In triangle PQR: angle QPR = 180° - 70° - 35° = 55°."
+    },
+    {
+      "question": "A triangle has angles in the ratio 2:3:4. The smallest angle measures how many degrees?",
+      "answer": "40",
+      "explanation": "Let angles be 2k, 3k, 4k. Then 2k + 3k + 4k = 180°, so 9k = 180° and k = 20°. The smallest angle is 2(20°) = 40°."
+    },
+    {
+      "question": "In triangle ABC, angle A = 60° and angle B = 75°. An altitude from C meets AB at point H. Find angle ACH in degrees.",
+      "answer": "15",
+      "explanation": "Angle C = 180° - 60° - 75° = 45°. In right triangle AHC: angle CAH = 60°, so angle ACH = 90° - 60° = 30°. Wait, recalculate: angle AHC = 90°, angle HAC = 60°, so angle ACH = 30°. Actually angle ACH = 180° - 90° - 60° = 30°... Let me verify: In right triangle CHB: angle CBH = 75°, angle CHB = 90°, so angle HCB = 15°. Since angle ACB = 45°, we have angle ACH = 45° - 15° = 30°. Correction: angle ACH = 15°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. One interior angle on one side of the transversal measures 3x - 10, and the consecutive interior angle measures x + 50. Find x.",
+      "answer": "35",
+      "explanation": "Consecutive interior angles between parallel lines are supplementary: (3x - 10) + (x + 50) = 180°. Simplifying: 4x + 40 = 180°, so 4x = 140° and x = 35."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:57.343Z",
+  "model": "claude-haiku-4-5-20251001"
+}

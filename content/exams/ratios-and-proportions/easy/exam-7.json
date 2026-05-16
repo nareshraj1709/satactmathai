@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-7",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of sugar, how many cups of flour do you need?",
+      "answer": "4",
+      "explanation": "Set up the proportion: 2/3 = x/6. Cross-multiply: 3x = 12, so x = 4. You need 4 cups of flour."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 5:7. If there are 15 boys, how many girls are there?",
+      "answer": "21",
+      "explanation": "Use the ratio 5:7 = 15:x. Since 15 ÷ 5 = 3, multiply both parts by 3: (5 × 3):(7 × 3) = 15:21. There are 21 girls."
+    },
+    {
+      "question": "A car travels 120 miles in 2 hours. At the same rate, how many miles will it travel in 5 hours?",
+      "answer": "300",
+      "explanation": "Find the rate: 120 miles ÷ 2 hours = 60 miles per hour. In 5 hours: 60 × 5 = 300 miles."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles is 3:4. If there are 28 blue marbles, how many red marbles are there?",
+      "answer": "21",
+      "explanation": "Set up: 3/4 = x/28. Cross-multiply: 4x = 84, so x = 21. There are 21 red marbles."
+    },
+    {
+      "question": "A painting uses paint in the ratio of white:black = 2:1. If 9 liters of paint are used in total, how many liters of white paint are used?",
+      "answer": "6",
+      "explanation": "The ratio 2:1 means 2 + 1 = 3 parts total. White paint is 2/3 of the total: (2/3) × 9 = 6 liters."
+    },
+    {
+      "question": "Two numbers are in the ratio 5:8. If the smaller number is 20, what is the larger number?",
+      "answer": "32",
+      "explanation": "The ratio 5:8 means 5k:8k for some constant k. If 5k = 20, then k = 4. The larger number is 8k = 8(4) = 32."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:32.558Z",
+  "model": "claude-haiku-4-5-20251001"
+}

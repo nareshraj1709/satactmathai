@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-9",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one angle measuring 34°. What is the measure of the third angle?",
+      "answer": "56",
+      "explanation": "One angle is 90° (right angle), another is 34°. The third angle = 180° − 90° − 34° = 56°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 52°. What is the measure of each base angle?",
+      "answer": "64",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 52°, then 2x + 52 = 180, so x = 64°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. One of the alternate interior angles measures 73°. What is the measure of the other alternate interior angle?",
+      "answer": "73",
+      "explanation": "Alternate interior angles are congruent when formed by parallel lines and a transversal. Both angles measure 73°."
+    },
+    {
+      "question": "A triangle has sides of length 5 and 8. Which of the following could be the length of the third side: 2, 3, 12, or 13? List all that work.",
+      "answer": "3, 12",
+      "explanation": "By the triangle inequality, the third side x must satisfy |5 − 8| < x < 5 + 8, so 3 < x < 13. Both 3 < x and x < 13 hold, giving 3 and 12 as valid options."
+    },
+    {
+      "question": "In a 45–45–90 triangle, the legs each measure 6 cm. What is the length of the hypotenuse? (Express your answer in simplified radical form.)",
+      "answer": "6√2",
+      "explanation": "In a 45–45–90 triangle, if each leg has length a, the hypotenuse has length a√2. Here, hypotenuse = 6√2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:53.566Z",
+  "model": "claude-haiku-4-5-20251001"
+}

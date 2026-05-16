@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-5",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 7 cm and the hypotenuse is 12 cm. Which trigonometric ratio would you use to verify this relationship?",
+      "answer": "sin(35°) = 7/12",
+      "explanation": "The sine ratio relates the opposite side to the hypotenuse: sin(θ) = opposite/hypotenuse. Here, sin(35°) = 7/12."
+    },
+    {
+      "question": "Find cos(60°) using the unit circle.",
+      "answer": "1/2",
+      "explanation": "On the unit circle, the point at 60° is (1/2, √3/2). The x-coordinate gives cosine, so cos(60°) = 1/2."
+    },
+    {
+      "question": "A ladder leans against a wall at a 70° angle from the ground. If the ladder is 10 feet long, how far up the wall does it reach? Round to the nearest tenth.",
+      "answer": "9.4 feet",
+      "explanation": "The height is the side opposite the 70° angle. Use sin(70°) = height/10, so height = 10·sin(70°) ≈ 10(0.94) = 9.4 feet."
+    },
+    {
+      "question": "What is the value of tan(45°)?",
+      "answer": "1",
+      "explanation": "At 45°, the unit circle point is (√2/2, √2/2). Since tan(θ) = sin(θ)/cos(θ), we get tan(45°) = (√2/2)/(√2/2) = 1."
+    },
+    {
+      "question": "In a right triangle, the adjacent side to a 40° angle is 8 inches. Find the hypotenuse length to the nearest tenth.",
+      "answer": "10.4 inches",
+      "explanation": "Use the cosine ratio: cos(40°) = adjacent/hypotenuse = 8/hypotenuse. So hypotenuse = 8/cos(40°) ≈ 8/0.766 ≈ 10.4 inches."
+    },
+    {
+      "question": "Evaluate sin(90°) + cos(0°) − tan(45°).",
+      "answer": "1",
+      "explanation": "sin(90°) = 1, cos(0°) = 1, tan(45°) = 1. Therefore, 1 + 1 − 1 = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:07.837Z",
+  "model": "claude-haiku-4-5-20251001"
+}

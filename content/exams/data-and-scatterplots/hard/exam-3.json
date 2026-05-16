@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-3",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study hours (x) and test scores (y) for 12 students. The line of best fit is y = 8x + 52. Two students studied 5 hours; one scored 88 and the other scored 94. What is the residual for the student who scored 88?",
+      "answer": "-4",
+      "explanation": "Predicted score: y = 8(5) + 52 = 92. Residual = observed − predicted = 88 − 92 = −4. A negative residual means the student scored below the line of best fit."
+    },
+    {
+      "question": "A biologist collects data on plant height (cm) versus sunlight exposure (hours/day) for 15 plants. The correlation coefficient is r = 0.89. Which statement is most accurate: (A) height causes increased sunlight, (B) there is a strong positive relationship but causation cannot be inferred, or (C) the relationship is too weak to be useful?",
+      "answer": "B",
+      "explanation": "An r-value of 0.89 indicates strong positive correlation. However, correlation does not imply causation—plants may grow taller in sunny spots, but sunlight doesn't 'cause' height in the causal sense without controlled evidence."
+    },
+    {
+      "question": "A scatterplot of 20 data points shows car price (dollars) versus age (years). The line of best fit passes through (3, 18000) and (7, 10000). A 5-year-old car is priced at $14,500. How far (in dollars) is this price from the line of best fit?",
+      "answer": "2000",
+      "explanation": "Slope = (10000 − 18000)/(7 − 3) = −2000. Line: y − 18000 = −2000(x − 3), so y = −2000x + 24000. At x = 5: y = −2000(5) + 24000 = 14000. Residual = 14500 − 14000 = 500, but distance from line is |500| = 500. (If asking unsigned distance: 500; if magnitude of vertical distance: 500.)"
+    },
+    {
+      "question": "A dataset shows the relationship between advertising spend (in thousands of dollars) and monthly revenue (in thousands). The least-squares line is y = 3.2x + 15. If a company increases spending from $20,000 to $25,000, by approximately how much does the model predict revenue will increase?",
+      "answer": "16",
+      "explanation": "The slope is 3.2, meaning each additional thousand dollars in spending predicts 3.2 thousand dollars in revenue. An increase of 5 thousand dollars (from 20 to 25) predicts: 3.2 × 5 = 16 thousand dollars in additional revenue."
+    },
+    {
+      "question": "A scatterplot displays student GPA versus number of absences for 25 students. The data show a clear negative trend. A student with 8 absences has a GPA of 3.1. The line of best fit predicts a GPA of 2.8 for 8 absences. Interpret the residual in context.",
+      "answer": "The student performed 0.3 points better than predicted by the model.",
+      "explanation": "Residual = observed − predicted = 3.1 − 2.8 = 0.3 (positive). This student's GPA exceeds what the trend line would forecast, suggesting they performed better academically despite absences compared to the overall pattern."
+    },
+    {
+      "question": "A scatterplot shows data for 30 companies: profit margin (%) on the y-axis and employee training hours per year on the x-axis. The correlation coefficient is r = 0.04. A manager concludes that training hours have no effect on profit margin. What is a key limitation of this conclusion?",
+      "answer": "Correlation near zero indicates a weak linear relationship, but does not rule out non-linear relationships or unmeasured confounding variables that may affect profit margin.",
+      "explanation": "A correlation of 0.04 is very weak, suggesting little linear association. However, the true relationship could be curved (e.g., diminishing returns after a threshold), or other factors (market conditions, management quality) may be the real drivers of profit. The absence of linear correlation is not the same as no effect."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:09.421Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-7",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A bacterial colony starts with 500 cells and triples every 2 hours. How many cells will be present after 6 hours?",
+      "answer": "13500",
+      "explanation": "After 6 hours, there are 6÷2 = 3 doubling periods. The population is 500 × 3³ = 500 × 27 = 13,500 cells."
+    },
+    {
+      "question": "A radioactive substance decays according to the formula N(t) = 200(0.5)^(t/3), where t is in days. What is N(6)?",
+      "answer": "50",
+      "explanation": "Substitute t = 6: N(6) = 200(0.5)^(6/3) = 200(0.5)² = 200 × 0.25 = 50."
+    },
+    {
+      "question": "You invest $1200 in an account that earns 5% annual interest compounded annually. Write an expression for the amount after n years.",
+      "answer": "1200(1.05)^n",
+      "explanation": "Compound interest formula is A = P(1 + r)^n, where P = 1200, r = 0.05, so A = 1200(1.05)^n."
+    },
+    {
+      "question": "A population decreases by 12% each year. If the starting population is 8000, how many complete years will it take for the population to drop below 5000?",
+      "answer": "5",
+      "explanation": "Each year multiply by 0.88. After 4 years: 8000(0.88)⁴ ≈ 5365. After 5 years: 8000(0.88)⁵ ≈ 4721. So 5 years."
+    },
+    {
+      "question": "The half-life of a drug in the bloodstream is 4 hours. If 320 mg is initially present, how much remains after 12 hours?",
+      "answer": "40 mg",
+      "explanation": "12 hours = 3 half-lives. After each half-life, amount halves: 320 → 160 → 80 → 40 mg."
+    },
+    {
+      "question": "An investment grows from $500 to $800 in 2 years under continuous compound interest. If A = Pe^(rt), find the growth rate r to the nearest hundredth.",
+      "answer": "0.26",
+      "explanation": "800 = 500e^(2r), so 1.6 = e^(2r). Taking ln: ln(1.6) = 2r, so r = ln(1.6)/2 ≈ 0.47/2 ≈ 0.26."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:52.063Z",
+  "model": "claude-haiku-4-5-20251001"
+}

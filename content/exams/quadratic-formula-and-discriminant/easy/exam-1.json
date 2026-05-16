@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-1",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve: x² + 5x + 6 = 0",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using x = [-b ± √(b² - 4ac)] / 2a with a=1, b=5, c=6: x = [-5 ± √(25-24)] / 2 = [-5 ± 1] / 2, giving x = -2 and x = -3."
+    },
+    {
+      "question": "Find the discriminant of 2x² - 8x + 3 = 0. Does the equation have real solutions?",
+      "answer": "Discriminant = 40; yes, it has real solutions",
+      "explanation": "Discriminant = b² - 4ac = (-8)² - 4(2)(3) = 64 - 24 = 40. Since 40 > 0, there are two distinct real solutions."
+    },
+    {
+      "question": "A rocket's height is modeled by h(t) = -5t² + 20t + 5, where t is time in seconds. Using the quadratic formula, find when the rocket reaches a height of 0 meters (round to one decimal place if needed, but find exact form first).",
+      "answer": "t = 2 + √5 or t = 2 - √5 (approximately t ≈ 4.2 or t ≈ -0.2)",
+      "explanation": "Set -5t² + 20t + 5 = 0, divide by -5: t² - 4t - 1 = 0. Use quadratic formula: t = [4 ± √(16+4)] / 2 = [4 ± √20] / 2 = [4 ± 2√5] / 2 = 2 ± √5. Only t ≈ 4.2 is physically meaningful."
+    },
+    {
+      "question": "For what value(s) of k does x² + kx + 9 = 0 have exactly one real solution?",
+      "answer": "k = 6 or k = -6",
+      "explanation": "A quadratic has exactly one real solution when the discriminant equals 0. Here, k² - 4(1)(9) = 0, so k² = 36, giving k = ±6."
+    },
+    {
+      "question": "Determine the number of real solutions for 3x² + 2x + 5 = 0 without solving.",
+      "answer": "0 (no real solutions)",
+      "explanation": "The discriminant is b² - 4ac = 4 - 4(3)(5) = 4 - 60 = -56. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "Solve x² - 7x = 0 using the quadratic formula.",
+      "answer": "x = 0 or x = 7",
+      "explanation": "Rewrite as x² - 7x + 0 = 0. Using the quadratic formula: x = [7 ± √(49-0)] / 2 = [7 ± 7] / 2, giving x = 7 and x = 0."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:33.607Z",
+  "model": "claude-haiku-4-5-20251001"
+}

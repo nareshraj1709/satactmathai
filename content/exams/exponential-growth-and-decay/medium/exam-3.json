@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-3",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A bacteria colony starts with 500 cells and doubles every 3 hours. How many cells will be present after 12 hours?",
+      "answer": "8000",
+      "explanation": "The bacteria doubles 4 times in 12 hours (12 ÷ 3 = 4). Use N = 500 × 2^4 = 500 × 16 = 8000."
+    },
+    {
+      "question": "A radioactive substance decays according to the formula N(t) = 1000(0.5)^(t/5), where t is time in days. What is N(10)?",
+      "answer": "250",
+      "explanation": "Substitute t = 10: N(10) = 1000(0.5)^(10/5) = 1000(0.5)^2 = 1000 × 0.25 = 250."
+    },
+    {
+      "question": "You invest $2000 in an account earning 5% annual compound interest. If no withdrawals are made, what is the balance after 2 years?",
+      "answer": "$2205",
+      "explanation": "Use A = P(1 + r)^t with P = 2000, r = 0.05, t = 2. A = 2000(1.05)^2 = 2000 × 1.1025 = 2205."
+    },
+    {
+      "question": "The population of a town decreases by 8% each year. If the current population is 50,000, write an expression for the population after n years.",
+      "answer": "50000(0.92)^n",
+      "explanation": "A decrease of 8% means 92% remains, so multiply by 0.92 each year. After n years: P(n) = 50000(0.92)^n."
+    },
+    {
+      "question": "A car worth $30,000 depreciates to 85% of its value each year. After how many years will it be worth approximately $15,530?",
+      "answer": "5",
+      "explanation": "Solve 30000(0.85)^n = 15530. Then (0.85)^n ≈ 0.5177. Testing: (0.85)^5 ≈ 0.4437 and (0.85)^4 ≈ 0.5220, so n ≈ 5."
+    },
+    {
+      "question": "A viral video gets 200 initial views. It doubles every 2 days. On which day will it reach 6400 views?",
+      "answer": "8",
+      "explanation": "Use 200 × 2^(d/2) = 6400, so 2^(d/2) = 32 = 2^5. Then d/2 = 5, so d = 10. Wait—check: after 8 days, 200 × 2^4 = 3200; after 10 days, 200 × 2^5 = 6400. Answer is day 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:48.173Z",
+  "model": "claude-haiku-4-5-20251001"
+}

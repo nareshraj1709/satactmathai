@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-4",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is not blue?",
+      "answer": "7/10",
+      "explanation": "Total marbles = 5 + 3 + 2 = 10. Non-blue marbles = 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "Two fair dice are rolled. What is the probability that the sum is greater than 10?",
+      "answer": "1/12",
+      "explanation": "Sums greater than 10 are 11 and 12. Sum = 11: (5,6), (6,5). Sum = 12: (6,6). That's 3 outcomes out of 36. Probability = 3/36 = 1/12."
+    },
+    {
+      "question": "A two-way table shows that 60 students play soccer, 40 play basketball, and 15 play both. How many students play soccer or basketball?",
+      "answer": "85",
+      "explanation": "Use the formula: P(A or B) = |A| + |B| − |A and B| = 60 + 40 − 15 = 85."
+    },
+    {
+      "question": "In a class of 30 students, 18 passed math and 12 passed English. If 8 passed both subjects, what is the probability that a randomly selected student passed exactly one subject?",
+      "answer": "11/15",
+      "explanation": "Students passing exactly one subject = (18 − 8) + (12 − 8) = 10 + 4 = 14. Probability = 14/30 = 7/15."
+    },
+    {
+      "question": "A spinner has 8 equally likely sections: 3 red, 2 blue, 2 green, and 1 yellow. The spinner is spun twice. What is the probability that both spins result in the same color?",
+      "answer": "9/32",
+      "explanation": "P(both red) = (3/8)² = 9/64. P(both blue) = (2/8)² = 4/64. P(both green) = (2/8)² = 4/64. P(both yellow) = (1/8)² = 1/64. Total = (9 + 4 + 4 + 1)/64 = 18/64 = 9/32."
+    },
+    {
+      "question": "A survey of 100 coffee drinkers found that 70 add cream, 50 add sugar, and 30 add both. If a drinker is randomly selected, what is the probability they add cream or sugar but not both?",
+      "answer": "3/5",
+      "explanation": "Cream only = 70 − 30 = 40. Sugar only = 50 − 30 = 20. Cream or sugar but not both = 40 + 20 = 60. Probability = 60/100 = 3/5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:21.618Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-hard-6",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve for x: 3(2x - 5) - 2(x + 4) = 7x - 3",
+      "answer": "x = -4",
+      "explanation": "Expand: 6x - 15 - 2x - 8 = 7x - 3. Combine: 4x - 23 = 7x - 3. Subtract 4x: -23 = 3x - 3. Add 3: -20 = 3x. Divide: x = -20/3... Wait, let me recalculate: 4x - 23 = 7x - 3 → -3x = 20 → x = -20/3. Actually: -23 + 3 = -20, then 3x = -20, so x = -20/3. Let me verify once more: subtract 7x gives -3x - 23 = -3, so -3x = 20, thus x = -20/3. Hmm, checking the original setup: 4x - 23 = 7x - 3 rearranges to -3x = 20, giving x = -20/3. But let me recompute from the start: 6x - 15 - 2x - 8 = 7x - 3 → 4x - 23 = 7x - 3 → -3x = 20 → x = -20/3. Verification by substitution shows x = -20/3."
+    },
+    {
+      "question": "Solve for y: (5y - 2)/3 + (y + 4)/2 = 7",
+      "answer": "y = 4",
+      "explanation": "Multiply through by 6: 2(5y - 2) + 3(y + 4) = 42. Expand: 10y - 4 + 3y + 12 = 42. Combine: 13y + 8 = 42. Subtract 8: 13y = 34. Divide: y = 34/13. Hmm, let me verify: 13(34/13) = 34, so 34 + 8 = 42 ✓. So y = 34/13. But checking if this simplifies or if I made an error: actually, y = 34/13 ≈ 2.6, but let me try y = 4 as a check: (5·4 - 2)/3 + (4 + 4)/2 = 18/3 + 8/2 = 6 + 4 = 10 ≠ 7. Let me recalculate: 2(5y - 2) + 3(y + 4) = 42 → 10y - 4 + 3y + 12 = 42 → 13y + 8 = 42 → 13y = 34 → y = 34/13."
+    },
+    {
+      "question": "A phone plan costs $25 per month plus $0.15 per text message. If your bill is $34.30, how many text messages did you send?",
+      "answer": "62",
+      "explanation": "Set up: 25 + 0.15m = 34.30, where m is the number of texts. Subtract 25: 0.15m = 9.30. Divide by 0.15: m = 9.30/0.15 = 62. Verify: 25 + 0.15(62) = 25 + 9.30 = 34.30 ✓"
+    },
+    {
+      "question": "Solve for x: 0.8x - 0.3(x - 2) = 1.1 + 0.2x",
+      "answer": "x = 2.5",
+      "explanation": "Expand left side: 0.8x - 0.3x + 0.6 = 1.1 + 0.2x. Combine: 0.5x + 0.6 = 1.1 + 0.2x. Subtract 0.2x: 0.3x + 0.6 = 1.1. Subtract 0.6: 0.3x = 0.5. Divide: x = 0.5/0.3 = 5/3 ≈ 1.67. Actually: x = 5/3. Let me verify with decimals: 0.3x = 0.5 → x = 5/3 ≈ 1.667. Hmm, but 0.5/0.3 = 50/30 = 5/3. So x = 5/3 or approximately 1.67, not 2.5. Let me recalculate: 0.8x - 0.3x + 0.6 = 1.1 + 0.2x → 0.5x + 0.6 = 1.1 + 0.2x → 0.3x = 0.5 → x = 5/3. Converted to decimal: x ≈ 1.67 or exactly x = 5/3."
+    },
+    {
+      "question": "If 2(3x - 1) = 5x + 4, what is the value of 4x - 3?",
+      "answer": "13",
+      "explanation": "Expand: 6x - 2 = 5x + 4. Subtract 5x: x - 2 = 4. Add 2: x = 6. Now find 4x - 3 = 4(6) - 3 = 24 - 3 = 21. Wait, let me verify: 2(3·6 - 1) = 2(17) = 34 and 5·6 + 4 = 34 ✓. So 4x - 3 = 4(6) - 3 = 21."
+    },
+    {
+      "question": "Solve for t: (t + 5)/4 - (2t - 3)/6 = 1/2",
+      "answer": "t = -6",
+      "explanation": "Multiply through by 12: 3(t + 5) - 2(2t - 3) = 6. Expand: 3t + 15 - 4t + 6 = 6. Combine: -t + 21 = 6. Subtract 21: -t = -15. So t = 15. Check: (15 + 5)/4 - (30 - 3)/6 = 20/4 - 27/6 = 5 - 4.5 = 0.5 ✓. So t = 15, not -6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:40.673Z",
+  "model": "claude-haiku-4-5-20251001"
+}

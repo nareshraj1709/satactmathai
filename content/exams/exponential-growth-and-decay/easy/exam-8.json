@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-8",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A bacterial colony starts with 100 cells and doubles every hour. How many cells will there be after 3 hours?",
+      "answer": "800",
+      "explanation": "After 1 hour: 100 × 2 = 200. After 2 hours: 200 × 2 = 400. After 3 hours: 400 × 2 = 800. Or use the formula: 100 × 2³ = 100 × 8 = 800."
+    },
+    {
+      "question": "A car depreciates at a rate of 10% per year. If it costs $20,000 today, what will it be worth after 1 year?",
+      "answer": "$18,000",
+      "explanation": "After 1 year, the car retains 90% of its value: $20,000 × 0.9 = $18,000."
+    },
+    {
+      "question": "An investment grows according to the formula A = 500(1.05)^t, where t is the time in years. What is the initial investment?",
+      "answer": "500",
+      "explanation": "In the exponential growth formula A = P(1 + r)^t, the coefficient P represents the initial amount. Here, P = 500."
+    },
+    {
+      "question": "A radioactive substance has a half-life of 4 days. If you start with 160 grams, how much will remain after 8 days?",
+      "answer": "40",
+      "explanation": "After 4 days (one half-life): 160 ÷ 2 = 80 grams. After 8 days (two half-lives): 80 ÷ 2 = 40 grams."
+    },
+    {
+      "question": "Write an exponential decay model for a quantity that starts at 1000 and decreases by 20% each year.",
+      "answer": "A = 1000(0.8)^t",
+      "explanation": "Decay by 20% means the quantity retains 80% each year. The model is A = initial amount × (decay factor)^t = 1000(0.8)^t."
+    },
+    {
+      "question": "If a population of 50 rabbits triples every 2 years, how many rabbits will there be after 4 years?",
+      "answer": "450",
+      "explanation": "After 2 years: 50 × 3 = 150. After 4 years (two periods of 2 years): 150 × 3 = 450."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:02.340Z",
+  "model": "claude-haiku-4-5-20251001"
+}

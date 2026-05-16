@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-4",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test scores. The points are (1, 60), (2, 70), (3, 80), and (4, 90). What is the slope of the line of best fit?",
+      "answer": "10",
+      "explanation": "The points lie on a straight line. The slope is (90 − 60)/(4 − 1) = 30/3 = 10. Each additional hour of study corresponds to a 10-point increase in score."
+    },
+    {
+      "question": "A scatterplot displays temperature (°F) versus ice cream sales. The line of best fit has equation y = 3x − 50, where x is temperature and y is sales in dollars. Predict ice cream sales when the temperature is 20°F.",
+      "answer": "$10 or 10",
+      "explanation": "Substitute x = 20 into y = 3(20) − 50 = 60 − 50 = 10. Sales are predicted to be $10."
+    },
+    {
+      "question": "The points on a scatterplot are (2, 5), (4, 9), (6, 13), and (8, 17). Do these points show a positive or negative association?",
+      "answer": "positive",
+      "explanation": "As x increases, y increases consistently. This is a positive association. The slope is positive (change of 4 for every change of 2 in x)."
+    },
+    {
+      "question": "A line of best fit passes through the points (0, 20) and (5, 40). What is the y-intercept?",
+      "answer": "20",
+      "explanation": "The y-intercept is the y-value when x = 0. The line passes through (0, 20), so the y-intercept is 20."
+    },
+    {
+      "question": "A scatterplot shows years of experience versus annual salary (in thousands of dollars). The line of best fit is y = 2x + 30. What does the slope of 2 represent in this context?",
+      "answer": "For each additional year of experience, salary increases by 2 thousand dollars (or $2,000)",
+      "explanation": "The slope is the rate of change. A slope of 2 means that for every 1-unit increase in x (years), y increases by 2 (thousands of dollars)."
+    },
+    {
+      "question": "A scatterplot shows a weak negative association between cloud cover and hours of sunshine. Should you use the line of best fit to make predictions for this data? Explain briefly.",
+      "answer": "No, because the association is weak, predictions would be unreliable.",
+      "explanation": "A weak association means the points are scattered far from the line of best fit. This reduces the accuracy and reliability of any predictions made using the line."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:43.395Z",
+  "model": "claude-haiku-4-5-20251001"
+}

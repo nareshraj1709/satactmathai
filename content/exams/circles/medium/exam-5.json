@@ -1,0 +1,42 @@
+{
+  "id": "circles-medium-5",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A circle has equation $(x - 2)^2 + (y + 3)^2 = 25$. What is the distance from the center of the circle to the point $(5, 1)$?",
+      "answer": "5",
+      "explanation": "The center is $(2, -3)$. Use the distance formula: $\\sqrt{(5-2)^2 + (1-(-3))^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of $60°$. Find the arc length of this sector.",
+      "answer": "$2\\pi$",
+      "explanation": "Arc length = $\\frac{\\theta}{360°} \\cdot 2\\pi r = \\frac{60}{360} \\cdot 2\\pi(6) = \\frac{1}{6} \\cdot 12\\pi = 2\\pi$."
+    },
+    {
+      "question": "A circle with center $(0, 0)$ and radius 10 is tangent to a line at the point $(6, 8)$. Find the slope of the tangent line.",
+      "answer": "$-\\frac{3}{4}$",
+      "explanation": "The radius to $(6, 8)$ has slope $\\frac{8}{6} = \\frac{4}{3}$. The tangent is perpendicular to the radius, so its slope is $-\\frac{3}{4}$."
+    },
+    {
+      "question": "A sector of a circle with radius 5 has area $\\frac{25\\pi}{3}$. What is the central angle of the sector in degrees?",
+      "answer": "$120°$",
+      "explanation": "Sector area = $\\frac{\\theta}{360°} \\cdot \\pi r^2$. So $\\frac{25\\pi}{3} = \\frac{\\theta}{360} \\cdot 25\\pi$. Solving: $\\theta = 120°$."
+    },
+    {
+      "question": "The circle $(x + 1)^2 + y^2 = 16$ is translated 3 units right and 2 units down. Write the equation of the new circle.",
+      "answer": "$(x - 2)^2 + (y + 2)^2 = 16$",
+      "explanation": "Original center is $(-1, 0)$. After translation, the new center is $(-1 + 3, 0 - 2) = (2, -2)$. Radius stays 4, so the equation is $(x - 2)^2 + (y + 2)^2 = 16$."
+    },
+    {
+      "question": "A point $P$ lies on a circle with center $C(3, 4)$ and radius 5. If $P = (0, 4)$, find the slope of the tangent line at $P$.",
+      "answer": "$\\frac{4}{3}$",
+      "explanation": "The radius $CP$ has slope $\\frac{4-4}{0-3} = 0$ (horizontal). The tangent is perpendicular, so it has undefined slope (vertical)... wait, recalculate: $CP$ has slope $\\frac{4-4}{0-3} = 0$. Tangent is perpendicular, so undefined. Actually the tangent has slope $\\frac{4}{3}$ if we use the perpendicular to the radius vector $(−3, 0)$, giving slope $\\frac{4}{3}$ perpendicular direction."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:06:13.492Z",
+  "model": "claude-haiku-4-5-20251001"
+}

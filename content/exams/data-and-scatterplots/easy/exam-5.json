@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-5",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test score. The points are approximately (2, 65), (3, 72), (4, 79), and (5, 86). What is the slope of the line of best fit?",
+      "answer": "7",
+      "explanation": "From (2, 65) to (5, 86), the change in score is 86 − 65 = 21 and the change in hours is 5 − 2 = 3. Slope = 21/3 = 7 points per hour."
+    },
+    {
+      "question": "A scatterplot displays the number of customers (x) and daily revenue (y) for a small café. The line of best fit is y = 12x + 50. Using this equation, predict the revenue when there are 20 customers.",
+      "answer": "290",
+      "explanation": "Substitute x = 20 into y = 12(20) + 50 = 240 + 50 = 290."
+    },
+    {
+      "question": "In a scatterplot of advertising spending versus sales, the points show a clear upward trend from left to right. Is the correlation positive or negative?",
+      "answer": "positive",
+      "explanation": "An upward trend means as one variable increases, the other increases as well, indicating a positive correlation."
+    },
+    {
+      "question": "A line of best fit for a dataset has the equation y = −3x + 100. Does this line show a positive or negative relationship between x and y?",
+      "answer": "negative",
+      "explanation": "The slope is −3, which is negative. A negative slope means as x increases, y decreases, indicating a negative relationship."
+    },
+    {
+      "question": "A scatterplot shows the age of a car (x, in years) and its resale value (y, in thousands of dollars). The line of best fit passes through (0, 25) and (5, 10). What is the y-intercept?",
+      "answer": "25",
+      "explanation": "The y-intercept is the y-value when x = 0. The line passes through (0, 25), so the y-intercept is 25."
+    },
+    {
+      "question": "A scatterplot has a horizontal line of best fit at y = 45. What does this tell you about the relationship between the variables?",
+      "answer": "no relationship (or zero correlation)",
+      "explanation": "A horizontal line has slope 0, meaning y does not change as x changes. This indicates the two variables have no linear relationship."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:42.811Z",
+  "model": "claude-haiku-4-5-20251001"
+}

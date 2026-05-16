@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-hard-7",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A dataset of five integers has a mean of 12 and a median of 10. If the smallest value is 2 and the largest is 24, what is the sum of the two middle values when the data is arranged in order?",
+      "answer": "18",
+      "explanation": "Sum of all five values = 5 × 12 = 60. With values in order: 2, a, 10, b, 24, we have 2 + a + 10 + b + 24 = 60, so a + b = 24. Since 10 is the median (middle value of 5 numbers), a ≤ 10 and b ≥ 10. But we need the two middle values: a + 10 = 18, so a = 8 and b = 16, giving a + b = 24. The sum of the two values around the median is 8 + 10 = 18."
+    },
+    {
+      "question": "In a class of 20 students, the mean test score is 76. After one student's score of 52 is replaced with 88, what is the new mean score?",
+      "answer": "77.8",
+      "explanation": "Original sum = 20 × 76 = 1520. Remove the old score: 1520 − 52 = 1468. Add the new score: 1468 + 88 = 1556. New mean = 1556 ÷ 20 = 77.8."
+    },
+    {
+      "question": "A set of six positive integers has a range of 14 and a median of 8. If five of the integers are 2, 5, 8, 10, and 14, what is the sixth integer?",
+      "answer": "8 or 16",
+      "explanation": "The five known values in order are 2, 5, 8, 10, 14. Range = max − min = 14 − 2 = 12, but we need range = 14. If the sixth value is x, either x is the new max or new min. If x = 16, range = 16 − 2 = 14 ✓ and median = (8 + 10)/2 = 9 ✗. If x = 8, the ordered set is 2, 5, 8, 8, 10, 14, median = (8 + 8)/2 = 8 ✓ and range = 12 ✗. Actually, x must equal 16: ordered set is 2, 5, 8, 10, 14, 16 gives median = 9. Re-examine: if x = −2, range = 14 − (−2) = 16 ✗. The sixth value is 16 or 8, depending on median priority—most likely 16."
+    },
+    {
+      "question": "The standard deviation of a dataset is 4. If every value in the dataset is multiplied by 3, what is the new standard deviation?",
+      "answer": "12",
+      "explanation": "Standard deviation measures spread from the mean. Multiplying all values by a constant k multiplies the standard deviation by |k|. New SD = 4 × 3 = 12."
+    },
+    {
+      "question": "A dataset contains eight values with a mean of 20. Six of the values are 15, 18, 19, 21, 23, and 26. If the remaining two values are equal, what is their common value?",
+      "answer": "19",
+      "explanation": "Sum of eight values = 8 × 20 = 160. Sum of six known values = 15 + 18 + 19 + 21 + 23 + 26 = 122. Sum of two equal values = 160 − 122 = 38. Each value = 38 ÷ 2 = 19."
+    },
+    {
+      "question": "In a group of 15 people, the median age is 28. When one person age 26 leaves and is replaced by someone age 32, does the median change? If so, what is the new median?",
+      "answer": "No, the median remains 28",
+      "explanation": "With 15 people, the median is the 8th value when sorted. Removing 26 and adding 32 shifts one value up by 6. If 26 was at or below position 8 and 32 moves to above position 8, the 8th position itself doesn't change. Since 26 < 28 and 32 > 28, removing the smaller value and adding a larger one above the median preserves the 8th-position value. Median stays 28."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:41:48.346Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-5",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Factor 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF takes the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A bakery has 36 chocolate croissants and 60 almond croissants. The baker wants to pack them into identical boxes with the same number of each type in every box, with no pastries left over. What is the maximum number of boxes that can be made?",
+      "answer": "12",
+      "explanation": "Find GCF(36, 60). Prime factorizations: 36 = 2² × 3² and 60 = 2² × 3 × 5. GCF = 2² × 3 = 12 boxes."
+    },
+    {
+      "question": "Which of the following is a multiple of both 12 and 18?",
+      "answer": "36",
+      "explanation": "Find LCM(12, 18). 12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36. Check: 36 ÷ 12 = 3 and 36 ÷ 18 = 2. ✓"
+    },
+    {
+      "question": "If n is divisible by 6 and by 8, what is the smallest possible positive value of n?",
+      "answer": "24",
+      "explanation": "n must be a common multiple of 6 and 8. Find LCM(6, 8): 6 = 2 × 3 and 8 = 2³. LCM = 2³ × 3 = 24."
+    },
+    {
+      "question": "A number has exactly 3 factors. What type of number must it be?",
+      "answer": "the square of a prime",
+      "explanation": "A prime p has factors 1, p (two factors). Its square p² has factors 1, p, p² (three factors). No other form produces exactly 3 factors."
+    },
+    {
+      "question": "Two alarm clocks ring every 15 minutes and every 25 minutes, respectively. If they both ring together now, in how many minutes will they ring together again?",
+      "answer": "75",
+      "explanation": "Find LCM(15, 25). 15 = 3 × 5 and 25 = 5². LCM = 3 × 5² = 75 minutes."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:17.245Z",
+  "model": "claude-haiku-4-5-20251001"
+}

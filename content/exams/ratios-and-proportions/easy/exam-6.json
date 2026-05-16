@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-6",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of flour, how many cups of sugar do you need?",
+      "answer": "9",
+      "explanation": "Set up the proportion: 2/3 = 6/x. Cross multiply: 2x = 18, so x = 9."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 5:4. If there are 20 boys, how many girls are there?",
+      "answer": "16",
+      "explanation": "Use the ratio 5:4. If 5 parts = 20 boys, then 1 part = 4. So 4 parts (girls) = 4 × 4 = 16."
+    },
+    {
+      "question": "A map has a scale of 1 inch : 50 miles. If two cities are 4 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "200",
+      "explanation": "Multiply: 4 inches × 50 miles per inch = 200 miles."
+    },
+    {
+      "question": "At a store, 3 notebooks cost $12. What is the cost of 5 notebooks?",
+      "answer": "20",
+      "explanation": "Find the unit price: $12 ÷ 3 = $4 per notebook. Then 5 × $4 = $20."
+    },
+    {
+      "question": "A mixture contains salt and water in the ratio 1:5. If the mixture has 6 grams of salt, how many grams of water are in it?",
+      "answer": "30",
+      "explanation": "The ratio 1:5 means for every 1 gram of salt, there are 5 grams of water. So 6 × 5 = 30 grams of water."
+    },
+    {
+      "question": "Two quantities are proportional. When x = 8, y = 12. What is y when x = 10?",
+      "answer": "15",
+      "explanation": "Find the constant of proportionality: y/x = 12/8 = 1.5. When x = 10, y = 10 × 1.5 = 15."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:33.041Z",
+  "model": "claude-haiku-4-5-20251001"
+}

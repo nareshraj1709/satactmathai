@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-1",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 72?",
+      "answer": "24",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 72 = 2³ × 3². The GCF uses the lowest power of each common prime: 2³ × 3 = 24."
+    },
+    {
+      "question": "A bakery has 36 chocolate cookies and 48 vanilla cookies. The baker wants to pack them into identical gift boxes with no cookies left over, with each box containing the same number of chocolate cookies and the same number of vanilla cookies. What is the maximum number of gift boxes that can be made?",
+      "answer": "12",
+      "explanation": "Find the GCF of 36 and 48. Prime factorizations: 36 = 2² × 3² and 48 = 2⁴ × 3. GCF = 2² × 3 = 12 boxes."
+    },
+    {
+      "question": "Is 147 divisible by 7? Answer yes or no.",
+      "answer": "yes",
+      "explanation": "Divide: 147 ÷ 7 = 21 with no remainder. Since 7 × 21 = 147, the answer is yes."
+    },
+    {
+      "question": "What is the least common multiple of 12 and 18?",
+      "answer": "36",
+      "explanation": "Prime factorizations: 12 = 2² × 3 and 18 = 2 × 3². The LCM uses the highest power of each prime: 2² × 3² = 36."
+    },
+    {
+      "question": "Two events occur at a stadium: one every 15 minutes and another every 25 minutes. Both events occur at the same time at noon. After how many minutes will they next occur simultaneously?",
+      "answer": "75",
+      "explanation": "Find the LCM of 15 and 25. Prime factorizations: 15 = 3 × 5 and 25 = 5². LCM = 3 × 5² = 75 minutes."
+    },
+    {
+      "question": "How many prime factors does 60 have when counted with multiplicity?",
+      "answer": "4",
+      "explanation": "Prime factorization: 60 = 2² × 3 × 5. Counting with multiplicity: two 2's, one 3, and one 5, totaling 4 prime factors."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:46.434Z",
+  "model": "claude-haiku-4-5-20251001"
+}

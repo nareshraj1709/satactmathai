@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-9",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve for all real values of x: |2x − 5| = |x + 3|",
+      "answer": "x = 8 or x = 2/3",
+      "explanation": "Absolute value equations of form |A| = |B| require A = B or A = −B. Case 1: 2x − 5 = x + 3 gives x = 8. Case 2: 2x − 5 = −(x + 3) gives 3x = 2, so x = 2/3. Verify both in the original equation."
+    },
+    {
+      "question": "Solve the inequality: |3x − 7| > 11",
+      "answer": "x < −4/3 or x > 6",
+      "explanation": "For |A| > b (b > 0), solve A > b or A < −b. Thus 3x − 7 > 11 gives x > 6, and 3x − 7 < −11 gives x < −4/3. The solution is the union of both regions."
+    },
+    {
+      "question": "A number x satisfies |x − 2| + |x + 1| = 7. Find all such values of x.",
+      "answer": "x = 4 or x = −3",
+      "explanation": "Use critical points x = −1 and x = 2 to split into regions. For x ≥ 2: (x − 2) + (x + 1) = 7 gives x = 4 ✓. For −1 ≤ x < 2: (2 − x) + (x + 1) = 7 gives 3 = 7 (no solution). For x < −1: (2 − x) + (−x − 1) = 7 gives x = −3 ✓."
+    },
+    {
+      "question": "Solve: |5 − 2x| ≤ 3",
+      "answer": "1 ≤ x ≤ 4",
+      "explanation": "For |A| ≤ b (b ≥ 0), solve −b ≤ A ≤ b. Thus −3 ≤ 5 − 2x ≤ 3. From 5 − 2x ≤ 3, get x ≥ 1. From 5 − 2x ≥ −3, get x ≤ 4. Solution is 1 ≤ x ≤ 4."
+    },
+    {
+      "question": "The distance between x and −2 on a number line is at least 5. Write and solve an inequality to find all valid values of x.",
+      "answer": "x ≤ −7 or x ≥ 3",
+      "explanation": "Distance between x and −2 is |x − (−2)| = |x + 2|. The condition 'at least 5' means |x + 2| ≥ 5. Solve: x + 2 ≥ 5 gives x ≥ 3, and x + 2 ≤ −5 gives x ≤ −7."
+    },
+    {
+      "question": "For what values of k does the equation |2x − k| = 4 have no real solutions?",
+      "answer": "No value of k (the equation always has solutions)",
+      "explanation": "The equation |2x − k| = 4 is solvable for any real k. We get 2x − k = 4 or 2x − k = −4, giving x = (k + 4)/2 or x = (k − 4)/2. Since 4 > 0, solutions always exist."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:47.481Z",
+  "model": "claude-haiku-4-5-20251001"
+}

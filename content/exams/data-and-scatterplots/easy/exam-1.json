@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-1",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test scores for 10 students. The points roughly follow a line from (0, 40) to (5, 90). Using this line of best fit, predict the test score for a student who studies 3 hours.",
+      "answer": "70",
+      "explanation": "The line goes from (0, 40) to (5, 90), so the slope is (90 − 40)/(5 − 0) = 10 per hour. At 3 hours: 40 + 3(10) = 70."
+    },
+    {
+      "question": "In a scatterplot of daily temperature (°F) versus ice cream sales ($), which direction would you expect the trend to go?",
+      "answer": "Positive (upward)",
+      "explanation": "As temperature increases, ice cream sales typically increase, creating a positive correlation where the points trend upward from left to right."
+    },
+    {
+      "question": "A line of best fit for a dataset has equation y = 2x + 5. What is the predicted value of y when x = 4?",
+      "answer": "13",
+      "explanation": "Substitute x = 4 into y = 2(4) + 5 = 8 + 5 = 13."
+    },
+    {
+      "question": "A scatterplot shows car age (years) versus resale value ($1000s). The points cluster tightly around a downward-sloping line. Is this a strong or weak correlation?",
+      "answer": "Strong",
+      "explanation": "Points clustered tightly around a line indicate a strong correlation. The negative slope shows the strength of the linear relationship, not weakness."
+    },
+    {
+      "question": "Two points on a line of best fit are (2, 15) and (6, 35). What is the slope of this line?",
+      "answer": "5",
+      "explanation": "Slope = (35 − 15)/(6 − 2) = 20/4 = 5."
+    },
+    {
+      "question": "A scatterplot of weight (pounds) versus height (inches) for 12 people shows points scattered with no clear pattern. What type of correlation is this?",
+      "answer": "No correlation (or weak correlation)",
+      "explanation": "When points are scattered randomly with no clear upward or downward trend, there is little to no linear correlation between the variables."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:42.897Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-hard-8",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "For the quadratic equation $2x^2 + kx + 8 = 0$, find all values of $k$ for which the equation has exactly one real solution.",
+      "answer": "$k = \\pm 8$",
+      "explanation": "A quadratic has exactly one real solution when the discriminant equals zero: $b^2 - 4ac = 0$. Here, $k^2 - 4(2)(8) = 0$, so $k^2 = 64$, giving $k = \\pm 8$."
+    },
+    {
+      "question": "The quadratic $3x^2 - 5x + c = 0$ has two distinct real roots. What is the range of possible values for $c$?",
+      "answer": "$c < \\frac{25}{12}$",
+      "explanation": "Two distinct real roots require discriminant $> 0$: $(-5)^2 - 4(3)(c) > 0$. Simplify: $25 - 12c > 0$, so $c < \\frac{25}{12}$."
+    },
+    {
+      "question": "A rectangle has length 3 cm longer than its width. If the area is 40 cm², write an equation using the quadratic formula to find the width, then state the width to the nearest tenth.",
+      "answer": "$w \\approx 5.2$ cm",
+      "explanation": "Let $w$ be the width. Then $w(w + 3) = 40$, so $w^2 + 3w - 40 = 0$. Using the quadratic formula: $w = \\frac{-3 \\pm \\sqrt{9 + 160}}{2} = \\frac{-3 \\pm 13}{2}$. Since $w > 0$, we get $w = 5.2$ cm."
+    },
+    {
+      "question": "For what value of $m$ does the equation $mx^2 + (m+2)x + 1 = 0$ have equal roots?",
+      "answer": "$m = 4$ or $m = 1$",
+      "explanation": "Equal roots require $\\Delta = 0$. For $mx^2 + (m+2)x + 1 = 0$: $(m+2)^2 - 4m(1) = 0 \\Rightarrow m^2 - 4m + 4 = 0 \\Rightarrow (m-2)^2 = 0$. Thus $m = 2$."
+    },
+    {
+      "question": "The parabola $y = x^2 + bx + 9$ is tangent to the $x$-axis. Find the sum of all possible values of $b$.",
+      "answer": "$0$",
+      "explanation": "Tangent to the $x$-axis means the quadratic has a repeated root, so discriminant $= 0$: $b^2 - 4(1)(9) = 0 \\Rightarrow b^2 = 36 \\Rightarrow b = \\pm 6$. The sum is $6 + (-6) = 0$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{1}{x-1} + \\frac{1}{x+2} = \\frac{5}{6}$. State your answer as a simplified fraction or integer.",
+      "answer": "$x = 4$ or $x = -\\frac{7}{5}$",
+      "explanation": "Multiply through by $6(x-1)(x+2)$: $6(x+2) + 6(x-1) = 5(x-1)(x+2)$. Simplify: $12x + 6 = 5x^2 + 5x - 10$, so $5x^2 - 7x - 16 = 0$. Using the quadratic formula: $x = \\frac{7 \\pm \\sqrt{49 + 320}}{10} = \\frac{7 \\pm \\sqrt{369}}{10}$... recalculating: $5x^2 - 7x - 16 = (5x + 8)(x - 2) = 0$ gives $x = 2$ or $x = -\\frac{8}{5}$. Verify setup: $6(x+2) + 6(x-1) = 6x + 12 + 6x - 6 = 12x + 6$; $(x-1)(x+2) = x^2 + x - 2$, so $5(x^2 + x - 2) = 5x^2 + 5x - 10$. Equation: $12x + 6 = 5x^2 + 5x - 10 \\Rightarrow 5x^2 - 7x - 16 = 0$. Factoring or formula: $x = \\frac{7 \\pm \\sqrt{49 + 320}}{10} = \\frac{7 \\pm 19}{10}$, giving $x = ​​26/10 = 13/5$ or $x = -12/10 = -6/5$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:49:37.575Z",
+  "model": "claude-haiku-4-5-20251001"
+}

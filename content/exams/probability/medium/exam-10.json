@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-10",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is red or blue?",
+      "answer": "4/5",
+      "explanation": "Total marbles: 5 + 3 + 2 = 10. Red or blue marbles: 5 + 3 = 8. Probability = 8/10 = 4/5."
+    },
+    {
+      "question": "A two-way table shows that 120 students were surveyed about their preference for coffee or tea. 45 students prefer coffee, and 75 prefer tea. 10 students like both. How many students prefer neither?",
+      "answer": "10",
+      "explanation": "Using inclusion-exclusion: students who prefer at least one = 45 + 75 − 10 = 110. Students who prefer neither = 120 − 110 = 10."
+    },
+    {
+      "question": "If P(A) = 0.6 and P(B) = 0.4, and events A and B are independent, what is P(A and B)?",
+      "answer": "0.24",
+      "explanation": "For independent events, P(A and B) = P(A) × P(B) = 0.6 × 0.4 = 0.24."
+    },
+    {
+      "question": "A deck has 52 cards. You draw one card, do not replace it, then draw a second card. What is the probability that both cards are hearts? (There are 13 hearts in a deck.)",
+      "answer": "13/204 or 1/16.62 (accept 13/204)",
+      "explanation": "P(first heart) = 13/52. P(second heart | first was heart) = 12/51. P(both) = (13/52) × (12/51) = 156/2652 = 13/204."
+    },
+    {
+      "question": "In a class of 30 students, 18 play soccer and 12 play basketball. If 8 students play both sports, what is the probability that a randomly selected student plays soccer or basketball?",
+      "answer": "11/15",
+      "explanation": "Students playing at least one sport: 18 + 12 − 8 = 22. Probability = 22/30 = 11/15."
+    },
+    {
+      "question": "A restaurant's records show that 70% of customers order food and 40% order a beverage. Assuming these are independent, what is the probability that a customer orders neither food nor a beverage?",
+      "answer": "0.12 or 3/25",
+      "explanation": "P(food or beverage) = 0.7 + 0.4 − (0.7 × 0.4) = 1.1 − 0.28 = 0.82. P(neither) = 1 − 0.82 = 0.18. Actually: P(neither) = P(no food) × P(no beverage) = 0.3 × 0.6 = 0.18."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:59.534Z",
+  "model": "claude-haiku-4-5-20251001"
+}

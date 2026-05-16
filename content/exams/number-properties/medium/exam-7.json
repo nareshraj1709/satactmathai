@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-7",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF uses the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A classroom has 36 students. The teacher wants to divide them into equal groups for a project. How many different group sizes are possible if each group must have more than 1 student and fewer than 36 students?",
+      "answer": "8",
+      "explanation": "Find divisors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Exclude 1 and 36, leaving 2, 3, 4, 6, 9, 12, 18—that's 8 possible group sizes."
+    },
+    {
+      "question": "What is the least common multiple of 12 and 18?",
+      "answer": "36",
+      "explanation": "Prime factorizations: 12 = 2² × 3 and 18 = 2 × 3². LCM uses the highest power of each prime: 2² × 3² = 4 × 9 = 36."
+    },
+    {
+      "question": "Which of the following is a prime number: 91, 97, or 99? (If none, write 'none'.)",
+      "answer": "97",
+      "explanation": "97 cannot be divided evenly by any integer other than 1 and itself. 91 = 7 × 13 and 99 = 9 × 11, so both are composite."
+    },
+    {
+      "question": "Two bells ring at regular intervals. One bell rings every 15 minutes and the other every 40 minutes. If they ring together at noon, how many minutes after noon will they ring together again?",
+      "answer": "120",
+      "explanation": "Find LCM(15, 40). Prime factorizations: 15 = 3 × 5 and 40 = 2³ × 5. LCM = 2³ × 3 × 5 = 120 minutes."
+    },
+    {
+      "question": "A number is divisible by both 6 and 8. What is the smallest positive integer that must divide this number?",
+      "answer": "24",
+      "explanation": "The smallest number divisible by both 6 and 8 is their LCM. Prime factorizations: 6 = 2 × 3 and 8 = 2³. LCM = 2³ × 3 = 24."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:17.079Z",
+  "model": "claude-haiku-4-5-20251001"
+}

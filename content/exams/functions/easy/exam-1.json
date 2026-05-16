@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-1",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Let f(x) = 3x + 2. Find f(4).",
+      "answer": "14",
+      "explanation": "Substitute x = 4 into f(x): f(4) = 3(4) + 2 = 12 + 2 = 14."
+    },
+    {
+      "question": "If g(x) = x² − 5, what is g(3)?",
+      "answer": "4",
+      "explanation": "Substitute x = 3: g(3) = 3² − 5 = 9 − 5 = 4."
+    },
+    {
+      "question": "Let f(x) = 2x − 1 and g(x) = x + 3. Find f(g(2)).",
+      "answer": "7",
+      "explanation": "First, g(2) = 2 + 3 = 5. Then, f(5) = 2(5) − 1 = 10 − 1 = 7."
+    },
+    {
+      "question": "A function h is defined by h(x) = −x + 6. For what value of x is h(x) = 2?",
+      "answer": "4",
+      "explanation": "Set h(x) = 2: −x + 6 = 2, so −x = −4, therefore x = 4."
+    },
+    {
+      "question": "If f(x) = 4x and g(x) = x − 7, find g(f(3)).",
+      "answer": "5",
+      "explanation": "First, f(3) = 4(3) = 12. Then, g(12) = 12 − 7 = 5."
+    },
+    {
+      "question": "Let p(x) = 5 − 2x. What is the value of p(0)?",
+      "answer": "5",
+      "explanation": "Substitute x = 0: p(0) = 5 − 2(0) = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:59:01.188Z",
+  "model": "claude-haiku-4-5-20251001"
+}

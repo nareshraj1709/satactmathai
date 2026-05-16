@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-3",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "The heights of five students are 60, 62, 65, 68, and 70 inches. What is the median height?",
+      "answer": "65",
+      "explanation": "Arrange the five values in order (already done): 60, 62, 65, 68, 70. The median is the middle value, which is the 3rd number: 65 inches."
+    },
+    {
+      "question": "A student scores 78, 85, 92, and 89 on four tests. What is the mean score?",
+      "answer": "86",
+      "explanation": "Sum: 78 + 85 + 92 + 89 = 344. Mean = 344 ÷ 4 = 86."
+    },
+    {
+      "question": "The data set is {4, 7, 7, 9, 10, 7, 5}. What is the mode?",
+      "answer": "7",
+      "explanation": "Count the frequency of each value. The number 7 appears three times, which is more than any other value. Mode = 7."
+    },
+    {
+      "question": "A data set has values 12, 18, 15, 22, and 8. What is the range?",
+      "answer": "14",
+      "explanation": "Range = maximum − minimum = 22 − 8 = 14."
+    },
+    {
+      "question": "Six friends spent the following amounts on lunch: $8, $12, $10, $9, $11, and $10. What is the median amount spent?",
+      "answer": "$10",
+      "explanation": "Arrange in order: $8, $9, $10, $10, $11, $12. With six values, the median is the average of the 3rd and 4th values: (10 + 10) ÷ 2 = $10."
+    },
+    {
+      "question": "A data set consists of the values 5, 8, 3, 8, 2, 8, and 6. Is there a mode? If so, what is it?",
+      "answer": "Yes, 8",
+      "explanation": "The value 8 appears three times while all other values appear once. The mode is 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:39:41.767Z",
+  "model": "claude-haiku-4-5-20251001"
+}

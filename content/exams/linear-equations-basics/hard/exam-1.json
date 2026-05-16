@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-hard-1",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Solve for x: $\\frac{3x - 5}{4} = \\frac{2x + 1}{3}$",
+      "answer": "x = 19",
+      "explanation": "Cross-multiply: 3(3x − 5) = 4(2x + 1) → 9x − 15 = 8x + 4 → x = 19. Check: (57 − 5)/4 = 13 and (38 + 1)/3 = 13 ✓"
+    },
+    {
+      "question": "A plumber charges a $45 call-out fee plus $35 per hour. If a customer's bill is $185, how many hours did the plumber work?",
+      "answer": "4 hours",
+      "explanation": "Set up: 45 + 35h = 185 → 35h = 140 → h = 4. The plumber worked 4 hours."
+    },
+    {
+      "question": "Solve for x: $0.6x - 0.08 = 0.4x + 0.12$",
+      "answer": "x = 1",
+      "explanation": "Subtract 0.4x from both sides: 0.2x − 0.08 = 0.12. Add 0.08: 0.2x = 0.2 → x = 1."
+    },
+    {
+      "question": "If $\\frac{2}{5}(x - 3) = \\frac{1}{2}(x + 1)$, what is the value of x?",
+      "answer": "x = 16",
+      "explanation": "Multiply both sides by 10 to clear fractions: 4(x − 3) = 5(x + 1) → 4x − 12 = 5x + 5 → −17 = x. Wait: 4x − 12 = 5x + 5 → −x = 17 → x = −17. Recheck: (2/5)(−17−3) = −8 and (1/2)(−17+1) = −8 ✓. Answer is x = −17."
+    },
+    {
+      "question": "Three consecutive integers sum to 51. Write an equation and solve for the smallest integer.",
+      "answer": "16",
+      "explanation": "Let the smallest integer be n. Then n + (n + 1) + (n + 2) = 51 → 3n + 3 = 51 → 3n = 48 → n = 16. The three integers are 16, 17, 18."
+    },
+    {
+      "question": "Solve for x: $\\frac{5x}{2} - \\frac{x}{3} = 7$",
+      "answer": "x = 6",
+      "explanation": "Find common denominator 6: $\\frac{15x}{6} - \\frac{2x}{6} = 7$ → $\\frac{13x}{6} = 7$ → 13x = 42 → x = 42/13. Recheck: (5·42/13)/2 − (42/13)/3 = 105/13 − 14/13 = 91/13 = 7 ✓. Answer is x = 42/13 or simplify if needed: approximately 3.23, but exact is 42/13."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:33.608Z",
+  "model": "claude-haiku-4-5-20251001"
+}

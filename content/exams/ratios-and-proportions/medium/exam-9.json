@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-9",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A recipe calls for 3 cups of flour for every 2 cups of sugar. If you use 9 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 3/2 = 9/x. Cross-multiply: 3x = 18, so x = 6."
+    },
+    {
+      "question": "In a class, the ratio of boys to girls is 5:7. If there are 35 boys, how many girls are there?",
+      "answer": "49",
+      "explanation": "If boys:girls = 5:7 and there are 35 boys, then 35/girls = 5/7. Cross-multiply: 5·girls = 7·35 = 245, so girls = 49."
+    },
+    {
+      "question": "A map has a scale of 1 inch to 50 miles. If two cities are 3.5 inches apart on the map, what is the actual distance between them in miles?",
+      "answer": "175",
+      "explanation": "Use the proportion: 1/50 = 3.5/d. Then d = 3.5 × 50 = 175 miles."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles in a bag is 4:9. If there are 52 red marbles, how many total marbles are in the bag?",
+      "answer": "169",
+      "explanation": "If red:blue = 4:9 and red = 52, then blue = 52 × (9/4) = 117. Total = 52 + 117 = 169."
+    },
+    {
+      "question": "A car travels 150 miles on 6 gallons of gas. At this rate, how many gallons of gas are needed to travel 400 miles?",
+      "answer": "16",
+      "explanation": "Set up: 150/6 = 400/x. Cross-multiply: 150x = 2400, so x = 16 gallons."
+    },
+    {
+      "question": "Three workers can complete a job in 8 days. Working at the same rate, how many days will it take 6 workers to complete the same job?",
+      "answer": "4",
+      "explanation": "The number of workers is inversely proportional to time. 3 workers × 8 days = 6 workers × d days. So 24 = 6d, giving d = 4 days."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:33.270Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-5",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (0, 0) and focus at (0, 3). Write the equation of the parabola in the form y = ax² or x = ay².",
+      "answer": "x² = 12y",
+      "explanation": "For a vertical parabola with vertex at origin and focus at (0, p), the equation is x² = 4py. Here p = 3, so x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has foci at (−2, 0) and (2, 0), and the sum of distances from any point on the ellipse to the two foci is 10. Find the length of the major axis.",
+      "answer": "10",
+      "explanation": "By definition of an ellipse, the sum of distances from any point to the two foci equals 2a, where a is the semi-major axis. So 2a = 10, and the major axis length is 10."
+    },
+    {
+      "question": "A hyperbola is centered at the origin with vertices at (±4, 0). If the distance between the foci is 10, find c² − a².",
+      "answer": "9",
+      "explanation": "For a hyperbola centered at origin with horizontal transverse axis: a = 4 (vertices at ±4, 0), and 2c = 10 so c = 5. Then c² − a² = 25 − 16 = 9 (this equals b²)."
+    },
+    {
+      "question": "The equation of a parabola is y² = −8x. Identify the direction the parabola opens and find the focus.",
+      "answer": "Opens left; focus at (−2, 0)",
+      "explanation": "For y² = 4px with 4p = −8, we get p = −2. Since p is negative, the parabola opens left. The focus is at (p, 0) = (−2, 0)."
+    },
+    {
+      "question": "An ellipse has equation (x²/25) + (y²/9) = 1. What is the distance between the two foci?",
+      "answer": "8",
+      "explanation": "Here a² = 25 and b² = 9, so c² = a² − b² = 25 − 9 = 16, giving c = 4. The distance between foci is 2c = 8."
+    },
+    {
+      "question": "A hyperbola has equation (y²/16) − (x²/20) = 1. Find the slope of one asymptote.",
+      "answer": "±(2√5)/5 or ±2√5/5",
+      "explanation": "For a vertical hyperbola (y²/a²) − (x²/b²) = 1, asymptotes have slope ±(a/b). Here a² = 16 and b² = 20, so a = 4 and b = 2√5. Slope = ±4/(2√5) = ±2/√5 = ±2√5/5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:48.803Z",
+  "model": "claude-haiku-4-5-20251001"
+}

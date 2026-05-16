@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-8",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (2, −3) and opens downward. Its equation is y = −2(x − 2)² − 3. What is the y-coordinate of the focus?",
+      "answer": "−3.125 or −25/8",
+      "explanation": "For a parabola y = a(x − h)² + k, the focus is at distance p = 1/(4a) from the vertex. Here a = −2, so p = 1/(4·(−2)) = −1/8. Since the parabola opens downward, the focus is 1/8 units below the vertex: −3 − 1/8 = −25/8."
+    },
+    {
+      "question": "An ellipse has the equation (x²/16) + (y²/9) = 1. What is the distance between its two foci?",
+      "answer": "2√7",
+      "explanation": "For an ellipse (x²/a²) + (y²/b²) = 1 with a > b, we have a² = 16 and b² = 9. The distance from center to each focus is c = √(a² − b²) = √(16 − 9) = √7. The distance between foci is 2c = 2√7."
+    },
+    {
+      "question": "A hyperbola has the equation (x²/25) − (y²/144) = 1. What is the length of the transverse axis?",
+      "answer": "10",
+      "explanation": "For a hyperbola (x²/a²) − (y²/b²) = 1, the transverse axis lies along the x-axis with length 2a. Here a² = 25, so a = 5, and the transverse axis has length 2(5) = 10."
+    },
+    {
+      "question": "A parabola has focus at (3, 5) and directrix y = 1. Find the y-coordinate of the vertex.",
+      "answer": "3",
+      "explanation": "The vertex lies at the midpoint between the focus and directrix. The vertex y-coordinate is (5 + 1)/2 = 3. (The focus is at y = 5 and directrix at y = 1.)"
+    },
+    {
+      "question": "An ellipse is centered at the origin with semi-major axis of length 13 and semi-minor axis of length 5. The major axis is vertical. Write the equation in standard form.",
+      "answer": "(x²/25) + (y²/169) = 1",
+      "explanation": "When the major axis is vertical, the standard form is (x²/b²) + (y²/a²) = 1 where a > b. Here a = 13 (semi-major) and b = 5 (semi-minor), so the equation is (x²/25) + (y²/169) = 1."
+    },
+    {
+      "question": "A hyperbola has vertices at (±6, 0) and foci at (±10, 0). What is the value of b² in the standard form (x²/a²) − (y²/b²) = 1?",
+      "answer": "64",
+      "explanation": "For a hyperbola with horizontal transverse axis, the vertices are at (±a, 0) and foci at (±c, 0). Here a = 6 and c = 10. Use c² = a² + b²: 100 = 36 + b², so b² = 64."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:49.930Z",
+  "model": "claude-haiku-4-5-20251001"
+}

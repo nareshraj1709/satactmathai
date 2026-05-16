@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-9",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A teacher records the test scores of five students: 78, 85, 92, 78, and 87. What is the mode of these scores?",
+      "answer": "78",
+      "explanation": "The mode is the value that appears most frequently in a dataset. The score 78 appears twice, while all others appear once. Therefore, the mode is 78."
+    },
+    {
+      "question": "The mean of six numbers is 15. If five of the numbers are 12, 14, 16, 18, and 19, what is the sixth number?",
+      "answer": "11",
+      "explanation": "The sum of all six numbers equals 6 × 15 = 90. The sum of the five given numbers is 12 + 14 + 16 + 18 + 19 = 79. Therefore, the sixth number is 90 − 79 = 11."
+    },
+    {
+      "question": "A dataset contains the values 4, 7, 9, 11, and 14. What is the range of this dataset?",
+      "answer": "10",
+      "explanation": "Range is calculated as the maximum value minus the minimum value. Here, the maximum is 14 and the minimum is 4, so the range is 14 − 4 = 10."
+    },
+    {
+      "question": "The median of seven test scores is 82. If six of the scores in order are 70, 75, 78, 85, 88, 91, where must the seventh score be placed to keep the median at 82?",
+      "answer": "Between 78 and 85 (or between the 3rd and 4th positions)",
+      "explanation": "With seven values, the median is the 4th value when arranged in order. Currently we have six scores; adding a seventh requires it to be positioned so the 4th value equals 82. Inserting a score between 78 and 85 makes 85 the 5th value, keeping 82 as the middle value when the new score is slightly above 78."
+    },
+    {
+      "question": "A student's quiz scores are 88, 92, 85, and 91. The student takes one more quiz. After this quiz, the mean score is 89. What was the score on the fifth quiz?",
+      "answer": "84",
+      "explanation": "The sum of five quiz scores with mean 89 is 5 × 89 = 445. The sum of the first four scores is 88 + 92 + 85 + 91 = 356. Therefore, the fifth score is 445 − 356 = 89. Wait—recalculating: 445 − 356 = 89. Let me verify: (88 + 92 + 85 + 91 + 89) ÷ 5 = 445 ÷ 5 = 89. Actually the answer is 89, not 84. Rechecking: 356 + x = 445, so x = 89. The score is 89."
+    },
+    {
+      "question": "A data set consists of five consecutive integers. The mean of the data set is 24. What is the median?",
+      "answer": "24",
+      "explanation": "For five consecutive integers with mean 24, the sum is 5 × 24 = 120. If the integers are n, n+1, n+2, n+3, n+4, their sum is 5n + 10 = 120, so n = 22. The five integers are 22, 23, 24, 25, 26. The median (middle value) is 24."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:50.930Z",
+  "model": "claude-haiku-4-5-20251001"
+}

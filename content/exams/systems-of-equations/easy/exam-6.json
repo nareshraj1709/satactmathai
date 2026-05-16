@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-easy-6",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve the system:\n2x + y = 7\ny = 3\n\nWhat is the value of x?",
+      "answer": "x = 2",
+      "explanation": "Substitute y = 3 into the first equation: 2x + 3 = 7. Subtract 3 from both sides: 2x = 4. Divide by 2: x = 2."
+    },
+    {
+      "question": "Solve the system:\nx + y = 10\nx - y = 4\n\nWhat is the value of y?",
+      "answer": "y = 3",
+      "explanation": "Add the two equations to eliminate y: 2x = 14, so x = 7. Substitute into the first equation: 7 + y = 10, so y = 3."
+    },
+    {
+      "question": "At a bakery, Mia buys 2 cookies and 1 brownie for $5. Jake buys 1 cookie and 1 brownie for $3.50. If c is the cost of a cookie and b is the cost of a brownie, write two equations for this system.\n\nEquation 1: ___\nEquation 2: ___",
+      "answer": "2c + b = 5 and c + b = 3.50",
+      "explanation": "The first sentence gives 2c + b = 5. The second sentence gives c + b = 3.50. These represent the two purchases."
+    },
+    {
+      "question": "Solve the system:\n3x + 2y = 12\nx = 2\n\nWhat is the value of y?",
+      "answer": "y = 3",
+      "explanation": "Substitute x = 2 into the first equation: 3(2) + 2y = 12. Simplify: 6 + 2y = 12. Subtract 6: 2y = 6. Divide by 2: y = 3."
+    },
+    {
+      "question": "Solve the system:\n4x - y = 5\n4x + y = 11\n\nWhat is the value of x?",
+      "answer": "x = 2",
+      "explanation": "Add the two equations to eliminate y: 8x = 16. Divide by 8: x = 2."
+    },
+    {
+      "question": "Solve the system:\ny = 2x - 1\ny = 5\n\nWhat is the value of x?",
+      "answer": "x = 3",
+      "explanation": "Set the two expressions for y equal: 2x - 1 = 5. Add 1 to both sides: 2x = 6. Divide by 2: x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:03.844Z",
+  "model": "claude-haiku-4-5-20251001"
+}

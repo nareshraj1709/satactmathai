@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-3",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² + 5x - 3 = 0. Express your answers as simplified fractions or integers.",
+      "answer": "x = 1/2 or x = -3",
+      "explanation": "Apply the quadratic formula with a=2, b=5, c=-3. The discriminant is 25 - 4(2)(-3) = 49, so x = (-5 ± 7)/4. This gives x = 2/4 = 1/2 and x = -12/4 = -3."
+    },
+    {
+      "question": "For the quadratic equation 3x² - 6x + k = 0, find the value of k such that the equation has exactly one real solution.",
+      "answer": "k = 3",
+      "explanation": "A quadratic has exactly one real solution when its discriminant equals zero. Set b² - 4ac = 0: (-6)² - 4(3)(k) = 0, so 36 - 12k = 0, giving k = 3."
+    },
+    {
+      "question": "The equation x² + 4x + 8 = 0 has how many real solutions? Explain using the discriminant.",
+      "answer": "0 real solutions",
+      "explanation": "The discriminant is b² - 4ac = 16 - 4(1)(8) = 16 - 32 = -16. Since the discriminant is negative, there are no real solutions (only complex ones)."
+    },
+    {
+      "question": "A projectile is launched upward with an initial velocity of 32 ft/s from a height of 16 feet. Its height h (in feet) after t seconds is h = -16t² + 32t + 16. How long after launch does the projectile hit the ground? Round to the nearest hundredth if necessary.",
+      "answer": "t ≈ 2.41 seconds",
+      "explanation": "Set h = 0: -16t² + 32t + 16 = 0. Divide by -16: t² - 2t - 1 = 0. Using the quadratic formula: t = (2 ± √(4 + 4))/2 = (2 ± √8)/2 = (2 ± 2√2)/2 = 1 ± √2. Since t must be positive, t = 1 + √2 ≈ 2.41."
+    },
+    {
+      "question": "For what values of m does the equation mx² - 4x + 2 = 0 have two distinct real solutions?",
+      "answer": "m < 2 and m ≠ 0",
+      "explanation": "For two distinct real solutions, the discriminant must be positive: b² - 4ac > 0. Here, (-4)² - 4(m)(2) > 0, so 16 - 8m > 0, giving m < 2. Also, m ≠ 0 (otherwise it's not quadratic)."
+    },
+    {
+      "question": "Solve 5x² - 20 = 0 using the quadratic formula.",
+      "answer": "x = 2 or x = -2",
+      "explanation": "Rewrite as 5x² + 0x - 20 = 0 with a=5, b=0, c=-20. The discriminant is 0 - 4(5)(-20) = 400, so x = (0 ± 20)/10, giving x = 2 and x = -2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:08.499Z",
+  "model": "claude-haiku-4-5-20251001"
+}

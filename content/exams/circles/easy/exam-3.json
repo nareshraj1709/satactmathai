@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-3",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A circle has a radius of 5. What is the circumference?",
+      "answer": "10π",
+      "explanation": "Circumference = 2πr = 2π(5) = 10π."
+    },
+    {
+      "question": "Find the radius of a circle with equation (x − 2)² + (y + 3)² = 49.",
+      "answer": "7",
+      "explanation": "The standard form is (x − h)² + (y − k)² = r². Here r² = 49, so r = 7."
+    },
+    {
+      "question": "A sector of a circle has a central angle of 60° and radius 6. What is the arc length?",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (60/360) × 2π(6) = (1/6) × 12π = 2π."
+    },
+    {
+      "question": "What is the area of a circle with diameter 10?",
+      "answer": "25π",
+      "explanation": "Radius = 5. Area = πr² = π(5)² = 25π."
+    },
+    {
+      "question": "A circle has center (0, 0) and passes through the point (3, 4). Write the equation of the circle.",
+      "answer": "(x)² + (y)² = 25 or x² + y² = 25",
+      "explanation": "Distance from origin to (3, 4) is √(3² + 4²) = √25 = 5, so r = 5. Equation: x² + y² = 25."
+    },
+    {
+      "question": "A sector has a central angle of 90° and radius 8. What is the area of the sector?",
+      "answer": "16π",
+      "explanation": "Sector area = (θ/360°) × πr² = (90/360) × π(8)² = (1/4) × 64π = 16π."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:04:55.080Z",
+  "model": "claude-haiku-4-5-20251001"
+}

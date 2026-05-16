@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-9",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Factor completely: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: that's 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve for x: x² - 5x = 0",
+      "answer": "x = 0 or x = 5",
+      "explanation": "Factor out x: x(x - 5) = 0. Set each factor to zero: x = 0 or x - 5 = 0, so x = 5."
+    },
+    {
+      "question": "Factor completely: 2x² + 8x",
+      "answer": "2x(x + 4)",
+      "explanation": "The GCF of 2x² and 8x is 2x. Factoring out 2x gives 2x(x + 4)."
+    },
+    {
+      "question": "Factor completely: x² - 9",
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: x² - 9 = x² - 3². Use the pattern a² - b² = (a - b)(a + b)."
+    },
+    {
+      "question": "Solve for x: x² + 6x + 8 = 0",
+      "answer": "x = -2 or x = -4",
+      "explanation": "Factor: (x + 2)(x + 4) = 0. Set each factor to zero: x + 2 = 0 gives x = -2, and x + 4 = 0 gives x = -4."
+    },
+    {
+      "question": "Factor completely: x² - 4x - 12",
+      "answer": "(x - 6)(x + 2)",
+      "explanation": "Find two numbers that multiply to -12 and add to -4: that's -6 and 2. So x² - 4x - 12 = (x - 6)(x + 2)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:27.196Z",
+  "model": "claude-haiku-4-5-20251001"
+}

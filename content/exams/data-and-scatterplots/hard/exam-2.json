@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-2",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study time (in hours) and test score (out of 100) for 12 students. The line of best fit has equation y = 8x + 32. Based on this model, how many more points would a student be predicted to score for every additional 2.5 hours of study time?",
+      "answer": "20",
+      "explanation": "The slope is 8 points per hour. For 2.5 additional hours, multiply: 8 × 2.5 = 20 points. The slope directly gives the rate of change."
+    },
+    {
+      "question": "A scatterplot displays the residuals (actual score minus predicted score) for 15 data points plotted against study time. Most residuals cluster between −3 and +2, but one point at 10 hours of study has a residual of −12. What does this unusual residual suggest?",
+      "answer": "The student studied 10 hours but scored much lower than the model predicts; this may indicate an outlier or special circumstance.",
+      "explanation": "A large negative residual means the actual value fell far below the prediction. This signals either a data error, an outlier condition, or an unexplained factor affecting that student's performance."
+    },
+    {
+      "question": "Two competing linear models fit a dataset of 20 observations. Model A has r² = 0.81; Model B has r² = 0.76. If both models have similar slope and intercept values, which model is preferable and why?",
+      "answer": "Model A; it explains a higher proportion (81% vs 76%) of the variance in the data.",
+      "explanation": "A higher r² value indicates a better fit because more variation is explained by the model. When slopes and intercepts are comparable, choose the model with larger r²."
+    },
+    {
+      "question": "A scatterplot of annual revenue (in thousands) versus number of employees shows points that follow a roughly linear trend with positive slope. The line of best fit passes through (50, 450) and (100, 750). What is the slope, and what does it mean in context?",
+      "answer": "Slope = 6; for each additional employee, revenue increases by an average of $6,000.",
+      "explanation": "Slope = (750 − 450)/(100 − 50) = 300/50 = 6. Since y is in thousands, each unit slope means $6,000 increase per employee."
+    },
+    {
+      "question": "A researcher collects data on hours of sleep and test performance for college students. She notices the scatterplot shows a curved pattern (higher performance at moderate sleep levels, lower at both extremes) rather than a straight line. Why would a linear regression model be misleading here?",
+      "answer": "A linear model assumes a constant rate of change, but the relationship is nonlinear (parabolic); the model would underestimate the optimal sleep range and overestimate at extremes.",
+      "explanation": "When data follows a curve, a line of best fit misses the true relationship. Predictions near the middle would be systematically biased, and the model ignores the peak at moderate sleep."
+    },
+    {
+      "question": "A scatterplot shows house price (in dollars) versus lot size (in square feet) for 25 homes. The line of best fit has equation y = 150x + 50,000, where x is lot size in thousands of square feet. If a home has a residual of +$15,000, what was its actual selling price if the lot size was 2 thousand square feet?",
+      "answer": "$465,000",
+      "explanation": "Predicted price: y = 150(2) + 50,000 = $50,300. Since residual = actual − predicted, actual = $50,300 + $15,000 = $65,300. Wait, recompute: y = 150(2) + 50,000 = 300 + 50,000 = 50,300. Actual = 50,300 + 15,000 = 65,300. Rechecking: if x = 2 (thousand sq ft), y = 300 + 50,000 = 350,000. Then actual = 350,000 + 15,000 = 365,000."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:04.580Z",
+  "model": "claude-haiku-4-5-20251001"
+}

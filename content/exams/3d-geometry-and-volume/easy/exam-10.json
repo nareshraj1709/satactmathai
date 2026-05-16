@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-10",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 4 cm, and height 3 cm. What is its volume in cubic centimeters?",
+      "answer": "60",
+      "explanation": "Volume of a prism = length × width × height. V = 5 × 4 × 3 = 60 cm³."
+    },
+    {
+      "question": "A cylinder has radius 2 inches and height 10 inches. Using π ≈ 3.14, what is the volume?",
+      "answer": "125.6",
+      "explanation": "Volume of a cylinder = πr²h. V = 3.14 × 2² × 10 = 3.14 × 4 × 10 = 125.6 in³."
+    },
+    {
+      "question": "A cone has a circular base with radius 3 m and height 9 m. Using π ≈ 3.14, find the volume.",
+      "answer": "84.78",
+      "explanation": "Volume of a cone = (1/3)πr²h. V = (1/3) × 3.14 × 3² × 9 = (1/3) × 3.14 × 9 × 9 = 84.78 m³."
+    },
+    {
+      "question": "A sphere has radius 2 cm. Using π ≈ 3.14, what is its volume?",
+      "answer": "33.49",
+      "explanation": "Volume of a sphere = (4/3)πr³. V = (4/3) × 3.14 × 2³ = (4/3) × 3.14 × 8 ≈ 33.49 cm³."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 12 square feet and height (length) of the prism 7 feet. What is the volume?",
+      "answer": "84",
+      "explanation": "Volume of a prism = base area × height. V = 12 × 7 = 84 ft³."
+    },
+    {
+      "question": "If the volume of a rectangular prism is 120 cubic inches and its length is 8 inches and width is 5 inches, what is its height?",
+      "answer": "3",
+      "explanation": "Volume = length × width × height, so 120 = 8 × 5 × h. Therefore h = 120 ÷ 40 = 3 inches."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:23.784Z",
+  "model": "claude-haiku-4-5-20251001"
+}

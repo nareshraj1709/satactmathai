@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-6",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A right triangle has legs of length 5 and 12. If θ is the acute angle opposite the leg of length 5, find the exact value of sec(θ).",
+      "answer": "13/12",
+      "explanation": "The hypotenuse is √(5² + 12²) = 13. Since θ is opposite the side of length 5, the adjacent side is 12. Therefore, sec(θ) = hypotenuse/adjacent = 13/12."
+    },
+    {
+      "question": "Simplify: sin²(α) + sin²(α)·cot²(α). Express your answer as a single trigonometric function.",
+      "answer": "1",
+      "explanation": "Factor: sin²(α)(1 + cot²(α)). By the Pythagorean identity, 1 + cot²(α) = csc²(α). So sin²(α)·csc²(α) = sin²(α)·(1/sin²(α)) = 1."
+    },
+    {
+      "question": "On the unit circle, point P is at angle θ where cos(θ) = –3/5 and π/2 < θ < π. Find sin(θ).",
+      "answer": "4/5",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1: sin²(θ) = 1 – 9/25 = 16/25, so sin(θ) = ±4/5. Since θ is in the second quadrant, sin(θ) > 0, thus sin(θ) = 4/5."
+    },
+    {
+      "question": "A ladder leans against a wall, making an angle of 65° with the ground. If the ladder is 10 meters long, how far is the base of the ladder from the wall? Round to the nearest tenth of a meter.",
+      "answer": "4.2",
+      "explanation": "The base distance is the adjacent side to the 65° angle. Use cos(65°) = adjacent/10, so adjacent = 10·cos(65°) ≈ 10(0.4226) ≈ 4.2 meters."
+    },
+    {
+      "question": "If tan(β) = 7/24 and β is in the first quadrant, find csc(β).",
+      "answer": "25/7",
+      "explanation": "From tan(β) = 7/24, construct a right triangle with opposite = 7 and adjacent = 24. The hypotenuse is √(49 + 576) = 25. Thus csc(β) = hypotenuse/opposite = 25/7."
+    },
+    {
+      "question": "Prove that (cos(γ) – sin(γ))² + 2sin(γ)cos(γ) = 1. State whether this identity is true or false.",
+      "answer": "True",
+      "explanation": "Expand: cos²(γ) – 2sin(γ)cos(γ) + sin²(γ) + 2sin(γ)cos(γ) = cos²(γ) + sin²(γ) = 1. The identity is true."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:57.021Z",
+  "model": "claude-haiku-4-5-20251001"
+}

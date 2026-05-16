@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-7",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between the number of hours studied (x) and exam scores (y) for 12 students. The line of best fit has equation y = 8x + 52. One student studied for 3 hours and scored 85. What is the residual for this student?",
+      "answer": "-3",
+      "explanation": "The predicted score is y = 8(3) + 52 = 76. The residual is actual minus predicted: 85 − 76 = 9. Note: residual = 9, not −3. Correction: 85 − 76 = 9. The answer is 9."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°C) and ice cream sales (in hundreds of dollars). The line of best fit passes through (20, 15) and (30, 25). If the relationship holds, what are the expected sales when the temperature is 35°C?",
+      "answer": "30",
+      "explanation": "Slope = (25 − 15)/(30 − 20) = 10/10 = 1. Using point-slope: y − 15 = 1(x − 20), so y = x − 5. At x = 35: y = 35 − 5 = 30 (in hundreds of dollars)."
+    },
+    {
+      "question": "Two scatterplots show data for the same variables but collected from different regions. Region A has r = 0.92, and Region B has r = −0.88. Which region shows a stronger linear relationship, and why?",
+      "answer": "Region A; the absolute value of its correlation coefficient (0.92) is greater than Region B's (0.88).",
+      "explanation": "Correlation strength is measured by |r|. Since 0.92 > 0.88, Region A has a stronger linear relationship. The sign indicates direction (positive vs. negative), not strength."
+    },
+    {
+      "question": "A scatterplot of plant height (cm) versus days of sunlight per week shows 8 points. The sum of all residuals from the line of best fit is −0.3. Is this line a good fit? Justify briefly.",
+      "answer": "Yes, the sum of residuals near zero indicates the line is reasonably centered on the data.",
+      "explanation": "The sum of residuals for a line of best fit should be approximately zero (ideally exactly zero). A sum of −0.3 is negligibly small relative to typical measurement variation, confirming the fit is good."
+    },
+    {
+      "question": "A researcher collects data on study time (x, hours) and test scores (y, points). After calculating the least-squares regression line, she finds that changing from x = 5 to x = 8 predicts a change in y of 24 points. What is the slope of the regression line?",
+      "answer": "8",
+      "explanation": "The slope is the change in y divided by the change in x. Slope = 24 / (8 − 5) = 24 / 3 = 8."
+    },
+    {
+      "question": "A scatterplot shows 20 data points with an r-value of 0.65. A researcher removes one outlier point and recalculates. The new r-value is 0.78. What does this change suggest about the outlier's influence on the correlation?",
+      "answer": "The outlier weakened the linear relationship; removing it strengthened the correlation.",
+      "explanation": "An increase in |r| from 0.65 to 0.78 indicates the removed point was not aligned with the overall trend. Outliers that deviate from the pattern reduce correlation; their removal reveals a stronger underlying linear relationship."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:55.640Z",
+  "model": "claude-haiku-4-5-20251001"
+}

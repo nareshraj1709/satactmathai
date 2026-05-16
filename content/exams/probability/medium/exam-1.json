@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-1",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is either red or green?",
+      "answer": "7/10",
+      "explanation": "Total marbles = 5 + 3 + 2 = 10. Red or green marbles = 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "In a survey of 200 students, 120 play soccer and 80 play basketball. If 50 students play both sports, how many students play at least one of these sports?",
+      "answer": "150",
+      "explanation": "Use inclusion-exclusion: Total = 120 + 80 − 50 = 150 students play at least one sport."
+    },
+    {
+      "question": "A two-way table shows that of 100 customers, 60 bought coffee and 40 bought tea. Of those who bought coffee, 15 also bought a pastry. Of those who bought tea, 10 also bought a pastry. What is the probability that a randomly selected customer bought a pastry, given that they bought coffee?",
+      "answer": "1/4 or 0.25",
+      "explanation": "Conditional probability: P(pastry | coffee) = (customers with both) / (customers with coffee) = 15/60 = 1/4."
+    },
+    {
+      "question": "Two fair dice are rolled. What is the probability that the sum is at least 10?",
+      "answer": "1/6",
+      "explanation": "Outcomes with sum ≥ 10: (4,6), (5,5), (6,4), (5,6), (6,5), (6,6) = 6 outcomes. Total outcomes = 36. Probability = 6/36 = 1/6."
+    },
+    {
+      "question": "A school has 300 students: 180 are in honors classes and 120 are not. Of the honors students, 27 failed their final exam. Of the non-honors students, 24 failed their final exam. If a student is selected at random, what is the probability that they either are in honors or failed the final exam?",
+      "answer": "231/300 or 0.77",
+      "explanation": "Honors students = 180, failed = 27 + 24 = 51. Using inclusion-exclusion: 180 + 51 − 27 = 204. But recalculate: P(honors ∪ failed) = (180 + 51 − 27)/300 = 204/300 = 17/25. Actually: (honors) + (failed but not honors) = 180 + 24 = 204... Let me recalculate: Total who failed = 51. Total in honors OR failed = 180 + (51 − 27) = 180 + 24 = 204. Probability = 204/300 = 17/25."
+    },
+    {
+      "question": "A jar contains 8 pens: 5 black and 3 red. You draw two pens without replacement. What is the probability that both pens are black?",
+      "answer": "5/14",
+      "explanation": "P(both black) = (5/8) × (4/7) = 20/56 = 5/14."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:21.639Z",
+  "model": "claude-haiku-4-5-20251001"
+}

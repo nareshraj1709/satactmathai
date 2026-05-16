@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-8",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "25% of $40 = 0.25 × 40 = $10. Sale price = $40 − $10 = $30."
+    },
+    {
+      "question": "A restaurant bill is $50. You leave a 20% tip. How much tip do you leave?",
+      "answer": "$10",
+      "explanation": "Tip = 20% of $50 = 0.20 × 50 = $10."
+    },
+    {
+      "question": "Last year, a company had 200 employees. This year, it has 240 employees. What is the percent increase in employees?",
+      "answer": "20%",
+      "explanation": "Increase = 240 − 200 = 40. Percent change = (40 ÷ 200) × 100 = 20%."
+    },
+    {
+      "question": "A book costs $60 after a 40% discount. What was the original price?",
+      "answer": "$100",
+      "explanation": "If 40% is discounted, you pay 60% of the original price. So 0.60 × original = 60, giving original = $100."
+    },
+    {
+      "question": "A store increases the price of a toy from $20 to $25. What is the percent increase?",
+      "answer": "25%",
+      "explanation": "Increase = $25 − $20 = $5. Percent change = (5 ÷ 20) × 100 = 25%."
+    },
+    {
+      "question": "A jacket is marked 30% off. If the original price is $80, what do you pay?",
+      "answer": "$56",
+      "explanation": "Discount = 30% of $80 = 0.30 × 80 = $24. Price paid = $80 − $24 = $56."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:52.513Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-hard-1",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A cone has volume 96π cubic inches. If the height is 3 times the radius, find the radius in inches.",
+      "answer": "4",
+      "explanation": "Use V = (1/3)πr²h. Substitute h = 3r: 96π = (1/3)πr²(3r) = πr³. So r³ = 96, giving r = 4."
+    },
+    {
+      "question": "A cylinder with radius 5 cm has its height increased by 20%. By what percent does the volume increase?",
+      "answer": "20",
+      "explanation": "Volume V = πr²h depends linearly on height. Increasing h by 20% increases V by 20%, regardless of radius."
+    },
+    {
+      "question": "A sphere has surface area 100π square meters. What is its volume in cubic meters?",
+      "answer": "(500π)/3",
+      "explanation": "Surface area: 4πr² = 100π gives r² = 25, so r = 5. Volume: V = (4/3)πr³ = (4/3)π(125) = (500π)/3."
+    },
+    {
+      "question": "A rectangular prism has dimensions 3, 4, and 5. A sphere is inscribed in the prism (touching all 6 faces). What is the diameter of the sphere?",
+      "answer": "3",
+      "explanation": "For a sphere to touch all 6 faces of a rectangular prism, it must fit inside the smallest dimension. The diameter equals the shortest side: 3."
+    },
+    {
+      "question": "Two identical cones are joined base-to-base to form a double cone (bicone). Each cone has radius 6 and height 8. What is the total surface area (lateral surfaces only)?",
+      "answer": "120π",
+      "explanation": "Slant height ℓ = √(6² + 8²) = 10. Each cone's lateral area is πrℓ = 60π. Total for both: 2(60π) = 120π."
+    },
+    {
+      "question": "A cylindrical tank with radius 3 feet is filled to height 10 feet. If water drains at 6π cubic feet per minute, how many minutes until the tank is empty?",
+      "answer": "15",
+      "explanation": "Volume of cylinder: V = πr²h = π(3²)(10) = 90π cubic feet. Time = 90π ÷ 6π = 15 minutes."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:59.213Z",
+  "model": "claude-haiku-4-5-20251001"
+}

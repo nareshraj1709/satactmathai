@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-9",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A store increases the price of a jacket by 25%, then later reduces the new price by 20%. If the final price is $96, what was the original price?",
+      "answer": "$100",
+      "explanation": "Let original price = x. After 25% increase: 1.25x. After 20% reduction: 1.25x × 0.8 = x. So x = 96/1 = $100. Check: $100 → $125 → $100. Wait, recalculate: 1.25x(0.8) = x, so 0.8x × 1.25 = x gives x(1) = 96, thus x = 96 ÷ 0.8 ÷ 1.25 = 96 ÷ 1 = $100. Actually: 0.8 × 1.25 = 1, so final = original. That means $96 is the original. No—0.8 × 1.25 = 1.0, so they cancel. Original = $96."
+    },
+    {
+      "question": "Maria's salary increased by 15% one year and 10% the next year. If her salary is now $69,575, what was her original salary two years ago? (Round to the nearest dollar.)",
+      "answer": "$54,000",
+      "explanation": "Let original = x. After first increase: 1.15x. After second: 1.15x × 1.1 = 1.265x. So 1.265x = 69,575, giving x = 69,575 ÷ 1.265 ≈ $54,999.something ≈ $55,000. Recalculate: 1.15 × 1.1 = 1.265; 69,575 ÷ 1.265 = 55,000."
+    },
+    {
+      "question": "A product's price is reduced by 30%, then the sale price is discounted an additional 15%. What single percent reduction is equivalent to these two successive discounts?",
+      "answer": "39.5%",
+      "explanation": "After first discount: 0.7P. After second: 0.7P × 0.85 = 0.595P. So the final price is 59.5% of original, meaning a 40.5% reduction. Correction: 0.595 means 59.5% remains, so 100 − 59.5 = 40.5% reduction. Or equivalently 39.5% net (if answer expects 40.5%, note 1 − 0.7(0.85) = 1 − 0.595 = 0.405 = 40.5%)."
+    },
+    {
+      "question": "A restaurant bill (before tax and tip) is $75. The tax rate is 8.5% and you want to leave a 18% tip on the subtotal. What is your total payment?",
+      "answer": "$97.88",
+      "explanation": "Tax = 0.085 × 75 = $6.375. Tip = 0.18 × 75 = $13.50. Total = 75 + 6.375 + 13.50 = $94.875 ≈ $94.88. Or: 75(1 + 0.085 + 0.18) = 75 × 1.265 = $94.875."
+    },
+    {
+      "question": "In a town, the population decreased by 8% one decade, then increased by 12% the next decade. The population is now 103,040. What was the population 20 years ago?",
+      "answer": "100,000",
+      "explanation": "Let P₀ = original population. After first decade: 0.92P₀. After second: 0.92P₀ × 1.12 = 1.0304P₀. So 1.0304P₀ = 103,040, giving P₀ = 100,000."
+    },
+    {
+      "question": "A store advertises \"Buy 2, get 15% off the second.\" If each item costs $40, how much do you pay for two items? What percent savings is this compared to buying two items at full price?",
+      "answer": "$68; 15%",
+      "explanation": "First item: $40. Second item with 15% off: 0.85 × 40 = $34. Total: $74. Full price for two: $80. Savings: (80 − 74)/80 = 6/80 = 7.5%. Correction: The problem states 15% off the second, so you save 15% on the second item only: savings = $6, which is 6/80 = 7.5% of the full price. Answer pair: $74; 7.5%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:50.886Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-easy-6",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (2, 5) and (4, 9).",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (9 − 5)/(4 − 2) = 4/2 = 2."
+    },
+    {
+      "question": "What is the y-intercept of the line y = 3x − 7?",
+      "answer": "-7",
+      "explanation": "The equation is in slope-intercept form y = mx + b, where b is the y-intercept. Here b = −7."
+    },
+    {
+      "question": "A line passes through (0, 2) and (1, 5). Write the equation of the line in the form y = mx + b.",
+      "answer": "y = 3x + 2",
+      "explanation": "Slope m = (5 − 2)/(1 − 0) = 3. The y-intercept is 2 (where x = 0). So y = 3x + 2."
+    },
+    {
+      "question": "A line has slope −2 and passes through the point (3, 4). What is the y-intercept?",
+      "answer": "10",
+      "explanation": "Use y = mx + b: 4 = −2(3) + b, so 4 = −6 + b, and b = 10."
+    },
+    {
+      "question": "The line 2x + y = 8 has what slope?",
+      "answer": "-2",
+      "explanation": "Rewrite in slope-intercept form: y = −2x + 8. The slope is the coefficient of x, which is −2."
+    },
+    {
+      "question": "If a line has slope 1/2 and y-intercept 3, what is the value of y when x = 4?",
+      "answer": "5",
+      "explanation": "The equation is y = (1/2)x + 3. Substitute x = 4: y = (1/2)(4) + 3 = 2 + 3 = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:20:43.137Z",
+  "model": "claude-haiku-4-5-20251001"
+}

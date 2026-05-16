@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-6",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "25% of $40 = 0.25 × $40 = $10. Sale price = $40 − $10 = $30."
+    },
+    {
+      "question": "A restaurant bill is $50 before tax. The tax rate is 8%. What is the total bill including tax?",
+      "answer": "$54",
+      "explanation": "Tax = 8% of $50 = 0.08 × $50 = $4. Total = $50 + $4 = $54."
+    },
+    {
+      "question": "Last year, a company had 200 employees. This year, it has 240 employees. What is the percent increase in the number of employees?",
+      "answer": "20%",
+      "explanation": "Increase = 240 − 200 = 40. Percent increase = (40 ÷ 200) × 100% = 20%."
+    },
+    {
+      "question": "A jacket costs $80 after a 20% discount. What was the original price?",
+      "answer": "$100",
+      "explanation": "If the original price is P, then 0.80P = $80. So P = $80 ÷ 0.80 = $100."
+    },
+    {
+      "question": "You buy a meal for $25 and want to leave a 15% tip. How much is the tip?",
+      "answer": "$3.75",
+      "explanation": "Tip = 15% of $25 = 0.15 × $25 = $3.75."
+    },
+    {
+      "question": "A store increases the price of an item by 10%, then decreases the new price by 10%. If the original price was $100, what is the final price?",
+      "answer": "$99",
+      "explanation": "After 10% increase: $100 × 1.10 = $110. After 10% decrease: $110 × 0.90 = $99."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:52.483Z",
+  "model": "claude-haiku-4-5-20251001"
+}

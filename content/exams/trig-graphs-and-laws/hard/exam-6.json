@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-hard-6",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "The function f(x) = 3sin(2x − π/3) − 1 has a maximum value. At what y-value does this maximum occur?",
+      "answer": "2",
+      "explanation": "The maximum of sin(θ) is 1. So max of 3sin(2x − π/3) is 3(1) = 3. Then 3 − 1 = 2."
+    },
+    {
+      "question": "In triangle ABC, side a = 7, side b = 10, and angle C = 120°. Find side c using the law of cosines. Round to the nearest tenth.",
+      "answer": "15.1",
+      "explanation": "c² = a² + b² − 2ab cos(C) = 49 + 100 − 2(7)(10)cos(120°) = 149 − 140(−0.5) = 149 + 70 = 219. Then c = √219 ≈ 15.1."
+    },
+    {
+      "question": "The graph of y = −2cos(x) + 4 oscillates between which two y-values?",
+      "answer": "2 and 6",
+      "explanation": "cos(x) ranges from −1 to 1. So −2cos(x) ranges from 2 to −2. Adding 4 shifts the range to [2, 6]."
+    },
+    {
+      "question": "In triangle PQR, angle P = 35°, angle Q = 65°, and side p = 12. Using the law of sines, find side q. Round to the nearest integer.",
+      "answer": "18",
+      "explanation": "sin(P)/p = sin(Q)/q gives sin(35°)/12 = sin(65°)/q. Then q = 12·sin(65°)/sin(35°) ≈ 12(0.906)/0.574 ≈ 18."
+    },
+    {
+      "question": "The function y = tan(x) has a vertical asymptote at x = π/2. At what x-value in the interval (π/2, 3π/2) does the next vertical asymptote occur?",
+      "answer": "x = 3π/2",
+      "explanation": "Vertical asymptotes of tan(x) occur at x = π/2 + nπ for integer n. For n = 1: x = π/2 + π = 3π/2."
+    },
+    {
+      "question": "In triangle ABC, sides a = 8, b = 6, and c = 7. Use the law of cosines to find cos(A), then express your answer as a simplified fraction.",
+      "answer": "1/16",
+      "explanation": "cos(A) = (b² + c² − a²)/(2bc) = (36 + 49 − 64)/(2·6·7) = 21/84 = 1/4. Wait, recalculating: 36 + 49 − 64 = 21; 2·6·7 = 84. So cos(A) = 21/84 = 1/4. If a = 9: (36 + 49 − 81)/84 = 4/84 = 1/21. Check: a = 8 gives (36 + 49 − 64)/84 = 21/84 = 1/4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:22:41.011Z",
+  "model": "claude-haiku-4-5-20251001"
+}

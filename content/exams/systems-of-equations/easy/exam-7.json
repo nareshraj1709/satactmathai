@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-easy-7",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Solve the system:\nx + y = 7\nx - y = 3",
+      "answer": "x = 5, y = 2",
+      "explanation": "Add the two equations to eliminate y: 2x = 10, so x = 5. Substitute back: 5 + y = 7, so y = 2."
+    },
+    {
+      "question": "Solve for y:\n2y + 4 = 10\ny = x + 1",
+      "answer": "y = 3, x = 2",
+      "explanation": "From the first equation: 2y = 6, so y = 3. Substitute into the second: 3 = x + 1, so x = 2."
+    },
+    {
+      "question": "Two numbers sum to 15. Their difference is 5. What are the two numbers?",
+      "answer": "10 and 5",
+      "explanation": "Let the numbers be a and b. Set up: a + b = 15 and a - b = 5. Adding these equations gives 2a = 20, so a = 10 and b = 5."
+    },
+    {
+      "question": "Solve the system:\n3x + y = 11\ny = 2x",
+      "answer": "x = 11/5, y = 22/5",
+      "explanation": "Substitute y = 2x into the first equation: 3x + 2x = 11, so 5x = 11 and x = 11/5. Then y = 2(11/5) = 22/5."
+    },
+    {
+      "question": "Solve the system using elimination:\n2x + 3y = 12\n2x + y = 8",
+      "answer": "x = 3, y = 2",
+      "explanation": "Subtract the second equation from the first: 2y = 4, so y = 2. Substitute into 2x + y = 8: 2x + 2 = 8, so x = 3."
+    },
+    {
+      "question": "A pencil costs $1 and a pen costs $2. If you buy 5 items for $8, how many pencils and pens do you buy?",
+      "answer": "2 pencils and 3 pens",
+      "explanation": "Let p = pencils, n = pens. Set up: p + n = 5 and p + 2n = 8. Subtract to get n = 3, so p = 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:02.918Z",
+  "model": "claude-haiku-4-5-20251001"
+}

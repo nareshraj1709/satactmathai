@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-hard-8",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "The GCF of two positive integers is 12, and their LCM is 180. If one of the integers is 36, what is the other integer?",
+      "answer": "60",
+      "explanation": "Use the property: GCF(a,b) × LCM(a,b) = a × b. So 12 × 180 = 36 × b, which gives 2160 = 36b, thus b = 60. Verify: GCF(36,60) = 12 ✓ and LCM(36,60) = 180 ✓"
+    },
+    {
+      "question": "A number is divisible by both 6 and 8, but not divisible by 16. Which of the following could be the number?\n(A) 72\n(B) 96\n(C) 144\nList all that work.",
+      "answer": "72",
+      "explanation": "Divisible by both 6 and 8 means divisible by LCM(6,8) = 24. Check 72: 72÷24 = 3 ✓, 72÷16 = 4.5 ✗ (not divisible). Check 96: 96÷16 = 6 ✓ (divisible by 16, fails condition). Check 144: 144÷16 = 9 ✓ (divisible by 16, fails condition)."
+    },
+    {
+      "question": "The product of two consecutive odd integers is 323. What is the larger of the two integers?",
+      "answer": "19",
+      "explanation": "Let the integers be n and n+2. Then n(n+2) = 323, so n² + 2n − 323 = 0. Factor: (n−17)(n+19) = 0. Since n must be positive, n = 17. The two odd integers are 17 and 19, so the larger is 19."
+    },
+    {
+      "question": "How many positive divisors does 2⁴ × 3² × 5 have?",
+      "answer": "30",
+      "explanation": "If a number factors as p₁^(a₁) × p₂^(a₂) × ... × pₖ^(aₖ), the divisor count is (a₁+1)(a₂+1)...(aₖ+1). Here: (4+1)(2+1)(1+1) = 5 × 3 × 2 = 30."
+    },
+    {
+      "question": "A rectangular garden has dimensions 48 feet by 36 feet. It will be divided into the largest possible square plots with no remainder. What is the side length of each square plot?",
+      "answer": "12 feet",
+      "explanation": "The side length of the largest square is the GCF(48, 36). Using the Euclidean algorithm: 48 = 36(1) + 12; 36 = 12(3) + 0. So GCF = 12 feet."
+    },
+    {
+      "question": "What is the smallest positive integer that is divisible by 9, leaves a remainder of 5 when divided by 7, and is a multiple of 4?",
+      "answer": "144",
+      "explanation": "The number must be divisible by both 9 and 4, so divisible by LCM(9,4) = 36. Check multiples of 36: 36÷7 = 5 R 1 ✗; 72÷7 = 10 R 2 ✗; 108÷7 = 15 R 3 ✗; 144÷7 = 20 R 4 ✗; 180÷7 = 25 R 5 ✓. Answer is 144."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:55.697Z",
+  "model": "claude-haiku-4-5-20251001"
+}

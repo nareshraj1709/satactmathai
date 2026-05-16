@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-3",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5, width 4, and height 3. What is its volume?",
+      "answer": "60",
+      "explanation": "Volume of a rectangular prism = length × width × height = 5 × 4 × 3 = 60 cubic units."
+    },
+    {
+      "question": "A cylinder has radius 2 and height 5. Use π ≈ 3.14 to find its volume to the nearest whole number.",
+      "answer": "63",
+      "explanation": "Volume of a cylinder = πr²h = 3.14 × 2² × 5 = 3.14 × 4 × 5 = 62.8 ≈ 63 cubic units."
+    },
+    {
+      "question": "A sphere has radius 3. If you use the formula V = (4/3)πr³ and π ≈ 3.14, what is the volume to the nearest whole number?",
+      "answer": "113",
+      "explanation": "V = (4/3) × 3.14 × 3³ = (4/3) × 3.14 × 27 ≈ 4.19 × 27 ≈ 113.1 cubic units."
+    },
+    {
+      "question": "A cone has radius 3 and height 4. Using V = (1/3)πr²h with π ≈ 3.14, find the volume to the nearest whole number.",
+      "answer": "38",
+      "explanation": "V = (1/3) × 3.14 × 3² × 4 = (1/3) × 3.14 × 9 × 4 = (1/3) × 113.04 ≈ 37.7 ≈ 38 cubic units."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 12 square units and height 6. What is its volume?",
+      "answer": "72",
+      "explanation": "Volume of a prism = base area × height = 12 × 6 = 72 cubic units."
+    },
+    {
+      "question": "A cube has side length 4. What is its volume?",
+      "answer": "64",
+      "explanation": "Volume of a cube = side³ = 4³ = 64 cubic units."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:18:53.809Z",
+  "model": "claude-haiku-4-5-20251001"
+}

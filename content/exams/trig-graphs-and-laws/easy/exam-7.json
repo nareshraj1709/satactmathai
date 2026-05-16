@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-7",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "What is the period of the function y = sin(2x)?",
+      "answer": "π",
+      "explanation": "For y = sin(bx), the period is 2π/b. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, angle A = 30°, angle B = 60°, and side a = 5. Find side b using the Law of Sines.",
+      "answer": "5√3",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B). So 5/sin(30°) = b/sin(60°). This gives 5/(1/2) = b/(√3/2), so 10 = 2b/√3, and b = 5√3."
+    },
+    {
+      "question": "The function y = cos(x) has a maximum value at x = 0. What is the next x-value where the maximum occurs?",
+      "answer": "2π",
+      "explanation": "Cosine reaches its maximum value of 1 at x = 0. The period of cos(x) is 2π, so the next maximum is at x = 2π."
+    },
+    {
+      "question": "In triangle ABC, sides a = 3, b = 4, and angle C = 90°. Use the Law of Cosines to find side c.",
+      "answer": "5",
+      "explanation": "Law of Cosines: c² = a² + b² − 2ab·cos(C). Since C = 90°, cos(90°) = 0, so c² = 9 + 16 = 25, giving c = 5."
+    },
+    {
+      "question": "What is the amplitude of the function y = 3sin(x) − 2?",
+      "answer": "3",
+      "explanation": "The amplitude is the coefficient of the sine function, which is |3| = 3. The −2 is a vertical shift, not part of the amplitude."
+    },
+    {
+      "question": "In triangle ABC, a = 6, b = 8, and c = 10. Find angle C using the Law of Cosines.",
+      "answer": "90°",
+      "explanation": "By Law of Cosines: c² = a² + b² − 2ab·cos(C). So 100 = 36 + 64 − 96·cos(C), which gives 100 = 100 − 96·cos(C). Thus cos(C) = 0, so C = 90°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:23.900Z",
+  "model": "claude-haiku-4-5-20251001"
+}

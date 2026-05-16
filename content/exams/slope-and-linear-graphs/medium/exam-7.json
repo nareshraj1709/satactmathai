@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-7",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (−2, 5) and (4, −7).",
+      "answer": "-2",
+      "explanation": "Use the slope formula m = (y₂ − y₁)/(x₂ − x₁). m = (−7 − 5)/(4 − (−2)) = −12/6 = −2."
+    },
+    {
+      "question": "A line has slope 3 and passes through (1, 2). Write the equation in the form y = mx + b.",
+      "answer": "y = 3x - 1",
+      "explanation": "Use point-slope form: y − 2 = 3(x − 1). Expand: y − 2 = 3x − 3, so y = 3x − 1."
+    },
+    {
+      "question": "The line 2x + 5y = 10 is graphed on a coordinate plane. What is its y-intercept?",
+      "answer": "2",
+      "explanation": "Set x = 0: 2(0) + 5y = 10, so 5y = 10, y = 2. The y-intercept is 2."
+    },
+    {
+      "question": "Two parallel lines have the same slope. If line A has equation y = −4x + 3, what is the slope of any line parallel to line A?",
+      "answer": "-4",
+      "explanation": "Parallel lines have identical slopes. The slope of line A is −4, so any parallel line also has slope −4."
+    },
+    {
+      "question": "A line passes through (−3, 1) and (5, 1). What is the slope of this line?",
+      "answer": "0",
+      "explanation": "Since both points have the same y-coordinate, the line is horizontal. The slope is m = (1 − 1)/(5 − (−3)) = 0/8 = 0."
+    },
+    {
+      "question": "A line crosses the x-axis at (6, 0) and the y-axis at (0, −4). What is its slope?",
+      "answer": "2/3",
+      "explanation": "Use the two intercepts: m = (−4 − 0)/(0 − 6) = −4/(−6) = 2/3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:38.084Z",
+  "model": "claude-haiku-4-5-20251001"
+}

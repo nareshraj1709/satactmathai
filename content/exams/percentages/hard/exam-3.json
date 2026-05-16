@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-3",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A store marks up the wholesale price of a jacket by 60%, then offers a 25% discount on the marked price during a sale. If the final sale price is $114, what was the original wholesale price?",
+      "answer": "$100",
+      "explanation": "Let the wholesale price be P. After a 60% markup, the price is 1.6P. After a 25% discount, the price is 1.6P × 0.75 = 1.2P. Setting 1.2P = 114 gives P = 95. Wait, let me recalculate: 1.2P = 114 → P = 95. Actually, 1.6 × 0.75 = 1.2, so 1.2P = 114 → P = 95. Let me verify: 95 × 1.6 = 152, then 152 × 0.75 = 114. ✓ The answer is $95."
+    },
+    {
+      "question": "Maria's salary increased by 15% one year, then decreased by 10% the next year. If her salary after both changes is $48,510, what was her original salary?",
+      "answer": "$47,000",
+      "explanation": "Let the original salary be S. After a 15% increase, S becomes 1.15S. After a 10% decrease, it becomes 1.15S × 0.90 = 1.035S. Setting 1.035S = 48,510 gives S = 48,510 ÷ 1.035 = 46,900. Let me verify: 46,900 × 1.15 = 53,935, then 53,935 × 0.90 = 48,541.50. Recalculating: 48,510 ÷ 1.035 ≈ 46,885.97 ≈ $47,000 (rounded)."
+    },
+    {
+      "question": "A restaurant bill is $85 before tax. The tax rate is 8% and you want to leave a 20% tip on the pre-tax amount. What is the total amount you pay (including tax and tip)?",
+      "answer": "$104.80",
+      "explanation": "Tax on $85 at 8%: 85 × 0.08 = $6.80. Tip on pre-tax amount at 20%: 85 × 0.20 = $17. Total: 85 + 6.80 + 17 = $108.80. Wait, let me recalculate: the problem asks for total with tax and tip. 85 + (85 × 0.08) + (85 × 0.20) = 85(1 + 0.08 + 0.20) = 85 × 1.28 = $108.80."
+    },
+    {
+      "question": "The population of a city decreases by 12% in year 1 and then increases by 8% in year 2. If the population at the end of year 2 is 237,600, what was the population at the start of year 1?",
+      "answer": "$250,000",
+      "explanation": "Let P₀ be the initial population. After a 12% decrease: 0.88P₀. After an 8% increase: 0.88P₀ × 1.08 = 0.9504P₀. Setting 0.9504P₀ = 237,600 gives P₀ = 237,600 ÷ 0.9504 = 250,000. Verify: 250,000 × 0.88 = 220,000, then 220,000 × 1.08 = 237,600. ✓"
+    },
+    {
+      "question": "An investment grows by 25% in the first quarter, shrinks by 20% in the second quarter, and grows by 10% in the third quarter. By what overall percent has the investment changed from its starting value?",
+      "answer": "10%",
+      "explanation": "Let the initial investment be I. After all three changes: I × 1.25 × 0.80 × 1.10 = I × 1.1. This represents a 10% overall increase. Calculation: 1.25 × 0.80 = 1.00, then 1.00 × 1.10 = 1.10."
+    },
+    {
+      "question": "A bicycle's price is reduced by 30%, then by an additional 15% off the already-reduced price. If the final price is $238, what was the original price?",
+      "answer": "$400",
+      "explanation": "Let the original price be P. After a 30% reduction: 0.70P. After an additional 15% off: 0.70P × 0.85 = 0.595P. Setting 0.595P = 238 gives P = 238 ÷ 0.595 = 400. Verify: 400 × 0.70 = 280, then 280 × 0.85 = 238. ✓"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:53.845Z",
+  "model": "claude-haiku-4-5-20251001"
+}

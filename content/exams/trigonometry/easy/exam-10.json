@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-10",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 8 cm and the hypotenuse is 14 cm. Use SOH-CAH-TOA to find which ratio (sine, cosine, or tangent) relates these two sides.",
+      "answer": "sine",
+      "explanation": "The side opposite an angle and the hypotenuse are related by sine: sin(θ) = opposite/hypotenuse. Here, sin(35°) = 8/14."
+    },
+    {
+      "question": "Find sin(90°) using the unit circle.",
+      "answer": "1",
+      "explanation": "On the unit circle, the point at 90° is (0, 1). The sine of an angle equals the y-coordinate, so sin(90°) = 1."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 60° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach? Round to one decimal place.",
+      "answer": "8.7",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) = height/10, so height = 10 × sin(60°) = 10 × (√3/2) ≈ 8.7 feet."
+    },
+    {
+      "question": "Evaluate cos(180°) using the unit circle.",
+      "answer": "-1",
+      "explanation": "The point at 180° on the unit circle is (−1, 0). The cosine of an angle equals the x-coordinate, so cos(180°) = −1."
+    },
+    {
+      "question": "In a right triangle, one leg is 5 units and the hypotenuse is 13 units. Find the tangent of the angle opposite the leg of length 5.",
+      "answer": "5/12",
+      "explanation": "First find the other leg using the Pythagorean theorem: 5² + b² = 13², so b = 12. Then tan(θ) = opposite/adjacent = 5/12."
+    },
+    {
+      "question": "Without a calculator, determine whether sin(45°) equals cos(45°). Justify your answer.",
+      "answer": "Yes",
+      "explanation": "sin(45°) = √2/2 and cos(45°) = √2/2. They are equal because 45° is a special angle where the opposite and adjacent sides of a 45-45-90 triangle are equal."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:38.453Z",
+  "model": "claude-haiku-4-5-20251001"
+}

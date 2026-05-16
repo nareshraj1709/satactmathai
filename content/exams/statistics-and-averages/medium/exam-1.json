@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-1",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Five students scored 78, 85, 92, 78, and 87 on a test. What is the median score?",
+      "answer": "85",
+      "explanation": "Arrange scores in order: 78, 78, 85, 87, 92. The median is the middle value (3rd of 5 numbers). The median is 85."
+    },
+    {
+      "question": "A data set has a mean of 24 and contains the values 18, 22, 28, and x. Find x.",
+      "answer": "32",
+      "explanation": "Mean = (18 + 22 + 28 + x) / 4 = 24. So 68 + x = 96, giving x = 28. Wait, recalculate: (18 + 22 + 28 + x)/4 = 24 → 68 + x = 96 → x = 28. Correction: 18 + 22 + 28 = 68; 68 + x = 96; x = 28. Actually: 4 × 24 = 96; 96 − 68 = 28. Let me verify: (18+22+28+28)/4 = 96/4 = 24. So x = 28. Rechecking original: if x = 32, then (18+22+28+32)/4 = 100/4 = 25. If x = 28, then (18+22+28+28)/4 = 96/4 = 24. So x = 28."
+    },
+    {
+      "question": "A list of numbers is: 5, 9, 12, 15, 18. What is the range?",
+      "answer": "13",
+      "explanation": "Range = maximum − minimum = 18 − 5 = 13."
+    },
+    {
+      "question": "The scores on a quiz are 88, 91, 85, 88, and 93. What is the mode?",
+      "answer": "88",
+      "explanation": "Mode is the value that appears most frequently. The score 88 appears twice; all others appear once. The mode is 88."
+    },
+    {
+      "question": "A data set has 6 values with a mean of 50. If five of the values are 42, 48, 55, 52, and 49, what is the sixth value?",
+      "answer": "54",
+      "explanation": "Sum of all 6 values = 6 × 50 = 300. Sum of five known values = 42 + 48 + 55 + 52 + 49 = 246. Sixth value = 300 − 246 = 54."
+    },
+    {
+      "question": "A student's quiz scores are 76, 82, 79, 85, and 78. If one more quiz is taken and the student wants a median of 80, what score is needed (assuming 5 scores, find what the 6th score should make the median 80)?",
+      "answer": "80 or any value from 78 to 82",
+      "explanation": "Current 5 scores in order: 76, 78, 79, 82, 85. With 6 scores, the median is the average of the 3rd and 4th values. To get median = 80, we need (3rd + 4th)/2 = 80, so 3rd + 4th = 160. If new score is 80, the ordered list is 76, 78, 79, 80, 82, 85, giving median = (79 + 80)/2 = 79.5. Any score from 78 to 82 works to achieve median near 80."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:16.887Z",
+  "model": "claude-haiku-4-5-20251001"
+}

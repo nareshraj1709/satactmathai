@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-10",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A parabola has its vertex at the origin and opens upward with focus at (0, 3). What is the equation of the parabola?",
+      "answer": "x² = 12y",
+      "explanation": "For a parabola with vertex at origin opening upward, the form is x² = 4py. Since the focus is at (0, 3), we have p = 3. Therefore x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has a semi-major axis of length 5 and a semi-minor axis of length 3. If the major axis is horizontal and the center is at the origin, write the equation.",
+      "answer": "x²/25 + y²/9 = 1",
+      "explanation": "For a horizontal ellipse centered at origin, the form is x²/a² + y²/b² = 1, where a is the semi-major axis and b is the semi-minor axis. Here a = 5 and b = 3, so x²/25 + y²/9 = 1."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 - y²/9 = 1. What are the coordinates of the two vertices?",
+      "answer": "(4, 0) and (-4, 0)",
+      "explanation": "For a horizontal hyperbola x²/a² - y²/b² = 1, the vertices are at (±a, 0). Here a² = 16, so a = 4. The vertices are at (4, 0) and (-4, 0)."
+    },
+    {
+      "question": "A parabola has the equation y² = 8x. What is the focus of this parabola?",
+      "answer": "(2, 0)",
+      "explanation": "For a parabola y² = 4px opening rightward, the focus is at (p, 0). Here 4p = 8, so p = 2. The focus is at (2, 0)."
+    },
+    {
+      "question": "An ellipse has the equation (x - 2)²/49 + (y + 1)²/25 = 1. What is the center of this ellipse?",
+      "answer": "(2, -1)",
+      "explanation": "The standard form of an ellipse is (x - h)²/a² + (y - k)²/b² = 1, where (h, k) is the center. Comparing with the given equation, h = 2 and k = -1."
+    },
+    {
+      "question": "A hyperbola has the equation y²/36 - x²/64 = 1. Is this hyperbola opening vertically or horizontally, and what is the length of the transverse axis?",
+      "answer": "Vertically; 12",
+      "explanation": "Since y² is positive and x² is negative, the hyperbola opens vertically. For a vertical hyperbola, a² = 36, so a = 6. The transverse axis has length 2a = 2(6) = 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:12.892Z",
+  "model": "claude-haiku-4-5-20251001"
+}

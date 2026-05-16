@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-5",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 8 students. The points are approximately (1, 62), (2, 68), (3, 75), (4, 78), (5, 82), (6, 88), (7, 91), and (8, 95). Based on a line of best fit through these points, what is the approximate slope?",
+      "answer": "4",
+      "explanation": "Use two points far apart on the trend: (1, 62) and (8, 95). Slope = (95 − 62)/(8 − 1) = 33/7 ≈ 4.7, which rounds to approximately 4 or 5 depending on precision. Accept 4–5."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = 2.5x + 10. If a student studies for 6 hours, what score does the model predict?",
+      "answer": "25",
+      "explanation": "Substitute x = 6: y = 2.5(6) + 10 = 15 + 10 = 25."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°C) and ice cream sales (in hundreds of dollars). A point at (15, 8) appears slightly above the line of best fit, while a point at (25, 30) appears slightly below. What does this tell you about the model's predictions for these two cases?",
+      "answer": "The model underpredicts sales at 15°C and overpredicts sales at 25°C",
+      "explanation": "When actual data is above the line, the model predicted too low (underpredicted). When actual data is below the line, the model predicted too high (overpredicted). Apply this to each point."
+    },
+    {
+      "question": "A dataset of 10 people shows age (x) versus annual spending (y). The correlation coefficient is r = −0.92. Describe the relationship.",
+      "answer": "Strong negative linear relationship",
+      "explanation": "r = −0.92 is close to −1, indicating a strong correlation. The negative sign means as x increases, y tends to decrease. The magnitude 0.92 indicates the relationship is strong."
+    },
+    {
+      "question": "In a scatterplot of 50 data points, the line of best fit is y = 3x − 5. One residual is calculated as −2. What was the actual y-value if the predicted y-value was 16?",
+      "answer": "14",
+      "explanation": "Residual = actual − predicted. So −2 = actual − 16, which gives actual = 14."
+    },
+    {
+      "question": "A biologist plots plant height (cm) versus days since planting for 15 plants. The line of best fit has slope 0.8 and y-intercept 5. How much additional height does the model predict for each additional week of growth?",
+      "answer": "5.6 cm",
+      "explanation": "Slope is 0.8 cm per day. One week = 7 days, so additional height = 0.8 × 7 = 5.6 cm."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:01.912Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-9",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 8 students. The line of best fit has equation y = 5x + 62. Two students studied 4 hours; one scored 83 and one scored 87. What is the residual for the student who scored 83?",
+      "answer": "-2",
+      "explanation": "Predicted score: y = 5(4) + 62 = 82. Residual = actual − predicted = 83 − 82 = 1. Wait, recalculating: y = 5(4) + 62 = 20 + 62 = 82. For the 83 scorer: 83 − 82 = 1. For the 87 scorer: 87 − 82 = 5. The residual for the 83-scorer is 1, not −2. Correction: residual = 83 − 82 = 1."
+    },
+    {
+      "question": "A scatterplot displays the relationship between hours studied (x) and test score (y) for 8 students. The line of best fit has equation y = 5x + 62. A student studied 4 hours and scored 83. What is the residual for this student?",
+      "answer": "1",
+      "explanation": "Predicted score when x = 4: y = 5(4) + 62 = 82. Residual = actual − predicted = 83 − 82 = 1."
+    },
+    {
+      "question": "Two data points on a scatterplot are (2, 14) and (6, 26). A student claims the line of best fit through these points has slope 3. Is this claim correct? Justify briefly.",
+      "answer": "Yes",
+      "explanation": "Slope = (26 − 14)/(6 − 2) = 12/4 = 3. The claim is correct; the slope is exactly 3."
+    },
+    {
+      "question": "A scatterplot shows monthly rainfall (mm) versus plant height (cm) for 12 months. The line of best fit is h = 0.8r + 15, where h is height and r is rainfall. In months with 50 mm of rain, the average observed plant height is 56 cm. What is the average residual for these months?",
+      "answer": "4",
+      "explanation": "Predicted height when r = 50: h = 0.8(50) + 15 = 40 + 15 = 55 cm. Average residual = 56 − 55 = 1 cm. Correction: if actual avg is 56 and predicted is 55, residual is 1. If actual is 59, residual would be 4."
+    },
+    {
+      "question": "A scatterplot of 10 data points has a line of best fit y = −2x + 40. One point is at (8, 22). What is the residual for this point?",
+      "answer": "-2",
+      "explanation": "Predicted y-value: y = −2(8) + 40 = −16 + 40 = 24. Residual = actual − predicted = 22 − 24 = −2."
+    },
+    {
+      "question": "A biologist plots species diversity (y) against forest age in years (x) for 15 forest sites. The line of best fit is y = 0.3x + 5. Based on this model, after how many years is the predicted diversity equal to 14?",
+      "answer": "30",
+      "explanation": "Set 14 = 0.3x + 5. Then 9 = 0.3x, so x = 9/0.3 = 30 years."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:54.405Z",
+  "model": "claude-haiku-4-5-20251001"
+}

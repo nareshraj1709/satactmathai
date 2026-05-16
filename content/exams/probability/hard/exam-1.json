@@ -1,0 +1,42 @@
+{
+  "id": "probability-hard-1",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. Two marbles are drawn without replacement. What is the probability that the first marble is red and the second marble is blue? Express your answer as a fraction in lowest terms.",
+      "answer": "1/6",
+      "explanation": "P(red first) = 5/10. After removing one red, 9 marbles remain. P(blue second | red first) = 3/9 = 1/3. Total: (5/10) × (1/3) = 5/30 = 1/6."
+    },
+    {
+      "question": "In a two-way table, 120 students were surveyed about whether they play a sport and whether they have a part-time job. 45 play sports, 70 have jobs, and 20 do both. What is the probability that a randomly selected student plays a sport, given that the student has a part-time job?",
+      "answer": "2/7",
+      "explanation": "P(sport | job) = P(both) / P(job) = 20/70 = 2/7. Conditional probability uses only the subset with a job."
+    },
+    {
+      "question": "A fair die is rolled twice. What is the probability that the sum is 7, given that at least one die shows a 4?",
+      "answer": "1/5",
+      "explanation": "Outcomes with at least one 4: (4,1), (4,2), (4,3), (4,4), (4,5), (4,6), (1,4), (2,4), (3,4), (5,4), (6,4)—that's 11 outcomes. Of these, only (3,4) and (4,3) sum to 7—that's 2 outcomes. P = 2/11."
+    },
+    {
+      "question": "A jar contains tickets numbered 1 through 50. You draw one ticket without replacement, then another. What is the probability that both tickets have odd numbers?",
+      "answer": "49/196",
+      "explanation": "25 odd numbers out of 50. P(first odd) = 25/50 = 1/2. After removing one odd, 24 odd remain. P(second odd | first odd) = 24/49. Total: (1/2) × (24/49) = 24/98 = 12/49."
+    },
+    {
+      "question": "In a group of 200 people, 80 have allergies and 120 do not. Of those with allergies, 30 take medication. Of those without allergies, 10 take medication. A person is selected at random and found to take medication. What is the probability that this person has allergies?",
+      "answer": "3/4",
+      "explanation": "Total taking medication: 30 + 10 = 40. Using Bayes' theorem: P(allergies | medication) = 30/40 = 3/4."
+    },
+    {
+      "question": "Two cards are drawn without replacement from a standard 52-card deck. What is the probability that the first card is a heart and the second card is a spade?",
+      "answer": "13/204",
+      "explanation": "P(heart first) = 13/52 = 1/4. After removing one card, 51 remain with 13 spades. P(spade second | heart first) = 13/51. Total: (13/52) × (13/51) = 169/2652 = 13/204."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:59.306Z",
+  "model": "claude-haiku-4-5-20251001"
+}

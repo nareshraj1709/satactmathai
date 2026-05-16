@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-3",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Let f(x) = 3x - 2. Find f(4).",
+      "answer": "10",
+      "explanation": "Substitute x = 4 into f(x) = 3x - 2: f(4) = 3(4) - 2 = 12 - 2 = 10."
+    },
+    {
+      "question": "If g(x) = x² + 5, what is g(-2)?",
+      "answer": "9",
+      "explanation": "Substitute x = -2: g(-2) = (-2)² + 5 = 4 + 5 = 9."
+    },
+    {
+      "question": "Let f(x) = 2x + 1 and g(x) = x - 3. Find f(g(5)).",
+      "answer": "5",
+      "explanation": "First find g(5) = 5 - 3 = 2. Then f(2) = 2(2) + 1 = 5."
+    },
+    {
+      "question": "If h(x) = x/2 + 4, solve for x when h(x) = 9.",
+      "answer": "10",
+      "explanation": "Set x/2 + 4 = 9. Then x/2 = 5, so x = 10."
+    },
+    {
+      "question": "A function p(t) = 50 + 3t represents the price of an item after t months. What is p(6)?",
+      "answer": "68",
+      "explanation": "Substitute t = 6: p(6) = 50 + 3(6) = 50 + 18 = 68."
+    },
+    {
+      "question": "Let f(x) = 4x - 1. If f(x) = 11, what is x?",
+      "answer": "3",
+      "explanation": "Set 4x - 1 = 11. Then 4x = 12, so x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:01.284Z",
+  "model": "claude-haiku-4-5-20251001"
+}

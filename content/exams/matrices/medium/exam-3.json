@@ -1,0 +1,42 @@
+{
+  "id": "matrices-medium-3",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Find the determinant of the matrix [[3, 5], [2, 4]].",
+      "answer": "2",
+      "explanation": "For a 2×2 matrix [[a, b], [c, d]], determinant = ad − bc. Here: (3)(4) − (5)(2) = 12 − 10 = 2."
+    },
+    {
+      "question": "Multiply the matrices A = [[1, 2], [3, 4]] and B = [[5, 0], [1, 2]]. What is the entry in row 1, column 2 of AB?",
+      "answer": "4",
+      "explanation": "Row 1 of A is [1, 2]; column 2 of B is [0, 2]. Entry (1,2) = (1)(0) + (2)(2) = 4."
+    },
+    {
+      "question": "If matrix M = [[2, 0], [0, 2]], what does M represent geometrically?",
+      "answer": "A dilation (or scaling) by a factor of 2",
+      "explanation": "A diagonal matrix with equal non-zero entries on the diagonal scales all vectors by that constant. Here, every coordinate is multiplied by 2."
+    },
+    {
+      "question": "Add the matrices [[1, 3], [2, 5]] and [[4, -1], [0, 3]]. What is the sum?",
+      "answer": "[[5, 2], [2, 8]]",
+      "explanation": "Add corresponding entries: (1+4, 3−1) for row 1 and (2+0, 5+3) for row 2."
+    },
+    {
+      "question": "A matrix has determinant 0. What does this tell you about the matrix?",
+      "answer": "The matrix is singular (or non-invertible)",
+      "explanation": "A zero determinant means the rows (or columns) are linearly dependent, so the matrix has no inverse and maps to a lower-dimensional space."
+    },
+    {
+      "question": "Find the determinant of [[2, 1, 0], [3, 4, 1], [1, 0, 2]] using cofactor expansion along the first row.",
+      "answer": "9",
+      "explanation": "det = 2·det([[4,1],[0,2]]) − 1·det([[3,1],[1,2]]) + 0. = 2(8−0) − 1(6−1) = 16 − 5 = 9."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:16:23.251Z",
+  "model": "claude-haiku-4-5-20251001"
+}

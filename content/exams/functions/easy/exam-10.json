@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-10",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Let f(x) = 3x − 5. Find f(4).",
+      "answer": "7",
+      "explanation": "Substitute x = 4 into f(x): f(4) = 3(4) − 5 = 12 − 5 = 7."
+    },
+    {
+      "question": "If g(x) = x² + 2x, what is g(−3)?",
+      "answer": "3",
+      "explanation": "Substitute x = −3: g(−3) = (−3)² + 2(−3) = 9 − 6 = 3."
+    },
+    {
+      "question": "Let f(x) = 2x + 1 and g(x) = x − 3. Find f(g(5)).",
+      "answer": "5",
+      "explanation": "First find g(5) = 5 − 3 = 2. Then f(2) = 2(2) + 1 = 5."
+    },
+    {
+      "question": "If h(x) = 5 − x, solve for x when h(x) = 2.",
+      "answer": "x = 3",
+      "explanation": "Set 5 − x = 2. Subtract 5 from both sides: −x = −3, so x = 3."
+    },
+    {
+      "question": "The function f(x) = −4x + 7 is transformed to f(x − 2). Write the new function.",
+      "answer": "f(x − 2) = −4x + 15",
+      "explanation": "Replace x with (x − 2): f(x − 2) = −4(x − 2) + 7 = −4x + 8 + 7 = −4x + 15."
+    },
+    {
+      "question": "If f(x) = x/3 + 4, and f(a) = 6, what is the value of a?",
+      "answer": "a = 6",
+      "explanation": "Set a/3 + 4 = 6. Subtract 4: a/3 = 2. Multiply by 3: a = 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:28.514Z",
+  "model": "claude-haiku-4-5-20251001"
+}

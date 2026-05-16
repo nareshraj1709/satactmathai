@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-1",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 3 cm, and height 4 cm. What is its volume?",
+      "answer": "60 cm³",
+      "explanation": "Volume of a prism = length × width × height = 5 × 3 × 4 = 60 cm³."
+    },
+    {
+      "question": "A cylinder has a radius of 2 meters and a height of 10 meters. What is its volume in terms of π?",
+      "answer": "40π m³",
+      "explanation": "Volume of a cylinder = πr²h = π(2)²(10) = π(4)(10) = 40π m³."
+    },
+    {
+      "question": "A sphere has a radius of 3 inches. What is its volume in terms of π?",
+      "answer": "36π in³",
+      "explanation": "Volume of a sphere = (4/3)πr³ = (4/3)π(3)³ = (4/3)π(27) = 36π in³."
+    },
+    {
+      "question": "A cone has a base radius of 5 cm and a height of 6 cm. What is its volume in terms of π?",
+      "answer": "50π cm³",
+      "explanation": "Volume of a cone = (1/3)πr²h = (1/3)π(5)²(6) = (1/3)π(25)(6) = 50π cm³."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 12 square meters and a height (depth) of 8 meters. What is the volume of the prism?",
+      "answer": "96 m³",
+      "explanation": "Volume of a prism = base area × height = 12 × 8 = 96 m³."
+    },
+    {
+      "question": "A cylinder has a volume of 180π cubic inches and a height of 5 inches. What is the radius of the cylinder?",
+      "answer": "6 inches",
+      "explanation": "Volume = πr²h, so 180π = πr²(5). Divide by 5π: r² = 36, so r = 6 inches."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:18:56.338Z",
+  "model": "claude-haiku-4-5-20251001"
+}

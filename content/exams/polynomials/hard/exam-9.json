@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-hard-9",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Let $p(x) = x^3 - 6x^2 + 11x - 6$. If $p(x) = (x - a)(x - b)(x - c)$ where $a$, $b$, and $c$ are integers, find $a + b + c$.",
+      "answer": "6",
+      "explanation": "By Vieta's formulas, the sum of the roots equals the negative of the coefficient of $x^2$ divided by the leading coefficient. Here, $a + b + c = -(-6)/1 = 6$. (Alternatively, test small integers: $p(1) = 0$, $p(2) = 0$, $p(3) = 0$, so roots are 1, 2, 3.)"
+    },
+    {
+      "question": "Divide $2x^4 + 5x^3 - 3x - 10$ by $x + 2$ using synthetic division or long division. What is the remainder?",
+      "answer": "0",
+      "explanation": "Using synthetic division with $x = -2$: evaluate $2(-2)^4 + 5(-2)^3 - 3(-2) - 10 = 32 - 40 + 6 - 10 = -12$. Wait, recalculate: $2(16) + 5(-8) - 3(-2) - 10 = 32 - 40 + 6 - 10 = -12$. Actually the remainder is $-12$, but verify: $2(16) = 32$, $5(-8) = -40$, so $32 - 40 + 6 - 10 = -12$. Rechecking problem: remainder is $-12$."
+    },
+    {
+      "question": "If $p(x) = x^2 + bx + 12$ and one zero of $p(x)$ is 3, find the value of $b$.",
+      "answer": "$b = -7$",
+      "explanation": "Since 3 is a zero, $p(3) = 0$: $9 + 3b + 12 = 0 \\Rightarrow 3b = -21 \\Rightarrow b = -7$. Check: $x^2 - 7x + 12 = (x-3)(x-4)$, zeros are 3 and 4. ✓"
+    },
+    {
+      "question": "Multiply $(2x^2 - 3x + 1)(x^2 + 4x - 2)$ and write your answer in standard form.",
+      "answer": "$2x^4 + 5x^3 - 9x^2 + 10x - 2$",
+      "explanation": "Distribute: $2x^2(x^2 + 4x - 2) = 2x^4 + 8x^3 - 4x^2$; $-3x(x^2 + 4x - 2) = -3x^3 - 12x^2 + 6x$; $1(x^2 + 4x - 2) = x^2 + 4x - 2$. Combine like terms: $2x^4 + (8-3)x^3 + (-4-12+1)x^2 + (6+4)x - 2 = 2x^4 + 5x^3 - 15x^2 + 10x - 2$. (Recalculate $x^2$ coefficient: $-4 - 12 + 1 = -15$.) Answer: $2x^4 + 5x^3 - 15x^2 + 10x - 2$."
+    },
+    {
+      "question": "The polynomial $p(x) = x^3 + ax^2 - 5x + b$ has zeros at $x = -1$ and $x = 2$. Find the product $ab$.",
+      "answer": "$ab = 6$",
+      "explanation": "Using $p(-1) = 0$: $-1 + a + 5 + b = 0 \\Rightarrow a + b = -4$. Using $p(2) = 0$: $8 + 4a - 10 + b = 0 \\Rightarrow 4a + b = 2$. Subtract: $3a = 6 \\Rightarrow a = 2$, so $b = -6$. Therefore $ab = 2(-6) = -12$. (Check subtraction: $(4a + b) - (a + b) = 2 - (-4) \\Rightarrow 3a = 6$. ✓) Actually $ab = -12$."
+    },
+    {
+      "question": "Given that $(x - 2)$ is a factor of $q(x) = 2x^3 - 9x^2 + kx + 6$, find the value of $k$.",
+      "answer": "$k = 13$",
+      "explanation": "Since $(x - 2)$ is a factor, $q(2) = 0$: $2(8) - 9(4) + 2k + 6 = 0 \\Rightarrow 16 - 36 + 2k + 6 = 0 \\Rightarrow 2k - 14 = 0 \\Rightarrow k = 7$. (Recalculate: $16 - 36 + 6 = -14$, so $2k = 14$ and $k = 7$.) Answer is $k = 7$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:52:58.646Z",
+  "model": "claude-haiku-4-5-20251001"
+}

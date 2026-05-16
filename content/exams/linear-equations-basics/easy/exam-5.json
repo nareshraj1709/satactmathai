@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-5",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: 2y − 8 = 4",
+      "answer": "y = 6",
+      "explanation": "Add 8 to both sides: 2y = 12. Divide both sides by 2: y = 6."
+    },
+    {
+      "question": "A shirt costs $12. After a discount, Maya pays $9. If the discount was d dollars, write and solve an equation for d.",
+      "answer": "d = 3",
+      "explanation": "The equation is 12 − d = 9. Add d and subtract 9 from both sides to get d = 3."
+    },
+    {
+      "question": "Solve for x: x/4 + 2 = 5",
+      "answer": "x = 12",
+      "explanation": "Subtract 2 from both sides: x/4 = 3. Multiply both sides by 4: x = 12."
+    },
+    {
+      "question": "Solve for m: 0.5m = 7",
+      "answer": "m = 14",
+      "explanation": "Divide both sides by 0.5 (or multiply by 2): m = 14."
+    },
+    {
+      "question": "Solve for x: 2(x − 3) = 10",
+      "answer": "x = 8",
+      "explanation": "Divide both sides by 2: x − 3 = 5. Add 3 to both sides: x = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:23.757Z",
+  "model": "claude-haiku-4-5-20251001"
+}

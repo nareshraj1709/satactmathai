@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-6",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A student's test scores are 78, 85, 92, and 88. What is the mean of these four scores?",
+      "answer": "85.75",
+      "explanation": "Sum the scores: 78 + 85 + 92 + 88 = 343. Divide by 4: 343 ÷ 4 = 85.75."
+    },
+    {
+      "question": "The median of five numbers is 12. If four of the numbers are 8, 10, 15, and 20, what is the fifth number?",
+      "answer": "12",
+      "explanation": "Arrange the four known numbers: 8, 10, 15, 20. The fifth number must be between 10 and 15 to make the median (middle value of 5 numbers) equal to 12. When ordered as 8, 10, 12, 15, 20, the median is 12."
+    },
+    {
+      "question": "A data set has a mean of 50 and contains 6 numbers. If five of the numbers are 45, 48, 52, 55, and 60, what is the sixth number?",
+      "answer": "40",
+      "explanation": "The sum of all six numbers must equal 50 × 6 = 300. Sum of the five known numbers: 45 + 48 + 52 + 55 + 60 = 260. The sixth number is 300 − 260 = 40."
+    },
+    {
+      "question": "The range of a data set is 24. If the smallest value is 7, what is the largest value?",
+      "answer": "31",
+      "explanation": "Range = largest value − smallest value. So 24 = largest − 7, which gives largest = 31."
+    },
+    {
+      "question": "A data set contains the values 5, 9, 9, 12, and 15. Which measure—mean, median, or mode—is equal to 9?",
+      "answer": "median and mode",
+      "explanation": "Mode = 9 (appears twice). Median = 9 (middle value when ordered). Mean = (5 + 9 + 9 + 12 + 15) ÷ 5 = 50 ÷ 5 = 10 (not 9)."
+    },
+    {
+      "question": "Two data sets have the same mean of 40 but different spreads. Set A has values 35, 40, 45, and Set B has values 10, 40, 70. Which set has a larger standard deviation?",
+      "answer": "Set B",
+      "explanation": "Set B has values much further from the mean (10 and 70 are 30 units away), while Set A's values are only 5 units away. Larger deviations from the mean result in a larger standard deviation."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:48.863Z",
+  "model": "claude-haiku-4-5-20251001"
+}

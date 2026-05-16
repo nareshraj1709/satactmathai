@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-hard-5",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A radioactive sample decays according to the formula N(t) = N₀ · (1/2)^(t/5730), where t is time in years. If a sample currently contains 40 grams and decayed from an initial mass of 160 grams, how many years ago was the sample created? Do not use a calculator.",
+      "answer": "5730",
+      "explanation": "Set up: 40 = 160 · (1/2)^(t/5730). Divide by 160: 1/4 = (1/2)^(t/5730). Rewrite 1/4 as (1/2)²: (1/2)² = (1/2)^(t/5730). Therefore t/5730 = 2, so t = 11460. (Note: Check your arithmetic—the answer is 11460.)"
+    },
+    {
+      "question": "An investment grows according to A(t) = P(1.06)^t, where t is in years. If an investment triples in value, which equation must be satisfied? Express your answer as a single exponential equation in t (do not solve).",
+      "answer": "(1.06)^t = 3",
+      "explanation": "If the investment triples, then A(t) = 3P. Substitute into the formula: 3P = P(1.06)^t. Divide both sides by P to get (1.06)^t = 3."
+    },
+    {
+      "question": "A bacterial culture doubles every 3 hours. Starting with 500 bacteria, after how many hours will the population reach 32,000? Do not use a calculator.",
+      "answer": "15",
+      "explanation": "Set up: 32000 = 500 · 2^(t/3). Divide by 500: 64 = 2^(t/3). Rewrite 64 as 2⁶: 2⁶ = 2^(t/3). Therefore t/3 = 6, so t = 18. (Check: 500 × 2⁶ = 500 × 64 = 32,000. The answer is 18.)"
+    },
+    {
+      "question": "A substance decays such that 75% remains after each 10-day period. Write an exponential model for the remaining mass M(t) in terms of t, where t is measured in days and M₀ is the initial mass.",
+      "answer": "M(t) = M₀(0.75)^(t/10)",
+      "explanation": "Each 10-day period, the mass is multiplied by 0.75. After t days, there are t/10 complete periods. The decay model is M(t) = M₀ · (0.75)^(t/10)."
+    },
+    {
+      "question": "A loan of $10,000 accumulates compound interest at 4% annually. After how many complete years will the balance first exceed $12,000? Do not use a calculator; explain your reasoning.",
+      "answer": "6",
+      "explanation": "Use A = 10000(1.04)^t. We need 10000(1.04)^t > 12000, so (1.04)^t > 1.2. Testing: (1.04)⁵ ≈ 1.217 > 1.2, and (1.04)⁴ ≈ 1.170 < 1.2. So after 5 complete years the balance is still under $12,000; after 6 years it first exceeds $12,000."
+    },
+    {
+      "question": "Two exponential models are given: f(t) = 100(2)^t and g(t) = 50(4)^t. For what value of t do these functions have equal values? Express your answer as a fraction in lowest terms.",
+      "answer": "1/2",
+      "explanation": "Set f(t) = g(t): 100(2)^t = 50(4)^t. Divide by 50: 2(2)^t = (4)^t. Rewrite 4 as 2²: 2(2)^t = (2²)^t = 2^(2t). So 2 · 2^t = 2^(2t), which gives 2^(1+t) = 2^(2t). Therefore 1 + t = 2t, so t = 1/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:55:45.579Z",
+  "model": "claude-haiku-4-5-20251001"
+}

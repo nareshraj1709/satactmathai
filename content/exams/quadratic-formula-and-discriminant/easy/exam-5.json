@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-5",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve: x² + 5x + 6 = 0",
+      "answer": "x = -2, x = -3",
+      "explanation": "Using x = [-b ± √(b² - 4ac)] / 2a with a=1, b=5, c=6: x = [-5 ± √(25-24)] / 2 = [-5 ± 1] / 2. So x = -2 or x = -3."
+    },
+    {
+      "question": "What is the discriminant of 2x² - 4x + 1 = 0?",
+      "answer": "8",
+      "explanation": "The discriminant is b² - 4ac = (-4)² - 4(2)(1) = 16 - 8 = 8."
+    },
+    {
+      "question": "Does the equation x² + 2x + 5 = 0 have real solutions? Explain briefly.",
+      "answer": "No, the discriminant is negative",
+      "explanation": "Discriminant = 2² - 4(1)(5) = 4 - 20 = -16. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "Solve: x² - 7x + 12 = 0",
+      "answer": "x = 3, x = 4",
+      "explanation": "Using the quadratic formula with a=1, b=-7, c=12: x = [7 ± √(49-48)] / 2 = [7 ± 1] / 2. So x = 4 or x = 3."
+    },
+    {
+      "question": "For the quadratic 3x² + 6x + 3 = 0, how many distinct real solutions does it have?",
+      "answer": "1",
+      "explanation": "The discriminant is 6² - 4(3)(3) = 36 - 36 = 0. When the discriminant equals zero, there is exactly one real solution (a repeated root)."
+    },
+    {
+      "question": "A ball is thrown upward, and its height is modeled by h = -5t² + 20t. Using the quadratic formula, at what times does the ball return to height 0?",
+      "answer": "t = 0, t = 4",
+      "explanation": "Set -5t² + 20t = 0, or 5t² - 20t = 0. Using the formula with a=5, b=-20, c=0: t = [20 ± √(400-0)] / 10 = [20 ± 20] / 10. So t = 0 or t = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:31.514Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-1",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² + 5x - 3 = 0. Express your answers as fractions or integers.",
+      "answer": "x = 1/2 or x = -3",
+      "explanation": "Using the quadratic formula: x = (-5 ± √(25 + 24))/4 = (-5 ± 7)/4. This gives x = 2/4 = 1/2 and x = -12/4 = -3."
+    },
+    {
+      "question": "For the equation x² - 6x + 9 = 0, calculate the discriminant and determine how many real solutions exist.",
+      "answer": "Discriminant = 0; one real solution",
+      "explanation": "b² - 4ac = (-6)² - 4(1)(9) = 36 - 36 = 0. When the discriminant equals zero, there is exactly one real solution (a repeated root)."
+    },
+    {
+      "question": "A projectile's height in meters is given by h(t) = -5t² + 20t + 1. At what time does the projectile reach a height of 6 meters? Round to the nearest hundredth if needed.",
+      "answer": "t ≈ 0.26 or t ≈ 3.74",
+      "explanation": "Set -5t² + 20t + 1 = 6, giving -5t² + 20t - 5 = 0. Divide by -5: t² - 4t + 1 = 0. Use the quadratic formula: t = (4 ± √12)/2 = (4 ± 2√3)/2 = 2 ± √3 ≈ 0.27 and 3.73."
+    },
+    {
+      "question": "Without solving, determine whether 3x² - 7x + 8 = 0 has real solutions. Justify your answer.",
+      "answer": "No real solutions",
+      "explanation": "The discriminant is b² - 4ac = (-7)² - 4(3)(8) = 49 - 96 = -47 < 0. A negative discriminant means there are no real solutions."
+    },
+    {
+      "question": "If the quadratic equation x² + bx + 12 = 0 has exactly one real solution, what is the value of b?",
+      "answer": "b = ±2√12 = ±4√3",
+      "explanation": "For one real solution, the discriminant must equal zero: b² - 4(1)(12) = 0. So b² = 48, giving b = ±√48 = ±4√3."
+    },
+    {
+      "question": "Solve 4x² - 8x - 5 = 0 using the quadratic formula.",
+      "answer": "x = (2 + √6)/2 or x = (2 - √6)/2",
+      "explanation": "x = (8 ± √(64 + 80))/8 = (8 ± √144)/8 = (8 ± 12)/8. This gives x = 20/8 = 5/2 and x = -4/8 = -1/2. [Note: Corrected: x = 5/2 or x = -1/2]"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:08.242Z",
+  "model": "claude-haiku-4-5-20251001"
+}

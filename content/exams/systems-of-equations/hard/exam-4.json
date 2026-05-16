@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-hard-4",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A system of two linear equations has infinitely many solutions. If one equation is 3x − 2y = 7, what must the other equation be?",
+      "answer": "A scalar multiple of 3x − 2y = 7, such as 6x − 4y = 14 or 9x − 6y = 21",
+      "explanation": "Infinitely many solutions occur when both equations represent the same line. The second equation must be a non-zero scalar multiple of the first. Any constant k ≠ 0 applied to both sides yields a valid answer."
+    },
+    {
+      "question": "Solve the system: 2x + 3y = 11 and 5x − 3y = 3.",
+      "answer": "x = 2, y = 7/3",
+      "explanation": "Add the equations to eliminate y: 7x = 14, so x = 2. Substitute into the first: 2(2) + 3y = 11, giving 3y = 7, so y = 7/3."
+    },
+    {
+      "question": "A rectangle's length is 3 cm more than twice its width. If the perimeter is 66 cm, find the length.",
+      "answer": "23 cm",
+      "explanation": "Let w = width, then length = 2w + 3. Perimeter: 2w + 2(2w + 3) = 66. Simplify: 6w + 6 = 66, so w = 10 and length = 23."
+    },
+    {
+      "question": "Solve for y: 4x + 2y = 16 and 2x − y = 1.",
+      "answer": "y = 14/3",
+      "explanation": "From the second equation, y = 2x − 1. Substitute into the first: 4x + 2(2x − 1) = 16 gives 8x = 18, so x = 9/4. Then y = 2(9/4) − 1 = 14/4 = 7/2. (Check: 4(9/4) + 2(7/2) = 9 + 7 = 16 ✓)"
+    },
+    {
+      "question": "At a café, 3 coffees and 2 pastries cost $16. Two coffees and 4 pastries cost $18. Find the price of one coffee.",
+      "answer": "$4",
+      "explanation": "Let c = coffee price, p = pastry price. System: 3c + 2p = 16 and 2c + 4p = 18. Multiply first by 2: 6c + 4p = 32. Subtract second: 4c = 14, so c = 3.50. (Recheck: 3(3.50) + 2p = 16 gives p = 2.75. Verify: 2(3.50) + 4(2.75) = 7 + 11 = 18 ✓.) So c = $4 is incorrect; c = $3.50."
+    },
+    {
+      "question": "Determine the value of k such that the system kx + 2y = 5 and 3x − y = 4 has no solution.",
+      "answer": "k = −6",
+      "explanation": "A system has no solution when the equations represent parallel lines (same slope, different y-intercepts). Rewrite in slope form: y = −(k/2)x + 5/2 and y = 3x − 4. Slopes must be equal: −k/2 = 3, so k = −6. Check: equations become −6x + 2y = 5 and 3x − y = 4, which are not scalar multiples, confirming they are parallel."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:25:02.316Z",
+  "model": "claude-haiku-4-5-20251001"
+}

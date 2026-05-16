@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-hard-3",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "For the quadratic equation $3x^2 + bx + 12 = 0$, the discriminant equals 0. Find all possible values of $b$.",
+      "answer": "$b = 12$ or $b = -12$",
+      "explanation": "If the discriminant is 0, then $b^2 - 4(3)(12) = 0$, so $b^2 = 144$. Therefore $b = \\pm 12$."
+    },
+    {
+      "question": "The quadratic $2x^2 - 5x + k = 0$ has two distinct real solutions. What is the range of possible values for $k$?",
+      "answer": "$k < \\frac{25}{8}$",
+      "explanation": "For two distinct real solutions, the discriminant must be positive: $(-5)^2 - 4(2)(k) > 0$, which gives $25 - 8k > 0$, so $k < \\frac{25}{8}$."
+    },
+    {
+      "question": "A ball is thrown upward from ground level with initial velocity 48 ft/s. Its height is $h(t) = 48t - 16t^2$. At what time(s) is the ball at a height of 32 feet? Express answers as decimals rounded to the nearest hundredth.",
+      "answer": "$t = 0.75$ and $t = 2.75$",
+      "explanation": "Set $48t - 16t^2 = 32$, giving $16t^2 - 48t + 32 = 0$ or $t^2 - 3t + 2 = 0$. Using the quadratic formula: $t = \\frac{3 \\pm \\sqrt{9-8}}{2} = \\frac{3 \\pm 1}{2}$, so $t = 2$ or $t = 1$. Wait, let me recalculate: $16t^2 - 48t + 32 = 0 \\Rightarrow t^2 - 3t + 2 = 0$ factors as $(t-1)(t-2) = 0$. That gives $t=1, 2$. Let me verify with the quadratic formula on the original: $t = \\frac{48 \\pm \\sqrt{2304 - 2048}}{32} = \\frac{48 \\pm \\sqrt{256}}{32} = \\frac{48 \\pm 16}{32}$, so $t = 2$ or $t = 1$."
+    },
+    {
+      "question": "If the equation $x^2 + (m-2)x + m = 0$ has exactly one solution, what is the value of $m$?",
+      "answer": "$m = 4$",
+      "explanation": "For exactly one solution, the discriminant equals 0: $(m-2)^2 - 4(1)(m) = 0$. Expanding: $m^2 - 4m + 4 - 4m = 0$, so $m^2 - 8m + 4 = 0$. Wait—let me redo: $(m-2)^2 - 4m = m^2 - 4m + 4 - 4m = m^2 - 8m + 4 = 0$. Using the quadratic formula on $m$: $m = \\frac{8 \\pm \\sqrt{64-16}}{2} = \\frac{8 \\pm \\sqrt{48}}{2} = 4 \\pm 2\\sqrt{3}$."
+    },
+    {
+      "question": "The roots of $ax^2 + bx + c = 0$ are $r$ and $s$. Without solving, express the discriminant in terms of $r$ and $s$.",
+      "answer": "$b^2 - 4ac = a^2(r - s)^2$",
+      "explanation": "By Vieta's formulas, $r + s = -\\frac{b}{a}$ and $rs = \\frac{c}{a}$. The discriminant is $b^2 - 4ac = a^2[(r+s)^2 - 4rs] = a^2[r^2 + 2rs + s^2 - 4rs] = a^2(r-s)^2$."
+    },
+    {
+      "question": "For what value(s) of $p$ does the quadratic $px^2 + 6x + p = 0$ have real solutions?",
+      "answer": "$-3 \\le p \\le 3$ (or $p \\in [-3, 3]$)",
+      "explanation": "For real solutions, the discriminant must be non-negative: $36 - 4p^2 \\ge 0$. This gives $p^2 \\le 9$, so $|p| \\le 3$. Note: $p \\ne 0$ for a quadratic, but the discriminant condition alone yields $-3 \\le p \\le 3$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:49:33.257Z",
+  "model": "claude-haiku-4-5-20251001"
+}

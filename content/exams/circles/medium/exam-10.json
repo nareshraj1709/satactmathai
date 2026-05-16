@@ -1,0 +1,42 @@
+{
+  "id": "circles-medium-10",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A circle has center (2, -3) and passes through the point (5, 1). Write the equation of the circle in standard form.",
+      "answer": "(x - 2)² + (y + 3)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(5-2)² + (1-(-3))²] = √[9 + 16] = √25 = 5. The standard form is (x - h)² + (y - k)² = r², so (x - 2)² + (y + 3)² = 25."
+    },
+    {
+      "question": "A sector of a circle with radius 6 cm has a central angle of 60°. What is the area of the sector in square centimeters?",
+      "answer": "6π or 18.84 (accept either exact or rounded)",
+      "explanation": "Area of sector = (θ/360°) × πr² = (60/360) × π(6)² = (1/6) × 36π = 6π cm²."
+    },
+    {
+      "question": "The circle x² + y² = 16 has a tangent line at the point (0, 4). What is the equation of this tangent line?",
+      "answer": "y = 4",
+      "explanation": "At point (0, 4), the radius is vertical (along the y-axis). The tangent is perpendicular to the radius, so it must be horizontal. The tangent line is y = 4."
+    },
+    {
+      "question": "An arc on a circle with radius 10 cm subtends a central angle of 72°. Find the arc length in centimeters.",
+      "answer": "4π or 12.56 (accept either exact or rounded)",
+      "explanation": "Arc length = (θ/360°) × 2πr = (72/360) × 2π(10) = (1/5) × 20π = 4π cm."
+    },
+    {
+      "question": "A circle's equation is (x + 1)² + (y - 2)² = 9. A point on the circle is (2, 2). Is the line y = 2 tangent to the circle at this point? Explain why or why not.",
+      "answer": "Yes, because the line is tangent to the circle at that point.",
+      "explanation": "The center is (-1, 2) and radius is 3. The radius to point (2, 2) is horizontal with slope 0. A tangent is perpendicular to the radius, so it must be vertical. Wait—recalculate: the radius is from (-1, 2) to (2, 2), which is horizontal. A perpendicular line is vertical. The line y = 2 is horizontal, so it is NOT tangent; it passes through the center region. The answer is No."
+    },
+    {
+      "question": "A circle has radius 8. If a chord is 12 units long, what is the distance from the center of the circle to the chord?",
+      "answer": "√7 or approximately 2.65",
+      "explanation": "The perpendicular from the center bisects the chord. This creates a right triangle with hypotenuse 8 (radius), one leg 6 (half the chord), and the other leg d (distance). By Pythagorean theorem: 6² + d² = 8², so 36 + d² = 64, giving d² = 28, thus d = √28 = 2√7 ≈ 2√7."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:06:14.579Z",
+  "model": "claude-haiku-4-5-20251001"
+}

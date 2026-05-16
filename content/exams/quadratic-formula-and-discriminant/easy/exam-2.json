@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-2",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve x² + 5x + 6 = 0.",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using the quadratic formula with a = 1, b = 5, c = 6: x = (-5 ± √(25 - 24))/2 = (-5 ± 1)/2. This gives x = -2 and x = -3."
+    },
+    {
+      "question": "Find the discriminant of 2x² - 4x + 1 = 0. Does this equation have two real solutions, one real solution, or no real solutions?",
+      "answer": "Discriminant = 8; two real solutions",
+      "explanation": "The discriminant is b² - 4ac = (-4)² - 4(2)(1) = 16 - 8 = 8. Since 8 > 0, there are two distinct real solutions."
+    },
+    {
+      "question": "What is the discriminant of x² + 6x + 9 = 0?",
+      "answer": "0",
+      "explanation": "The discriminant is b² - 4ac = 6² - 4(1)(9) = 36 - 36 = 0. A discriminant of 0 means one repeated real solution."
+    },
+    {
+      "question": "Determine whether x² - 3x + 5 = 0 has real solutions.",
+      "answer": "No real solutions",
+      "explanation": "Calculate the discriminant: b² - 4ac = (-3)² - 4(1)(5) = 9 - 20 = -11. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "Solve 3x² - 12 = 0 using the quadratic formula.",
+      "answer": "x = 2 or x = -2",
+      "explanation": "Rewrite as 3x² + 0x - 12 = 0. Using the quadratic formula: x = (0 ± √(0 + 144))/6 = ±12/6 = ±2."
+    },
+    {
+      "question": "A projectile's height is given by h = -t² + 4t + 5, where t is time in seconds. Use the discriminant to determine how many times the projectile reaches a height of 5 meters.",
+      "answer": "2 times",
+      "explanation": "Set -t² + 4t + 5 = 5, giving -t² + 4t = 0. The discriminant is 4² - 4(-1)(0) = 16 > 0, so there are two real solutions (t = 0 and t = 4)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:32.048Z",
+  "model": "claude-haiku-4-5-20251001"
+}

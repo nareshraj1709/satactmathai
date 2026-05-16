@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-4",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. List factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. The greatest common factor is 12."
+    },
+    {
+      "question": "Is 147 divisible by 3? Explain using the divisibility rule for 3.",
+      "answer": "Yes",
+      "explanation": "Sum the digits: 1 + 4 + 7 = 12. Since 12 is divisible by 3, then 147 is divisible by 3."
+    },
+    {
+      "question": "List all the prime factors of 60.",
+      "answer": "2, 3, 5",
+      "explanation": "60 = 2² × 3 × 5. The distinct prime factors are 2, 3, and 5."
+    },
+    {
+      "question": "What is the least common multiple (LCM) of 8 and 12?",
+      "answer": "24",
+      "explanation": "Multiples of 8: 8, 16, 24, 32, ... Multiples of 12: 12, 24, 36, ... The smallest common multiple is 24."
+    },
+    {
+      "question": "Sarah has 15 red markers and 25 blue markers. She wants to put them into identical groups with no markers left over, using the greatest number of groups possible. How many groups will she make?",
+      "answer": "5",
+      "explanation": "Find the GCF of 15 and 25. Factors of 15: 1, 3, 5, 15. Factors of 25: 1, 5, 25. The GCF is 5, so she can make 5 groups."
+    },
+    {
+      "question": "Which of these numbers is NOT a multiple of 6: 18, 24, 30, or 35?",
+      "answer": "35",
+      "explanation": "Check each: 18 ÷ 6 = 3 ✓, 24 ÷ 6 = 4 ✓, 30 ÷ 6 = 5 ✓, 35 ÷ 6 = 5.83... ✗. Only 35 is not a multiple of 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:57.197Z",
+  "model": "claude-haiku-4-5-20251001"
+}

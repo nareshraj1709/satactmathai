@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-5",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 eggs. If you use 6 eggs, how many cups of flour do you need?",
+      "answer": "4",
+      "explanation": "Set up the proportion: 2 cups / 3 eggs = x cups / 6 eggs. Cross multiply: 3x = 12, so x = 4 cups."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 3:5. If there are 15 girls, how many boys are there?",
+      "answer": "9",
+      "explanation": "Use the ratio 3:5. If girls = 15, then 5 parts = 15, so 1 part = 3. Boys = 3 parts = 3 × 3 = 9."
+    },
+    {
+      "question": "A car travels 150 miles on 5 gallons of gas. At this rate, how many miles per gallon does it get?",
+      "answer": "30",
+      "explanation": "Divide total miles by gallons: 150 ÷ 5 = 30 miles per gallon."
+    },
+    {
+      "question": "If 4 apples cost $2, what is the cost of 10 apples at the same rate?",
+      "answer": "$5",
+      "explanation": "Price per apple: $2 ÷ 4 = $0.50 per apple. For 10 apples: 10 × $0.50 = $5."
+    },
+    {
+      "question": "A map uses a scale where 1 inch represents 20 miles. If two cities are 4 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "80",
+      "explanation": "Multiply the map distance by the scale factor: 4 inches × 20 miles per inch = 80 miles."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles is 2:7. If there are 18 red marbles, how many blue marbles are there?",
+      "answer": "63",
+      "explanation": "If red:blue = 2:7 and red = 18, then 2 parts = 18, so 1 part = 9. Blue = 7 parts = 7 × 9 = 63."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:31.766Z",
+  "model": "claude-haiku-4-5-20251001"
+}

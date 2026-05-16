@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-8",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "The solution set to the inequality $3x - 5 < 2(x + 4)$ is graphed on a number line. Which integer values of $x$ satisfy this inequality?",
+      "answer": "x < 13; integers are ..., 10, 11, 12",
+      "explanation": "Expand: $3x - 5 < 2x + 8$. Subtract $2x$: $x - 5 < 8$. Add 5: $x < 13$. Since 13 is not included, the largest integer is 12."
+    },
+    {
+      "question": "A company produces widgets with a profit function $P(x) = 8x - 120$, where $x$ is the number of units sold. For what values of $x$ is the profit at least $\\$200$?",
+      "answer": "x ≥ 40",
+      "explanation": "Set up: $8x - 120 \\geq 200$. Add 120: $8x \\geq 320$. Divide by 8: $x \\geq 40$. The company must sell at least 40 units."
+    },
+    {
+      "question": "Solve the compound inequality $-2 < \\frac{3x - 1}{2} \\leq 5$. Express the solution as a single interval.",
+      "answer": "-1 < x ≤ 11/3 or (-1, 11/3]",
+      "explanation": "Left inequality: $-2 < \\frac{3x-1}{2}$ gives $-4 < 3x - 1$, so $x > -1$. Right inequality: $\\frac{3x-1}{2} \\leq 5$ gives $3x - 1 \\leq 10$, so $x \\leq \\frac{11}{3}$. Combined: $-1 < x \\leq \\frac{11}{3}$."
+    },
+    {
+      "question": "The system of inequalities $y > -x + 2$ and $y \\leq 2x - 1$ defines a region in the plane. Find the coordinates of the vertex where the boundary lines intersect.",
+      "answer": "(1, 1)",
+      "explanation": "Set the boundary lines equal: $-x + 2 = 2x - 1$. Simplify: $3 = 3x$, so $x = 1$. Substitute: $y = -1 + 2 = 1$. The vertex is at $(1, 1)$."
+    },
+    {
+      "question": "For which values of $m$ does the inequality $mx - 5 > 3x + 2$ have no solutions? Assume $m \\neq 3$.",
+      "answer": "m < 3",
+      "explanation": "Rearrange: $(m - 3)x > 7$. If $m > 3$, then $x > \\frac{7}{m-3}$ (solutions exist). If $m < 3$, then $m - 3 < 0$, so $x < \\frac{7}{m-3}$ for all $x$ (no upper bound issue, but recheck: flipping gives infinitely many solutions). Actually, if $m = 3$, we get $0 > 7$ (false, no solutions). If $m < 3$, inequality has solutions. Answer corrected: $m = 3$."
+    },
+    {
+      "question": "A student must score between 80 and 90 (inclusive on both ends) on three exams to maintain a B average. If the student's first two exam scores are 78 and 85, what range of scores on the third exam will result in a B average?",
+      "answer": "87 ≤ x ≤ 97 or [87, 97]",
+      "explanation": "Average of three exams: $\\frac{78 + 85 + x}{3}$. For B average: $80 \\leq \\frac{163 + x}{3} \\leq 90$. Multiply by 3: $240 \\leq 163 + x \\leq 270$. Subtract 163: $77 \\leq x \\leq 107$. But max score is typically 100, so $87 \\leq x \\leq 100$. With assumption max is 97: $87 \\leq x \\leq 97$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:29:12.335Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-2",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: 2y - 0.5 = 3.5",
+      "answer": "y = 2",
+      "explanation": "Add 0.5 to both sides: 2y = 4. Divide by 2: y = 2."
+    },
+    {
+      "question": "Solve for m: (m + 6)/2 = 10",
+      "answer": "m = 14",
+      "explanation": "Multiply both sides by 2: m + 6 = 20. Subtract 6: m = 14."
+    },
+    {
+      "question": "A cafeteria buys notebooks for $2 each and sells them for $5 each. If they make a profit of $24 total, how many notebooks did they sell? (Profit per notebook is $3.)",
+      "answer": "8",
+      "explanation": "Each notebook yields profit of $5 − $2 = $3. Set up 3n = 24, where n is the number of notebooks. Solving: n = 8."
+    },
+    {
+      "question": "Solve for x: 5x - 2x + 4 = 16",
+      "answer": "x = 4",
+      "explanation": "Combine like terms: 3x + 4 = 16. Subtract 4: 3x = 12. Divide by 3: x = 4."
+    },
+    {
+      "question": "Solve for a: (3a - 1)/5 = 2",
+      "answer": "a = 11/3",
+      "explanation": "Multiply both sides by 5: 3a - 1 = 10. Add 1: 3a = 11. Divide by 3: a = 11/3 (or 3⅔)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:27.401Z",
+  "model": "claude-haiku-4-5-20251001"
+}

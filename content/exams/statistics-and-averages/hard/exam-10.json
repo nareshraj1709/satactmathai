@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-hard-10",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A dataset of 8 test scores has a mean of 76. When one score is removed, the mean of the remaining 7 scores becomes 74. What was the removed score?",
+      "answer": "90",
+      "explanation": "Sum of all 8 scores = 8 × 76 = 608. Sum of remaining 7 scores = 7 × 74 = 518. Removed score = 608 − 518 = 90."
+    },
+    {
+      "question": "Five numbers have a mean of 20 and a median of 18. If the largest number is increased by 10, what is the new mean?",
+      "answer": "22",
+      "explanation": "Original sum = 5 × 20 = 100. Increasing the largest by 10 adds 10 to the sum, making it 110. New mean = 110 ÷ 5 = 22. The median is unchanged since only the maximum changes."
+    },
+    {
+      "question": "In a list of 10 numbers, the mean is 50 and the standard deviation is 8. If each number is multiplied by 3, what is the new standard deviation?",
+      "answer": "24",
+      "explanation": "Multiplying all values by a constant multiplies the standard deviation by that constant. New SD = 8 × 3 = 24."
+    },
+    {
+      "question": "A dataset consists of the values {12, 15, 18, 21, x}. For what value of x is the median equal to the mean?",
+      "answer": "24",
+      "explanation": "Mean = (12 + 15 + 18 + 21 + x) ÷ 5 = (66 + x) ÷ 5. When x ≥ 21, the median is 18. For median = mean: 18 = (66 + x) ÷ 5, so 90 = 66 + x, thus x = 24."
+    },
+    {
+      "question": "A class has 30 students. The mean test score is 72. If 5 students with a mean score of 60 are removed from the class, what is the new mean score of the remaining 25 students?",
+      "answer": "74.4",
+      "explanation": "Sum of all 30 scores = 30 × 72 = 2160. Sum of 5 removed scores = 5 × 60 = 300. Sum of remaining 25 = 2160 − 300 = 1860. New mean = 1860 ÷ 25 = 74.4."
+    },
+    {
+      "question": "Four data points have a mean of 15 and a range of 18. If the minimum value is 6, what is the maximum value, and what is the sum of all four data points?",
+      "answer": "maximum = 24; sum = 60",
+      "explanation": "Range = max − min, so 18 = max − 6, giving max = 24. Sum = 4 × mean = 4 × 15 = 60."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:41:44.517Z",
+  "model": "claude-haiku-4-5-20251001"
+}

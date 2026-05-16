@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-9",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A company produces widgets and gadgets. Each widget costs $8 to make and sells for $15. Each gadget costs $5 to make and sells for $12. The company has a budget of $2000 for production costs. Let w be the number of widgets and g be the number of gadgets. Write an inequality representing the production constraint, then find the maximum number of widgets that can be produced if the company makes exactly 120 gadgets.",
+      "answer": "8w + 5g ≤ 2000; w ≤ 100",
+      "explanation": "Set up: 8w + 5(120) ≤ 2000. Simplify: 8w + 600 ≤ 2000, so 8w ≤ 1400, giving w ≤ 175. Since we need exactly 120 gadgets, the constraint becomes 8w ≤ 1400, but if the question asks for integer widgets given 120 gadgets, verify: 8(100) + 600 = 1400 ✓. Maximum w = 175 (if no gadget requirement) or check problem intent for binding constraint."
+    },
+    {
+      "question": "Solve the compound inequality: 2x + 3 ≥ −5 AND 3x − 4 < 11. Express your answer as a single interval.",
+      "answer": "−4 ≤ x < 5",
+      "explanation": "From 2x + 3 ≥ −5: 2x ≥ −8, so x ≥ −4. From 3x − 4 < 11: 3x < 15, so x < 5. Intersection: −4 ≤ x < 5."
+    },
+    {
+      "question": "A line passes through (2, 3) and (5, 9). Write the inequality for all points (x, y) that lie below this line.",
+      "answer": "y < 2x − 1",
+      "explanation": "Slope: (9 − 3)/(5 − 2) = 6/3 = 2. Using point (2, 3): y − 3 = 2(x − 2), so y = 2x − 1. Points below the line satisfy y < 2x − 1."
+    },
+    {
+      "question": "A student needs to score above 85 on a final exam to earn an A in the class. Her current average is 82, weighted at 70% of the final grade, and the exam is 30% of the final grade. What score must she achieve on the exam (round to the nearest integer)?",
+      "answer": "x > 96.67 or x ≥ 97",
+      "explanation": "Final grade = 0.70(82) + 0.30(x) > 85. Simplify: 57.4 + 0.30x > 85, so 0.30x > 27.6, giving x > 92. Check: she needs above 92, which rounds to 97 for certainty."
+    },
+    {
+      "question": "Graph the system of inequalities: x + y ≤ 4, x ≥ 0, y ≥ 0. Identify the vertices of the feasible region.",
+      "answer": "(0, 0), (4, 0), (0, 4)",
+      "explanation": "x ≥ 0 and y ≥ 0 restrict to the first quadrant. The line x + y = 4 intersects the axes at (4, 0) and (0, 4). The region below the line in the first quadrant has vertices at the origin and the two intercepts."
+    },
+    {
+      "question": "A delivery service charges $5 per package plus a $10 flat fee. A customer's total bill is at least $85 but no more than $150. Write and solve a compound inequality to find the range of packages delivered.",
+      "answer": "15 ≤ p ≤ 28",
+      "explanation": "Total cost: 5p + 10. Set up: 85 ≤ 5p + 10 ≤ 150. Subtract 10: 75 ≤ 5p ≤ 140. Divide by 5: 15 ≤ p ≤ 28."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:29:12.309Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-10",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "In triangle ABC, the measure of angle A is 45° and the measure of angle B is 65°. What is the measure of angle C?",
+      "answer": "70°",
+      "explanation": "The sum of angles in any triangle is 180°. So angle C = 180° − 45° − 65° = 70°."
+    },
+    {
+      "question": "A right triangle has one angle measuring 35°. What is the measure of the third angle?",
+      "answer": "55°",
+      "explanation": "A right triangle has one 90° angle. The sum of all three angles is 180°, so the third angle is 180° − 90° − 35° = 55°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 50°. What is the measure of each base angle?",
+      "answer": "65°",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 50°, then both base angles sum to 180° − 50° = 130°. Each base angle is 130° ÷ 2 = 65°."
+    },
+    {
+      "question": "Two angles of a triangle measure 28° and 47°. The triangle is classified as acute, right, or obtuse?",
+      "answer": "obtuse",
+      "explanation": "The third angle is 180° − 28° − 47° = 105°. Since one angle exceeds 90°, the triangle is obtuse."
+    },
+    {
+      "question": "In triangle PQR, side PQ = 5 cm, side QR = 5 cm, and side PR = 6 cm. What type of triangle is this?",
+      "answer": "isosceles",
+      "explanation": "A triangle is isosceles if at least two of its sides are equal. Since PQ = QR = 5 cm, triangle PQR is isosceles."
+    },
+    {
+      "question": "An exterior angle of a triangle measures 110°. What is the measure of the adjacent interior angle?",
+      "answer": "70°",
+      "explanation": "An exterior angle and its adjacent interior angle form a linear pair, so they sum to 180°. The interior angle is 180° − 110° = 70°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:56.781Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-hard-10",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "The quadratic equation $3x^2 + bx + 12 = 0$ has exactly one real solution. What is the value of $b^2$?",
+      "answer": "144",
+      "explanation": "For exactly one real solution, the discriminant equals zero: $b^2 - 4(3)(12) = 0$. Thus $b^2 = 144$."
+    },
+    {
+      "question": "A projectile's height in feet is given by $h(t) = -16t^2 + 80t + 96$, where $t$ is time in seconds. For what value of $t$ does the projectile reach its maximum height?",
+      "answer": "t = 2.5 or 5/2",
+      "explanation": "The vertex of a parabola $at^2 + bt + c$ occurs at $t = -\\frac{b}{2a} = -\\frac{80}{2(-16)} = \\frac{80}{32} = 2.5$."
+    },
+    {
+      "question": "If the roots of $2x^2 - 5x + k = 0$ are real and distinct, what is the range of possible values for $k$?",
+      "answer": "k < 25/8 or k < 3.125",
+      "explanation": "For distinct real roots, discriminant $> 0$: $(-5)^2 - 4(2)(k) > 0 \\Rightarrow 25 - 8k > 0 \\Rightarrow k < \\frac{25}{8}$."
+    },
+    {
+      "question": "The equations $x^2 + px + 6 = 0$ and $x^2 + qx + 6 = 0$ share exactly one common root. If $p \\neq q$, express the common root in terms of $p$ and $q$.",
+      "answer": "x = 6/(p + q)",
+      "explanation": "If $r$ is the common root, then $r^2 + pr + 6 = 0$ and $r^2 + qr + 6 = 0$. Subtracting: $(p-q)r = 0$. Since $p \\neq q$, we have $r(p-q) = 0$ from the difference. By Vieta's formulas on the original equations and their common root, $r = \\frac{6}{p+q}$."
+    },
+    {
+      "question": "A rectangle has length $x$ and width $x - 3$. The area is 40 square units. Write an equation in standard form and find the positive value of $x$.",
+      "answer": "x = 8",
+      "explanation": "Area: $x(x-3) = 40 \\Rightarrow x^2 - 3x - 40 = 0$. Using the quadratic formula: $x = \\frac{3 \\pm \\sqrt{9 + 160}}{2} = \\frac{3 \\pm 13}{2}$. The positive solution is $x = 8$."
+    },
+    {
+      "question": "For what values of $m$ does the equation $mx^2 + 4x + m = 0$ have no real solutions?",
+      "answer": "m > 2 or m < -2",
+      "explanation": "For no real solutions, discriminant $< 0$: $16 - 4m^2 < 0 \\Rightarrow m^2 > 4 \\Rightarrow |m| > 2$, so $m > 2$ or $m < -2$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:50:41.184Z",
+  "model": "claude-haiku-4-5-20251001"
+}

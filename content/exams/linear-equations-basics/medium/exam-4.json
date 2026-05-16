@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-4",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: 2(y − 3) = 10",
+      "answer": "y = 8",
+      "explanation": "Distribute the 2: 2y − 6 = 10. Add 6 to both sides: 2y = 16. Divide by 2: y = 8."
+    },
+    {
+      "question": "Solve for x: (x/4) + 5 = 9",
+      "answer": "x = 16",
+      "explanation": "Subtract 5 from both sides: x/4 = 4. Multiply both sides by 4: x = 16."
+    },
+    {
+      "question": "A taxi charges a flat fee of $3 plus $0.50 per mile. If a ride costs $13, how many miles was the trip?",
+      "answer": "20 miles",
+      "explanation": "Set up: 3 + 0.5m = 13. Subtract 3: 0.5m = 10. Divide by 0.5: m = 20."
+    },
+    {
+      "question": "Solve for x: 5x − 2 = 3x + 8",
+      "answer": "x = 5",
+      "explanation": "Subtract 3x from both sides: 2x − 2 = 8. Add 2: 2x = 10. Divide by 2: x = 5."
+    },
+    {
+      "question": "Solve for m: 0.3m + 1.2 = 2.4",
+      "answer": "m = 4",
+      "explanation": "Subtract 1.2 from both sides: 0.3m = 1.2. Divide by 0.3: m = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:27.976Z",
+  "model": "claude-haiku-4-5-20251001"
+}

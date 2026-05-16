@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-1",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test scores for 12 students. The points roughly follow a linear pattern. If the line of best fit has the equation y = 5x + 62, where x is hours studied and y is the test score, what is the predicted test score for a student who studies for 3 hours?",
+      "answer": "77",
+      "explanation": "Substitute x = 3 into y = 5x + 62: y = 5(3) + 62 = 15 + 62 = 77. The line of best fit is used to make predictions."
+    },
+    {
+      "question": "A dataset of car age (in years) and resale value (in thousands of dollars) is shown on a scatterplot. The line of best fit passes through points (2, 18) and (6, 10). What is the slope of this line?",
+      "answer": "-2",
+      "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (10 − 18)/(6 − 2) = −8/4 = −2. The negative slope indicates resale value decreases with age."
+    },
+    {
+      "question": "In a scatterplot of advertising spending (x, in hundreds of dollars) versus monthly sales (y, in thousands of dollars), the line of best fit is y = 2.5x + 8. Use this model to predict sales when advertising spending is $400.",
+      "answer": "18",
+      "explanation": "Convert $400 to hundreds: x = 4. Then y = 2.5(4) + 8 = 10 + 8 = 18 thousand dollars."
+    },
+    {
+      "question": "A scatterplot displays the number of gym visits per month versus weight loss (in pounds) for 20 people. Most points lie near a line, but a few points are far below the line. Which of the following best explains why some points deviate from the line: (A) the model is wrong, (B) there are other factors affecting weight loss besides gym visits, or (C) the data is fake?",
+      "answer": "B",
+      "explanation": "Real-world relationships have multiple influences. Diet, sleep, metabolism, and other habits affect weight loss independently of gym visits. Scattered points are normal in observational data."
+    },
+    {
+      "question": "The line of best fit for a set of data is y = −3x + 50. If a data point is at x = 5 and y = 32, what is the residual?",
+      "answer": "-3",
+      "explanation": "Predicted value: y = −3(5) + 50 = −15 + 50 = 35. Residual = actual − predicted = 32 − 35 = −3."
+    },
+    {
+      "question": "A scatterplot shows temperature (°F) versus ice cream sales (in dollars). The correlation coefficient r = 0.92. What does this tell you about the relationship?",
+      "answer": "Strong positive linear relationship",
+      "explanation": "An r value close to 1 (or −1) indicates a strong linear relationship. Here r = 0.92 is close to 1, so higher temperatures are strongly associated with higher ice cream sales."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:21.885Z",
+  "model": "claude-haiku-4-5-20251001"
+}

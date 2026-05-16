@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-medium-5",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve for x: 3x − 7 < 2x + 5",
+      "answer": "x < 12",
+      "explanation": "Subtract 2x from both sides: x − 7 < 5. Add 7 to both sides: x < 12."
+    },
+    {
+      "question": "A phone plan costs $40 per month plus $0.15 per text message. If Maya's bill is at most $55, how many text messages can she send? (Assume she sends a whole number of texts.)",
+      "answer": "at most 100 text messages",
+      "explanation": "Set up: 40 + 0.15t ≤ 55. Subtract 40: 0.15t ≤ 15. Divide by 0.15: t ≤ 100."
+    },
+    {
+      "question": "Graph the inequality y > −2x + 3 on a coordinate plane. Describe which region is shaded (above or below the line) and whether the line is solid or dashed.",
+      "answer": "dashed line; shade above the line",
+      "explanation": "The inequality uses '>' (not '≥'), so the line y = −2x + 3 is dashed. Since y is greater than the expression, shade the region above the line."
+    },
+    {
+      "question": "Solve the system of inequalities: x + y ≤ 6 and x − y > 2. What is the simplest way to describe the solution region?",
+      "answer": "the region below the line x + y = 6 and above the line x − y = 2 (with x + y = 6 solid, x − y = 2 dashed)",
+      "explanation": "The first inequality is 'less than or equal to' (solid line); the second is strict 'greater than' (dashed line). The solution is where both conditions hold simultaneously."
+    },
+    {
+      "question": "If −5 < 2k + 1 ≤ 9, solve for k.",
+      "answer": "−3 < k ≤ 4",
+      "explanation": "Break into two inequalities: −5 < 2k + 1 gives −6 < 2k, so k > −3. And 2k + 1 ≤ 9 gives 2k ≤ 8, so k ≤ 4. Combine: −3 < k ≤ 4."
+    },
+    {
+      "question": "A store offers a discount: spend at least $50 and get 20% off, or spend less than $50 and get 10% off. If the original price of an item is $x, write the compound inequality that represents when a customer qualifies for the 20% discount.",
+      "answer": "x ≥ 50",
+      "explanation": "The customer must spend at least $50 to qualify for the 20% discount. This is simply written as x ≥ 50."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:31.856Z",
+  "model": "claude-haiku-4-5-20251001"
+}

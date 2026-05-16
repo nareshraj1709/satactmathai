@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-2",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A parabola has vertex at the origin and opens upward. Its focus is at (0, 3). Write the equation of the parabola in the form y = ax².",
+      "answer": "y = (1/12)x²",
+      "explanation": "For a parabola with vertex at the origin and vertical axis, y = ax². The focus is at (0, p) where p = 1/(4a). Given p = 3, we have 3 = 1/(4a), so a = 1/12."
+    },
+    {
+      "question": "An ellipse has semi-major axis of length 5 and semi-minor axis of length 3, centered at the origin, with the major axis horizontal. What is the equation of the ellipse?",
+      "answer": "x²/25 + y²/9 = 1",
+      "explanation": "The standard form is x²/a² + y²/b² = 1 where a is the semi-major axis and b is the semi-minor axis. Substituting a = 5 and b = 3 gives x²/25 + y²/9 = 1."
+    },
+    {
+      "question": "A hyperbola is centered at the origin with a = 4 and b = 3, opening left and right. What is its equation?",
+      "answer": "x²/16 - y²/9 = 1",
+      "explanation": "For a horizontal hyperbola centered at the origin, the form is x²/a² - y²/b² = 1. With a = 4 and b = 3, substitute to get x²/16 - y²/9 = 1."
+    },
+    {
+      "question": "The parabola y² = 8x opens to the right. Where is its focus located?",
+      "answer": "(2, 0)",
+      "explanation": "For a parabola y² = 4px opening rightward, the focus is at (p, 0). Here, 4p = 8, so p = 2. The focus is at (2, 0)."
+    },
+    {
+      "question": "An ellipse has the equation x²/49 + y²/25 = 1. What is the length of the major axis?",
+      "answer": "14",
+      "explanation": "The semi-major axis length is the larger denominator's square root: √49 = 7. The major axis length is 2 × 7 = 14."
+    },
+    {
+      "question": "A hyperbola has equation x²/9 - y²/16 = 1. Is the transverse axis horizontal or vertical?",
+      "answer": "Horizontal",
+      "explanation": "The x² term is positive in the equation, which means the hyperbola opens left and right. Therefore, the transverse axis is horizontal."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:23:30.702Z",
+  "model": "claude-haiku-4-5-20251001"
+}

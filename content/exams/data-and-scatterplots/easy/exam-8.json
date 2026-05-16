@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-8",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study time (hours) and test scores (points). The points roughly follow a line passing through (0, 40) and (5, 90). What is the slope of this line of best fit?",
+      "answer": "10",
+      "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (90 − 40)/(5 − 0) = 50/5 = 10. This means each additional hour of study is associated with 10 more points."
+    },
+    {
+      "question": "A scatterplot displays the height (inches) and weight (pounds) of 8 students. The points show a positive correlation. Does the relationship suggest that taller students tend to weigh more or less?",
+      "answer": "more",
+      "explanation": "A positive correlation means as one variable increases, the other also tends to increase. So as height increases, weight tends to increase."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = 2x + 3. Use this equation to predict the y-value when x = 4.",
+      "answer": "11",
+      "explanation": "Substitute x = 4 into y = 2(4) + 3 = 8 + 3 = 11."
+    },
+    {
+      "question": "A scatterplot shows temperature (°C) versus ice cream sales ($). The correlation coefficient is r = −0.85. Is the correlation positive or negative, and is it weak or strong?",
+      "answer": "negative and strong",
+      "explanation": "The sign of r tells direction: negative means as temperature increases, sales decrease. The magnitude |r| = 0.85 is close to 1, indicating a strong relationship."
+    },
+    {
+      "question": "A line of best fit passes through the points (1, 5) and (3, 13). What is the y-intercept of this line?",
+      "answer": "1",
+      "explanation": "First find slope: m = (13 − 5)/(3 − 1) = 8/2 = 4. Using point-slope form with (1, 5): y − 5 = 4(x − 1), so y = 4x + 1. The y-intercept is 1."
+    },
+    {
+      "question": "A scatterplot shows years of experience versus annual salary. One data point is (3, 30000), meaning 3 years of experience and $30,000 salary. If the line of best fit is y = 5000x + 15000, what is the residual for this point?",
+      "answer": "0",
+      "explanation": "Predicted value: y = 5000(3) + 15000 = 30000. Residual = observed − predicted = 30000 − 30000 = 0. This point lies exactly on the line."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:21.330Z",
+  "model": "claude-haiku-4-5-20251001"
+}

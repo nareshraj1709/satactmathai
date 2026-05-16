@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-1",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 7 cm and the hypotenuse is 12 cm. Find the sine of the 35° angle.",
+      "answer": "7/12 or 0.583",
+      "explanation": "Sine is opposite over hypotenuse. sin(35°) = 7/12. This is a direct application of SOH-CAH-TOA."
+    },
+    {
+      "question": "A right triangle has an angle of 40° and an adjacent side of 10 m. What is the length of the hypotenuse?",
+      "answer": "10/cos(40°) or approximately 13.05",
+      "explanation": "Cosine relates adjacent and hypotenuse: cos(40°) = 10/h, so h = 10/cos(40°). Use CAH from SOH-CAH-TOA."
+    },
+    {
+      "question": "What is sin(90°)?",
+      "answer": "1",
+      "explanation": "At 90° on the unit circle, the y-coordinate is 1, and sine equals the y-coordinate. This is a fundamental unit circle value."
+    },
+    {
+      "question": "In a right triangle, the opposite side to an angle is 5 and the adjacent side is 12. Find the tangent of that angle.",
+      "answer": "5/12",
+      "explanation": "Tangent is opposite over adjacent. tan(θ) = 5/12. This is a direct application of TOA from SOH-CAH-TOA."
+    },
+    {
+      "question": "What is cos(0°)?",
+      "answer": "1",
+      "explanation": "At 0° on the unit circle, the x-coordinate is 1, and cosine equals the x-coordinate. This is a fundamental unit circle value."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 60° angle with the ground. If the ladder is 8 feet long, how high does it reach on the wall?",
+      "answer": "8sin(60°) or 4√3 or approximately 6.93",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) = height/8, so height = 8sin(60°) = 8(√3/2) = 4√3."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:07:15.504Z",
+  "model": "claude-haiku-4-5-20251001"
+}

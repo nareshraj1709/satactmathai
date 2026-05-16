@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-9",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. The factorization is (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve for x: 2x² - 8x = 0",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out 2x: 2x(x - 4) = 0. Set each factor to zero: 2x = 0 gives x = 0, and x - 4 = 0 gives x = 4."
+    },
+    {
+      "question": "A rectangular garden has an area of 60 square meters. Its length is 4 meters more than its width. If the width is w meters, write and factor an equation to find w.",
+      "answer": "w(w + 4) = 60, or (w + 10)(w - 6) = 0",
+      "explanation": "Set up w(w + 4) = 60, which rearranges to w² + 4w - 60 = 0. Factor as (w + 10)(w - 6) = 0. Since width must be positive, w = 6 meters."
+    },
+    {
+      "question": "Factor completely: 3x² - 12x + 9",
+      "answer": "3(x - 1)(x - 3)",
+      "explanation": "First factor out the GCF of 3: 3(x² - 4x + 3). Then factor the quadratic: 3(x - 1)(x - 3)."
+    },
+    {
+      "question": "Which factorization is correct for x² - 5x - 14?",
+      "answer": "(x - 7)(x + 2)",
+      "explanation": "Find two numbers that multiply to -14 and add to -5: -7 and 2. So x² - 5x - 14 = (x - 7)(x + 2)."
+    },
+    {
+      "question": "Solve for all values of x: x² = 9x",
+      "answer": "x = 0 or x = 9",
+      "explanation": "Rearrange to x² - 9x = 0 and factor: x(x - 9) = 0. This gives x = 0 or x = 9."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:01.650Z",
+  "model": "claude-haiku-4-5-20251001"
+}

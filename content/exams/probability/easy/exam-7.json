@@ -1,0 +1,42 @@
+{
+  "id": "probability-easy-7",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A bag contains 3 red marbles, 5 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is blue?",
+      "answer": "5/10 or 1/2 or 0.5",
+      "explanation": "Total marbles: 3 + 5 + 2 = 10. Blue marbles: 5. Probability = 5/10 = 1/2."
+    },
+    {
+      "question": "A spinner has 8 equal sections numbered 1 through 8. What is the probability of spinning a number greater than 6?",
+      "answer": "2/8 or 1/4 or 0.25",
+      "explanation": "Numbers greater than 6 are: 7 and 8 (2 outcomes). Probability = 2/8 = 1/4."
+    },
+    {
+      "question": "In a class of 25 students, 15 play soccer and 10 play basketball. If these events are independent, how many students play both sports?",
+      "answer": "6",
+      "explanation": "Using the formula: |A ∪ B| = |A| + |B| − |A ∩ B|. If assuming maximum overlap within the class: 25 ≥ 15 + 10 − both, so both ≤ 0. With independence: P(both) = (15/25)(10/25) × 25 = 6."
+    },
+    {
+      "question": "A two-way table shows that 40 people own cats, 60 people own dogs, and 15 people own both. How many people own at least one pet?",
+      "answer": "85",
+      "explanation": "Using inclusion-exclusion: |cats ∪ dogs| = |cats| + |dogs| − |both| = 40 + 60 − 15 = 85."
+    },
+    {
+      "question": "If the probability of event A is 0.3 and the probability of event B is 0.5, and the events are independent, what is the probability that both A and B occur?",
+      "answer": "0.15",
+      "explanation": "For independent events: P(A and B) = P(A) × P(B) = 0.3 × 0.5 = 0.15."
+    },
+    {
+      "question": "A deck has 12 cards: 4 red, 4 blue, and 4 yellow. You draw one card without looking. What is the probability you draw a card that is either red or yellow?",
+      "answer": "8/12 or 2/3",
+      "explanation": "Red or yellow cards: 4 + 4 = 8. Total cards: 12. Probability = 8/12 = 2/3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:42:49.822Z",
+  "model": "claude-haiku-4-5-20251001"
+}

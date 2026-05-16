@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-7",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. List factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. The greatest common factor is 12."
+    },
+    {
+      "question": "Is 47 prime or composite?",
+      "answer": "prime",
+      "explanation": "Check divisibility by primes up to √47 ≈ 6.9 (test 2, 3, 5). 47 is odd, not divisible by 3 (4+7=11), and doesn't end in 0 or 5. So 47 is prime."
+    },
+    {
+      "question": "A teacher has 18 red pencils and 24 blue pencils. She wants to make identical sets with the same number of each color, with no pencils left over. What is the maximum number of sets she can make?",
+      "answer": "6",
+      "explanation": "The maximum number of sets equals the GCF of 18 and 24. GCF(18, 24) = 6, so she can make 6 sets (each with 3 red and 4 blue pencils)."
+    },
+    {
+      "question": "What is the least common multiple (LCM) of 6 and 8?",
+      "answer": "24",
+      "explanation": "Multiples of 6: 6, 12, 18, 24, 30... Multiples of 8: 8, 16, 24, 32... The smallest common multiple is 24."
+    },
+    {
+      "question": "Which number is divisible by both 3 and 5: 45, 50, or 52?",
+      "answer": "45",
+      "explanation": "A number is divisible by 3 if the sum of digits is divisible by 3, and by 5 if it ends in 0 or 5. 45: 4+5=9 (divisible by 3) and ends in 5. 50 and 52 fail the divisibility-by-3 test."
+    },
+    {
+      "question": "What is the prime factorization of 30?",
+      "answer": "2 × 3 × 5",
+      "explanation": "30 = 2 × 15 = 2 × 3 × 5. All factors (2, 3, 5) are prime, so the prime factorization is 2 × 3 × 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:48.007Z",
+  "model": "claude-haiku-4-5-20251001"
+}

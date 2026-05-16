@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-9",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study time (in hours) and test score (out of 100). The points roughly follow the line y = 8x + 20. If a student studies for 5 hours, what score does the model predict?",
+      "answer": "60",
+      "explanation": "Substitute x = 5 into y = 8x + 20: y = 8(5) + 20 = 40 + 20 = 60."
+    },
+    {
+      "question": "A scatterplot displays the number of hours worked per week versus weekly earnings (in dollars). One point is (10, 150) and another is (20, 300). What is the slope of the line connecting these points?",
+      "answer": "15",
+      "explanation": "Slope = (300 − 150)/(20 − 10) = 150/10 = 15 dollars per hour."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = 2x + 5. What does the y-intercept (5) represent in context?",
+      "answer": "The predicted value when x = 0",
+      "explanation": "The y-intercept is the value of y when x = 0. It represents the starting or baseline value in the relationship."
+    },
+    {
+      "question": "A scatterplot shows temperature (°C) versus ice cream sales. The points form a clear upward trend. Is the correlation positive or negative?",
+      "answer": "positive",
+      "explanation": "An upward trend means as one variable increases, the other also increases. This defines a positive correlation."
+    },
+    {
+      "question": "The line of best fit for apartment rent versus square footage is y = 0.5x + 200, where y is monthly rent and x is square footage. What is the predicted rent for a 600 square-foot apartment?",
+      "answer": "500",
+      "explanation": "Substitute x = 600: y = 0.5(600) + 200 = 300 + 200 = 500 dollars."
+    },
+    {
+      "question": "A scatterplot shows years of experience versus salary. Two points on the line of best fit are (2, 35,000) and (5, 50,000). How much does salary increase per year of experience?",
+      "answer": "5,000",
+      "explanation": "Slope = (50,000 − 35,000)/(5 − 2) = 15,000/3 = 5,000 dollars per year."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:21.857Z",
+  "model": "claude-haiku-4-5-20251001"
+}

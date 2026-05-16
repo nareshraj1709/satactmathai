@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-1",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A store marks up an item by 40% and then offers a 25% discount on the marked-up price. If the final price is $126, what was the original cost?",
+      "answer": "$120",
+      "explanation": "Let the original cost be x. After a 40% markup, the price is 1.4x. After a 25% discount, the final price is 1.4x × 0.75 = 1.05x. Set 1.05x = 126 and solve: x = 126 ÷ 1.05 = 120."
+    },
+    {
+      "question": "The population of a city increases by 15% in the first year and then decreases by 10% in the second year. If the population after two years is 20,700, what was the original population?",
+      "answer": "20,000",
+      "explanation": "Let the original population be P. After year 1: 1.15P. After year 2: 1.15P × 0.90 = 1.035P. Solve 1.035P = 20,700: P = 20,700 ÷ 1.035 = 20,000."
+    },
+    {
+      "question": "A restaurant bill comes to $84 before tax and tip. If the tax is 8% and the customer adds a 20% tip on the pre-tax amount, what is the total amount paid?",
+      "answer": "$107.52",
+      "explanation": "Tax: $84 × 0.08 = $6.72. Tip: $84 × 0.20 = $16.80. Total: $84 + $6.72 + $16.80 = $107.52."
+    },
+    {
+      "question": "A product's price increased by 25% over the past year. If you want to return to the original price, by what percent must the current price be reduced? Round to the nearest tenth.",
+      "answer": "20%",
+      "explanation": "If the original price is 100, the new price is 125. To return to 100 requires a reduction of 25 from 125, which is 25/125 = 0.20 = 20%."
+    },
+    {
+      "question": "An investment grows from $5,000 to $7,320 over two years with the same percent growth each year. What is the annual percent increase?",
+      "answer": "21%",
+      "explanation": "If r is the annual growth rate, then 5000(1 + r)² = 7320. So (1 + r)² = 1.464, giving 1 + r = 1.21. Thus r = 0.21 or 21%."
+    },
+    {
+      "question": "A clothing store reduces all prices by 30%. The next week, it reduces prices by an additional 15% off the already-reduced price. What is the equivalent single percent discount from the original price?",
+      "answer": "39.5%",
+      "explanation": "After first discount: 0.70 of original. After second discount: 0.70 × 0.85 = 0.595 of original. This represents a discount of 1 − 0.595 = 0.405 = 40.5%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:53.085Z",
+  "model": "claude-haiku-4-5-20251001"
+}

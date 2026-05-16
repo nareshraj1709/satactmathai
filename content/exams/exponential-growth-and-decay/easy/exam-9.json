@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-9",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A bacterial colony triples every hour. If it starts with 5 bacteria, how many bacteria are there after 2 hours?",
+      "answer": "45",
+      "explanation": "After 1 hour: 5 × 3 = 15 bacteria. After 2 hours: 15 × 3 = 45 bacteria. Use the formula N(t) = N₀ · 3^t with N₀ = 5 and t = 2."
+    },
+    {
+      "question": "A radioactive substance decays to half its amount every 10 years. If you start with 80 grams, how much remains after 20 years?",
+      "answer": "20 grams",
+      "explanation": "After 10 years: 80 ÷ 2 = 40 grams. After 20 years: 40 ÷ 2 = 20 grams. Each half-life period cuts the amount in half."
+    },
+    {
+      "question": "Write an exponential decay equation where the initial amount is 100 and the decay factor is 0.5 per time period.",
+      "answer": "A(t) = 100(0.5)^t",
+      "explanation": "The general form for exponential decay is A(t) = A₀ · b^t, where A₀ is the initial amount and b is the decay factor (less than 1)."
+    },
+    {
+      "question": "An investment grows exponentially according to A(t) = 1000(1.05)^t, where t is measured in years. What is the initial investment?",
+      "answer": "1000",
+      "explanation": "In the form A(t) = A₀(b)^t, the initial amount A₀ is the coefficient, which is 1000."
+    },
+    {
+      "question": "A population doubles every 3 years. If the population is currently 200, what will it be in 6 years?",
+      "answer": "800",
+      "explanation": "6 years = two 3-year periods. After first period: 200 × 2 = 400. After second period: 400 × 2 = 800."
+    },
+    {
+      "question": "If a substance decays according to N(t) = 500(0.8)^t, what does the 0.8 represent in this context?",
+      "answer": "The decay factor (or 80% remains each period)",
+      "explanation": "The base of the exponential, 0.8, is the decay factor—each time period, 80% of the previous amount remains (or 20% decays)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:02.655Z",
+  "model": "claude-haiku-4-5-20251001"
+}

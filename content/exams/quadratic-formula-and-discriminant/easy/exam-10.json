@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-10",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve x² + 5x + 6 = 0.",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using x = [-b ± √(b² - 4ac)] / 2a with a = 1, b = 5, c = 6: x = [-5 ± √(25 - 24)] / 2 = [-5 ± 1] / 2. This gives x = -2 and x = -3."
+    },
+    {
+      "question": "Find the discriminant of 2x² - 3x + 1 = 0.",
+      "answer": "1",
+      "explanation": "The discriminant is b² - 4ac. Here, b² - 4ac = (-3)² - 4(2)(1) = 9 - 8 = 1."
+    },
+    {
+      "question": "How many real solutions does x² + 2x + 5 = 0 have?",
+      "answer": "0",
+      "explanation": "Calculate the discriminant: b² - 4ac = 2² - 4(1)(5) = 4 - 20 = -16. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "Solve x² - 4 = 0 using the quadratic formula.",
+      "answer": "x = 2 or x = -2",
+      "explanation": "With a = 1, b = 0, c = -4: x = [0 ± √(0 - 4(1)(-4))] / 2 = ± √16 / 2 = ± 4 / 2 = ±2."
+    },
+    {
+      "question": "A ball is thrown upward. Its height is h(t) = -5t² + 10t + 3, where h is in meters and t is in seconds. At what time does the ball reach a height of 3 meters on the way down?",
+      "answer": "t = 2",
+      "explanation": "Set h(t) = 3: -5t² + 10t + 3 = 3, so -5t² + 10t = 0, which factors as -5t(t - 2) = 0. This gives t = 0 (on the way up) and t = 2 (on the way down)."
+    },
+    {
+      "question": "For what value of k does x² + 4x + k = 0 have exactly one real solution?",
+      "answer": "k = 4",
+      "explanation": "A quadratic has exactly one real solution when the discriminant equals zero. So b² - 4ac = 0: 4² - 4(1)(k) = 0, giving 16 - 4k = 0, thus k = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:06.689Z",
+  "model": "claude-haiku-4-5-20251001"
+}

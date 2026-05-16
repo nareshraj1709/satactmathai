@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-2",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve for x: 2x² - 8x = 0",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out 2x: 2x(x - 4) = 0. So 2x = 0 or x - 4 = 0, giving x = 0 or x = 4."
+    },
+    {
+      "question": "A rectangular garden has area 45 square meters. Its length is 4 meters more than its width. If w is the width, write and solve w² + 4w - 45 = 0 to find the width.",
+      "answer": "w = 5 meters",
+      "explanation": "Factor: (w + 9)(w - 5) = 0, so w = -9 or w = 5. Since width must be positive, w = 5 meters."
+    },
+    {
+      "question": "Factor completely: 3x² - 12x + 9",
+      "answer": "3(x - 1)(x - 3)",
+      "explanation": "Factor out 3: 3(x² - 4x + 3). Then factor x² - 4x + 3 = (x - 1)(x - 3). Answer: 3(x - 1)(x - 3)."
+    },
+    {
+      "question": "Solve: x² - 25 = 0",
+      "answer": "x = 5 or x = -5",
+      "explanation": "Recognize difference of squares: (x - 5)(x + 5) = 0. So x = 5 or x = -5."
+    },
+    {
+      "question": "Factor: 2x² + 11x + 5",
+      "answer": "(2x + 1)(x + 5)",
+      "explanation": "Find factors of 2·5 = 10 that add to 11: 1 and 10. Rewrite: 2x² + x + 10x + 5 = x(2x + 1) + 5(2x + 1) = (2x + 1)(x + 5)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:00.251Z",
+  "model": "claude-haiku-4-5-20251001"
+}

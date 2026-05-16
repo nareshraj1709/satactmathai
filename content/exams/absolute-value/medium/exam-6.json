@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-medium-6",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve |2x - 5| = 11.",
+      "answer": "x = 8 or x = -3",
+      "explanation": "Split into two cases: 2x - 5 = 11 gives x = 8; and 2x - 5 = -11 gives x = -3. Both are valid solutions."
+    },
+    {
+      "question": "Solve |x + 3| ≤ 7.",
+      "answer": "-10 ≤ x ≤ 4",
+      "explanation": "For |A| ≤ B, write -B ≤ A ≤ B. So -7 ≤ x + 3 ≤ 7. Subtract 3 from all parts to get -10 ≤ x ≤ 4."
+    },
+    {
+      "question": "A thermometer reading differs from the actual temperature by at most 0.3°F. If the thermometer reads 72°F, what is the range of actual temperatures?",
+      "answer": "71.7°F ≤ T ≤ 72.3°F or T ∈ [71.7, 72.3]",
+      "explanation": "The absolute difference is |T - 72| ≤ 0.3. This gives -0.3 ≤ T - 72 ≤ 0.3, so 71.7 ≤ T ≤ 72.3."
+    },
+    {
+      "question": "Solve |3x - 4| = |x + 2|.",
+      "answer": "x = 3 or x = 1/2",
+      "explanation": "When absolute values are equal, either 3x - 4 = x + 2 (giving x = 3) or 3x - 4 = -(x + 2) (giving 4x = 2, so x = 1/2)."
+    },
+    {
+      "question": "Solve |x - 6| > 4.",
+      "answer": "x < 2 or x > 10",
+      "explanation": "For |A| > B, split into A > B or A < -B. So x - 6 > 4 gives x > 10, and x - 6 < -4 gives x < 2."
+    },
+    {
+      "question": "Solve 2|x + 1| - 3 = 5.",
+      "answer": "x = 3 or x = -5",
+      "explanation": "First isolate the absolute value: 2|x + 1| = 8, so |x + 1| = 4. Then x + 1 = 4 gives x = 3, and x + 1 = -4 gives x = -5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:03.792Z",
+  "model": "claude-haiku-4-5-20251001"
+}

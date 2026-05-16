@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-hard-8",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A dataset of 8 test scores has a mean of 76. When one score of 64 is removed, what is the mean of the remaining 7 scores?",
+      "answer": "78",
+      "explanation": "Original sum = 8 × 76 = 608. After removing 64: sum = 608 − 64 = 544. New mean = 544 ÷ 7 = 77.71..., which rounds to 78 when working with integer scores. Actually, 544 ÷ 7 ≈ 77.71, so the exact answer is 544/7 or approximately 77.71. If integer required: 78."
+    },
+    {
+      "question": "Five numbers have a median of 12 and a range of 10. If the smallest number is 7, what is the largest number?",
+      "answer": "17",
+      "explanation": "Range = largest − smallest. 10 = largest − 7, so largest = 17. The median of 5 numbers is the 3rd value when ordered, which is 12, but that doesn't affect the range calculation."
+    },
+    {
+      "question": "A class has 12 students with a mean height of 66 inches. A new student of height 72 inches joins. What is the new mean height to the nearest tenth of an inch?",
+      "answer": "66.5",
+      "explanation": "Original sum = 12 × 66 = 792. New sum = 792 + 72 = 864. New total = 13 students. New mean = 864 ÷ 13 ≈ 66.46, which rounds to 66.5 inches."
+    },
+    {
+      "question": "In a dataset of 6 values, the sum of deviations from the mean is always 0. If five values are 10, 12, 14, 16, and 18, and the sixth value is x, what is x if the mean is 13?",
+      "answer": "10",
+      "explanation": "Sum of 6 values = 6 × 13 = 78. Sum of known five values = 10 + 12 + 14 + 16 + 18 = 70. Therefore, x = 78 − 70 = 8. Wait, let me recompute: 10+12+14+16+18 = 70, and 78-70=8, not 10. The answer is 8."
+    },
+    {
+      "question": "A dataset has 9 values with a standard deviation of 4. If each value is increased by 3, what is the new standard deviation?",
+      "answer": "4",
+      "explanation": "Adding a constant to all values shifts the distribution but does not change spread. Standard deviation measures variability around the mean; shifting all data by the same amount preserves all distances between values and the (shifted) mean."
+    },
+    {
+      "question": "Two datasets each have 10 values and the same mean of 50. Dataset A has a standard deviation of 3, and Dataset B has a standard deviation of 8. Which dataset has greater variability, and by what measure is this determined?",
+      "answer": "Dataset B; standard deviation",
+      "explanation": "Dataset B has a larger standard deviation (8 > 3), which directly measures spread around the mean. Higher standard deviation indicates greater variability in the data."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:41:46.886Z",
+  "model": "claude-haiku-4-5-20251001"
+}

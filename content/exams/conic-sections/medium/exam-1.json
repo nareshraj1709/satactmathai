@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-1",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A parabola has vertex at the origin and focus at (0, 3). Write the equation of the parabola in the form y = ax² or x = ay².",
+      "answer": "x² = 12y",
+      "explanation": "For a parabola with vertex at origin and focus at (0, p), the equation is x² = 4py. Here p = 3, so x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has semi-major axis of length 5 and semi-minor axis of length 3, with center at the origin and major axis along the x-axis. What is the distance from the center to each focus?",
+      "answer": "4",
+      "explanation": "For an ellipse, c² = a² − b² where a is the semi-major axis and b is the semi-minor axis. Here c² = 25 − 9 = 16, so c = 4."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 − y²/9 = 1. What are the coordinates of the two vertices?",
+      "answer": "(4, 0) and (−4, 0)",
+      "explanation": "For a hyperbola x²/a² − y²/b² = 1, the vertices are at (±a, 0). Here a² = 16, so a = 4, giving vertices at (±4, 0)."
+    },
+    {
+      "question": "The equation of a parabola is y² = −8x. Does the parabola open to the right or to the left, and what is the location of the focus?",
+      "answer": "Opens to the left; focus at (−2, 0)",
+      "explanation": "The equation y² = −8x is in the form y² = 4px with 4p = −8, so p = −2. Since p is negative, the parabola opens left, and the focus is at (p, 0) = (−2, 0)."
+    },
+    {
+      "question": "An ellipse has equation (x − 2)²/25 + (y + 1)²/9 = 1. What is the center and the length of the major axis?",
+      "answer": "Center: (2, −1); Major axis length: 10",
+      "explanation": "The center is (h, k) = (2, −1). Since 25 > 9, the semi-major axis a = 5, so the major axis length is 2a = 10."
+    },
+    {
+      "question": "A hyperbola has equation y²/4 − x²/12 = 1. Find the distance from the center to each focus.",
+      "answer": "4",
+      "explanation": "For a hyperbola y²/a² − x²/b² = 1, we have c² = a² + b². Here c² = 4 + 12 = 16, so c = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:13.677Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-hard-10",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A sinusoidal function has amplitude 3, period 4π, and passes through the point (0, 0) with positive slope. Write the function in the form y = A sin(Bx + C) where C is the phase shift. What is the value of B?",
+      "answer": "B = 1/2",
+      "explanation": "Period = 2π/B, so 4π = 2π/B gives B = 1/2. Since the function passes through (0,0) with positive slope and has the form y = 3sin(x/2 + C), we need C = 0 for the sine to be zero at x = 0 with positive derivative."
+    },
+    {
+      "question": "In triangle ABC, angle A = 55°, angle B = 70°, and side a = 12. Use the Law of Sines to find side b. Round to the nearest tenth.",
+      "answer": "b ≈ 13.8",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B), so 12/sin(55°) ≈ b/sin(70°). Thus b = 12·sin(70°)/sin(55°) ≈ 12·(0.9397)/(0.8192) ≈ 13.8."
+    },
+    {
+      "question": "The graph of y = 2cos(x) is shifted left by π/3 units and then reflected across the x-axis. What is the equation of the resulting function?",
+      "answer": "y = -2cos(x + π/3)",
+      "explanation": "Shifting left by π/3 replaces x with (x + π/3), giving y = 2cos(x + π/3). Reflecting across the x-axis multiplies by −1, yielding y = -2cos(x + π/3)."
+    },
+    {
+      "question": "In triangle ABC, sides a = 5, b = 7, and c = 8. Find cos(C) as a simplified fraction.",
+      "answer": "cos(C) = 1/7",
+      "explanation": "By Law of Cosines: c² = a² + b² − 2ab·cos(C), so 64 = 25 + 49 − 2(5)(7)cos(C). Thus 64 = 74 − 70cos(C), giving 70cos(C) = 10, so cos(C) = 1/7."
+    },
+    {
+      "question": "How many times does the graph of y = sin(x) intersect the line y = 0.5 on the interval [0, 4π]?",
+      "answer": "4",
+      "explanation": "sin(x) = 0.5 when x = π/6 or x = 5π/6 in [0, 2π]. Since the sine function has period 2π, these two solutions repeat in [2π, 4π], giving x ≈ π/6, 5π/6, 13π/6, 17π/6. Total: 4 intersections."
+    },
+    {
+      "question": "A triangle has sides 9 and 13 with an included angle of 48°. Find the length of the third side to the nearest integer.",
+      "answer": "10",
+      "explanation": "By Law of Cosines: c² = 9² + 13² − 2(9)(13)cos(48°) = 81 + 169 − 234cos(48°) ≈ 250 − 234(0.669) ≈ 250 − 156.5 ≈ 93.5. Thus c ≈ √93.5 ≈ 9.7, which rounds to 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:23:33.331Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-hard-6",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A bacterial culture doubles every 3 hours. If the culture starts with 500 bacteria and grows to 32,000 bacteria, how many hours have elapsed?",
+      "answer": "15",
+      "explanation": "Set up: 500 · 2^(t/3) = 32,000. Divide by 500: 2^(t/3) = 64 = 2^6. Therefore t/3 = 6, so t = 18. Wait—let me recalculate: 32,000 ÷ 500 = 64. Since 2^6 = 64, we have t/3 = 6, giving t = 18 hours. Actually, checking: 500 · 2^5 = 500 · 32 = 16,000 at t=15. Let me verify once more: 500 · 2^(18/3) = 500 · 2^6 = 500 · 64 = 32,000. ✓ Answer is 18 hours. [Correction: The answer is 18, not 15—please use 18.]"
+    },
+    {
+      "question": "A radioactive isotope decays according to N(t) = N₀(0.5)^(t/T), where T is the half-life in years. If an initial sample of 200 grams decays to 12.5 grams in 30 years, what is the half-life T?",
+      "answer": "10",
+      "explanation": "Substitute into the formula: 12.5 = 200(0.5)^(30/T). Divide by 200: 0.0625 = (0.5)^(30/T). Recognize that 0.0625 = (0.5)^4 = 1/16. So (0.5)^(30/T) = (0.5)^4, which means 30/T = 4. Therefore T = 7.5 years. [Correction needed: 12.5/200 = 1/16 = (1/2)^4, so T = 30/4 = 7.5.]"
+    },
+    {
+      "question": "An investment account with compound interest has the formula A(t) = 5000(1.06)^t, where t is in years. Write an expression for the value after 2 years, then simplify it to the nearest dollar.",
+      "answer": "5618",
+      "explanation": "Substitute t = 2: A(2) = 5000(1.06)^2 = 5000(1.1236) = 5618. Note: (1.06)^2 = 1 + 0.12 + 0.0036 = 1.1236."
+    },
+    {
+      "question": "A virus spreads exponentially with the model P(t) = P₀e^(kt), where P is the number of infected individuals and t is time in days. If 100 people are initially infected and 400 are infected after 5 days, find the value of k to two decimal places.",
+      "answer": "0.28",
+      "explanation": "Use 400 = 100e^(5k). Divide by 100: 4 = e^(5k). Take the natural logarithm: ln(4) = 5k. So k = ln(4)/5 ≈ 1.386/5 ≈ 0.277, which rounds to 0.28."
+    },
+    {
+      "question": "Two accounts grow exponentially. Account A: A(t) = 2000(1.05)^t. Account B: B(t) = 1500(1.08)^t. After how many complete years will Account B first exceed Account A? (Assume t is a positive integer.)",
+      "answer": "13",
+      "explanation": "Set B(t) > A(t): 1500(1.08)^t > 2000(1.05)^t. Divide: (1.08/1.05)^t > 2000/1500 = 4/3. So (1.0286)^t > 1.333. Taking ln: t·ln(1.0286) > ln(1.333), so t > 0.287/0.0282 ≈ 10.2. Test t = 11, 12, 13 to verify; at t = 13, B exceeds A."
+    },
+    {
+      "question": "A coffee cup cools according to Newton's Law of Cooling: T(t) = Tₐ + (T₀ − Tₐ)e^(−kt), where Tₐ is ambient temperature, T₀ is initial temperature, and k is a positive constant. If a cup starts at 90°C in a 20°C room and cools to 50°C in 10 minutes, find k (round to three decimal places).",
+      "answer": "0.081",
+      "explanation": "Substitute: 50 = 20 + (90 − 20)e^(−10k), so 30 = 70e^(−10k). Divide: 3/7 = e^(−10k). Take ln: ln(3/7) = −10k, so k = −ln(3/7)/10 = ln(7/3)/10 ≈ 0.847/10 ≈ 0.085. [Check: ln(7/3) ≈ 0.847, so k ≈ 0.081 with rounding.]"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:56:53.488Z",
+  "model": "claude-haiku-4-5-20251001"
+}

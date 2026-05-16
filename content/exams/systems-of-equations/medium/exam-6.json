@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-medium-6",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve the system:\n2x + y = 7\nx - y = 2",
+      "answer": "x = 3, y = 1",
+      "explanation": "Add the equations to eliminate y: 3x = 9, so x = 3. Substitute into the second equation: 3 - y = 2, so y = 1."
+    },
+    {
+      "question": "A store sells notebooks for $3 and pens for $2. You buy 8 items for $20 total. How many notebooks did you buy?",
+      "answer": "4",
+      "explanation": "Set up: 3n + 2p = 20 and n + p = 8. From the second, p = 8 - n. Substitute: 3n + 2(8 - n) = 20 → n = 4."
+    },
+    {
+      "question": "Solve for x in the system:\n3x + 2y = 11\n5x - 2y = 13",
+      "answer": "x = 3",
+      "explanation": "Add the equations to eliminate y: 8x = 24, so x = 3."
+    },
+    {
+      "question": "Two numbers sum to 15. Their difference is 3. What is the larger number?",
+      "answer": "9",
+      "explanation": "Let the numbers be a and b with a > b. Then a + b = 15 and a - b = 3. Add: 2a = 18, so a = 9."
+    },
+    {
+      "question": "Solve the system:\n4x - 3y = 5\n2x + y = 4",
+      "answer": "x = 17/10, y = 3/5",
+      "explanation": "From the second equation, y = 4 - 2x. Substitute into the first: 4x - 3(4 - 2x) = 5 → 10x = 17 → x = 17/10. Then y = 4 - 2(17/10) = 3/5."
+    },
+    {
+      "question": "For what value of k does the system have no solution?\n2x + 3y = 6\n4x + 6y = k",
+      "answer": "k ≠ 12",
+      "explanation": "The second equation is 2 times the first. If k = 12, the equations are identical (infinitely many solutions). For no solution, k must not equal 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:24:57.609Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-medium-4",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve the inequality: 3x − 7 ≥ 2x + 5. Express your answer as an inequality.",
+      "answer": "x ≥ 12",
+      "explanation": "Subtract 2x from both sides: x − 7 ≥ 5. Add 7 to both sides: x ≥ 12."
+    },
+    {
+      "question": "A movie theater sells tickets for $12 each. If you have $50 and want to buy as many tickets as possible, what is the maximum number of tickets you can buy?",
+      "answer": "4",
+      "explanation": "Set up 12t ≤ 50, where t is the number of tickets. Solving: t ≤ 4.17. Since you can only buy whole tickets, the maximum is 4."
+    },
+    {
+      "question": "Which of the following values of x satisfy both inequalities: x + 3 > 7 AND 2x ≤ 20? List all integer solutions.",
+      "answer": "5, 6, 7, 8, 9, 10",
+      "explanation": "From x + 3 > 7, we get x > 4. From 2x ≤ 20, we get x ≤ 10. The integers satisfying both are 5 through 10."
+    },
+    {
+      "question": "Solve the compound inequality: −5 < 2x + 1 ≤ 9. Express your answer as a compound inequality.",
+      "answer": "−3 < x ≤ 4",
+      "explanation": "Subtract 1 from all parts: −6 < 2x ≤ 8. Divide by 2: −3 < x ≤ 4."
+    },
+    {
+      "question": "A taxi charges $3 plus $0.50 per mile. If your budget is at most $20, what is the maximum distance (in miles) you can travel?",
+      "answer": "34",
+      "explanation": "Set up 3 + 0.50d ≤ 20. Subtract 3: 0.50d ≤ 17. Divide by 0.50: d ≤ 34 miles."
+    },
+    {
+      "question": "On a number line, shade the region where both x > −2 and x < 5 are true. What is the length of this region?",
+      "answer": "7",
+      "explanation": "The region satisfying both inequalities is −2 < x < 5. The distance from −2 to 5 is 5 − (−2) = 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:01.230Z",
+  "model": "claude-haiku-4-5-20251001"
+}

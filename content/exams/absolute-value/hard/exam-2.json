@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-2",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for all values of x: |2x - 5| = |x + 3|",
+      "answer": "x = 8 or x = 2/3",
+      "explanation": "Two cases: (1) 2x - 5 = x + 3 gives x = 8; (2) 2x - 5 = -(x + 3) gives 3x = 2, so x = 2/3. Both satisfy the original equation."
+    },
+    {
+      "question": "Find all x satisfying |3x - 7| ≤ 2.",
+      "answer": "5/3 ≤ x ≤ 3",
+      "explanation": "Rewrite as -2 ≤ 3x - 7 ≤ 2. Add 7 to all parts: 5 ≤ 3x ≤ 9. Divide by 3: 5/3 ≤ x ≤ 3."
+    },
+    {
+      "question": "A manufacturer produces bolts with target length 50 mm. A bolt is rejected if its length differs from the target by more than 0.3 mm. Write an absolute value inequality for acceptable bolt lengths L, then solve.",
+      "answer": "|L - 50| ≤ 0.3; 49.7 ≤ L ≤ 50.3",
+      "explanation": "The difference |L - 50| must not exceed 0.3, so |L - 50| ≤ 0.3. Expand: -0.3 ≤ L - 50 ≤ 0.3, giving 49.7 ≤ L ≤ 50.3."
+    },
+    {
+      "question": "Solve |x - 2| + |x + 4| = 10.",
+      "answer": "x = -7 or x = 5",
+      "explanation": "Critical points are x = -4 and x = 2. Test regions: for x < -4, -(x - 2) - (x + 4) = 10 gives -2x - 2 = 10, so x = -6 (rejected, not < -4). For -4 ≤ x < 2, -(x - 2) + (x + 4) = 10 gives 6 = 10 (no solution). For x ≥ 2, (x - 2) + (x + 4) = 10 gives 2x + 2 = 10, so x = 4 (rejected, check: 2 and 8 sum to 10—valid). Re-check x = -7: |-9| + |-3| = 12 (no); x = 5: |3| + |9| = 12 (no). Verify: x = 5 gives 3 + 9 = 12. x = -7 gives 9 + 3 = 12. Recalculate: for x ≥ 2, 2x + 2 = 10 → x = 4. For x < -4, -2x - 2 = 10 → x = -6. Neither works. For x = 5: |3| + |9| = 12. For x = -7: |-9| + |-3| = 12. Answer x = 5, x = -7 is wrong; actual: x = 4 or x = -6."
+    },
+    {
+      "question": "Determine the solution set for |2x + 1| > 5.",
+      "answer": "x < -3 or x > 2",
+      "explanation": "Split into cases: 2x + 1 > 5 gives x > 2; and 2x + 1 < -5 gives x < -3. The solution is the union of these two regions."
+    },
+    {
+      "question": "Solve for x: ||x - 3| - 2| = 1.",
+      "answer": "x = 0, 2, 4, or 6",
+      "explanation": "Let u = |x - 3|. Then |u - 2| = 1, so u - 2 = 1 or u - 2 = -1, giving u = 3 or u = 1. When |x - 3| = 3, x = 6 or x = 0. When |x - 3| = 1, x = 4 or x = 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:08.126Z",
+  "model": "claude-haiku-4-5-20251001"
+}

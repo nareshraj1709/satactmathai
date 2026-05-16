@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-2",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "If f(x) = 3x − 2, what is f(4)?",
+      "answer": "10",
+      "explanation": "Substitute x = 4 into f(x) = 3x − 2. f(4) = 3(4) − 2 = 12 − 2 = 10."
+    },
+    {
+      "question": "Given g(x) = x² + 1, find g(−3).",
+      "answer": "10",
+      "explanation": "Substitute x = −3 into g(x) = x² + 1. g(−3) = (−3)² + 1 = 9 + 1 = 10."
+    },
+    {
+      "question": "If f(x) = 2x + 5 and g(x) = x − 3, what is f(g(2))?",
+      "answer": "7",
+      "explanation": "First find g(2) = 2 − 3 = −1. Then f(−1) = 2(−1) + 5 = −2 + 5 = 7."
+    },
+    {
+      "question": "The function h(x) = 5 − x is reflected across the x-axis. Write the equation of the reflected function.",
+      "answer": "y = −5 + x or y = x − 5",
+      "explanation": "Reflecting across the x-axis means multiply the output by −1. The reflected function is −h(x) = −(5 − x) = x − 5."
+    },
+    {
+      "question": "If f(x) = 4x, what is the output when the input is 1.5?",
+      "answer": "6",
+      "explanation": "f(1.5) = 4(1.5) = 6."
+    },
+    {
+      "question": "Given f(x) = x/2 + 3, solve f(x) = 8.",
+      "answer": "x = 10",
+      "explanation": "Set x/2 + 3 = 8. Then x/2 = 5, so x = 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:01.600Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-3",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Solve for x: |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "The absolute value of a number equals 7 when the number is 7 or -7. Both satisfy the equation."
+    },
+    {
+      "question": "Solve for x: |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "Set x - 2 = 5 to get x = 7, and x - 2 = -5 to get x = -3. Check: |7 - 2| = 5 ✓ and |-3 - 2| = 5 ✓"
+    },
+    {
+      "question": "Which values of x satisfy |x| < 3?",
+      "answer": "-3 < x < 3",
+      "explanation": "The absolute value is less than 3 when x is between -3 and 3. This includes 0, 1, -2, etc., but not -3 or 3 themselves."
+    },
+    {
+      "question": "A temperature reading is |t - 68| degrees away from 68°F. If this distance is 4 degrees, what are the possible temperatures?",
+      "answer": "t = 64 or t = 72",
+      "explanation": "Solve |t - 68| = 4. This gives t - 68 = 4 (so t = 72) or t - 68 = -4 (so t = 64)."
+    },
+    {
+      "question": "Solve for x: |2x| = 10",
+      "answer": "x = 5 or x = -5",
+      "explanation": "Divide both sides by 2: |x| = 5. This gives x = 5 or x = -5."
+    },
+    {
+      "question": "For which values of x is |x + 1| ≥ 2?",
+      "answer": "x ≤ -3 or x ≥ 1",
+      "explanation": "Solve x + 1 ≥ 2 to get x ≥ 1, and x + 1 ≤ -2 to get x ≤ -3. These are the regions where distance from -1 is at least 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:10.638Z",
+  "model": "claude-haiku-4-5-20251001"
+}

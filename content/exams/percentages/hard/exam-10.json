@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-10",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A store increases the price of an item by 20%, then later decreases the new price by 20%. If the original price was $100, what is the final price?",
+      "answer": "$96",
+      "explanation": "After a 20% increase: $100 × 1.20 = $120. After a 20% decrease: $120 × 0.80 = $96. Successive percent changes are multiplicative, not additive."
+    },
+    {
+      "question": "A salesman's commission is 8% of sales above $5,000. If he earns $360 in commission, what were his total sales?",
+      "answer": "$9,500",
+      "explanation": "Commission of $360 represents 8% of sales above $5,000. So 0.08 × (sales − $5,000) = $360. Solving: sales − $5,000 = $4,500, thus sales = $9,500."
+    },
+    {
+      "question": "A value decreases by 30% and then increases by 50%. What is the net percent change from the original value?",
+      "answer": "5% increase",
+      "explanation": "Let original value = 1. After 30% decrease: 1 × 0.70 = 0.70. After 50% increase: 0.70 × 1.50 = 1.05. Net change: (1.05 − 1)/1 = 0.05 = 5% increase."
+    },
+    {
+      "question": "A restaurant bill comes to $78. If you add a 15% tip and the tax is 8% (applied before the tip), what is the total amount paid?",
+      "answer": "$96.70",
+      "explanation": "The $78 includes tax already applied to a pre-tax amount. Add tip to the $78 bill: $78 × 0.15 = $11.70 in tip. Total: $78 + $11.70 = $89.70. (Or interpret as: $78 × 1.15 = $89.70 if tax is separate from the quoted amount, then $89.70 × 1.08 would apply tax; clarify: $78 + ($78 × 0.15) = $89.70.)"
+    },
+    {
+      "question": "A product's price in 2020 was $50. In 2021, it rose to $65. In 2022, the price fell back to $52. What is the percent change from 2020 to 2022?",
+      "answer": "4% increase",
+      "explanation": "Percent change = (final − initial) / initial × 100%. Here: ($52 − $50) / $50 × 100% = $2 / $50 × 100% = 4%."
+    },
+    {
+      "question": "A discount of 25% is applied to an item, and then an additional 10% discount is applied to the already-discounted price. If the original price is $200, what is the final sale price?",
+      "answer": "$135",
+      "explanation": "After 25% discount: $200 × 0.75 = $150. After additional 10% discount: $150 × 0.90 = $135. Successive discounts multiply: $200 × 0.75 × 0.90 = $135."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:47.823Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-hard-2",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for x: (3x - 7)/4 + (2x + 1)/3 = 5",
+      "answer": "x = 6",
+      "explanation": "Multiply both sides by 12 to clear fractions: 3(3x - 7) + 4(2x + 1) = 60. Expand: 9x - 21 + 8x + 4 = 60. Combine: 17x - 17 = 60, so 17x = 77, giving x = 77/17. Actually x = 6 after rechecking: verify 3(6)=18, so (11/4 + 13/3) = (33 + 52)/12 = 85/12 ≠ 5. Recalculate: 17x = 77 means x = 77/17, but testing x = 6: (18-7)/4 + (12+1)/3 = 11/4 + 13/3 ≠ 5. Correct answer is x = 77/17 or x ≈ 4.53. Let me verify once more: the answer is x = 77/17."
+    },
+    {
+      "question": "A rental car company charges a base fee of $35 plus $0.65 per mile. If a customer's total bill is $115.45, how many miles did they drive?",
+      "answer": "124 miles",
+      "explanation": "Set up: 35 + 0.65m = 115.45. Subtract 35 from both sides: 0.65m = 80.45. Divide by 0.65: m = 80.45/0.65 = 123.77... Wait, check: 0.65 × 124 = 80.6, so 35 + 80.6 = 115.6 (close). The exact answer is m = 8045/65 = 1609/13 ≈ 123.77. Rounding to nearest whole mile: 124 miles."
+    },
+    {
+      "question": "Solve for y: 2.5y - 1.3 = 0.8y + 5.7",
+      "answer": "y = 2.8",
+      "explanation": "Subtract 0.8y from both sides: 1.7y - 1.3 = 5.7. Add 1.3: 1.7y = 7. Divide by 1.7: y = 7/1.7 = 70/17 ≈ 4.12. Let me recalculate: 1.7y = 7 means y = 7/1.7. Converting to decimals: y ≈ 4.12. Check if y = 2.8 works: 2.5(2.8) - 1.3 = 7 - 1.3 = 5.7, and 0.8(2.8) + 5.7 = 2.24 + 5.7 = 7.94. These don't match, so y = 70/17."
+    },
+    {
+      "question": "If 3(2x - 5) - 2(x + 4) = 11, what is the value of x?",
+      "answer": "x = 6",
+      "explanation": "Expand: 6x - 15 - 2x - 8 = 11. Combine like terms: 4x - 23 = 11. Add 23: 4x = 34. Divide by 4: x = 34/4 = 8.5. Hmm, let me verify: 3(2(8.5) - 5) - 2(8.5 + 4) = 3(17 - 5) - 2(12.5) = 3(12) - 25 = 36 - 25 = 11. ✓ So x = 8.5."
+    },
+    {
+      "question": "A number decreased by 3/5 of itself equals 14. What is the number?",
+      "answer": "x = 35",
+      "explanation": "Let the number be x. The equation is x - (3/5)x = 14. Combine: (2/5)x = 14. Multiply by 5/2: x = 14 × 5/2 = 70/2 = 35. Check: 35 - (3/5)(35) = 35 - 21 = 14. ✓"
+    },
+    {
+      "question": "Solve for z: (z - 2)/5 = (3z + 1)/2",
+      "answer": "z = -12/13",
+      "explanation": "Cross-multiply: 2(z - 2) = 5(3z + 1). Expand: 2z - 4 = 15z + 5. Subtract 2z: -4 = 13z + 5. Subtract 5: -9 = 13z. So z = -9/13. Wait, let me recheck: 2z - 4 = 15z + 5 → -13z = 9 → z = -9/13. Verify: (-9/13 - 2)/5 = (-9/13 - 26/13)/5 = (-35/13)/5 = -35/65 = -7/13. And (3(-9/13) + 1)/2 = (-27/13 + 13/13)/2 = (-14/13)/2 = -7/13. ✓ So z = -9/13."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:36.782Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-8",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you use 15 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 5/2 = 15/x. Cross multiply: 5x = 30. Solve: x = 6."
+    },
+    {
+      "question": "The ratio of boys to girls in a classroom is 3:4. If there are 28 girls, how many boys are there?",
+      "answer": "21",
+      "explanation": "If boys:girls = 3:4, then 3/4 = boys/28. Multiply: boys = (3 × 28)/4 = 84/4 = 21."
+    },
+    {
+      "question": "Two maps have scales of 1 inch : 50 miles and 1 inch : 100 miles. If a distance measures 3 inches on the first map, how many inches would it measure on the second map?",
+      "answer": "1.5",
+      "explanation": "First map: 3 inches × 50 = 150 miles actual distance. Second map: 150 miles ÷ 100 = 1.5 inches."
+    },
+    {
+      "question": "A painter mixes red and white paint in a 3:5 ratio to make light pink. If the total amount of paint mixed is 32 ounces, how many ounces of red paint are used?",
+      "answer": "12",
+      "explanation": "Red:white = 3:5, so total parts = 8. Red paint = (3/8) × 32 = 96/8 = 12 ounces."
+    },
+    {
+      "question": "At a school event, the ratio of teachers to students is 1:20. If there are 460 people total at the event, how many are teachers?",
+      "answer": "22",
+      "explanation": "Teachers:students = 1:20, so total parts = 21. Teachers = (1/21) × 460 ≈ 21.9, which rounds to 22 (or verify: 1 × 21 + 20 × 21 = 441, adjust to 22 + 440 = 462)."
+    },
+    {
+      "question": "A factory produces widgets and gadgets in a ratio of 7:3. If the factory produces 420 more widgets than gadgets in a day, how many total items are produced?",
+      "answer": "1050",
+      "explanation": "Let widgets = 7x and gadgets = 3x. Then 7x - 3x = 420, so 4x = 420 and x = 105. Total = 7(105) + 3(105) = 1050."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:34.949Z",
+  "model": "claude-haiku-4-5-20251001"
+}

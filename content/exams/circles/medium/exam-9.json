@@ -1,0 +1,42 @@
+{
+  "id": "circles-medium-9",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A circle has center at (3, –2) and passes through the point (7, 1). Write the equation of the circle.",
+      "answer": "(x - 3)² + (y + 2)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(7-3)² + (1-(-2))²] = √[16 + 9] = √25 = 5. The standard form is (x - h)² + (y - k)² = r²."
+    },
+    {
+      "question": "A sector of a circle with radius 8 has a central angle of 45°. What is the arc length of this sector? (Leave your answer in terms of π.)",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (45/360) × 2π(8) = (1/8) × 16π = 2π."
+    },
+    {
+      "question": "A line is tangent to a circle with center O at point P. If OP = 6, what is the relationship between OP and the tangent line at P?",
+      "answer": "OP is perpendicular to the tangent line",
+      "explanation": "A radius drawn to a point of tangency is always perpendicular to the tangent line at that point. This is a fundamental property of circles."
+    },
+    {
+      "question": "A circle has equation x² + y² – 6x + 4y – 12 = 0. Find the radius of this circle.",
+      "answer": "5",
+      "explanation": "Complete the square: (x² - 6x + 9) + (y² + 4y + 4) = 12 + 9 + 4 = 25. So (x - 3)² + (y + 2)² = 25, which gives r² = 25, so r = 5."
+    },
+    {
+      "question": "A sector of a circle with radius 10 has an area of 25π. What is the central angle of the sector in degrees?",
+      "answer": "90",
+      "explanation": "Sector area = (θ/360°) × πr². So 25π = (θ/360) × π(100). Solving: 25 = (θ/360) × 100, so θ = 90°."
+    },
+    {
+      "question": "Two concentric circles have radii 4 and 7. What is the area of the ring (annulus) between them?",
+      "answer": "33π",
+      "explanation": "Area of annulus = π(R²) – π(r²) = π(7²) – π(4²) = 49π – 16π = 33π."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:06:11.504Z",
+  "model": "claude-haiku-4-5-20251001"
+}

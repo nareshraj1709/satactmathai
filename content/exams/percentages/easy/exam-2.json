@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-2",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "Find 25% of $40: 0.25 × $40 = $10. Subtract from original: $40 − $10 = $30."
+    },
+    {
+      "question": "Last year, a town had 500 residents. This year, it has 600 residents. What is the percent increase in population?",
+      "answer": "20%",
+      "explanation": "Percent change = (change ÷ original) × 100 = (100 ÷ 500) × 100 = 20%."
+    },
+    {
+      "question": "A restaurant bill is $80. You want to leave a 15% tip. How much is the tip?",
+      "answer": "$12",
+      "explanation": "Calculate 15% of $80: 0.15 × $80 = $12."
+    },
+    {
+      "question": "A jacket costs $60 and is discounted by 10%. After the discount, what percent of the original price do you pay?",
+      "answer": "90%",
+      "explanation": "If the discount is 10%, you pay 100% − 10% = 90% of the original price."
+    },
+    {
+      "question": "A price increases from $20 to $24. What is the percent increase?",
+      "answer": "20%",
+      "explanation": "Change = $24 − $20 = $4. Percent increase = ($4 ÷ $20) × 100 = 20%."
+    },
+    {
+      "question": "If 35% of a number is 70, what is the number?",
+      "answer": "200",
+      "explanation": "Set up: 0.35x = 70. Solve: x = 70 ÷ 0.35 = 200."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:12.208Z",
+  "model": "claude-haiku-4-5-20251001"
+}

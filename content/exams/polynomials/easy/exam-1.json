@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-easy-1",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Simplify: (3x² + 5x) + (2x² - 3x)",
+      "answer": "5x² + 2x",
+      "explanation": "Combine like terms: 3x² + 2x² = 5x², and 5x - 3x = 2x. Write the result in standard form."
+    },
+    {
+      "question": "Multiply: 2x(x + 4)",
+      "answer": "2x² + 8x",
+      "explanation": "Distribute 2x to both terms inside the parentheses: 2x · x = 2x², and 2x · 4 = 8x."
+    },
+    {
+      "question": "Find the value of x when x³ = 8.",
+      "answer": "x = 2",
+      "explanation": "Ask: what number cubed equals 8? Since 2 × 2 × 2 = 8, x = 2."
+    },
+    {
+      "question": "If p(x) = x² - 5x + 6, what is p(2)?",
+      "answer": "0",
+      "explanation": "Substitute x = 2: (2)² - 5(2) + 6 = 4 - 10 + 6 = 0."
+    },
+    {
+      "question": "Divide: (4x² + 8x) ÷ 4x",
+      "answer": "x + 2",
+      "explanation": "Factor the numerator as 4x(x + 2), then cancel 4x from numerator and denominator, leaving x + 2."
+    },
+    {
+      "question": "What is the remainder when x² + 3x + 5 is divided by (x + 1)?",
+      "answer": "3",
+      "explanation": "Use the Remainder Theorem: substitute x = -1 into the polynomial: (-1)² + 3(-1) + 5 = 1 - 3 + 5 = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:50:38.896Z",
+  "model": "claude-haiku-4-5-20251001"
+}

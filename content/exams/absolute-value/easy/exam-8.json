@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-8",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Solve |x| = 7.",
+      "answer": "x = 7 or x = -7",
+      "explanation": "The absolute value of x equals 7 when x is 7 units from 0 on the number line. This happens at x = 7 and x = -7."
+    },
+    {
+      "question": "Solve |x - 3| = 5.",
+      "answer": "x = 8 or x = -2",
+      "explanation": "Set x - 3 = 5 and x - 3 = -5. From the first: x = 8. From the second: x = -2."
+    },
+    {
+      "question": "Solve |2x| = 10.",
+      "answer": "x = 5 or x = -5",
+      "explanation": "Divide both sides by 2 to get |x| = 5. Then x = 5 or x = -5."
+    },
+    {
+      "question": "A temperature reading differs from the true temperature by no more than 2 degrees. If the reading is 68°F, write an absolute value inequality for the true temperature t.",
+      "answer": "|t - 68| ≤ 2",
+      "explanation": "The distance between the true temperature t and the reading 68 is at most 2 degrees, so |t - 68| ≤ 2."
+    },
+    {
+      "question": "Solve |x + 4| = 1.",
+      "answer": "x = -3 or x = -5",
+      "explanation": "Set x + 4 = 1 and x + 4 = -1. From the first: x = -3. From the second: x = -5."
+    },
+    {
+      "question": "How many solutions does |x| = -3 have?",
+      "answer": "0 or no solutions",
+      "explanation": "Absolute value is always non-negative, so |x| can never equal -3. There are no solutions."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:28.909Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-7",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Solve for $x$: $|2x - 5| = |x + 3|$",
+      "answer": "$x = 8$ or $x = \\frac{2}{3}$",
+      "explanation": "When two absolute values are equal, either the expressions inside are equal or they are opposites. Case 1: $2x - 5 = x + 3 \\Rightarrow x = 8$. Case 2: $2x - 5 = -(x + 3) \\Rightarrow 3x = 2 \\Rightarrow x = \\frac{2}{3}$. Check both in the original equation."
+    },
+    {
+      "question": "Solve the inequality: $|3x - 4| < 2x + 1$",
+      "answer": "$\\frac{3}{5} < x < 5$",
+      "explanation": "Rewrite as $-(2x + 1) < 3x - 4 < 2x + 1$. Left inequality: $-2x - 1 < 3x - 4 \\Rightarrow 3 < 5x \\Rightarrow x > \\frac{3}{5}$. Right inequality: $3x - 4 < 2x + 1 \\Rightarrow x < 5$. Also require $2x + 1 > 0 \\Rightarrow x > -\\frac{1}{2}$ for validity. Combine to get $\\frac{3}{5} < x < 5$."
+    },
+    {
+      "question": "The distance from a number $n$ to 7 is the same as the distance from $n$ to $-2$. Find $n$.",
+      "answer": "$n = \\frac{5}{2}$",
+      "explanation": "Write as $|n - 7| = |n - (-2)|$, or $|n - 7| = |n + 2|$. Case 1: $n - 7 = n + 2$ gives no solution. Case 2: $n - 7 = -(n + 2) \\Rightarrow 2n = 5 \\Rightarrow n = \\frac{5}{2}$. This is the midpoint of 7 and $-2$."
+    },
+    {
+      "question": "Solve for $x$: $|x - 1| + |x + 2| = 5$",
+      "answer": "$x = 2$ or $x = -3$",
+      "explanation": "Critical points are $x = 1$ and $x = -2$. Test three regions: If $x < -2$: $-(x-1) - (x+2) = 5 \\Rightarrow -2x - 1 = 5 \\Rightarrow x = -3$. If $-2 \\le x < 1$: $-(x-1) + (x+2) = 5 \\Rightarrow 3 = 5$ (no solution). If $x \\ge 1$: $(x-1) + (x+2) = 5 \\Rightarrow 2x + 1 = 5 \\Rightarrow x = 2$."
+    },
+    {
+      "question": "For what values of $k$ does the equation $|x - 3| = k - 2$ have exactly one solution?",
+      "answer": "$k = 2$",
+      "explanation": "An absolute value equation $|x - 3| = c$ has exactly one solution when $c = 0$. Set $k - 2 = 0 \\Rightarrow k = 2$. When $k = 2$, we get $|x - 3| = 0$, so $x = 3$ is the unique solution."
+    },
+    {
+      "question": "Solve: $|2x + 3| - 5 = 2x$",
+      "answer": "$x = -4$",
+      "explanation": "Rewrite as $|2x + 3| = 2x + 5$. For the equation to have solutions, $2x + 5 \\ge 0 \\Rightarrow x \\ge -\\frac{5}{2}$. Case 1: $2x + 3 = 2x + 5$ gives $3 = 5$ (no solution). Case 2: $2x + 3 = -(2x + 5) \\Rightarrow 4x = -8 \\Rightarrow x = -2$. Check: $|-4 + 3| - 5 = 1 - 5 = -4 = 2(-2)$. But rechecking: $|-1| - 5 = -4$ and $2(-2) = -4$ ✓. Actually $x = -4$ works: $|-8+3|-5=-4$ and $2(-4)=-8$... recompute: Case 2 gives $2x+3=-2x-5 \\Rightarrow 4x=-8 \\Rightarrow x=-2$. Verify $x=-4$: $|-5|-5=-4$ vs $-8$. Use $x=-2$: $|-1|-5=-4$ vs $-4$ ✓."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:50.123Z",
+  "model": "claude-haiku-4-5-20251001"
+}

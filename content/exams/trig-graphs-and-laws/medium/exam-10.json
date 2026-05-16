@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-10",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "The function f(x) = 3sin(2x) has a period of what value?",
+      "answer": "π",
+      "explanation": "For y = sin(Bx), the period is 2π/B. Here B = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, angle A = 40°, angle B = 60°, and side a = 10. Find side b using the Law of Sines. Round to the nearest tenth.",
+      "answer": "12.1",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B). So 10/sin(40°) = b/sin(60°). Thus b = 10·sin(60°)/sin(40°) ≈ 10·(0.866)/0.643 ≈ 12.1."
+    },
+    {
+      "question": "What is the vertical shift and direction of the graph y = cos(x) - 4?",
+      "answer": "4 units down",
+      "explanation": "The constant term -4 outside the trig function translates the entire graph vertically. A negative constant moves it downward."
+    },
+    {
+      "question": "In triangle PQR, sides p = 7, q = 9, and angle R = 50°. Use the Law of Cosines to find side r. Round to the nearest tenth.",
+      "answer": "7.1",
+      "explanation": "Law of Cosines: r² = p² + q² - 2pq·cos(R). So r² = 49 + 81 - 2(7)(9)cos(50°) ≈ 130 - 126(0.643) ≈ 50.2. Thus r ≈ 7.1."
+    },
+    {
+      "question": "The graph of y = -2sin(x) has an amplitude of what value?",
+      "answer": "2",
+      "explanation": "Amplitude is the absolute value of the coefficient in front of the sine function: |−2| = 2. The negative sign reflects the graph but doesn't change amplitude."
+    },
+    {
+      "question": "In triangle XYZ, x = 5, y = 8, and z = 10. Use the Law of Cosines to find the measure of angle Z in degrees. Round to the nearest tenth.",
+      "answer": "78.5",
+      "explanation": "Law of Cosines: z² = x² + y² - 2xy·cos(Z). So 100 = 25 + 64 - 80·cos(Z), giving cos(Z) = −11/80 ≈ −0.1375. Thus Z = arccos(−0.1375) ≈ 78.5°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:22:41.262Z",
+  "model": "claude-haiku-4-5-20251001"
+}

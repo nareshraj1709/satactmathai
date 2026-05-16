@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-4",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Simplify: $\\sqrt{72} - \\sqrt{18} + \\sqrt{8}$",
+      "answer": "$7\\sqrt{2}$",
+      "explanation": "Factor each radicand: $\\sqrt{36 \\cdot 2} - \\sqrt{9 \\cdot 2} + \\sqrt{4 \\cdot 2} = 6\\sqrt{2} - 3\\sqrt{2} + 2\\sqrt{2}$. Combine like terms: $(6 - 3 + 2)\\sqrt{2} = 7\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{3x - 5} = 4$",
+      "answer": "$x = 7$",
+      "explanation": "Square both sides: $3x - 5 = 16$. Add 5: $3x = 21$. Divide by 3: $x = 7$. Check: $\\sqrt{3(7) - 5} = \\sqrt{16} = 4$ ✓"
+    },
+    {
+      "question": "Rationalize the denominator: $\\frac{6}{\\sqrt{5}}$",
+      "answer": "$\\frac{6\\sqrt{5}}{5}$",
+      "explanation": "Multiply numerator and denominator by $\\sqrt{5}$: $\\frac{6}{\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{6\\sqrt{5}}{5}$."
+    },
+    {
+      "question": "A rectangle has length $\\sqrt{50}$ and width $\\sqrt{8}$. What is its area in simplified form?",
+      "answer": "$20$",
+      "explanation": "Area = length × width = $\\sqrt{50} \\cdot \\sqrt{8} = \\sqrt{400} = 20$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{x}{x - 2} = \\frac{3}{2}$",
+      "answer": "$x = 6$",
+      "explanation": "Cross-multiply: $2x = 3(x - 2)$. Expand: $2x = 3x - 6$. Rearrange: $-x = -6$, so $x = 6$. Check denominator: $6 - 2 = 4 \\neq 0$ ✓"
+    },
+    {
+      "question": "Simplify: $\\frac{\\sqrt{48}}{\\sqrt{3}}$",
+      "answer": "$4$",
+      "explanation": "Use the quotient rule: $\\frac{\\sqrt{48}}{\\sqrt{3}} = \\sqrt{\\frac{48}{3}} = \\sqrt{16} = 4$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:58:01.402Z",
+  "model": "claude-haiku-4-5-20251001"
+}

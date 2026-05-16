@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-5",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Let f(x) = 3x + 5. Find f(2).",
+      "answer": "11",
+      "explanation": "Substitute x = 2 into f(x) = 3x + 5: f(2) = 3(2) + 5 = 6 + 5 = 11."
+    },
+    {
+      "question": "Let g(x) = x² - 4. What is g(-3)?",
+      "answer": "5",
+      "explanation": "Substitute x = -3: g(-3) = (-3)² - 4 = 9 - 4 = 5."
+    },
+    {
+      "question": "If h(x) = 2x - 1 and you want h(x) = 7, what is x?",
+      "answer": "4",
+      "explanation": "Set 2x - 1 = 7, then 2x = 8, so x = 4."
+    },
+    {
+      "question": "Let f(x) = x + 3 and g(x) = 2x. Find f(g(2)).",
+      "answer": "7",
+      "explanation": "First evaluate g(2) = 2(2) = 4. Then f(4) = 4 + 3 = 7."
+    },
+    {
+      "question": "The function p(t) = 100 - 5t represents the number of gallons of water remaining after t minutes. How many gallons remain after 8 minutes?",
+      "answer": "60",
+      "explanation": "Substitute t = 8: p(8) = 100 - 5(8) = 100 - 40 = 60 gallons."
+    },
+    {
+      "question": "Let f(x) = 4x - 2. If f(x) = 10, what is the value of x?",
+      "answer": "3",
+      "explanation": "Set 4x - 2 = 10, then 4x = 12, so x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:03.362Z",
+  "model": "claude-haiku-4-5-20251001"
+}

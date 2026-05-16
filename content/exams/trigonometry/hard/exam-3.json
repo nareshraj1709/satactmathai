@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-3",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "If sin(θ) = 3/5 and θ is in the second quadrant, find the exact value of tan(θ).",
+      "answer": "-3/4",
+      "explanation": "In quadrant II, sin(θ) > 0 and cos(θ) < 0. Use sin²(θ) + cos²(θ) = 1: (3/5)² + cos²(θ) = 1, so cos²(θ) = 16/25. Since θ is in Q2, cos(θ) = -4/5. Therefore tan(θ) = sin(θ)/cos(θ) = (3/5)/(-4/5) = -3/4."
+    },
+    {
+      "question": "Simplify the expression: (1 - cos²(α))/(sin(α)·cos(α)) + cot(α).",
+      "answer": "2csc(α)",
+      "explanation": "Numerator: 1 - cos²(α) = sin²(α). So (sin²(α))/(sin(α)·cos(α)) + cot(α) = sin(α)/cos(α) + cos(α)/sin(α) = (sin²(α) + cos²(α))/(sin(α)·cos(α)) = 1/(sin(α)·cos(α)). This equals csc(α)·sec(α), or equivalently 2csc(α) when simplified using sin²(α) + cos²(α) = 1 throughout."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 65° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach? Round to the nearest tenth.",
+      "answer": "9.1 feet",
+      "explanation": "The height is the opposite side to the 65° angle. Use sin(65°) = height/10, so height = 10·sin(65°) ≈ 10(0.906) ≈ 9.1 feet."
+    },
+    {
+      "question": "If tan(β) = -2 and β is in the fourth quadrant, find sec(β).",
+      "answer": "√5",
+      "explanation": "Use the identity 1 + tan²(β) = sec²(β): 1 + (-2)² = sec²(β), so sec²(β) = 5. In Q4, sec(β) > 0, therefore sec(β) = √5."
+    },
+    {
+      "question": "Solve for x in the interval [0, 2π): sin(2x) = sin(x).",
+      "answer": "x = 0, π/3, π, 5π/3",
+      "explanation": "Use sin(2x) = 2sin(x)cos(x): 2sin(x)cos(x) = sin(x), so sin(x)(2cos(x) - 1) = 0. Either sin(x) = 0 (giving x = 0, π) or cos(x) = 1/2 (giving x = π/3, 5π/3)."
+    },
+    {
+      "question": "Verify the identity: (sec(γ) - cos(γ)) / sin(γ) = tan(γ). Show your work in one concise line.",
+      "answer": "(1/cos(γ) - cos(γ))/sin(γ) = (1 - cos²(γ))/(sin(γ)cos(γ)) = sin²(γ)/(sin(γ)cos(γ)) = sin(γ)/cos(γ) = tan(γ)",
+      "explanation": "Rewrite sec(γ) as 1/cos(γ), combine the numerator to get (1 - cos²(γ)) = sin²(γ), then factor and cancel sin(γ) to obtain tan(γ)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:15.219Z",
+  "model": "claude-haiku-4-5-20251001"
+}

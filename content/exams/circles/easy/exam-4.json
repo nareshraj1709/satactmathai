@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-4",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A circle has radius 5. What is the circumference?",
+      "answer": "10π",
+      "explanation": "Circumference = 2πr = 2π(5) = 10π."
+    },
+    {
+      "question": "A circle with center (2, -3) passes through the point (5, 1). What is the radius?",
+      "answer": "5",
+      "explanation": "Use the distance formula: r = √[(5−2)² + (1−(−3))²] = √[9 + 16] = √25 = 5."
+    },
+    {
+      "question": "Write the equation of a circle with center (0, 0) and radius 3.",
+      "answer": "x² + y² = 9",
+      "explanation": "Standard form is (x − h)² + (y − k)² = r². Substituting h = 0, k = 0, r = 3 gives x² + y² = 9."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of 60°. What is the arc length?",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (60/360) × 2π(6) = (1/6) × 12π = 2π."
+    },
+    {
+      "question": "A circle has area 49π. What is its diameter?",
+      "answer": "14",
+      "explanation": "Area = πr², so 49π = πr². Thus r² = 49, giving r = 7. Diameter = 2r = 14."
+    },
+    {
+      "question": "A sector of a circle with radius 4 has area 4π. What is the central angle in degrees?",
+      "answer": "45",
+      "explanation": "Sector area = (θ/360°) × πr². So 4π = (θ/360) × π(16). Solving: θ = (4π × 360)/(16π) = 90/2 = 45°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:04:57.919Z",
+  "model": "claude-haiku-4-5-20251001"
+}

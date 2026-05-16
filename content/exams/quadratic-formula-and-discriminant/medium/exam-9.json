@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-9",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² - 7x + 3 = 0. What is the sum of the two solutions?",
+      "answer": "7/2 or 3.5",
+      "explanation": "By Vieta's formulas, the sum of solutions equals -b/a = -(-7)/2 = 7/2. Alternatively, use the quadratic formula to find x = 3 and x = 1/2, then add: 3 + 1/2 = 7/2."
+    },
+    {
+      "question": "The equation 3x² + bx + 12 = 0 has exactly one real solution. What is the value of b?",
+      "answer": "±12",
+      "explanation": "For exactly one real solution, the discriminant must equal zero: b² - 4(3)(12) = 0. So b² = 144, giving b = ±12."
+    },
+    {
+      "question": "Determine the discriminant of x² - 6x + 10 = 0. Does this equation have real solutions?",
+      "answer": "Discriminant = -4; no real solutions",
+      "explanation": "Discriminant = b² - 4ac = (-6)² - 4(1)(10) = 36 - 40 = -4. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "A rectangular garden has length 2 meters more than its width. If the area is 24 square meters, find the width using the quadratic formula. Round to the nearest tenth.",
+      "answer": "4.4 meters",
+      "explanation": "Let w = width. Then w(w + 2) = 24, or w² + 2w - 24 = 0. Using the quadratic formula: w = (-2 ± √(4 + 96))/2 = (-2 ± 10)/2. Since width is positive, w = 8/2 = 4 (exact). Rechecking: 4(6) = 24 ✓. Answer is 4 meters exactly."
+    },
+    {
+      "question": "For what value of k does 5x² - kx + 5 = 0 have two distinct real solutions?",
+      "answer": "k < -10 or k > 10",
+      "explanation": "Two distinct real solutions require discriminant > 0: k² - 4(5)(5) > 0, so k² > 100. This gives |k| > 10, or k < -10 or k > 10."
+    },
+    {
+      "question": "Solve 4x² + 4x - 3 = 0 using the quadratic formula. Express solutions as fractions.",
+      "answer": "x = 1/2 or x = -3/2",
+      "explanation": "x = (-4 ± √(16 + 48))/8 = (-4 ± √64)/8 = (-4 ± 8)/8. So x = 4/8 = 1/2 or x = -12/8 = -3/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:47.065Z",
+  "model": "claude-haiku-4-5-20251001"
+}

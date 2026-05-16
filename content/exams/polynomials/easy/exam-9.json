@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-easy-9",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Add the polynomials: (3x² + 2x + 1) + (x² - x + 4)",
+      "answer": "4x² + x + 5",
+      "explanation": "Combine like terms: 3x² + x² = 4x², 2x - x = x, 1 + 4 = 5. Result: 4x² + x + 5."
+    },
+    {
+      "question": "Multiply: 2x(x + 3)",
+      "answer": "2x² + 6x",
+      "explanation": "Distribute 2x to both terms: 2x · x = 2x², and 2x · 3 = 6x."
+    },
+    {
+      "question": "Find the zeros of the polynomial p(x) = x² - 5x + 6.",
+      "answer": "x = 2, x = 3",
+      "explanation": "Factor: x² - 5x + 6 = (x - 2)(x - 3). Set each factor to zero: x = 2 or x = 3."
+    },
+    {
+      "question": "Subtract: (5x² + 3x) - (2x² + x + 2)",
+      "answer": "3x² + 2x - 2",
+      "explanation": "Distribute the negative sign and combine like terms: 5x² - 2x² = 3x², 3x - x = 2x, 0 - 2 = -2."
+    },
+    {
+      "question": "Divide: (12x³ + 8x²) ÷ 4x",
+      "answer": "3x² + 2x",
+      "explanation": "Divide each term by 4x: 12x³ ÷ 4x = 3x² and 8x² ÷ 4x = 2x."
+    },
+    {
+      "question": "A rectangular garden has length (x + 4) and width (x - 2). Write a polynomial for its area.",
+      "answer": "x² + 2x - 8",
+      "explanation": "Area = length × width = (x + 4)(x - 2). Expand: x² - 2x + 4x - 8 = x² + 2x - 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:51:09.659Z",
+  "model": "claude-haiku-4-5-20251001"
+}

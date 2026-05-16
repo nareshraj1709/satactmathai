@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-4",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 2 < 11",
+      "answer": "x < 3",
+      "explanation": "Subtract 2 from both sides: 3x < 9. Divide by 3: x < 3. The inequality sign stays the same because we divided by a positive number."
+    },
+    {
+      "question": "Which of the following values of y satisfies y + 5 ≥ 12? List all that apply: 6, 7, 8, 9",
+      "answer": "8, 9",
+      "explanation": "Subtract 5 from both sides: y ≥ 7. Check each: 6 < 7 (no), 7 = 7 (yes, but not listed separately), 8 > 7 (yes), 9 > 7 (yes). Values 8 and 9 work."
+    },
+    {
+      "question": "Solve the inequality: 2x - 4 > 6",
+      "answer": "x > 5",
+      "explanation": "Add 4 to both sides: 2x > 10. Divide both sides by 2: x > 5."
+    },
+    {
+      "question": "On a number line, graph the solution to x ≤ 2. Should the circle at 2 be filled or unfilled?",
+      "answer": "filled",
+      "explanation": "The inequality x ≤ 2 includes the value 2 (because of the equal sign), so use a filled circle at 2 and shade left."
+    },
+    {
+      "question": "A video store charges $3 per rental. If you have $20 to spend, write an inequality for the maximum number of videos n you can rent.",
+      "answer": "3n ≤ 20",
+      "explanation": "Each video costs $3, so n videos cost 3n dollars. You can spend at most $20, so 3n ≤ 20."
+    },
+    {
+      "question": "Solve: -2x > 8",
+      "answer": "x < -4",
+      "explanation": "Divide both sides by -2. When dividing by a negative number, flip the inequality sign: x < -4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:24.994Z",
+  "model": "claude-haiku-4-5-20251001"
+}

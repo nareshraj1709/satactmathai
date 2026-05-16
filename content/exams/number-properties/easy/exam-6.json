@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-6",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors: 24 = {1, 2, 3, 4, 6, 8, 12, 24} and 36 = {1, 2, 3, 4, 6, 9, 12, 18, 36}. The largest common factor is 12."
+    },
+    {
+      "question": "Which of the following is a multiple of 7: 42, 45, or 50?",
+      "answer": "42",
+      "explanation": "Check divisibility: 42 ÷ 7 = 6 (yes), 45 ÷ 7 = 6.43... (no), 50 ÷ 7 = 7.14... (no). Only 42 is a multiple of 7."
+    },
+    {
+      "question": "Is 17 prime or composite?",
+      "answer": "prime",
+      "explanation": "A prime number has exactly two factors: 1 and itself. 17 is only divisible by 1 and 17, so it is prime."
+    },
+    {
+      "question": "Find the least common multiple (LCM) of 4 and 6.",
+      "answer": "12",
+      "explanation": "Multiples of 4: 4, 8, 12, 16... Multiples of 6: 6, 12, 18... The smallest number in both lists is 12."
+    },
+    {
+      "question": "A baker has 18 chocolate chips and 24 peanuts. She wants to divide them equally into bags with no leftovers, using the greatest number of bags possible. How many bags will she make?",
+      "answer": "6",
+      "explanation": "The maximum number of bags is the GCF of 18 and 24. GCF(18, 24) = 6, so she makes 6 bags."
+    },
+    {
+      "question": "What is the smallest prime number greater than 10?",
+      "answer": "11",
+      "explanation": "Check: 11 is divisible only by 1 and 11, so it is prime. 10 is not prime (2 × 5), and 12 is not prime (2 × 6)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:48.807Z",
+  "model": "claude-haiku-4-5-20251001"
+}

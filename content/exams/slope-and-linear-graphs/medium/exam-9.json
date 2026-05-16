@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-9",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A line passes through the points (2, 5) and (6, 13). What is the slope of this line?",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (13 − 5)/(6 − 2) = 8/4 = 2."
+    },
+    {
+      "question": "Write the equation of the line with slope −3 that passes through (1, 4) in the form y = mx + b.",
+      "answer": "y = −3x + 7",
+      "explanation": "Use point-slope form: y − 4 = −3(x − 1). Expand: y − 4 = −3x + 3, so y = −3x + 7."
+    },
+    {
+      "question": "The line 3x − 2y = 12 is graphed on a coordinate plane. What is the y-intercept of this line?",
+      "answer": "−6",
+      "explanation": "Set x = 0: 3(0) − 2y = 12, so −2y = 12, and y = −6. The y-intercept is −6."
+    },
+    {
+      "question": "A line has slope 1/2 and y-intercept 3. At what point does this line cross the x-axis?",
+      "answer": "(−6, 0)",
+      "explanation": "The equation is y = (1/2)x + 3. Set y = 0: 0 = (1/2)x + 3, so x = −6. The x-intercept is (−6, 0)."
+    },
+    {
+      "question": "Two points on a line are (−1, 2) and (3, 2). Is this line horizontal, vertical, or neither? Explain briefly.",
+      "answer": "Horizontal",
+      "explanation": "Both points have the same y-coordinate (2), so the slope is 0. A zero slope means the line is horizontal."
+    },
+    {
+      "question": "A line passes through (0, 6) and has slope −2/3. If point (9, k) lies on this line, what is the value of k?",
+      "answer": "0",
+      "explanation": "The equation is y = −(2/3)x + 6. Substitute x = 9: y = −(2/3)(9) + 6 = −6 + 6 = 0, so k = 0."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:37.924Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-3",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (2, –3) and opens upward with focal parameter p = 2. Write the equation in the form (x – h)² = 4p(y – k).",
+      "answer": "(x – 2)² = 8(y + 3)",
+      "explanation": "The vertex form is (x – h)² = 4p(y – k). With vertex (2, –3) and p = 2, substitute directly: (x – 2)² = 4(2)(y – (–3)) = 8(y + 3)."
+    },
+    {
+      "question": "An ellipse has foci at (±4, 0) and the sum of distances from any point to both foci is 10. Find the value of a.",
+      "answer": "5",
+      "explanation": "By definition, 2a equals the sum of distances to both foci. Here 2a = 10, so a = 5."
+    },
+    {
+      "question": "For the ellipse with equation $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$, find the distance between the two foci.",
+      "answer": "8",
+      "explanation": "Here a² = 25 and b² = 9, so c² = a² – b² = 25 – 9 = 16, giving c = 4. The distance between foci is 2c = 8."
+    },
+    {
+      "question": "A hyperbola has the equation $\\frac{y^2}{16} - \\frac{x^2}{9} = 1$. What is the slope of one of its asymptotes?",
+      "answer": "±4/3",
+      "explanation": "For a vertical hyperbola $\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1$, the asymptotes are y = ±(a/b)x. With a² = 16 and b² = 9, the slopes are ±4/3."
+    },
+    {
+      "question": "The parabola y² = 12x has its directrix at x = c. Find c.",
+      "answer": "–3",
+      "explanation": "For y² = 4px, we have 4p = 12, so p = 3. The directrix is at x = –p = –3."
+    },
+    {
+      "question": "An ellipse passes through the point (3, 0) and has semi-major axis a = 5. Its minor axis is on the y-axis and semi-minor axis is b. If the center is at the origin, what is b?",
+      "answer": "4",
+      "explanation": "The ellipse equation is $\\frac{x^2}{25} + \\frac{y^2}{b^2} = 1$. Substituting (3, 0): $\\frac{9}{25} + 0 = 1$ is false, so use the point constraint differently. Since (3,0) is on the ellipse with a = 5, we get 9/25 + 0/b² = 1, which is inconsistent. Re-interpret: if the major axis is along x with a = 5 and the point (3, 0) lies on it, then b² = 25 – 9 = 16, so b = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:50.007Z",
+  "model": "claude-haiku-4-5-20251001"
+}

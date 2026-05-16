@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-2",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "The graph of y = sin(x) has a maximum value at x = π/2. At what x-value does sin(x) reach its next maximum?",
+      "answer": "x = 5π/2",
+      "explanation": "The sine function has period 2π. The next maximum after π/2 occurs at π/2 + 2π = 5π/2."
+    },
+    {
+      "question": "In a triangle, angle A = 30°, side a = 5, and side b = 10. Use the Law of Sines to find sin(B).",
+      "answer": "sin(B) = 1",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B), so 5/sin(30°) = 10/sin(B). Since sin(30°) = 1/2, we get 10 = 10/sin(B), thus sin(B) = 1."
+    },
+    {
+      "question": "How many complete cycles does y = cos(2x) complete as x goes from 0 to 2π?",
+      "answer": "2",
+      "explanation": "The period of cos(2x) is 2π/2 = π. In the interval [0, 2π], a length of 2π fits exactly 2π/π = 2 complete periods."
+    },
+    {
+      "question": "A triangle has sides a = 3, b = 4, and angle C = 90°. Use the Law of Cosines to find side c.",
+      "answer": "c = 5",
+      "explanation": "By Law of Cosines: c² = a² + b² − 2ab·cos(C) = 9 + 16 − 2(3)(4)·cos(90°) = 25 − 0 = 25, so c = 5."
+    },
+    {
+      "question": "The graph of y = tan(x) has a vertical asymptote at x = π/2. Where is the next vertical asymptote to the right?",
+      "answer": "x = 3π/2",
+      "explanation": "The tangent function has period π. The next asymptote after π/2 is at π/2 + π = 3π/2."
+    },
+    {
+      "question": "In triangle ABC, angle A = 45°, angle B = 60°, and side a = 10. Use the Law of Sines to find side b (round to the nearest tenth if needed).",
+      "answer": "b = 10√6/√2 or approximately 12.2",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B), so 10/sin(45°) = b/sin(60°). This gives 10/(√2/2) = b/(√3/2), so b = 10√3/√2 = 5√6 ≈ 12.2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:20:40.376Z",
+  "model": "claude-haiku-4-5-20251001"
+}

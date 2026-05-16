@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-6",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Factor: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve: x² - 5x = 0",
+      "answer": "x = 0 or x = 5",
+      "explanation": "Factor out x: x(x - 5) = 0. Set each factor to zero: x = 0 or x - 5 = 0, giving x = 5."
+    },
+    {
+      "question": "Factor: x² - 9",
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: x² - 9 = x² - 3². Use the pattern a² - b² = (a - b)(a + b)."
+    },
+    {
+      "question": "Solve: x² + 6x + 8 = 0",
+      "answer": "x = -2 or x = -4",
+      "explanation": "Factor x² + 6x + 8 = (x + 2)(x + 4). Set each factor to zero: x = -2 or x = -4."
+    },
+    {
+      "question": "A rectangular garden has area 20 square meters. Its length is 1 meter more than its width. If w is the width, write the equation and solve for w.",
+      "answer": "w = 4",
+      "explanation": "Set up: w(w + 1) = 20, so w² + w - 20 = 0. Factor: (w + 5)(w - 4) = 0. Since width is positive, w = 4."
+    },
+    {
+      "question": "Factor: 2x² - 8",
+      "answer": "2(x - 2)(x + 2)",
+      "explanation": "Factor out the GCF of 2: 2(x² - 4). Then factor the difference of squares: 2(x - 2)(x + 2)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:26.543Z",
+  "model": "claude-haiku-4-5-20251001"
+}

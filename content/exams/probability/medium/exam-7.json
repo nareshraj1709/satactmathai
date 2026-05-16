@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-7",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is either red or green?",
+      "answer": "7/10",
+      "explanation": "Total marbles = 5 + 3 + 2 = 10. Red or green = 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "In a class of 120 students, 80 play soccer and 50 play basketball. If 30 students play both sports, how many students play neither sport?",
+      "answer": "20",
+      "explanation": "Using inclusion-exclusion: students playing at least one sport = 80 + 50 − 30 = 100. Students playing neither = 120 − 100 = 20."
+    },
+    {
+      "question": "A two-way table shows that 45 students take French, 60 take Spanish, and 20 take both. If there are 95 students total in the survey, what is the probability that a randomly selected student takes Spanish but not French?",
+      "answer": "40/95 or 8/19",
+      "explanation": "Students taking Spanish but not French = 60 − 20 = 40. Probability = 40/95 = 8/19."
+    },
+    {
+      "question": "A fair six-sided die is rolled twice. What is the probability that the sum of the two rolls is greater than 10?",
+      "answer": "3/36 or 1/12",
+      "explanation": "Sums > 10 are: (5,6), (6,5), (6,6). That's 3 outcomes out of 36 total. Probability = 3/36 = 1/12."
+    },
+    {
+      "question": "In a survey, 70% of respondents like coffee and 40% like tea. If 25% like both, what is the probability that a randomly selected respondent likes coffee given that they like tea?",
+      "answer": "0.625 or 5/8",
+      "explanation": "P(coffee | tea) = P(both) / P(tea) = 0.25 / 0.40 = 25/40 = 5/8 = 0.625."
+    },
+    {
+      "question": "A student has an 80% chance of passing a test on the first attempt. If they fail, they get one retake with a 90% chance of passing. What is the probability they pass the test either on the first or second attempt?",
+      "answer": "0.98",
+      "explanation": "P(pass on first) + P(fail first AND pass second) = 0.80 + (0.20)(0.90) = 0.80 + 0.18 = 0.98."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:21.308Z",
+  "model": "claude-haiku-4-5-20251001"
+}

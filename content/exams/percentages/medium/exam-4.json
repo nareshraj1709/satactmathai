@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-4",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A jacket originally priced at $80 is on sale for 25% off. After the discount, a 6% sales tax is applied. What is the final price?",
+      "answer": "$63.60",
+      "explanation": "After 25% off: $80 × 0.75 = $60. Then add 6% tax: $60 × 1.06 = $63.60."
+    },
+    {
+      "question": "A restaurant bill comes to $45 before tip. If you leave an 18% tip, what is the total amount you pay?",
+      "answer": "$53.10",
+      "explanation": "Tip = $45 × 0.18 = $8.10. Total = $45 + $8.10 = $53.10."
+    },
+    {
+      "question": "The population of a town increased from 12,000 to 15,600 over five years. What was the percent increase?",
+      "answer": "30%",
+      "explanation": "Increase = 15,600 − 12,000 = 3,600. Percent increase = (3,600 ÷ 12,000) × 100 = 30%."
+    },
+    {
+      "question": "A video game console costs $320. During a holiday sale, the price drops by 15%, then drops another 10% the next week. What is the final price?",
+      "answer": "$244.80",
+      "explanation": "After first discount: $320 × 0.85 = $272. After second discount: $272 × 0.90 = $244.80."
+    },
+    {
+      "question": "Membership fees at a gym increased by 12% this year. If the new fee is $224 per month, what was the fee last year?",
+      "answer": "$200",
+      "explanation": "Let x = old fee. Then x × 1.12 = $224, so x = $224 ÷ 1.12 = $200."
+    },
+    {
+      "question": "A store's revenue was $50,000 in January and $58,000 in February. What was the percent increase in revenue from January to February?",
+      "answer": "16%",
+      "explanation": "Increase = $58,000 − $50,000 = $8,000. Percent increase = ($8,000 ÷ $50,000) × 100 = 16%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:19.682Z",
+  "model": "claude-haiku-4-5-20251001"
+}

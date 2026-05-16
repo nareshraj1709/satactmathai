@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-medium-1",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Multiply the polynomials: (x + 3)(x² - 2x + 5). Express your answer in standard form.",
+      "answer": "x³ + x² - x + 15",
+      "explanation": "Distribute (x + 3) across each term: x(x² - 2x + 5) + 3(x² - 2x + 5) = x³ - 2x² + 5x + 3x² - 6x + 15. Combine like terms: x³ + x² - x + 15."
+    },
+    {
+      "question": "Find all real zeros of the polynomial f(x) = x³ - 4x. Factor completely first.",
+      "answer": "x = 0, x = 2, x = -2",
+      "explanation": "Factor: f(x) = x(x² - 4) = x(x - 2)(x + 2). Set each factor equal to zero to get x = 0, 2, -2."
+    },
+    {
+      "question": "Divide the polynomial 2x³ + 7x² - 3x - 10 by (x + 2). What is the remainder?",
+      "answer": "0",
+      "explanation": "Use synthetic division with x = -2, or substitute x = -2 into f(x): 2(-8) + 7(4) - 3(-2) - 10 = -16 + 28 + 6 - 10 = 0."
+    },
+    {
+      "question": "A rectangular box has dimensions (x + 1) by (x - 2) by x. If the volume is 72 cubic units, write the equation you would solve.",
+      "answer": "x(x + 1)(x - 2) = 72 or x³ - x² - 2x = 72 or x³ - x² - 2x - 72 = 0",
+      "explanation": "Volume = length × width × height. Expand (x)(x + 1)(x - 2) = x(x² - x - 2) = x³ - x² - 2x. Set equal to 72."
+    },
+    {
+      "question": "If (x - 3) is a factor of p(x) = x³ - 2x² - 5x + 6, find the other factor by performing polynomial division.",
+      "answer": "x² + x - 2 or (x + 2)(x - 1)",
+      "explanation": "Divide x³ - 2x² - 5x + 6 by (x - 3) using long division or synthetic division to get x² + x - 2. This factors further as (x + 2)(x - 1)."
+    },
+    {
+      "question": "Add the polynomials: (3x² - 5x + 2) + (4x² + 3x - 7). What is the coefficient of x in the result?",
+      "answer": "-2",
+      "explanation": "Combine like terms: (3x² + 4x²) + (-5x + 3x) + (2 - 7) = 7x² - 2x - 5. The coefficient of x is -2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:51:11.818Z",
+  "model": "claude-haiku-4-5-20251001"
+}

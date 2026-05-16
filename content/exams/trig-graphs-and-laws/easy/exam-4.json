@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-4",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "What is the amplitude of the function y = 3sin(x)?",
+      "answer": "3",
+      "explanation": "The amplitude of y = a·sin(x) is the absolute value of the coefficient a. Here, |3| = 3."
+    },
+    {
+      "question": "In triangle ABC, angle A = 50°, angle B = 70°, and side a = 10. Use the Law of Sines to find side b to the nearest whole number.",
+      "answer": "11",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B). So 10/sin(50°) = b/sin(70°). Therefore b = 10·sin(70°)/sin(50°) ≈ 10(0.94)/0.77 ≈ 11."
+    },
+    {
+      "question": "What is the period of the function y = cos(2x)?",
+      "answer": "π",
+      "explanation": "For y = cos(bx), the period is 2π/b. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, a = 5, b = 7, and angle C = 60°. Use the Law of Cosines to find side c.",
+      "answer": "√39 or approximately 6.24",
+      "explanation": "Law of Cosines: c² = a² + b² – 2ab·cos(C). So c² = 25 + 49 – 2(5)(7)cos(60°) = 74 – 70(0.5) = 39. Thus c = √39."
+    },
+    {
+      "question": "At what value of x in the interval [0, 2π] does y = sin(x) first reach its maximum?",
+      "answer": "π/2",
+      "explanation": "The sine function reaches its maximum value of 1 at x = π/2 within one complete period [0, 2π]."
+    },
+    {
+      "question": "In triangle PQR, angle P = 35°, angle Q = 85°, and side p = 8. Find angle R and then use the Law of Sines to find side q to the nearest whole number.",
+      "answer": "12",
+      "explanation": "Angle R = 180° – 35° – 85° = 60°. By Law of Sines: p/sin(P) = q/sin(Q), so 8/sin(35°) ≈ q/sin(85°). Thus q ≈ 8·sin(85°)/sin(35°) ≈ 8(0.996)/0.574 ≈ 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:25.102Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-10",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Simplify √48.",
+      "answer": "4√3",
+      "explanation": "Factor 48 = 16 × 3. Then √48 = √(16 × 3) = √16 · √3 = 4√3."
+    },
+    {
+      "question": "Solve for x: √x = 5.",
+      "answer": "x = 25",
+      "explanation": "Square both sides: (√x)² = 5². This gives x = 25."
+    },
+    {
+      "question": "Simplify (6/√2). Rationalize the denominator.",
+      "answer": "3√2",
+      "explanation": "Multiply by √2/√2: (6/√2) · (√2/√2) = 6√2/2 = 3√2."
+    },
+    {
+      "question": "Solve for x: (x/4) = 3/2.",
+      "answer": "x = 6",
+      "explanation": "Cross-multiply or multiply both sides by 4: x = 4 · (3/2) = 6."
+    },
+    {
+      "question": "Simplify √(25/16).",
+      "answer": "5/4",
+      "explanation": "√(25/16) = √25/√16 = 5/4."
+    },
+    {
+      "question": "Simplify 2√12 + √3.",
+      "answer": "5√3",
+      "explanation": "2√12 = 2√(4 × 3) = 2 · 2√3 = 4√3. Then 4√3 + √3 = 5√3."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:26:54.258Z",
+  "model": "claude-haiku-4-5-20251001"
+}

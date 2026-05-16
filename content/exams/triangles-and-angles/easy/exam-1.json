@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-1",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "The three angles of a triangle measure 50°, 60°, and x°. What is the value of x?",
+      "answer": "70",
+      "explanation": "The sum of angles in a triangle is 180°. So 50 + 60 + x = 180, which gives x = 70."
+    },
+    {
+      "question": "In a right triangle, one of the non-right angles measures 35°. What is the measure of the other non-right angle?",
+      "answer": "55",
+      "explanation": "A right triangle has one 90° angle. The other two angles must sum to 90°. So the missing angle is 90 − 35 = 55°."
+    },
+    {
+      "question": "An isosceles triangle has a vertex angle of 40°. What is the measure of each base angle?",
+      "answer": "70",
+      "explanation": "In an isosceles triangle, the two base angles are equal. They sum with the vertex angle to 180°: 40 + 2b = 180, so b = 70°."
+    },
+    {
+      "question": "Two angles of a triangle measure 48° and 67°. Is this triangle acute, right, or obtuse?",
+      "answer": "acute",
+      "explanation": "The third angle is 180 − 48 − 67 = 65°. All three angles (48°, 65°, 67°) are less than 90°, so the triangle is acute."
+    },
+    {
+      "question": "In triangle ABC, angle A = 25° and angle B = 90°. What is angle C?",
+      "answer": "65",
+      "explanation": "The sum of all angles is 180°. So 25 + 90 + C = 180, which gives C = 65°."
+    },
+    {
+      "question": "An equilateral triangle has all sides equal. What is the measure of each angle?",
+      "answer": "60",
+      "explanation": "All three angles in an equilateral triangle are equal and sum to 180°. Each angle measures 180 ÷ 3 = 60°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:05.296Z",
+  "model": "claude-haiku-4-5-20251001"
+}

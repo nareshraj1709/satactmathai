@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-9",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 7 cm and the hypotenuse is 12 cm. Find the sine of 35°.",
+      "answer": "7/12",
+      "explanation": "By SOH-CAH-TOA, sine = opposite/hypotenuse. Here sin(35°) = 7/12 ≈ 0.583."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 60° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach?",
+      "answer": "5√3 feet",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) × 10 = (√3/2) × 10 = 5√3 feet."
+    },
+    {
+      "question": "What is cos(0°)?",
+      "answer": "1",
+      "explanation": "On the unit circle, the angle 0° corresponds to the point (1, 0), so cos(0°) = 1."
+    },
+    {
+      "question": "In a right triangle, the side adjacent to a 40° angle is 8 meters. Use a calculator to find the hypotenuse.",
+      "answer": "10.45 meters",
+      "explanation": "By CAH: cos(40°) = adjacent/hypotenuse, so hypotenuse = 8/cos(40°) ≈ 8/0.766 ≈ 10.45."
+    },
+    {
+      "question": "Simplify: sin²(θ) + cos²(θ)",
+      "answer": "1",
+      "explanation": "This is the Pythagorean identity, one of the most fundamental trig identities. It equals 1 for all angles θ."
+    },
+    {
+      "question": "A surveyor stands 50 meters from a building and measures the angle of elevation to the roof as 35°. How tall is the building?",
+      "answer": "50 tan(35°) meters, or approximately 35 meters",
+      "explanation": "The height is opposite the angle; the distance is adjacent. Use tan(35°) = height/50, so height = 50 × tan(35°) ≈ 35 m."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:08.863Z",
+  "model": "claude-haiku-4-5-20251001"
+}

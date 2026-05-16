@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-hard-10",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve the system:\n3x + 2y = 7\n5x - 4y = 1\n\nFind x + y.",
+      "answer": "3",
+      "explanation": "Multiply the first equation by 2: 6x + 4y = 14. Add to the second: 11x = 15, so x = 15/11. Substitute into the first equation to get y = 18/11. Therefore x + y = 33/11 = 3."
+    },
+    {
+      "question": "A rectangle's length is 3 more than its width. If you increase both dimensions by 2, the new area is 50 square units more than the original. Find the original width.",
+      "answer": "6",
+      "explanation": "Let w = width; length = w + 3. Original area: w(w + 3). New area: (w + 2)(w + 5). Set up: (w + 2)(w + 5) = w(w + 3) + 50. Expand: w² + 7w + 10 = w² + 3w + 50. Simplify: 4w = 40, so w = 6."
+    },
+    {
+      "question": "The system 2x + ky = 6 and 4x + 8y = 12 has infinitely many solutions. Find k.",
+      "answer": "4",
+      "explanation": "For infinitely many solutions, the equations must be proportional. The second equation is 2 times the first, so 4x + 8y = 12 must equal 2(2x + ky). This gives 8y = 2ky, so k = 4."
+    },
+    {
+      "question": "Solve:\nx + y + z = 6\n2x - y + z = 3\nx + 2y - z = 5\n\nFind z.",
+      "answer": "1",
+      "explanation": "Subtract the first equation from the second: x - 2y = -3. Add the first and third equations: 2x + 3y = 11. Solve this 2×2 system: from x = 2y - 3, substitute to get 2(2y - 3) + 3y = 11 → 7y = 17 → y = 17/7. Then x = 11/7, and z = 6 - 11/7 - 17/7 = 1."
+    },
+    {
+      "question": "Two numbers differ by 8. When each is increased by 5, their product is 160. Find the larger number.",
+      "answer": "13",
+      "explanation": "Let the numbers be x and x + 8. After increasing by 5: (x + 5)(x + 13) = 160. Expand: x² + 18x + 65 = 160 → x² + 18x - 95 = 0. Factor: (x + 23)(x - 5) = 0. So x = 5 (reject x = -23). The larger number is 5 + 8 = 13."
+    },
+    {
+      "question": "A system of two linear equations has solution (2, -1). One equation is 3x - 2y = 8. Write the other equation in the form ax + by = c where a, b, c are integers with no common factor.",
+      "answer": "2x + y = 3 (or any scalar multiple such as 4x + 2y = 6 is acceptable if marked correctly)",
+      "explanation": "The solution (2, -1) must satisfy both equations. Substitute into ax + by = c: 2a - b = c. Choose simple integers; for example, a = 2, b = 1 gives c = 5 - 1 = 3. The equation 2x + y = 3 works. (Any non-zero scalar multiple also works.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:26:17.749Z",
+  "model": "claude-haiku-4-5-20251001"
+}

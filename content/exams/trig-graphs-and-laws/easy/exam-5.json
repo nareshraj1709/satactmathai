@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-5",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "What is the period of the function y = sin(2x)?",
+      "answer": "π",
+      "explanation": "For y = sin(bx), the period is 2π/b. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, angle A = 40°, angle B = 70°, and side a = 10. Using the Law of Sines, find the length of side b to the nearest tenth.",
+      "answer": "14.1",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B). So 10/sin(40°) = b/sin(70°). Solving: b = 10·sin(70°)/sin(40°) ≈ 10(0.9397)/(0.6428) ≈ 14.1."
+    },
+    {
+      "question": "What is the amplitude of y = 3cos(x) + 2?",
+      "answer": "3",
+      "explanation": "Amplitude is the absolute value of the coefficient in front of the trig function. Here that coefficient is 3. The +2 is a vertical shift, not part of amplitude."
+    },
+    {
+      "question": "In triangle PQR, p = 5, q = 7, and angle R = 60°. Using the Law of Cosines, find r.",
+      "answer": "√39 or approximately 6.2",
+      "explanation": "Law of Cosines: r² = p² + q² - 2pq·cos(R) = 25 + 49 - 2(5)(7)·cos(60°) = 74 - 70(0.5) = 74 - 35 = 39. So r = √39."
+    },
+    {
+      "question": "At what x-value does y = sin(x) reach its maximum on the interval [0, 2π]?",
+      "answer": "x = π/2",
+      "explanation": "The sine function reaches its maximum value of 1 at x = π/2 within one period [0, 2π]."
+    },
+    {
+      "question": "In triangle ABC, a = 8, b = 6, and c = 5. Find angle C using the Law of Cosines. Round to the nearest degree.",
+      "answer": "39°",
+      "explanation": "By Law of Cosines: c² = a² + b² - 2ab·cos(C). So 25 = 64 + 36 - 2(8)(6)·cos(C). Thus 25 = 100 - 96·cos(C), giving cos(C) = 75/96 ≈ 0.7813. Therefore C ≈ 39°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:26.261Z",
+  "model": "claude-haiku-4-5-20251001"
+}

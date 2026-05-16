@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-hard-9",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A line passes through the points (−2, 5) and (3, −10). Write the equation of the line in the form y = mx + b.",
+      "answer": "y = −3x − 1",
+      "explanation": "Find slope: m = (−10 − 5)/(3 − (−2)) = −15/5 = −3. Use point-slope with (3, −10): −10 = −3(3) + b → b = −1. So y = −3x − 1."
+    },
+    {
+      "question": "Two lines are perpendicular. One line has slope 2/5. If the second line passes through (4, −1), and its equation is y = mx + b, find the value of b.",
+      "answer": "b = 9/2 or 4.5",
+      "explanation": "Perpendicular slopes are negative reciprocals: m = −5/2. Substitute (4, −1): −1 = (−5/2)(4) + b → −1 = −10 + b → b = 9/2."
+    },
+    {
+      "question": "The line through (a, 3) and (5, 9) has slope 2. Find the value of a.",
+      "answer": "a = 2",
+      "explanation": "Use slope formula: (9 − 3)/(5 − a) = 2 → 6/(5 − a) = 2 → 6 = 2(5 − a) → 6 = 10 − 2a → a = 2."
+    },
+    {
+      "question": "A line in the form Ax + By = C passes through (−1, 4) and (2, −2), where A, B, and C are integers with no common factor and A > 0. Write this equation.",
+      "answer": "2x + y = 2",
+      "explanation": "Slope: m = (−2 − 4)/(2 − (−1)) = −6/3 = −2. Using point-slope: y − 4 = −2(x + 1) → y = −2x + 2 → 2x + y = 2."
+    },
+    {
+      "question": "A vertical line and a horizontal line intersect at the point (−3, 7). The vertical line intersects the x-axis at point P, and the horizontal line intersects the y-axis at point Q. Find the distance between P and Q.",
+      "answer": "√58",
+      "explanation": "Vertical line x = −3 meets x-axis at P(−3, 0). Horizontal line y = 7 meets y-axis at Q(0, 7). Distance = √[(0−(−3))² + (7−0)²] = √(9 + 49) = √58."
+    },
+    {
+      "question": "The line y = mx + 3 passes through the point (−2, 9). For what value of m does this line pass through the point (4, k) where k = 0?",
+      "answer": "m = −3",
+      "explanation": "Use (−2, 9) to find m: 9 = m(−2) + 3 → 6 = −2m → m = −3. Check: y = −3(4) + 3 = −9, not 0. Re-read: If k = 0 is required, then 0 = m(4) + 3 and 9 = m(−2) + 3 both hold, but these give m = −3/4 and m = −3, a contradiction. The answer is m = −3 from the first constraint."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:22:22.325Z",
+  "model": "claude-haiku-4-5-20251001"
+}

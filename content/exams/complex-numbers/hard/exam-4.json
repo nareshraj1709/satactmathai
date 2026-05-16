@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-hard-4",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Let z = 2 + 3i. Find z² and express your answer in the form a + bi.",
+      "answer": "-5 + 12i",
+      "explanation": "z² = (2 + 3i)² = 4 + 12i + 9i² = 4 + 12i − 9 = −5 + 12i."
+    },
+    {
+      "question": "Compute i^47 and express your answer as a single power of i or a real number.",
+      "answer": "-i",
+      "explanation": "Since powers of i repeat with period 4: i^47 = i^(44+3) = (i^4)^11 · i^3 = 1^11 · i^3 = i^3 = −i."
+    },
+    {
+      "question": "If (3 + 4i)(a + bi) = 7 + i for real numbers a and b, find a + b.",
+      "answer": "0",
+      "explanation": "Expand: 3a − 4b + (4a + 3b)i = 7 + i. Then 3a − 4b = 7 and 4a + 3b = 1. Solving: a = 1, b = −1, so a + b = 0."
+    },
+    {
+      "question": "Let z = 1 + i. Find 1/z and express your answer in the form a + bi.",
+      "answer": "1/2 - 1/2 i",
+      "explanation": "Multiply numerator and denominator by the conjugate: 1/(1+i) · (1−i)/(1−i) = (1−i)/(1−i²) = (1−i)/2."
+    },
+    {
+      "question": "If |z| = 5 and z = 3 + bi where b is real and positive, find b.",
+      "answer": "4",
+      "explanation": "|z|² = 3² + b² = 25, so b² = 16. Since b > 0, b = 4."
+    },
+    {
+      "question": "Compute (1 + i)^4 and express your answer as a single real number or in the form a + bi.",
+      "answer": "-4",
+      "explanation": "(1 + i)² = 1 + 2i + i² = 2i. Then (2i)² = 4i² = −4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:02.349Z",
+  "model": "claude-haiku-4-5-20251001"
+}

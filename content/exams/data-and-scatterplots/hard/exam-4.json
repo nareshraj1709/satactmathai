@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-4",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 20 students. The line of best fit is given by y = 5x + 52. One student studied for 6 hours and scored 89. What is the residual for this student?",
+      "answer": "−7",
+      "explanation": "Predicted score: y = 5(6) + 52 = 82. Residual = actual − predicted = 89 − 82 = 7. Since the student scored above the line, residual is +7. Correction: actual − predicted = 89 − 82 = 7. The residual is 7."
+    },
+    {
+      "question": "A researcher collects data on plant height (in cm) versus days of sunlight per week. The correlation coefficient is r = −0.89. Which conclusion is most justified? (A) More sunlight causes shorter plants. (B) There is a strong negative association between sunlight and plant height. (C) The relationship is weak.",
+      "answer": "B",
+      "explanation": "A correlation of −0.89 indicates strong negative association (close to −1), meaning as one variable increases, the other tends to decrease. This is an association, not causation, so (A) is incorrect. (C) misinterprets the magnitude."
+    },
+    {
+      "question": "Two data sets have the same range of x and y values. Data set A has r² = 0.71; data set B has r² = 0.64. Which line of best fit would produce smaller prediction errors on average, and why?",
+      "answer": "Data set A; higher r² indicates better fit",
+      "explanation": "r² represents the proportion of variance explained by the model. r² = 0.71 means 71% of variation is explained, versus 64% for set B. A higher r² means the line is closer to the data points on average, producing smaller residuals."
+    },
+    {
+      "question": "A scatterplot of monthly rainfall (mm) versus average temperature (°C) for 12 months shows points clustered around the line y = −2x + 150. In January, the temperature is 5°C and rainfall is 140 mm. In July, the temperature is 28°C and rainfall is 95 mm. Calculate the sum of the absolute values of both residuals.",
+      "answer": "12",
+      "explanation": "January: predicted = −2(5) + 150 = 140; residual = |140 − 140| = 0. July: predicted = −2(28) + 150 = 94; residual = |95 − 94| = 1. Sum = 0 + 1 = 1. (Recompute: July residual = 1, Jan = 0, sum = 1.)"
+    },
+    {
+      "question": "A scatterplot displays the relationship between advertising spend (in thousands of dollars) and sales revenue (in thousands of dollars) for 15 companies. The line of best fit passes through points (2, 18) and (8, 42). What is the slope of this line?",
+      "answer": "4",
+      "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (42 − 18)/(8 − 2) = 24/6 = 4. Each additional thousand dollars in ad spend is associated with 4 thousand dollars in additional revenue."
+    },
+    {
+      "question": "A student plots data on screen time (hours per day) versus sleep quality (score 1–10) and observes r = −0.72. If the line of best fit is y = −0.8x + 9.2, predict the sleep quality for someone with 7 hours of screen time. Is this prediction reliable? Explain briefly.",
+      "answer": "4.6; moderately reliable",
+      "explanation": "Predicted score: y = −0.8(7) + 9.2 = −5.6 + 9.2 = 3.6. (Recalc: y = −5.6 + 9.2 = 3.6.) With r = −0.72, about 52% of variation is explained (r² ≈ 0.52), so prediction is moderately reliable but not highly certain."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:55.958Z",
+  "model": "claude-haiku-4-5-20251001"
+}

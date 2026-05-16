@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-7",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 5 students. The points are (1, 60), (2, 70), (3, 75), (4, 85), and (5, 90). What is the y-value when x = 3?",
+      "answer": "75",
+      "explanation": "Find the point where x = 3 on the scatterplot. The corresponding y-value is 75, which represents the test score for the student who studied 3 hours."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = 2x + 5. Use this equation to predict the y-value when x = 4.",
+      "answer": "13",
+      "explanation": "Substitute x = 4 into y = 2x + 5: y = 2(4) + 5 = 8 + 5 = 13."
+    },
+    {
+      "question": "A scatterplot compares temperature (°F) on the x-axis and ice cream sales on the y-axis. As temperature increases, what trend do you expect to see in ice cream sales?",
+      "answer": "Positive correlation (ice cream sales increase)",
+      "explanation": "Warmer temperatures typically lead to increased ice cream sales, so the points should trend upward from left to right, showing a positive relationship."
+    },
+    {
+      "question": "The line of best fit for a relationship is y = −3x + 20. What is the y-intercept?",
+      "answer": "20",
+      "explanation": "The y-intercept is the value of y when x = 0. In the equation y = −3x + 20, the constant term 20 is the y-intercept."
+    },
+    {
+      "question": "A scatterplot shows points at (0, 10), (1, 15), (2, 20), and (3, 25). Does this data show a positive or negative correlation?",
+      "answer": "Positive correlation",
+      "explanation": "As x increases, y increases consistently. The points form an upward trend from left to right, indicating a positive correlation."
+    },
+    {
+      "question": "A line of best fit passes through the points (2, 8) and (6, 16). What is the slope of this line?",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (16 − 8)/(6 − 2) = 8/4 = 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:19.910Z",
+  "model": "claude-haiku-4-5-20251001"
+}

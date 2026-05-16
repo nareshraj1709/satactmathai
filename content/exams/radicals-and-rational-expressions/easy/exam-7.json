@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-7",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{48}$.",
+      "answer": "$4\\sqrt{3}$",
+      "explanation": "Factor 48 as $16 \\cdot 3$. Then $\\sqrt{48} = \\sqrt{16 \\cdot 3} = \\sqrt{16} \\cdot \\sqrt{3} = 4\\sqrt{3}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x} = 5$.",
+      "answer": "$x = 25$",
+      "explanation": "Square both sides: $(\\sqrt{x})^2 = 5^2$, so $x = 25$."
+    },
+    {
+      "question": "Simplify $\\frac{6}{\\sqrt{2}}$ by rationalizing the denominator.",
+      "answer": "$3\\sqrt{2}$",
+      "explanation": "Multiply numerator and denominator by $\\sqrt{2}$: $\\frac{6\\sqrt{2}}{2} = 3\\sqrt{2}$."
+    },
+    {
+      "question": "Simplify $\\frac{x^2 - 4}{x - 2}$ for $x \\neq 2$.",
+      "answer": "$x + 2$",
+      "explanation": "Factor the numerator: $\\frac{(x-2)(x+2)}{x-2} = x + 2$ after canceling $(x-2)$."
+    },
+    {
+      "question": "A square has area 36 square meters. What is the length of one side?",
+      "answer": "6 meters",
+      "explanation": "If area = 36, then side length = $\\sqrt{36} = 6$ meters."
+    },
+    {
+      "question": "Simplify $\\frac{1}{2\\sqrt{3}}$ by rationalizing the denominator.",
+      "answer": "$\\frac{\\sqrt{3}}{6}$",
+      "explanation": "Multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$: $\\frac{\\sqrt{3}}{2 \\cdot 3} = \\frac{\\sqrt{3}}{6}$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:57:28.738Z",
+  "model": "claude-haiku-4-5-20251001"
+}

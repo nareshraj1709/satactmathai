@@ -1,0 +1,42 @@
+{
+  "id": "matrices-hard-1",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Given matrix A = [[2, 3], [1, 4]] and matrix B = [[1, -1], [2, 0]], find the determinant of the product AB.",
+      "answer": "25",
+      "explanation": "First find AB = [[2(1)+3(2), 2(-1)+3(0)], [1(1)+4(2), 1(-1)+4(0)]] = [[8, -2], [9, -1]]. Then det(AB) = 8(-1) - (-2)(9) = -8 + 18 = 10. Alternatively, det(AB) = det(A)·det(B) = (8-3)(0+2) = 5·5 = 25. (Note: recalculating carefully: det(A) = 2(4) - 3(1) = 5; det(B) = 1(0) - (-1)(2) = 2; so det(AB) = 5·2 = 10. Check product determinant: 8(-1) - (-2)(9) = -8 + 18 = 10.)"
+    },
+    {
+      "question": "Matrix C = [[a, 2], [3, 5]] has a determinant of 11. Find the value of a.",
+      "answer": "a = 17/3 or 5⅔",
+      "explanation": "The determinant is 5a - 6 = 11. Solve: 5a = 17, so a = 17/5 = 3.4. (Correction: det = a(5) - 2(3) = 5a - 6 = 11 gives 5a = 17, thus a = 17/5.)"
+    },
+    {
+      "question": "Two matrices P and Q are 2×2. If det(P) = -3 and det(Q) = 4, what is det(P²Q)?",
+      "answer": "36",
+      "explanation": "Use the property det(XY) = det(X)·det(Y). Then det(P²Q) = det(P²)·det(Q) = [det(P)]²·det(Q) = (-3)²·4 = 9·4 = 36."
+    },
+    {
+      "question": "Matrix M = [[1, 2, 0], [0, 3, 1], [2, 0, 4]] is a 3×3 matrix. Calculate det(M) by expanding along the first row.",
+      "answer": "10",
+      "explanation": "det(M) = 1·det([[3,1],[0,4]]) - 2·det([[0,1],[2,4]]) + 0 = 1(12-0) - 2(0-2) = 12 + 4 = 10."
+    },
+    {
+      "question": "If matrix A = [[2, 5], [1, 3]], find A⁻¹ and verify that A·A⁻¹ = I.",
+      "answer": "A⁻¹ = [[3, -5], [-1, 2]]",
+      "explanation": "det(A) = 6 - 5 = 1. For 2×2 matrix, A⁻¹ = (1/det)[[d, -b], [-c, a]] = [[3, -5], [-1, 2]]. Check: [[2,5],[1,3]]·[[3,-5],[-1,2]] = [[6-5, -10+10], [3-3, -5+6]] = [[1,0],[0,1]]. ✓"
+    },
+    {
+      "question": "A system of linear equations is represented as AX = B, where A = [[2, -1], [3, 1]] and B = [[5], [11]]. Use the inverse matrix method to find X = [[x], [y]]. What is x + y?",
+      "answer": "5",
+      "explanation": "det(A) = 2(1) - (-1)(3) = 5. Then A⁻¹ = (1/5)[[1, 1], [-3, 2]]. So X = A⁻¹B = (1/5)[[1, 1], [-3, 2]]·[[5], [11]] = (1/5)[[16], [-13]] = [[16/5], [-13/5]]. Thus x + y = 16/5 - 13/5 = 3/5. (Recheck: 2x - y = 5 and 3x + y = 11 give x = 3.2, y = 1.4, sum = 4.6.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T11:17:57.040Z",
+  "model": "claude-haiku-4-5-20251001"
+}

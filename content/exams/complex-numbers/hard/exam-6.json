@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-hard-6",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "If z = (3 - 4i)/(1 + 2i), express z in the form a + bi where a and b are real numbers.",
+      "answer": "-1 - 2i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: (3 - 4i)(1 - 2i) / (1 + 2i)(1 - 2i) = (3 - 6i - 4i + 8i²) / (1 - 4i²) = (3 - 10i - 8) / 5 = (-5 - 10i) / 5 = -1 - 2i."
+    },
+    {
+      "question": "Evaluate i^47.",
+      "answer": "-i",
+      "explanation": "Powers of i cycle with period 4: i¹ = i, i² = -1, i³ = -i, i⁴ = 1. Since 47 = 4(11) + 3, we have i^47 = i³ = -i."
+    },
+    {
+      "question": "If (a + bi)² = 5 - 12i, find the values of a and b, where a > 0.",
+      "answer": "a = 3, b = -2",
+      "explanation": "Expand (a + bi)² = a² - b² + 2abi = 5 - 12i. Then a² - b² = 5 and 2ab = -12, so ab = -6. From ab = -6, b = -6/a. Substitute: a² - 36/a² = 5, so a⁴ - 5a² - 36 = 0. Let u = a²: u² - 5u - 36 = 0, giving (u - 9)(u + 4) = 0, so a² = 9 (since a² > 0), thus a = 3 and b = -2."
+    },
+    {
+      "question": "If z₁ = 2 + i and z₂ = 1 - 3i, compute |z₁ · z₂|.",
+      "answer": "5√2",
+      "explanation": "Use |z₁ · z₂| = |z₁| · |z₂|. |z₁| = √(4 + 1) = √5 and |z₂| = √(1 + 9) = √10. Therefore |z₁ · z₂| = √5 · √10 = √50 = 5√2."
+    },
+    {
+      "question": "Find the sum of all complex numbers z such that z⁴ = 1.",
+      "answer": "0",
+      "explanation": "The solutions to z⁴ = 1 are the fourth roots of unity: z = 1, -1, i, -i. Their sum is 1 + (-1) + i + (-i) = 0. Alternatively, these are roots of z⁴ - 1 = 0; by Vieta's formulas, the sum of roots equals the negative of the coefficient of z³ divided by the leading coefficient, which is 0."
+    },
+    {
+      "question": "If z = 3e^(iπ/4), express z in the form a + bi where a and b are real numbers.",
+      "answer": "3√2/2 + 3√2i/2",
+      "explanation": "Using Euler's formula, z = 3(cos(π/4) + i·sin(π/4)) = 3(√2/2 + i·√2/2) = 3√2/2 + 3√2i/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:03.624Z",
+  "model": "claude-haiku-4-5-20251001"
+}

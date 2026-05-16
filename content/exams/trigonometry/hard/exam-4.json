@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-4",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "If sin(θ) = 3/5 and θ is in the second quadrant, find the exact value of tan(θ).",
+      "answer": "-3/4",
+      "explanation": "In quadrant II, sin(θ) > 0 and cos(θ) < 0. Use sin²(θ) + cos²(θ) = 1: cos²(θ) = 1 − 9/25 = 16/25, so cos(θ) = −4/5. Then tan(θ) = sin(θ)/cos(θ) = (3/5)/(−4/5) = −3/4."
+    },
+    {
+      "question": "Prove that sin(2α) · csc(α) = 2cos(α). Show your work.",
+      "answer": "sin(2α) · csc(α) = 2sin(α)cos(α) · (1/sin(α)) = 2cos(α)",
+      "explanation": "Expand sin(2α) using the double-angle formula: sin(2α) = 2sin(α)cos(α). Multiply by csc(α) = 1/sin(α), and the sin(α) terms cancel, leaving 2cos(α)."
+    },
+    {
+      "question": "A ladder leans against a wall, making an angle of 65° with the ground. The ladder is 12 feet long. How far is the base of the ladder from the wall, to the nearest tenth of a foot?",
+      "answer": "5.1",
+      "explanation": "The base distance is the adjacent side to the 65° angle. Use cos(65°) = base/12, so base = 12·cos(65°) ≈ 12(0.4226) ≈ 5.1 feet."
+    },
+    {
+      "question": "If tan(β) = 5/12 and β is acute, find sin(2β).",
+      "answer": "120/169",
+      "explanation": "From tan(β) = 5/12, construct a right triangle: opposite = 5, adjacent = 12, hypotenuse = 13. Then sin(β) = 5/13 and cos(β) = 12/13. Use sin(2β) = 2sin(β)cos(β) = 2(5/13)(12/13) = 120/169."
+    },
+    {
+      "question": "Solve cos(2x) = sin(x) for x ∈ [0, 2π). Give all solutions.",
+      "answer": "x = π/6, 5π/6, 3π/2",
+      "explanation": "Rewrite using cos(2x) = 1 − 2sin²(x): 1 − 2sin²(x) = sin(x) → 2sin²(x) + sin(x) − 1 = 0. Factor: (2sin(x) − 1)(sin(x) + 1) = 0. This gives sin(x) = 1/2 or sin(x) = −1, yielding x = π/6, 5π/6, 3π/2."
+    },
+    {
+      "question": "A point on the unit circle corresponds to an angle of 7π/6. Find the coordinates (x, y) of this point.",
+      "answer": "(-√3/2, -1/2)",
+      "explanation": "The angle 7π/6 is in the third quadrant (between π and 3π/2). It is π/6 below the negative x-axis, so x = −cos(π/6) = −√3/2 and y = −sin(π/6) = −1/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:14.085Z",
+  "model": "claude-haiku-4-5-20251001"
+}

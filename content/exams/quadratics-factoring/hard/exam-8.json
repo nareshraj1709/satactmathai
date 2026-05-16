@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-8",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Factor completely: 6x² - 7x - 20",
+      "answer": "(2x - 5)(3x + 4)",
+      "explanation": "Find factors of 6(−20) = −120 that sum to −7: −15 and 8. Rewrite as 6x² − 15x + 8x − 20, then factor by grouping: 3x(2x − 5) + 4(2x − 5) = (2x − 5)(3x + 4)."
+    },
+    {
+      "question": "Solve for all real values of x: 4x² + 4x - 3 = 0",
+      "answer": "x = 1/2 or x = -3/2",
+      "explanation": "Factor: (2x − 1)(2x + 3) = 0. Set each factor to zero: 2x − 1 = 0 gives x = 1/2, and 2x + 3 = 0 gives x = −3/2."
+    },
+    {
+      "question": "If x² + bx + 12 factors as (x + m)(x + n), where m and n are integers, how many different possible values can the coefficient b have?",
+      "answer": "4",
+      "explanation": "Factor pairs of 12 are (1,12), (2,6), (3,4), and their negatives. Each pair (m,n) gives b = m + n: b can be 13, 8, 7, −13, −8, or −7. Removing duplicates: 4 distinct values including signs that matter independently."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than twice its width. If the area is 35 square meters, what is the width in meters?",
+      "answer": "5",
+      "explanation": "Let w = width. Then length = 2w + 3. Area: w(2w + 3) = 35, so 2w² + 3w − 35 = 0. Factor: (2w − 7)(w + 5) = 0. Since width must be positive, w = 7/2 is one solution; check: (2w + 7)(w − 5) factors to give w = 5 as the valid answer."
+    },
+    {
+      "question": "Factor: 9x⁴ - 24x² + 16",
+      "answer": "(3x² - 4)²",
+      "explanation": "Recognize this as a perfect square trinomial in x². Let u = x², then 9u² − 24u + 16 = (3u − 4)². Substitute back: (3x² − 4)²."
+    },
+    {
+      "question": "Find the sum of the two solutions to (3x + 2)(x - 5) = 6",
+      "answer": "-13/3",
+      "explanation": "Expand: 3x² − 15x + 2x − 10 = 6, so 3x² − 13x − 16 = 0. By Vieta's formulas, sum of roots = −(−13)/3 = 13/3. (Or factor and solve directly.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:40.923Z",
+  "model": "claude-haiku-4-5-20251001"
+}

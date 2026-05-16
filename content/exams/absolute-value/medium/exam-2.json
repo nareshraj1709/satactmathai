@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-medium-2",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for x: |x − 5| = 12",
+      "answer": "x = 17 or x = −7",
+      "explanation": "Split into two cases: x − 5 = 12 gives x = 17, and x − 5 = −12 gives x = −7. Check both in the original equation."
+    },
+    {
+      "question": "Solve the inequality: |2x + 3| < 7",
+      "answer": "−5 < x < 2",
+      "explanation": "Write −7 < 2x + 3 < 7. Subtract 3: −10 < 2x < 4. Divide by 2: −5 < x < 2."
+    },
+    {
+      "question": "A delivery driver is 8 miles away from the warehouse. She drives toward or away from it, and her distance from the warehouse is |8 − 2t|, where t is time in hours. For how many hours is she less than 2 miles from the warehouse?",
+      "answer": "3 < t < 5",
+      "explanation": "Set up |8 − 2t| < 2. This gives −2 < 8 − 2t < 2. From 8 − 2t < 2: t > 3. From 8 − 2t > −2: t < 5. So 3 < t < 5."
+    },
+    {
+      "question": "Solve for x: |x + 4| = |x − 2|",
+      "answer": "x = −1",
+      "explanation": "When two absolute values are equal, either the expressions inside are equal or they're opposites. Case 1: x + 4 = x − 2 has no solution. Case 2: x + 4 = −(x − 2) gives 2x = −2, so x = −1."
+    },
+    {
+      "question": "Solve the inequality: |3x − 6| ≥ 9",
+      "answer": "x ≤ −1 or x ≥ 5",
+      "explanation": "Split into 3x − 6 ≥ 9 or 3x − 6 ≤ −9. From the first: 3x ≥ 15, so x ≥ 5. From the second: 3x ≤ −3, so x ≤ −1."
+    },
+    {
+      "question": "For what value of c does the equation |x − 3| = c have exactly one solution?",
+      "answer": "c = 0",
+      "explanation": "An absolute value equation |x − a| = c has exactly one solution only when c = 0, because that forces x − 3 = 0, giving x = 3. For any c > 0, there are two solutions."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:31.256Z",
+  "model": "claude-haiku-4-5-20251001"
+}

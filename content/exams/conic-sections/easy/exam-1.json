@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-1",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (0, 0) and focus at (0, 3). Write the equation of the parabola in the form y = ax².",
+      "answer": "y = (1/12)x²",
+      "explanation": "For a parabola with vertex at origin and vertical axis, the distance from vertex to focus is p = 3. The equation is y = x²/(4p) = x²/12."
+    },
+    {
+      "question": "An ellipse has semi-major axis a = 5 and semi-minor axis b = 3, centered at the origin with the major axis along the x-axis. What is the value of c, the distance from center to focus?",
+      "answer": "4",
+      "explanation": "For an ellipse, c² = a² − b² = 25 − 9 = 16, so c = 4."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 − y²/9 = 1. What is the distance between its two vertices?",
+      "answer": "8",
+      "explanation": "The vertices are at (±a, 0) where a² = 16, so a = 4. The distance between the vertices is 2a = 8."
+    },
+    {
+      "question": "A parabola opens upward with vertex at (2, 1) and passes through the point (3, 5). Find the value of the leading coefficient a in the form y = a(x − 2)² + 1.",
+      "answer": "4",
+      "explanation": "Substitute (3, 5) into y = a(x − 2)² + 1: 5 = a(3 − 2)² + 1 → 5 = a + 1 → a = 4."
+    },
+    {
+      "question": "An ellipse has the equation (x − 1)²/25 + (y + 2)²/16 = 1. What are the coordinates of the center?",
+      "answer": "(1, −2)",
+      "explanation": "The standard form (x − h)²/a² + (y − k)²/b² = 1 has center at (h, k). Here h = 1 and k = −2."
+    },
+    {
+      "question": "A hyperbola centered at the origin has vertices at (±7, 0) and foci at (±9, 0). Which form matches this hyperbola?",
+      "answer": "x²/49 − y²/32 = 1",
+      "explanation": "From vertices, a = 7 so a² = 49. From foci, c = 9, so c² = 81. Then b² = c² − a² = 81 − 49 = 32."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:23:31.269Z",
+  "model": "claude-haiku-4-5-20251001"
+}

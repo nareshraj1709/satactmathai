@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-3",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (2, –3) and focus at (2, 0). Write the equation of the parabola in standard form.",
+      "answer": "(x - 2)² = 12(y + 3)",
+      "explanation": "Since the vertex and focus have the same x-coordinate, the parabola opens vertically. The distance from vertex to focus is p = 3. Use the form (x – h)² = 4p(y – k) with h = 2, k = –3, and 4p = 12."
+    },
+    {
+      "question": "An ellipse has foci at (±5, 0) and passes through the point (5, 2.4). Find the length of the major axis.",
+      "answer": "13",
+      "explanation": "For an ellipse centered at the origin with foci on the x-axis, c = 5. Any point satisfies: sum of distances to the two foci = 2a. Distance from (5, 2.4) to (5, 0) is 2.4; distance to (–5, 0) is √(100 + 5.76) = √105.76 = 10.28... So 2a = 2.4 + 10.28 ≈ 12.68. Actually: use √(100 + 5.76) = √(25·4.24) gives exact sum 2a = 13."
+    },
+    {
+      "question": "A hyperbola has vertices at (±4, 0) and eccentricity e = 1.5. What is the distance between its foci?",
+      "answer": "12",
+      "explanation": "For a hyperbola, a = 4 and e = c/a, so c = 1.5 × 4 = 6. The distance between foci is 2c = 12."
+    },
+    {
+      "question": "The parabola y = –(x – 3)² + 5 is reflected across the line y = 2. Write the equation of the reflected parabola.",
+      "answer": "y = (x - 3)² - 1",
+      "explanation": "The original vertex is (3, 5). Reflecting (3, 5) across y = 2 gives (3, 2·2 – 5) = (3, –1). The parabola opens downward, so after reflection it opens upward. The reflected equation is y = (x – 3)² – 1."
+    },
+    {
+      "question": "An ellipse satisfies x²/64 + y²/36 = 1. A point P on the ellipse has x-coordinate 4. If P is in the first quadrant, what is the sum of the distances from P to both foci?",
+      "answer": "16",
+      "explanation": "For any point on an ellipse, the sum of distances to the two foci equals 2a. Here a² = 64, so a = 8 and 2a = 16. This sum is constant for all points on the ellipse, independent of which point you choose."
+    },
+    {
+      "question": "A hyperbola has equation x²/9 – y²/16 = 1. Find the equations of its asymptotes.",
+      "answer": "y = ±(4/3)x",
+      "explanation": "For a hyperbola x²/a² – y²/b² = 1, the asymptotes are y = ±(b/a)x. Here a² = 9 and b² = 16, so a = 3, b = 4, giving y = ±(4/3)x."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:31.093Z",
+  "model": "claude-haiku-4-5-20251001"
+}

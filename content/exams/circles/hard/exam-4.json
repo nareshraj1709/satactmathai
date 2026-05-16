@@ -1,0 +1,42 @@
+{
+  "id": "circles-hard-4",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A circle has center (3, −2) and passes through the point (7, 1). Write the equation of the circle in standard form.",
+      "answer": "(x − 3)² + (y + 2)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(7−3)² + (1−(−2))²] = √[16 + 9] = √25 = 5. The standard form is (x − h)² + (y − k)² = r², so (x − 3)² + (y + 2)² = 25."
+    },
+    {
+      "question": "A tangent line to the circle x² + y² = 13 has slope 2. Find the y-intercept of one such tangent line.",
+      "answer": "y = 2x ± √65 or b = ±√65",
+      "explanation": "A line y = 2x + b is tangent to x² + y² = 13 when the distance from center (0,0) to the line equals the radius √13. Distance = |b|/√5. Set |b|/√5 = √13, so |b| = √65. The tangent lines are y = 2x + √65 and y = 2x − √65."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of 2π/3 radians. Find the area of the sector.",
+      "answer": "12π",
+      "explanation": "Sector area = (1/2)r²θ = (1/2)(6²)(2π/3) = (1/2)(36)(2π/3) = 12π."
+    },
+    {
+      "question": "The circle (x − 1)² + (y − 4)² = 32 intersects the line y = x + 2. How many points of intersection are there?",
+      "answer": "2",
+      "explanation": "Substitute y = x + 2 into the circle equation: (x − 1)² + (x + 2 − 4)² = 32 simplifies to (x − 1)² + (x − 2)² = 32, or 2x² − 6x + 5 = 32, giving 2x² − 6x − 27 = 0. The discriminant is 36 + 216 = 252 > 0, so there are 2 distinct real solutions and thus 2 intersection points."
+    },
+    {
+      "question": "An arc on a circle with radius 9 has arc length 3π. Find the measure of the central angle in radians.",
+      "answer": "π/3",
+      "explanation": "Arc length s = rθ, where θ is in radians. So 3π = 9θ, giving θ = 3π/9 = π/3 radians."
+    },
+    {
+      "question": "A circle passes through the points (0, 0), (8, 0), and (0, 6). Find the radius of the circle.",
+      "answer": "5",
+      "explanation": "The center of a circle through (0,0), (8,0), and (0,6) is equidistant from all three. By symmetry, the center lies on the perpendicular bisectors. The center is (4, 3). Radius = √(4² + 3²) = √(16 + 9) = √25 = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:07:10.898Z",
+  "model": "claude-haiku-4-5-20251001"
+}

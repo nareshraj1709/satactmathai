@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-1",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Factor completely: $x^2 + 7x + 12$",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: that's 3 and 4. So $x^2 + 7x + 12 = (x + 3)(x + 4)$."
+    },
+    {
+      "question": "Solve for $x$: $2x^2 - 8x = 0$",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out the greatest common factor: $2x(x - 4) = 0$. Set each factor to zero: $2x = 0$ gives $x = 0$, and $x - 4 = 0$ gives $x = 4$."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than its width. If the area is 40 square meters, what is the width?",
+      "answer": "5 meters",
+      "explanation": "Let $w$ be the width. Then $w(w + 3) = 40$, so $w^2 + 3w - 40 = 0$. Factor: $(w + 8)(w - 5) = 0$. Since width is positive, $w = 5$."
+    },
+    {
+      "question": "Factor: $3x^2 - 12$",
+      "answer": "3(x + 2)(x - 2)",
+      "explanation": "First factor out 3: $3(x^2 - 4)$. Recognize $x^2 - 4$ as a difference of squares: $(x + 2)(x - 2)$. Final answer: $3(x + 2)(x - 2)$."
+    },
+    {
+      "question": "Solve: $x^2 - 5x + 6 = 0$",
+      "answer": "x = 2 or x = 3",
+      "explanation": "Factor by finding two numbers that multiply to 6 and add to −5: that's −2 and −3. So $(x - 2)(x - 3) = 0$, giving $x = 2$ or $x = 3$."
+    },
+    {
+      "question": "Factor completely: $2x^2 + 11x + 5$",
+      "answer": "(2x + 1)(x + 5)",
+      "explanation": "Find factors of $2 \\times 5 = 10$ that add to 11: that's 1 and 10. Rewrite: $2x^2 + x + 10x + 5 = x(2x + 1) + 5(2x + 1) = (2x + 1)(x + 5)$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:28.493Z",
+  "model": "claude-haiku-4-5-20251001"
+}

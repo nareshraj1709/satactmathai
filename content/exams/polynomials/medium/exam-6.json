@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-medium-6",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Divide the polynomial 2x³ + 5x² − 8x − 12 by x + 2 using synthetic division or long division. What is the quotient?",
+      "answer": "2x² + x − 10",
+      "explanation": "Using synthetic division with x = −2: bring down 2, multiply and add successively: 2, then 5 + 2(−2) = 1, then −8 + 1(−2) = −10, then −12 + (−10)(−2) = 8 (remainder). The quotient is 2x² + x − 10."
+    },
+    {
+      "question": "If p(x) = x² − 3x + 2, find all values of x for which p(x) = 0.",
+      "answer": "x = 1, x = 2",
+      "explanation": "Factor: x² − 3x + 2 = (x − 1)(x − 2). Set each factor to zero: x − 1 = 0 gives x = 1, and x − 2 = 0 gives x = 2."
+    },
+    {
+      "question": "Multiply (x − 3)(x² + 3x + 9) and simplify. What is the resulting polynomial?",
+      "answer": "x³ − 27",
+      "explanation": "This is the difference of cubes pattern: (a − b)(a² + ab + b²) = a³ − b³. With a = x and b = 3, we get x³ − 27. Or expand: x(x² + 3x + 9) − 3(x² + 3x + 9) = x³ + 3x² + 9x − 3x² − 9x − 27 = x³ − 27."
+    },
+    {
+      "question": "A rectangular garden has length x + 5 and width x − 2. Express the area as a polynomial in standard form.",
+      "answer": "x² + 3x − 10",
+      "explanation": "Area = (x + 5)(x − 2). Use FOIL: x² − 2x + 5x − 10 = x² + 3x − 10."
+    },
+    {
+      "question": "Given the polynomial f(x) = x³ − 6x² + 11x − 6, use the Rational Root Theorem to identify one zero, then find all three zeros.",
+      "answer": "x = 1, x = 2, x = 3",
+      "explanation": "Possible rational roots are ±1, ±2, ±3, ±6. Testing x = 1: f(1) = 1 − 6 + 11 − 6 = 0 ✓. Factor out (x − 1) to get (x − 1)(x² − 5x + 6) = (x − 1)(x − 2)(x − 3). Zeros are x = 1, 2, 3."
+    },
+    {
+      "question": "Divide 3x⁴ − 2x³ + 5x − 7 by x − 1. What is the remainder?",
+      "answer": "−1",
+      "explanation": "By the Remainder Theorem, the remainder when dividing p(x) by (x − 1) is p(1). Calculate: p(1) = 3(1) − 2(1) + 5(1) − 7 = 3 − 2 + 5 − 7 = −1."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:51:16.328Z",
+  "model": "claude-haiku-4-5-20251001"
+}

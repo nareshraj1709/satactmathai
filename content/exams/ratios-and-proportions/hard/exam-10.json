@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-10",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A recipe calls for flour, sugar, and butter in the ratio 5:3:2. If you use 120 grams of flour, how many grams of butter do you need?",
+      "answer": "48",
+      "explanation": "The ratio 5:3:2 means flour is 5 parts. If 5 parts = 120 g, then 1 part = 24 g. Butter is 2 parts, so 2 × 24 = 48 g."
+    },
+    {
+      "question": "Two machines produce widgets in the ratio 7:5. Together they produce 360 widgets per hour. How many widgets per hour does the faster machine produce?",
+      "answer": "210",
+      "explanation": "Let the machines produce 7k and 5k widgets. Then 7k + 5k = 360, so 12k = 360 and k = 30. The faster machine produces 7 × 30 = 210."
+    },
+    {
+      "question": "A map uses a scale of 1 inch to 50 miles. Two cities are 4.5 inches apart on the map. What is the actual distance between them in miles?",
+      "answer": "225",
+      "explanation": "Set up the proportion: 1 inch / 50 miles = 4.5 inches / x miles. Cross-multiply: x = 4.5 × 50 = 225 miles."
+    },
+    {
+      "question": "The ratio of adults to children at an event is 4:7. If there are 132 more children than adults, how many adults are present?",
+      "answer": "48",
+      "explanation": "Let adults = 4k and children = 7k. Then 7k − 4k = 132, so 3k = 132 and k = 44. Adults = 4 × 44 = 48."
+    },
+    {
+      "question": "If a, b, and c are in the ratio 2:5:8 and a + b + c = 90, find the value of c − a.",
+      "answer": "36",
+      "explanation": "Let a = 2k, b = 5k, c = 8k. Then 2k + 5k + 8k = 90, so 15k = 90 and k = 6. Thus c − a = 8(6) − 2(6) = 48 − 12 = 36."
+    },
+    {
+      "question": "A mixture contains salt and water in the ratio 1:19. If 4 liters of salt are added to the mixture, the ratio becomes 1:9. How many liters of water were in the original mixture?",
+      "answer": "76",
+      "explanation": "Let original salt = k and water = 19k. After adding 4 liters of salt: (k + 4)/(19k) = 1/9. Cross-multiply: 9(k + 4) = 19k, so 9k + 36 = 19k, giving k = 3.6. Original water = 19 × 4 = 76 liters."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:14.358Z",
+  "model": "claude-haiku-4-5-20251001"
+}

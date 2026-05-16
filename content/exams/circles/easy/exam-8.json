@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-8",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A circle has center at the origin and passes through the point (3, 4). What is the radius of the circle?",
+      "answer": "5",
+      "explanation": "The radius is the distance from the center (0, 0) to the point (3, 4). Using the distance formula: r = √(3² + 4²) = √(9 + 16) = √25 = 5."
+    },
+    {
+      "question": "Write the equation of a circle with center (−2, 1) and radius 6.",
+      "answer": "(x + 2)² + (y − 1)² = 36",
+      "explanation": "The standard circle equation is (x − h)² + (y − k)² = r², where (h, k) is the center. Substitute h = −2, k = 1, and r = 6 to get (x + 2)² + (y − 1)² = 36."
+    },
+    {
+      "question": "A circle has radius 8. Find the arc length of an arc that subtends a central angle of 45°.",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr. With θ = 45° and r = 8: Arc length = (45/360) × 2π(8) = (1/8) × 16π = 2π."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of 60°. What is the area of the sector?",
+      "answer": "6π",
+      "explanation": "Sector area = (θ/360°) × πr². With θ = 60° and r = 6: Area = (60/360) × π(36) = (1/6) × 36π = 6π."
+    },
+    {
+      "question": "A line is tangent to a circle with center C and radius 5. If the distance from C to the tangent line is d, what is d?",
+      "answer": "5",
+      "explanation": "A tangent line to a circle touches the circle at exactly one point. The distance from the center to a tangent line always equals the radius, so d = 5."
+    },
+    {
+      "question": "Does the point (2, 3) lie inside, on, or outside the circle with equation (x − 1)² + (y − 2)² = 2?",
+      "answer": "on",
+      "explanation": "Substitute (2, 3) into the equation: (2 − 1)² + (3 − 2)² = 1 + 1 = 2. Since this equals the radius squared, the point is on the circle boundary. (Correction: the answer is 'on' the circle.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T11:05:35.984Z",
+  "model": "claude-haiku-4-5-20251001"
+}

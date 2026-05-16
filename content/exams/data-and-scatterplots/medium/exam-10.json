@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-10",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study hours (x) and test scores (y) for 8 students. The points are approximately (1, 58), (2, 62), (3, 70), (4, 75), (5, 80), (6, 85), (7, 88), (8, 92). Use a line of best fit to estimate the test score for a student who studies 5.5 hours.",
+      "answer": "83",
+      "explanation": "The trend is roughly linear with slope ≈ (92 − 58)/(8 − 1) = 34/7 ≈ 4.9 per hour. Using y ≈ 58 + 4.9(5.5 − 1) ≈ 58 + 22 ≈ 80, or by visual interpolation between (5, 80) and (6, 85), the estimate is approximately 82–83."
+    },
+    {
+      "question": "The correlation coefficient between two variables is r = −0.92. Does this indicate a strong or weak relationship, and is the relationship positive or negative?",
+      "answer": "Strong, negative",
+      "explanation": "A correlation near −1 or +1 indicates a strong relationship. Since r = −0.92 is close to −1, the relationship is strong. The negative sign means as one variable increases, the other tends to decrease."
+    },
+    {
+      "question": "A line of best fit for a dataset is given by ŷ = 2x + 5. If a data point at x = 3 has an actual y-value of 10, what is the residual for this point?",
+      "answer": "1",
+      "explanation": "The predicted value is ŷ = 2(3) + 5 = 11. The residual is observed − predicted = 10 − 11 = −1. So the residual is −1 (or the point is 1 unit below the line)."
+    },
+    {
+      "question": "A scatterplot shows the relationship between monthly rainfall (in inches) and plant height (in cm) for 50 plants. The data shows a clear positive trend. Explain why it would be inappropriate to conclude that rainfall causes plant height to increase.",
+      "answer": "Correlation does not imply causation; other variables (temperature, sunlight, soil quality) may influence both.",
+      "explanation": "A positive correlation between rainfall and plant height does not prove rainfall causes height. Both variables may be influenced by confounding factors such as climate or growing season, making causation indeterminate from the scatterplot alone."
+    },
+    {
+      "question": "A scatterplot with 15 points has a line of best fit: ŷ = 3x − 2. The sum of the squared residuals is 48. What is the mean squared residual?",
+      "answer": "3.2 or 16/5",
+      "explanation": "Mean squared residual = (sum of squared residuals) / (number of points) = 48 / 15 = 3.2."
+    },
+    {
+      "question": "Two variables have a correlation coefficient of r = 0.05. Based on this, should you use a linear model to predict one variable from the other? Briefly explain.",
+      "answer": "No; the correlation is very weak, so a linear model would have poor predictive power.",
+      "explanation": "r = 0.05 is very close to 0, indicating almost no linear relationship. A linear model would not explain meaningful variation in the data and predictions would be unreliable."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:00.482Z",
+  "model": "claude-haiku-4-5-20251001"
+}

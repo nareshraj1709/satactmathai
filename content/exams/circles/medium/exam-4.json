@@ -1,0 +1,42 @@
+{
+  "id": "circles-medium-4",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A circle has center (3, −2) and passes through the point (7, 1). Write the equation of the circle in standard form.",
+      "answer": "(x − 3)² + (y + 2)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(7−3)² + (1−(−2))²] = √[16 + 9] = 5. The standard form is (x − h)² + (y − k)² = r², so (x − 3)² + (y + 2)² = 25."
+    },
+    {
+      "question": "A sector of a circle with radius 6 cm has a central angle of 60°. What is the arc length in centimeters? (Leave your answer in terms of π.)",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (60/360) × 2π(6) = (1/6) × 12π = 2π."
+    },
+    {
+      "question": "The equation x² + y² − 8x + 6y + 9 = 0 represents a circle. Find its center and radius.",
+      "answer": "Center: (4, −3); Radius: 4",
+      "explanation": "Complete the square: (x² − 8x + 16) + (y² + 6y + 9) + 9 − 16 − 9 = 0 gives (x − 4)² + (y + 3)² = 16. Center is (4, −3) and radius is 4."
+    },
+    {
+      "question": "A line is tangent to a circle with center O(0, 0) and radius 5 at the point P(3, 4). Is the point Q(6, 9) inside, on, or outside the circle?",
+      "answer": "Outside",
+      "explanation": "Check the distance from Q to center O: d = √(6² + 9²) = √(36 + 81) = √117 ≈ 10.8. Since 10.8 > 5, point Q is outside the circle."
+    },
+    {
+      "question": "A sector with radius 8 and arc length 4π has what central angle in degrees?",
+      "answer": "90",
+      "explanation": "Arc length = (θ/360°) × 2πr, so 4π = (θ/360) × 2π(8) = (θ/360) × 16π. Solving: θ = (4π × 360)/(16π) = 90°."
+    },
+    {
+      "question": "The area of a sector is 12π square units and the radius is 6. What is the central angle in degrees?",
+      "answer": "120",
+      "explanation": "Sector area = (θ/360°) × πr², so 12π = (θ/360) × π(36). Solving: 12 = 36θ/360, thus θ = (12 × 360)/36 = 120°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:05:37.817Z",
+  "model": "claude-haiku-4-5-20251001"
+}

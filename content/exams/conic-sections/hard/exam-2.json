@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-2",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (2, −3) and focus at (2, 1). Write the equation of the parabola in standard form.",
+      "answer": "(x − 2)² = 16(y + 3)",
+      "explanation": "The vertex and focus have the same x-coordinate, so the axis is vertical. Distance from vertex to focus is p = 4, so 4p = 16. Standard form for vertical parabola: (x − h)² = 4p(y − k)."
+    },
+    {
+      "question": "An ellipse has foci at (−5, 0) and (5, 0), and the sum of distances from any point on the ellipse to the two foci is 26. Find the equation of the ellipse.",
+      "answer": "x²/169 + y²/144 = 1",
+      "explanation": "2a = 26, so a = 13. Distance between foci is 2c = 10, so c = 5. Then b² = a² − c² = 169 − 25 = 144. Standard form: x²/a² + y²/b² = 1."
+    },
+    {
+      "question": "A hyperbola has vertices at (0, ±6) and foci at (0, ±10). Which conic equation matches this hyperbola?",
+      "answer": "y²/36 − x²/64 = 1",
+      "explanation": "Vertical transverse axis (y-term positive). a = 6, c = 10, so b² = c² − a² = 100 − 36 = 64. Standard form: y²/a² − x²/b² = 1."
+    },
+    {
+      "question": "A parabola has equation y² = −12x. What are the coordinates of its focus and the equation of its directrix?",
+      "answer": "Focus: (−3, 0); Directrix: x = 3",
+      "explanation": "Compare y² = −12x to y² = 4px: 4p = −12, so p = −3. Focus is at (p, 0) = (−3, 0) and directrix is the vertical line x = −p = 3."
+    },
+    {
+      "question": "An ellipse has equation (x − 1)²/25 + (y + 2)²/9 = 1. A point P lies on the ellipse. If the distance from P to the left focus is 8, what is the distance from P to the right focus?",
+      "answer": "2",
+      "explanation": "a² = 25, b² = 9, so c² = 25 − 9 = 16, giving c = 4. Foci are at (1 ± 4, −2). By definition, sum of distances from P to both foci equals 2a = 10. If d₁ = 8, then d₂ = 10 − 8 = 2."
+    },
+    {
+      "question": "A hyperbola has center at the origin, a vertical transverse axis, and asymptotes y = ±(3/2)x. If one vertex is at (0, 4), find the equation of the hyperbola.",
+      "answer": "y²/16 − x²/64/9 = 1 or y²/16 − 9x²/64 = 1",
+      "explanation": "Vertical hyperbola: y²/a² − x²/b² = 1. Vertex at (0, 4) gives a = 4. Asymptote slope b/a = 3/2, so b = 6. Equation: y²/16 − x²/36 = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:31.092Z",
+  "model": "claude-haiku-4-5-20251001"
+}

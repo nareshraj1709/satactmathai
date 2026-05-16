@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-4",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve: x² + 5x + 6 = 0",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using x = (-b ± √(b² - 4ac)) / 2a with a=1, b=5, c=6: x = (-5 ± √(25-24)) / 2 = (-5 ± 1) / 2. This gives x = -2 and x = -3."
+    },
+    {
+      "question": "Find the discriminant of 2x² - 3x + 1 = 0. How many real solutions does this equation have?",
+      "answer": "Discriminant = 1; two real solutions",
+      "explanation": "The discriminant is b² - 4ac = (-3)² - 4(2)(1) = 9 - 8 = 1. Since the discriminant is positive, there are two distinct real solutions."
+    },
+    {
+      "question": "For the equation x² + 4x + 4 = 0, what does the discriminant tell you about the number of solutions?",
+      "answer": "One real solution (a repeated root)",
+      "explanation": "The discriminant is b² - 4ac = 16 - 16 = 0. When the discriminant equals zero, the equation has exactly one real solution (or a repeated root)."
+    },
+    {
+      "question": "Solve using the quadratic formula: x² - 7x + 12 = 0",
+      "answer": "x = 3 or x = 4",
+      "explanation": "Using x = (7 ± √(49-48)) / 2 = (7 ± √1) / 2 = (7 ± 1) / 2. This gives x = 4 and x = 3."
+    },
+    {
+      "question": "The discriminant of a quadratic equation is -5. What does this tell you about its solutions?",
+      "answer": "No real solutions (two complex solutions)",
+      "explanation": "A negative discriminant means the equation has no real solutions; instead, it has two complex conjugate solutions."
+    },
+    {
+      "question": "A projectile's height is given by h = -16t² + 32t + 5. Use the discriminant of -16t² + 32t + 5 = 0 to determine if the projectile ever reaches the ground (h = 0).",
+      "answer": "Yes, discriminant = 1216 > 0; two real solutions",
+      "explanation": "The discriminant is b² - 4ac = 32² - 4(-16)(5) = 1024 + 320 = 1344 > 0. Since it's positive, the projectile does reach the ground at two different times."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:31.529Z",
+  "model": "claude-haiku-4-5-20251001"
+}

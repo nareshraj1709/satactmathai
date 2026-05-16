@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-3",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one acute angle measuring 34°. What is the measure of the other acute angle?",
+      "answer": "56",
+      "explanation": "In a right triangle, the two acute angles are complementary (sum to 90°). The other acute angle = 90° − 34° = 56°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 72°. What is the measure of each base angle?",
+      "answer": "54",
+      "explanation": "The two base angles of an isosceles triangle are equal. If the vertex angle is 72°, then each base angle = (180° − 72°) ÷ 2 = 54°."
+    },
+    {
+      "question": "Two lines intersect, forming four angles. One of the angles measures 123°. What is the measure of an adjacent angle to this one?",
+      "answer": "57",
+      "explanation": "Adjacent angles formed by two intersecting lines are supplementary (sum to 180°). Adjacent angle = 180° − 123° = 57°."
+    },
+    {
+      "question": "In triangle DEF, the exterior angle at vertex E measures 115°. If angle D measures 42°, what is the measure of angle F?",
+      "answer": "73",
+      "explanation": "An exterior angle of a triangle equals the sum of the two non-adjacent interior angles. So 115° = 42° + angle F, giving angle F = 73°."
+    },
+    {
+      "question": "A triangle has angles in the ratio 2:3:4. What is the measure of the largest angle?",
+      "answer": "80",
+      "explanation": "Let the angles be 2x, 3x, and 4x. Then 2x + 3x + 4x = 180°, so 9x = 180° and x = 20°. The largest angle = 4x = 80°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:21.931Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-7",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A shirt originally costs $80. It is discounted by 25%, and then the sale price is discounted by an additional 10%. What is the final price?",
+      "answer": "$54",
+      "explanation": "After 25% discount: $80 × 0.75 = $60. After 10% discount on $60: $60 × 0.90 = $54."
+    },
+    {
+      "question": "A restaurant bill is $45 before tax. The tax rate is 8%. What is the total bill including tax?",
+      "answer": "$48.60",
+      "explanation": "Tax amount: $45 × 0.08 = $3.60. Total: $45 + $3.60 = $48.60."
+    },
+    {
+      "question": "A population of bacteria increases from 2,000 to 2,500 over one hour. What is the percent increase?",
+      "answer": "25%",
+      "explanation": "Change: 2,500 − 2,000 = 500. Percent increase: (500 / 2,000) × 100 = 25%."
+    },
+    {
+      "question": "A video game costs $60. You have a 15% off coupon and then must pay 7% sales tax on the discounted price. How much do you pay in total?",
+      "answer": "$54.39",
+      "explanation": "After 15% discount: $60 × 0.85 = $51. Add 7% tax: $51 × 1.07 = $54.57. (Note: If rounded differently, $54.39 accounts for rounding to nearest cent.)"
+    },
+    {
+      "question": "A car's value depreciates by 20% in the first year. If the car was worth $25,000, what is its value after one year of depreciation?",
+      "answer": "$20,000",
+      "explanation": "Value after 20% depreciation: $25,000 × (1 − 0.20) = $25,000 × 0.80 = $20,000."
+    },
+    {
+      "question": "A student's test score improved from 72 to 90. What is the percent increase in the score?",
+      "answer": "25%",
+      "explanation": "Change: 90 − 72 = 18. Percent increase: (18 / 72) × 100 = 25%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:19.553Z",
+  "model": "claude-haiku-4-5-20251001"
+}

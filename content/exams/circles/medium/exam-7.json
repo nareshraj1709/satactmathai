@@ -1,0 +1,42 @@
+{
+  "id": "circles-medium-7",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A circle has center (3, –2) and passes through the point (7, 1). Write the equation of the circle.",
+      "answer": "(x - 3)² + (y + 2)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(7−3)² + (1−(−2))²] = √[16 + 9] = 5. The standard form is (x − h)² + (y − k)² = r², where (h, k) = (3, −2) and r = 5."
+    },
+    {
+      "question": "An arc of a circle with radius 8 subtends a central angle of 45°. What is the arc length?",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (45/360) × 2π(8) = (1/8) × 16π = 2π."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has an area of 6π. What is the central angle in degrees?",
+      "answer": "60",
+      "explanation": "Sector area = (θ/360°) × πr². So 6π = (θ/360) × π(36). Simplify: 6π = (θ/360) × 36π. Divide by π: 6 = 36θ/360. Solve: θ = 60°."
+    },
+    {
+      "question": "The circle x² + y² − 6x + 4y − 12 = 0 has what center and radius?",
+      "answer": "Center (3, −2), radius 5",
+      "explanation": "Complete the square: (x² − 6x + 9) + (y² + 4y + 4) − 12 − 9 − 4 = 0 → (x − 3)² + (y + 2)² = 25. Center is (3, −2) and radius is √25 = 5."
+    },
+    {
+      "question": "A line is tangent to a circle with center (0, 0) and radius 3 at the point (3, 0). Is the point (4, 1) on the tangent line? Justify briefly.",
+      "answer": "No",
+      "explanation": "The tangent line at (3, 0) is perpendicular to the radius (which is horizontal), so the tangent is vertical: x = 3. The point (4, 1) does not satisfy x = 3."
+    },
+    {
+      "question": "Two concentric circles have radii 4 and 7. What is the area of the region between them?",
+      "answer": "33π",
+      "explanation": "The area between concentric circles is the difference of their areas: π(7²) − π(4²) = 49π − 16π = 33π."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:06:12.284Z",
+  "model": "claude-haiku-4-5-20251001"
+}

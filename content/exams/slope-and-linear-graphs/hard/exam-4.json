@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-hard-4",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A line passes through the points (2, -3) and (5, 9). What is the slope of the line?",
+      "answer": "4",
+      "explanation": "Use the slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (9 - (-3))/(5 - 2) = 12/3 = 4."
+    },
+    {
+      "question": "A line has slope -2/3 and passes through (6, 4). Write the equation in the form y = mx + b.",
+      "answer": "y = -2/3 x + 8",
+      "explanation": "Substitute into y = mx + b: 4 = (-2/3)(6) + b → 4 = -4 + b → b = 8. So y = -2/3 x + 8."
+    },
+    {
+      "question": "Two lines are perpendicular. The first line has slope 5/4. What is the slope of the second line?",
+      "answer": "-4/5",
+      "explanation": "Perpendicular lines have slopes that are negative reciprocals. If m₁ = 5/4, then m₂ = -4/5."
+    },
+    {
+      "question": "A line passes through (-1, 7) and (3, -1). Another line passes through (0, 2) and has the same slope as the first line. What is the y-intercept of the second line?",
+      "answer": "2",
+      "explanation": "Slope of first line: m = (-1 - 7)/(3 - (-1)) = -8/4 = -2. Second line: y = -2x + b. Since it passes through (0, 2): 2 = -2(0) + b → b = 2."
+    },
+    {
+      "question": "A line passes through (4, -2) and has slope m. If the line also passes through (1, 10), what is m?",
+      "answer": "-4",
+      "explanation": "Use slope formula with any two points: m = (10 - (-2))/(1 - 4) = 12/(-3) = -4."
+    },
+    {
+      "question": "The line 3x - 2y = 12 is rewritten in slope-intercept form. What is the slope?",
+      "answer": "3/2",
+      "explanation": "Solve for y: -2y = -3x + 12 → y = (3/2)x - 6. The slope (coefficient of x) is 3/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:22:20.626Z",
+  "model": "claude-haiku-4-5-20251001"
+}

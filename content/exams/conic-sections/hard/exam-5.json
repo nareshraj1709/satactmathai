@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-5",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (3, -2) and passes through the point (5, 6). If the parabola opens upward and has the form y = a(x - h)² + k, what is the value of a?",
+      "answer": "2",
+      "explanation": "Substitute vertex (h, k) = (3, -2) into vertex form: y = a(x - 3)² - 2. Plug in point (5, 6): 6 = a(5 - 3)² - 2 → 6 = 4a - 2 → a = 2."
+    },
+    {
+      "question": "An ellipse has the equation (x - 1)²/25 + (y + 3)²/9 = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The semi-major axis a = √25 = 5 (along x-axis since 25 > 9). Major axis length = 2a = 10."
+    },
+    {
+      "question": "For the hyperbola x²/16 - y²/20 = 1, find the distance between the two foci.",
+      "answer": "12",
+      "explanation": "For a hyperbola x²/a² - y²/b² = 1, c² = a² + b² = 16 + 20 = 36, so c = 6. Distance between foci = 2c = 12."
+    },
+    {
+      "question": "A parabola with focus at (0, 4) and directrix y = -4 has its vertex at the origin. Write the equation in the form y = ax². What is a?",
+      "answer": "1/16",
+      "explanation": "For a parabola y = ax², the vertex is at origin, focus at (0, p), and directrix at y = -p. Here p = 4, and a = 1/(4p) = 1/16."
+    },
+    {
+      "question": "An ellipse centered at the origin has foci at (±3, 0) and a major axis of length 10. Find b², the square of the semi-minor axis.",
+      "answer": "16",
+      "explanation": "Semi-major axis a = 5, distance to focus c = 3. Use c² = a² - b² → 9 = 25 - b² → b² = 16."
+    },
+    {
+      "question": "A hyperbola has the equation 9x² - 4y² = 36. What are the coordinates of the two vertices?",
+      "answer": "(±2, 0)",
+      "explanation": "Rewrite in standard form: x²/4 - y²/9 = 1. For this hyperbola, a² = 4, so a = 2. Vertices are at (±a, 0) = (±2, 0)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:29.560Z",
+  "model": "claude-haiku-4-5-20251001"
+}

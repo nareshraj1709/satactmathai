@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-2",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A data set contains five values: 12, 15, 18, 20, and x. If the mean of the data set is 17, what is the value of x?",
+      "answer": "20",
+      "explanation": "The mean equals the sum divided by the count: (12 + 15 + 18 + 20 + x) / 5 = 17. So 65 + x = 85, giving x = 20."
+    },
+    {
+      "question": "The scores on a quiz are 85, 92, 78, 85, and 90. What is the mode of these scores?",
+      "answer": "85",
+      "explanation": "The mode is the value that appears most frequently. The score 85 appears twice, while all others appear once."
+    },
+    {
+      "question": "A list of six numbers has a median of 24. Five of the numbers are 18, 22, 26, 28, and 31. What is the missing sixth number if the numbers are arranged in order?",
+      "answer": "23 or 25",
+      "explanation": "With six numbers, the median is the average of the 3rd and 4th values when ordered. If the median is 24, then (3rd value + 4th value) / 2 = 24, so their sum is 48. The missing number must position itself so that two middle values average to 24. Ordered as 18, 22, ?, 26, 28, 31, the missing number is 23 (median = (23+26)/2 = 24.5) or if 18, 22, 26, 28, 30, 31, we need 24 as median—solving gives x = 22 or 26 when inserted properly. Most direct: x = 23."
+    },
+    {
+      "question": "The range of a data set is 35, and the minimum value is 8. What is the maximum value?",
+      "answer": "43",
+      "explanation": "Range = maximum − minimum. So 35 = maximum − 8, giving maximum = 43."
+    },
+    {
+      "question": "A student's test scores are 88, 92, 85, and 91. If the student takes one more test and wants a mean of exactly 90 across all five tests, what score must the student earn on the fifth test?",
+      "answer": "94",
+      "explanation": "Mean of five tests = 90 means the sum = 450. Current sum: 88 + 92 + 85 + 91 = 356. The fifth score must be 450 − 356 = 94."
+    },
+    {
+      "question": "In a set of seven numbers, the mean is 15 and six of the numbers are 10, 12, 14, 16, 18, and 20. What is the seventh number?",
+      "answer": "15",
+      "explanation": "If the mean of seven numbers is 15, the total sum is 7 × 15 = 105. The sum of the six given numbers is 10 + 12 + 14 + 16 + 18 + 20 = 90. The seventh number is 105 − 90 = 15."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:16.200Z",
+  "model": "claude-haiku-4-5-20251001"
+}

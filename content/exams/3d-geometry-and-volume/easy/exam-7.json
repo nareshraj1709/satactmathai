@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-7",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 3 cm, and height 4 cm. What is its volume in cubic centimeters?",
+      "answer": "60",
+      "explanation": "Volume of a rectangular prism = length × width × height. V = 5 × 3 × 4 = 60 cm³."
+    },
+    {
+      "question": "A cylinder has radius 2 inches and height 10 inches. What is its volume in terms of π?",
+      "answer": "40π",
+      "explanation": "Volume of a cylinder = πr²h. V = π(2)²(10) = π(4)(10) = 40π in³."
+    },
+    {
+      "question": "A sphere has radius 3 meters. What is its volume in terms of π?",
+      "answer": "36π",
+      "explanation": "Volume of a sphere = (4/3)πr³. V = (4/3)π(3)³ = (4/3)π(27) = 36π m³."
+    },
+    {
+      "question": "A cone has radius 5 cm and height 12 cm. What is its volume in terms of π?",
+      "answer": "100π",
+      "explanation": "Volume of a cone = (1/3)πr²h. V = (1/3)π(5)²(12) = (1/3)π(25)(12) = 100π cm³."
+    },
+    {
+      "question": "Two identical cubes each have side length 2 units. If you stack them to form a rectangular prism, what is the total volume?",
+      "answer": "16",
+      "explanation": "Each cube has volume 2³ = 8 cubic units. Two cubes together have volume 8 + 8 = 16 cubic units."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 6 square inches and a height (depth) of 8 inches. What is the volume?",
+      "answer": "48",
+      "explanation": "Volume of a prism = base area × height. V = 6 × 8 = 48 in³."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:18:53.264Z",
+  "model": "claude-haiku-4-5-20251001"
+}

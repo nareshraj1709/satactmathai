@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-2",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55°",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. One of the acute angles formed measures 73°. What is the measure of the corresponding angle on the opposite side of the transversal?",
+      "answer": "73°",
+      "explanation": "Corresponding angles formed by a transversal cutting parallel lines are congruent, so the angle is also 73°."
+    },
+    {
+      "question": "In right triangle DEF, angle D = 90°, DE = 5, and DF = 12. What is the length of the hypotenuse EF?",
+      "answer": "13",
+      "explanation": "Use the Pythagorean theorem: EF² = 5² + 12² = 25 + 144 = 169, so EF = 13."
+    },
+    {
+      "question": "An isosceles triangle has a vertex angle of 44°. What is the measure of each base angle?",
+      "answer": "68°",
+      "explanation": "In an isosceles triangle, the two base angles are equal. Let each base angle be x. Then 44° + x + x = 180°, so 2x = 136°, and x = 68°."
+    },
+    {
+      "question": "In triangle PQR, the exterior angle at vertex Q measures 125°. If angle P measures 51°, what is the measure of angle R?",
+      "answer": "74°",
+      "explanation": "An exterior angle of a triangle equals the sum of the two non-adjacent interior angles. So 125° = 51° + angle R, giving angle R = 74°."
+    },
+    {
+      "question": "A triangle has sides of length 7, 9, and x. If the triangle must satisfy the triangle inequality, what is the range of possible integer values for x?",
+      "answer": "2 ≤ x ≤ 15 (or: x ∈ {3, 4, 5, ..., 15})",
+      "explanation": "The triangle inequality requires: 7 + 9 > x, 7 + x > 9, and 9 + x > 7. This gives x < 16, x > 2, and x > −2. So 2 < x < 16; for integers: x ∈ {3, 4, ..., 15}."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:24.678Z",
+  "model": "claude-haiku-4-5-20251001"
+}

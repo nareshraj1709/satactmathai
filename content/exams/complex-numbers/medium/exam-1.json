@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-medium-1",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Simplify: (3 + 2i)(2 - i)",
+      "answer": "8 + i",
+      "explanation": "Use FOIL: 3·2 + 3·(-i) + 2i·2 + 2i·(-i) = 6 - 3i + 4i - 2i². Since i² = -1, this becomes 6 + i + 2 = 8 + i."
+    },
+    {
+      "question": "What is i^47?",
+      "answer": "-i",
+      "explanation": "Powers of i repeat every 4 terms. Divide 47 by 4: 47 = 11·4 + 3, so i^47 = i³ = -i."
+    },
+    {
+      "question": "Express (5 + 4i)/(1 - i) in the form a + bi.",
+      "answer": "1/2 + 9i/2",
+      "explanation": "Multiply numerator and denominator by the conjugate (1 + i): [(5 + 4i)(1 + i)] / [(1 - i)(1 + i)] = (5 + 5i + 4i + 4i²) / (1 - i²) = (1 + 9i) / 2 = 1/2 + 9i/2."
+    },
+    {
+      "question": "If z = 2 - 3i, what is z · z̄ (the product of z and its complex conjugate)?",
+      "answer": "13",
+      "explanation": "The conjugate of 2 - 3i is 2 + 3i. Their product is (2 - 3i)(2 + 3i) = 4 - 9i² = 4 + 9 = 13."
+    },
+    {
+      "question": "Simplify: (1 + i)⁴",
+      "answer": "-4",
+      "explanation": "(1 + i)² = 1 + 2i + i² = 2i. Then (2i)² = 4i² = -4."
+    },
+    {
+      "question": "If (a + bi) + (3 - 2i) = 5 + i, find a + b.",
+      "answer": "5",
+      "explanation": "Equate real and imaginary parts: a + 3 = 5 and b - 2 = 1. So a = 2 and b = 3, giving a + b = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:10:33.858Z",
+  "model": "claude-haiku-4-5-20251001"
+}

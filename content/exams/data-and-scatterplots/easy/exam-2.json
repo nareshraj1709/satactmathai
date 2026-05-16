@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-2",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test score for 8 students. The points are approximately (1, 60), (2, 65), (3, 72), (4, 78), (5, 82), (6, 88), (7, 92), (8, 95). Based on this trend, what is the approximate test score for a student who studied for 4.5 hours?",
+      "answer": "80",
+      "explanation": "The points show a linear trend increasing by about 6–7 points per hour. At 4 hours the score is 78; at 5 hours it's 82. The midpoint (4.5 hours) falls halfway between, at approximately 80."
+    },
+    {
+      "question": "A line of best fit for a dataset is given by y = 2x + 5. Use this equation to predict the y-value when x = 6.",
+      "answer": "17",
+      "explanation": "Substitute x = 6 into y = 2x + 5: y = 2(6) + 5 = 12 + 5 = 17."
+    },
+    {
+      "question": "A scatterplot of temperature (in °C) versus ice cream sales (in dollars) shows points that cluster around a line sloping upward from left to right. Does the scatterplot suggest a positive or negative association?",
+      "answer": "positive",
+      "explanation": "An upward-sloping trend indicates that as one variable increases, the other tends to increase as well, which defines a positive association."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = 3x − 2. What is the y-intercept of this line?",
+      "answer": "−2",
+      "explanation": "The equation is in the form y = mx + b, where b is the y-intercept. Here, b = −2."
+    },
+    {
+      "question": "A scatterplot shows plant height (in cm) versus days of sunlight per week. The points are (2, 10), (4, 18), (6, 26), (8, 34). What is the slope of the line of best fit?",
+      "answer": "4",
+      "explanation": "Pick two points: (2, 10) and (8, 34). Slope = (34 − 10) / (8 − 2) = 24 / 6 = 4."
+    },
+    {
+      "question": "A scatterplot displays the number of defective items versus the number of items produced at a factory. The data points are scattered widely around the trend line with no clear pattern. Does this suggest a strong or weak association?",
+      "answer": "weak",
+      "explanation": "Wide scatter around the trend line indicates the variables are not closely related; the association is weak. A strong association would show points tightly clustered around the line."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:44.855Z",
+  "model": "claude-haiku-4-5-20251001"
+}

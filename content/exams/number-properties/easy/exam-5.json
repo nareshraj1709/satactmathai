@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-5",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 24 and 36?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 24 = 2³ × 3 and 36 = 2² × 3². The GCF takes the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "List all the factors of 20.",
+      "answer": "1, 2, 4, 5, 10, 20",
+      "explanation": "Factors are numbers that divide 20 evenly. Check: 1×20, 2×10, 4×5 all work. These are all the factor pairs."
+    },
+    {
+      "question": "Is 47 prime or composite?",
+      "answer": "Prime",
+      "explanation": "Check divisibility by primes up to √47 ≈ 6.9. The numbers 2, 3, 5 don't divide 47, so it has no factors other than 1 and itself."
+    },
+    {
+      "question": "What is the least common multiple of 6 and 8?",
+      "answer": "24",
+      "explanation": "Multiples of 6: 6, 12, 18, 24, ... Multiples of 8: 8, 16, 24, ... The first common multiple is 24."
+    },
+    {
+      "question": "Which of these numbers is divisible by 6: 42, 45, or 50?",
+      "answer": "42",
+      "explanation": "A number is divisible by 6 if it's divisible by both 2 and 3. 42 ÷ 6 = 7. (45 is odd, 50 is not divisible by 3.)"
+    },
+    {
+      "question": "What is the prime factorization of 60?",
+      "answer": "2² × 3 × 5",
+      "explanation": "Divide repeatedly: 60 = 2 × 30 = 2 × 2 × 15 = 2 × 2 × 3 × 5. Group like primes: 2² × 3 × 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:46.063Z",
+  "model": "claude-haiku-4-5-20251001"
+}

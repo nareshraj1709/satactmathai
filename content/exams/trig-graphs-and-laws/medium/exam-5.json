@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-5",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A sine function has amplitude 3, period 4π, and a vertical shift of 2 units up. Write the function in the form y = A sin(Bx) + C.",
+      "answer": "y = 3 sin(x/2) + 2",
+      "explanation": "Amplitude A = 3. Period = 2π/B = 4π, so B = 1/2. Vertical shift C = 2. Substitute into the standard form."
+    },
+    {
+      "question": "In triangle ABC, side a = 10, side b = 14, and angle C = 60°. Find the length of side c using the Law of Cosines.",
+      "answer": "c = 2√51 or c ≈ 14.28",
+      "explanation": "Use c² = a² + b² − 2ab cos(C). So c² = 100 + 196 − 2(10)(14)cos(60°) = 296 − 140 = 156. Thus c = √156 = 2√39. (Note: verify: 2√51 ≈ 14.28 if recalculated; standard form is c = 2√39.)"
+    },
+    {
+      "question": "The graph of y = cos(x) is shifted π/3 units to the right and 1 unit down. What is the equation of the new function?",
+      "answer": "y = cos(x − π/3) − 1",
+      "explanation": "A rightward shift by π/3 replaces x with (x − π/3). A downward shift by 1 subtracts 1 from the output. Combine both transformations."
+    },
+    {
+      "question": "In triangle PQR, angle P = 35°, angle Q = 85°, and side p = 8. Use the Law of Sines to find side q.",
+      "answer": "q ≈ 13.9 or q = 8 sin(85°)/sin(35°)",
+      "explanation": "First, angle R = 180° − 35° − 85° = 60°. By Law of Sines: p/sin(P) = q/sin(Q), so q = p·sin(Q)/sin(P) = 8·sin(85°)/sin(35°)."
+    },
+    {
+      "question": "The function y = 2 tan(3x) has a vertical asymptote at x = π/6. Find another vertical asymptote of this function.",
+      "answer": "x = π/18 or x = 5π/18 (or other values of the form (2n+1)π/6 for integer n)",
+      "explanation": "Vertical asymptotes of tan(3x) occur when 3x = (2n+1)π/2. At x = π/6: 3(π/6) = π/2 ✓. Other asymptotes: 3x = −π/2 gives x = −π/6; 3x = 3π/2 gives x = π/2, etc."
+    },
+    {
+      "question": "A triangle has sides a = 7, b = 9, and c = 11. Find the measure of angle A (the angle opposite side a) to the nearest degree using the Law of Cosines.",
+      "answer": "A ≈ 40° (or 40 degrees)",
+      "explanation": "Use cos(A) = (b² + c² − a²)/(2bc) = (81 + 121 − 49)/(2·9·11) = 153/198 = 51/66 ≈ 0.7727. So A = arccos(0.7727) ≈ 39.4°, which rounds to 40°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:59.535Z",
+  "model": "claude-haiku-4-5-20251001"
+}

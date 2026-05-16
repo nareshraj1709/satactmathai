@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-8",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Factor completely: 2x² + 11x + 5",
+      "answer": "(2x + 1)(x + 5)",
+      "explanation": "Find two numbers that multiply to 2·5 = 10 and add to 11: that's 1 and 10. Rewrite as 2x² + x + 10x + 5, then factor by grouping: x(2x + 1) + 5(2x + 1) = (2x + 1)(x + 5)."
+    },
+    {
+      "question": "Solve: x² - 3x - 28 = 0",
+      "answer": "x = 7 or x = -4",
+      "explanation": "Factor: find two numbers that multiply to -28 and add to -3. Those are -7 and 4. So (x - 7)(x + 4) = 0, giving x = 7 or x = -4."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than its width. If the area is 40 square meters, what is the width? (Set up and solve using factoring.)",
+      "answer": "5 meters",
+      "explanation": "Let width = w. Then area = w(w + 3) = 40. Expand: w² + 3w - 40 = 0. Factor: (w + 8)(w - 5) = 0. Since width must be positive, w = 5."
+    },
+    {
+      "question": "Factor: 3x² - 12x + 12",
+      "answer": "3(x - 2)²",
+      "explanation": "First factor out the GCF of 3: 3(x² - 4x + 4). The trinomial is a perfect square: x² - 4x + 4 = (x - 2)². So the answer is 3(x - 2)²."
+    },
+    {
+      "question": "Solve: 5x² = 20x",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Move all terms to one side: 5x² - 20x = 0. Factor out 5x: 5x(x - 4) = 0. So x = 0 or x = 4."
+    },
+    {
+      "question": "Factor: 6x² - 7x - 5",
+      "answer": "(2x - 5)(3x + 1)",
+      "explanation": "Find two numbers that multiply to 6·(-5) = -30 and add to -7: that's -10 and 3. Rewrite as 6x² - 10x + 3x - 5, then factor by grouping: 2x(3x - 5) + 1(3x - 5) = (3x - 5)(2x + 1). Wait, check: (2x - 5)(3x + 1) = 6x² + 2x - 15x - 5 = 6x² - 13x - 5. Recalculate: factors of -30 that add to -7 are -10 and 3. Group: 6x² - 10x + 3x - 5 = 2x(3x - 5) + 1(3x - 5) = (3x - 5)(2x + 1). Verify: (3x - 5)(2x + 1) = 6x² + 3x - 10x - 5 = 6x² - 7x - 5. ✓"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:01.474Z",
+  "model": "claude-haiku-4-5-20251001"
+}

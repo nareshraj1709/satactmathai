@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-9",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A circle has a radius of 5. What is the circumference?",
+      "answer": "10π",
+      "explanation": "Circumference = 2πr = 2π(5) = 10π."
+    },
+    {
+      "question": "Find the area of a circle with diameter 8.",
+      "answer": "16π",
+      "explanation": "Radius = 4. Area = πr² = π(4)² = 16π."
+    },
+    {
+      "question": "A circle with center (3, −2) and radius 6 passes through the point (x, −2). If x > 3, find x.",
+      "answer": "9",
+      "explanation": "Points on the circle satisfy (x − 3)² + (−2 − (−2))² = 36. This gives (x − 3)² = 36, so x − 3 = 6, thus x = 9."
+    },
+    {
+      "question": "An arc on a circle with radius 10 subtends a central angle of 36°. What is the arc length?",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (36°/360°) × 2π(10) = (1/10) × 20π = 2π."
+    },
+    {
+      "question": "A sector of a circle with radius 4 has a central angle of 90°. What is the area of the sector?",
+      "answer": "4π",
+      "explanation": "Sector area = (θ/360°) × πr² = (90°/360°) × π(4)² = (1/4) × 16π = 4π."
+    },
+    {
+      "question": "A line is tangent to a circle with center O and radius 7 at point P. If OP = 7, what is the angle OPT, where T is any point on the tangent line?",
+      "answer": "90°",
+      "explanation": "A radius to a point of tangency is perpendicular to the tangent line. Therefore, the angle between OP and the tangent at P is always 90°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:05:34.519Z",
+  "model": "claude-haiku-4-5-20251001"
+}

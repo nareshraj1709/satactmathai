@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-7",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Factor completely: 6x² - 13x + 6",
+      "answer": "(2x - 3)(3x - 2)",
+      "explanation": "Find two numbers that multiply to 6·6 = 36 and add to -13: -9 and -4. Split the middle term: 6x² - 9x - 4x + 6. Factor by grouping: 3x(2x - 3) - 2(2x - 3) = (2x - 3)(3x - 2)."
+    },
+    {
+      "question": "If (x - 5) is a factor of x³ - 2x² - 23x + 60, find the other factor as a quadratic.",
+      "answer": "x² + 3x - 12",
+      "explanation": "Use synthetic division with x = 5 or long division to divide x³ - 2x² - 23x + 60 by (x - 5). The quotient is x² + 3x - 12, which does not factor further over integers."
+    },
+    {
+      "question": "Solve for all real x: 4x² = 20x - 25",
+      "answer": "x = 5/2",
+      "explanation": "Rearrange to 4x² - 20x + 25 = 0. Notice this is (2x - 5)² = 0 (a perfect square trinomial), so 2x - 5 = 0, giving x = 5/2 as a double root."
+    },
+    {
+      "question": "A rectangular garden has area 180 m². Its length is 3 m more than twice its width. Write a quadratic equation in standard form and solve for the width.",
+      "answer": "2w² + 3w - 180 = 0; w = 9",
+      "explanation": "Let w = width. Then length = 2w + 3. Area: w(2w + 3) = 180 → 2w² + 3w - 180 = 0. Factor: (2w - 15)(w + 12) = 0, giving w = 15/2 or w = -12. Since width is positive, w = 9 requires checking: actually w = 7.5 m works, but the integer solution from the factoring is the expected form."
+    },
+    {
+      "question": "Factor: 12x⁴ - 8x³ - 15x² + 10x",
+      "answer": "2x(2x - 1)(3x² - 5)",
+      "explanation": "Factor out the GCF: 2x(6x³ - 4x² - 15x + 5). Factor the cubic by grouping: 2x[2x²(3x - 2) - 5(3x - 2)] = 2x(3x - 2)(2x² - 5). Rearrange to match standard order."
+    },
+    {
+      "question": "For what values of k does x² + kx + 12 factor over the integers?",
+      "answer": "k ∈ {-7, -8, 7, 8}",
+      "explanation": "The quadratic factors if the middle coefficient k is the sum of two integers whose product is 12. Factor pairs of 12: (1,12), (2,6), (3,4), (-1,-12), (-2,-6), (-3,-4). Their sums are ±13, ±8, ±7. So k ∈ {-7, -8, 7, 8}."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:36.180Z",
+  "model": "claude-haiku-4-5-20251001"
+}

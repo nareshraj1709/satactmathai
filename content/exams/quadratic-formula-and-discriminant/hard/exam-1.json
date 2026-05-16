@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-hard-1",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "The quadratic equation $3x^2 + bx + 12 = 0$ has exactly one real solution. Find the value of $b$.",
+      "answer": "$b = \\pm 12$",
+      "explanation": "For exactly one real solution, the discriminant must equal zero: $b^2 - 4(3)(12) = 0$, so $b^2 = 144$, giving $b = \\pm 12$."
+    },
+    {
+      "question": "For the equation $2x^2 - 5x + k = 0$ to have two distinct real solutions, what is the range of values for $k$?",
+      "answer": "$k < \\frac{25}{8}$",
+      "explanation": "Two distinct real solutions require a positive discriminant: $(-5)^2 - 4(2)(k) > 0$, so $25 - 8k > 0$, giving $k < \\frac{25}{8}$."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than twice its width. If the area is 44 square meters, find the width in meters.",
+      "answer": "$4$",
+      "explanation": "Let width = $w$. Then $w(2w + 3) = 44$, so $2w^2 + 3w - 44 = 0$. Using the quadratic formula: $w = \\frac{-3 \\pm \\sqrt{9 + 352}}{4} = \\frac{-3 \\pm 19}{4}$. Since $w > 0$, we get $w = 4$."
+    },
+    {
+      "question": "The discriminant of $x^2 + mx + 9 = 0$ equals 0. If $m > 0$, what is the value of $m$?",
+      "answer": "$6$",
+      "explanation": "Discriminant zero means $m^2 - 4(1)(9) = 0$, so $m^2 = 36$, giving $m = \\pm 6$. Since $m > 0$, we have $m = 6$."
+    },
+    {
+      "question": "For what integer value of $c$ does the equation $x^2 - 6x + c = 0$ have no real solutions?",
+      "answer": "$c > 9$ or $c \\geq 10$ (any integer 10 or greater)",
+      "explanation": "No real solutions require a negative discriminant: $36 - 4c < 0$, so $c > 9$. The smallest integer satisfying this is $c = 10$."
+    },
+    {
+      "question": "The equations $x^2 + 4x + p = 0$ and $x^2 + 4x + q = 0$ have the same discriminant. If $p \\neq q$, what must be true about $p$ and $q$?",
+      "answer": "$p = q$ (or no solution exists; the discriminants are always equal)",
+      "explanation": "Both discriminants are $16 - 4p$ and $16 - 4q$ respectively. Setting them equal: $16 - 4p = 16 - 4q$ always gives $p = q$. This is impossible if $p \\neq q$, so the premise has no solution."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:47.123Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-6",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Factor completely: $6x^2 - 11x - 35$",
+      "answer": "(2x - 5)(3x + 7)",
+      "explanation": "Use the AC method: $a \\cdot c = 6 \\cdot (-35) = -210$. Find factors of $-210$ that sum to $-11$: $14$ and $-15$. Rewrite: $6x^2 + 14x - 15x - 35 = 2x(3x + 7) - 5(3x + 7)$. Factor out the binomial."
+    },
+    {
+      "question": "Solve by factoring: $3x^2 + 7x - 20 = 0$",
+      "answer": "x = 5/3, x = -4",
+      "explanation": "Factor as $(3x - 5)(x + 4) = 0$. Set each factor equal to zero: $3x - 5 = 0$ gives $x = \\frac{5}{3}$, and $x + 4 = 0$ gives $x = -4$."
+    },
+    {
+      "question": "A rectangular garden has area $48$ square meters. Its length is $2$ meters more than twice its width. If $w$ is the width, set up and solve a quadratic equation to find the width.",
+      "answer": "w = 4 meters",
+      "explanation": "Area equation: $w(2w + 2) = 48$, which gives $2w^2 + 2w - 48 = 0$. Simplify to $w^2 + w - 24 = 0$. Factor as $(w + 6)(w - 4) = 0$. Since width is positive, $w = 4$."
+    },
+    {
+      "question": "Factor: $9x^4 - 16x^2 + 7$",
+      "answer": "(9x^2 - 7)(x^2 - 1) or (9x^2 - 7)(x - 1)(x + 1)",
+      "explanation": "Treat this as a quadratic in $x^2$. Let $u = x^2$: $9u^2 - 16u + 7 = 0$. Factor as $(9u - 7)(u - 1) = 0$. Substitute back: $(9x^2 - 7)(x^2 - 1)$. Further factor $x^2 - 1 = (x-1)(x+1)$ if complete factoring is required."
+    },
+    {
+      "question": "Solve: $2x^2 + 5x = 12$",
+      "answer": "x = 3/2, x = -4",
+      "explanation": "Rearrange to $2x^2 + 5x - 12 = 0$. Factor as $(2x - 3)(x + 4) = 0$. Solutions: $x = \\frac{3}{2}$ and $x = -4$."
+    },
+    {
+      "question": "The product of two consecutive odd integers is $143$. Write and solve a quadratic equation to find the integers.",
+      "answer": "11 and 13, or -13 and -11",
+      "explanation": "Let the integers be $n$ and $n + 2$. Then $n(n + 2) = 143$ gives $n^2 + 2n - 143 = 0$. Factor as $(n + 13)(n - 11) = 0$. Solutions: $n = 11$ (giving 11, 13) or $n = -13$ (giving -13, -11)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:38.146Z",
+  "model": "claude-haiku-4-5-20251001"
+}

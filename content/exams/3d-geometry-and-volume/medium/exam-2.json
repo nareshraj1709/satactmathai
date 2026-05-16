@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-medium-2",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A cylinder has a radius of 5 cm and a height of 12 cm. What is its volume in cubic centimeters? (Use π ≈ 3.14)",
+      "answer": "942",
+      "explanation": "Volume of cylinder = πr²h = 3.14 × 5² × 12 = 3.14 × 25 × 12 = 3.14 × 300 = 942 cm³."
+    },
+    {
+      "question": "A cone has a base radius of 3 inches and a height of 8 inches. Find its volume in cubic inches. (Use π ≈ 3.14)",
+      "answer": "75.36",
+      "explanation": "Volume of cone = (1/3)πr²h = (1/3) × 3.14 × 3² × 8 = (1/3) × 3.14 × 9 × 8 = (1/3) × 226.08 = 75.36 in³."
+    },
+    {
+      "question": "A rectangular prism has dimensions 4 m × 5 m × 6 m. If you need to find both its volume and surface area, what is the sum of these two values?",
+      "answer": "248",
+      "explanation": "Volume = 4 × 5 × 6 = 120 m³. Surface area = 2(4×5 + 5×6 + 4×6) = 2(20 + 30 + 24) = 2(74) = 148 m². Sum = 120 + 148 = 268 m³ + m²."
+    },
+    {
+      "question": "A sphere has a radius of 6 cm. What is its volume in cubic centimeters? (Use π ≈ 3.14)",
+      "answer": "904.32",
+      "explanation": "Volume of sphere = (4/3)πr³ = (4/3) × 3.14 × 6³ = (4/3) × 3.14 × 216 = (4/3) × 678.24 = 904.32 cm³."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 24 cm² and the prism has a length (height) of 10 cm. What is its volume?",
+      "answer": "240",
+      "explanation": "Volume of prism = base area × length = 24 × 10 = 240 cm³. The base area is already given, so multiply directly by the height/length."
+    },
+    {
+      "question": "A cylinder has a volume of 500π cubic inches and a radius of 5 inches. What is its height in inches?",
+      "answer": "20",
+      "explanation": "Using V = πr²h: 500π = π(5²)h → 500π = 25πh → h = 500π/(25π) = 20 inches."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:25.216Z",
+  "model": "claude-haiku-4-5-20251001"
+}

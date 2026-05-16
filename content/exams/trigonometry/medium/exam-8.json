@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-8",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A right triangle has an angle of 35° and the side opposite to it is 12 cm. What is the length of the hypotenuse? Round to the nearest tenth.",
+      "answer": "20.9 cm",
+      "explanation": "Use SOH-CAH-TOA: sin(35°) = opposite/hypotenuse = 12/h. Solve h = 12/sin(35°) ≈ 12/0.574 ≈ 20.9 cm."
+    },
+    {
+      "question": "If cos(θ) = 3/5 and θ is in the first quadrant, find sin(θ).",
+      "answer": "4/5",
+      "explanation": "Use the Pythagorean identity sin²(θ) + cos²(θ) = 1. Then sin²(θ) = 1 − (3/5)² = 1 − 9/25 = 16/25, so sin(θ) = 4/5 (positive in quadrant I)."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 60° angle with the ground. If the ladder is 10 feet long, how far up the wall does it reach?",
+      "answer": "5√3 feet",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) = height/10, so height = 10 · sin(60°) = 10 · (√3/2) = 5√3 feet."
+    },
+    {
+      "question": "Simplify: tan(θ) · cos(θ)",
+      "answer": "sin(θ)",
+      "explanation": "Rewrite tan(θ) = sin(θ)/cos(θ). Then tan(θ) · cos(θ) = (sin(θ)/cos(θ)) · cos(θ) = sin(θ)."
+    },
+    {
+      "question": "On the unit circle, a point is at angle 150°. What are its coordinates?",
+      "answer": "(-√3/2, 1/2)",
+      "explanation": "At 150°, x = cos(150°) = −cos(30°) = −√3/2 and y = sin(150°) = sin(30°) = 1/2 (reference angle is 30° in quadrant II)."
+    },
+    {
+      "question": "A surveyor stands 50 meters from a building and measures the angle of elevation to the roof as 40°. Estimate the height of the building to the nearest meter.",
+      "answer": "42 meters",
+      "explanation": "Use tan(40°) = height/50. Then height = 50 · tan(40°) ≈ 50 · 0.839 ≈ 42 meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:13.269Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-4",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Simplify √(36x²). Assume x > 0.",
+      "answer": "6x",
+      "explanation": "√(36x²) = √36 · √(x²) = 6 · x = 6x. Since x > 0, we take the positive square root."
+    },
+    {
+      "question": "Solve for x: √x = 7",
+      "answer": "x = 49",
+      "explanation": "Square both sides: (√x)² = 7². This gives x = 49. Check: √49 = 7 ✓"
+    },
+    {
+      "question": "Simplify √(50). Give your answer in the form a√b where b has no perfect square factors.",
+      "answer": "5√2",
+      "explanation": "50 = 25 · 2, so √50 = √25 · √2 = 5√2. Since 2 has no perfect square factors, this is simplified."
+    },
+    {
+      "question": "Simplify the expression: (12)/(√4). Give a numeric answer.",
+      "answer": "6",
+      "explanation": "√4 = 2, so 12/√4 = 12/2 = 6."
+    },
+    {
+      "question": "Rationalize the denominator: (5)/(√5)",
+      "answer": "√5",
+      "explanation": "Multiply numerator and denominator by √5: (5√5)/(√5 · √5) = (5√5)/5 = √5."
+    },
+    {
+      "question": "Solve for x: √(x + 3) = 4",
+      "answer": "x = 13",
+      "explanation": "Square both sides: x + 3 = 16. Subtract 3: x = 13. Check: √(13 + 3) = √16 = 4 ✓"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:57:29.103Z",
+  "model": "claude-haiku-4-5-20251001"
+}

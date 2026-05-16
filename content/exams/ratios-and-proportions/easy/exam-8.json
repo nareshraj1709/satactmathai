@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-8",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of flour, how many cups of sugar do you need?",
+      "answer": "9",
+      "explanation": "Set up the proportion: 2/3 = 6/x. Cross-multiply: 2x = 18, so x = 9."
+    },
+    {
+      "question": "In a classroom, the ratio of boys to girls is 4:5. If there are 12 boys, how many girls are there?",
+      "answer": "15",
+      "explanation": "Use the ratio 4:5. If 4 corresponds to 12 boys, multiply both parts by 3: 12:15."
+    },
+    {
+      "question": "A map shows a scale of 1 inch to 50 miles. If two cities are 4 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "200",
+      "explanation": "Multiply the map distance by the scale factor: 4 × 50 = 200 miles."
+    },
+    {
+      "question": "A paint mixture uses 3 parts red paint to 2 parts blue paint. If you want to make 15 liters of the mixture, how many liters of red paint do you need?",
+      "answer": "9",
+      "explanation": "Total parts: 3 + 2 = 5. Red paint fraction: 3/5. Amount of red: (3/5) × 15 = 9 liters."
+    },
+    {
+      "question": "If 5 notebooks cost $10, what is the cost of 8 notebooks at the same rate?",
+      "answer": "$16",
+      "explanation": "Find the cost per notebook: 10 ÷ 5 = $2 per notebook. Then 8 × $2 = $16."
+    },
+    {
+      "question": "A car travels 120 miles in 2 hours. At the same rate, how far will it travel in 5 hours?",
+      "answer": "300",
+      "explanation": "Find the rate: 120 ÷ 2 = 60 miles per hour. Then 60 × 5 = 300 miles."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:32.583Z",
+  "model": "claude-haiku-4-5-20251001"
+}

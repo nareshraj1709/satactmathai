@@ -1,0 +1,42 @@
+{
+  "id": "matrices-easy-1",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Find the sum of matrices A and B:\nA = [2 3]\n    [1 4]\n\nB = [1 2]\n    [3 1]\n\nWhat is A + B?",
+      "answer": "[3 5]\n[4 5]",
+      "explanation": "Add corresponding elements: (2+1=3, 3+2=5) in the first row and (1+3=4, 4+1=5) in the second row. Matrix addition combines element-by-element."
+    },
+    {
+      "question": "If matrix M = [5 2], what is 3M?",
+      "answer": "[15 6]\n[0 9]",
+      "explanation": "Scalar multiplication: multiply every element by 3. So 5·3=15, 2·3=6, 0·3=0, and 3·3=9."
+    },
+    {
+      "question": "What is the determinant of the 2×2 matrix\nC = [4 3]\n    [2 1]?",
+      "answer": "-2",
+      "explanation": "For a 2×2 matrix [a b; c d], determinant = ad − bc. Here: (4)(1) − (3)(2) = 4 − 6 = −2."
+    },
+    {
+      "question": "Multiply the matrices:\nP = [1 2]  and  Q = [3]\n    [4 5]         [2]\n\nWhat is PQ?",
+      "answer": "[7]\n[22]",
+      "explanation": "Multiply rows of P by the column of Q: first row (1·3 + 2·2 = 7), second row (4·3 + 5·2 = 22). Result is a 2×1 column vector."
+    },
+    {
+      "question": "Two matrices can be added only if they have the same ___________.",
+      "answer": "dimensions (or order, or rows and columns)",
+      "explanation": "Matrix addition requires both matrices to have the same number of rows and columns. For example, you can add two 2×3 matrices but not a 2×3 and a 3×2."
+    },
+    {
+      "question": "If a 2×3 matrix is multiplied by a 3×2 matrix, the resulting matrix has dimensions ___×___.",
+      "answer": "2×2",
+      "explanation": "In matrix multiplication, if A is m×n and B is n×p, the product AB is m×p. Here: 2×3 times 3×2 gives 2×2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:15:44.511Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-6",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: 2y - 5 = y + 3",
+      "answer": "y = 8",
+      "explanation": "Subtract y from both sides: y - 5 = 3. Add 5 to both sides: y = 8."
+    },
+    {
+      "question": "A phone plan costs $35 per month plus $0.12 per text message. If your bill is $47.80, how many text messages did you send?",
+      "answer": "107",
+      "explanation": "Set up: 35 + 0.12x = 47.80. Subtract 35: 0.12x = 12.80. Divide by 0.12: x = 106.67, which rounds to 107 messages."
+    },
+    {
+      "question": "Solve for x: (x + 4)/3 = 7",
+      "answer": "x = 17",
+      "explanation": "Multiply both sides by 3: x + 4 = 21. Subtract 4: x = 17."
+    },
+    {
+      "question": "Solve for t: 4t + 2 = 3t + 9",
+      "answer": "t = 7",
+      "explanation": "Subtract 3t from both sides: t + 2 = 9. Subtract 2: t = 7."
+    },
+    {
+      "question": "Solve for x: 0.5x - 1.2 = 2.3",
+      "answer": "x = 7",
+      "explanation": "Add 1.2 to both sides: 0.5x = 3.5. Divide by 0.5: x = 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:29.423Z",
+  "model": "claude-haiku-4-5-20251001"
+}

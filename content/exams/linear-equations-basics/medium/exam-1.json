@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-1",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 5 = m + 3",
+      "answer": "m = 8",
+      "explanation": "Subtract m from both sides: m - 5 = 3. Add 5: m = 8."
+    },
+    {
+      "question": "Solve for x: (x/4) + 6 = 10",
+      "answer": "x = 16",
+      "explanation": "Subtract 6 from both sides: x/4 = 4. Multiply by 4: x = 16."
+    },
+    {
+      "question": "A rental company charges $25 per day plus a $15 service fee. If your total bill is $140, how many days did you rent? Set up and solve an equation.",
+      "answer": "5 days",
+      "explanation": "Equation: 25d + 15 = 140. Subtract 15: 25d = 125. Divide by 25: d = 5."
+    },
+    {
+      "question": "Solve for y: 0.5y - 3 = 4.5",
+      "answer": "y = 15",
+      "explanation": "Add 3 to both sides: 0.5y = 7.5. Divide by 0.5: y = 15."
+    },
+    {
+      "question": "Solve for x: 4(x - 2) = 12",
+      "answer": "x = 5",
+      "explanation": "Divide both sides by 4: x - 2 = 3. Add 2: x = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:27.015Z",
+  "model": "claude-haiku-4-5-20251001"
+}

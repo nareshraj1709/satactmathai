@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-4",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "25% of $40 = 0.25 × 40 = $10. Sale price = $40 − $10 = $30."
+    },
+    {
+      "question": "A restaurant bill is $50 before tax. The tax rate is 8%. What is the total bill including tax?",
+      "answer": "$54",
+      "explanation": "Tax amount = 0.08 × $50 = $4. Total = $50 + $4 = $54."
+    },
+    {
+      "question": "Last month, a gym had 200 members. This month, it has 240 members. What is the percent increase in membership?",
+      "answer": "20%",
+      "explanation": "Increase = 240 − 200 = 40. Percent increase = (40/200) × 100% = 20%."
+    },
+    {
+      "question": "A book costs $20 at Store A and $16 at Store B. By what percent is the book cheaper at Store B?",
+      "answer": "20%",
+      "explanation": "Difference = $20 − $16 = $4. Percent discount = ($4/$20) × 100% = 20%."
+    },
+    {
+      "question": "A price increases by 10% and then decreases by 10%. If the original price was $100, what is the final price?",
+      "answer": "$99",
+      "explanation": "After 10% increase: $100 × 1.10 = $110. After 10% decrease: $110 × 0.90 = $99."
+    },
+    {
+      "question": "You buy a jacket for $60 and leave a 15% tip for the cashier. How much is the tip?",
+      "answer": "$9",
+      "explanation": "Tip = 0.15 × $60 = $9."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:52.457Z",
+  "model": "claude-haiku-4-5-20251001"
+}

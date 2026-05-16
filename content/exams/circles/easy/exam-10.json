@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-10",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A circle has a radius of 5. What is the circumference?",
+      "answer": "10π",
+      "explanation": "Circumference = 2πr. With r = 5, we get C = 2π(5) = 10π."
+    },
+    {
+      "question": "A circle has radius 6. Find the area of a sector with a central angle of 60°.",
+      "answer": "6π",
+      "explanation": "Sector area = (θ/360°) × πr². With θ = 60° and r = 6: (60/360) × π(36) = (1/6) × 36π = 6π."
+    },
+    {
+      "question": "The equation of a circle is (x − 3)² + (y + 2)² = 16. What is the radius?",
+      "answer": "4",
+      "explanation": "The standard form is (x − h)² + (y − k)² = r². Here r² = 16, so r = 4."
+    },
+    {
+      "question": "An arc on a circle with radius 8 subtends a central angle of 45°. Find the arc length.",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr. With θ = 45° and r = 8: (45/360) × 2π(8) = (1/8) × 16π = 2π."
+    },
+    {
+      "question": "A line is tangent to a circle with center (0, 0) and radius 3 at the point (3, 0). What is the equation of the tangent line?",
+      "answer": "x = 3",
+      "explanation": "A tangent line is perpendicular to the radius at the point of tangency. The radius to (3, 0) is horizontal, so the tangent is vertical: x = 3."
+    },
+    {
+      "question": "A circle has diameter 14. What is its area?",
+      "answer": "49π",
+      "explanation": "If diameter = 14, then radius = 7. Area = πr² = π(7)² = 49π."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:05:34.129Z",
+  "model": "claude-haiku-4-5-20251001"
+}

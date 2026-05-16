@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-5",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (0, 0) and focus at (0, 3). Write the equation of the parabola in the form y = ax².",
+      "answer": "y = (1/12)x²",
+      "explanation": "For a parabola with vertex at the origin and vertical axis, the focus is at (0, p), where p = 3. The equation is y = (1/4p)x² = (1/12)x²."
+    },
+    {
+      "question": "An ellipse has semi-major axis a = 5 and semi-minor axis b = 3. Find the distance from the center to each focus.",
+      "answer": "4",
+      "explanation": "For an ellipse, c² = a² − b² = 25 − 9 = 16, so c = 4. The foci are located at distance c from the center."
+    },
+    {
+      "question": "What is the vertex of the parabola y = (x − 2)² + 1?",
+      "answer": "(2, 1)",
+      "explanation": "The vertex form y = (x − h)² + k has vertex at (h, k). Here h = 2 and k = 1, so the vertex is (2, 1)."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 − y²/9 = 1. What is the distance between the two vertices on the transverse axis?",
+      "answer": "8",
+      "explanation": "For a horizontal hyperbola, the vertices are at (±a, 0). Here a² = 16, so a = 4. The distance between vertices is 2a = 8."
+    },
+    {
+      "question": "An ellipse has equation (x²/25) + (y²/4) = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The larger denominator is 25, so a² = 25 and a = 5. The major axis has length 2a = 10."
+    },
+    {
+      "question": "For the parabola y = −2x², does it open upward or downward?",
+      "answer": "downward",
+      "explanation": "The coefficient of x² is −2, which is negative. A negative coefficient means the parabola opens downward."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:12.860Z",
+  "model": "claude-haiku-4-5-20251001"
+}

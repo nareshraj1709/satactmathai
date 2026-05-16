@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-4",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test scores (y) for 12 students. The line of best fit has the equation y = 8x + 52. According to this model, what is the predicted test score for a student who studies for 5 hours?",
+      "answer": "92",
+      "explanation": "Substitute x = 5 into y = 8x + 52: y = 8(5) + 52 = 40 + 52 = 92."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°C) and ice cream sales (units) at a shop over 10 days. One point is (22, 145) and another is (28, 185). What is the slope of the line passing through these two points?",
+      "answer": "40/6 or 20/3 or 6.67",
+      "explanation": "Use slope formula: m = (185 − 145)/(28 − 22) = 40/6 = 20/3 ≈ 6.67. This means sales increase about 6.67 units per °C."
+    },
+    {
+      "question": "A data set consists of five points: (1, 3), (2, 5), (3, 7), (4, 9), (5, 11). Do these points show a linear relationship? Explain briefly.",
+      "answer": "Yes, the points are perfectly linear",
+      "explanation": "Check consecutive slope: (5−3)/(2−1) = 2, (7−5)/(3−2) = 2, (9−7)/(4−3) = 2. Constant slope of 2 confirms a perfect linear relationship."
+    },
+    {
+      "question": "A scatterplot shows car age (years) versus resale value (thousands of dollars). The line of best fit is y = −2.5x + 28. If the actual resale value of a 4-year-old car is $16,000, what is the residual (in thousands)?",
+      "answer": "2",
+      "explanation": "Predicted value: y = −2.5(4) + 28 = −10 + 28 = 18 thousand. Residual = actual − predicted = 16 − 18 = −2 thousand."
+    },
+    {
+      "question": "A scatterplot of plant height (cm) versus days of growth shows points clustered tightly around a line with positive slope. Does this indicate a strong positive correlation or weak positive correlation?",
+      "answer": "Strong positive correlation",
+      "explanation": "Tight clustering around the line means little scatter; strong correlations have points close to the line. Positive slope confirms the direction is positive."
+    },
+    {
+      "question": "Two variables x and y have a line of best fit y = 3x + 10. If x increases by 4 units, by how many units does y increase according to this model?",
+      "answer": "12",
+      "explanation": "The slope is 3, which represents the rate of change. When x increases by 4, the change in y is 3 × 4 = 12 units."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:22.905Z",
+  "model": "claude-haiku-4-5-20251001"
+}

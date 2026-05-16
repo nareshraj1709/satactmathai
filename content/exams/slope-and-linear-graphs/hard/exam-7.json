@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-hard-7",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A line passes through the points (−2, 5) and (4, −7). What is the slope of the line?",
+      "answer": "-2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (−7 − 5)/(4 − (−2)) = −12/6 = −2."
+    },
+    {
+      "question": "The line 3x − 4y = 12 is graphed on a coordinate plane. What is the y-intercept?",
+      "answer": "-3",
+      "explanation": "Rewrite in slope-intercept form: −4y = −3x + 12, so y = (3/4)x − 3. The y-intercept is −3."
+    },
+    {
+      "question": "Two parallel lines have the property that one passes through (1, 3) with slope m, and the other passes through (5, 11) with the same slope m. If the first line also passes through (−1, −1), find m.",
+      "answer": "2",
+      "explanation": "Use slope formula with the first line's points: m = (3 − (−1))/(1 − (−1)) = 4/2 = 2. Verify with second line: m = (11 − ?)/(5 − ?) matches the parallel condition."
+    },
+    {
+      "question": "A line perpendicular to y = (2/5)x + 3 passes through the point (4, −2). Write the equation of this perpendicular line in slope-intercept form.",
+      "answer": "y = (-5/2)x + 8",
+      "explanation": "The perpendicular slope is the negative reciprocal: m = −5/2. Using point-slope form: −2 = (−5/2)(4) + b → −2 = −10 + b → b = 8."
+    },
+    {
+      "question": "The line passing through (a, 2) and (5, 8) has slope 2. Find the value of a.",
+      "answer": "2",
+      "explanation": "Apply slope formula: 2 = (8 − 2)/(5 − a) → 2 = 6/(5 − a) → 2(5 − a) = 6 → 10 − 2a = 6 → a = 2."
+    },
+    {
+      "question": "A line with undefined slope passes through the point (−3, 7). Write the equation of this line.",
+      "answer": "x = -3",
+      "explanation": "Undefined slope means the line is vertical. A vertical line has the equation x = c, where c is the x-coordinate of any point on the line. Therefore, x = −3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:22:21.955Z",
+  "model": "claude-haiku-4-5-20251001"
+}

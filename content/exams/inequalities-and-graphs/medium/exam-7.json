@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-medium-7",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Solve for x: 3x - 7 < 2x + 4",
+      "answer": "x < 11",
+      "explanation": "Subtract 2x from both sides: x - 7 < 4. Add 7 to both sides: x < 11."
+    },
+    {
+      "question": "A phone plan costs $25 per month plus $0.15 per text message. If you want your monthly bill to be no more than $40, what is the maximum number of text messages you can send?",
+      "answer": "100",
+      "explanation": "Set up: 25 + 0.15m ≤ 40. Subtract 25: 0.15m ≤ 15. Divide by 0.15: m ≤ 100."
+    },
+    {
+      "question": "Solve the system and identify which ordered pair satisfies both inequalities: y < 2x + 1 and y ≥ -x + 3. Is (1, 2) a solution?",
+      "answer": "Yes",
+      "explanation": "Check (1, 2): First inequality: 2 < 2(1) + 1 = 3 ✓. Second inequality: 2 ≥ -(1) + 3 = 2 ✓. Both are true."
+    },
+    {
+      "question": "Solve for x: -2(x + 3) ≥ 10",
+      "answer": "x ≤ -8",
+      "explanation": "Distribute: -2x - 6 ≥ 10. Add 6: -2x ≥ 16. Divide by -2 (flip inequality): x ≤ -8."
+    },
+    {
+      "question": "A rectangle has a length of 8 cm. If the perimeter must be greater than 24 cm but less than 40 cm, write the inequality for the width w.",
+      "answer": "4 < w < 12",
+      "explanation": "Perimeter = 2(8 + w) = 16 + 2w. Set up: 24 < 16 + 2w < 40. Subtract 16: 8 < 2w < 24. Divide by 2: 4 < w < 12."
+    },
+    {
+      "question": "For which values of x is the expression 5 - 2x negative?",
+      "answer": "x > 2.5",
+      "explanation": "Set up inequality: 5 - 2x < 0. Subtract 5: -2x < -5. Divide by -2 (flip inequality): x > 2.5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:29.929Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-easy-1",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Simplify i^5.",
+      "answer": "i",
+      "explanation": "Since i^4 = 1, we have i^5 = i^4 · i = 1 · i = i."
+    },
+    {
+      "question": "Add the complex numbers: (3 + 2i) + (5 - 4i).",
+      "answer": "8 - 2i",
+      "explanation": "Combine real parts: 3 + 5 = 8. Combine imaginary parts: 2i - 4i = -2i. Result: 8 - 2i."
+    },
+    {
+      "question": "Simplify i^23.",
+      "answer": "-i",
+      "explanation": "Divide 23 by 4: 23 = 4(5) + 3, so i^23 = i^3 = i^2 · i = -1 · i = -i."
+    },
+    {
+      "question": "Multiply: (2 + i)(3 - i).",
+      "answer": "7 + i",
+      "explanation": "Use FOIL: 2(3) + 2(-i) + i(3) + i(-i) = 6 - 2i + 3i - i^2 = 6 + i - (-1) = 7 + i."
+    },
+    {
+      "question": "What is i^4 + i^8 + i^12?",
+      "answer": "3",
+      "explanation": "i^4 = 1, i^8 = (i^4)^2 = 1, and i^12 = (i^4)^3 = 1. So 1 + 1 + 1 = 3."
+    },
+    {
+      "question": "Subtract: (7 + 3i) - (2 - 5i).",
+      "answer": "5 + 8i",
+      "explanation": "Distribute the negative: (7 + 3i) + (-2 + 5i). Real parts: 7 - 2 = 5. Imaginary parts: 3i + 5i = 8i. Result: 5 + 8i."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:52.487Z",
+  "model": "claude-haiku-4-5-20251001"
+}

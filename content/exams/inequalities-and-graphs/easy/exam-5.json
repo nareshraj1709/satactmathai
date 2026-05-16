@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-5",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve the inequality: 3x + 2 < 11",
+      "answer": "x < 3",
+      "explanation": "Subtract 2 from both sides: 3x < 9. Divide both sides by 3: x < 3."
+    },
+    {
+      "question": "Which of the following values satisfies the inequality 2x − 5 ≥ 3? Write yes or no.\n(a) x = 4\n(b) x = 3",
+      "answer": "(a) yes, (b) no",
+      "explanation": "Solve: 2x ≥ 8, so x ≥ 4. For x = 4: 2(4) − 5 = 3 ✓. For x = 3: 2(3) − 5 = 1 ✗."
+    },
+    {
+      "question": "A phone plan costs $20 per month plus $0.15 per text. If your budget is at most $35, what is the maximum number of texts you can send?\nWrite your answer as an inequality and solve for the number of texts.",
+      "answer": "20 + 0.15t ≤ 35; t ≤ 100",
+      "explanation": "Set up: 20 + 0.15t ≤ 35. Subtract 20: 0.15t ≤ 15. Divide by 0.15: t ≤ 100 texts."
+    },
+    {
+      "question": "Solve: −2x > 8",
+      "answer": "x < −4",
+      "explanation": "Divide both sides by −2. Remember: when dividing an inequality by a negative number, flip the inequality sign. So x < −4."
+    },
+    {
+      "question": "Graph the inequality x ≥ −1 on a number line. Describe whether you use an open or closed circle and which direction the line goes.",
+      "answer": "Closed circle at −1, arrow pointing right",
+      "explanation": "The inequality x ≥ −1 includes −1 (≥ means 'greater than or equal to'), so use a closed circle. Values increase to the right."
+    },
+    {
+      "question": "Solve the compound inequality: 1 < x + 2 ≤ 5",
+      "answer": "−1 < x ≤ 3",
+      "explanation": "Subtract 2 from all parts: 1 − 2 < x + 2 − 2 ≤ 5 − 2, which gives −1 < x ≤ 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:21.906Z",
+  "model": "claude-haiku-4-5-20251001"
+}

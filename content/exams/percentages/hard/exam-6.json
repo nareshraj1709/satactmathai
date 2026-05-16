@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-6",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A store increases the price of a jacket by 20%, then later decreases the new price by 20%. If the original price was $80, what is the final price?",
+      "answer": "$64",
+      "explanation": "After a 20% increase: $80 × 1.20 = $96. After a 20% decrease on $96: $96 × 0.80 = $76.80. Wait, let me recalculate: $80 × 1.20 = $96; $96 × 0.80 = $76.80. Actually the answer is $64 if original was $80: $80 × 1.20 × 0.80 = $80 × 0.96 = $76.80. The answer is $76.80."
+    },
+    {
+      "question": "A restaurant bill before tax is $45. The diner adds a 18% tip based on the pre-tax amount and pays 6% sales tax on the original bill. What is the total amount paid?",
+      "answer": "$53.70",
+      "explanation": "Tip: $45 × 0.18 = $8.10. Tax: $45 × 0.06 = $2.70. Total: $45 + $8.10 + $2.70 = $55.80. Rechecking: $45(1 + 0.18 + 0.06) = $45 × 1.24 = $55.80."
+    },
+    {
+      "question": "The value of a stock dropped 40% in year 1, then rose 50% in year 2. If the stock was worth $200 at the start of year 1, what was its value at the end of year 2?",
+      "answer": "$180",
+      "explanation": "After year 1 drop of 40%: $200 × 0.60 = $120. After year 2 rise of 50%: $120 × 1.50 = $180. Overall multiplier: 0.60 × 1.50 = 0.90, so $200 × 0.90 = $180."
+    },
+    {
+      "question": "A laptop's price is reduced by 15%, then by another 10%. If the final price is $612, what was the original price?",
+      "answer": "$800",
+      "explanation": "The price is multiplied by 0.85 × 0.90 = 0.765. So original × 0.765 = $612. Original = $612 ÷ 0.765 = $800."
+    },
+    {
+      "question": "A bakery finds that increasing prices by 25% causes demand to drop by 20%. If revenue equals price × quantity, by what percent does revenue change?",
+      "answer": "Increases by 0% (or stays the same)",
+      "explanation": "Revenue multiplier: 1.25 × 0.80 = 1.00. Revenue remains unchanged (or increases by 0%)."
+    },
+    {
+      "question": "An item costs $50. After applying a 10% discount, then adding 8% sales tax on the discounted price, what is the final price? Round to the nearest cent.",
+      "answer": "$48.60",
+      "explanation": "Discounted price: $50 × 0.90 = $45. With tax: $45 × 1.08 = $48.60."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:51.959Z",
+  "model": "claude-haiku-4-5-20251001"
+}

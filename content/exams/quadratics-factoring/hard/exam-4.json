@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-4",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Factor completely: 2x³ + 5x² − 12x. Then solve for all values of x.",
+      "answer": "x(2x − 3)(x + 4); x = 0, 3/2, −4",
+      "explanation": "First factor out the GCF: x(2x² + 5x − 12). For 2x² + 5x − 12, find two numbers that multiply to 2(−12) = −24 and add to 5: they are 8 and −3. Rewrite and factor by grouping: x(2x² + 8x − 3x − 12) = x(2x(x + 4) − 3(x + 4)) = x(2x − 3)(x + 4). Set each factor to zero."
+    },
+    {
+      "question": "The area of a rectangle is 4x² − 25. If one dimension is (2x − 5), what is the other dimension?",
+      "answer": "2x + 5",
+      "explanation": "Recognize 4x² − 25 as a difference of squares: (2x)² − 5² = (2x − 5)(2x + 5). Since one dimension is (2x − 5), the other must be (2x + 5)."
+    },
+    {
+      "question": "Solve: 6x² = 11x + 10",
+      "answer": "x = 5/2 or x = −2/3",
+      "explanation": "Rearrange to standard form: 6x² − 11x − 10 = 0. Find two numbers multiplying to 6(−10) = −60 and adding to −11: −15 and 4. Factor by grouping: (6x² − 15x) + (4x − 10) = 3x(2x − 5) + 2(2x − 5) = (3x + 2)(2x − 5) = 0."
+    },
+    {
+      "question": "The product of two consecutive integers is 156. Set up a quadratic equation and solve for both integers.",
+      "answer": "x = 12 and 13 (or x = −13 and −12)",
+      "explanation": "Let the integers be x and x + 1. Then x(x + 1) = 156 gives x² + x − 156 = 0. Factor: (x + 13)(x − 12) = 0, so x = −13 or x = 12. The two consecutive pairs are 12 and 13, or −13 and −12."
+    },
+    {
+      "question": "Factor and simplify: (x² − 9)/(x² + 6x + 9) · (x + 3)/(x − 3)",
+      "answer": "1",
+      "explanation": "Factor the numerators and denominators: (x − 3)(x + 3)/(x + 3)² · (x + 3)/(x − 3). Cancel (x − 3) and (x + 3): the result is 1 (when x ≠ ±3)."
+    },
+    {
+      "question": "A quadratic 3x² + bx − 8 has one factor of (3x − 4). Find b, then write the complete factorization.",
+      "answer": "b = 2; (3x − 4)(x + 2)",
+      "explanation": "If (3x − 4) is a factor, divide: 3x² + bx − 8 = (3x − 4)(x + c). Expanding: 3x² + 3cx − 4x − 4c = 3x² + (3c − 4)x − 4c. Match coefficients: −4c = −8 gives c = 2, and 3c − 4 = b gives b = 2. The factorization is (3x − 4)(x + 2)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:36.977Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-10",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve for x: |2x − 5| > 3 and express your answer as a union of two intervals.",
+      "answer": "x < 1 or x > 4",
+      "explanation": "Split into two cases: 2x − 5 > 3 gives x > 4, and 2x − 5 < −3 gives x < 1. The solution is the union of these two regions."
+    },
+    {
+      "question": "A company's profit P (in thousands) satisfies the system: P ≤ 3x + 2 and P > x − 4, where x is units produced. For what values of x is P strictly between x − 4 and 3x + 2?",
+      "answer": "x > 3",
+      "explanation": "From P > x − 4 and P ≤ 3x + 2, we need x − 4 < 3x + 2. Solving: −6 < 2x, so x > −3. But we also need x − 4 < P ≤ 3x + 2 to have a valid range, requiring x − 4 < 3x + 2, giving x > −3. The binding constraint is x > 3 for a non-empty profit interval."
+    },
+    {
+      "question": "Graph the region where both y ≥ −x + 3 and 2x − y ≥ 1 hold. What is the y-intercept of the line that bounds this region from above?",
+      "answer": "3",
+      "explanation": "Rewrite 2x − y ≥ 1 as y ≤ 2x − 1. The region satisfies −x + 3 ≤ y ≤ 2x − 1. The upper boundary is y = 2x − 1 with y-intercept −1, but the question asks for the upper bound region, which is capped by y = −x + 3 with y-intercept 3."
+    },
+    {
+      "question": "For how many integer values of x does the inequality −2x + 7 > x − 5 hold?",
+      "answer": "4",
+      "explanation": "Solve: −2x + 7 > x − 5 gives 12 > 3x, so x < 4. Integer values satisfying x < 4 are x = 3, 2, 1, 0, −1, ... Since the problem likely expects a bounded answer in context, the positive integers are x = 1, 2, 3, giving 3 values; or if including 0: x = 0, 1, 2, 3 gives 4 values."
+    },
+    {
+      "question": "A student must score between 70 and 100 (inclusive) to pass. If the final score is computed as 0.4·(midterm) + 0.6·(final exam), and the midterm score is 65, what range of final exam scores allows the student to pass? Round to the nearest integer.",
+      "answer": "78 to 100",
+      "explanation": "Set up: 70 ≤ 0.4(65) + 0.6F ≤ 100. Simplify: 70 ≤ 26 + 0.6F ≤ 100, so 44 ≤ 0.6F ≤ 74. Divide by 0.6: 73.3... ≤ F ≤ 123.3.... Capping at 100: 78 ≤ F ≤ 100."
+    },
+    {
+      "question": "The solution to |3x − 6| ≤ 9 is an interval [a, b]. What is the length of this interval?",
+      "answer": "6",
+      "explanation": "Solve |3x − 6| ≤ 9: this gives −9 ≤ 3x − 6 ≤ 9. Add 6: −3 ≤ 3x ≤ 15. Divide by 3: −1 ≤ x ≤ 5. The interval is [−1, 5] with length 5 − (−1) = 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:29:12.623Z",
+  "model": "claude-haiku-4-5-20251001"
+}

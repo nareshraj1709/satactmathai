@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-1",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Solve for x: 3(2x − 5) > 4x + 7. Write your answer as an inequality.",
+      "answer": "x > 11",
+      "explanation": "Expand: 6x − 15 > 4x + 7. Subtract 4x: 2x − 15 > 7. Add 15: 2x > 22. Divide by 2: x > 11."
+    },
+    {
+      "question": "Graph the system of inequalities on a number line and write the solution set in interval notation:\n−2x + 3 ≤ 9 and x + 4 > 1",
+      "answer": "(-3, 3]",
+      "explanation": "From −2x + 3 ≤ 9: −2x ≤ 6, so x ≥ −3. From x + 4 > 1: x > −3. The intersection is −3 < x ≤ 3, or (−3, 3]."
+    },
+    {
+      "question": "A rental car company charges $40 plus $0.15 per mile. You have a budget of $70. Write and solve an inequality to find the maximum number of whole miles you can drive.",
+      "answer": "200 miles",
+      "explanation": "Set up: 40 + 0.15m ≤ 70. Subtract 40: 0.15m ≤ 30. Divide by 0.15: m ≤ 200. Maximum is 200 miles."
+    },
+    {
+      "question": "Solve the compound inequality and express the solution as an inequality: −4 ≤ 2x + 3 < 11",
+      "answer": "-7/2 ≤ x < 4 or -3.5 ≤ x < 4",
+      "explanation": "Subtract 3 from all parts: −7 ≤ 2x < 8. Divide by 2: −7/2 ≤ x < 4."
+    },
+    {
+      "question": "The lines y = 2x − 5 and y = −x + 4 intersect. For what values of x is 2x − 5 ≥ −x + 4?",
+      "answer": "x ≥ 3",
+      "explanation": "Set 2x − 5 = −x + 4 to find intersection: 3x = 9, so x = 3. Since 2x − 5 has steeper slope, it is above −x + 4 when x ≥ 3."
+    },
+    {
+      "question": "A student must score at least 80 on both a midterm and final exam to earn an A. The midterm weight is 40% and final weight is 60%. If the student scored 76 on the midterm, what minimum score on the final exam is needed for an A overall grade? Assume an A overall requires an average of at least 80.",
+      "answer": "82.67 or 83",
+      "explanation": "Set up weighted average: 0.40(76) + 0.60(f) ≥ 80. Simplify: 30.4 + 0.60f ≥ 80. Solve: 0.60f ≥ 49.6, so f ≥ 82.67 (round to 83 for whole test scores)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:32.654Z",
+  "model": "claude-haiku-4-5-20251001"
+}

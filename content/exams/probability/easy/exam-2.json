@@ -1,0 +1,42 @@
+{
+  "id": "probability-easy-2",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles and 3 blue marbles. If you draw one marble at random, what is the probability it is red?",
+      "answer": "5/8",
+      "explanation": "There are 5 red marbles out of 8 total marbles. Probability = favorable outcomes / total outcomes = 5/8."
+    },
+    {
+      "question": "A spinner is divided into 6 equal sections: 2 yellow, 2 green, and 2 purple. What is the probability of spinning green?",
+      "answer": "1/3",
+      "explanation": "There are 2 green sections out of 6 total sections. P(green) = 2/6 = 1/3."
+    },
+    {
+      "question": "In a class of 20 students, 12 play soccer and 8 play basketball. If these are the only two sports and no student plays both, what is the probability a randomly selected student plays soccer?",
+      "answer": "3/5",
+      "explanation": "12 students play soccer out of 20 total. P(soccer) = 12/20 = 3/5."
+    },
+    {
+      "question": "A two-way table shows: 30 people like coffee, 20 people like tea, and 10 people like both. If 50 people were surveyed, what is the probability a random person likes coffee or tea?",
+      "answer": "4/5",
+      "explanation": "Using the formula: P(coffee or tea) = (30 + 20 − 10)/50 = 40/50 = 4/5. We subtract the overlap to avoid double-counting."
+    },
+    {
+      "question": "A fair coin is flipped twice. What is the probability of getting at least one heads?",
+      "answer": "3/4",
+      "explanation": "Possible outcomes: HH, HT, TH, TT. Three outcomes have at least one heads. P = 3/4."
+    },
+    {
+      "question": "In a survey of 100 students, 35 like math, and 15 of those also like science. If a student likes math, what is the probability they also like science?",
+      "answer": "3/7",
+      "explanation": "This is conditional probability: P(science | math) = (students who like both) / (students who like math) = 15/35 = 3/7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:41:47.091Z",
+  "model": "claude-haiku-4-5-20251001"
+}

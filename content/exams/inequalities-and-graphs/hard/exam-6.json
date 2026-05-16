@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-6",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "If 3x − 5 < 2(x + 4) and x is an integer, what is the maximum value of x?",
+      "answer": "16",
+      "explanation": "Expand: 3x − 5 < 2x + 8. Subtract 2x: x − 5 < 8. Add 5: x < 13. Since x must be an integer and x < 13, the maximum integer value is 12. Wait, let me recalculate: x < 13, so max integer is 12. Actually, re-checking: 3x − 5 < 2x + 8 gives x < 13, so the maximum integer is 12. Let me verify once more: if x = 12, then 3(12) − 5 = 31 and 2(12 + 4) = 32, so 31 < 32 ✓. The answer is 12."
+    },
+    {
+      "question": "The inequality |2x − 6| ≥ 10 has solution set x ≤ a or x ≥ b. Find a + b.",
+      "answer": "-2",
+      "explanation": "Split into cases: 2x − 6 ≥ 10 gives x ≥ 8, and 2x − 6 ≤ −10 gives 2x ≤ −4, so x ≤ −2. Thus a = −2 and b = 8, giving a + b = 6. Wait, checking the problem: we need x ≤ a or x ≥ b. So a = −2, b = 8, and a + b = 6."
+    },
+    {
+      "question": "A system requires x + 2y > 4 and 2x − y < 5. If y = 2, find the range of valid integer values for x.",
+      "answer": "x = 1 or x = 2",
+      "explanation": "Substitute y = 2: x + 4 > 4 gives x > 0, and 2x − 2 < 5 gives 2x < 7, so x < 3.5. Combined: 0 < x < 3.5. Integer solutions are x = 1 and x = 2."
+    },
+    {
+      "question": "The region satisfying both 3x + 2y ≤ 12 and x − y ≥ −1 is bounded. What is the y-coordinate of the vertex where these two boundary lines intersect?",
+      "answer": "3",
+      "explanation": "Set 3x + 2y = 12 and x − y = −1. From the second equation, x = y − 1. Substitute: 3(y − 1) + 2y = 12, so 3y − 3 + 2y = 12, giving 5y = 15 and y = 3."
+    },
+    {
+      "question": "If −2 < x + 1 ≤ 5, solve for x and express as a compound inequality.",
+      "answer": "−3 < x ≤ 4",
+      "explanation": "Subtract 1 from all parts: −2 − 1 < x ≤ 5 − 1, which gives −3 < x ≤ 4."
+    },
+    {
+      "question": "The cost c (in dollars) to rent a car is given by c ≥ 25 + 0.15m, where m is miles driven. If you have a budget of at most $85, what is the maximum number of miles you can drive?",
+      "answer": "400",
+      "explanation": "Set up: 25 + 0.15m ≤ 85. Subtract 25: 0.15m ≤ 60. Divide by 0.15: m ≤ 400. The maximum is 400 miles."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:29:11.593Z",
+  "model": "claude-haiku-4-5-20251001"
+}

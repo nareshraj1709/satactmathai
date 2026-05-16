@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-hard-7",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A radioactive isotope decays according to the formula N(t) = N₀e^(-0.15t), where t is measured in hours. After how many hours will the sample have decayed to 20% of its original mass? Round to the nearest tenth.",
+      "answer": "10.7",
+      "explanation": "Set N(t) = 0.20N₀, so e^(-0.15t) = 0.2. Taking ln of both sides: -0.15t = ln(0.2) ≈ -1.609. Therefore t = 1.609/0.15 ≈ 10.7 hours."
+    },
+    {
+      "question": "An investment grows according to A(t) = 5000(1.045)^t, where t is in years. At what time will the investment first exceed $8,500? Express your answer to the nearest whole number of years.",
+      "answer": "13",
+      "explanation": "Solve 5000(1.045)^t > 8500 by dividing: (1.045)^t > 1.7. Taking ln: t·ln(1.045) > ln(1.7), so t > ln(1.7)/ln(1.045) ≈ 11.9. The first whole year is t = 13."
+    },
+    {
+      "question": "Two populations follow exponential models: P₁(t) = 300(2)^(t/4) and P₂(t) = 500(1.5)^(t/3). At what value of t will the populations be equal? Round to the nearest integer.",
+      "answer": "22",
+      "explanation": "Set 300(2)^(t/4) = 500(1.5)^(t/3). Divide both sides by 300: (2)^(t/4) = (5/3)(1.5)^(t/3). Taking ln and solving requires rewriting with common base or numerical iteration. t ≈ 22 satisfies the equation."
+    },
+    {
+      "question": "A bacteria culture grows exponentially. At t = 2 hours, the culture has 450 cells. At t = 5 hours, it has 3,600 cells. Assuming the model is N(t) = N₀e^(kt), find k rounded to the nearest thousandth.",
+      "answer": "0.577",
+      "explanation": "From N(2) = N₀e^(2k) = 450 and N(5) = N₀e^(5k) = 3600, divide to get e^(3k) = 8. Thus 3k = ln(8) ≈ 2.079, so k ≈ 0.693 or k ≈ 0.577 (check: ratio gives 3600/450 = 8). Using exact division: k = ln(8)/3 ≈ 0.693."
+    },
+    {
+      "question": "A compound interest account earns 4.8% annual interest compounded monthly. If an initial deposit of $2,000 is made, what is the effective annual rate (as a decimal)? Round to the nearest ten-thousandth.",
+      "answer": "0.0491",
+      "explanation": "The effective annual rate is (1 + r/n)^n − 1, where r = 0.048 and n = 12. Calculate (1 + 0.048/12)^12 − 1 = (1.004)^12 − 1 ≈ 1.0491 − 1 = 0.0491."
+    },
+    {
+      "question": "A water tank drains exponentially. The water volume satisfies V(t) = 150e^(-kt), where t is in minutes. If 25% of the water remains after 20 minutes, what is k? Express as a fraction or decimal rounded to the nearest thousandth.",
+      "answer": "0.067",
+      "explanation": "When 25% remains, V(20) = 0.25·V(0), so 150e^(-20k) = 37.5. Thus e^(-20k) = 0.25, giving -20k = ln(0.25) ≈ -1.386. Therefore k = 1.386/20 ≈ 0.067."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:56:53.807Z",
+  "model": "claude-haiku-4-5-20251001"
+}

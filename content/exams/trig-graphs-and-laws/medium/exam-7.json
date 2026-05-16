@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-7",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A sinusoidal function has amplitude 3, period 4π, and passes through the origin with positive slope. Write the function in the form y = A sin(Bx + C).",
+      "answer": "y = 3sin(x/2)",
+      "explanation": "Amplitude A = 3. Period = 2π/B = 4π, so B = 1/2. Since the function passes through (0,0) with positive slope, C = 0. Thus y = 3sin(x/2)."
+    },
+    {
+      "question": "In triangle ABC, angle A = 35°, angle B = 80°, and side a = 12. Find side b using the Law of Sines. Round to one decimal place.",
+      "answer": "b = 19.3",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B). So 12/sin(35°) = b/sin(80°). Thus b = 12·sin(80°)/sin(35°) ≈ 12·(0.985)/(0.574) ≈ 19.3."
+    },
+    {
+      "question": "The graph of y = cos(2x) is shifted right by π/4 units. What is the equation of the new graph?",
+      "answer": "y = cos(2x - π/2) or y = -sin(2x)",
+      "explanation": "Shifting right by π/4 replaces x with (x - π/4), giving y = cos(2(x - π/4)) = cos(2x - π/2). Using the cofunction identity, this equals -sin(2x)."
+    },
+    {
+      "question": "In triangle XYZ, sides x = 7, y = 10, and angle Z = 50°. Find side z using the Law of Cosines. Round to one decimal place.",
+      "answer": "z = 7.8",
+      "explanation": "By Law of Cosines: z² = x² + y² - 2xy·cos(Z) = 49 + 100 - 2(7)(10)cos(50°) = 149 - 140(0.643) ≈ 149 - 90.0 ≈ 59. Thus z ≈ √59 ≈ 7.8."
+    },
+    {
+      "question": "The function y = tan(x) has a vertical asymptote at x = π/2. At what value of x does y = tan(3x) have its first vertical asymptote for x > 0?",
+      "answer": "x = π/6",
+      "explanation": "tan(3x) has vertical asymptotes when 3x = π/2 + nπ. For the first asymptote with x > 0, set 3x = π/2, so x = π/6."
+    },
+    {
+      "question": "In triangle PQR, all three sides are known: p = 8, q = 6, r = 7. Use the Law of Cosines to find angle Q. Round to the nearest degree.",
+      "answer": "Q = 49°",
+      "explanation": "By Law of Cosines: q² = p² + r² - 2pr·cos(Q). So 36 = 64 + 49 - 2(8)(7)cos(Q), giving 36 = 113 - 112cos(Q). Thus cos(Q) = 77/112 ≈ 0.688, and Q ≈ arccos(0.688) ≈ 49°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:59.160Z",
+  "model": "claude-haiku-4-5-20251001"
+}

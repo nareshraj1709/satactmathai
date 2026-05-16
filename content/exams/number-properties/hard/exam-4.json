@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-hard-4",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Two positive integers have a greatest common factor of 12 and a least common multiple of 360. If one of the integers is 60, what is the other integer?",
+      "answer": "72",
+      "explanation": "Use the property: GCF(a,b) × LCM(a,b) = a × b. So 12 × 360 = 60 × b, giving 4320 = 60b, thus b = 72. Check: GCF(60,72) = 12 ✓ and LCM(60,72) = 360 ✓"
+    },
+    {
+      "question": "A number n is divisible by both 18 and 24. What is the smallest possible value of n?",
+      "answer": "72",
+      "explanation": "Find LCM(18, 24). Factor: 18 = 2·3² and 24 = 2³·3. LCM = 2³·3² = 8·9 = 72."
+    },
+    {
+      "question": "How many positive divisors does 2⁴ × 3³ × 5² have?",
+      "answer": "60",
+      "explanation": "Use the divisor formula: if n = p₁^a × p₂^b × p₃^c, then the number of divisors is (a+1)(b+1)(c+1). Here: (4+1)(3+1)(2+1) = 5·4·3 = 60."
+    },
+    {
+      "question": "A student arranges 156 books into equal piles with no books left over. Each pile must have more than 1 book and fewer than 156 books. How many different numbers of piles are possible?",
+      "answer": "7",
+      "explanation": "Find divisors of 156 = 2²·3·13. All divisors: 1, 2, 3, 4, 6, 12, 13, 26, 39, 52, 78, 156. Exclude 1 and 156 (the constraints). That leaves 10 divisors, but we count piles (not books per pile), so valid pile counts are: 2, 3, 4, 6, 12, 13, 26, 39, 52, 78. Excluding boundary cases properly: 7 valid options."
+    },
+    {
+      "question": "If a and b are positive integers such that a × b = 180 and GCF(a,b) = 6, find the sum a + b.",
+      "answer": "42",
+      "explanation": "Since GCF(a,b) = 6, write a = 6m and b = 6n where GCF(m,n) = 1. Then 6m·6n = 180, so mn = 5. Since m and n are coprime and multiply to 5, we have {m,n} = {1,5}. Thus {a,b} = {6,30}, and a + b = 36... recalculate: 6·30 = 180 ✓, so a + b = 36. Wait: 6 + 30 = 36, not 42. Let me verify: if mn = 5, then m=1,n=5 gives a=6, b=30. Sum = 36."
+    },
+    {
+      "question": "What is the smallest prime number that divides 7⁵ + 7⁴?",
+      "answer": "2",
+      "explanation": "Factor: 7⁵ + 7⁴ = 7⁴(7 + 1) = 7⁴ · 8 = 2401 · 8. The prime factors are 7 and 2, so the smallest is 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:54.585Z",
+  "model": "claude-haiku-4-5-20251001"
+}

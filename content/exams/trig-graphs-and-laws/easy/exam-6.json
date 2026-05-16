@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-6",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "The graph of y = sin(x) has a period of 2π. What is the period of y = sin(2x)?",
+      "answer": "π",
+      "explanation": "When the argument is multiplied by a constant k, the period becomes (original period)/k. Here, period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, angle A = 30°, angle B = 60°, and side a = 5. Using the Law of Sines, find side b.",
+      "answer": "5√3",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B), so 5/sin(30°) = b/sin(60°). Thus 5/(1/2) = b/(√3/2), giving b = 5√3."
+    },
+    {
+      "question": "What is the amplitude of the function y = 3cos(x)?",
+      "answer": "3",
+      "explanation": "Amplitude is the absolute value of the coefficient in front of the trig function. Here |3| = 3."
+    },
+    {
+      "question": "In triangle DEF, sides d = 7, e = 8, and angle F = 90°. Find side f using the Law of Cosines.",
+      "answer": "√113",
+      "explanation": "Law of Cosines: f² = d² + e² − 2de·cos(F) = 49 + 64 − 2(7)(8)cos(90°) = 113 + 0 = 113. So f = √113."
+    },
+    {
+      "question": "The graph of y = tan(x) has a vertical asymptote at x = π/2. At what x-value does the next vertical asymptote occur?",
+      "answer": "3π/2",
+      "explanation": "The tangent function has vertical asymptotes at odd multiples of π/2. The next asymptote after π/2 is at 3π/2."
+    },
+    {
+      "question": "A triangle has sides a = 6, b = 8, and c = 10. Is this a right triangle? Explain briefly.",
+      "answer": "Yes",
+      "explanation": "Check if a² + b² = c²: 36 + 64 = 100 ✓. Since the condition holds, this is a right triangle with the right angle opposite the side of length 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:26.666Z",
+  "model": "claude-haiku-4-5-20251001"
+}

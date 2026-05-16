@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-2",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF uses the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A baker has 36 chocolate chips and 60 nuts. She wants to divide them equally among muffins with no leftovers. What is the greatest number of muffins she can make?",
+      "answer": "12",
+      "explanation": "Find GCF(36, 60). The factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36 and factors of 60 are 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60. The greatest common factor is 12."
+    },
+    {
+      "question": "Which of the following is a multiple of both 15 and 24?",
+      "answer": "120",
+      "explanation": "Find the LCM of 15 and 24. Prime factors: 15 = 3 × 5 and 24 = 2³ × 3. LCM = 2³ × 3 × 5 = 120."
+    },
+    {
+      "question": "If n is divisible by 6 and divisible by 8, what is the smallest positive integer that n must be divisible by?",
+      "answer": "24",
+      "explanation": "Find LCM(6, 8). Since 6 = 2 × 3 and 8 = 2³, the LCM = 2³ × 3 = 24. Any number divisible by both 6 and 8 must be divisible by their LCM."
+    },
+    {
+      "question": "How many positive divisors does 72 have?",
+      "answer": "12",
+      "explanation": "Find prime factorization: 72 = 2³ × 3². The number of divisors is (3+1)(2+1) = 4 × 3 = 12."
+    },
+    {
+      "question": "Two bells ring at regular intervals. One rings every 12 seconds and the other every 18 seconds. If both ring at the same time now, in how many seconds will they ring together again?",
+      "answer": "36",
+      "explanation": "Find LCM(12, 18). Since 12 = 2² × 3 and 18 = 2 × 3², the LCM = 2² × 3² = 36 seconds."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:49.250Z",
+  "model": "claude-haiku-4-5-20251001"
+}

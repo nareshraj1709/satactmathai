@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-hard-9",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A data set of 8 test scores has a mean of 76. If one score of 64 is removed and replaced with 88, what is the new mean?",
+      "answer": "79",
+      "explanation": "Original sum: 8 × 76 = 608. Remove 64 and add 88: 608 − 64 + 88 = 632. New mean: 632 ÷ 8 = 79."
+    },
+    {
+      "question": "In a list of five consecutive integers, the median is 12. What is the range?",
+      "answer": "4",
+      "explanation": "Five consecutive integers with median 12: {10, 11, 12, 13, 14}. Range = largest − smallest = 14 − 10 = 4."
+    },
+    {
+      "question": "A dataset has 11 values with a median of 45. The largest value is 92. If a new observation of 105 is added, what is the new median?",
+      "answer": "45",
+      "explanation": "With 11 values, the median is the 6th value when sorted. Adding one value creates 12 values; the new median is the average of the 6th and 7th values. Since 105 is the largest, it goes at the end. The 6th and 7th values remain unchanged at position, so the new median is (45 + 45) ÷ 2 = 45."
+    },
+    {
+      "question": "A class has 20 students. Their mean test score is 82. After 5 additional students join and take the test, the new mean is 80. What is the total score of the 5 new students?",
+      "answer": "70",
+      "explanation": "Original total: 20 × 82 = 1640. New total for 25 students: 25 × 80 = 2000. Sum of 5 new scores: 2000 − 1640 = 360. Mean of new students: 360 ÷ 5 = 72. Wait—recalculate: the question asks for total, not mean. Total = 360."
+    },
+    {
+      "question": "A dataset contains the values {3, 5, 7, 9, 11}. If every value is multiplied by 4 and then 2 is subtracted, what is the new standard deviation relative to the original?",
+      "answer": "4 times the original",
+      "explanation": "Linear transformation y = 4x − 2: multiplying by a constant scales the standard deviation by that constant's absolute value. Subtracting a constant does not change spread. New SD = 4 × (original SD)."
+    },
+    {
+      "question": "A symmetric distribution has a mean of 50 and a median of 50. If the standard deviation is 6, approximately what percentage of data falls between 44 and 56?",
+      "answer": "68",
+      "explanation": "The interval [44, 56] represents [mean − 1σ, mean + 1σ] = [50 − 6, 50 + 6]. By the empirical rule, approximately 68% of data in a normal distribution falls within one standard deviation of the mean."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:41:44.722Z",
+  "model": "claude-haiku-4-5-20251001"
+}

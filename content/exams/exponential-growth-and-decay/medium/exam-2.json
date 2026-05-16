@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-2",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A population of bacteria doubles every 3 hours. If there are currently 500 bacteria, how many will there be after 9 hours?",
+      "answer": "4000",
+      "explanation": "After 9 hours, there are 9 ÷ 3 = 3 doubling periods. So the population is 500 × 2³ = 500 × 8 = 4000."
+    },
+    {
+      "question": "A radioactive substance decays according to the formula N(t) = 1000 × (0.5)^(t/5), where t is in years. What is the mass remaining after 10 years?",
+      "answer": "250",
+      "explanation": "Substitute t = 10: N(10) = 1000 × (0.5)^(10/5) = 1000 × (0.5)² = 1000 × 0.25 = 250."
+    },
+    {
+      "question": "An investment of $2000 grows at an annual rate of 5%. Which expression represents the value after t years if interest is compounded annually?",
+      "answer": "2000(1.05)^t",
+      "explanation": "Compound interest formula: A = P(1 + r)^t, where P = 2000 and r = 0.05. So A = 2000(1.05)^t."
+    },
+    {
+      "question": "A cup of coffee cools from 90°C to room temperature (20°C) following an exponential decay model. After 5 minutes, the temperature is 70°C. Approximately how many minutes will it take to reach 30°C? (Round to the nearest whole number.)",
+      "answer": "20",
+      "explanation": "Use T(t) = 20 + 70(0.5)^(t/5). When T = 30: 30 = 20 + 70(0.5)^(t/5), so (0.5)^(t/5) = 1/7 ≈ 0.143. Taking logs: t/5 × log(0.5) = log(1/7), giving t ≈ 19.5, or 20 minutes."
+    },
+    {
+      "question": "If a quantity increases by a factor of 3 every 2 years, by what factor does it increase in 1 year? Express your answer as a single radical or power.",
+      "answer": "√3 or 3^(1/2)",
+      "explanation": "If N(t) = N₀ × 3^(t/2), then N(1) = N₀ × 3^(1/2) = N₀√3. The growth factor in 1 year is √3."
+    },
+    {
+      "question": "A viral video gets shared exponentially. On day 0, there are 100 views. On day 2, there are 900 views. Assuming exponential growth of the form y = ab^t, what is the base b (growth factor per day)?",
+      "answer": "3",
+      "explanation": "Set up: 100b² = 900, so b² = 9, giving b = 3 (taking the positive root). The number of views triples each day."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:48.257Z",
+  "model": "claude-haiku-4-5-20251001"
+}

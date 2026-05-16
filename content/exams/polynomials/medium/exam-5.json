@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-medium-5",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Divide the polynomial $2x^3 + 7x^2 - 5x - 4$ by $x + 2$. What is the remainder?",
+      "answer": "-6",
+      "explanation": "Use the Remainder Theorem: substitute $x = -2$ into the polynomial. $2(-2)^3 + 7(-2)^2 - 5(-2) - 4 = -16 + 28 + 10 - 4 = -6$."
+    },
+    {
+      "question": "Factor completely: $3x^3 - 12x$.",
+      "answer": "3x(x - 2)(x + 2)",
+      "explanation": "First factor out the GCF: $3x(x^2 - 4)$. Then recognize $x^2 - 4$ as a difference of squares: $(x - 2)(x + 2)$."
+    },
+    {
+      "question": "Multiply $(x + 3)(x^2 - 3x + 9)$ and express your answer as a polynomial.",
+      "answer": "x^3 + 27",
+      "explanation": "This is the sum of cubes pattern: $(a + b)(a^2 - ab + b^2) = a^3 + b^3$ where $a = x$ and $b = 3$, giving $x^3 + 27$."
+    },
+    {
+      "question": "If $p(x) = x^3 - 4x^2 + x + 6$ and $(x - 3)$ is a factor, find the other two linear factors.",
+      "answer": "(x - 2)(x + 1)",
+      "explanation": "Divide $p(x)$ by $(x - 3)$ using polynomial division to get $x^2 - x - 2$. Factor this quadratic: $(x - 2)(x + 1)$."
+    },
+    {
+      "question": "A rectangular garden has length $2x + 1$ and width $x - 3$. Write the area as a polynomial in standard form.",
+      "answer": "2x^2 - 5x - 3",
+      "explanation": "Area = $(2x + 1)(x - 3) = 2x^2 - 6x + x - 3 = 2x^2 - 5x - 3$."
+    },
+    {
+      "question": "Find all real zeros of $f(x) = x^3 - 2x^2 - x + 2$. List them in order from least to greatest.",
+      "answer": "-1, 1, 2",
+      "explanation": "Factor by grouping: $x^2(x - 2) - 1(x - 2) = (x - 2)(x^2 - 1) = (x - 2)(x - 1)(x + 1)$. Set each factor to zero to get $x = -1, 1, 2$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:51:10.532Z",
+  "model": "claude-haiku-4-5-20251001"
+}

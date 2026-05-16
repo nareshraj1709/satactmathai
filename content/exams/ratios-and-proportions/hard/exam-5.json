@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-5",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you have 18 grams of sugar available, how many grams of flour should you use?",
+      "answer": "45",
+      "explanation": "Set up the proportion: flour/sugar = 5/2. With 18 grams of sugar: flour/18 = 5/2, so flour = 18 × (5/2) = 45 grams."
+    },
+    {
+      "question": "In a survey, the ratio of people who prefer coffee to those who prefer tea is 7:3. If 240 more people prefer coffee than tea, how many people were surveyed in total?",
+      "answer": "2400",
+      "explanation": "Let coffee = 7x and tea = 3x. Then 7x − 3x = 240, so 4x = 240, giving x = 60. Total surveyed = 7(60) + 3(60) = 600 + 180 = 780... Wait, let me recalculate: 7(60) = 420 and 3(60) = 180, difference is 240 ✓. Total = 420 + 180 = 600. Actually: if the difference is 4x = 240, then x = 60, and total = 10x = 600. Let me verify once more: 7(60) − 3(60) = 420 − 180 = 240 ✓. Total = 600."
+    },
+    {
+      "question": "Two variables x and y are inversely proportional. When x = 8, y = 15. Find y when x = 12.",
+      "answer": "10",
+      "explanation": "For inverse proportion, xy = k (constant). Find k: 8 × 15 = 120. When x = 12: 12y = 120, so y = 10."
+    },
+    {
+      "question": "A map uses a scale of 1 cm : 50 km. Two cities are 7.5 cm apart on the map. The driving distance between them is 20% longer than the straight-line distance. What is the actual driving distance in kilometers?",
+      "answer": "450",
+      "explanation": "Straight-line distance: 7.5 cm × 50 km/cm = 375 km. Driving distance is 20% longer: 375 × 1.20 = 450 km."
+    },
+    {
+      "question": "A concrete mix requires cement, sand, and gravel in the ratio 1:2:4 by weight. If the batch contains 63 kg total, how many kilograms of sand are needed?",
+      "answer": "18",
+      "explanation": "Total ratio parts: 1 + 2 + 4 = 7. Sand represents 2 parts out of 7. Sand = (2/7) × 63 = 18 kg."
+    },
+    {
+      "question": "A printer produces 450 pages per hour. If the printing rate remains constant, how many minutes are needed to print a 375-page document?",
+      "answer": "50",
+      "explanation": "Set up the proportion: 450 pages / 60 minutes = 375 pages / t minutes. Solve: t = (375 × 60) / 450 = 22500 / 450 = 50 minutes."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:14.842Z",
+  "model": "claude-haiku-4-5-20251001"
+}

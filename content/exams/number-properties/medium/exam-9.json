@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-9",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF uses the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A bakery has 36 chocolate cookies and 48 vanilla cookies. The baker wants to make identical gift boxes with the same number of each type of cookie in every box, with no cookies left over. What is the maximum number of gift boxes that can be made?",
+      "answer": "12",
+      "explanation": "The maximum number of boxes is the GCF of 36 and 48. Since 36 = 2² × 3² and 48 = 2⁴ × 3, the GCF is 2² × 3 = 12."
+    },
+    {
+      "question": "Which of the following is a multiple of both 12 and 18?",
+      "answer": "36",
+      "explanation": "Find the LCM of 12 and 18. Since 12 = 2² × 3 and 18 = 2 × 3², the LCM = 2² × 3² = 36. Any multiple of the LCM works (36, 72, 108, ...)."
+    },
+    {
+      "question": "If a number is divisible by both 6 and 8, what is the smallest positive number that must divide it?",
+      "answer": "24",
+      "explanation": "A number divisible by both 6 and 8 must be divisible by their LCM. Since 6 = 2 × 3 and 8 = 2³, the LCM = 2³ × 3 = 24."
+    },
+    {
+      "question": "How many prime factors (counted with multiplicity) does 2,520 have if 2,520 = 2³ × 3² × 5 × 7?",
+      "answer": "7",
+      "explanation": "Count all prime factors including repeats: three 2's, two 3's, one 5, and one 7 gives 3 + 2 + 1 + 1 = 7 total prime factors."
+    },
+    {
+      "question": "A number n is divisible by 4 but leaves a remainder of 1 when divided by 5. If n is between 50 and 70, what is n?",
+      "answer": "61",
+      "explanation": "Numbers divisible by 4 in the range: 52, 56, 60, 64, 68. Check which leaves remainder 1 when divided by 5: 61 ÷ 5 = 12 R1. (Note: 61 = 4 × 15 + 1, but we need divisibility by 4; recalculate: 64 ÷ 5 = 12 R4, 56 ÷ 5 = 11 R1 ✓)"
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:18.289Z",
+  "model": "claude-haiku-4-5-20251001"
+}

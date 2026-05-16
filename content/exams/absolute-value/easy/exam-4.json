@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-4",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve for x: |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "The absolute value of x equals 7 when x is 7 units from 0 on the number line. This happens at both x = 7 and x = -7."
+    },
+    {
+      "question": "Solve for x: |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "The expression (x - 2) equals either 5 or -5. If x - 2 = 5, then x = 7. If x - 2 = -5, then x = -3."
+    },
+    {
+      "question": "What values of x satisfy |x| < 3?",
+      "answer": "-3 < x < 3",
+      "explanation": "Absolute value less than 3 means x is within 3 units of 0. This is the interval from -3 to 3, not including the endpoints."
+    },
+    {
+      "question": "A temperature reading differs from 72°F by no more than 4°F. Write an absolute value inequality for the actual temperature T.",
+      "answer": "|T - 72| ≤ 4",
+      "explanation": "\"Differs by no more than 4\" means the distance from T to 72 is at most 4, which is expressed as |T - 72| ≤ 4."
+    },
+    {
+      "question": "Solve for x: |2x| = 10",
+      "answer": "x = 5 or x = -5",
+      "explanation": "2x equals either 10 or -10. If 2x = 10, then x = 5. If 2x = -10, then x = -5."
+    },
+    {
+      "question": "Solve for x: |x + 1| = 0",
+      "answer": "x = -1",
+      "explanation": "Absolute value equals 0 only when the expression inside equals 0. So x + 1 = 0, giving x = -1."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:10.073Z",
+  "model": "claude-haiku-4-5-20251001"
+}

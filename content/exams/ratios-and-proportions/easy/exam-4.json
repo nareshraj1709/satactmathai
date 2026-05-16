@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-4",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of flour, how many cups of sugar do you need?",
+      "answer": "9",
+      "explanation": "Set up the proportion: 2/3 = 6/x. Cross-multiply: 2x = 18, so x = 9."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 5:4. If there are 20 boys, how many girls are there?",
+      "answer": "16",
+      "explanation": "Boys:Girls = 5:4, so 5/4 = 20/x. Cross-multiply: 5x = 80, so x = 16."
+    },
+    {
+      "question": "A map has a scale of 1 inch to 50 miles. If two cities are 4 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "200",
+      "explanation": "Use the scale: 1 inch = 50 miles, so 4 inches = 4 × 50 = 200 miles."
+    },
+    {
+      "question": "If 5 apples cost $3, what is the cost of 15 apples at the same rate?",
+      "answer": "$9",
+      "explanation": "The cost per apple is $3/5. For 15 apples: 15 × (3/5) = 45/5 = $9."
+    },
+    {
+      "question": "A car travels 240 miles in 4 hours. At this rate, how many miles does it travel in 6 hours?",
+      "answer": "360",
+      "explanation": "Speed = 240/4 = 60 miles per hour. In 6 hours: 60 × 6 = 360 miles."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles is 3:2. If there are 10 blue marbles, how many red marbles are there?",
+      "answer": "15",
+      "explanation": "Red:Blue = 3:2, so 3/2 = x/10. Cross-multiply: 2x = 30, so x = 15."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:32:31.735Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-3",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 12 cm. What is the length of the hypotenuse? Round to the nearest tenth.",
+      "answer": "20.9 cm",
+      "explanation": "Use sin(35°) = opposite/hypotenuse. So hypotenuse = 12/sin(35°) ≈ 12/0.574 ≈ 20.9 cm."
+    },
+    {
+      "question": "What is sin(150°) in simplest form?",
+      "answer": "1/2",
+      "explanation": "150° = 180° − 30°. By the reference angle, sin(150°) = sin(30°) = 1/2."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 62° angle with the ground. If the ladder is 8 meters long, how high up the wall does it reach? Round to the nearest tenth.",
+      "answer": "7.1 meters",
+      "explanation": "The height is the side opposite the 62° angle. Use sin(62°) = height/8, so height = 8·sin(62°) ≈ 8(0.883) ≈ 7.1 meters."
+    },
+    {
+      "question": "Simplify: sin²(θ) + cos²(θ) − cos²(θ)",
+      "answer": "sin²(θ) or 1 − cos²(θ)",
+      "explanation": "The Pythagorean identity sin²(θ) + cos²(θ) = 1. Subtracting cos²(θ) from 1 leaves sin²(θ)."
+    },
+    {
+      "question": "An observer stands 50 meters from the base of a building. The angle of elevation to the top is 48°. What is the height of the building? Round to the nearest meter.",
+      "answer": "56 meters",
+      "explanation": "Use tan(48°) = height/50, so height = 50·tan(48°) ≈ 50(1.111) ≈ 56 meters."
+    },
+    {
+      "question": "What is the value of tan(45°)?",
+      "answer": "1",
+      "explanation": "At 45°, the opposite and adjacent sides of a 45-45-90 triangle are equal, so tan(45°) = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:36.612Z",
+  "model": "claude-haiku-4-5-20251001"
+}

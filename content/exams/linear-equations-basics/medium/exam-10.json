@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-10",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 5 = 3m + 8",
+      "answer": "m = -13",
+      "explanation": "Subtract 2m from both sides: -5 = m + 8. Subtract 8 from both sides: m = -13."
+    },
+    {
+      "question": "Solve for y: (1/2)y + 6 = 14",
+      "answer": "y = 16",
+      "explanation": "Subtract 6 from both sides: (1/2)y = 8. Multiply both sides by 2: y = 16."
+    },
+    {
+      "question": "A phone plan costs $35 per month plus $0.10 per text message. If Maria's bill is $47.50, how many text messages did she send?",
+      "answer": "125",
+      "explanation": "Set up: 35 + 0.10x = 47.50. Subtract 35: 0.10x = 12.50. Divide by 0.10: x = 125."
+    },
+    {
+      "question": "Solve for x: 0.4x - 1.2 = 0.8",
+      "answer": "x = 5",
+      "explanation": "Add 1.2 to both sides: 0.4x = 2. Divide both sides by 0.4: x = 5."
+    },
+    {
+      "question": "Solve for t: 4(t - 2) = 20",
+      "answer": "t = 7",
+      "explanation": "Divide both sides by 4: t - 2 = 5. Add 2 to both sides: t = 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:30.847Z",
+  "model": "claude-haiku-4-5-20251001"
+}

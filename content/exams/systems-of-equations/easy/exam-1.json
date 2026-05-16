@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-easy-1",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Solve the system:\nx + y = 5\nx - y = 1",
+      "answer": "x = 3, y = 2",
+      "explanation": "Add the equations to eliminate y: 2x = 6, so x = 3. Substitute into the first equation: 3 + y = 5, so y = 2."
+    },
+    {
+      "question": "Solve for y:\n2x + y = 7\ny = x + 1",
+      "answer": "y = 3",
+      "explanation": "Substitute y = x + 1 into the first equation: 2x + (x + 1) = 7. Simplify: 3x + 1 = 7, so x = 2. Then y = 2 + 1 = 3."
+    },
+    {
+      "question": "Two numbers sum to 12 and have a difference of 4. What is the larger number?",
+      "answer": "8",
+      "explanation": "Let the numbers be x and y where x > y. Set up: x + y = 12 and x - y = 4. Add to get 2x = 16, so x = 8."
+    },
+    {
+      "question": "Solve the system:\n3x + 2y = 11\nx = 3",
+      "answer": "x = 3, y = 1",
+      "explanation": "Substitute x = 3 into the first equation: 3(3) + 2y = 11, so 9 + 2y = 11. Then 2y = 2, giving y = 1."
+    },
+    {
+      "question": "Solve for x:\n4x - y = 10\ny = 2x",
+      "answer": "x = 5",
+      "explanation": "Substitute y = 2x into the first equation: 4x - 2x = 10. Simplify: 2x = 10, so x = 5."
+    },
+    {
+      "question": "Solve the system:\n2x + y = 8\nx + y = 5",
+      "answer": "x = 3, y = 2",
+      "explanation": "Subtract the second equation from the first to eliminate y: (2x + y) - (x + y) = 8 - 5, giving x = 3. Substitute into x + y = 5 to get y = 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:02.610Z",
+  "model": "claude-haiku-4-5-20251001"
+}

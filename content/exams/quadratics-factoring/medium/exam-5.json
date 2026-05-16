@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-5",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Factor the quadratic: 2x² + 11x + 12",
+      "answer": "(2x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 2·12 = 24 and add to 11: that's 3 and 8. Rewrite as 2x² + 3x + 8x + 12, then factor by grouping: x(2x + 3) + 4(2x + 3) = (2x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: 3x² - 7x - 20 = 0",
+      "answer": "x = -5/3 or x = 4",
+      "explanation": "Factor 3x² - 7x - 20: find numbers that multiply to 3·(-20) = -60 and add to -7 (use 5 and -12). Rewrite and factor by grouping to get (3x + 5)(x - 4) = 0. Solve: x = -5/3 or x = 4."
+    },
+    {
+      "question": "The area of a rectangular garden is 28 square meters. If the length is 3 meters more than the width, find the width.",
+      "answer": "4 meters",
+      "explanation": "Let width = w. Then length = w + 3, so w(w + 3) = 28. This gives w² + 3w - 28 = 0. Factor as (w + 7)(w - 4) = 0. Since width must be positive, w = 4."
+    },
+    {
+      "question": "Factor completely: 5x² - 20",
+      "answer": "5(x - 2)(x + 2)",
+      "explanation": "First factor out the GCF of 5: 5(x² - 4). Recognize x² - 4 as a difference of squares: 5(x - 2)(x + 2)."
+    },
+    {
+      "question": "If (x - 6)(x + 2) = 0, what are the two solutions?",
+      "answer": "x = 6 or x = -2",
+      "explanation": "When a product equals zero, at least one factor must equal zero. Set x - 6 = 0 and x + 2 = 0 to get x = 6 and x = -2."
+    },
+    {
+      "question": "Factor the quadratic: 6x² - x - 12",
+      "answer": "(2x - 3)(3x + 4)",
+      "explanation": "Find numbers that multiply to 6·(-12) = -72 and add to -1: use -9 and 8. Rewrite 6x² - 9x + 8x - 12, then factor by grouping: 3x(2x - 3) + 4(2x - 3) = (2x - 3)(3x + 4)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:01.158Z",
+  "model": "claude-haiku-4-5-20251001"
+}

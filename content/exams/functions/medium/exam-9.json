@@ -1,0 +1,42 @@
+{
+  "id": "functions-medium-9",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Let f(x) = 2x + 3 and g(x) = x². Find f(g(2)).",
+      "answer": "11",
+      "explanation": "First find g(2) = 2² = 4. Then f(4) = 2(4) + 3 = 8 + 3 = 11."
+    },
+    {
+      "question": "If h(x) = (x - 1)² + 5, what is the vertex of the parabola?",
+      "answer": "(1, 5)",
+      "explanation": "The function is in vertex form h(x) = a(x - h)² + k, where the vertex is (h, k). Here h = 1 and k = 5."
+    },
+    {
+      "question": "Let f(x) = 3x - 2. If f(a) = 10, what is the value of a?",
+      "answer": "4",
+      "explanation": "Set 3a - 2 = 10. Then 3a = 12, so a = 4."
+    },
+    {
+      "question": "The function p(t) = 500 - 15t represents the amount of water (in gallons) remaining in a tank after t minutes. How many minutes will it take for the tank to have 200 gallons remaining?",
+      "answer": "20",
+      "explanation": "Set p(t) = 200: 500 - 15t = 200. Then 15t = 300, so t = 20."
+    },
+    {
+      "question": "Let f(x) = x² - 4x. Find f(-1).",
+      "answer": "5",
+      "explanation": "Substitute x = -1: f(-1) = (-1)² - 4(-1) = 1 + 4 = 5."
+    },
+    {
+      "question": "If g(x) = 2ˣ, which is larger: g(3) or 2·g(2)?",
+      "answer": "g(3)",
+      "explanation": "g(3) = 2³ = 8 and 2·g(2) = 2·(2²) = 2·4 = 8. They are equal, but if the problem intends g(3) vs g(2) + g(2), then g(3) = 8 and 2g(2) = 8 are equal. Verify: both equal 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:01:13.391Z",
+  "model": "claude-haiku-4-5-20251001"
+}

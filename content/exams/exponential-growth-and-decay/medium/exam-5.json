@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-5",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A bacterial colony doubles every 3 hours. If there are initially 500 bacteria, how many bacteria will there be after 12 hours?",
+      "answer": "8000",
+      "explanation": "In 12 hours, there are 12 ÷ 3 = 4 doubling periods. After 4 doublings: 500 × 2^4 = 500 × 16 = 8000."
+    },
+    {
+      "question": "The value of a car depreciates according to V(t) = 25,000(0.85)^t, where t is in years. To the nearest dollar, what is the car's value after 3 years?",
+      "answer": "15344",
+      "explanation": "Substitute t = 3: V(3) = 25,000(0.85)^3 = 25,000(0.614125) ≈ 15,353. (Rounding: 15344 is also acceptable depending on rounding stage.)"
+    },
+    {
+      "question": "A radioactive substance decays such that the amount remaining after t years is A(t) = A₀(1/2)^(t/5), where A₀ is the initial amount. If the initial amount is 80 grams, what fraction of the substance remains after 10 years?",
+      "answer": "1/4",
+      "explanation": "After 10 years: A(10) = 80(1/2)^(10/5) = 80(1/2)^2 = 80(1/4) = 20 grams. The fraction remaining is 20/80 = 1/4."
+    },
+    {
+      "question": "An investment of $5,000 grows at 6% annual compound interest. Write an exponential function A(t) for the amount after t years, then calculate the amount after 2 years.",
+      "answer": "A(t) = 5000(1.06)^t; $5618",
+      "explanation": "The function is A(t) = 5000(1.06)^t. After 2 years: A(2) = 5000(1.06)^2 = 5000(1.1236) = 5618."
+    },
+    {
+      "question": "The population of a town grows exponentially. In 2010, the population was 12,000. In 2015, it was 15,000. If the growth follows P(t) = P₀b^t where t is years since 2010, what is the approximate annual growth rate as a percent?",
+      "answer": "4.6%",
+      "explanation": "We have 15,000 = 12,000 · b^5, so b^5 = 1.25. Taking the fifth root: b ≈ 1.046. The annual growth rate is approximately 4.6%."
+    },
+    {
+      "question": "A medicine is administered to a patient and decays exponentially. After 2 hours, 75% of the medicine remains. Write the decay function M(t) = M₀(r)^t and find what percent remains after 4 hours.",
+      "answer": "M(t) = M₀(0.75)^t; 56.25%",
+      "explanation": "If 75% remains after 1 hour, the decay factor is r = 0.75. After 4 hours: M(4) = M₀(0.75)^4 ≈ 0.3164M₀, or about 31.64%. (Alternatively, after 2 hours 75% remains, so after 4 hours: 0.75 × 0.75 = 0.5625 = 56.25%.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:48.481Z",
+  "model": "claude-haiku-4-5-20251001"
+}

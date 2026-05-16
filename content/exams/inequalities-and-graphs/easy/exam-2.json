@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-2",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for x: 2x + 5 < 13",
+      "answer": "x < 4",
+      "explanation": "Subtract 5 from both sides: 2x < 8. Divide by 2: x < 4. The inequality direction stays the same because we divided by a positive number."
+    },
+    {
+      "question": "Which value of x satisfies the inequality −3x ≥ 9?",
+      "answer": "x ≤ −3",
+      "explanation": "Divide both sides by −3. When dividing an inequality by a negative number, flip the inequality sign: x ≤ −3."
+    },
+    {
+      "question": "Graph the solution to x − 2 > 1 on a number line. What is the boundary point?",
+      "answer": "3",
+      "explanation": "Add 2 to both sides: x > 3. The boundary point (the number where the inequality changes) is 3. Use an open circle since it's a strict inequality (>)."
+    },
+    {
+      "question": "A gym membership costs $30 plus $5 per month. Write an inequality for the total cost C to stay under $80.",
+      "answer": "30 + 5m < 80 or 5m + 30 < 80",
+      "explanation": "The fixed cost is $30, and each month costs $5, so total cost is 30 + 5m. Set this less than 80 to represent staying under budget."
+    },
+    {
+      "question": "Solve: −2(x − 3) ≤ 10",
+      "answer": "x ≥ −2",
+      "explanation": "Distribute: −2x + 6 ≤ 10. Subtract 6: −2x ≤ 4. Divide by −2 and flip the sign: x ≥ −2."
+    },
+    {
+      "question": "Is x = 0 a solution to 4x + 1 < 5? Answer yes or no.",
+      "answer": "yes",
+      "explanation": "Substitute x = 0: 4(0) + 1 = 1, and 1 < 5 is true. So x = 0 is a solution."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:21.820Z",
+  "model": "claude-haiku-4-5-20251001"
+}

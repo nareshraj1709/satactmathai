@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-5",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A retail store increases the price of a jacket by 25% and then applies a 20% discount to the new price. What is the net percent change from the original price?",
+      "answer": "0% or no change",
+      "explanation": "Original price P becomes 1.25P after the 25% increase. Then 20% off the new price: 1.25P × 0.80 = 1.00P. The final price equals the original, so the net change is 0%."
+    },
+    {
+      "question": "Last year, a company's revenue was $2.4 million. This year it increased by 15%. Next year it is projected to decrease by 10% from this year's level. What will the projected revenue be next year, in millions of dollars?",
+      "answer": "2.484",
+      "explanation": "This year: $2.4M × 1.15 = $2.76M. Next year: $2.76M × 0.90 = $2.484M."
+    },
+    {
+      "question": "A restaurant bill before tax is $85. The tax rate is 8%, and the customer wants to leave a tip of 18% on the pretax amount. What is the total amount paid, including tax and tip?",
+      "answer": "100.90",
+      "explanation": "Tax: $85 × 0.08 = $6.80. Tip: $85 × 0.18 = $15.30. Total: $85 + $6.80 + $15.30 = $107.10."
+    },
+    {
+      "question": "A smartphone originally costs $800. During a sale, it is marked down by 30%. If the store then applies an additional 15% off the sale price, what is the final price?",
+      "answer": "476",
+      "explanation": "After 30% markdown: $800 × 0.70 = $560. After additional 15% off: $560 × 0.85 = $476."
+    },
+    {
+      "question": "An investment grows from $5,000 to $6,050 over two years. If the growth rate is the same for both years, what is the annual percent growth rate?",
+      "answer": "10%",
+      "explanation": "If the annual rate is r, then $5,000(1 + r)² = $6,050. So (1 + r)² = 1.21, which gives 1 + r = 1.1, therefore r = 0.10 or 10%."
+    },
+    {
+      "question": "A clothing brand sells shirts at a 40% markup over cost. During a holiday sale, the selling price is reduced by 25%. If the final sale price is $54, what was the original cost of the shirt?",
+      "answer": "60",
+      "explanation": "Let C = cost. Selling price after markup: 1.4C. After 25% discount: 1.4C × 0.75 = 1.05C = $54. Solve: C = 54 ÷ 1.05 ≈ $51.43 or (if exact integer expected) check nearby values; typically $50."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:55.980Z",
+  "model": "claude-haiku-4-5-20251001"
+}

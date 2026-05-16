@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-3",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "The function f(x) = 3sin(2x) has amplitude A and period P. What is A + P?",
+      "answer": "3 + π",
+      "explanation": "For f(x) = a·sin(bx), amplitude A = |a| = 3 and period P = 2π/b = 2π/2 = π. Therefore A + P = 3 + π."
+    },
+    {
+      "question": "A triangle has sides a = 5, b = 7, and angle C = 60°. Find the length of side c using the law of cosines. Round to one decimal place.",
+      "answer": "6.2",
+      "explanation": "Law of cosines: c² = a² + b² − 2ab·cos(C) = 25 + 49 − 2(5)(7)cos(60°) = 74 − 70(0.5) = 39. So c = √39 ≈ 6.2."
+    },
+    {
+      "question": "If sin(θ) = 3/5 and θ is in the second quadrant, what is cos(θ)?",
+      "answer": "−4/5",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1: (3/5)² + cos²(θ) = 1, so cos²(θ) = 16/25. Since θ is in quadrant II, cos(θ) is negative: cos(θ) = −4/5."
+    },
+    {
+      "question": "A triangle has angles A = 50°, B = 70°, and side a = 10. Find side b using the law of sines. Round to one decimal place.",
+      "answer": "12.1",
+      "explanation": "Law of sines: a/sin(A) = b/sin(B), so 10/sin(50°) ≈ 10/0.766 ≈ 13.054. Then b = 13.054·sin(70°) ≈ 13.054(0.940) ≈ 12.1."
+    },
+    {
+      "question": "The graph of y = −cos(x) + 2 is shifted right by π/2 units. Write the equation of the resulting function.",
+      "answer": "y = −cos(x − π/2) + 2 or y = −sin(x) + 2",
+      "explanation": "Shifting right by π/2 replaces x with (x − π/2): y = −cos(x − π/2) + 2. Since cos(x − π/2) = sin(x), this simplifies to y = −sin(x) + 2."
+    },
+    {
+      "question": "In a triangle, a = 8, b = 6, and c = 7. Find cos(B) as a simplified fraction.",
+      "answer": "11/16",
+      "explanation": "Law of cosines: b² = a² + c² − 2ac·cos(B), so 36 = 64 + 49 − 2(8)(7)cos(B) = 113 − 112cos(B). Thus 112cos(B) = 77, giving cos(B) = 77/112 = 11/16."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:58.816Z",
+  "model": "claude-haiku-4-5-20251001"
+}

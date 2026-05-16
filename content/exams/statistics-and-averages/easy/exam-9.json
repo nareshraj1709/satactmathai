@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-9",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A student's test scores are 78, 85, 92, and 81. What is the mean score?",
+      "answer": "84",
+      "explanation": "Sum all scores: 78 + 85 + 92 + 81 = 336. Divide by the number of scores: 336 ÷ 4 = 84."
+    },
+    {
+      "question": "The heights of five players are 72, 70, 75, 70, and 68 inches. What is the median height?",
+      "answer": "70",
+      "explanation": "Arrange in order: 68, 70, 70, 72, 75. The middle value (3rd of 5) is 70."
+    },
+    {
+      "question": "A dataset contains the values 5, 9, 5, 12, 5, and 8. What is the mode?",
+      "answer": "5",
+      "explanation": "The value 5 appears three times, more than any other value. Mode is the most frequent value."
+    },
+    {
+      "question": "The temperatures over 6 days were 62°F, 68°F, 71°F, 65°F, 59°F, and 73°F. What is the range?",
+      "answer": "14",
+      "explanation": "Range = highest value − lowest value = 73 − 59 = 14."
+    },
+    {
+      "question": "If the mean of four numbers is 25, and three of the numbers are 20, 28, and 22, what is the fourth number?",
+      "answer": "30",
+      "explanation": "Mean × count = total sum. 25 × 4 = 100. So 20 + 28 + 22 + x = 100, which gives x = 30."
+    },
+    {
+      "question": "A data set has values 10, 15, 18, 22, 25. If 10 is removed, does the median increase, decrease, or stay the same?",
+      "answer": "increase",
+      "explanation": "Original median (5 values): 18. After removing 10, we have 15, 18, 22, 25 (4 values), so median = (18 + 22) ÷ 2 = 20. The median increased."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:13.724Z",
+  "model": "claude-haiku-4-5-20251001"
+}

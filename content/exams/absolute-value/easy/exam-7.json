@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-7",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Solve |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "Absolute value equals 7 when x is either 7 units to the right or 7 units to the left of 0 on the number line."
+    },
+    {
+      "question": "Solve |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "The expression (x - 2) equals 5 or (x - 2) equals -5. So x = 7 or x = -3."
+    },
+    {
+      "question": "Solve |2x| = 12",
+      "answer": "x = 6 or x = -6",
+      "explanation": "Divide both sides by 2: |x| = 6. So x = 6 or x = -6."
+    },
+    {
+      "question": "Which values of x satisfy |x + 3| = 1?",
+      "answer": "x = -2 or x = -4",
+      "explanation": "Set x + 3 = 1 to get x = -2, and x + 3 = -1 to get x = -4."
+    },
+    {
+      "question": "A number's distance from 0 is 8. Write an absolute value equation and solve it.",
+      "answer": "|x| = 8; x = 8 or x = -8",
+      "explanation": "Distance from 0 means absolute value. The equation |x| = 8 gives two solutions: 8 and -8."
+    },
+    {
+      "question": "Solve |x| = -3",
+      "answer": "No solution",
+      "explanation": "Absolute value is always non-negative, so it can never equal -3. The equation has no solution."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:08.392Z",
+  "model": "claude-haiku-4-5-20251001"
+}

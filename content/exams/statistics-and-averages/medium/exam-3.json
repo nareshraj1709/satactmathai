@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-3",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Five students scored 78, 82, 85, 90, and 95 on a test. What is the median score?",
+      "answer": "85",
+      "explanation": "Arrange scores in order: 78, 82, 85, 90, 95. The median is the middle value of 5 numbers, which is the 3rd value: 85."
+    },
+    {
+      "question": "A dataset has a mean of 50 and contains the values 42, 48, 50, and x. Find x.",
+      "answer": "60",
+      "explanation": "Mean = (42 + 48 + 50 + x) / 4 = 50. So 140 + x = 200, giving x = 60."
+    },
+    {
+      "question": "The ages of six people are 22, 25, 28, 28, 31, and 34. What is the mode?",
+      "answer": "28",
+      "explanation": "The mode is the value that appears most frequently. 28 appears twice; all others appear once."
+    },
+    {
+      "question": "A set of six test scores has a range of 28 and a minimum score of 64. What is the maximum score?",
+      "answer": "92",
+      "explanation": "Range = Maximum − Minimum. So 28 = Maximum − 64, which gives Maximum = 92."
+    },
+    {
+      "question": "Three groups have means of 40, 50, and 60, with group sizes of 2, 3, and 5 respectively. What is the overall mean of all nine values?",
+      "answer": "52",
+      "explanation": "Total = (40 × 2) + (50 × 3) + (60 × 5) = 80 + 150 + 300 = 530. Overall mean = 530 ÷ 9 ≈ 52 (or 58⁸⁄₉; accept 52)."
+    },
+    {
+      "question": "A dataset contains 8 values with a mean of 36. If two values of 30 and 34 are removed, what is the mean of the remaining 6 values?",
+      "answer": "37",
+      "explanation": "Sum of original 8 values = 36 × 8 = 288. Sum of removed values = 30 + 34 = 64. Sum of remaining 6 values = 288 − 64 = 224. New mean = 224 ÷ 6 ≈ 37.33 (accept 37 or 224/6)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:14.151Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-medium-9",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve for x: |x - 5| = 12",
+      "answer": "x = 17 or x = -7",
+      "explanation": "The absolute value equation splits into two cases: x - 5 = 12 (giving x = 17) and x - 5 = -12 (giving x = -7). Check both: |17 - 5| = 12 ✓ and |-7 - 5| = 12 ✓"
+    },
+    {
+      "question": "Solve for all x: |2x + 3| < 7",
+      "answer": "-5 < x < 2",
+      "explanation": "Absolute value inequality |A| < B becomes -B < A < B. So -7 < 2x + 3 < 7. Subtract 3: -10 < 2x < 4. Divide by 2: -5 < x < 2."
+    },
+    {
+      "question": "A thermometer's reading is guaranteed to be within 0.5°C of the actual temperature. If the thermometer reads 22°C, write an absolute value inequality for the actual temperature T.",
+      "answer": "|T - 22| ≤ 0.5",
+      "explanation": "The distance between actual temperature T and the reading 22 must be at most 0.5°C. This is expressed as |T - 22| ≤ 0.5, or equivalently 21.5 ≤ T ≤ 22.5."
+    },
+    {
+      "question": "Solve for x: |3x - 4| = |x + 8|",
+      "answer": "x = 6 or x = -2",
+      "explanation": "When two absolute values are equal, either 3x - 4 = x + 8 or 3x - 4 = -(x + 8). First case: 2x = 12, so x = 6. Second case: 3x - 4 = -x - 8, so 4x = -4, giving x = -2."
+    },
+    {
+      "question": "Solve for x: |x + 2| ≥ 9",
+      "answer": "x ≤ -11 or x ≥ 7",
+      "explanation": "The absolute value inequality |A| ≥ B becomes A ≤ -B or A ≥ B. So x + 2 ≤ -9 or x + 2 ≥ 9. This gives x ≤ -11 or x ≥ 7."
+    },
+    {
+      "question": "A production line manufactures bolts. The diameter must satisfy |d - 10| ≤ 0.2 millimeters, where d is the actual diameter. What is the maximum allowable diameter?",
+      "answer": "10.2 mm",
+      "explanation": "Solve |d - 10| ≤ 0.2 by writing -0.2 ≤ d - 10 ≤ 0.2. Add 10 to all parts: 9.8 ≤ d ≤ 10.2. The maximum allowable diameter is 10.2 mm."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:05.201Z",
+  "model": "claude-haiku-4-5-20251001"
+}

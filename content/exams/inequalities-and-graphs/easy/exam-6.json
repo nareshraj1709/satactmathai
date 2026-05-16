@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-6",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 > 14",
+      "answer": "x > 3",
+      "explanation": "Subtract 5 from both sides: 3x > 9. Divide by 3: x > 3."
+    },
+    {
+      "question": "Which of the following values satisfies x ≤ −2? Choose one: −3, −1, 0, 1",
+      "answer": "−3",
+      "explanation": "Check each value: −3 ≤ −2 is true. All others (−1, 0, 1) are greater than −2, so they don't work."
+    },
+    {
+      "question": "Solve for y: 2y − 6 < 4",
+      "answer": "y < 5",
+      "explanation": "Add 6 to both sides: 2y < 10. Divide by 2: y < 5."
+    },
+    {
+      "question": "A student needs at least 80 points to pass a test. If they have 65 points so far, write an inequality for the additional points p they need.",
+      "answer": "65 + p ≥ 80 or p ≥ 15",
+      "explanation": "Total points = 65 + p, and this must be at least 80. So 65 + p ≥ 80, which simplifies to p ≥ 15."
+    },
+    {
+      "question": "Graph the inequality x > −1 on a number line. Describe where the shaded region is.",
+      "answer": "Open circle at −1, shading to the right",
+      "explanation": "The inequality x > −1 (strict) uses an open circle. Values greater than −1 lie to the right."
+    },
+    {
+      "question": "Solve for x: −2x + 8 ≤ 2",
+      "answer": "x ≥ 3",
+      "explanation": "Subtract 8: −2x ≤ −6. Divide by −2 (flip the inequality sign): x ≥ 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:21.986Z",
+  "model": "claude-haiku-4-5-20251001"
+}

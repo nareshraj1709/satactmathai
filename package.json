@@ -9,7 +9,9 @@
     "lint": "eslint",
     "generate:sat": "npx ts-node --project tsconfig.scripts.json scripts/run-all-sat-topics.ts",
     "generate:act": "npx ts-node --project tsconfig.scripts.json scripts/run-all-act-topics.ts",
-    "generate:all": "npm run generate:sat && npm run generate:act"
+    "generate:all": "npm run generate:sat && npm run generate:act",
+    "generate:exams": "npx ts-node --project tsconfig.scripts.json scripts/generate-exams.ts",
+    "index:google": "npx ts-node --project tsconfig.scripts.json scripts/google-index.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-3",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A shirt originally costs $40. It is on sale for 25% off. What is the sale price?",
+      "answer": "$30",
+      "explanation": "25% of $40 = 0.25 × 40 = $10. Sale price = $40 − $10 = $30."
+    },
+    {
+      "question": "A restaurant bill is $50. You want to leave a 20% tip. How much is the tip?",
+      "answer": "$10",
+      "explanation": "Tip = 20% of $50 = 0.20 × 50 = $10."
+    },
+    {
+      "question": "Last year, a store sold 200 units. This year, it sold 250 units. What is the percent increase in units sold?",
+      "answer": "25%",
+      "explanation": "Increase = 250 − 200 = 50. Percent increase = (50 ÷ 200) × 100 = 25%."
+    },
+    {
+      "question": "A video game costs $60 before tax. The sales tax is 10%. What is the total price after tax?",
+      "answer": "$66",
+      "explanation": "Tax = 10% of $60 = 0.10 × 60 = $6. Total = $60 + $6 = $66."
+    },
+    {
+      "question": "A pair of shoes is discounted by 30%. If the original price is $80, what is the discount amount in dollars?",
+      "answer": "$24",
+      "explanation": "Discount = 30% of $80 = 0.30 × 80 = $24."
+    },
+    {
+      "question": "If a quantity decreases from 120 to 90, what is the percent decrease?",
+      "answer": "25%",
+      "explanation": "Decrease = 120 − 90 = 30. Percent decrease = (30 ÷ 120) × 100 = 25%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:16.013Z",
+  "model": "claude-haiku-4-5-20251001"
+}

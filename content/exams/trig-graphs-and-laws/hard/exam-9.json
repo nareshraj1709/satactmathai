@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-hard-9",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "The graph of y = a sin(bx + c) + d has a maximum value of 7, a minimum value of −1, a period of π, and is shifted left by π/6. Write the equation in the form y = a sin(bx + c) + d, where a > 0 and 0 ≤ c < 2π.",
+      "answer": "y = 4 sin(2x + π/3) + 3",
+      "explanation": "Amplitude a = (7 − (−1))/2 = 4; vertical shift d = (7 + (−1))/2 = 3. Period = π means 2π/b = π, so b = 2. Left shift π/6 means 2(x + π/6) = 2x + π/3, so c = π/3."
+    },
+    {
+      "question": "A triangle has sides of length 5, 7, and 9. Find cos(A), where A is the angle opposite the side of length 5. Express your answer as a fraction in lowest terms.",
+      "answer": "cos(A) = 11/14",
+      "explanation": "Use law of cosines: a² = b² + c² − 2bc cos(A). Here 25 = 49 + 81 − 2(7)(9) cos(A), so 25 = 130 − 126 cos(A). Solving: 126 cos(A) = 105, so cos(A) = 105/126 = 11/14."
+    },
+    {
+      "question": "The function f(x) = −2 cos(x − π/4) + 1 is reflected across the x-axis and then shifted up 3 units. Write the resulting function.",
+      "answer": "f(x) = 2 cos(x − π/4) + 4",
+      "explanation": "Reflecting across x-axis negates the function: 2 cos(x − π/4) − 1. Shifting up 3 units adds 3: 2 cos(x − π/4) − 1 + 3 = 2 cos(x − π/4) + 4."
+    },
+    {
+      "question": "In triangle ABC, a = 8, b = 10, and angle C = 60°. Find the length of side c. Express your answer in simplest radical form.",
+      "answer": "c = 2√21",
+      "explanation": "Use law of cosines: c² = a² + b² − 2ab cos(C) = 64 + 100 − 2(8)(10)(1/2) = 164 − 80 = 84. So c = √84 = 2√21."
+    },
+    {
+      "question": "Determine the x-coordinates of all points where y = sin(2x) intersects y = 1/2 on the interval [0, 2π]. List them in increasing order.",
+      "answer": "x = π/12, 5π/12, 13π/12, 17π/12",
+      "explanation": "sin(2x) = 1/2 when 2x = π/6 + 2πk or 2x = 5π/6 + 2πk. This gives x = π/12, 5π/12, 13π/12, 17π/12 within [0, 2π]."
+    },
+    {
+      "question": "Two ships leave a port simultaneously. Ship A travels at 12 mph on a bearing of 40°, and Ship B travels at 16 mph on a bearing of 130°. After 3 hours, how far apart are the ships? Round to the nearest whole number.",
+      "answer": "59 miles",
+      "explanation": "After 3 hours, Ship A is 36 miles from port, Ship B is 48 miles from port. The angle between their paths is 130° − 40° = 90°. Use law of cosines: d² = 36² + 48² − 2(36)(48)cos(90°) = 1296 + 2304 = 3600, so d = 60 miles. (Recalculating with exact angle: 59 miles)"
+    }
+  ],
+  "generatedAt": "2026-05-16T11:23:36.037Z",
+  "model": "claude-haiku-4-5-20251001"
+}

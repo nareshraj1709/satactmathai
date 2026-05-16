@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-9",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve: x² + 5x + 6 = 0",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Factor or use the quadratic formula with a = 1, b = 5, c = 6. The discriminant is 25 − 24 = 1, so x = (−5 ± 1)/2, giving x = −2 and x = −3."
+    },
+    {
+      "question": "What is the discriminant of 2x² − 4x + 3 = 0? Does this equation have real solutions?",
+      "answer": "Discriminant = −8; no real solutions",
+      "explanation": "Use b² − 4ac with a = 2, b = −4, c = 3: (−4)² − 4(2)(3) = 16 − 24 = −8. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "Solve x² − 7x + 12 = 0 using the quadratic formula.",
+      "answer": "x = 3 or x = 4",
+      "explanation": "With a = 1, b = −7, c = 12: discriminant = 49 − 48 = 1. So x = (7 ± 1)/2, giving x = 4 and x = 3."
+    },
+    {
+      "question": "For the equation x² + 2x − 8 = 0, calculate the discriminant and determine the number of real solutions.",
+      "answer": "Discriminant = 36; two real solutions",
+      "explanation": "b² − 4ac = 4 − 4(1)(−8) = 4 + 32 = 36. Since 36 > 0, there are two distinct real solutions."
+    },
+    {
+      "question": "A ball is thrown upward with an initial velocity of 16 ft/s from ground level. Its height h after t seconds is h = −16t² + 16t. When does the ball hit the ground again? (Solve −16t² + 16t = 0.)",
+      "answer": "t = 1 second",
+      "explanation": "Factor: −16t(t − 1) = 0, so t = 0 (initial) or t = 1. The ball returns to ground level at t = 1 second."
+    },
+    {
+      "question": "What is the discriminant of 3x² − 6x + 3 = 0? What does this tell you about the solutions?",
+      "answer": "Discriminant = 0; one real solution (repeated root)",
+      "explanation": "b² − 4ac = 36 − 4(3)(3) = 36 − 36 = 0. A zero discriminant means the quadratic has exactly one real solution (a perfect square)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:06.851Z",
+  "model": "claude-haiku-4-5-20251001"
+}

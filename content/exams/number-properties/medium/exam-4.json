@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-4",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 72?",
+      "answer": "24",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 72 = 2³ × 3². Take the lowest power of each prime: 2³ × 3 = 8 × 3 = 24."
+    },
+    {
+      "question": "A baker has 36 chocolate chips and 24 walnuts. She wants to divide them equally into bags with no leftovers. What is the greatest number of bags she can make?",
+      "answer": "12",
+      "explanation": "Find the GCF of 36 and 24. Since 36 = 2² × 3² and 24 = 2³ × 3, the GCF is 2² × 3 = 12."
+    },
+    {
+      "question": "What is the least common multiple of 12 and 18?",
+      "answer": "36",
+      "explanation": "Prime factorizations: 12 = 2² × 3 and 18 = 2 × 3². Take the highest power of each prime: 2² × 3² = 4 × 9 = 36."
+    },
+    {
+      "question": "Two buses leave a station at the same time. Bus A returns every 15 minutes and Bus B returns every 25 minutes. After how many minutes will both buses be at the station at the same time again?",
+      "answer": "75",
+      "explanation": "Find the LCM of 15 and 25. Since 15 = 3 × 5 and 25 = 5², the LCM is 3 × 5² = 75 minutes."
+    },
+    {
+      "question": "Which of the following is divisible by both 6 and 8: 42, 48, or 56?",
+      "answer": "48",
+      "explanation": "Check divisibility: 42 ÷ 6 = 7 ✓ but 42 ÷ 8 = 5.25 ✗. 48 ÷ 6 = 8 ✓ and 48 ÷ 8 = 6 ✓. (48 is the LCM of 6 and 8.)"
+    },
+    {
+      "question": "A number is divisible by 4 and has exactly 3 prime factors (counting multiplicity). If one prime factor is 2 and another is 5, what is the smallest such number?",
+      "answer": "20",
+      "explanation": "The number must be divisible by 4 (so at least 2²) and have exactly 3 prime factors total. With factors 2, 2, and 5, we get 2² × 5 = 20."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:17.474Z",
+  "model": "claude-haiku-4-5-20251001"
+}

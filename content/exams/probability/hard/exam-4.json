@@ -1,0 +1,42 @@
+{
+  "id": "probability-hard-4",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. You draw two marbles without replacement. What is the probability that the first marble is red and the second marble is blue? Express your answer as a fraction in lowest terms.",
+      "answer": "15/90 or 1/6",
+      "explanation": "P(red first) = 5/10. After removing a red marble, 9 remain with 3 blue. P(blue second | red first) = 3/9 = 1/3. Multiply: (5/10) × (3/9) = 15/90 = 1/6."
+    },
+    {
+      "question": "A two-way table shows that 120 students were surveyed about whether they play sports and whether they have a part-time job. Of the 75 who play sports, 48 also have a job. Of the 45 who don't play sports, 30 have a job. What is the probability that a randomly selected student plays sports given that they have a part-time job?",
+      "answer": "48/78 or 8/13",
+      "explanation": "Students with a job: 48 (sports) + 30 (no sports) = 78 total. P(sports | job) = 48/78 = 8/13."
+    },
+    {
+      "question": "Three fair coins are flipped. What is the probability that at least two coins show heads? Express your answer as a fraction.",
+      "answer": "1/2",
+      "explanation": "Total outcomes: 8. Favorable: HHH (1), HHT, HTH, THH (3 ways to get exactly 2 heads). That's 4 outcomes with at least 2 heads. Probability = 4/8 = 1/2."
+    },
+    {
+      "question": "In a class of 30 students, 18 pass the midterm and 12 pass the final exam. If 8 students pass both, what is the probability that a student who passed the midterm also passed the final exam?",
+      "answer": "4/9",
+      "explanation": "Use conditional probability: P(final | midterm) = P(both) / P(midterm) = 8/18 = 4/9."
+    },
+    {
+      "question": "A deck of 52 cards is shuffled. You draw three cards without replacement. What is the probability that all three cards are spades? Express your answer as a fraction in lowest terms.",
+      "answer": "11/850",
+      "explanation": "P(three spades) = (13/52) × (12/51) × (11/50) = 1716/132600 = 11/850 after simplification."
+    },
+    {
+      "question": "A company finds that 85% of its customers are satisfied. Among satisfied customers, 72% make a repeat purchase. Among unsatisfied customers, 15% make a repeat purchase. What is the probability that a randomly selected customer is both satisfied and makes a repeat purchase? Express your answer as a decimal rounded to the nearest hundredth.",
+      "answer": "0.61",
+      "explanation": "P(satisfied and repeat) = P(satisfied) × P(repeat | satisfied) = 0.85 × 0.72 = 0.612 ≈ 0.61."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:58.817Z",
+  "model": "claude-haiku-4-5-20251001"
+}

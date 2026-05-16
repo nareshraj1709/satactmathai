@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-3",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors: 24 = {1, 2, 3, 4, 6, 8, 12, 24} and 36 = {1, 2, 3, 4, 6, 9, 12, 18, 36}. The largest shared factor is 12."
+    },
+    {
+      "question": "Is 143 prime or composite? If composite, name one factor other than 1 and itself.",
+      "answer": "composite; 11 (or 13)",
+      "explanation": "143 = 11 × 13, so it is composite. Both 11 and 13 are factors other than 1 and 143."
+    },
+    {
+      "question": "Find the least common multiple (LCM) of 6 and 8.",
+      "answer": "24",
+      "explanation": "Multiples of 6: 6, 12, 18, 24, ... Multiples of 8: 8, 16, 24, ... The smallest common multiple is 24."
+    },
+    {
+      "question": "A number is divisible by both 4 and 5. What is the smallest such positive number?",
+      "answer": "20",
+      "explanation": "A number divisible by both 4 and 5 must be a common multiple of 4 and 5. Since GCF(4, 5) = 1, LCM(4, 5) = 4 × 5 = 20."
+    },
+    {
+      "question": "How many prime numbers are between 10 and 20 (inclusive)?",
+      "answer": "4",
+      "explanation": "The primes in this range are 11, 13, 17, and 19. (12, 14, 15, 16, 18, 20 are all composite; 10 is composite.)"
+    },
+    {
+      "question": "What is the prime factorization of 60? Write it using exponents.",
+      "answer": "2² × 3 × 5",
+      "explanation": "60 = 2 × 30 = 2 × 2 × 15 = 2 × 2 × 3 × 5 = 2² × 3 × 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:58.139Z",
+  "model": "claude-haiku-4-5-20251001"
+}

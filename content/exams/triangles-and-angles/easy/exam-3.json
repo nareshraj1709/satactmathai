@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-3",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 50° and angle B measures 70°. What is the measure of angle C?",
+      "answer": "60°",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 50° − 70° = 60°."
+    },
+    {
+      "question": "A right triangle has one acute angle of 35°. What is the measure of the other acute angle?",
+      "answer": "55°",
+      "explanation": "In a right triangle, the two acute angles sum to 90°. The other acute angle = 90° − 35° = 55°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (between the two equal sides) is 40°. What is the measure of each base angle?",
+      "answer": "70°",
+      "explanation": "The two base angles of an isosceles triangle are equal. If the vertex angle is 40°, then each base angle = (180° − 40°) ÷ 2 = 70°."
+    },
+    {
+      "question": "Two angles of a triangle measure 25° and 115°. Is this a valid triangle? Explain in one sentence.",
+      "answer": "No, the third angle would be 40°, which is valid, but check: 25 + 115 + 40 = 180. Actually, yes, it is valid.",
+      "explanation": "The third angle = 180° − 25° − 115° = 40°. All three angles are positive and sum to 180°, so it is a valid triangle."
+    },
+    {
+      "question": "In triangle XYZ, the exterior angle at vertex Z is 120°. What is the measure of the interior angle at Z?",
+      "answer": "60°",
+      "explanation": "An interior angle and its exterior angle are supplementary (sum to 180°). Interior angle Z = 180° − 120° = 60°."
+    },
+    {
+      "question": "A triangle has sides of length 5, 12, and 13. Without calculating, explain why this could be a right triangle.",
+      "answer": "Because 5² + 12² = 25 + 144 = 169 = 13², satisfying the Pythagorean theorem.",
+      "explanation": "Check if the two smaller sides squared sum to the largest side squared: 5² + 12² = 25 + 144 = 169 = 13². This is a Pythagorean triple, so it is a right triangle."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:55.811Z",
+  "model": "claude-haiku-4-5-20251001"
+}

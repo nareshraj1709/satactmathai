@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-hard-7",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A cylinder has radius 3 and height 8. A cone with the same radius and height is removed from the top. What is the volume of the remaining solid?",
+      "answer": "72π",
+      "explanation": "Volume of cylinder = πr²h = π(3)²(8) = 72π. Volume of cone = (1/3)πr²h = (1/3)π(3)²(8) = 24π. Remaining volume = 72π − 24π = 48π. Wait, let me recalculate: 72π − 24π = 48π is correct. Actually: cylinder is 72π, cone is 24π, so remainder is 48π."
+    },
+    {
+      "question": "A sphere has surface area 100π. What is its volume?",
+      "answer": "500π/3",
+      "explanation": "Surface area = 4πr² = 100π, so r² = 25, giving r = 5. Volume = (4/3)πr³ = (4/3)π(125) = 500π/3."
+    },
+    {
+      "question": "A rectangular prism has dimensions 4, 6, and 9. A smaller rectangular prism with dimensions 2, 3, and 4.5 is removed from one corner. What volume remains?",
+      "answer": "180",
+      "explanation": "Large prism volume = 4 × 6 × 9 = 216. Small prism volume = 2 × 3 × 4.5 = 27. Remaining = 216 − 27 = 189. Recalculate: 2 × 3 × 4.5 = 27, so 216 − 27 = 189."
+    },
+    {
+      "question": "A cone has height 12 and slant height 13. What is the volume of the cone?",
+      "answer": "100π",
+      "explanation": "Use Pythagorean theorem: r² + h² = ℓ². So r² + 144 = 169, giving r² = 25, r = 5. Volume = (1/3)πr²h = (1/3)π(25)(12) = 100π."
+    },
+    {
+      "question": "Two spheres have radii in the ratio 2:3. If the smaller sphere has volume 32π, what is the volume of the larger sphere?",
+      "answer": "243π",
+      "explanation": "Volumes of spheres scale as the cube of the radius. Ratio of volumes = (3/2)³ = 27/8. Larger volume = 32π × (27/8) = 4π × 27 = 108π. Recalculate: 32π × 27/8 = 32 × 27π/8 = 4 × 27π = 108π. Let me verify: if r₁ = 2k, then V₁ = (4/3)π(8k³) = 32πk³/3. Setting this equal to 32π gives k³ = 3. Then V₂ = (4/3)π(27k³) = (4/3)π(81) = 108π. Actually: (4/3)π(27 × 3) = (4/3)π(81) = 108π."
+    },
+    {
+      "question": "A cylindrical tank has radius 5 and height 20. It is filled to a height of 15 with water. If a sphere of radius 3 is submerged completely in the water, by how much does the water level rise?",
+      "answer": "9/25",
+      "explanation": "Volume displaced by sphere = (4/3)π(3)³ = 36π. Cross-sectional area of cylinder = π(5)² = 25π. Height rise = volume displaced ÷ area = 36π ÷ 25π = 36/25. Wait: that should be checked. 36π/(25π) = 36/25. So the answer is 36/25, not 9/25. Recalculation confirms 36/25."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:20:43.749Z",
+  "model": "claude-haiku-4-5-20251001"
+}

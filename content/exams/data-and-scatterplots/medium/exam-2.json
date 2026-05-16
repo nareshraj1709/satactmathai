@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-2",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 8 students. The points are approximately (1, 62), (2, 68), (3, 75), (4, 80), (5, 85), (6, 88), (7, 92), (8, 95). Using a line of best fit, predict the test score for a student who studies 5.5 hours.",
+      "answer": "87 or 88",
+      "explanation": "The line of best fit has a slope of approximately (95 − 62) / (8 − 1) = 33/7 ≈ 4.7 points per hour. Using points (1, 62) and (5.5, y): y ≈ 62 + 4.7(4.5) ≈ 62 + 21 ≈ 83. Alternatively, interpolating between (5, 85) and (6, 88) at x = 5.5 gives approximately 86.5 or 87."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°C) and ice cream sales (in dollars) for 6 weeks. The correlation coefficient is r = 0.94. What does this tell you about the relationship?",
+      "answer": "Strong positive linear relationship",
+      "explanation": "A correlation coefficient of 0.94 is very close to 1, indicating that as temperature increases, ice cream sales increase in a nearly linear fashion. The strength is strong because |r| > 0.8."
+    },
+    {
+      "question": "In a scatterplot of plant height (cm) vs. days of sunlight per week, two points are (3, 12) and (6, 21). Find the slope of the line through these points.",
+      "answer": "3",
+      "explanation": "Slope = (y₂ − y₁) / (x₂ − x₁) = (21 − 12) / (6 − 3) = 9 / 3 = 3. This means plant height increases 3 cm for each additional day of sunlight."
+    },
+    {
+      "question": "A scatterplot shows the relationship between advertising spending (x, in thousands of dollars) and monthly sales revenue (y, in thousands of dollars). The line of best fit is y = 2.5x + 8. How much additional revenue would the company expect from spending 1 additional thousand dollars on advertising?",
+      "answer": "2.5 thousand dollars or $2,500",
+      "explanation": "The slope of the line of best fit is 2.5, which represents the rate of change in y for each unit increase in x. Therefore, increasing advertising by 1 thousand dollars yields an expected increase of 2.5 thousand dollars in revenue."
+    },
+    {
+      "question": "A scatterplot of 12 data points shows a weak negative relationship between years of experience and error rate. Which correlation coefficient best describes this data: r = −0.25, r = −0.75, or r = 0.45?",
+      "answer": "r = −0.25",
+      "explanation": "Weak correlation means |r| should be closer to 0 than to ±1. A negative relationship eliminates r = 0.45. Between −0.25 and −0.75, the weaker (closer to 0) is −0.25."
+    },
+    {
+      "question": "A scatterplot shows customer age (x) versus amount spent (y). The line of best fit is y = 0.8x + 15. Use this model to estimate the amount spent by a 50-year-old customer.",
+      "answer": "55",
+      "explanation": "Substitute x = 50 into the equation: y = 0.8(50) + 15 = 40 + 15 = 55."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:24.000Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-7",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A circle has center (0, 0) and radius 5. Which of the following points lies on the circle?\n(A) (3, 4)\n(B) (2, 3)\n(C) (4, 4)\n(D) (1, 5)",
+      "answer": "(3, 4)",
+      "explanation": "A point (x, y) lies on a circle with center (0, 0) and radius 5 if x² + y² = 25. Check: 3² + 4² = 9 + 16 = 25. ✓"
+    },
+    {
+      "question": "The equation of a circle is (x − 2)² + (y + 3)² = 16. What is the radius of the circle?",
+      "answer": "4",
+      "explanation": "The circle equation (x − h)² + (y − k)² = r² has radius r. Here r² = 16, so r = 4."
+    },
+    {
+      "question": "A circle has radius 6 cm. What is the arc length of a sector with central angle 60°?",
+      "answer": "2π cm",
+      "explanation": "Arc length = (θ/360°) × 2πr = (60/360) × 2π(6) = (1/6) × 12π = 2π."
+    },
+    {
+      "question": "Find the area of a sector with radius 10 and central angle 90°.",
+      "answer": "25π",
+      "explanation": "Sector area = (θ/360°) × πr² = (90/360) × π(10)² = (1/4) × 100π = 25π."
+    },
+    {
+      "question": "A line is tangent to a circle with center C and radius 7. The tangent line touches the circle at point P. What is the measure of angle CPL, where L is any point on the tangent line other than P?",
+      "answer": "90°",
+      "explanation": "A radius drawn to a point of tangency is always perpendicular to the tangent line. Therefore, angle CPL = 90°."
+    },
+    {
+      "question": "A circle has center (1, 2) and passes through the point (4, 6). What is the radius of the circle?",
+      "answer": "5",
+      "explanation": "The radius is the distance from center to point: r = √[(4−1)² + (6−2)²] = √[9 + 16] = √25 = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:05:34.441Z",
+  "model": "claude-haiku-4-5-20251001"
+}

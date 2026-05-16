@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-7",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you use 15 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 5/2 = 15/x. Cross-multiply: 5x = 30, so x = 6."
+    },
+    {
+      "question": "At a school, the ratio of teachers to students is 1:18. If there are 684 students, how many teachers are there?",
+      "answer": "38",
+      "explanation": "Let t = number of teachers. Then t/684 = 1/18. So 18t = 684, giving t = 38."
+    },
+    {
+      "question": "A map has a scale of 1 inch : 25 miles. Two cities are 7 inches apart on the map. What is the actual distance between them in miles?",
+      "answer": "175",
+      "explanation": "Use the proportion 1/25 = 7/d, where d is the actual distance. So d = 7 × 25 = 175 miles."
+    },
+    {
+      "question": "A bag contains red and blue marbles in the ratio 3:4. If there are 35 marbles total, how many are red?",
+      "answer": "15",
+      "explanation": "The ratio 3:4 means 3 + 4 = 7 parts total. Red marbles = (3/7) × 35 = 15."
+    },
+    {
+      "question": "If 8 workers can complete a job in 12 days, how many days will it take 6 workers to complete the same job?",
+      "answer": "16",
+      "explanation": "Work is inversely proportional to workers. 8 × 12 = 6 × d, so 96 = 6d, giving d = 16 days."
+    },
+    {
+      "question": "Three friends split a $180 pizza bill in the ratio 2:3:4. How much does the friend owing the largest share pay?",
+      "answer": "80",
+      "explanation": "The ratio 2:3:4 has 2 + 3 + 4 = 9 parts. The largest share is (4/9) × 180 = 80 dollars."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:33.635Z",
+  "model": "claude-haiku-4-5-20251001"
+}

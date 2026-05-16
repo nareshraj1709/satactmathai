@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-7",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A recipe for trail mix uses 3 parts almonds, 2 parts raisins, and 4 parts cashews by weight. If the total weight of the mix is 630 grams, how many grams of raisins are in the mixture?",
+      "answer": "140",
+      "explanation": "Total parts: 3 + 2 + 4 = 9. Raisins represent 2/9 of the total. Weight of raisins: (2/9) × 630 = 140 grams."
+    },
+    {
+      "question": "A map uses a scale of 1 inch : 24 miles. Two cities are 5.5 inches apart on the map. How many miles apart are they in reality?",
+      "answer": "132",
+      "explanation": "Set up proportion: 1/24 = 5.5/x. Solve: x = 5.5 × 24 = 132 miles."
+    },
+    {
+      "question": "In a jar, the ratio of red marbles to blue marbles is 5:8. After 15 red marbles are removed, the ratio becomes 2:3. How many red marbles were in the jar originally?",
+      "answer": "75",
+      "explanation": "Let red marbles = 5k, blue marbles = 8k. After removal: (5k − 15)/8k = 2/3. Cross-multiply: 3(5k − 15) = 16k. Solve: 15k − 45 = 16k, so k = 45. Original red marbles: 5(15) = 75."
+    },
+    {
+      "question": "Three workers can complete a project in 12 days. If two more workers of equal productivity are added, how many days will it take to complete the same project?",
+      "answer": "7.2",
+      "explanation": "Total work = 3 workers × 12 days = 36 worker-days. With 5 workers: time = 36/5 = 7.2 days."
+    },
+    {
+      "question": "A chemist mixes solution A (20% salt) and solution B (50% salt) in a 3:2 ratio by volume. What is the salt concentration of the final mixture? Give your answer as a percent.",
+      "answer": "32",
+      "explanation": "In 3 parts of A: 0.20 × 3 = 0.60 salt. In 2 parts of B: 0.50 × 2 = 1.00 salt. Total salt: 1.60 in 5 parts. Concentration: (1.60/5) × 100 = 32%."
+    },
+    {
+      "question": "A car travels 180 miles in 3 hours. At this rate, how much longer will it take to travel an additional 150 miles?",
+      "answer": "2.5",
+      "explanation": "Speed = 180/3 = 60 mph. Time for 150 miles: 150/60 = 2.5 hours."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:13.227Z",
+  "model": "claude-haiku-4-5-20251001"
+}

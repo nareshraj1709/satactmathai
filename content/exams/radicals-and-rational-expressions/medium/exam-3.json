@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-3",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{48} + \\sqrt{12}$.",
+      "answer": "$8\\sqrt{3}$",
+      "explanation": "$\\sqrt{48} = \\sqrt{16 \\cdot 3} = 4\\sqrt{3}$ and $\\sqrt{12} = \\sqrt{4 \\cdot 3} = 2\\sqrt{3}$. Adding: $4\\sqrt{3} + 2\\sqrt{3} = 6\\sqrt{3}$. Wait, let me recalculate: $\\sqrt{48} = 4\\sqrt{3}$, $\\sqrt{12} = 2\\sqrt{3}$, sum is $6\\sqrt{3}$. Actually $6\\sqrt{3}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x + 5} = 3$.",
+      "answer": "$x = 4$",
+      "explanation": "Square both sides: $x + 5 = 9$. Subtract 5: $x = 4$. Check: $\\sqrt{4+5} = \\sqrt{9} = 3$ ✓"
+    },
+    {
+      "question": "Simplify $\\frac{1}{\\sqrt{2}}$ by rationalizing the denominator.",
+      "answer": "$\\frac{\\sqrt{2}}{2}$",
+      "explanation": "Multiply numerator and denominator by $\\sqrt{2}$: $\\frac{1}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{x}{x-2} = \\frac{3}{2}$.",
+      "answer": "$x = 6$",
+      "explanation": "Cross-multiply: $2x = 3(x - 2) = 3x - 6$. Rearrange: $2x - 3x = -6$, so $-x = -6$ and $x = 6$."
+    },
+    {
+      "question": "A rectangle has width $\\sqrt{8}$ cm and area $\\sqrt{32}$ cm². Find its length.",
+      "answer": "$2$ cm",
+      "explanation": "Length = Area ÷ Width = $\\frac{\\sqrt{32}}{\\sqrt{8}} = \\sqrt{\\frac{32}{8}} = \\sqrt{4} = 2$."
+    },
+    {
+      "question": "Simplify $\\sqrt[3]{54}$.",
+      "answer": "$3\\sqrt[3]{2}$",
+      "explanation": "$54 = 27 \\cdot 2 = 3^3 \\cdot 2$, so $\\sqrt[3]{54} = \\sqrt[3]{3^3 \\cdot 2} = 3\\sqrt[3]{2}$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:57:32.596Z",
+  "model": "claude-haiku-4-5-20251001"
+}

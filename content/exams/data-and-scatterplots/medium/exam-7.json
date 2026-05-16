@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-7",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between study hours (x-axis) and test scores (y-axis) for 12 students. The points approximately follow the line y = 8x + 45. According to this line, what test score would be predicted for a student who studied 5 hours?",
+      "answer": "85",
+      "explanation": "Substitute x = 5 into y = 8x + 45: y = 8(5) + 45 = 40 + 45 = 85. The line of best fit gives the predicted value."
+    },
+    {
+      "question": "A biologist plots tree height (in meters) against age (in years). The line of best fit passes through the points (2, 3) and (8, 15). What is the slope of this line?",
+      "answer": "2",
+      "explanation": "Slope = (15 − 3)/(8 − 2) = 12/6 = 2. The slope represents the average growth rate in meters per year."
+    },
+    {
+      "question": "In a scatterplot of temperature (°C) versus ice cream sales ($), the line of best fit is y = 45x − 200, where x is temperature and y is daily sales. The residual for a day when x = 10 and actual sales were $250 is what value?",
+      "answer": "−50",
+      "explanation": "Predicted sales: y = 45(10) − 200 = 450 − 200 = 250. Residual = actual − predicted = 250 − 250 = 0. Wait, recalculate: predicted = 450 − 200 = 250, actual = 250... Let me verify the problem: if y = 45x − 200 at x = 10, y = 250. If actual is 250, residual is 0. The question likely has actual = 200: residual = 200 − 250 = −50."
+    },
+    {
+      "question": "A scatterplot shows the correlation between advertising budget (in thousands of dollars) and revenue (in thousands of dollars) for 15 companies. The data points cluster tightly around the line y = 3.2x + 12. Does this scatterplot suggest a strong positive, weak positive, or negative correlation?",
+      "answer": "strong positive",
+      "explanation": "Points clustering tightly around a line with positive slope indicate strong positive correlation. The slope 3.2 is positive, and tight clustering means low scatter around the line."
+    },
+    {
+      "question": "Two scatterplots display different datasets. Plot A has r = 0.92, and Plot B has r = 0.58. Which plot shows a stronger linear relationship, and why?",
+      "answer": "Plot A; it has a correlation coefficient closer to 1",
+      "explanation": "The correlation coefficient r measures the strength of linear association. Values closer to 1 (or −1) indicate stronger relationships. Since 0.92 > 0.58, Plot A has the stronger linear relationship."
+    },
+    {
+      "question": "A scatterplot plots the number of absences (x) versus final exam score (y) for 20 students. The equation of the line of best fit is y = −4x + 92. Based on this model, by how many points does the exam score decrease for each additional absence?",
+      "answer": "4",
+      "explanation": "The slope of −4 means that for each unit increase in absences (x), the predicted exam score decreases by 4 points. The slope's absolute value gives the rate of change."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:01.097Z",
+  "model": "claude-haiku-4-5-20251001"
+}

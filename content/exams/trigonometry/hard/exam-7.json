@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-7",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "In right triangle ABC with right angle at C, sin A = 3/5. If the side opposite to angle A has length 12, what is the length of the hypotenuse?",
+      "answer": "20",
+      "explanation": "sin A = opposite/hypotenuse = 3/5. If opposite = 12, then 12/hypotenuse = 3/5, so hypotenuse = 12 × 5/3 = 20."
+    },
+    {
+      "question": "Which of the following is equivalent to sin²θ + sin²θ · cot²θ?\nSimplify completely.",
+      "answer": "1",
+      "explanation": "Factor: sin²θ(1 + cot²θ). Since 1 + cot²θ = csc²θ = 1/sin²θ, we get sin²θ · (1/sin²θ) = 1."
+    },
+    {
+      "question": "On the unit circle, point P is at angle 5π/3 radians from the positive x-axis. What is the y-coordinate of point P?",
+      "answer": "-√3/2",
+      "explanation": "5π/3 is in the fourth quadrant, equivalent to -π/3. The reference angle is π/3, so y = -sin(π/3) = -√3/2."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 65° angle with the ground. If the ladder is 10 meters long, how far is the base of the ladder from the wall? Round to the nearest tenth.",
+      "answer": "4.2",
+      "explanation": "The base distance is the adjacent side: d = 10 · cos(65°) ≈ 10 × 0.4226 ≈ 4.2 meters."
+    },
+    {
+      "question": "If tan θ = -2/3 and θ is in the second quadrant, find sin θ.",
+      "answer": "2√13/13",
+      "explanation": "In quadrant II, sin θ > 0. From tan θ = -2/3, use the identity sec²θ = 1 + tan²θ = 1 + 4/9 = 13/9, so cos²θ = 9/13. Then sin²θ = 1 - 9/13 = 4/13, giving sin θ = 2/√13 = 2√13/13."
+    },
+    {
+      "question": "Solve for x in the interval [0, 2π): 2cos²x - cos x - 1 = 0",
+      "answer": "x = 0 or x = 2π/3 or x = 4π/3",
+      "explanation": "Let u = cos x: 2u² - u - 1 = 0 factors as (2u + 1)(u - 1) = 0. So cos x = -1/2 or cos x = 1. This gives x = 2π/3, 4π/3, or x = 0."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:53.415Z",
+  "model": "claude-haiku-4-5-20251001"
+}

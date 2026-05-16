@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-7",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 7 cm and the hypotenuse is 12 cm. Which trigonometric ratio would you use to verify this relationship?",
+      "answer": "sin(35°) = 7/12",
+      "explanation": "The sine ratio compares the opposite side to the hypotenuse. Since we know the opposite side and hypotenuse, sin(θ) = opposite/hypotenuse applies here."
+    },
+    {
+      "question": "A ladder leans against a wall at a 60° angle from the ground. If the ladder is 10 feet long, how high up the wall does it reach? Round to one decimal place.",
+      "answer": "8.7 feet",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) = height/10, so height = 10 × sin(60°) = 10 × (√3/2) ≈ 8.7 feet."
+    },
+    {
+      "question": "On the unit circle, what is the x-coordinate of the point at 90°?",
+      "answer": "0",
+      "explanation": "At 90°, the point is directly above the origin on the unit circle. The x-coordinate corresponds to cos(90°) = 0."
+    },
+    {
+      "question": "In a right triangle, tan(θ) = 5/12. What is the value of tan(90° − θ)?",
+      "answer": "12/5",
+      "explanation": "By the cofunction identity, tan(90° − θ) = cot(θ) = 1/tan(θ) = 1/(5/12) = 12/5."
+    },
+    {
+      "question": "A surveyor stands 50 meters from the base of a building and measures an angle of elevation of 40° to the top. What trigonometric ratio relates the height of the building to the known distance?",
+      "answer": "tan(40°) = height/50",
+      "explanation": "The angle of elevation creates a right triangle where the adjacent side is 50 m. Tangent relates opposite (height) to adjacent: tan(40°) = height/50."
+    },
+    {
+      "question": "On the unit circle, at what angle θ (between 0° and 360°) does sin(θ) = cos(θ)?",
+      "answer": "45° and 225°",
+      "explanation": "sin(θ) = cos(θ) when tan(θ) = 1. This occurs at θ = 45° (first quadrant) and θ = 225° (third quadrant)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:07.525Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-6",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (−2, 5) and (4, −7).",
+      "answer": "-2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (−7 − 5)/(4 − (−2)) = −12/6 = −2."
+    },
+    {
+      "question": "A line passes through (1, 3) and has slope −1/2. Write the equation in slope-intercept form.",
+      "answer": "y = -1/2 x + 7/2",
+      "explanation": "Use point-slope form: y − 3 = −1/2(x − 1). Expand: y − 3 = −1/2 x + 1/2. Solve for y: y = −1/2 x + 7/2."
+    },
+    {
+      "question": "What is the slope of a line perpendicular to y = 3x − 5?",
+      "answer": "-1/3",
+      "explanation": "Perpendicular slopes are negative reciprocals. The given line has slope 3, so the perpendicular slope is −1/3."
+    },
+    {
+      "question": "A gym membership costs $50 upfront plus $15 per month. Write an equation where y is the total cost and x is the number of months.",
+      "answer": "y = 15x + 50",
+      "explanation": "The fixed cost is the y-intercept (50). The monthly rate is the slope (15). So y = 15x + 50."
+    },
+    {
+      "question": "The line 2x − 5y = 20 intersects the y-axis at what point? Write as (a, b).",
+      "answer": "(0, -4)",
+      "explanation": "At the y-intercept, x = 0. Substitute: 2(0) − 5y = 20, so −5y = 20, and y = −4. The point is (0, −4)."
+    },
+    {
+      "question": "Two points on a line are (−1, 2) and (3, 10). What is the x-coordinate of the point on this line where y = 16?",
+      "answer": "5",
+      "explanation": "First, find the slope: m = (10 − 2)/(3 − (−1)) = 8/4 = 2. Use point-slope with (3, 10): y − 10 = 2(x − 3). For y = 16: 16 − 10 = 2(x − 3), so 6 = 2x − 6, giving x = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:22:21.035Z",
+  "model": "claude-haiku-4-5-20251001"
+}

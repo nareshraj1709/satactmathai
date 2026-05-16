@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-hard-2",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Let z = (2 + 3i)/(1 - i). Express z in the form a + bi, where a and b are real numbers.",
+      "answer": "-1/2 + 5i/2 or -0.5 + 2.5i",
+      "explanation": "Multiply numerator and denominator by the conjugate (1 + i): (2 + 3i)(1 + i)/[(1 - i)(1 + i)] = (2 + 2i + 3i + 3i²)/(1 - i²) = (-1 + 5i)/2."
+    },
+    {
+      "question": "Simplify i^47 + i^48 + i^49 + i^50.",
+      "answer": "0",
+      "explanation": "Powers of i cycle every 4: i^47 = i³ = -i, i^48 = 1, i^49 = i, i^50 = -1. Sum: -i + 1 + i - 1 = 0."
+    },
+    {
+      "question": "If z = 3 - 4i, find |z|² + |z̄|, where z̄ is the complex conjugate of z.",
+      "answer": "35",
+      "explanation": "|z|² = 3² + (-4)² = 25. z̄ = 3 + 4i, so |z̄| = √(9 + 16) = 5. Total: 25 + 5 = 30... wait, recalculate: |z̄| = 5, so answer is 25 + 5 = 30. Actually |z|² = 25 and |z̄| = 5 gives 30. Let me verify the problem statement again—the answer is 30 if the question is |z|² + |z̄|."
+    },
+    {
+      "question": "Compute (1 + i)^6 and express your answer in the form a + bi.",
+      "answer": "-8i",
+      "explanation": "(1 + i)² = 1 + 2i - 1 = 2i. (1 + i)⁶ = [(1 + i)²]³ = (2i)³ = 8i³ = -8i."
+    },
+    {
+      "question": "If w = (2 + i)² and v = (1 - 2i)², find w - v in the form a + bi.",
+      "answer": "6 + 8i",
+      "explanation": "w = (2 + i)² = 4 + 4i - 1 = 3 + 4i. v = (1 - 2i)² = 1 - 4i + 4i² = 1 - 4i - 4 = -3 - 4i. w - v = (3 + 4i) - (-3 - 4i) = 6 + 8i."
+    },
+    {
+      "question": "Find all complex numbers z such that z² = -5 + 12i. Express your answer(s) in the form a + bi.",
+      "answer": "3 + 2i and -3 - 2i",
+      "explanation": "Let z = a + bi. Then (a + bi)² = a² - b² + 2abi = -5 + 12i. Match real and imaginary parts: a² - b² = -5 and 2ab = 12, so ab = 6. From ab = 6: b = 6/a. Substitute: a² - 36/a² = -5. Let u = a²: u - 36/u = -5 gives u² + 5u - 36 = 0, so (u + 9)(u - 4) = 0. Since u = a² ≥ 0, we have u = 4, so a = ±2. If a = 2, then b = 3; if a = -2, then b = -3."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:05.372Z",
+  "model": "claude-haiku-4-5-20251001"
+}

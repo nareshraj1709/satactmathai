@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-3",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A bacteria population doubles every hour. If there are 50 bacteria at the start, how many bacteria are there after 3 hours?",
+      "answer": "400",
+      "explanation": "After 1 hour: 50 × 2 = 100. After 2 hours: 100 × 2 = 200. After 3 hours: 200 × 2 = 400. Use the pattern: 50 × 2³ = 50 × 8 = 400."
+    },
+    {
+      "question": "Write an exponential decay formula where a substance loses half its mass every 5 years, starting with 80 grams.",
+      "answer": "M = 80(1/2)^(t/5) or M = 80(0.5)^(t/5)",
+      "explanation": "For half-life decay, use M = M₀(1/2)^(t/T) where M₀ = 80 and T = 5 years. The exponent is t/5 because decay happens every 5 years."
+    },
+    {
+      "question": "A car depreciates at 10% per year. If it costs $20,000 new, what is its value after 1 year?",
+      "answer": "$18,000",
+      "explanation": "Depreciation means it retains 90% of value each year. Value = 20,000 × 0.9 = $18,000 after 1 year."
+    },
+    {
+      "question": "An investment grows according to A = 5000(1.05)^t, where t is time in years. What does the 1.05 represent?",
+      "answer": "The growth factor; the investment grows by 5% per year",
+      "explanation": "In exponential form A = P(1 + r)^t, the base (1.05) equals 1 + r. Here r = 0.05 or 5% annual growth rate."
+    },
+    {
+      "question": "A radioactive sample has 160 milligrams initially and decays to half its amount every 2 days. How many milligrams remain after 6 days?",
+      "answer": "20",
+      "explanation": "After 2 days: 160 ÷ 2 = 80. After 4 days: 80 ÷ 2 = 40. After 6 days: 40 ÷ 2 = 20. Or use 160 × (1/2)³ = 160/8 = 20."
+    },
+    {
+      "question": "If a population grows according to P = 1000 × 3^t where t is measured in decades, how many times larger is the population after 2 decades than at t = 0?",
+      "answer": "9 times",
+      "explanation": "At t = 0: P = 1000 × 3⁰ = 1000. At t = 2: P = 1000 × 3² = 9000. Ratio: 9000/1000 = 9."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:52:59.788Z",
+  "model": "claude-haiku-4-5-20251001"
+}

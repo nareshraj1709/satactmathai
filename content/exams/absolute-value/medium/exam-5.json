@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-medium-5",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve for x: |x - 4| = 9",
+      "answer": "x = 13 or x = -5",
+      "explanation": "Split into two cases: x - 4 = 9 gives x = 13, and x - 4 = -9 gives x = -5. Both satisfy the original equation."
+    },
+    {
+      "question": "Solve for x: |2x + 3| = 15",
+      "answer": "x = 6 or x = -9",
+      "explanation": "Case 1: 2x + 3 = 15 → 2x = 12 → x = 6. Case 2: 2x + 3 = -15 → 2x = -18 → x = -9."
+    },
+    {
+      "question": "Solve the inequality |x + 5| < 3. Write your answer as an inequality.",
+      "answer": "-8 < x < -2",
+      "explanation": "The absolute value is less than 3 when -3 < x + 5 < 3. Subtract 5 from all parts: -8 < x < -2."
+    },
+    {
+      "question": "A temperature reading differs from the true temperature by at most 2 degrees. If the reading is 68°F, write an absolute value inequality that represents all possible true temperatures T.",
+      "answer": "|T - 68| ≤ 2",
+      "explanation": "The difference between true temperature T and the reading 68 is at most 2, so |T - 68| ≤ 2. This gives 66 ≤ T ≤ 70."
+    },
+    {
+      "question": "Solve |3x - 6| = |x + 2|",
+      "answer": "x = 4 or x = -1",
+      "explanation": "When absolute values are equal, either 3x - 6 = x + 2 (giving x = 4) or 3x - 6 = -(x + 2) (giving 4x = 4, so x = -1)."
+    },
+    {
+      "question": "For what values of x is |x - 1| ≥ 4? Write your answer as a union of intervals or inequalities.",
+      "answer": "x ≤ -3 or x ≥ 5",
+      "explanation": "Absolute value is at least 4 when x - 1 ≤ -4 or x - 1 ≥ 4. Adding 1: x ≤ -3 or x ≥ 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:09.320Z",
+  "model": "claude-haiku-4-5-20251001"
+}

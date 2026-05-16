@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-hard-2",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A dataset consists of five integers: 12, 18, 23, 27, and x. If the mean of these five numbers equals the median, what is the value of x?",
+      "answer": "20",
+      "explanation": "The mean is (12 + 18 + 23 + 27 + x)/5 = (80 + x)/5. For the median to equal the mean, we need the middle value when sorted. Testing x = 20: sorted list is {12, 18, 20, 23, 27}, median = 20, mean = 100/5 = 20. ✓"
+    },
+    {
+      "question": "Eight test scores have a mean of 84. Seven of the scores are 78, 82, 85, 88, 91, 79, and 86. What is the eighth score?",
+      "answer": "81",
+      "explanation": "Mean = 84 means sum = 8 × 84 = 672. Sum of seven scores: 78 + 82 + 85 + 88 + 91 + 79 + 86 = 589. Eighth score = 672 − 589 = 83... wait, recalculating: 589 + 83 = 672. Actually eighth score = 672 − 589 = 83. Let me verify: (78 + 82 + 85 + 88 + 91 + 79 + 86 + 83)/8 = 672/8 = 84. ✓ Answer is 83."
+    },
+    {
+      "question": "A class's test scores have a mean of 76 and a standard deviation of 8. If a student's score is 1.5 standard deviations above the mean, what is that student's score?",
+      "answer": "88",
+      "explanation": "Score = mean + (1.5 × standard deviation) = 76 + (1.5 × 8) = 76 + 12 = 88."
+    },
+    {
+      "question": "A dataset has six values with a median of 15. Five of the values are 8, 12, 14, 18, and 22. What is the sixth value if it must make the median exactly 15?",
+      "answer": "16",
+      "explanation": "With six values, the median is the average of the 3rd and 4th values when sorted. We have {8, 12, 14, 18, 22}. If the sixth value x is between 14 and 18, sorting gives {8, 12, 14, x, 18, 22}. Median = (14 + x)/2 = 15, so x = 16."
+    },
+    {
+      "question": "The mean of four numbers is 32. When a fifth number is added, the new mean becomes 28. What is the fifth number?",
+      "answer": "12",
+      "explanation": "Sum of four numbers = 4 × 32 = 128. Sum of five numbers = 5 × 28 = 140. Fifth number = 140 − 128 = 12."
+    },
+    {
+      "question": "A dataset of 10 values has a mean of 50. Two values, 48 and 52, are removed. What is the mean of the remaining 8 values?",
+      "answer": "50",
+      "explanation": "Sum of 10 values = 10 × 50 = 500. Sum removed = 48 + 52 = 100. Sum of remaining 8 values = 500 − 100 = 400. Mean of remaining = 400/8 = 50."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:49.376Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-7",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² + 5x + 2 = 0. List both solutions.",
+      "answer": "x = -1/2, x = -2",
+      "explanation": "Apply the quadratic formula with a = 2, b = 5, c = 2. The discriminant is 25 − 16 = 9, so x = (−5 ± 3)/4, giving x = −1/2 and x = −2."
+    },
+    {
+      "question": "What is the discriminant of x² − 6x + 9 = 0? Does this equation have one real solution or two?",
+      "answer": "0; one real solution",
+      "explanation": "The discriminant is b² − 4ac = (−6)² − 4(1)(9) = 36 − 36 = 0. A discriminant of 0 means one repeated real solution (a perfect square trinomial)."
+    },
+    {
+      "question": "Determine whether 3x² + x + 1 = 0 has real solutions by calculating the discriminant.",
+      "answer": "No real solutions",
+      "explanation": "The discriminant is 1² − 4(3)(1) = 1 − 12 = −11. Since the discriminant is negative, there are no real solutions."
+    },
+    {
+      "question": "Solve x² − 5x + 6 = 0 using the quadratic formula.",
+      "answer": "x = 2, x = 3",
+      "explanation": "With a = 1, b = −5, c = 6, the discriminant is 25 − 24 = 1. So x = (5 ± 1)/2, giving x = 3 and x = 2."
+    },
+    {
+      "question": "A ball is thrown upward with initial velocity 20 m/s. Its height is h = −5t² + 20t. At what time does it hit the ground (h = 0)? Use the quadratic formula and give the positive answer.",
+      "answer": "t = 4",
+      "explanation": "Solve −5t² + 20t = 0 using the quadratic formula with a = −5, b = 20, c = 0. The discriminant is 400, so t = (−20 ± 20)/(−10), giving t = 0 or t = 4. The answer is t = 4 seconds."
+    },
+    {
+      "question": "For what value of k does the equation x² + kx + 4 = 0 have exactly one real solution?",
+      "answer": "k = 4 or k = -4",
+      "explanation": "For one real solution, the discriminant must equal 0: k² − 4(1)(4) = 0. So k² = 16, giving k = ±4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:08.356Z",
+  "model": "claude-haiku-4-5-20251001"
+}

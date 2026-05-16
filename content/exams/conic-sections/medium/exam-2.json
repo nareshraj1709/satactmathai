@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-2",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (0, 0) and focus at (0, 3). Write the equation of the parabola in the form y = ax² or x = ay².",
+      "answer": "x² = 12y",
+      "explanation": "For a parabola with vertex at origin and vertical axis, use x² = 4py. Here p = 3 (distance from vertex to focus), so x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has semi-major axis a = 5 and semi-minor axis b = 3. Both axes are aligned with the coordinate axes and the center is at the origin. What is the distance from the center to each focus?",
+      "answer": "4",
+      "explanation": "Use c² = a² − b² for an ellipse. Here c² = 25 − 9 = 16, so c = 4."
+    },
+    {
+      "question": "A hyperbola has the equation (y²/16) − (x²/9) = 1. What are the coordinates of the two vertices?",
+      "answer": "(0, 4) and (0, −4)",
+      "explanation": "For a vertical hyperbola y²/a² − x²/b² = 1, vertices are at (0, ±a). Here a² = 16, so a = 4, giving vertices at (0, 4) and (0, −4)."
+    },
+    {
+      "question": "A parabola opens to the right with vertex at (2, 1) and passes through the point (6, 5). Find the value of p (the distance from vertex to focus).",
+      "answer": "p = 1",
+      "explanation": "For rightward parabola: (y − k)² = 4p(x − h). Substitute vertex (2, 1) and point (6, 5): (5 − 1)² = 4p(6 − 2), so 16 = 16p, giving p = 1."
+    },
+    {
+      "question": "An ellipse has equation (x²/25) + (y²/9) = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The major axis is along the x-direction since 25 > 9. Its length is 2a = 2(5) = 10."
+    },
+    {
+      "question": "A hyperbola has equation (x²/4) − (y²/5) = 1. Write the equations of the two asymptotes in the form y = mx.",
+      "answer": "y = (√5/2)x and y = −(√5/2)x",
+      "explanation": "For horizontal hyperbola x²/a² − y²/b² = 1, asymptotes are y = ±(b/a)x. Here a² = 4 and b² = 5, so asymptotes are y = ±(√5/2)x."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:14.273Z",
+  "model": "claude-haiku-4-5-20251001"
+}

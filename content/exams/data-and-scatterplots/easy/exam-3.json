@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-3",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test scores for 8 students. The points roughly follow a line from (0, 50) to (6, 86). Using this line of best fit, what test score would you predict for a student who studied for 3 hours?",
+      "answer": "68",
+      "explanation": "The line goes from (0, 50) to (6, 86), so the slope is (86 − 50)/(6 − 0) = 36/6 = 6. The equation is y = 6x + 50. At x = 3: y = 6(3) + 50 = 18 + 50 = 68."
+    },
+    {
+      "question": "The scatter plot below shows the cost of a gym membership (in dollars) versus the number of months of membership. One point on the line of best fit is (2, 60) and another is (5, 105). What is the slope of the line of best fit?",
+      "answer": "15",
+      "explanation": "Slope = (rise)/(run) = (105 − 60)/(5 − 2) = 45/3 = 15. Each additional month costs $15."
+    },
+    {
+      "question": "A scatterplot displays the number of ice cream cones sold each day versus the daily temperature in °F. The points show a positive correlation. Does this relationship make sense? Explain briefly.",
+      "answer": "Yes, warmer days lead to more ice cream sales.",
+      "explanation": "A positive correlation between temperature and ice cream sales is realistic: higher temperatures typically increase demand for cold treats."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = 2x + 10. Use this equation to predict the value of y when x = 4.",
+      "answer": "18",
+      "explanation": "Substitute x = 4 into y = 2x + 10: y = 2(4) + 10 = 8 + 10 = 18."
+    },
+    {
+      "question": "A scatterplot shows exam scores versus hours of sleep the night before the exam. The correlation coefficient is −0.85. What does this tell you about the relationship?",
+      "answer": "Strong negative correlation; less sleep is associated with lower scores.",
+      "explanation": "A correlation close to −1 indicates a strong negative relationship. As one variable increases, the other tends to decrease."
+    },
+    {
+      "question": "On a scatterplot of plant height (cm) versus days since planting, two points on the line of best fit are (10, 5) and (30, 15). At this rate, how many cm taller will the plant be after 10 more days of growth?",
+      "answer": "5",
+      "explanation": "The slope is (15 − 5)/(30 − 10) = 10/20 = 0.5 cm per day. Over 10 days: 10 × 0.5 = 5 cm."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:45.057Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-7",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A parabola has its vertex at (2, −3) and opens upward with a focal distance of 2 units. Write the equation of the parabola in the form (x − h)² = 4p(y − k).",
+      "answer": "(x − 2)² = 8(y + 3)",
+      "explanation": "The vertex form is (x − h)² = 4p(y − k) where p = 2. Since 4p = 8, the equation is (x − 2)² = 8(y + 3)."
+    },
+    {
+      "question": "An ellipse has a center at the origin, semi-major axis of length 5 (horizontal), and semi-minor axis of length 3 (vertical). A point on the ellipse is (4, y) where y > 0. Find y.",
+      "answer": "1.8 or 9/5",
+      "explanation": "Use the ellipse equation x²/25 + y²/9 = 1. Substitute x = 4: 16/25 + y²/9 = 1, so y²/9 = 9/25, giving y² = 3.24 and y = 1.8."
+    },
+    {
+      "question": "A hyperbola centered at the origin has the equation x²/16 − y²/9 = 1. What are the coordinates of the two foci?",
+      "answer": "(±5, 0)",
+      "explanation": "For a hyperbola x²/a² − y²/b² = 1, we have a² = 16 and b² = 9. Then c² = a² + b² = 25, so c = 5 and foci are at (±5, 0)."
+    },
+    {
+      "question": "An ellipse has equation (x − 1)²/36 + (y + 2)²/16 = 1. What is the length of the major axis?",
+      "answer": "12",
+      "explanation": "The semi-major axis has length √36 = 6 (the larger denominator), so the major axis length is 2 × 6 = 12."
+    },
+    {
+      "question": "A parabola has equation y² = −12x. In which direction does the parabola open, and what is the focus?",
+      "answer": "Left; focus at (−3, 0)",
+      "explanation": "Since the y² term is negative coefficient on x, it opens left. From y² = 4px with 4p = −12, we get p = −3, placing the focus at (p, 0) = (−3, 0)."
+    },
+    {
+      "question": "A hyperbola centered at (3, −1) has a horizontal transverse axis of length 8 and a vertical conjugate axis of length 6. Write the standard form equation.",
+      "answer": "(x − 3)²/16 − (y + 1)²/9 = 1",
+      "explanation": "The semi-transverse axis is 4 (so a² = 16) and semi-conjugate is 3 (so b² = 9). The form is (x − h)²/a² − (y − k)²/b² = 1 with center (3, −1)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:50.648Z",
+  "model": "claude-haiku-4-5-20251001"
+}

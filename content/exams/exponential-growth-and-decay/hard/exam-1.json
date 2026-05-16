@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-hard-1",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A radioactive substance decays according to the formula N(t) = N₀ · (1/2)^(t/12), where t is measured in days. If a sample initially contains 640 grams and decays to 10 grams, how many days have passed?",
+      "answer": "96",
+      "explanation": "Set 10 = 640 · (1/2)^(t/12). Divide: 1/64 = (1/2)^(t/12). Since 1/64 = (1/2)^6, we have (1/2)^(t/12) = (1/2)^6, so t/12 = 6, giving t = 72. Recheck: (1/2)^6 = 1/64, and 640/64 = 10. ✓"
+    },
+    {
+      "question": "An investment grows continuously at 5% per year. Write an equation for the value A(t) after t years if the initial investment is $3,000. Then calculate how long it takes to double.",
+      "answer": "A(t) = 3000e^(0.05t); t ≈ 13.86 years (or ln(2)/0.05)",
+      "explanation": "Continuous growth uses A(t) = P·e^(rt). To double: 6000 = 3000e^(0.05t), so 2 = e^(0.05t). Take ln of both sides: ln(2) = 0.05t, so t = ln(2)/0.05 ≈ 13.86 years."
+    },
+    {
+      "question": "A bacterial culture triples every 4 hours. If the initial population is 200 bacteria, after how many hours will the population first exceed 14,400?",
+      "answer": "12",
+      "explanation": "Population is P(t) = 200 · 3^(t/4). Set 200 · 3^(t/4) > 14,400, so 3^(t/4) > 72. Since 3^4 = 81 > 72, we have t/4 ≥ 4, so t ≥ 16. Check t = 12: 200 · 3^3 = 200 · 27 = 5,400 < 14,400. Check t = 16: 200 · 3^4 = 200 · 81 = 16,200 > 14,400. Answer: 16 hours."
+    },
+    {
+      "question": "A quantity decreases by 8% per month. After how many complete months will the quantity first drop below 30% of its original value?",
+      "answer": "16",
+      "explanation": "Quantity is Q(t) = Q₀ · (0.92)^t. We need 0.92^t < 0.30. Taking ln: t · ln(0.92) < ln(0.30), so t > ln(0.30)/ln(0.92) ≈ 15.1. The first complete month where it drops below 30% is month 16."
+    },
+    {
+      "question": "A loan of $10,000 accrues compound interest at 6% annually. If the total amount owed after n years is $15,000, what is n? (Round to the nearest tenth.)",
+      "answer": "n ≈ 6.9 or 6.95",
+      "explanation": "Use A = P(1 + r)^n: 15,000 = 10,000(1.06)^n, so 1.5 = 1.06^n. Taking ln: n = ln(1.5)/ln(1.06) ≈ 6.96 years, which rounds to 6.9 or 7.0 depending on rounding convention."
+    },
+    {
+      "question": "The half-life of a substance is 8 years. If you begin with 2 grams, express the amount remaining after t years as a function A(t), then find the amount after 20 years.",
+      "answer": "A(t) = 2 · (1/2)^(t/8); A(20) = 2 · (1/2)^(5/2) = 2/(4√2) = √2/4 grams ≈ 0.354 grams",
+      "explanation": "General half-life form: A(t) = A₀ · (1/2)^(t/h) where h = 8. After 20 years: A(20) = 2 · (1/2)^(20/8) = 2 · (1/2)^2.5 = 2/(2^2.5) = 2/(4√2) = √2/4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:55:41.789Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-1",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A recipe calls for a ratio of flour to sugar of 5:2. If you use 10 cups of flour, how many cups of sugar do you need?",
+      "answer": "4",
+      "explanation": "Set up the proportion: 5/2 = 10/x. Cross-multiply: 5x = 20, so x = 4 cups of sugar."
+    },
+    {
+      "question": "In a school, the ratio of boys to girls is 3:4. If there are 252 students total, how many boys are there?",
+      "answer": "108",
+      "explanation": "Total parts: 3 + 4 = 7. Each part represents 252/7 = 36 students. Boys = 3 × 36 = 108."
+    },
+    {
+      "question": "A map has a scale of 1 inch : 50 miles. Two cities are 7.5 inches apart on the map. How many miles apart are they in reality?",
+      "answer": "375",
+      "explanation": "Use the proportion: 1/50 = 7.5/x. Solve: x = 7.5 × 50 = 375 miles."
+    },
+    {
+      "question": "If 8 workers can complete a project in 15 days, how many days would it take 12 workers to complete the same project, assuming work rate is constant?",
+      "answer": "10",
+      "explanation": "Total work = 8 × 15 = 120 worker-days. With 12 workers: 120/12 = 10 days."
+    },
+    {
+      "question": "A mixture contains water and salt in the ratio 9:1 by volume. If the mixture contains 2 liters of salt, what is the total volume of the mixture?",
+      "answer": "20",
+      "explanation": "Let salt = 1 part = 2 liters, so 1 part = 2 liters. Total parts = 9 + 1 = 10. Total volume = 10 × 2 = 20 liters."
+    },
+    {
+      "question": "Three friends share a prize in the ratio 2:3:5. If the largest share is $150, what is the total prize amount?",
+      "answer": "300",
+      "explanation": "The largest share corresponds to 5 parts = $150. Each part = $150/5 = $30. Total = (2 + 3 + 5) × $30 = 10 × $30 = $300."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:01.822Z",
+  "model": "claude-haiku-4-5-20251001"
+}

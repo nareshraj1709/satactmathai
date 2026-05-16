@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-5",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 5 = 3m + 1",
+      "answer": "m = -6",
+      "explanation": "Subtract 2m from both sides: -5 = m + 1. Subtract 1: m = -6."
+    },
+    {
+      "question": "A ticket costs $12 and a drink costs $4. If you spend $52 total on 5 items (tickets and drinks combined), how many tickets did you buy? Let t = number of tickets.",
+      "answer": "3",
+      "explanation": "Set up: 12t + 4(5 - t) = 52. Simplify: 12t + 20 - 4t = 52, so 8t = 32. Thus t = 3."
+    },
+    {
+      "question": "Solve for x: (x + 6)/2 = 5",
+      "answer": "x = 4",
+      "explanation": "Multiply both sides by 2: x + 6 = 10. Subtract 6: x = 4."
+    },
+    {
+      "question": "Solve for y: 0.5y + 1.2 = 3.7",
+      "answer": "y = 5",
+      "explanation": "Subtract 1.2 from both sides: 0.5y = 2.5. Divide by 0.5: y = 5."
+    },
+    {
+      "question": "Solve for x: 2(x - 3) + 4 = 8",
+      "answer": "x = 5",
+      "explanation": "Distribute: 2x - 6 + 4 = 8, so 2x - 2 = 8. Add 2: 2x = 10, thus x = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:30.024Z",
+  "model": "claude-haiku-4-5-20251001"
+}

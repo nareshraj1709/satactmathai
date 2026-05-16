@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-2",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A bacteria population doubles every 3 hours. If there are 50 bacteria at the start, how many bacteria will there be after 6 hours?",
+      "answer": "200",
+      "explanation": "After 6 hours, two doubling periods have passed (6 ÷ 3 = 2). The population is 50 × 2² = 50 × 4 = 200."
+    },
+    {
+      "question": "A radioactive substance decays to half its mass every 5 years. If you start with 80 grams, what mass remains after 10 years?",
+      "answer": "20",
+      "explanation": "After 10 years, two half-lives have passed (10 ÷ 5 = 2). The mass is 80 × (1/2)² = 80 × 1/4 = 20 grams."
+    },
+    {
+      "question": "Write the exponential decay formula if a substance has an initial value of 1000 and decays at a rate of 15% per year. Use t for time in years.",
+      "answer": "A = 1000(0.85)^t",
+      "explanation": "In exponential decay, A = A₀(1 − r)^t. Here A₀ = 1000 and r = 0.15, so A = 1000(0.85)^t."
+    },
+    {
+      "question": "An investment of $500 grows at 10% per year. What is the value after 2 years if compounded annually?",
+      "answer": "605",
+      "explanation": "Using A = P(1 + r)^t: A = 500(1.10)² = 500(1.21) = 605 dollars."
+    },
+    {
+      "question": "If a population triples every 4 years and starts at 100, how many years will it take to reach 900?",
+      "answer": "8",
+      "explanation": "After t years, population = 100 × 3^(t/4). Set 100 × 3^(t/4) = 900, so 3^(t/4) = 9 = 3². Thus t/4 = 2, giving t = 8 years."
+    },
+    {
+      "question": "A car depreciates at 20% per year. If it costs $12,000 when new, what is its value after 1 year?",
+      "answer": "9600",
+      "explanation": "After 1 year: Value = 12,000(1 − 0.20) = 12,000(0.80) = 9,600 dollars."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:52:54.854Z",
+  "model": "claude-haiku-4-5-20251001"
+}

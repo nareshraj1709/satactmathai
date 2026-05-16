@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-1",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (−2, 5) and (4, −7).",
+      "answer": "-2",
+      "explanation": "Use the slope formula m = (y₂ − y₁)/(x₂ − x₁). Substitute: m = (−7 − 5)/(4 − (−2)) = −12/6 = −2."
+    },
+    {
+      "question": "A line has slope 3/4 and passes through (8, 2). Write the equation in slope-intercept form.",
+      "answer": "y = (3/4)x - 4",
+      "explanation": "Use point-slope form: y − 2 = (3/4)(x − 8). Distribute: y − 2 = (3/4)x − 6. Solve for y: y = (3/4)x − 4."
+    },
+    {
+      "question": "The line 3x + 6y = 12 is graphed on a coordinate plane. What is the slope of this line?",
+      "answer": "-1/2",
+      "explanation": "Rewrite in slope-intercept form: 6y = −3x + 12, so y = (−1/2)x + 2. The slope is the coefficient of x, which is −1/2."
+    },
+    {
+      "question": "Two points on a line are (1, 4) and (5, 4). Describe the line in one word.",
+      "answer": "horizontal",
+      "explanation": "The y-coordinates are both 4, so the slope is (4 − 4)/(5 − 1) = 0. A line with slope 0 is horizontal."
+    },
+    {
+      "question": "A line passes through (−3, 2) and has slope −1/3. At what x-value does the line cross the x-axis?",
+      "answer": "3",
+      "explanation": "Use point-slope form: y − 2 = (−1/3)(x + 3). The line crosses the x-axis when y = 0: −2 = (−1/3)(x + 3). Multiply by −3: 6 = x + 3, so x = 3."
+    },
+    {
+      "question": "A cable company charges a one-time installation fee plus $45 per month for service. After 6 months, a customer has paid $315 total. What is the one-time installation fee?",
+      "answer": "$45",
+      "explanation": "The total cost is installation fee + 45(6). Set up: fee + 270 = 315. Solve: fee = 45."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:09.408Z",
+  "model": "claude-haiku-4-5-20251001"
+}

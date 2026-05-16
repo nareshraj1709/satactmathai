@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-7",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C in degrees?",
+      "answer": "55",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one acute angle measuring 34°. What is the measure of the other acute angle in degrees?",
+      "answer": "56",
+      "explanation": "In a right triangle, the two acute angles are complementary (sum to 90°). The other acute angle = 90° − 34° = 56°."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 42°. What is the measure of each base angle in degrees?",
+      "answer": "69",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 42°, then 2x + 42° = 180°, so x = 69°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. One of the angles formed at the first intersection is 123°. What is the measure of the corresponding angle at the second intersection?",
+      "answer": "123",
+      "explanation": "Corresponding angles formed when a transversal crosses parallel lines are equal. The corresponding angle also measures 123°."
+    },
+    {
+      "question": "In triangle XYZ, the exterior angle at vertex Z measures 118°. If angle X measures 52°, what is the measure of angle Y in degrees?",
+      "answer": "66",
+      "explanation": "An exterior angle of a triangle equals the sum of the two non-adjacent interior angles. So 118° = 52° + angle Y, giving angle Y = 66°."
+    },
+    {
+      "question": "A triangle has angles in the ratio 2:3:4. What is the measure of the largest angle in degrees?",
+      "answer": "80",
+      "explanation": "Let the angles be 2x, 3x, and 4x. Then 2x + 3x + 4x = 180°, so 9x = 180°, x = 20°. The largest angle is 4x = 80°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:23.776Z",
+  "model": "claude-haiku-4-5-20251001"
+}

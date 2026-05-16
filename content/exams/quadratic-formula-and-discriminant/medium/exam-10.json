@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-10",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Find the discriminant of the quadratic equation 2x² - 5x + 3 = 0.",
+      "answer": "1",
+      "explanation": "The discriminant is b² - 4ac. Here, a = 2, b = -5, c = 3. So: (-5)² - 4(2)(3) = 25 - 24 = 1."
+    },
+    {
+      "question": "Use the quadratic formula to solve x² + 6x + 8 = 0. What are the two solutions?",
+      "answer": "x = -2, x = -4",
+      "explanation": "Using x = (-b ± √(b² - 4ac)) / 2a with a = 1, b = 6, c = 8: x = (-6 ± √(36 - 32)) / 2 = (-6 ± 2) / 2, giving x = -2 and x = -4."
+    },
+    {
+      "question": "For what value of k does the equation x² + kx + 9 = 0 have exactly one real solution?",
+      "answer": "k = 6 or k = -6",
+      "explanation": "For exactly one real solution, the discriminant must equal zero: k² - 4(1)(9) = 0, so k² = 36, giving k = ±6."
+    },
+    {
+      "question": "A rectangle has length 3 cm more than its width. If its area is 40 cm², write and solve the equation for width w. Round to one decimal place.",
+      "answer": "w ≈ 5.7 cm",
+      "explanation": "Set up: w(w + 3) = 40 → w² + 3w - 40 = 0. Using the quadratic formula: w = (-3 ± √(9 + 160)) / 2 = (-3 ± 13) / 2. Since width is positive, w = 5."
+    },
+    {
+      "question": "How many x-intercepts does the parabola y = 3x² - 2x + 5 have?",
+      "answer": "0",
+      "explanation": "The discriminant is b² - 4ac = (-2)² - 4(3)(5) = 4 - 60 = -56. Since it's negative, there are no real solutions, so no x-intercepts."
+    },
+    {
+      "question": "Solve 2x² - 8x + 6 = 0 using the quadratic formula.",
+      "answer": "x = 3, x = 1",
+      "explanation": "Using x = (-b ± √(b² - 4ac)) / 2a: x = (8 ± √(64 - 48)) / 4 = (8 ± 4) / 4, giving x = 3 and x = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:46.547Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-9",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 12 students. The line of best fit has equation y = 8x + 52. Use this line to predict the test score for a student who studied for 5 hours.",
+      "answer": "92",
+      "explanation": "Substitute x = 5 into y = 8x + 52: y = 8(5) + 52 = 40 + 52 = 92."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°F) and ice cream sales ($). The data points closely follow the line y = 3x − 180. What does the slope of 3 represent in this context?",
+      "answer": "For each 1°F increase in temperature, ice cream sales increase by $3.",
+      "explanation": "The slope represents the rate of change: the y-value (sales) increases by 3 units for every 1-unit increase in x (temperature)."
+    },
+    {
+      "question": "A student collected data on the number of push-ups (x) and time to fatigue in seconds (y). The line of best fit is y = 0.5x + 10. If the actual measurement for 20 push-ups was 20 seconds, what is the residual?",
+      "answer": "0",
+      "explanation": "Predicted value: y = 0.5(20) + 10 = 20. Residual = actual − predicted = 20 − 20 = 0."
+    },
+    {
+      "question": "A scatterplot shows advertising spending (in hundreds of dollars) versus monthly revenue (in thousands of dollars). The line of best fit passes through the points (2, 15) and (6, 27). What is the slope of the line of best fit?",
+      "answer": "3",
+      "explanation": "Slope = (27 − 15)/(6 − 2) = 12/4 = 3. Each additional $100 in advertising is associated with $3,000 more in revenue."
+    },
+    {
+      "question": "A scatterplot displays the relationship between years of experience (x) and annual salary in thousands of dollars (y). The line of best fit is y = 2.5x + 35. What salary does the model predict for someone with 8 years of experience?",
+      "answer": "55 thousand dollars or $55,000",
+      "explanation": "Substitute x = 8: y = 2.5(8) + 35 = 20 + 35 = 55 thousand dollars."
+    },
+    {
+      "question": "A scatterplot shows the relationship between study time (hours) and test score (%). Two points on the line of best fit are (3, 65) and (7, 85). Find the y-intercept of the line of best fit.",
+      "answer": "50",
+      "explanation": "Slope = (85 − 65)/(7 − 3) = 20/4 = 5. Using point-slope form with (3, 65): 65 = 5(3) + b, so 65 = 15 + b, giving b = 50."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:54.405Z",
+  "model": "claude-haiku-4-5-20251001"
+}

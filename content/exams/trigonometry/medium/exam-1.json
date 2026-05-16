@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-1",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 12 cm, and the hypotenuse is 21 cm. Find the sine of the angle adjacent to the 35° angle.",
+      "answer": "12/21 or 4/7",
+      "explanation": "The angle adjacent to 35° in a right triangle is 90° − 35° = 55°. Since sin(55°) = opposite/hypotenuse and the side opposite to 55° is the same 12 cm side, sin(55°) = 12/21 = 4/7."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 68° angle with the ground. If the ladder is 15 feet long, how far up the wall does it reach? Round to the nearest tenth.",
+      "answer": "13.9 feet",
+      "explanation": "The height up the wall is the side opposite the 68° angle. Use sin(68°) = height/15, so height = 15 × sin(68°) ≈ 15 × 0.927 ≈ 13.9 feet."
+    },
+    {
+      "question": "On the unit circle, if cos(θ) = −3/5 and θ is in the second quadrant, find sin(θ).",
+      "answer": "4/5",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 − (−3/5)² = 1 − 9/25 = 16/25. Since θ is in quadrant II where sine is positive, sin(θ) = 4/5."
+    },
+    {
+      "question": "Simplify: sin(θ) · sec(θ) · cot(θ)",
+      "answer": "1",
+      "explanation": "Rewrite in terms of sine and cosine: sin(θ) · (1/cos(θ)) · (cos(θ)/sin(θ)) = (sin(θ) · cos(θ))/(sin(θ) · cos(θ)) = 1."
+    },
+    {
+      "question": "A surveyor measures the angle of elevation to the top of a building as 42° from a point 50 meters away from the base. What is the height of the building? Round to the nearest meter.",
+      "answer": "45 meters",
+      "explanation": "The height is opposite the 42° angle and 50 m is adjacent. Use tan(42°) = height/50, so height = 50 × tan(42°) ≈ 50 × 0.9 ≈ 45 meters."
+    },
+    {
+      "question": "If sin(θ) = 5/13 and θ is acute, find tan(θ).",
+      "answer": "5/12",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1: cos²(θ) = 1 − 25/169 = 144/169, so cos(θ) = 12/13 (positive in acute angle). Then tan(θ) = sin(θ)/cos(θ) = (5/13)/(12/13) = 5/12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:40.705Z",
+  "model": "claude-haiku-4-5-20251001"
+}

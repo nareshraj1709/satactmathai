@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-8",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A shirt originally costs $80. After a 25% discount, what is the sale price?",
+      "answer": "$60",
+      "explanation": "25% of $80 = 0.25 × 80 = $20. Sale price = $80 − $20 = $60."
+    },
+    {
+      "question": "Last year, a company's revenue was $500,000. This year it was $575,000. What is the percent increase in revenue?",
+      "answer": "15%",
+      "explanation": "Increase = $575,000 − $500,000 = $75,000. Percent increase = (75,000 ÷ 500,000) × 100 = 15%."
+    },
+    {
+      "question": "A restaurant bill is $48. If you leave a 20% tip, what is the total amount you pay including the tip?",
+      "answer": "$57.60",
+      "explanation": "Tip = 0.20 × $48 = $9.60. Total = $48 + $9.60 = $57.60."
+    },
+    {
+      "question": "A store increases the price of an item by 40%, then decreases it by 30%. If the original price was $100, what is the final price?",
+      "answer": "$98",
+      "explanation": "After 40% increase: $100 × 1.40 = $140. After 30% decrease: $140 × 0.70 = $98."
+    },
+    {
+      "question": "In a survey, 35% of 200 respondents preferred Option A. How many respondents preferred Option A?",
+      "answer": "70",
+      "explanation": "Number = 0.35 × 200 = 70 respondents."
+    },
+    {
+      "question": "A laptop is on sale for 15% off. The sale price is $680. What was the original price?",
+      "answer": "$800",
+      "explanation": "If 15% off, the sale price is 85% of original. 0.85 × Original = $680. Original = $680 ÷ 0.85 = $800."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:19.476Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-10",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7. Those numbers are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: x² - 5x + 6 = 0",
+      "answer": "x = 2 or x = 3",
+      "explanation": "Factor: (x - 2)(x - 3) = 0. Set each factor to zero: x - 2 = 0 gives x = 2, and x - 3 = 0 gives x = 3."
+    },
+    {
+      "question": "Factor completely: x² - 9",
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: x² - 9 = x² - 3². Use the formula a² - b² = (a - b)(a + b)."
+    },
+    {
+      "question": "A rectangle has area 20 square feet. Its length is 1 foot more than its width. If width is w, write and solve the equation for w.",
+      "answer": "w(w + 1) = 20; w = 4",
+      "explanation": "Set up w(w + 1) = 20, so w² + w - 20 = 0. Factor as (w + 5)(w - 4) = 0. Since width must be positive, w = 4."
+    },
+    {
+      "question": "Factor: 2x² + 8x",
+      "answer": "2x(x + 4)",
+      "explanation": "Find the greatest common factor of 2x² and 8x, which is 2x. Factor it out: 2x² + 8x = 2x(x + 4)."
+    },
+    {
+      "question": "Solve: x² = 4x",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Rearrange to x² - 4x = 0. Factor out x: x(x - 4) = 0. So x = 0 or x = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:27.107Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-3",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve x² + 5x + 6 = 0.",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using x = (-b ± √(b² - 4ac)) / 2a with a = 1, b = 5, c = 6: x = (-5 ± √(25 - 24)) / 2 = (-5 ± 1) / 2. This gives x = -2 and x = -3."
+    },
+    {
+      "question": "Find the discriminant of 2x² - 4x + 1 = 0.",
+      "answer": "8",
+      "explanation": "The discriminant is b² - 4ac = (-4)² - 4(2)(1) = 16 - 8 = 8. Since it's positive, there are two distinct real solutions."
+    },
+    {
+      "question": "How many real solutions does x² + 6x + 9 = 0 have? Use the discriminant to justify your answer.",
+      "answer": "One real solution (a repeated root)",
+      "explanation": "The discriminant is b² - 4ac = 36 - 4(1)(9) = 36 - 36 = 0. A discriminant of zero means exactly one real solution (a repeated root at x = -3)."
+    },
+    {
+      "question": "Solve 3x² - 12 = 0 using the quadratic formula.",
+      "answer": "x = 2 or x = -2",
+      "explanation": "Rewrite as 3x² + 0x - 12 = 0. Using the quadratic formula: x = (0 ± √(0 + 144)) / 6 = ±12 / 6 = ±2."
+    },
+    {
+      "question": "Does x² - 8x + 20 = 0 have real solutions? Explain using the discriminant.",
+      "answer": "No, it has no real solutions",
+      "explanation": "The discriminant is b² - 4ac = (-8)² - 4(1)(20) = 64 - 80 = -16. A negative discriminant means there are no real solutions (only complex ones)."
+    },
+    {
+      "question": "Use the quadratic formula to solve x² - 3x = 0.",
+      "answer": "x = 0 or x = 3",
+      "explanation": "Rewrite as x² - 3x + 0 = 0. Using the quadratic formula: x = (3 ± √(9 - 0)) / 2 = (3 ± 3) / 2. This gives x = 3 and x = 0."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:31.042Z",
+  "model": "claude-haiku-4-5-20251001"
+}

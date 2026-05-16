@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-5",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "The solution set to the system of inequalities 2x + 3y ≤ 12 and x − y > −2 is bounded. Find the coordinates of the vertex where the lines 2x + 3y = 12 and x − y = −2 intersect.",
+      "answer": "(6/5, 16/5) or (1.2, 3.2)",
+      "explanation": "From x − y = −2, we get y = x + 2. Substitute into 2x + 3y = 12: 2x + 3(x + 2) = 12 → 5x + 6 = 12 → x = 6/5. Then y = 6/5 + 2 = 16/5."
+    },
+    {
+      "question": "A catering company charges $15 per person for a meal plus a $50 base fee. They must serve at least 20 people but cannot serve more than 80. Let x be the number of people. Write the inequality for the total cost C if the budget is at most $1100.",
+      "answer": "50 + 15x ≤ 1100, where 20 ≤ x ≤ 80",
+      "explanation": "Total cost is 50 + 15x. Setting this ≤ 1100 and solving: 15x ≤ 1050 → x ≤ 70. Combined with the constraint 20 ≤ x ≤ 80, the effective range is 20 ≤ x ≤ 70."
+    },
+    {
+      "question": "Graph the region defined by y ≥ |x − 1| and y ≤ 3. In which two quadrants does this region exist?",
+      "answer": "Quadrants I and II",
+      "explanation": "The V-shaped graph of y = |x − 1| has vertex at (1, 0). The region y ≥ |x − 1| and y ≤ 3 is bounded above at y = 3. Since the V-shape opens upward and we need y ≤ 3, the region spans from the vertex rightward (Quadrant I) and leftward (Quadrant II)."
+    },
+    {
+      "question": "For what values of m is the inequality mx + 5 > 2x + 8 satisfied for all x > 0? Express your answer as an inequality.",
+      "answer": "m > 2",
+      "explanation": "Rearrange: mx − 2x > 3 → (m − 2)x > 3. For this to hold for all x > 0, we need m − 2 > 0 (if m − 2 ≤ 0, it fails for large x). Thus m > 2."
+    },
+    {
+      "question": "The system 3x + 4y ≥ 12 and 3x + 4y ≤ 24 defines a region in the plane. What is the distance between the parallel boundary lines?",
+      "answer": "12/5 or 2.4",
+      "explanation": "The lines are 3x + 4y = 12 and 3x + 4y = 24. Using the distance formula between parallel lines ax + by = c₁ and ax + by = c₂: d = |c₂ − c₁|/√(a² + b²) = |24 − 12|/√(9 + 16) = 12/5."
+    },
+    {
+      "question": "A student must score at least 70 on both a midterm and a final exam to pass the course. If the midterm score is 8 points less than twice the final score, and the student barely passes with the minimum scores, what is the final exam score?",
+      "answer": "39",
+      "explanation": "Let f = final score. Midterm = 2f − 8. For barely passing: 2f − 8 = 70 (midterm at minimum) and f = 70 (final at minimum). From the first: f = 39. Check: midterm = 2(39) − 8 = 70 ✓, both constraints active."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:29:13.135Z",
+  "model": "claude-haiku-4-5-20251001"
+}

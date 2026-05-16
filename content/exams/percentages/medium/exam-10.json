@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-10",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A jacket originally costs $80. After a 25% discount, what is the sale price?",
+      "answer": "60",
+      "explanation": "25% of $80 = 0.25 × 80 = $20. Sale price = 80 − 20 = $60."
+    },
+    {
+      "question": "A restaurant bill comes to $45 before tax. If the sales tax is 8%, what is the total amount due?",
+      "answer": "48.60",
+      "explanation": "Tax = 0.08 × 45 = $3.60. Total = 45 + 3.60 = $48.60."
+    },
+    {
+      "question": "Last year, a company's revenue was $200,000. This year it increased by 15%. What is the revenue this year?",
+      "answer": "230000",
+      "explanation": "Increase = 0.15 × 200,000 = $30,000. New revenue = 200,000 + 30,000 = $230,000."
+    },
+    {
+      "question": "A shirt is on sale for $36 after a 20% discount. What was the original price?",
+      "answer": "45",
+      "explanation": "If the discount is 20%, the sale price is 80% of original. So 0.80 × original = 36. Original = 36 ÷ 0.80 = $45."
+    },
+    {
+      "question": "The price of a gallon of milk increased from $3.50 to $3.92. What is the percent increase, rounded to the nearest whole percent?",
+      "answer": "12",
+      "explanation": "Increase = 3.92 − 3.50 = $0.42. Percent increase = (0.42 ÷ 3.50) × 100 ≈ 12%."
+    },
+    {
+      "question": "A store reduces a jacket's price by 30%, then later reduces the new price by 10%. If the original price was $100, what is the final price?",
+      "answer": "63",
+      "explanation": "After 30% discount: 100 × 0.70 = $70. After 10% discount on $70: 70 × 0.90 = $63."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:49.502Z",
+  "model": "claude-haiku-4-5-20251001"
+}

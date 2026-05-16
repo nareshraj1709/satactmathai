@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-3",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A shirt originally priced at $80 is marked down by 25%. After the discount, a 10% sales tax is applied. What is the final price?",
+      "answer": "$66",
+      "explanation": "Discounted price: $80 × 0.75 = $60. Add tax: $60 × 1.10 = $66."
+    },
+    {
+      "question": "A car's value decreased from $24,000 to $18,000 over two years. What is the percent decrease?",
+      "answer": "25%",
+      "explanation": "Change = $24,000 − $18,000 = $6,000. Percent decrease = ($6,000 / $24,000) × 100 = 25%."
+    },
+    {
+      "question": "If a quantity increases by 20% and then decreases by 20%, what is the net percent change?",
+      "answer": "4% decrease",
+      "explanation": "Start with 100. After 20% increase: 120. After 20% decrease: 120 × 0.80 = 96. Net change = (96 − 100) / 100 = −4%."
+    },
+    {
+      "question": "A restaurant bill is $45. You want to leave a 18% tip. What is the tip amount?",
+      "answer": "$8.10",
+      "explanation": "Tip = $45 × 0.18 = $8.10."
+    },
+    {
+      "question": "A store increases prices by 15%, then later decreases the new price by 15%. If an item originally cost $200, what is its final price?",
+      "answer": "$229.75",
+      "explanation": "After 15% increase: $200 × 1.15 = $230. After 15% decrease: $230 × 0.85 = $195.50."
+    },
+    {
+      "question": "A laptop costs $1,200. During a sale, it is discounted by 30%, and then an additional 10% discount is applied to the sale price. What is the final price?",
+      "answer": "$756",
+      "explanation": "After 30% discount: $1,200 × 0.70 = $840. After additional 10% discount: $840 × 0.90 = $756."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:19.858Z",
+  "model": "claude-haiku-4-5-20251001"
+}

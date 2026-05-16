@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-medium-9",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve the system:\n2x + y = 7\nx - y = 2\n\nWhat is the value of x?",
+      "answer": "3",
+      "explanation": "Add the equations to eliminate y: (2x + y) + (x - y) = 7 + 2, so 3x = 9, giving x = 3."
+    },
+    {
+      "question": "Solve the system:\n3x - 2y = 5\nx + 2y = 11\n\nWhat is the value of y?",
+      "answer": "2",
+      "explanation": "Add the equations to eliminate y: 3x - 2y + x + 2y = 5 + 11, so 4x = 16, giving x = 4. Substitute into x + 2y = 11: 4 + 2y = 11, so y = 2."
+    },
+    {
+      "question": "At a concert, adult tickets cost $12 and student tickets cost $8. If 50 tickets were sold for a total of $520, how many student tickets were sold?",
+      "answer": "20",
+      "explanation": "Let s = student tickets, a = adult tickets. Set up: a + s = 50 and 12a + 8s = 520. From the first equation, a = 50 - s. Substitute: 12(50 - s) + 8s = 520, so 600 - 12s + 8s = 520, giving 4s = 80, so s = 20."
+    },
+    {
+      "question": "Solve the system:\n4x + 3y = 18\n2x - y = 4\n\nWhat is the value of x + y?",
+      "answer": "5",
+      "explanation": "From the second equation, y = 2x - 4. Substitute into the first: 4x + 3(2x - 4) = 18, so 4x + 6x - 12 = 18, giving 10x = 30, so x = 3. Then y = 2(3) - 4 = 2, and x + y = 5."
+    },
+    {
+      "question": "The sum of two numbers is 15. Their difference is 3. What is the larger number?",
+      "answer": "9",
+      "explanation": "Let x and y be the numbers with x > y. Set up: x + y = 15 and x - y = 3. Add the equations: 2x = 18, so x = 9."
+    },
+    {
+      "question": "Solve the system:\n5x - 2y = 11\n3x + 2y = 13\n\nWhat is the value of x?",
+      "answer": "3",
+      "explanation": "Add the equations to eliminate y: (5x - 2y) + (3x + 2y) = 11 + 13, so 8x = 24, giving x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:24:55.148Z",
+  "model": "claude-haiku-4-5-20251001"
+}

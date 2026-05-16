@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-9",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve: |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "Absolute value equals 7 when x is 7 units from zero on either side of the number line. Both 7 and -7 satisfy the equation."
+    },
+    {
+      "question": "Solve: |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "The expression (x - 2) equals 5 or -5. If x - 2 = 5, then x = 7. If x - 2 = -5, then x = -3."
+    },
+    {
+      "question": "Solve: |2x| = 8",
+      "answer": "x = 4 or x = -4",
+      "explanation": "Since |2x| = 8, we have 2x = 8 or 2x = -8. Dividing by 2 gives x = 4 or x = -4."
+    },
+    {
+      "question": "How many solutions does the equation |x| = -3 have?",
+      "answer": "0 (no solutions)",
+      "explanation": "Absolute value is always non-negative, so |x| can never equal -3. No solution exists."
+    },
+    {
+      "question": "Solve: |x + 1| = 6",
+      "answer": "x = 5 or x = -7",
+      "explanation": "Set x + 1 = 6 and x + 1 = -6. This gives x = 5 and x = -7 respectively."
+    },
+    {
+      "question": "A number is 4 units away from 3 on the number line. Write an absolute value equation and solve it.",
+      "answer": "|x - 3| = 4; x = 7 or x = -1",
+      "explanation": "The distance from x to 3 is 4, so |x - 3| = 4. Solving: x - 3 = 4 gives x = 7, and x - 3 = -4 gives x = -1."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:29.458Z",
+  "model": "claude-haiku-4-5-20251001"
+}

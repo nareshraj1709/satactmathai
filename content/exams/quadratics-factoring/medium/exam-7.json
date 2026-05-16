@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-7",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: that's 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: 2x² - 5x - 3 = 0",
+      "answer": "x = 3 or x = -1/2",
+      "explanation": "Factor as (2x + 1)(x - 3) = 0. Set each factor to zero: 2x + 1 = 0 gives x = -1/2, and x - 3 = 0 gives x = 3."
+    },
+    {
+      "question": "A rectangle has length 4 cm more than its width. If the area is 45 cm², what is the width?\nSet up and solve using factoring.",
+      "answer": "5 cm",
+      "explanation": "Let width = w. Then length = w + 4. Area: w(w + 4) = 45 → w² + 4w - 45 = 0 → (w + 9)(w - 5) = 0. Since w > 0, w = 5 cm."
+    },
+    {
+      "question": "Factor completely: 3x² - 12",
+      "answer": "3(x - 2)(x + 2) or 3(x² - 4)",
+      "explanation": "First factor out the GCF: 3(x² - 4). Recognize x² - 4 as a difference of squares: 3(x - 2)(x + 2)."
+    },
+    {
+      "question": "If (x - 2) is a factor of x² - kx + 6, what is the value of k?",
+      "answer": "k = 5",
+      "explanation": "If (x - 2) is a factor, then x = 2 is a root. Substitute: 2² - k(2) + 6 = 0 → 4 - 2k + 6 = 0 → 2k = 10 → k = 5."
+    },
+    {
+      "question": "Solve: 6x² = x + 12",
+      "answer": "x = 4/3 or x = -3/2",
+      "explanation": "Rearrange to 6x² - x - 12 = 0. Factor as (3x - 4)(2x + 3) = 0. Solutions: 3x - 4 = 0 → x = 4/3; and 2x + 3 = 0 → x = -3/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:00.545Z",
+  "model": "claude-haiku-4-5-20251001"
+}

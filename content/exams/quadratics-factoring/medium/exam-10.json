@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-10",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7. Those are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve for x: 2x² - 8x = 0",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out 2x: 2x(x - 4) = 0. Set each factor to zero: 2x = 0 gives x = 0, and x - 4 = 0 gives x = 4."
+    },
+    {
+      "question": "A rectangular garden has area 36 square meters. Its length is 5 meters more than its width. If w is the width, write an equation and solve for w.",
+      "answer": "w = 4",
+      "explanation": "Set up w(w + 5) = 36, so w² + 5w - 36 = 0. Factor: (w + 9)(w - 4) = 0. Since width is positive, w = 4."
+    },
+    {
+      "question": "Factor completely: 3x² - 12x + 9",
+      "answer": "3(x - 1)(x - 3)",
+      "explanation": "First factor out the GCF of 3: 3(x² - 4x + 3). Then factor the trinomial: 3(x - 1)(x - 3)."
+    },
+    {
+      "question": "Solve for x: x² - 9 = 0",
+      "answer": "x = 3 or x = -3",
+      "explanation": "Recognize this as a difference of squares: (x - 3)(x + 3) = 0. So x = 3 or x = -3."
+    },
+    {
+      "question": "Factor the quadratic: x² - 2x - 15",
+      "answer": "(x - 5)(x + 3)",
+      "explanation": "Find two numbers that multiply to -15 and add to -2. Those are -5 and 3. So x² - 2x - 15 = (x - 5)(x + 3)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:33.915Z",
+  "model": "claude-haiku-4-5-20251001"
+}

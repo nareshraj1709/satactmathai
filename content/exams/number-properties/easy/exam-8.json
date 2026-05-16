@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-8",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. List factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. The largest factor they share is 12."
+    },
+    {
+      "question": "Is 47 prime or composite?",
+      "answer": "prime",
+      "explanation": "Check if 47 is divisible by small primes (2, 3, 5, 7). It's not divisible by any of them, and since √47 < 7, we've checked enough. 47 has only factors 1 and 47."
+    },
+    {
+      "question": "Find the least common multiple (LCM) of 6 and 8.",
+      "answer": "24",
+      "explanation": "Multiples of 6: 6, 12, 18, 24, 30, … Multiples of 8: 8, 16, 24, 32, … The smallest common multiple is 24."
+    },
+    {
+      "question": "How many factors does 20 have?",
+      "answer": "6",
+      "explanation": "Factors of 20 are: 1, 2, 4, 5, 10, 20. Count them: that's 6 factors in total."
+    },
+    {
+      "question": "What is the smallest multiple of 9 that is greater than 50?",
+      "answer": "54",
+      "explanation": "Multiples of 9 are 9, 18, 27, 36, 45, 54, … Since 45 < 50 and 54 > 50, the answer is 54."
+    },
+    {
+      "question": "If a number is divisible by both 4 and 6, what is the smallest such number greater than 0?",
+      "answer": "12",
+      "explanation": "The number must be a common multiple of 4 and 6. The LCM of 4 and 6 is 12, so 12 is the smallest positive number divisible by both."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:48.091Z",
+  "model": "claude-haiku-4-5-20251001"
+}

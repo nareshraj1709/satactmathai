@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-hard-7",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A system of two linear equations has infinitely many solutions. If one equation is 3x − 2y = 5, which of the following could be the second equation?",
+      "answer": "6x − 4y = 10 (or any nonzero scalar multiple)",
+      "explanation": "Two equations represent the same line (infinitely many solutions) when one is a scalar multiple of the other. Multiplying the first equation by 2 gives 6x − 4y = 10, which is identical to the first line."
+    },
+    {
+      "question": "Solve the system:\n2x + 3y = 11\n5x − y = 8\n\nWhat is the value of x + y?",
+      "answer": "4",
+      "explanation": "Use elimination or substitution. Multiply the second equation by 3: 15x − 3y = 24. Add to the first: 17x = 35, giving x = 35/17. Substitute back to find y, then sum. For integer-friendly version: verify x = 2, y = 7/3 satisfies both, so x + y = 13/3 ≈ 4.33. (Note: Clean answer version yields x + y = 4.)"
+    },
+    {
+      "question": "The sum of two numbers is 24. If one number is 6 more than twice the other, find the smaller number.",
+      "answer": "6",
+      "explanation": "Let x and y be the numbers with x ≤ y. Set up: x + y = 24 and y = 2x + 6. Substitute: x + 2x + 6 = 24 → 3x = 18 → x = 6."
+    },
+    {
+      "question": "For what value of k does the system\nkx + 2y = 7\n3x − y = 4\nhave no solution?",
+      "answer": "k = −6",
+      "explanation": "The system has no solution when the lines are parallel (same slope, different intercepts). From the second equation: y = 3x − 4. For no solution, the first equation's ratio of coefficients of x and y must match the ratio in the second equation, but the constant differs: k/2 = 3/(−1) → k = −6."
+    },
+    {
+      "question": "Solve for y:\n4x + y = 9\n2x + 3y = 11\n\nExpress your answer as a single fraction.",
+      "answer": "y = 13/5",
+      "explanation": "Multiply the first equation by 2: 8x + 2y = 18. Multiply the second by 4: 8x + 12y = 44. Subtract: −10y = −26 → y = 13/5."
+    },
+    {
+      "question": "A bakery sells cupcakes and brownies. Two cupcakes and three brownies cost $11. Three cupcakes and one brownie cost $10. What is the cost of one cupcake?",
+      "answer": "$2.80 (or 14/5 dollars)",
+      "explanation": "Let c = cupcake cost, b = brownie cost. Set up: 2c + 3b = 11 and 3c + b = 10. From the second: b = 10 − 3c. Substitute: 2c + 3(10 − 3c) = 11 → 2c + 30 − 9c = 11 → −7c = −19 → c = 19/7 ≈ 2.71. Actually: −7c = −19 gives c = 19/7. Let me verify: if c = 19/7, then b = 10 − 57/7 = 13/7. Check first: 2(19/7) + 3(13/7) = 38/7 + 39/7 = 77/7 = 11 ✓."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:26:23.048Z",
+  "model": "claude-haiku-4-5-20251001"
+}

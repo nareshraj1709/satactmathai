@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-easy-8",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Simplify i³.",
+      "answer": "-i",
+      "explanation": "i³ = i² · i = (-1) · i = -i. Recall that i² = -1 by definition."
+    },
+    {
+      "question": "Simplify i⁴.",
+      "answer": "1",
+      "explanation": "i⁴ = (i²)² = (-1)² = 1. Powers of i cycle every 4: i, -1, -i, 1, ..."
+    },
+    {
+      "question": "Add the complex numbers: (3 + 2i) + (5 - 4i).",
+      "answer": "8 - 2i",
+      "explanation": "Combine real parts: 3 + 5 = 8. Combine imaginary parts: 2i - 4i = -2i. Result: 8 - 2i."
+    },
+    {
+      "question": "Subtract: (7 + 6i) - (2 + i).",
+      "answer": "5 + 5i",
+      "explanation": "Distribute the negative: 7 + 6i - 2 - i. Real parts: 7 - 2 = 5. Imaginary: 6i - i = 5i."
+    },
+    {
+      "question": "Multiply: (2 + i)(3 - i).",
+      "answer": "7 + i",
+      "explanation": "Use FOIL: (2)(3) + (2)(-i) + (i)(3) + (i)(-i) = 6 - 2i + 3i - i² = 6 + i - (-1) = 7 + i."
+    },
+    {
+      "question": "What is i⁵?",
+      "answer": "i",
+      "explanation": "i⁵ = i⁴ · i = 1 · i = i. Since powers of i repeat every 4 cycles, i⁵ has the same value as i¹."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:10:32.994Z",
+  "model": "claude-haiku-4-5-20251001"
+}

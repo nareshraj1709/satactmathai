@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-medium-3",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Simplify: $(3 + 2i)(4 - i)$",
+      "answer": "14 + 5i",
+      "explanation": "Use FOIL: $3(4) + 3(-i) + 2i(4) + 2i(-i) = 12 - 3i + 8i - 2i^2 = 12 + 5i + 2 = 14 + 5i$."
+    },
+    {
+      "question": "Evaluate $i^{47}$.",
+      "answer": "−i",
+      "explanation": "Powers of $i$ repeat every 4 terms. $47 = 4(11) + 3$, so $i^{47} = i^3 = i^2 \\cdot i = -i$."
+    },
+    {
+      "question": "If $z = 2 - 3i$, what is $z + \\overline{z}$?",
+      "answer": "4",
+      "explanation": "The conjugate is $\\overline{z} = 2 + 3i$. Adding: $(2 - 3i) + (2 + 3i) = 4$. (Real part doubles; imaginary parts cancel.)"
+    },
+    {
+      "question": "Simplify: $\\frac{5}{2 + i}$. Write your answer in the form $a + bi$.",
+      "answer": "2 - i",
+      "explanation": "Multiply by the conjugate: $\\frac{5}{2+i} \\cdot \\frac{2-i}{2-i} = \\frac{5(2-i)}{4 - i^2} = \\frac{10 - 5i}{5} = 2 - i$."
+    },
+    {
+      "question": "A complex number $w$ satisfies $w^2 = -9$. Find all possible values of $w$.",
+      "answer": "3i and −3i",
+      "explanation": "$w^2 = -9$ means $w^2 = 9i^2$, so $w = \\pm 3i$. Check: $(3i)^2 = 9i^2 = -9$ ✓"
+    },
+    {
+      "question": "Simplify: $(1 + i)^4$.",
+      "answer": "−4",
+      "explanation": "$(1+i)^2 = 1 + 2i + i^2 = 2i$. Then $(2i)^2 = 4i^2 = -4$."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:02.329Z",
+  "model": "claude-haiku-4-5-20251001"
+}

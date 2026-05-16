@@ -1,0 +1,44 @@
+{
+  "id": "inequalities-and-graphs-medium-3",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Solve the inequality: 3x − 7 ≤ 14. Write your answer as an inequality.",
+      "answer": "x ≤ 7",
+      "explanation": "Add 7 to both sides: 3x ≤ 21. Divide by 3: x ≤ 7."
+    },
+    {
+      "question": "A coffee shop charges $2.50 per drink. You have $20 and want to buy drinks for friends. If you also spend $5 on a tip, what is the maximum number of drinks you can buy? Write your answer as a whole number.",
+      "answer": "6",
+      "explanation": "You have $20 − $5 = $15 for drinks. Divide $15 by $2.50 per drink: 15 ÷ 2.5 = 6 drinks."
+    },
+    {
+      "question": "Solve the compound inequality: −2 < x + 1 ≤ 5. Write your answer as a compound inequality.",
+      "answer": "−3 < x ≤ 4",
+      "explanation": "Subtract 1 from all parts: −2 − 1 < x ≤ 5 − 1. Simplify: −3 < x ≤ 4."
+    },
+    {
+      "question": "Which inequality is equivalent to 5 − 2x > 9?",
+      "answer": "x < −2",
+      "explanation": "Subtract 5: −2x > 4. Divide by −2 (flip the inequality): x < −2."
+    },
+    {
+      "question": "A student's test scores are 78, 85, and 92. What score on the fourth test would give an average of at least 88? Write your answer as an inequality where x is the fourth test score.",
+      "answer": "x ≥ 93",
+      "explanation": "Average ≥ 88 means (78 + 85 + 92 + x)/4 ≥ 88. Simplify: (255 + x)/4 ≥ 88. Multiply by 4: 255 + x ≥ 352. Subtract 255: x ≥ 97. Wait—recalculate: 255 + x ≥ 352 gives x ≥ 97. Actually: 4(88) = 352, so x ≥ 352 − 255 = 97. Let me verify: (78+85+92+97)/4 = 352/4 = 88 ✓ So x ≥ 97.",
+      "answer_corrected": "x ≥ 97",
+      "explanation_corrected": "Average ≥ 88 means (78 + 85 + 92 + x)/4 ≥ 88. Sum the known scores: 255 + x ≥ 352. Therefore x ≥ 97."
+    },
+    {
+      "question": "Graph the system of inequalities: y > 2x − 1 and y ≤ −x + 4. Describe the region where both are true using the form 'above/below line 1 AND above/below line 2.'",
+      "answer": "above the line y = 2x − 1 AND below or on the line y = −x + 4",
+      "explanation": "y > 2x − 1 is the region above the dashed line. y ≤ −x + 4 is the region below and including the solid line. The solution is where both regions overlap."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:01.231Z",
+  "model": "claude-haiku-4-5-20251001"
+}

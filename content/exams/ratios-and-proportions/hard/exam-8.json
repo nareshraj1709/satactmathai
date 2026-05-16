@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-8",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A recipe for marmalade requires a ratio of 3 parts fruit to 2 parts sugar by mass. If you have 450 grams of fruit and want to use all of it, how many grams of sugar do you need?",
+      "answer": "300",
+      "explanation": "Set up the proportion: fruit/sugar = 3/2. Then 450/x = 3/2, so x = 450 × 2/3 = 300 grams."
+    },
+    {
+      "question": "In a school, the ratio of students who play soccer to students who play basketball is 5:3. If 48 more students play soccer than basketball, how many students play basketball?",
+      "answer": "72",
+      "explanation": "Let basketball players = 3k and soccer players = 5k. Then 5k − 3k = 48, so 2k = 48, k = 24. Basketball players = 3(24) = 72."
+    },
+    {
+      "question": "A paint mixture uses blue and yellow in the ratio 4:7. After mixing, you have 55 liters of paint. How many liters of blue paint are in the mixture?",
+      "answer": "20",
+      "explanation": "Total parts = 4 + 7 = 11. Blue fraction = 4/11. Blue volume = 4/11 × 55 = 20 liters."
+    },
+    {
+      "question": "Two quantities are directly proportional. When x = 12, y = 9. What is the value of y when x = 28?",
+      "answer": "21",
+      "explanation": "Since y is proportional to x, y/x is constant. So 9/12 = y/28. Then y = 28 × 9/12 = 21."
+    },
+    {
+      "question": "A map uses a scale where 2 centimeters represents 5 kilometers. If the distance between two towns on the map is 7.6 centimeters, what is the actual distance in kilometers?",
+      "answer": "19",
+      "explanation": "Set up: 2 cm / 5 km = 7.6 cm / x km. Cross-multiply: 2x = 7.6 × 5 = 38, so x = 19 km."
+    },
+    {
+      "question": "A factory produces widgets at a constant rate. In 8 hours, 240 widgets are produced. At this rate, how many hours are needed to produce 600 widgets?",
+      "answer": "20",
+      "explanation": "Rate = 240/8 = 30 widgets per hour. Time needed = 600/30 = 20 hours."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:12.829Z",
+  "model": "claude-haiku-4-5-20251001"
+}

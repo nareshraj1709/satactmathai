@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-10",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A teacher records the following test scores for six students: 78, 85, 92, 78, 88, and 79. What is the median score?",
+      "answer": "83.5",
+      "explanation": "Arrange in order: 78, 78, 79, 85, 88, 92. With 6 values, the median is the average of the 3rd and 4th values: (79 + 85) / 2 = 83.5."
+    },
+    {
+      "question": "The mean of five numbers is 24. Four of the numbers are 18, 22, 28, and 26. What is the fifth number?",
+      "answer": "26",
+      "explanation": "If the mean is 24, the sum of all five numbers is 24 × 5 = 120. The sum of the four known numbers is 18 + 22 + 28 + 26 = 94. The fifth number is 120 − 94 = 26."
+    },
+    {
+      "question": "A data set consists of 8, 12, 15, 20, and 25. What is the range?",
+      "answer": "17",
+      "explanation": "Range is the difference between the maximum and minimum values. Maximum is 25, minimum is 8, so range = 25 − 8 = 17."
+    },
+    {
+      "question": "In a list of numbers, the mode is 14 and appears exactly 3 times. The other numbers in the list are 11, 14, 18, and 20. If one more number is added and the mode remains 14, which of the following could be the new number? State one possible answer.",
+      "answer": "14",
+      "explanation": "For 14 to remain the mode (the most frequent value), it must appear more often than any other value. Adding another 14 would give it 4 occurrences, keeping it the mode. Other values like 11, 18, or 20 would tie or lose the mode status."
+    },
+    {
+      "question": "A class has a mean height of 66 inches across 20 students. If one student who is 60 inches tall leaves the class, what is the new mean height of the remaining 19 students? Round to the nearest tenth.",
+      "answer": "66.3",
+      "explanation": "Original sum = 66 × 20 = 1320 inches. Remove the 60-inch student: 1320 − 60 = 1260 inches for 19 students. New mean = 1260 / 19 ≈ 66.3 inches."
+    },
+    {
+      "question": "A data set has values 5, 10, 15, 20, and 25. Another value, x, is added to the set. If the new mean is 15, what is x?",
+      "answer": "15",
+      "explanation": "Sum of original five values: 5 + 10 + 15 + 20 + 25 = 75. With x added, the sum is 75 + x over 6 values. Setting the mean equal to 15: (75 + x) / 6 = 15, so 75 + x = 90, giving x = 15."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:50.295Z",
+  "model": "claude-haiku-4-5-20251001"
+}

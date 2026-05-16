@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-8",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (−2, 5) and (4, −7).",
+      "answer": "-2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (−7 − 5)/(4 − (−2)) = −12/6 = −2."
+    },
+    {
+      "question": "A line has slope 3/4 and passes through (8, 2). What is the y-intercept?",
+      "answer": "-4",
+      "explanation": "Use point-slope form: y = mx + b. Substitute: 2 = (3/4)(8) + b → 2 = 6 + b → b = −4."
+    },
+    {
+      "question": "The line 2x − 5y = 10 is rewritten in slope-intercept form. What is the slope?",
+      "answer": "2/5",
+      "explanation": "Solve for y: −5y = −2x + 10 → y = (2/5)x − 2. The slope is the coefficient of x."
+    },
+    {
+      "question": "A package delivery service charges a flat fee of $5 plus $2 per mile. Write an equation for the total cost C as a function of distance d in miles.",
+      "answer": "C = 2d + 5",
+      "explanation": "The flat fee is the y-intercept (5) and the per-mile rate is the slope (2). Use C = md + b form."
+    },
+    {
+      "question": "Two lines are perpendicular. One line has slope −3/2. What is the slope of the other line?",
+      "answer": "2/3",
+      "explanation": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of −3/2 is 2/3."
+    },
+    {
+      "question": "A line passes through (−1, 3) and (2, 9). Write the equation of the line in slope-intercept form.",
+      "answer": "y = 2x + 5",
+      "explanation": "Slope: m = (9 − 3)/(2 − (−1)) = 6/3 = 2. Using (2, 9): 9 = 2(2) + b → b = 5. So y = 2x + 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:38.804Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-hard-9",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 50°. The external angle at vertex B is 120°. Find the measure of angle C.",
+      "answer": "70",
+      "explanation": "The external angle at B equals the sum of the two remote interior angles: 120° = 50° + C. Therefore C = 70°."
+    },
+    {
+      "question": "A triangle has sides of length 5, 12, and 13. Is this a right triangle? If yes, identify which angle is 90°.",
+      "answer": "Yes, the angle opposite the side of length 13 is 90°",
+      "explanation": "Check if 5² + 12² = 13²: 25 + 144 = 169 = 13². Since the Pythagorean theorem holds, it is a right triangle. The right angle is opposite the hypotenuse (length 13)."
+    },
+    {
+      "question": "In an isosceles triangle, each base angle measures 68°. Find the measure of the vertex angle.",
+      "answer": "44",
+      "explanation": "The sum of angles in a triangle is 180°. If the two base angles are each 68°, then the vertex angle = 180° − 68° − 68° = 44°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. The transversal intersects the first line at point P, forming an angle of 65° with the line. What angle does the transversal form with the second parallel line on the same side of the transversal?",
+      "answer": "115",
+      "explanation": "When a transversal crosses parallel lines, co-interior (same-side interior) angles are supplementary. The angle on the same side of the transversal at the second line is 180° − 65° = 115°."
+    },
+    {
+      "question": "In triangle ABC, angle B = 90°, side AB = 7, and side BC = 24. Find the length of the hypotenuse AC.",
+      "answer": "25",
+      "explanation": "Use the Pythagorean theorem: AC² = AB² + BC² = 7² + 24² = 49 + 576 = 625. Therefore AC = √625 = 25."
+    },
+    {
+      "question": "In triangle PQR, the angles are in the ratio 2:3:4. Find the measure of the largest angle.",
+      "answer": "80",
+      "explanation": "Let the angles be 2x, 3x, and 4x. Their sum is 180°: 2x + 3x + 4x = 180°, so 9x = 180°, giving x = 20°. The largest angle is 4x = 4(20°) = 80°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:04:57.061Z",
+  "model": "claude-haiku-4-5-20251001"
+}

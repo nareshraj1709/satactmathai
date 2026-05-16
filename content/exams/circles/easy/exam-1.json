@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-1",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A circle has radius 5. What is the circumference?",
+      "answer": "10π",
+      "explanation": "Circumference = 2πr = 2π(5) = 10π. Use the standard formula with the given radius."
+    },
+    {
+      "question": "A circle has equation (x − 2)² + (y + 3)² = 16. What is the radius?",
+      "answer": "4",
+      "explanation": "The standard form is (x − h)² + (y − k)² = r². Here r² = 16, so r = 4."
+    },
+    {
+      "question": "An arc on a circle with radius 6 subtends a central angle of 60°. What is the arc length?",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (60/360) × 2π(6) = (1/6) × 12π = 2π."
+    },
+    {
+      "question": "A sector of a circle with radius 3 has a central angle of 90°. What is the area of the sector?",
+      "answer": "9π/4",
+      "explanation": "Sector area = (θ/360°) × πr² = (90/360) × π(3)² = (1/4) × 9π = 9π/4."
+    },
+    {
+      "question": "A line is tangent to a circle at point P. The radius to point P is 8. What is the angle between the tangent line and the radius?",
+      "answer": "90° or 90 degrees",
+      "explanation": "A tangent line is always perpendicular to the radius at the point of tangency, forming a 90° angle."
+    },
+    {
+      "question": "A circle has center (0, 0) and passes through the point (3, 4). Write the equation of the circle.",
+      "answer": "x² + y² = 25",
+      "explanation": "The radius is the distance from (0, 0) to (3, 4): r = √(3² + 4²) = √25 = 5. The equation is x² + y² = 25."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:04:54.968Z",
+  "model": "claude-haiku-4-5-20251001"
+}

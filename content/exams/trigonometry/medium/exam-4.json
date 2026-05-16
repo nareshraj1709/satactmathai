@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-4",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A right triangle has an angle of 35° and the side opposite to it measures 7 cm. What is the length of the hypotenuse? Round to the nearest tenth.",
+      "answer": "12.2",
+      "explanation": "Use the sine ratio: sin(35°) = 7/h, so h = 7/sin(35°) ≈ 7/0.574 ≈ 12.2 cm."
+    },
+    {
+      "question": "If cos(θ) = 3/5 and θ is in the first quadrant, what is sin(θ)?",
+      "answer": "4/5",
+      "explanation": "Use the Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 − 9/25 = 16/25, giving sin(θ) = 4/5 in the first quadrant."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 62° angle with the ground. If the ladder is 15 feet long, how high does it reach on the wall?",
+      "answer": "13.2 feet",
+      "explanation": "The height is the side opposite the 62° angle. Use sin(62°) = h/15, so h = 15·sin(62°) ≈ 15(0.883) ≈ 13.2 feet."
+    },
+    {
+      "question": "Simplify: sin²(x) + sin²(x)·cot²(x)",
+      "answer": "1",
+      "explanation": "Factor out sin²(x): sin²(x)(1 + cot²(x)). Since 1 + cot²(x) = csc²(x) = 1/sin²(x), the product is sin²(x)·(1/sin²(x)) = 1."
+    },
+    {
+      "question": "On the unit circle, a point is located at angle 240°. What are its coordinates?",
+      "answer": "(-1/2, -√3/2)",
+      "explanation": "240° = 180° + 60°, placing the point in the third quadrant. Use reference angle 60°: x = −cos(60°) = −1/2, y = −sin(60°) = −√3/2."
+    },
+    {
+      "question": "A surveyor stands 50 meters from the base of a building and measures the angle of elevation to the top as 48°. What is the height of the building? Round to the nearest whole number.",
+      "answer": "56 meters",
+      "explanation": "Use tan(48°) = h/50, so h = 50·tan(48°) ≈ 50(1.111) ≈ 56 meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:38.453Z",
+  "model": "claude-haiku-4-5-20251001"
+}

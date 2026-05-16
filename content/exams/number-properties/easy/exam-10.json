@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-10",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors: 24 has 1, 2, 3, 4, 6, 8, 12, 24 and 36 has 1, 2, 3, 4, 6, 9, 12, 18, 36. The greatest common factor is 12."
+    },
+    {
+      "question": "Is 7 a factor of 56? Answer yes or no.",
+      "answer": "yes",
+      "explanation": "Divide: 56 ÷ 7 = 8 with no remainder, so 7 is a factor of 56."
+    },
+    {
+      "question": "What is the least common multiple of 4 and 6?",
+      "answer": "12",
+      "explanation": "Multiples of 4: 4, 8, 12, 16, ... Multiples of 6: 6, 12, 18, ... The smallest common multiple is 12."
+    },
+    {
+      "question": "How many prime factors does 30 have?",
+      "answer": "3",
+      "explanation": "Factor 30: 30 = 2 × 3 × 5. The three prime factors are 2, 3, and 5."
+    },
+    {
+      "question": "A baker has 18 chocolate cookies and 24 vanilla cookies. She wants to pack them into identical bags with no cookies left over and the same number of each type in each bag. What is the greatest number of bags she can make?",
+      "answer": "6",
+      "explanation": "The greatest number of bags is the GCF of 18 and 24. GCF(18, 24) = 6, so she can make 6 bags."
+    },
+    {
+      "question": "Which of the following is a multiple of 8: 32, 35, or 37?",
+      "answer": "32",
+      "explanation": "Check divisibility: 32 ÷ 8 = 4 (exact), 35 ÷ 8 = 4.375, 37 ÷ 8 = 4.625. Only 32 is a multiple of 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:13:46.165Z",
+  "model": "claude-haiku-4-5-20251001"
+}

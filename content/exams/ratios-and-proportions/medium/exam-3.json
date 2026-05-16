@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-3",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you use 10 cups of flour, how many cups of sugar do you need?",
+      "answer": "4",
+      "explanation": "Set up the proportion: 5/2 = 10/x. Cross-multiply: 5x = 20. Solve: x = 4 cups."
+    },
+    {
+      "question": "In a school, the ratio of teachers to students is 1:25. If there are 600 students, how many teachers are there?",
+      "answer": "24",
+      "explanation": "Use the ratio 1:25, so teachers/students = 1/25. Then teachers/600 = 1/25, giving teachers = 600/25 = 24."
+    },
+    {
+      "question": "A map has a scale of 1 inch : 50 miles. Two cities are 3.5 inches apart on the map. What is the actual distance between the cities in miles?",
+      "answer": "175",
+      "explanation": "Set up: 1 inch / 50 miles = 3.5 inches / x miles. Cross-multiply: x = 3.5 × 50 = 175 miles."
+    },
+    {
+      "question": "If 8 workers can complete a job in 12 days, how many days will it take 6 workers to complete the same job, assuming constant productivity?",
+      "answer": "16",
+      "explanation": "Total work is constant: 8 workers × 12 days = 96 worker-days. For 6 workers: 6 × d = 96, so d = 16 days."
+    },
+    {
+      "question": "A fruit stand sells apples and oranges in the ratio 3:4. If 84 pieces of fruit are sold in total, how many more oranges than apples were sold?",
+      "answer": "12",
+      "explanation": "Ratio parts: 3 + 4 = 7 parts total. Apples = (3/7) × 84 = 36; Oranges = (4/7) × 84 = 48. Difference: 48 − 36 = 12."
+    },
+    {
+      "question": "A paint mixture uses red and blue paint in the ratio 2:5. If 14 liters of red paint are used, how many liters of the total mixture are there?",
+      "answer": "49",
+      "explanation": "Red is 2 parts, blue is 5 parts. If red = 14 liters, then 1 part = 7 liters. Total = (2 + 5) × 7 = 7 × 7 = 49 liters."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:02.361Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-8",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Solve the inequality: 3x + 2 < 11",
+      "answer": "x < 3",
+      "explanation": "Subtract 2 from both sides: 3x < 9. Divide by 3: x < 3."
+    },
+    {
+      "question": "Which value of x satisfies the inequality 2x − 5 ≥ 3?",
+      "answer": "x ≥ 4",
+      "explanation": "Add 5 to both sides: 2x ≥ 8. Divide by 2: x ≥ 4."
+    },
+    {
+      "question": "A student needs to score at least 70 points on a test to pass. If she currently has 55 points, how many more points does she need?",
+      "answer": "At least 15 points",
+      "explanation": "Set up: 55 + p ≥ 70, where p is additional points. Solving: p ≥ 15."
+    },
+    {
+      "question": "Graph the solution to x ≤ 2 on a number line. Should the point at 2 be open or closed?",
+      "answer": "Closed",
+      "explanation": "The inequality includes equality (≤), so the endpoint is included and shown as a closed circle."
+    },
+    {
+      "question": "Solve: −2x > 6",
+      "answer": "x < −3",
+      "explanation": "Divide both sides by −2. Remember: dividing by a negative reverses the inequality sign."
+    },
+    {
+      "question": "Is x = 0 a solution to the inequality 4x + 1 < 5?",
+      "answer": "Yes",
+      "explanation": "Substitute x = 0: 4(0) + 1 = 1, and 1 < 5 is true."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:58.871Z",
+  "model": "claude-haiku-4-5-20251001"
+}

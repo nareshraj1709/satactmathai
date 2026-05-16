@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-1",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors: 24 has factors 1, 2, 3, 4, 6, 8, 12, 24 and 36 has factors 1, 2, 3, 4, 6, 9, 12, 18, 36. The greatest common factor is 12."
+    },
+    {
+      "question": "Which of the following is a prime number: 15, 17, 21, or 25?",
+      "answer": "17",
+      "explanation": "17 is only divisible by 1 and itself. 15 = 3 × 5, 21 = 3 × 7, and 25 = 5 × 5 are all composite."
+    },
+    {
+      "question": "Is 144 divisible by 6? Explain why or why not.",
+      "answer": "Yes",
+      "explanation": "144 ÷ 6 = 24 with no remainder. Alternatively, 144 is divisible by both 2 and 3 (the factors of 6), so it is divisible by 6."
+    },
+    {
+      "question": "What is the least common multiple of 4 and 6?",
+      "answer": "12",
+      "explanation": "Multiples of 4: 4, 8, 12, 16, ... Multiples of 6: 6, 12, 18, ... The least common multiple is 12."
+    },
+    {
+      "question": "How many factors does 20 have?",
+      "answer": "6",
+      "explanation": "The factors of 20 are: 1, 2, 4, 5, 10, and 20. That is 6 factors total."
+    },
+    {
+      "question": "A baker has 18 chocolate chips and 24 nuts. She wants to divide them equally into bags with no remainder. What is the maximum number of bags she can make?",
+      "answer": "6",
+      "explanation": "The maximum number of bags equals the GCF of 18 and 24. The GCF is 6, so she can make 6 bags with 3 chips and 4 nuts each."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:55.891Z",
+  "model": "claude-haiku-4-5-20251001"
+}

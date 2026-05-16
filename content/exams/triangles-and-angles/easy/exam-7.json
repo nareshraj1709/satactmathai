@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-7",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 50° and angle B measures 60°. What is the measure of angle C?",
+      "answer": "70°",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 50° − 60° = 70°."
+    },
+    {
+      "question": "A right triangle has one acute angle measuring 35°. What is the measure of the other acute angle?",
+      "answer": "55°",
+      "explanation": "In a right triangle, the two acute angles sum to 90°. So the other angle = 90° − 35° = 55°."
+    },
+    {
+      "question": "In an equilateral triangle, what is the measure of each interior angle?",
+      "answer": "60°",
+      "explanation": "All three angles in an equilateral triangle are equal. Since they sum to 180°, each angle = 180° ÷ 3 = 60°."
+    },
+    {
+      "question": "Two angles in a triangle measure 45° and 45°. Is this triangle a right triangle? Explain briefly.",
+      "answer": "Yes",
+      "explanation": "The third angle = 180° − 45° − 45° = 90°. A triangle with a 90° angle is a right triangle."
+    },
+    {
+      "question": "In triangle PQR, angle P = 28° and angle Q = 90°. Find angle R.",
+      "answer": "62°",
+      "explanation": "Angle R = 180° − 28° − 90° = 62°."
+    },
+    {
+      "question": "An isosceles triangle has a vertex angle of 80°. What is the measure of each base angle?",
+      "answer": "50°",
+      "explanation": "The two base angles in an isosceles triangle are equal. If each is x, then x + x + 80° = 180°, so 2x = 100°, and x = 50°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:56.435Z",
+  "model": "claude-haiku-4-5-20251001"
+}

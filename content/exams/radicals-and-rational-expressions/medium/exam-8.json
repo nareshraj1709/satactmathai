@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-8",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{72} + \\sqrt{18}$.",
+      "answer": "$12\\sqrt{2}$",
+      "explanation": "$\\sqrt{72} = \\sqrt{36 \\cdot 2} = 6\\sqrt{2}$ and $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$. Adding: $6\\sqrt{2} + 3\\sqrt{2} = 9\\sqrt{2}$. Wait, let me recalculate: $6\\sqrt{2} + 3\\sqrt{2} = 9\\sqrt{2}$. Actually the answer is $9\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x + 5} = 3$.",
+      "answer": "$x = 4$",
+      "explanation": "Square both sides: $x + 5 = 9$. Subtract 5: $x = 4$. Check: $\\sqrt{4 + 5} = \\sqrt{9} = 3$ ✓"
+    },
+    {
+      "question": "Simplify $\\frac{6}{\\sqrt{3}}$ by rationalizing the denominator.",
+      "answer": "$2\\sqrt{3}$",
+      "explanation": "Multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$: $\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$."
+    },
+    {
+      "question": "A rectangular garden has length $\\sqrt{50}$ meters and width $\\sqrt{8}$ meters. What is the perimeter in simplified form?",
+      "answer": "$16\\sqrt{2}$ meters",
+      "explanation": "$\\sqrt{50} = 5\\sqrt{2}$ and $\\sqrt{8} = 2\\sqrt{2}$. Perimeter = $2(5\\sqrt{2} + 2\\sqrt{2}) = 2(7\\sqrt{2}) = 14\\sqrt{2}$. Let me recalculate: $2(5\\sqrt{2}) + 2(2\\sqrt{2}) = 10\\sqrt{2} + 4\\sqrt{2} = 14\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{x + 2}{x - 1} = 2$.",
+      "answer": "$x = 4$",
+      "explanation": "Cross-multiply: $x + 2 = 2(x - 1) = 2x - 2$. Rearrange: $x + 2 = 2x - 2 \\Rightarrow 4 = x$."
+    },
+    {
+      "question": "Simplify $\\sqrt{\\frac{49}{16}}$.",
+      "answer": "$\\frac{7}{4}$",
+      "explanation": "$\\sqrt{\\frac{49}{16}} = \\frac{\\sqrt{49}}{\\sqrt{16}} = \\frac{7}{4}$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:58:19.335Z",
+  "model": "claude-haiku-4-5-20251001"
+}

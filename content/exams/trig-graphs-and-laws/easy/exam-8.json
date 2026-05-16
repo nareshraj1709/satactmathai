@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-8",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "What is the period of the function y = sin(2x)?",
+      "answer": "π",
+      "explanation": "The period of y = sin(bx) is 2π/b. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, angle A = 50°, angle B = 70°, and side a = 10. Find the length of side b using the Law of Sines.",
+      "answer": "b ≈ 11.2",
+      "explanation": "Law of Sines: a/sin(A) = b/sin(B). So 10/sin(50°) = b/sin(70°). Thus b = 10·sin(70°)/sin(50°) ≈ 11.2."
+    },
+    {
+      "question": "Where does the graph of y = cos(x) intersect the x-axis in the interval [0, 2π]?",
+      "answer": "x = π/2 and x = 3π/2",
+      "explanation": "cos(x) = 0 when x = π/2 + nπ for integer n. In [0, 2π], these are π/2 and 3π/2."
+    },
+    {
+      "question": "A triangle has sides a = 5, b = 6, and c = 7. Find cos(C) using the Law of Cosines.",
+      "answer": "cos(C) = 1/7",
+      "explanation": "Law of Cosines: c² = a² + b² − 2ab·cos(C). So 49 = 25 + 36 − 60·cos(C), giving 60·cos(C) = 12, thus cos(C) = 1/5. Wait: 49 = 61 − 60·cos(C), so cos(C) = 12/60 = 1/5."
+    },
+    {
+      "question": "What is the amplitude of y = 3sin(x) − 2?",
+      "answer": "3",
+      "explanation": "The amplitude is the coefficient of the sine function, which is |3| = 3. The −2 is a vertical shift, not part of amplitude."
+    },
+    {
+      "question": "In triangle PQR, side p = 8, side q = 9, and angle Q = 60°. Find angle P using the Law of Sines.",
+      "answer": "P ≈ 50.1° (or arcsin(4√3/9))",
+      "explanation": "Law of Sines: p/sin(P) = q/sin(Q). So 8/sin(P) = 9/sin(60°) = 9/(√3/2) = 18/√3. Thus sin(P) = 8√3/18 = 4√3/9 ≈ 0.770, so P ≈ 50.1°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:24.716Z",
+  "model": "claude-haiku-4-5-20251001"
+}

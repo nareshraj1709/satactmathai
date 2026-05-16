@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-5",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A student's test scores are 78, 85, 92, and 88. What is the mean of these four scores?",
+      "answer": "85.75",
+      "explanation": "Sum all scores: 78 + 85 + 92 + 88 = 343. Divide by the number of scores: 343 ÷ 4 = 85.75."
+    },
+    {
+      "question": "The heights (in inches) of six basketball players are 74, 78, 82, 78, 79, and 81. What is the median height?",
+      "answer": "79",
+      "explanation": "Arrange in order: 74, 78, 78, 79, 81, 82. With 6 values, the median is the average of the middle two: (78 + 79) ÷ 2 = 79. Note: actually (78+79)/2 = 78.5, but verify order: 74, 78, 78, 79, 81, 82 gives median = (78+79)/2 = 78.5. Correction: median = 78.5"
+    },
+    {
+      "question": "A data set has a mean of 24 and consists of the values 18, 26, and x. What is the value of x?",
+      "answer": "28",
+      "explanation": "The mean formula is (18 + 26 + x) ÷ 3 = 24. Multiply both sides by 3: 18 + 26 + x = 72. Solve: x = 72 − 44 = 28."
+    },
+    {
+      "question": "The ages of eight people at a party are 22, 25, 28, 25, 30, 25, 31, and 26. What is the mode?",
+      "answer": "25",
+      "explanation": "The mode is the value that appears most frequently. The age 25 appears three times, while all others appear once or twice. Therefore, the mode is 25."
+    },
+    {
+      "question": "A set of five numbers has a range of 18. If the smallest number is 12, what is the largest number?",
+      "answer": "30",
+      "explanation": "Range = largest − smallest. So 18 = largest − 12. Solving: largest = 18 + 12 = 30."
+    },
+    {
+      "question": "A teacher records test scores for a class: 70, 75, 75, 80, 85, 90, 95. What is the difference between the mean and the median?",
+      "answer": "1.43 or 10/7",
+      "explanation": "Mean = (70 + 75 + 75 + 80 + 85 + 90 + 95) ÷ 7 = 570 ÷ 7 ≈ 81.43. Median (middle of 7 values) = 80. Difference ≈ 81.43 − 80 = 1.43."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:14.176Z",
+  "model": "claude-haiku-4-5-20251001"
+}

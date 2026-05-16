@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-6",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Simplify √(36x²). Assume x is positive.",
+      "answer": "6x",
+      "explanation": "√(36x²) = √36 · √(x²) = 6 · x = 6x. Take the square root of each factor separately."
+    },
+    {
+      "question": "Solve for x: √x = 5",
+      "answer": "x = 25",
+      "explanation": "Square both sides: (√x)² = 5². This gives x = 25. Check: √25 = 5 ✓"
+    },
+    {
+      "question": "Simplify √(48). Write your answer in the form a√b, where b has no perfect square factors.",
+      "answer": "4√3",
+      "explanation": "48 = 16 · 3, so √48 = √(16 · 3) = √16 · √3 = 4√3. The factor 3 has no perfect square factors."
+    },
+    {
+      "question": "Simplify (1/√4). Do not use decimals.",
+      "answer": "1/2",
+      "explanation": "√4 = 2, so 1/√4 = 1/2. Evaluate the radical first, then simplify the fraction."
+    },
+    {
+      "question": "Solve for x: 2√x + 3 = 11",
+      "answer": "x = 16",
+      "explanation": "2√x + 3 = 11 → 2√x = 8 → √x = 4 → x = 16. Isolate the radical, then square both sides."
+    },
+    {
+      "question": "A square garden has area 100 square meters. What is the length of one side?",
+      "answer": "10 meters",
+      "explanation": "If the area is 100, then side = √100 = 10 meters. The side length is the positive square root of the area."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:57:25.924Z",
+  "model": "claude-haiku-4-5-20251001"
+}

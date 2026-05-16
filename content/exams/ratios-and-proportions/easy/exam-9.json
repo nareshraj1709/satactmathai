@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-easy-9",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you use 6 cups of flour, how many cups of sugar do you need?",
+      "answer": "9",
+      "explanation": "Set up the proportion: 2/3 = 6/x. Cross-multiply: 2x = 18, so x = 9."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 5:7. If there are 25 boys, how many girls are there?",
+      "answer": "35",
+      "explanation": "5 boys corresponds to 7 girls. Multiply both parts by 5: 25 boys corresponds to 35 girls."
+    },
+    {
+      "question": "A map scale is 1 inch : 50 miles. If two cities are 4 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "200",
+      "explanation": "Multiply the map distance by the scale factor: 4 inches × 50 miles/inch = 200 miles."
+    },
+    {
+      "question": "If 8 identical books cost $32, what is the cost of 5 books?",
+      "answer": "20",
+      "explanation": "Cost per book: $32 ÷ 8 = $4. Cost of 5 books: 5 × $4 = $20."
+    },
+    {
+      "question": "A car travels 120 miles in 2 hours at a constant speed. At this rate, how many miles will it travel in 5 hours?",
+      "answer": "300",
+      "explanation": "Speed = 120 miles ÷ 2 hours = 60 mph. Distance in 5 hours = 60 × 5 = 300 miles."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles is 3:4. If there are 12 red marbles, how many blue marbles are there?",
+      "answer": "16",
+      "explanation": "3 red corresponds to 4 blue. Multiply both by 4: 12 red corresponds to 16 blue."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:01.222Z",
+  "model": "claude-haiku-4-5-20251001"
+}

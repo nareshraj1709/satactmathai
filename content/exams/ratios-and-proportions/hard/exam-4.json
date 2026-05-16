@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-4",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "In a mixture, the ratio of salt to sugar to water is 2:3:5. If the mixture contains 24 grams of salt, how many grams of water are in the mixture?",
+      "answer": "60",
+      "explanation": "The ratio 2:3:5 means salt is 2 parts out of 2+3+5=10 total parts. If 2 parts = 24 grams, then 1 part = 12 grams. Water is 5 parts, so 5 × 12 = 60 grams."
+    },
+    {
+      "question": "A recipe calls for flour and butter in the ratio 5:2. If you use 8 ounces of butter, how many ounces of flour do you need?",
+      "answer": "20",
+      "explanation": "Set up the proportion: flour/butter = 5/2. Let f = flour, so f/8 = 5/2. Cross-multiply: 2f = 40, so f = 20 ounces."
+    },
+    {
+      "question": "Two workers complete a job in time inversely proportional to their combined effort. Worker A alone takes 6 hours, and Worker B alone takes 9 hours. How many hours does it take them working together?",
+      "answer": "3.6 or 18/5",
+      "explanation": "Work rates: A does 1/6 per hour, B does 1/9 per hour. Combined rate: 1/6 + 1/9 = 3/18 + 2/18 = 5/18 per hour. Time = 1 ÷ (5/18) = 18/5 = 3.6 hours."
+    },
+    {
+      "question": "A map has a scale of 1 inch to 50 miles. If two cities are 7.5 inches apart on the map, what is the actual distance between them in miles?",
+      "answer": "375",
+      "explanation": "Use the proportion: 1 inch / 50 miles = 7.5 inches / x miles. Cross-multiply: x = 7.5 × 50 = 375 miles."
+    },
+    {
+      "question": "In a school, the ratio of students to teachers is 18:1. If there are 684 students, how many teachers are there?",
+      "answer": "38",
+      "explanation": "Set up: students/teachers = 18/1, so 684/t = 18/1. Cross-multiply: 18t = 684, so t = 684 ÷ 18 = 38 teachers."
+    },
+    {
+      "question": "A chemist mixes three solutions in the ratio 4:5:6 by volume. If the smallest volume is 120 mL, what is the total volume of the mixture?",
+      "answer": "450",
+      "explanation": "The ratio 4:5:6 means the smallest part (4) corresponds to 120 mL, so 1 part = 30 mL. Total parts: 4+5+6 = 15, so total volume = 15 × 30 = 450 mL."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:37.177Z",
+  "model": "claude-haiku-4-5-20251001"
+}

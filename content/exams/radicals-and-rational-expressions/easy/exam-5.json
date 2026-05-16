@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-5",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Simplify √36.",
+      "answer": "6",
+      "explanation": "√36 = 6 because 6² = 36. Look for perfect square factors."
+    },
+    {
+      "question": "Simplify √50.",
+      "answer": "5√2",
+      "explanation": "50 = 25 × 2, so √50 = √25 · √2 = 5√2. Factor out perfect squares."
+    },
+    {
+      "question": "Solve: √x = 7",
+      "answer": "x = 49",
+      "explanation": "Square both sides: (√x)² = 7², so x = 49. Always check: √49 = 7 ✓"
+    },
+    {
+      "question": "Simplify: (2√3)(4√3)",
+      "answer": "24",
+      "explanation": "Multiply coefficients: 2 × 4 = 8. Multiply radicals: √3 × √3 = 3. Result: 8 × 3 = 24."
+    },
+    {
+      "question": "Simplify: 12/(2√3). Rationalize the denominator.",
+      "answer": "2√3",
+      "explanation": "Multiply by √3/√3: (12√3)/(2·3) = (12√3)/6 = 2√3."
+    },
+    {
+      "question": "If √(x + 5) = 3, what is x?",
+      "answer": "x = 4",
+      "explanation": "Square both sides: x + 5 = 9. Subtract 5: x = 4. Check: √(4 + 5) = √9 = 3 ✓"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:56:53.792Z",
+  "model": "claude-haiku-4-5-20251001"
+}

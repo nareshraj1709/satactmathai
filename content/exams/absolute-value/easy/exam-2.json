@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-2",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve |x| = 7.",
+      "answer": "x = 7 or x = -7",
+      "explanation": "The absolute value of x equals 7 when x is 7 units from zero on the number line. This happens at both x = 7 and x = -7."
+    },
+    {
+      "question": "Solve |x - 3| = 5.",
+      "answer": "x = 8 or x = -2",
+      "explanation": "The expression (x - 3) must equal 5 or -5. If x - 3 = 5, then x = 8. If x - 3 = -5, then x = -2."
+    },
+    {
+      "question": "Which value(s) of x satisfy |x + 2| = 0?",
+      "answer": "x = -2",
+      "explanation": "Absolute value equals zero only when the expression inside equals zero. So x + 2 = 0, giving x = -2."
+    },
+    {
+      "question": "Solve |2x| = 12.",
+      "answer": "x = 6 or x = -6",
+      "explanation": "Divide both sides by 2: |x| = 6. Then x = 6 or x = -6."
+    },
+    {
+      "question": "A temperature reading has an absolute error of |t - 68| = 3, where t is the actual temperature in degrees Fahrenheit. What are the possible temperatures?",
+      "answer": "t = 65 or t = 71",
+      "explanation": "The actual temperature is 3 degrees away from 68. So t - 68 = 3 (giving t = 71) or t - 68 = -3 (giving t = 65)."
+    },
+    {
+      "question": "Solve |x| = -4.",
+      "answer": "No solution",
+      "explanation": "Absolute value is always non-negative, so |x| can never equal -4. There is no solution."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:08.707Z",
+  "model": "claude-haiku-4-5-20251001"
+}

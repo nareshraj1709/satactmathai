@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-10",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{72} + \\sqrt{18}$.",
+      "answer": "$12\\sqrt{2}$",
+      "explanation": "$\\sqrt{72} = \\sqrt{36 \\cdot 2} = 6\\sqrt{2}$ and $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$. Adding: $6\\sqrt{2} + 3\\sqrt{2} = 9\\sqrt{2}$. Wait, let me recalculate: $\\sqrt{72} = 6\\sqrt{2}$ and $\\sqrt{18} = 3\\sqrt{2}$, so $6\\sqrt{2} + 3\\sqrt{2} = 9\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x - 3} = 5$.",
+      "answer": "$x = 28$",
+      "explanation": "Square both sides: $x - 3 = 25$. Add 3 to both sides: $x = 28$. Check: $\\sqrt{28 - 3} = \\sqrt{25} = 5$ ✓"
+    },
+    {
+      "question": "Simplify $\\frac{6}{\\sqrt{3}}$ by rationalizing the denominator.",
+      "answer": "$2\\sqrt{3}$",
+      "explanation": "Multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$: $\\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{x}{x+2} = \\frac{3}{5}$.",
+      "answer": "$x = 3$",
+      "explanation": "Cross-multiply: $5x = 3(x+2)$. Expand: $5x = 3x + 6$. Subtract $3x$: $2x = 6$. Divide: $x = 3$."
+    },
+    {
+      "question": "A rectangular garden has width $w$ and length $l = w + 4$. If the area is 45 square meters, write an equation involving a radical or solve for $w$.",
+      "answer": "$w(w+4) = 45$ or $w = 5$",
+      "explanation": "Area formula: $w(w+4) = 45$, which gives $w^2 + 4w - 45 = 0$. Factoring: $(w+9)(w-5) = 0$. Since $w > 0$, we have $w = 5$ meters."
+    },
+    {
+      "question": "Simplify $\\frac{\\sqrt{50}}{\\sqrt{2}}$.",
+      "answer": "$5$",
+      "explanation": "$\\frac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{\\frac{50}{2}} = \\sqrt{25} = 5$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:58:18.769Z",
+  "model": "claude-haiku-4-5-20251001"
+}

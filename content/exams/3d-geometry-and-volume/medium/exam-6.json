@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-medium-6",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A rectangular prism has dimensions 4 cm × 5 cm × 8 cm. What is its volume in cubic centimeters?",
+      "answer": "160",
+      "explanation": "Volume of a rectangular prism = length × width × height = 4 × 5 × 8 = 160 cm³."
+    },
+    {
+      "question": "A cylinder has a radius of 3 inches and a height of 10 inches. What is its volume in terms of π?",
+      "answer": "90π",
+      "explanation": "Volume of a cylinder = πr²h = π(3)²(10) = 90π cubic inches."
+    },
+    {
+      "question": "A cone has a base radius of 6 meters and a height of 9 meters. What is its volume in terms of π?",
+      "answer": "108π",
+      "explanation": "Volume of a cone = (1/3)πr²h = (1/3)π(6)²(9) = (1/3)π(36)(9) = 108π cubic meters."
+    },
+    {
+      "question": "A sphere has a radius of 5 cm. What is its volume in terms of π?",
+      "answer": "500π/3 or 166⅔π",
+      "explanation": "Volume of a sphere = (4/3)πr³ = (4/3)π(5)³ = (4/3)π(125) = 500π/3 cubic centimeters."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 24 square inches and a height (length) of 7 inches. What is the volume?",
+      "answer": "168",
+      "explanation": "Volume of a prism = base area × height = 24 × 7 = 168 cubic inches."
+    },
+    {
+      "question": "A cylindrical tank is filled with water to a height of 12 feet. The tank has a radius of 4 feet. If water is drained until the height is 8 feet, how many cubic feet of water were removed? Use π ≈ 3.14.",
+      "answer": "50.24 or 50.3",
+      "explanation": "Volume removed = π × r² × Δh = 3.14 × (4)² × (12 − 8) = 3.14 × 16 × 4 ≈ 50.24 cubic feet."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:23.784Z",
+  "model": "claude-haiku-4-5-20251001"
+}

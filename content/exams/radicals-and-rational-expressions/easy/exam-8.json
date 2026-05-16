@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-easy-8",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Simplify √(36x²). Assume x ≥ 0.",
+      "answer": "6x",
+      "explanation": "√(36x²) = √36 · √(x²) = 6 · x = 6x. Take the square root of each factor separately."
+    },
+    {
+      "question": "Solve for x: √x = 5",
+      "answer": "x = 25",
+      "explanation": "Square both sides: (√x)² = 5², so x = 25. Check: √25 = 5 ✓"
+    },
+    {
+      "question": "Simplify √50.",
+      "answer": "5√2",
+      "explanation": "√50 = √(25 · 2) = √25 · √2 = 5√2. Factor out perfect squares."
+    },
+    {
+      "question": "Simplify (3/(2x)) + (1/(2x)).",
+      "answer": "2/x",
+      "explanation": "Both fractions have the same denominator: (3 + 1)/(2x) = 4/(2x) = 2/x."
+    },
+    {
+      "question": "Solve for y: (y/4) = 3",
+      "answer": "y = 12",
+      "explanation": "Multiply both sides by 4: y = 3 · 4 = 12."
+    },
+    {
+      "question": "Simplify √(16/25).",
+      "answer": "4/5",
+      "explanation": "√(16/25) = √16/√25 = 4/5. Take the square root of numerator and denominator separately."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:57:32.434Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-10",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A right triangle has an angle of 35° and the side opposite to it measures 12 cm. Find the length of the hypotenuse. Round to the nearest tenth.",
+      "answer": "20.9 cm",
+      "explanation": "Use sin(35°) = opposite/hypotenuse. So hypotenuse = 12/sin(35°) ≈ 12/0.574 ≈ 20.9 cm."
+    },
+    {
+      "question": "On the unit circle, if cos(θ) = −3/5 and θ is in the second quadrant, find sin(θ).",
+      "answer": "4/5",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 − (9/25) = 16/25. Since θ is in quadrant II, sin(θ) > 0, so sin(θ) = 4/5."
+    },
+    {
+      "question": "A ladder leans against a wall at a 60° angle to the ground. If the ladder is 10 feet long, how high does it reach on the wall?",
+      "answer": "5√3 feet",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) = height/10. So height = 10 · (√3/2) = 5√3 feet."
+    },
+    {
+      "question": "Simplify: sin²(x) + sin²(x)·cot²(x)",
+      "answer": "1",
+      "explanation": "Factor: sin²(x)[1 + cot²(x)]. Since 1 + cot²(x) = csc²(x) = 1/sin²(x), we get sin²(x) · (1/sin²(x)) = 1."
+    },
+    {
+      "question": "If tan(θ) = 7/24 and θ is in the first quadrant, find cos(θ).",
+      "answer": "24/25",
+      "explanation": "In a right triangle with opposite = 7 and adjacent = 24, the hypotenuse = √(49 + 576) = √625 = 25. So cos(θ) = adjacent/hypotenuse = 24/25."
+    },
+    {
+      "question": "What is the value of sin(150°)?",
+      "answer": "1/2",
+      "explanation": "150° = 180° − 30°. Using the supplementary angle identity: sin(150°) = sin(30°) = 1/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:12.962Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-6",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A jar contains 8 red marbles, 5 blue marbles, and 7 green marbles. If one marble is drawn at random, what is the probability it is either red or green? Express your answer as a fraction in lowest terms.",
+      "answer": "15/20 or 3/4",
+      "explanation": "Total marbles = 8 + 5 + 7 = 20. Red or green = 8 + 7 = 15. Probability = 15/20 = 3/4."
+    },
+    {
+      "question": "In a class of 30 students, 18 play soccer and 12 play basketball. If 8 students play both sports, how many students play neither sport?",
+      "answer": "8",
+      "explanation": "Using inclusion-exclusion: students playing at least one sport = 18 + 12 − 8 = 22. Students playing neither = 30 − 22 = 8."
+    },
+    {
+      "question": "A two-way table shows that among 200 survey respondents, 120 prefer coffee and 80 prefer tea. Of those who prefer coffee, 75 are female. Of those who prefer tea, 45 are female. How many male respondents prefer tea?",
+      "answer": "35",
+      "explanation": "Tea drinkers = 80. Female tea drinkers = 45. Male tea drinkers = 80 − 45 = 35."
+    },
+    {
+      "question": "A deck of cards has 52 cards (13 cards in each of 4 suits). What is the probability of drawing a heart or a face card (Jack, Queen, King)? Round to the nearest hundredth.",
+      "answer": "0.42",
+      "explanation": "Hearts = 13. Face cards not in hearts = 9 (3 per suit × 3 other suits). Total favorable = 13 + 9 = 22. Probability = 22/52 ≈ 0.42."
+    },
+    {
+      "question": "A restaurant found that 70% of customers order a drink and 40% of all customers order both food and a drink. If a customer ordered a drink, what is the probability they also ordered food? Express as a decimal.",
+      "answer": "0.57 or 4/7 or approximately 0.571",
+      "explanation": "This is conditional probability: P(food | drink) = P(food and drink) / P(drink) = 0.40 / 0.70 = 4/7 ≈ 0.571."
+    },
+    {
+      "question": "Two fair dice are rolled. What is the probability that the sum is greater than 10? Express your answer as a fraction in lowest terms.",
+      "answer": "1/12",
+      "explanation": "Total outcomes = 36. Sums > 10: sum of 11 (5,6 and 6,5) and sum of 12 (6,6) give 3 outcomes. Probability = 3/36 = 1/12."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:21.617Z",
+  "model": "claude-haiku-4-5-20251001"
+}

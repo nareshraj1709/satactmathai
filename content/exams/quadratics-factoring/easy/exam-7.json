@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-7",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 5x + 6",
+      "answer": "(x + 2)(x + 3)",
+      "explanation": "Find two numbers that multiply to 6 and add to 5. Those are 2 and 3, so x² + 5x + 6 = (x + 2)(x + 3)."
+    },
+    {
+      "question": "Solve by factoring: x² - 4x = 0",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out x: x(x - 4) = 0. Set each factor to zero: x = 0 or x - 4 = 0, giving x = 4."
+    },
+    {
+      "question": "Factor completely: 2x² + 8x + 6",
+      "answer": "2(x + 1)(x + 3)",
+      "explanation": "Factor out the GCF of 2 first: 2(x² + 4x + 3). Then factor x² + 4x + 3 = (x + 1)(x + 3)."
+    },
+    {
+      "question": "A rectangle has length x + 4 and width x. If the area is 12, write an equation and solve for x.",
+      "answer": "x = 2",
+      "explanation": "Set up: x(x + 4) = 12, so x² + 4x - 12 = 0. Factor: (x + 6)(x - 2) = 0. Since x is a width, x = 2 (reject x = -6)."
+    },
+    {
+      "question": "Factor the quadratic: x² - 9",
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: x² - 9 = x² - 3². Use the pattern a² - b² = (a - b)(a + b)."
+    },
+    {
+      "question": "Solve by factoring: x² + 2x - 15 = 0",
+      "answer": "x = 3 or x = -5",
+      "explanation": "Find two numbers that multiply to -15 and add to 2: those are 5 and -3. Factor: (x + 5)(x - 3) = 0, so x = -5 or x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:26.844Z",
+  "model": "claude-haiku-4-5-20251001"
+}

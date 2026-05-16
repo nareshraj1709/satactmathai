@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-5",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite angle θ has length 5 and the hypotenuse has length 13. Find sin(θ).",
+      "answer": "5/13",
+      "explanation": "By SOH-CAH-TOA, sin(θ) = opposite/hypotenuse = 5/13."
+    },
+    {
+      "question": "A ladder leans against a wall at an angle of 62° to the ground. If the ladder is 10 feet long, how far from the wall is the base of the ladder? Round to the nearest tenth.",
+      "answer": "4.7 feet",
+      "explanation": "The base distance is adjacent to the 62° angle. Use cos(62°) = adjacent/10, so distance = 10·cos(62°) ≈ 10(0.469) ≈ 4.7 feet."
+    },
+    {
+      "question": "If cos(θ) = 3/5 and θ is in the first quadrant, find tan(θ).",
+      "answer": "4/3",
+      "explanation": "From cos(θ) = 3/5, use sin²(θ) + cos²(θ) = 1 to get sin(θ) = 4/5. Then tan(θ) = sin(θ)/cos(θ) = (4/5)/(3/5) = 4/3."
+    },
+    {
+      "question": "On the unit circle, a point is located at angle 240° from the positive x-axis. What are its coordinates?",
+      "answer": "(-1/2, -√3/2)",
+      "explanation": "240° = 180° + 60°, placing the point in the third quadrant. The reference angle is 60°, so coordinates are (-cos(60°), -sin(60°)) = (-1/2, -√3/2)."
+    },
+    {
+      "question": "Simplify: sin²(θ) + sin²(θ)·tan²(θ).",
+      "answer": "tan²(θ)",
+      "explanation": "Factor: sin²(θ)(1 + tan²(θ)). Using the identity 1 + tan²(θ) = sec²(θ) = 1/cos²(θ), we get sin²(θ)/cos²(θ) = tan²(θ)."
+    },
+    {
+      "question": "A surveyor measures that the angle of elevation to the top of a building is 35° from a point 50 meters away on level ground. Find the height of the building to the nearest meter.",
+      "answer": "35 meters",
+      "explanation": "The horizontal distance is adjacent to the 35° angle. Use tan(35°) = height/50, so height = 50·tan(35°) ≈ 50(0.700) ≈ 35 meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:37.224Z",
+  "model": "claude-haiku-4-5-20251001"
+}

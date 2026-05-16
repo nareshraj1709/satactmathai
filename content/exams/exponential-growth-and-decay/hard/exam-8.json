@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-hard-8",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A radioactive isotope decays according to the formula N(t) = N₀ · (1/2)^(t/h), where h is the half-life in years. If an isotope has a half-life of 12 years and currently 375 mg remains, how many milligrams were present 36 years ago?",
+      "answer": "3000",
+      "explanation": "Work backwards: N(t) = N₀ · (1/2)^(t/h), so 375 = N₀ · (1/2)^(36/12) = N₀ · (1/2)³ = N₀/8. Therefore N₀ = 375 × 8 = 3000 mg."
+    },
+    {
+      "question": "An investment grows according to A(t) = P(1.05)^t, where t is in years. If you want your $5,000 investment to triple, approximately how many years must you wait? (Express as a logarithmic equation you must solve.)",
+      "answer": "t = log(3)/log(1.05) or approximately 22.5 years",
+      "explanation": "Set 3P = P(1.05)^t, so 3 = (1.05)^t. Taking logarithms: t·log(1.05) = log(3), giving t = log(3)/log(1.05) ≈ 22.5 years."
+    },
+    {
+      "question": "A bacterial colony doubles every 3 hours. If the colony currently contains 2^13 bacteria, how many bacteria were present 12 hours ago?",
+      "answer": "2^9 or 512",
+      "explanation": "In 12 hours, the colony doubles 4 times (12÷3=4). Going backward 4 doublings means dividing by 2⁴. So 2^13 ÷ 2⁴ = 2^9 = 512."
+    },
+    {
+      "question": "The value of a car depreciates exponentially: V(t) = V₀ · e^(-kt), where t is in years. A car worth $20,000 is worth $12,000 after 5 years. Find k (the decay constant) to two decimal places.",
+      "answer": "k ≈ 0.11",
+      "explanation": "Set 12,000 = 20,000 · e^(-5k). Then 0.6 = e^(-5k). Taking ln: ln(0.6) = -5k, so k = -ln(0.6)/5 ≈ 0.102 ≈ 0.11."
+    },
+    {
+      "question": "A social media post goes viral with engagement following N(t) = 500 · 2^(t/2), where t is hours after posting. At what time will engagement reach 16,000?",
+      "answer": "t = 8",
+      "explanation": "Set 16,000 = 500 · 2^(t/2). Divide: 32 = 2^(t/2). Since 32 = 2⁵, we have t/2 = 5, so t = 8 hours."
+    },
+    {
+      "question": "Compound interest formula: A = P(1 + r/n)^(nt). If you invest $2,000 at 8% annual interest compounded quarterly, will your balance exceed $5,000 within 15 years? Show your reasoning.",
+      "answer": "No; balance ≈ $4,446",
+      "explanation": "A = 2000(1 + 0.08/4)^(4×15) = 2000(1.02)^60 ≈ 2000(2.223) ≈ $4,446, which is less than $5,000."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:26:58.875Z",
+  "model": "claude-haiku-4-5-20251001"
+}

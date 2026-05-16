@@ -1,0 +1,42 @@
+{
+  "id": "probability-easy-1",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A bag contains 3 red marbles and 5 blue marbles. If you draw one marble at random, what is the probability that it is red? Express your answer as a fraction in lowest terms.",
+      "answer": "3/8",
+      "explanation": "There are 3 red marbles out of 3 + 5 = 8 total marbles. Probability = favorable outcomes / total outcomes = 3/8."
+    },
+    {
+      "question": "A fair six-sided die is rolled once. What is the probability of rolling a number greater than 4?",
+      "answer": "1/3",
+      "explanation": "Numbers greater than 4 are 5 and 6 (2 outcomes). Probability = 2/6 = 1/3."
+    },
+    {
+      "question": "In a class of 20 students, 12 play soccer and 8 do not. If a student is selected at random, what is the probability that the student plays soccer?",
+      "answer": "3/5",
+      "explanation": "Probability = 12/20 = 3/5 after simplifying by dividing numerator and denominator by 4."
+    },
+    {
+      "question": "A spinner is divided into 4 equal sections colored red, blue, green, and yellow. You spin twice. What is the probability that both spins land on red?",
+      "answer": "1/16",
+      "explanation": "Each spin has probability 1/4 of landing on red. For both spins: (1/4) × (1/4) = 1/16."
+    },
+    {
+      "question": "A two-way table shows that 45 students take French, 30 students take Spanish, and 10 students take both. How many students take French or Spanish (or both)?",
+      "answer": "65",
+      "explanation": "Use the inclusion-exclusion principle: 45 + 30 − 10 = 65 students take at least one language."
+    },
+    {
+      "question": "If the probability of an event is 0.25, what is the probability that the event does NOT occur?",
+      "answer": "0.75",
+      "explanation": "The probability of the complement (not occurring) equals 1 minus the original probability: 1 − 0.25 = 0.75."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:41:41.629Z",
+  "model": "claude-haiku-4-5-20251001"
+}

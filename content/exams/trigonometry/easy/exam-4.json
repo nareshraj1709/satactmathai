@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-4",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 7 cm and the hypotenuse is 12 cm. Write the trigonometric equation you would use to find the hypotenuse, then solve for the hypotenuse.",
+      "answer": "sin(35°) = 7/h; h ≈ 12.2 cm",
+      "explanation": "Use SOH-CAH-TOA: sine = opposite/hypotenuse. Set up sin(35°) = 7/h, then h = 7/sin(35°). Evaluating gives h ≈ 12.2 cm."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 60° angle with the ground. If the ladder is 10 feet long, how far is the base of the ladder from the wall?",
+      "answer": "5 feet",
+      "explanation": "The base distance is the side adjacent to the 60° angle. Use cos(60°) = adjacent/hypotenuse: cos(60°) = x/10. Since cos(60°) = 1/2, we get x = 5 feet."
+    },
+    {
+      "question": "What is sin(90°)?",
+      "answer": "1",
+      "explanation": "On the unit circle, the angle 90° corresponds to the point (0, 1). Sine is the y-coordinate, so sin(90°) = 1."
+    },
+    {
+      "question": "In a right triangle, you know the angle is 40° and the side adjacent to it is 8 meters. What trigonometric ratio would you use to find the opposite side?",
+      "answer": "tan(40°) = opposite/8",
+      "explanation": "Use CAH-TOA: tangent = opposite/adjacent. With the adjacent side known and opposite unknown, tan(40°) = opposite/8 sets up the equation correctly."
+    },
+    {
+      "question": "Evaluate cos(0°).",
+      "answer": "1",
+      "explanation": "At 0° on the unit circle, the point is (1, 0). Cosine is the x-coordinate, so cos(0°) = 1."
+    },
+    {
+      "question": "A right triangle has a hypotenuse of 20 inches and one angle measures 25°. Find the length of the side opposite the 25° angle.",
+      "answer": "8.45 inches or approximately 8.5 inches",
+      "explanation": "Use sine: sin(25°) = opposite/20. Multiply both sides by 20: opposite = 20 × sin(25°) ≈ 20 × 0.4226 ≈ 8.45 inches."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:06.502Z",
+  "model": "claude-haiku-4-5-20251001"
+}

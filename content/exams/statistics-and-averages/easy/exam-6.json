@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-6",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "The heights of five students are 60, 62, 65, 68, and 70 inches. What is the median height?",
+      "answer": "65",
+      "explanation": "Arrange the five values in order (already done): 60, 62, 65, 68, 70. The median is the middle value, which is the 3rd number: 65 inches."
+    },
+    {
+      "question": "A student's test scores are 78, 85, 92, and 85. What is the mode?",
+      "answer": "85",
+      "explanation": "The mode is the value that appears most frequently. The score 85 appears twice; all others appear once. Mode is 85."
+    },
+    {
+      "question": "The ages of six people are 22, 25, 28, 30, 35, and 40. Find the range.",
+      "answer": "18",
+      "explanation": "Range = maximum − minimum = 40 − 22 = 18 years."
+    },
+    {
+      "question": "A data set has four values: 10, 14, 16, and 20. What is the mean?",
+      "answer": "15",
+      "explanation": "Mean = (10 + 14 + 16 + 20) ÷ 4 = 60 ÷ 4 = 15."
+    },
+    {
+      "question": "The number of books read by five friends last month were 3, 5, 5, 7, and 9. What is the median number of books?",
+      "answer": "5",
+      "explanation": "Arrange in order: 3, 5, 5, 7, 9. The median is the middle value (3rd position): 5 books."
+    },
+    {
+      "question": "A class's test scores are 88, 92, 88, 95, and 92. How many modes does this data set have?",
+      "answer": "2",
+      "explanation": "Both 88 and 92 appear twice; 95 appears once. There are two modes: 88 and 92."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:39:39.519Z",
+  "model": "claude-haiku-4-5-20251001"
+}

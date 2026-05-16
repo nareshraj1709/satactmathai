@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-4",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "The heights of five students are 60, 62, 65, 68, and 70 inches. What is the median height?",
+      "answer": "65",
+      "explanation": "Arrange the five values in order (already done): 60, 62, 65, 68, 70. The median is the middle value, which is the 3rd number: 65 inches."
+    },
+    {
+      "question": "A data set consists of the values 4, 7, 7, 9, and 13. What is the mode?",
+      "answer": "7",
+      "explanation": "The mode is the value that appears most frequently. The number 7 appears twice, while all other values appear once. Therefore, the mode is 7."
+    },
+    {
+      "question": "The mean of four numbers is 12. Three of the numbers are 8, 11, and 15. What is the fourth number?",
+      "answer": "14",
+      "explanation": "If the mean of four numbers is 12, their sum is 4 × 12 = 48. The sum of three known numbers is 8 + 11 + 15 = 34. The fourth number is 48 − 34 = 14."
+    },
+    {
+      "question": "A student scored 85, 90, 88, and 92 on four quizzes. What is the average (mean) score?",
+      "answer": "88.75",
+      "explanation": "Add all scores: 85 + 90 + 88 + 92 = 355. Divide by the number of quizzes: 355 ÷ 4 = 88.75."
+    },
+    {
+      "question": "The data set 3, 8, 5, 12, 8, 7 has a range of how many units?",
+      "answer": "9",
+      "explanation": "Range = maximum − minimum. The maximum value is 12 and the minimum is 3. Range = 12 − 3 = 9."
+    },
+    {
+      "question": "Which value appears most often in the set {2, 5, 5, 5, 8, 11}? If no value repeats, write 'no mode.'",
+      "answer": "5",
+      "explanation": "The value 5 appears three times, while 2, 8, and 11 each appear once. The mode is the most frequent value: 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:13.659Z",
+  "model": "claude-haiku-4-5-20251001"
+}

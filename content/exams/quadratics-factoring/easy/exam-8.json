@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-8",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7. Those are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: x² - 5x = 0",
+      "answer": "x = 0 or x = 5",
+      "explanation": "Factor out x: x(x - 5) = 0. Set each factor equal to zero: x = 0 or x - 5 = 0, giving x = 5."
+    },
+    {
+      "question": "Factor completely: 2x² + 8x",
+      "answer": "2x(x + 4)",
+      "explanation": "The greatest common factor is 2x. Factoring it out gives 2x(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: x² - 9 = 0",
+      "answer": "x = 3 or x = -3",
+      "explanation": "Recognize x² - 9 as a difference of squares: (x - 3)(x + 3) = 0. So x = 3 or x = -3."
+    },
+    {
+      "question": "Factor the quadratic: x² - 6x + 8",
+      "answer": "(x - 2)(x - 4)",
+      "explanation": "Find two numbers that multiply to 8 and add to -6. Those are -2 and -4. So x² - 6x + 8 = (x - 2)(x - 4)."
+    },
+    {
+      "question": "Solve by factoring: x² + 2x - 15 = 0",
+      "answer": "x = 3 or x = -5",
+      "explanation": "Factor: (x - 3)(x + 5) = 0. The two numbers that multiply to -15 and add to 2 are -3 and 5. So x = 3 or x = -5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:26.010Z",
+  "model": "claude-haiku-4-5-20251001"
+}

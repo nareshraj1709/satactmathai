@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-5",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{72}$.",
+      "answer": "$6\\sqrt{2}$",
+      "explanation": "Factor 72 as $36 \\cdot 2$. Then $\\sqrt{72} = \\sqrt{36 \\cdot 2} = \\sqrt{36} \\cdot \\sqrt{2} = 6\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x - 3} = 5$.",
+      "answer": "$x = 28$",
+      "explanation": "Square both sides: $x - 3 = 25$. Then $x = 28$. Check: $\\sqrt{28 - 3} = \\sqrt{25} = 5$ ✓"
+    },
+    {
+      "question": "Simplify $\\frac{1}{\\sqrt{5}}$ by rationalizing the denominator.",
+      "answer": "$\\frac{\\sqrt{5}}{5}$",
+      "explanation": "Multiply numerator and denominator by $\\sqrt{5}$: $\\frac{1}{\\sqrt{5}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{\\sqrt{5}}{5}$."
+    },
+    {
+      "question": "A rectangular garden has width $\\sqrt{12}$ meters and length $\\sqrt{27}$ meters. What is its perimeter in simplified radical form?",
+      "answer": "$10\\sqrt{3}$ meters",
+      "explanation": "Simplify: $\\sqrt{12} = 2\\sqrt{3}$ and $\\sqrt{27} = 3\\sqrt{3}$. Perimeter = $2(2\\sqrt{3} + 3\\sqrt{3}) = 2(5\\sqrt{3}) = 10\\sqrt{3}$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{x + 2}{x - 1} = 3$.",
+      "answer": "$x = \\frac{5}{2}$",
+      "explanation": "Cross-multiply: $x + 2 = 3(x - 1)$. Expand: $x + 2 = 3x - 3$. Rearrange: $5 = 2x$, so $x = \\frac{5}{2}$."
+    },
+    {
+      "question": "Simplify $\\frac{\\sqrt{50}}{\\sqrt{2}}$.",
+      "answer": "$5$",
+      "explanation": "Combine the radicals: $\\frac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{\\frac{50}{2}} = \\sqrt{25} = 5$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:58:57.814Z",
+  "model": "claude-haiku-4-5-20251001"
+}

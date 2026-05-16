@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-6",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A sweater originally costs $80. It is marked down by 25%, then an additional 10% off the sale price. What is the final price?",
+      "answer": "$54",
+      "explanation": "After 25% off: $80 × 0.75 = $60. After additional 10% off: $60 × 0.90 = $54. Note that successive discounts are multiplicative, not additive."
+    },
+    {
+      "question": "A restaurant bill is $45. If you want to leave a 18% tip, how much should you pay in total (bill + tip)?",
+      "answer": "$53.10",
+      "explanation": "Tip amount: $45 × 0.18 = $8.10. Total: $45 + $8.10 = $53.10. Alternatively, multiply $45 × 1.18 = $53.10."
+    },
+    {
+      "question": "A stock price increases from $120 to $150. What is the percent increase?",
+      "answer": "25%",
+      "explanation": "Change = $150 − $120 = $30. Percent increase = ($30 / $120) × 100% = 25%."
+    },
+    {
+      "question": "A video game costs $60 after a 20% discount. What was the original price?",
+      "answer": "$75",
+      "explanation": "If the price is discounted by 20%, the customer pays 80% of the original. So 0.80 × original = $60. Original = $60 / 0.80 = $75."
+    },
+    {
+      "question": "In a town, the population decreased from 50,000 to 45,000 over one year. By what percent did the population decrease?",
+      "answer": "10%",
+      "explanation": "Decrease = 50,000 − 45,000 = 5,000. Percent decrease = (5,000 / 50,000) × 100% = 10%."
+    },
+    {
+      "question": "A jacket is on sale for 30% off. If you have an additional coupon for 15% off the sale price, what percent of the original price do you pay?",
+      "answer": "59.5%",
+      "explanation": "After 30% off, you pay 70% of original. After 15% off the sale price, you pay 85% of that: 0.70 × 0.85 = 0.595 = 59.5% of the original price."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:20.675Z",
+  "model": "claude-haiku-4-5-20251001"
+}

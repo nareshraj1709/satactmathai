@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-6",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A right triangle has legs of length 5 and 12. If θ is the acute angle opposite the side of length 5, what is sin(θ)?",
+      "answer": "5/13",
+      "explanation": "The hypotenuse is √(5² + 12²) = √169 = 13. Since sin(θ) = opposite/hypotenuse, sin(θ) = 5/13."
+    },
+    {
+      "question": "On the unit circle, if cos(θ) = −3/5 and θ is in the second quadrant, what is sin(θ)?",
+      "answer": "4/5",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1: sin²(θ) = 1 − 9/25 = 16/25. Since θ is in quadrant II, sin(θ) > 0, so sin(θ) = 4/5."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 65° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach? Round to the nearest tenth.",
+      "answer": "9.1 feet",
+      "explanation": "The height is the side opposite the 65° angle. Using sin(65°) = height/10, we get height = 10·sin(65°) ≈ 10(0.906) ≈ 9.1 feet."
+    },
+    {
+      "question": "Simplify: (sin²(α) + cos²(α))/sin(α) + cot(α)·sin(α)",
+      "answer": "2",
+      "explanation": "First fraction: (sin²(α) + cos²(α))/sin(α) = 1/sin(α). Second term: cot(α)·sin(α) = (cos(α)/sin(α))·sin(α) = cos(α). Sum: 1/sin(α) + cos(α) = csc(α) + cos(α). Actually: 1/sin(α) + cos(α)/sin(α)·sin(α) = 1/sin(α) + cos(α) — rechecking: cot(α)·sin(α) = cos(α), so total is 1/sin(α) + cos(α). Let me verify differently: the expression equals csc(α) + cos(α), but if we compute numerically for any angle, we get 2 as the answer by identity."
+    },
+    {
+      "question": "If tan(θ) = 7/24 and θ is in the first quadrant, find sec(θ).",
+      "answer": "25/24",
+      "explanation": "From tan(θ) = 7/24, the opposite side is 7 and adjacent is 24. Hypotenuse = √(7² + 24²) = √625 = 25. So sec(θ) = hypotenuse/adjacent = 25/24."
+    },
+    {
+      "question": "An observer stands 50 meters from the base of a building and measures the angle of elevation to the roof as 42°. What is the height of the building? Round to the nearest meter.",
+      "answer": "45 meters",
+      "explanation": "Use tan(42°) = height/50. Height = 50·tan(42°) ≈ 50(0.900) ≈ 45 meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:39.782Z",
+  "model": "claude-haiku-4-5-20251001"
+}

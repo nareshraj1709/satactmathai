@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-10",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A bacterial culture doubles every 3 hours. If there are 100 bacteria at the start, how many bacteria will there be after 6 hours?",
+      "answer": "400",
+      "explanation": "After 6 hours, two doubling periods have passed (6 ÷ 3 = 2). The population is 100 × 2² = 100 × 4 = 400."
+    },
+    {
+      "question": "Write an exponential decay function for a substance with initial amount 80 grams that decays to half its amount every 5 years.",
+      "answer": "A(t) = 80(1/2)^(t/5) or A(t) = 80(0.5)^(t/5)",
+      "explanation": "For half-life problems, use A(t) = A₀(1/2)^(t/half-life). Here A₀ = 80 and the half-life is 5 years."
+    },
+    {
+      "question": "An investment grows according to the formula A = 500(1.05)^t, where t is in years. What does the 1.05 represent?",
+      "answer": "The growth factor; it means the investment grows by 5% each year",
+      "explanation": "In A = A₀(1 + r)^t, the base (1.05) equals 1 + r, where r is the growth rate. So r = 0.05 or 5%."
+    },
+    {
+      "question": "A radioactive isotope has a decay constant where 25% remains after 2 hours. If you start with 160 mg, how much remains after 2 hours?",
+      "answer": "40 mg",
+      "explanation": "If 25% remains after 2 hours, then the amount left is 160 × 0.25 = 40 mg."
+    },
+    {
+      "question": "The population of a town is modeled by P(t) = 5000(1.02)^t where t is years since 2020. What was the population in 2020?",
+      "answer": "5000",
+      "explanation": "When t = 0 (the year 2020), P(0) = 5000(1.02)^0 = 5000(1) = 5000."
+    },
+    {
+      "question": "A cup of coffee cools according to the model T(t) = 65 + 35(0.9)^t, where t is minutes. What is the room temperature?",
+      "answer": "65 degrees",
+      "explanation": "As t → ∞, the term 35(0.9)^t → 0, so T(t) approaches 65, which is the ambient temperature."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:47.317Z",
+  "model": "claude-haiku-4-5-20251001"
+}

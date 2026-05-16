@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-7",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{72} - \\sqrt{18}$.",
+      "answer": "$6\\sqrt{2}$",
+      "explanation": "$\\sqrt{72} = \\sqrt{36 \\cdot 2} = 6\\sqrt{2}$ and $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$. Therefore $6\\sqrt{2} - 3\\sqrt{2} = 3\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x + 5} = 3$.",
+      "answer": "$x = 4$",
+      "explanation": "Square both sides: $x + 5 = 9$. Subtract 5 from both sides to get $x = 4$. Check: $\\sqrt{4 + 5} = \\sqrt{9} = 3$ ✓"
+    },
+    {
+      "question": "Rationalize the denominator: $\\frac{5}{\\sqrt{7}}$.",
+      "answer": "$\\frac{5\\sqrt{7}}{7}$",
+      "explanation": "Multiply numerator and denominator by $\\sqrt{7}$: $\\frac{5}{\\sqrt{7}} \\cdot \\frac{\\sqrt{7}}{\\sqrt{7}} = \\frac{5\\sqrt{7}}{7}$."
+    },
+    {
+      "question": "Simplify $\\frac{\\sqrt{48}}{\\sqrt{3}}$.",
+      "answer": "$4$",
+      "explanation": "$\\frac{\\sqrt{48}}{\\sqrt{3}} = \\sqrt{\\frac{48}{3}} = \\sqrt{16} = 4$."
+    },
+    {
+      "question": "A rectangular garden has length $\\sqrt{20}$ meters and width $\\sqrt{5}$ meters. What is its area in square meters?",
+      "answer": "$10$",
+      "explanation": "Area = length × width = $\\sqrt{20} \\cdot \\sqrt{5} = \\sqrt{100} = 10$ square meters."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{x}{x - 2} = \\frac{5}{3}$.",
+      "answer": "$x = 5$",
+      "explanation": "Cross-multiply: $3x = 5(x - 2)$. Expand: $3x = 5x - 10$. Subtract $5x$: $-2x = -10$, so $x = 5$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:58:01.025Z",
+  "model": "claude-haiku-4-5-20251001"
+}

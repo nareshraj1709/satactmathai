@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-easy-8",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve x² + 5x + 6 = 0.",
+      "answer": "x = -2 or x = -3",
+      "explanation": "Using x = (-b ± √(b² - 4ac)) / 2a with a = 1, b = 5, c = 6: x = (-5 ± √(25 - 24)) / 2 = (-5 ± 1) / 2, giving x = -2 and x = -3."
+    },
+    {
+      "question": "For the equation 2x² - 8x + 6 = 0, calculate the discriminant.",
+      "answer": "16",
+      "explanation": "The discriminant is b² - 4ac = (-8)² - 4(2)(6) = 64 - 48 = 16. Since it's positive, there are two distinct real solutions."
+    },
+    {
+      "question": "How many real solutions does x² + 4x + 4 = 0 have? Justify using the discriminant.",
+      "answer": "1 real solution",
+      "explanation": "The discriminant is b² - 4ac = 16 - 4(1)(4) = 0. When the discriminant equals zero, there is exactly one real solution (a repeated root)."
+    },
+    {
+      "question": "Solve x² - 7x = 0 using the quadratic formula.",
+      "answer": "x = 0 or x = 7",
+      "explanation": "Rewrite as x² - 7x + 0 = 0. Using the formula: x = (7 ± √(49 - 0)) / 2 = (7 ± 7) / 2, giving x = 0 and x = 7."
+    },
+    {
+      "question": "Does the equation x² + 2x + 5 = 0 have real solutions? Use the discriminant to explain.",
+      "answer": "No",
+      "explanation": "The discriminant is b² - 4ac = 4 - 4(1)(5) = -16, which is negative. A negative discriminant means there are no real solutions (only complex ones)."
+    },
+    {
+      "question": "A projectile's height is modeled by h = -t² + 6t + 5, where t is time in seconds. Using the quadratic formula, when does the projectile hit the ground (h = 0)?",
+      "answer": "t = 3 + √14 seconds (or approximately 6.74 seconds)",
+      "explanation": "Set -t² + 6t + 5 = 0, or t² - 6t - 5 = 0. Using the formula: t = (6 ± √(36 + 20)) / 2 = (6 ± √56) / 2 = 3 ± √14. Since time is positive, t = 3 + √14."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:08.138Z",
+  "model": "claude-haiku-4-5-20251001"
+}

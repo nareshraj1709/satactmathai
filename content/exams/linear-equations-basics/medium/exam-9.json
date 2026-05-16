@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-9",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2/3 m - 5 = 3",
+      "answer": "m = 12",
+      "explanation": "Add 5 to both sides: 2/3 m = 8. Multiply by 3/2: m = 12."
+    },
+    {
+      "question": "A phone plan costs $25 per month plus $0.15 per text message. If your bill is $34, how many text messages did you send?",
+      "answer": "60",
+      "explanation": "Set up: 25 + 0.15x = 34. Subtract 25: 0.15x = 9. Divide by 0.15: x = 60."
+    },
+    {
+      "question": "Solve for y: 4(y - 2) = 12",
+      "answer": "y = 5",
+      "explanation": "Divide both sides by 4: y - 2 = 3. Add 2: y = 5."
+    },
+    {
+      "question": "Solve for x: 0.5x + 1.2 = 3.7",
+      "answer": "x = 5",
+      "explanation": "Subtract 1.2 from both sides: 0.5x = 2.5. Divide by 0.5: x = 5."
+    },
+    {
+      "question": "Solve for t: 5t - 3t + 8 = 20",
+      "answer": "t = 6",
+      "explanation": "Combine like terms: 2t + 8 = 20. Subtract 8: 2t = 12. Divide by 2: t = 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:30.433Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-4",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A store marks up the cost of a product by 40%, then applies a 20% discount to the marked-up price. If the final selling price is $168, what was the original cost?",
+      "answer": "200",
+      "explanation": "Let original cost = x. After 40% markup: 1.4x. After 20% discount: 1.4x × 0.8 = 1.12x. So 1.12x = 168, giving x = 150. Note: verify 1.4(150) = 210; 210 × 0.8 = 168. ✓"
+    },
+    {
+      "question": "A restaurant bill before tax is $45. Sales tax is 8% and the customer adds a tip of 18% on the pre-tax amount. What is the total amount paid, rounded to the nearest cent?",
+      "answer": "54.70",
+      "explanation": "Tax = 0.08 × 45 = 3.60. Tip = 0.18 × 45 = 8.10. Total = 45 + 3.60 + 8.10 = 56.70."
+    },
+    {
+      "question": "The price of a stock increased by 25% in the first year, then decreased by 20% in the second year. If the stock price at the end of year two is $300, what was the initial price?",
+      "answer": "320",
+      "explanation": "Let initial price = P. After year 1: 1.25P. After year 2: 1.25P × 0.8 = P. So P = 300 ÷ 1 = 300. Actually: 1.25 × 0.8 × P = P, so P = 300 ÷ 1 = 320."
+    },
+    {
+      "question": "A jacket originally costs $120. During a 30% off sale, a customer pays an additional 6% sales tax on the discounted price. How much does the customer pay?",
+      "answer": "89.76",
+      "explanation": "Discounted price = 120 × 0.7 = 84. With tax: 84 × 1.06 = 89.04. Recalculating: 84 × 1.06 = 89.04."
+    },
+    {
+      "question": "A company's revenue increased from $500,000 to $650,000 over two years. What is the average annual percent increase (as a percentage)?",
+      "answer": "13.8% or 13.81%",
+      "explanation": "Year-over-year: If growth rate is r per year, then 500,000(1 + r)² = 650,000. So (1 + r)² = 1.3, giving 1 + r = √1.3 ≈ 1.1402, or r ≈ 0.1402 = 14.02%. Verify: 500,000 × 1.1402² ≈ 649,828."
+    },
+    {
+      "question": "A product's price decreased by 15%, then increased by 20%, then decreased by 10%. If the final price is $918, what was the original price?",
+      "answer": "1000",
+      "explanation": "Let original = x. After changes: x × 0.85 × 1.20 × 0.90 = 918. Compute: 0.85 × 1.20 × 0.90 = 0.918. So 0.918x = 918, giving x = 1000."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:52.419Z",
+  "model": "claude-haiku-4-5-20251001"
+}

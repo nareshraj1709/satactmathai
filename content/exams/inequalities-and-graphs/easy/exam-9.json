@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-9",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve: 2x + 5 < 13",
+      "answer": "x < 4",
+      "explanation": "Subtract 5 from both sides: 2x < 8. Divide by 2: x < 4."
+    },
+    {
+      "question": "Is the point (2, 1) in the region y ≥ 2x − 3?",
+      "answer": "Yes",
+      "explanation": "Substitute x = 2, y = 1: Is 1 ≥ 2(2) − 3 = 1? Yes, 1 ≥ 1 is true."
+    },
+    {
+      "question": "Solve: −3x + 6 ≥ 0",
+      "answer": "x ≤ 2",
+      "explanation": "Subtract 6 from both sides: −3x ≥ −6. Divide by −3 and flip the inequality: x ≤ 2."
+    },
+    {
+      "question": "Graph the solution to x ≥ −1 on a number line. Describe what you draw.",
+      "answer": "Closed dot at −1, shading to the right",
+      "explanation": "The inequality x ≥ −1 includes −1 (closed dot) and all numbers greater than it (shade right)."
+    },
+    {
+      "question": "Solve the system: x > 3 and x < 8. Write the solution.",
+      "answer": "3 < x < 8",
+      "explanation": "The solution is the overlap of both conditions: x must be greater than 3 AND less than 8."
+    },
+    {
+      "question": "A number n satisfies n + 4 ≤ 10. What is the largest integer value of n?",
+      "answer": "6",
+      "explanation": "Solve n + 4 ≤ 10 to get n ≤ 6. The largest integer satisfying this is 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:59.789Z",
+  "model": "claude-haiku-4-5-20251001"
+}

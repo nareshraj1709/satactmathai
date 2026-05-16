@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-4",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A parabola has vertex at the origin and opens upward with focus at (0, 3). Write the equation of the parabola in the form y = ax².",
+      "answer": "y = (1/12)x²",
+      "explanation": "For a parabola y = ax² with vertex at origin, the focus is at (0, 1/(4a)). Setting 1/(4a) = 3 gives a = 1/12."
+    },
+    {
+      "question": "An ellipse has the equation x²/25 + y²/9 = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The major axis has semi-major length a = √25 = 5. The full major axis length is 2a = 10."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 - y²/4 = 1. What are the coordinates of the two vertices?",
+      "answer": "(4, 0) and (-4, 0)",
+      "explanation": "For a hyperbola x²/a² - y²/b² = 1, the vertices lie on the x-axis at (±a, 0). Here a = 4, so vertices are at (±4, 0)."
+    },
+    {
+      "question": "A parabola has equation x² = 8y. What is the y-coordinate of the focus?",
+      "answer": "2",
+      "explanation": "For x² = 4py, we have 4p = 8, so p = 2. The focus is at (0, p) = (0, 2)."
+    },
+    {
+      "question": "An ellipse has equation (x - 2)²/36 + (y + 1)²/16 = 1. What is the center of the ellipse?",
+      "answer": "(2, -1)",
+      "explanation": "The standard form (x - h)²/a² + (y - k)²/b² = 1 has center at (h, k). Here h = 2 and k = -1."
+    },
+    {
+      "question": "A hyperbola has equation y²/9 - x²/25 = 1. Does it open vertically or horizontally?",
+      "answer": "vertically",
+      "explanation": "When the y² term is positive and comes first in y²/a² - x²/b² = 1, the hyperbola opens vertically (up and down)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:23:31.009Z",
+  "model": "claude-haiku-4-5-20251001"
+}

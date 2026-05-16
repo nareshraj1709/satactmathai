@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-3",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "What is the amplitude of the function y = 3sin(x)?",
+      "answer": "3",
+      "explanation": "The amplitude of y = a·sin(x) is |a|. Here a = 3, so the amplitude is 3."
+    },
+    {
+      "question": "In triangle ABC, angle A = 50°, angle B = 70°, and side a = 10. Find the length of side b using the Law of Sines (round to 1 decimal place).",
+      "answer": "11.7",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B). So 10/sin(50°) = b/sin(70°). Then b = 10·sin(70°)/sin(50°) ≈ 11.7."
+    },
+    {
+      "question": "The period of y = sin(2x) is what fraction of the period of y = sin(x)?",
+      "answer": "1/2",
+      "explanation": "The period of y = sin(bx) is 2π/b. For y = sin(2x), period = 2π/2 = π. For y = sin(x), period = 2π. The ratio is π/(2π) = 1/2."
+    },
+    {
+      "question": "In triangle ABC, a = 5, b = 7, and angle C = 60°. Use the Law of Cosines to find c.",
+      "answer": "√39 or approximately 6.2",
+      "explanation": "By Law of Cosines: c² = a² + b² − 2ab·cos(C) = 25 + 49 − 2(5)(7)cos(60°) = 74 − 70(0.5) = 39. So c = √39."
+    },
+    {
+      "question": "What is the y-intercept of the graph y = 2cos(x)?",
+      "answer": "2",
+      "explanation": "At x = 0, y = 2cos(0) = 2(1) = 2. The y-intercept is where the graph crosses the y-axis."
+    },
+    {
+      "question": "A triangle has sides of length 6, 8, and 10. Is this a right triangle? Explain briefly.",
+      "answer": "Yes",
+      "explanation": "Check if 6² + 8² = 10²: 36 + 64 = 100. Yes, this satisfies the Pythagorean theorem, so it is a right triangle."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:24.003Z",
+  "model": "claude-haiku-4-5-20251001"
+}

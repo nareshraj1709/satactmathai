@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-10",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve: |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "The absolute value of a number equals 7 when the number is 7 units from zero on the number line. This happens at both x = 7 and x = -7."
+    },
+    {
+      "question": "Solve: |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "Set up two cases: x - 2 = 5 gives x = 7, and x - 2 = -5 gives x = -3. Check: |7 - 2| = 5 ✓ and |-3 - 2| = 5 ✓"
+    },
+    {
+      "question": "Which value satisfies |2x| = 8?\nA. x = 2\nB. x = 4\nC. x = -4\nD. Both B and C",
+      "answer": "x = 4 or x = -4",
+      "explanation": "|2x| = 8 means 2x = 8 or 2x = -8, so x = 4 or x = -4. Both values work since |2(4)| = 8 and |2(-4)| = 8."
+    },
+    {
+      "question": "Solve: |x + 3| = 0",
+      "answer": "x = -3",
+      "explanation": "Absolute value equals zero only when the expression inside equals zero. So x + 3 = 0, giving x = -3."
+    },
+    {
+      "question": "A number's distance from 6 on the number line is 4. Write an absolute value equation and solve it.",
+      "answer": "|x - 6| = 4; x = 10 or x = 2",
+      "explanation": "Distance from 6 means |x - 6| = 4. Solving: x - 6 = 4 gives x = 10, and x - 6 = -4 gives x = 2."
+    },
+    {
+      "question": "Solve: |x| = -3",
+      "answer": "No solution",
+      "explanation": "Absolute value is always non-negative, so it can never equal -3. There are no solutions."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:29.682Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-1",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Factor completely: $6x^2 - 11x + 3$",
+      "answer": "(2x - 3)(3x - 1)",
+      "explanation": "Find factors of $6 \\cdot 3 = 18$ that sum to $-11$: $-9$ and $-2$. Rewrite as $6x^2 - 9x - 2x + 3$, then group: $3x(2x - 3) - 1(2x - 3) = (2x - 3)(3x - 1)$."
+    },
+    {
+      "question": "Solve by factoring: $x^2 + 2x - 24 = 0$",
+      "answer": "x = 4 or x = -6",
+      "explanation": "Factor as $(x + 6)(x - 4) = 0$. The solutions are the values that make each factor zero: $x = -6$ and $x = 4$."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than its width. If the area is 70 square meters, find the width in meters.",
+      "answer": "7",
+      "explanation": "Let width = $w$. Then $(w)(w + 3) = 70$, so $w^2 + 3w - 70 = 0$. Factor as $(w + 10)(w - 7) = 0$. Since width must be positive, $w = 7$."
+    },
+    {
+      "question": "If $2x^2 + bx - 15 = (2x - 5)(x + 3)$, what is the value of $b$?",
+      "answer": "1",
+      "explanation": "Expand the right side: $(2x - 5)(x + 3) = 2x^2 + 6x - 5x - 15 = 2x^2 + x - 15$. Comparing with $2x^2 + bx - 15$, we get $b = 1$."
+    },
+    {
+      "question": "Factor completely: $8x^3 - 18x$",
+      "answer": "2x(2x - 3)(2x + 3)",
+      "explanation": "Factor out the GCF: $8x^3 - 18x = 2x(4x^2 - 9)$. Recognize $4x^2 - 9$ as a difference of squares: $4x^2 - 9 = (2x - 3)(2x + 3)$."
+    },
+    {
+      "question": "Solve: $(3x - 2)^2 = 16$",
+      "answer": "x = 2 or x = -2/3",
+      "explanation": "Take the square root of both sides: $3x - 2 = \\pm 4$. This gives $3x - 2 = 4$ (so $x = 2$) or $3x - 2 = -4$ (so $x = -2/3$)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:46:34.426Z",
+  "model": "claude-haiku-4-5-20251001"
+}

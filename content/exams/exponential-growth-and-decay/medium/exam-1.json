@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-1",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A bacterial colony doubles in size every 3 hours. If the colony starts with 500 bacteria, how many bacteria will be present after 9 hours?",
+      "answer": "4000",
+      "explanation": "The colony doubles 3 times in 9 hours (9 ÷ 3 = 3). Use the formula A = 500 · 2³ = 500 · 8 = 4000."
+    },
+    {
+      "question": "A radioactive substance decays according to the formula N(t) = N₀(0.5)^(t/5), where t is in days. If N₀ = 80 grams, what is N(10)?",
+      "answer": "20",
+      "explanation": "Substitute t = 10: N(10) = 80(0.5)^(10/5) = 80(0.5)² = 80 · 0.25 = 20 grams."
+    },
+    {
+      "question": "An investment grows according to A(t) = 2000(1.04)^t, where t is the number of years. By what factor does the investment grow each year?",
+      "answer": "1.04",
+      "explanation": "In exponential form A = P(1 + r)^t, the base (1 + r) represents the growth factor. Here the base is 1.04, meaning the investment multiplies by 1.04 annually."
+    },
+    {
+      "question": "A car depreciates in value such that it loses 15% of its value each year. If the car is worth $20,000 today, what will it be worth after 2 years? (Round to the nearest dollar.)",
+      "answer": "14450",
+      "explanation": "Losing 15% means retaining 85% each year. Use A = 20000(0.85)² = 20000 · 0.7225 = 14450 dollars."
+    },
+    {
+      "question": "A population of insects triples every 4 weeks. If there are currently 120 insects, in how many weeks will there be at least 3240 insects?",
+      "answer": "12",
+      "explanation": "Set up 120 · 3^(t/4) = 3240. Divide: 3^(t/4) = 27 = 3³. So t/4 = 3, giving t = 12 weeks."
+    },
+    {
+      "question": "Which function models exponential decay: f(x) = 5(1.2)^x or g(x) = 5(0.8)^x? Write the letter of the correct function.",
+      "answer": "g(x) = 5(0.8)^x",
+      "explanation": "Exponential decay requires a base between 0 and 1. Since 0.8 < 1, g(x) decays; since 1.2 > 1, f(x) grows."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:48.481Z",
+  "model": "claude-haiku-4-5-20251001"
+}

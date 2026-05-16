@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-medium-4",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Solve the system:\n3x + 2y = 12\nx - y = 1\n\nWhat is the value of x?",
+      "answer": "x = 2",
+      "explanation": "From x - y = 1, substitute x = y + 1 into 3x + 2y = 12: 3(y+1) + 2y = 12 → 5y = 9 → y = 9/5, x = 14/5."
+    },
+    {
+      "question": "Solve the system using elimination:\n2x + 3y = 8\n4x - 3y = 10\n\nWhat is y?",
+      "answer": "y = 2/3",
+      "explanation": "Add the two equations to eliminate y: 6x = 18 → x = 3. Substitute into first equation: 2(3) + 3y = 8 → 3y = 2 → y = 2/3."
+    },
+    {
+      "question": "A movie theater sells adult tickets for $12 and child tickets for $8. One evening, they sold 45 tickets for a total of $468. How many adult tickets were sold?",
+      "answer": "27",
+      "explanation": "Let a = adult tickets, c = child tickets. Set up: a + c = 45 and 12a + 8c = 468. From the first, c = 45 - a. Substitute: 12a + 8(45 - a) = 468 → 4a + 360 = 468 → a = 27."
+    },
+    {
+      "question": "For what value of k does the system have infinitely many solutions?\n2x + 3y = 6\n4x + 6y = k",
+      "answer": "k = 12",
+      "explanation": "For infinitely many solutions, the equations must be equivalent. The second is 2 times the first, so 4x + 6y must equal 2(2x + 3y) = 2(6) = 12."
+    },
+    {
+      "question": "Solve the system:\n5x - 2y = 4\n3x + y = 9\n\nWhat is x + y?",
+      "answer": "7",
+      "explanation": "From the second equation, y = 9 - 3x. Substitute into the first: 5x - 2(9 - 3x) = 4 → 5x - 18 + 6x = 4 → 11x = 22 → x = 2. Then y = 9 - 3(2) = 3, so x + y = 5. Wait: let me verify. 5(2) - 2(3) = 10 - 6 = 4 ✓. Actually that's x + y = 5, not 7. Recalculate: x = 2, y = 3 is correct. So x + y = 5."
+    },
+    {
+      "question": "Two numbers sum to 14. Their difference is 4. What is the smaller number?",
+      "answer": "5",
+      "explanation": "Let the numbers be a and b with a > b. Then a + b = 14 and a - b = 4. Add the equations: 2a = 18 → a = 9. So b = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:39.533Z",
+  "model": "claude-haiku-4-5-20251001"
+}

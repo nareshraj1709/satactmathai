@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-9",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A jacket originally costs $80. It is on sale for 25% off. What is the sale price?",
+      "answer": "$60",
+      "explanation": "25% of $80 = 0.25 × 80 = $20. Sale price = $80 − $20 = $60."
+    },
+    {
+      "question": "A restaurant bill is $45. If you leave a 20% tip, how much is the tip?",
+      "answer": "$9",
+      "explanation": "Tip = 20% of $45 = 0.20 × 45 = $9."
+    },
+    {
+      "question": "Last year, a store sold 500 items. This year, it sold 15% more. How many items did it sell this year?",
+      "answer": "575",
+      "explanation": "15% of 500 = 75. New total = 500 + 75 = 575."
+    },
+    {
+      "question": "A price increases from $40 to $50. What is the percent increase?",
+      "answer": "25%",
+      "explanation": "Increase = $50 − $40 = $10. Percent increase = (10/40) × 100% = 25%."
+    },
+    {
+      "question": "A store applies a 10% tax to a $30 purchase. What is the final amount paid?",
+      "answer": "$33",
+      "explanation": "Tax = 10% of $30 = $3. Final amount = $30 + $3 = $33."
+    },
+    {
+      "question": "A pair of shoes costs $120. First, a 10% discount is applied. Then, a 20% discount is applied to the reduced price. What is the final price?",
+      "answer": "$86.40",
+      "explanation": "After 10% off: $120 × 0.90 = $108. After 20% off the $108: $108 × 0.80 = $86.40."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:52.038Z",
+  "model": "claude-haiku-4-5-20251001"
+}

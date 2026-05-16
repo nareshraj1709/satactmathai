@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-medium-9",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Divide the polynomial 3x³ + 5x² − 2x − 4 by x + 1. What is the remainder?",
+      "answer": "−4",
+      "explanation": "Use the Remainder Theorem: substitute x = −1 into the polynomial. 3(−1)³ + 5(−1)² − 2(−1) − 4 = −3 + 5 + 2 − 4 = −4."
+    },
+    {
+      "question": "Factor the polynomial x³ − 3x² − 4x + 12 completely.",
+      "answer": "(x − 3)(x − 2)(x + 2)",
+      "explanation": "Group terms: x²(x − 3) − 4(x − 3) = (x − 3)(x² − 4) = (x − 3)(x − 2)(x + 2)."
+    },
+    {
+      "question": "Multiply (2x² − 3x + 1)(x + 2). Express your answer as a polynomial in standard form.",
+      "answer": "2x³ + x² − 5x + 2",
+      "explanation": "Distribute: 2x²(x + 2) − 3x(x + 2) + 1(x + 2) = 2x³ + 4x² − 3x² − 6x + x + 2 = 2x³ + x² − 5x + 2."
+    },
+    {
+      "question": "If one zero of the polynomial p(x) = x³ − 5x² + 2x + 8 is x = 4, find the other two zeros.",
+      "answer": "x = −1 and x = 2",
+      "explanation": "Divide p(x) by (x − 4) to get x² − x − 2. Factor: (x − 2)(x + 1) = 0, giving x = 2 and x = −1."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than its width. If the area is 40 square meters, write a polynomial equation for this situation and solve for the width.",
+      "answer": "x² + 3x − 40 = 0; width = 5 meters",
+      "explanation": "Let width = x. Then (x)(x + 3) = 40 gives x² + 3x − 40 = 0. Factor: (x + 8)(x − 5) = 0. Since width must be positive, x = 5."
+    },
+    {
+      "question": "What value of k makes x − 2 a factor of 2x³ − 5x² + kx + 6?",
+      "answer": "k = 2",
+      "explanation": "Use the Factor Theorem: if x − 2 is a factor, then p(2) = 0. Substitute x = 2: 2(8) − 5(4) + 2k + 6 = 16 − 20 + 2k + 6 = 2k + 2 = 0, so k = −1."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:52:00.006Z",
+  "model": "claude-haiku-4-5-20251001"
+}

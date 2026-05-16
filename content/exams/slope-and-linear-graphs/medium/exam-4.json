@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-4",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A line passes through the points (2, 5) and (6, 13). What is the slope of this line?",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (13 − 5)/(6 − 2) = 8/4 = 2."
+    },
+    {
+      "question": "Write the equation of the line in slope-intercept form that has slope −3 and y-intercept 7.",
+      "answer": "y = −3x + 7",
+      "explanation": "Slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept. Substitute m = −3 and b = 7."
+    },
+    {
+      "question": "A line has the equation 2x + 5y = 20. What is the slope of this line?",
+      "answer": "−2/5",
+      "explanation": "Rewrite in slope-intercept form: 5y = −2x + 20, so y = −(2/5)x + 4. The slope is −2/5."
+    },
+    {
+      "question": "A taxi charges a $3 initial fee and $2 per mile. Write an equation where y represents total cost and x represents miles driven.",
+      "answer": "y = 2x + 3",
+      "explanation": "The slope is the per-mile cost ($2), and the y-intercept is the initial fee ($3). Use y = mx + b form."
+    },
+    {
+      "question": "Two parallel lines have slopes that satisfy the relationship: if one slope is 4/3, what is the slope of the other?",
+      "answer": "4/3",
+      "explanation": "Parallel lines have equal slopes. Since one line has slope 4/3, the other must also have slope 4/3."
+    },
+    {
+      "question": "Find the slope of the line perpendicular to the line y = (5/2)x − 1.",
+      "answer": "−2/5",
+      "explanation": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of 5/2 is −2/5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:08.639Z",
+  "model": "claude-haiku-4-5-20251001"
+}

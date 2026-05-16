@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-9",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 8 = 12",
+      "answer": "m = 10",
+      "explanation": "Add 8 to both sides: 2m = 20. Divide by 2: m = 10."
+    },
+    {
+      "question": "A sandwich costs $6.50. If you pay with a $20 bill, how much change do you get? Set up and solve an equation where c is the change.",
+      "answer": "c = 13.50",
+      "explanation": "The equation is 6.50 + c = 20. Subtract 6.50 from both sides: c = 13.50."
+    },
+    {
+      "question": "Solve for x: x/4 = 7",
+      "answer": "x = 28",
+      "explanation": "Multiply both sides by 4: x = 7 × 4 = 28."
+    },
+    {
+      "question": "Solve for y: 5y = 3.5",
+      "answer": "y = 0.7",
+      "explanation": "Divide both sides by 5: y = 3.5 ÷ 5 = 0.7."
+    },
+    {
+      "question": "Solve for x: 2(x - 3) = 10",
+      "answer": "x = 8",
+      "explanation": "Divide both sides by 2: x - 3 = 5. Add 3 to both sides: x = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:26.773Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-6",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and exam score (y) for 12 students. The line of best fit has equation y = 8x + 42. One student studied for 5 hours and scored 78. What is the residual for this student?",
+      "answer": "-2",
+      "explanation": "Predicted score: y = 8(5) + 42 = 82. Residual = actual − predicted = 78 − 82 = −2. A negative residual means the student scored below the line."
+    },
+    {
+      "question": "A biologist plots plant height (cm) against days of sunlight per week. The correlation coefficient is r = −0.92. Which statement is most accurate: (A) more sunlight causes shorter plants, (B) there is a strong negative linear relationship, or (C) the regression line explains 92% of variation in height?",
+      "answer": "B",
+      "explanation": "r = −0.92 indicates strong negative association (as sunlight increases, height tends to decrease). Correlation ≠ causation (eliminates A). r² = 0.8464, not 0.92 (eliminates C)."
+    },
+    {
+      "question": "Two regression lines are calculated for the same dataset: Line 1 has r² = 0.78, and Line 2 has r² = 0.64. If both lines have similar slopes, explain which line provides a better fit in one sentence.",
+      "answer": "Line 1, because r² = 0.78 means 78% of variation is explained, compared to 64% for Line 2.",
+      "explanation": "The coefficient of determination r² directly measures the proportion of variance explained by the model. A higher r² indicates a better fit regardless of slope."
+    },
+    {
+      "question": "A scatterplot of monthly rainfall (mm) versus crop yield (kg) for 10 months shows points approximately along the line y = 2.5x + 15. If rainfall increases by 8 mm, by how much does the model predict crop yield will increase?",
+      "answer": "20",
+      "explanation": "The slope is 2.5, meaning for each 1 mm increase in rainfall, yield increases by 2.5 kg. For 8 mm: 8 × 2.5 = 20 kg."
+    },
+    {
+      "question": "A scatterplot shows a relationship with r = 0.45. A student claims this means the linear model predicts 45% of outcomes correctly. Identify the error in this reasoning.",
+      "answer": "Confusing correlation with coefficient of determination; r² = 0.2025 (about 20%), not 45%.",
+      "explanation": "r measures strength of linear association (−1 to 1), while r² measures proportion of variance explained. 0.45² ≈ 0.20, so the model explains roughly 20% of variation."
+    },
+    {
+      "question": "A dataset of 20 observations has a regression line y = −3x + 50. One point lies on the line, another has a residual of +4, and a third has a residual of −6. If the line underestimates for 14 points and overestimates for 5 points (one lies exactly on the line), is the line biased? Explain briefly.",
+      "answer": "Yes; more points fall below the line (underestimated), indicating the model systematically overestimates y-values on average.",
+      "explanation": "In an unbiased fit, residuals should be randomly distributed around zero. Here, 14 negative residuals vs. 5 positive ones show a systematic pattern where actual values tend to be lower than predicted."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:56.560Z",
+  "model": "claude-haiku-4-5-20251001"
+}

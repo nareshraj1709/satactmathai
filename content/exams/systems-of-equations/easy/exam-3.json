@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-easy-3",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Solve the system:\n2x + y = 7\nx = 3\n\nWhat is y?",
+      "answer": "y = 1",
+      "explanation": "Substitute x = 3 into the first equation: 2(3) + y = 7 → 6 + y = 7 → y = 1."
+    },
+    {
+      "question": "Solve the system using elimination:\n3x + 2y = 12\n3x + y = 9\n\nWhat is y?",
+      "answer": "y = 3",
+      "explanation": "Subtract the second equation from the first: (3x + 2y) − (3x + y) = 12 − 9 → y = 3."
+    },
+    {
+      "question": "Solve the system:\nx + y = 5\nx − y = 1\n\nWhat is x?",
+      "answer": "x = 3",
+      "explanation": "Add the two equations: (x + y) + (x − y) = 5 + 1 → 2x = 6 → x = 3."
+    },
+    {
+      "question": "A bakery sells cookies for $2 each and brownies for $3 each. If you buy 4 items for $11, and you buy only cookies and brownies, how many cookies did you buy?",
+      "answer": "1 cookie",
+      "explanation": "Let c = cookies, b = brownies. Then c + b = 4 and 2c + 3b = 11. From the first equation, b = 4 − c. Substitute: 2c + 3(4 − c) = 11 → 2c + 12 − 3c = 11 → c = 1."
+    },
+    {
+      "question": "Solve the system:\ny = 2x + 1\ny = x + 3\n\nWhat is x?",
+      "answer": "x = 2",
+      "explanation": "Since both expressions equal y, set them equal: 2x + 1 = x + 3 → x = 2."
+    },
+    {
+      "question": "Solve the system using elimination:\n2x + 3y = 13\n2x + y = 9\n\nWhat is the value of y?",
+      "answer": "y = 2",
+      "explanation": "Subtract the second equation from the first: (2x + 3y) − (2x + y) = 13 − 9 → 2y = 4 → y = 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:02.699Z",
+  "model": "claude-haiku-4-5-20251001"
+}

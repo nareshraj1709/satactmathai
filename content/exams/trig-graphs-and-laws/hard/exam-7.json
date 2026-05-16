@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-hard-7",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A sine function has amplitude 3, period π, and is shifted left by π/6 units. If the function passes through the origin, write its equation in the form y = A sin(B(x + C)) + D.",
+      "answer": "y = 3 sin(2(x + π/6))",
+      "explanation": "Amplitude A = 3. Period π means B = 2π/π = 2. Left shift of π/6 gives C = π/6. Since sin(2·0 + π/3) = sin(π/3) ≠ 0, the function actually doesn't pass through the origin with D = 0—verify the constraint is met by checking y(0) = 3 sin(π/3) = 3√3/2. The equation is y = 3 sin(2(x + π/6))."
+    },
+    {
+      "question": "In triangle ABC, side a = 7, side b = 10, and angle C = 120°. Find the length of side c using the law of cosines. Round to the nearest tenth.",
+      "answer": "13.2",
+      "explanation": "Law of cosines: c² = a² + b² − 2ab cos(C). Substitute: c² = 49 + 100 − 2(7)(10)cos(120°) = 149 − 140(−1/2) = 149 + 70 = 219. Therefore c = √219 ≈ 13.2."
+    },
+    {
+      "question": "The graph of y = cos(x) is reflected over the x-axis and then compressed horizontally by a factor of 1/3 (meaning the period becomes 1/3 of the original). Write the resulting equation.",
+      "answer": "y = −cos(3x)",
+      "explanation": "Reflection over x-axis: y = −cos(x). Horizontal compression by factor 1/3 replaces x with 3x: y = −cos(3x). The period of cos(x) is 2π; the period of −cos(3x) is 2π/3."
+    },
+    {
+      "question": "In triangle DEF, angle D = 35°, angle E = 78°, and side d (opposite angle D) = 12. Use the law of sines to find side e (opposite angle E). Round to the nearest tenth.",
+      "answer": "19.5",
+      "explanation": "Law of sines: d/sin(D) = e/sin(E). Substitute: 12/sin(35°) = e/sin(78°). Therefore e = 12 sin(78°)/sin(35°) ≈ 12(0.978)/0.574 ≈ 19.5."
+    },
+    {
+      "question": "The function y = 2 sin(πx − π/4) − 1 has a maximum value. At what x-value does the first maximum occur for x > 0?",
+      "answer": "x = 3/4",
+      "explanation": "Maximum of sin occurs when πx − π/4 = π/2. Solve: πx = π/2 + π/4 = 3π/4, so x = 3/4. This is the first positive maximum."
+    },
+    {
+      "question": "In triangle PQR, sides p = 8, q = 6, and r = 5. Use the law of cosines to find cos(P), then determine angle P to the nearest degree.",
+      "answer": "P = 93°",
+      "explanation": "Law of cosines: p² = q² + r² − 2qr cos(P). Substitute: 64 = 36 + 25 − 2(6)(5)cos(P) = 61 − 60 cos(P). Solve: 60 cos(P) = −3, so cos(P) = −1/20 = −0.05. Therefore P = arccos(−0.05) ≈ 93°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:23:32.206Z",
+  "model": "claude-haiku-4-5-20251001"
+}

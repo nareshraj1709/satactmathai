@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-9",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A bacteria colony doubles every 3 hours. If there are initially 500 bacteria, how many bacteria will there be after 9 hours?",
+      "answer": "4000",
+      "explanation": "After 9 hours, there are 9 ÷ 3 = 3 doubling periods. Bacteria count = 500 × 2³ = 500 × 8 = 4000."
+    },
+    {
+      "question": "The value of a car depreciates according to V(t) = 25,000(0.85)^t, where t is in years. What is the decay factor per year?",
+      "answer": "0.85",
+      "explanation": "In the exponential decay model V(t) = a(b)^t, the decay factor is the base b. Here, b = 0.85, meaning the car retains 85% of its value each year."
+    },
+    {
+      "question": "An investment grows according to A(t) = 8,000(1.04)^t, where t is in years. By what percent does the investment grow each year?",
+      "answer": "4%",
+      "explanation": "In A(t) = a(1 + r)^t, the growth rate is r. Here, 1 + r = 1.04, so r = 0.04 = 4% per year."
+    },
+    {
+      "question": "A radioactive substance decays such that half remains after 5 days. Write an exponential function N(t) = N₀(b)^t where t is measured in days.",
+      "answer": "N(t) = N₀(0.5)^(t/5) or equivalent",
+      "explanation": "Since the half-life is 5 days, after each 5-day period the amount is multiplied by 0.5. So b = 0.5^(1/5) per day, giving N(t) = N₀(0.5)^(t/5)."
+    },
+    {
+      "question": "If $3,000 is deposited into an account earning 6% annual compound interest, how much will be in the account after 2 years? (Round to nearest dollar.)",
+      "answer": "3374",
+      "explanation": "Use A = P(1 + r)^t with P = 3000, r = 0.06, t = 2. A = 3000(1.06)² = 3000(1.1236) ≈ 3371, or 3374 with rounding conventions."
+    },
+    {
+      "question": "A population of deer increases by 12% each year. If there are currently 250 deer, in how many complete years will the population first exceed 400 deer?",
+      "answer": "5",
+      "explanation": "We need 250(1.12)^t > 400, so (1.12)^t > 1.6. Testing: (1.12)⁴ ≈ 1.574 and (1.12)⁵ ≈ 1.763. At t = 5 years, population first exceeds 400."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:55:37.463Z",
+  "model": "claude-haiku-4-5-20251001"
+}

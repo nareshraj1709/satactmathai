@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-4",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A pendulum swings back and forth with its height above the ground modeled by h(t) = 60 + 40cos(πt/2), where h is in centimeters and t is in seconds. What is the maximum height of the pendulum?",
+      "answer": "100 cm",
+      "explanation": "The function h(t) = 60 + 40cos(πt/2) has a maximum when cos(πt/2) = 1. Thus max height = 60 + 40(1) = 100 cm."
+    },
+    {
+      "question": "In triangle ABC, side a = 7, side b = 9, and angle C = 60°. Using the Law of Cosines, find the length of side c. Round to the nearest tenth.",
+      "answer": "c ≈ 8.2",
+      "explanation": "Law of Cosines: c² = a² + b² − 2ab·cos(C) = 49 + 81 − 2(7)(9)cos(60°) = 130 − 126(0.5) = 67. So c = √67 ≈ 8.2."
+    },
+    {
+      "question": "The graph of y = sin(2x) completes one full cycle over what interval on the x-axis?",
+      "answer": "[0, π] or any interval of length π",
+      "explanation": "For y = sin(2x), the period is 2π/2 = π. One complete cycle occurs over an interval of length π, such as from x = 0 to x = π."
+    },
+    {
+      "question": "In triangle DEF, angle D = 40°, angle E = 75°, and side e = 12. Using the Law of Sines, find the length of side d. Round to the nearest tenth.",
+      "answer": "d ≈ 8.0",
+      "explanation": "First, angle F = 180° − 40° − 75° = 65°. By Law of Sines: d/sin(D) = e/sin(E), so d/sin(40°) = 12/sin(75°). Thus d = 12·sin(40°)/sin(75°) ≈ 12(0.643)/0.966 ≈ 8.0."
+    },
+    {
+      "question": "The function f(x) = 3sin(x − π/3) is shifted how many units to the right compared to y = sin(x)?",
+      "answer": "π/3 units to the right",
+      "explanation": "The term (x − π/3) inside the sine indicates a horizontal shift of π/3 to the right. The amplitude 3 only stretches vertically, not horizontally."
+    },
+    {
+      "question": "A triangular plot of land has sides of length 10 m, 14 m, and 18 m. Using the Law of Cosines, find the measure of the angle opposite the 18 m side. Round to the nearest degree.",
+      "answer": "98°",
+      "explanation": "Let c = 18, a = 10, b = 14. By Law of Cosines: c² = a² + b² − 2ab·cos(C), so 324 = 100 + 196 − 280cos(C). Thus cos(C) = −28/280 = −0.1, giving C ≈ arccos(−0.1) ≈ 98°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:59.588Z",
+  "model": "claude-haiku-4-5-20251001"
+}

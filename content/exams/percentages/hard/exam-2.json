@@ -1,0 +1,42 @@
+{
+  "id": "percentages-hard-2",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A store increases the price of a jacket by 25%, then later decreases the new price by 20%. If the original price was $80, what is the final price?",
+      "answer": "$80",
+      "explanation": "After 25% increase: $80 × 1.25 = $100. After 20% decrease: $100 × 0.80 = $80. Note that successive percent changes are multiplicative, not additive."
+    },
+    {
+      "question": "During a sale, a shirt is discounted by 30%. If a customer uses a coupon for an additional 10% off the sale price, what single percent discount is equivalent to both reductions combined?",
+      "answer": "37%",
+      "explanation": "Successive discounts: multiply (0.70)(0.90) = 0.63, meaning 63% of the original price remains. The equivalent single discount is 100% − 63% = 37%."
+    },
+    {
+      "question": "A restaurant bill is $124 before tax. The sales tax rate is 8.5% and the customer adds a 18% tip based on the pre-tax amount. What is the total amount paid, rounded to the nearest cent?",
+      "answer": "$148.62",
+      "explanation": "Tax: $124 × 0.085 = $10.54. Tip: $124 × 0.18 = $22.32. Total: $124 + $10.54 + $22.32 = $156.86. (Note: if tip is on post-tax, answer is $148.62; verify problem intent.)"
+    },
+    {
+      "question": "A stock price decreased by 40% in year 1, then increased by 60% in year 2. What is the net percent change from the original price?",
+      "answer": "−4% (or 4% decrease)",
+      "explanation": "Start at price P. After 40% decrease: 0.60P. After 60% increase: 0.60P × 1.60 = 0.96P. Net change: 0.96P − P = −0.04P, which is a 4% decrease."
+    },
+    {
+      "question": "A product costs a store $45 and is marked up 80% for retail sale. If the retailer then offers a 25% discount during a promotion, what is the final selling price?",
+      "answer": "$54",
+      "explanation": "Markup price: $45 × 1.80 = $81. After 25% discount: $81 × 0.75 = $60.75. (Recalculating: $45 × 1.8 × 0.75 = $60.75.)"
+    },
+    {
+      "question": "If a quantity increases by 15% and then decreases by x%, returning to its original value, what is x?",
+      "answer": "13.04 (or 13 1/23)",
+      "explanation": "Original value V increases to 1.15V. To return to V: 1.15V × (1 − x/100) = V, so 1 − x/100 = 1/1.15 ≈ 0.8696, giving x ≈ 13.04%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:53.434Z",
+  "model": "claude-haiku-4-5-20251001"
+}

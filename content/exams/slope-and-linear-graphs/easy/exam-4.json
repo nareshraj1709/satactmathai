@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-easy-4",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (2, 5) and (4, 9).",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ − y₁)/(x₂ − x₁) = (9 − 5)/(4 − 2) = 4/2 = 2."
+    },
+    {
+      "question": "What is the y-intercept of the line y = 3x − 7?",
+      "answer": "-7",
+      "explanation": "The equation is in slope-intercept form y = mx + b, where b is the y-intercept. Here b = −7."
+    },
+    {
+      "question": "A line passes through (1, 2) and has a slope of 4. Write the equation in the form y = mx + b.",
+      "answer": "y = 4x − 2",
+      "explanation": "Use point-slope form: y − 2 = 4(x − 1), which simplifies to y = 4x − 2."
+    },
+    {
+      "question": "Two points on a line are (0, 3) and (2, 7). What is the slope?",
+      "answer": "2",
+      "explanation": "Slope = (7 − 3)/(2 − 0) = 4/2 = 2."
+    },
+    {
+      "question": "A line has slope −1/2 and passes through (4, 5). Find the y-intercept.",
+      "answer": "7",
+      "explanation": "Use y = mx + b: 5 = (−1/2)(4) + b, so 5 = −2 + b, giving b = 7."
+    },
+    {
+      "question": "What is the slope of a line parallel to y = 6x + 1?",
+      "answer": "6",
+      "explanation": "Parallel lines have the same slope. The given line has slope 6, so any parallel line also has slope 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:20:43.826Z",
+  "model": "claude-haiku-4-5-20251001"
+}

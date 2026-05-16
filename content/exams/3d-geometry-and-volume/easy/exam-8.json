@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-8",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 3 cm, and height 4 cm. What is its volume?",
+      "answer": "60 cubic cm",
+      "explanation": "Volume of a rectangular prism is V = length × width × height. V = 5 × 3 × 4 = 60 cubic cm."
+    },
+    {
+      "question": "A cylinder has a radius of 2 inches and a height of 6 inches. What is its volume in terms of π?",
+      "answer": "24π cubic inches",
+      "explanation": "Volume of a cylinder is V = πr²h. V = π(2)²(6) = π(4)(6) = 24π cubic inches."
+    },
+    {
+      "question": "A sphere has a radius of 3 meters. Which expression gives its volume?",
+      "answer": "36π cubic meters",
+      "explanation": "Volume of a sphere is V = (4/3)πr³. V = (4/3)π(3)³ = (4/3)π(27) = 36π cubic meters."
+    },
+    {
+      "question": "A cone has a base radius of 4 cm and a height of 9 cm. What is its volume in terms of π?",
+      "answer": "48π cubic cm",
+      "explanation": "Volume of a cone is V = (1/3)πr²h. V = (1/3)π(4)²(9) = (1/3)π(16)(9) = 48π cubic cm."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 20 square inches and a depth (height) of 7 inches. What is the volume?",
+      "answer": "140 cubic inches",
+      "explanation": "Volume of a prism is V = (base area) × height. V = 20 × 7 = 140 cubic inches."
+    },
+    {
+      "question": "A cube has a side length of 5 meters. What is its volume?",
+      "answer": "125 cubic meters",
+      "explanation": "Volume of a cube is V = s³, where s is the side length. V = 5³ = 125 cubic meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:18:54.771Z",
+  "model": "claude-haiku-4-5-20251001"
+}

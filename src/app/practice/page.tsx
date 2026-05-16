@@ -6,7 +6,6 @@ import Container from '@/components/ui/Container'
 import Eyebrow from '@/components/ui/Eyebrow'
 import FilterTabs from '@/components/ui/FilterTabs'
 import { SECTIONS } from '@/lib/sections-data'
-import { toSlug } from '@/lib/study-content'
 
 type Filter = 'Both' | 'SAT' | 'ACT'
 
@@ -78,7 +77,7 @@ export default function PracticeIndexPage() {
                   {sections.map(sec => (
                     <Link
                       key={sec.id}
-                      href={`/practice/${toSlug(sec.name)}`}
+                      href={`/practice/${sec.slug}`}
                       className="card p-5 flex flex-col gap-3 hover:bg-[color:var(--color-bg-alt)] transition-colors min-h-[140px]"
                     >
                       <div className="flex items-center justify-between">

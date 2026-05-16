@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-4",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7. Those are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: x² - 5x + 6 = 0",
+      "answer": "x = 2, x = 3",
+      "explanation": "Factor to (x - 2)(x - 3) = 0. Set each factor equal to zero: x - 2 = 0 gives x = 2, and x - 3 = 0 gives x = 3."
+    },
+    {
+      "question": "Factor: x² - 9",
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: x² - 9 = x² - 3². Use the pattern a² - b² = (a - b)(a + b)."
+    },
+    {
+      "question": "A rectangular garden has area 24 square feet. Its length is 2 feet more than its width. If w represents the width, write an equation and solve for w.",
+      "answer": "w = 4",
+      "explanation": "Set up w(w + 2) = 24, or w² + 2w - 24 = 0. Factor as (w + 6)(w - 4) = 0. Since width must be positive, w = 4."
+    },
+    {
+      "question": "Factor: 2x² + 8x",
+      "answer": "2x(x + 4)",
+      "explanation": "Pull out the greatest common factor: 2x divides both terms. 2x² + 8x = 2x(x + 4)."
+    },
+    {
+      "question": "Solve: x² + 10x + 25 = 0",
+      "answer": "x = -5",
+      "explanation": "This is a perfect square trinomial: x² + 10x + 25 = (x + 5)². So (x + 5)² = 0 gives x = -5 (a repeated root)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:44:49.555Z",
+  "model": "claude-haiku-4-5-20251001"
+}

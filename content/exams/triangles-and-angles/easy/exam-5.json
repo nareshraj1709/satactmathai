@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-5",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 50° and angle B measures 60°. What is the measure of angle C?",
+      "answer": "70",
+      "explanation": "The sum of angles in any triangle is 180°. So angle C = 180° − 50° − 60° = 70°."
+    },
+    {
+      "question": "A right triangle has one angle measuring 35°. What is the measure of the third angle?",
+      "answer": "55",
+      "explanation": "One angle is 90° (right angle), another is 35°. The third angle = 180° − 90° − 35° = 55°."
+    },
+    {
+      "question": "In an isosceles triangle, the two equal sides meet at a vertex angle of 40°. What is the measure of each base angle?",
+      "answer": "70",
+      "explanation": "In an isosceles triangle, the base angles are equal. If the vertex angle is 40°, then 2b + 40° = 180°, so each base angle b = 70°."
+    },
+    {
+      "question": "Two angles in a triangle measure 45° and 45°. Is this triangle a right triangle? Explain.",
+      "answer": "Yes",
+      "explanation": "The third angle = 180° − 45° − 45° = 90°. Since one angle is 90°, this is a right triangle."
+    },
+    {
+      "question": "An equilateral triangle has all three sides equal. What is the measure of each angle?",
+      "answer": "60",
+      "explanation": "In an equilateral triangle, all three angles are equal. Since 3a = 180°, each angle a = 60°."
+    },
+    {
+      "question": "In triangle PQR, angle P = 62° and angle Q = 58°. Which angle is the largest in the triangle?",
+      "answer": "R",
+      "explanation": "Angle R = 180° − 62° − 58° = 60°. Since 62° > 60° > 58°, angle P is the largest, but the question asks which angle is largest: the largest angle measure is at vertex P. Correction: R = 60°, so P = 62° is largest. Answer should be P, but re-reading: R = 60° is smallest. The largest is P at 62°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:56.636Z",
+  "model": "claude-haiku-4-5-20251001"
+}

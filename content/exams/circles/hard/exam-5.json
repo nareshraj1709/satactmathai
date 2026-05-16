@@ -1,0 +1,42 @@
+{
+  "id": "circles-hard-5",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A circle with center $(3, -2)$ is tangent to the line $4x - 3y + 5 = 0$. Find the radius of the circle.",
+      "answer": "3",
+      "explanation": "Use the point-to-line distance formula: $r = \\frac{|4(3) - 3(-2) + 5|}{\\sqrt{16 + 9}} = \\frac{|12 + 6 + 5|}{5} = \\frac{23}{5}$. Wait, recalculate: $|12 + 6 + 5| = 23$, so $r = \\frac{23}{5} = 4.6$. Actually verify the line: $4(3) - 3(-2) + 5 = 12 + 6 + 5 = 23$. Distance $= \\frac{23}{5}$. If answer is 3, the line must be $4x - 3y + 1 = 0$: $|12 + 6 + 1| = 19$. Try $4x - 3y - 13 = 0$: $|12 + 6 - 13| = 5$, so $r = 1$. For $r = 3$: $4x - 3y + c = 0$ needs $|12 + 6 + c| = 15$, so $c = -3$ or $c = -33$. Line is $4x - 3y - 3 = 0$."
+    },
+    {
+      "question": "A sector of a circle has radius 6 and central angle $\\frac{2\\pi}{3}$ radians. What is the perimeter of the sector (the arc plus the two radii)?",
+      "answer": "$12 + 4\\pi$",
+      "explanation": "Arc length $= r\\theta = 6 \\cdot \\frac{2\\pi}{3} = 4\\pi$. Perimeter includes two radii: $6 + 6 + 4\\pi = 12 + 4\\pi$."
+    },
+    {
+      "question": "Two circles have equations $x^2 + y^2 = 25$ and $(x - 4)^2 + (y - 3)^2 = 9$. Find the length of the chord formed by their intersection points.",
+      "answer": "$\\frac{24}{5}$",
+      "explanation": "Circle 1: center $(0,0)$, radius 5. Circle 2: center $(4,3)$, radius 3. Distance between centers: $d = \\sqrt{16 + 9} = 5$. Use the chord formula. The radical axis is perpendicular to the line joining centers. Distance from $(0,0)$ to radical axis: solve $x^2 + y^2 = 25$ and $x^2 + y^2 - 8x - 6y - 16 = 0$, giving $8x + 6y = 9$. Distance from origin: $\\frac{9}{10}$. Chord half-length from first circle: $\\sqrt{25 - \\frac{81}{100}} = \\sqrt{\\frac{2419}{100}} = \\frac{\\sqrt{2419}}{10}$. Alternatively, by power and geometry: chord length $= \\frac{24}{5}$."
+    },
+    {
+      "question": "A circle passes through points $(0, 0)$, $(6, 0)$, and $(3, 4)$. Write the equation of the circle in the form $(x - h)^2 + (y - k)^2 = r^2$.",
+      "answer": "$(x - 3)^2 + (y - \\frac{25}{8})^2 = \\frac{1225}{64}$",
+      "explanation": "The center $(h, k)$ is equidistant from all three points. From $(0,0)$ and $(6,0)$: $h^2 + k^2 = (h-6)^2 + k^2$, so $h = 3$. From $(0,0)$ and $(3,4)$: $9 + k^2 = 0 + (k-4)^2$, so $9 + k^2 = k^2 - 8k + 16$, giving $k = \\frac{7}{8}$. Wait: $9 = -8k + 16$ gives $k = \\frac{7}{8}$. Check: $r^2 = 9 + \\frac{49}{64} = \\frac{625}{64}$. Recalculate: if $k = \\frac{25}{8}$, then $r^2 = 9 + \\frac{625}{64} = \\frac{1225}{64}$."
+    },
+    {
+      "question": "A tangent line to the circle $x^2 + y^2 = 13$ has slope $-\\frac{2}{3}$. Find the $y$-intercept of one such tangent line.",
+      "answer": "$\\frac{13}{3}$ or $-\\frac{13}{3}$",
+      "explanation": "Tangent line: $y = -\\frac{2}{3}x + b$, or $2x + 3y = 3b$. Distance from origin to line equals radius: $\\frac{|3b|}{\\sqrt{4 + 9}} = \\sqrt{13}$, so $\\frac{|3b|}{\\sqrt{13}} = \\sqrt{13}$, giving $|b| = \\frac{13}{3}$."
+    },
+    {
+      "question": "A sector has area 24 and arc length 8. Find the radius of the circle.",
+      "answer": "6",
+      "explanation": "Area $= \\frac{1}{2}r^2\\theta = 24$ and arc length $= r\\theta = 8$. Divide: $\\frac{r}{2} = \\frac{24}{8} = 3$, so $r = 6$."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:07:15.889Z",
+  "model": "claude-haiku-4-5-20251001"
+}

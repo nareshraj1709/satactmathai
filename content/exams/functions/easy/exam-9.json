@@ -1,0 +1,42 @@
+{
+  "id": "functions-easy-9",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Let f(x) = 3x + 2. Find f(4).",
+      "answer": "14",
+      "explanation": "Substitute x = 4 into f(x) = 3x + 2: f(4) = 3(4) + 2 = 12 + 2 = 14."
+    },
+    {
+      "question": "Let g(x) = x² − 5. What is g(3)?",
+      "answer": "4",
+      "explanation": "Substitute x = 3: g(3) = 3² − 5 = 9 − 5 = 4."
+    },
+    {
+      "question": "If f(x) = 2x − 1 and g(x) = x + 3, find f(g(2)).",
+      "answer": "9",
+      "explanation": "First find g(2) = 2 + 3 = 5. Then f(5) = 2(5) − 1 = 10 − 1 = 9."
+    },
+    {
+      "question": "Let h(x) = 4 − x. If h(a) = 1, what is the value of a?",
+      "answer": "3",
+      "explanation": "Set 4 − a = 1 and solve: −a = −3, so a = 3."
+    },
+    {
+      "question": "The function f(x) = 5x is applied to the input x = −2. What is f(−2)?",
+      "answer": "-10",
+      "explanation": "Substitute x = −2 into f(x) = 5x: f(−2) = 5(−2) = −10."
+    },
+    {
+      "question": "Let f(x) = x/2 + 6. Find the value of x such that f(x) = 10.",
+      "answer": "8",
+      "explanation": "Set x/2 + 6 = 10. Then x/2 = 4, so x = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:00:02.825Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-easy-6",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve: |x| = 7",
+      "answer": "x = 7 or x = -7",
+      "explanation": "Absolute value equals 7 when the input is 7 or -7. Both values are 7 units from zero on the number line."
+    },
+    {
+      "question": "Solve: |x - 2| = 5",
+      "answer": "x = 7 or x = -3",
+      "explanation": "Set x - 2 = 5 and x - 2 = -5. This gives x = 7 and x = -3. Check: |7 - 2| = 5 ✓ and |-3 - 2| = 5 ✓"
+    },
+    {
+      "question": "Solve: |2x| = 8",
+      "answer": "x = 4 or x = -4",
+      "explanation": "Divide both sides by 2: |x| = 4. Then x = 4 or x = -4."
+    },
+    {
+      "question": "Which values of x satisfy |x| < 3?",
+      "answer": "-3 < x < 3",
+      "explanation": "Absolute value less than 3 means the distance from zero is less than 3. This is the interval between -3 and 3, not including the endpoints."
+    },
+    {
+      "question": "The temperature in a city varies from the target of 68°F by at most 4 degrees. Write an absolute value inequality for the possible temperatures T.",
+      "answer": "|T - 68| ≤ 4",
+      "explanation": "The distance from T to 68 is at most 4, so |T - 68| ≤ 4. This means the temperature ranges from 64°F to 72°F."
+    },
+    {
+      "question": "Solve: |x + 1| = 0",
+      "answer": "x = -1",
+      "explanation": "Absolute value equals zero only when the expression inside equals zero. So x + 1 = 0, giving x = -1."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:30:10.708Z",
+  "model": "claude-haiku-4-5-20251001"
+}

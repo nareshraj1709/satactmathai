@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-1",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A student's test scores are 78, 85, 92, 78, and 87. What is the mode?",
+      "answer": "78",
+      "explanation": "The mode is the value that appears most frequently in a dataset. The score 78 appears twice, while all others appear once. Therefore, the mode is 78."
+    },
+    {
+      "question": "Five friends have heights of 60, 62, 65, 68, and 70 inches. What is the median height?",
+      "answer": "65",
+      "explanation": "Arrange the heights in order (already done): 60, 62, 65, 68, 70. With 5 values, the median is the middle value, which is the 3rd number: 65 inches."
+    },
+    {
+      "question": "The mean of four numbers is 12. Three of the numbers are 8, 10, and 14. What is the fourth number?",
+      "answer": "12",
+      "explanation": "If the mean is 12, the sum of all four numbers is 12 × 4 = 48. The sum of the three known numbers is 8 + 10 + 14 = 32. Therefore, the fourth number is 48 − 32 = 12."
+    },
+    {
+      "question": "A dataset contains the values 3, 7, 9, 15, and 21. What is the range?",
+      "answer": "18",
+      "explanation": "The range is the difference between the maximum and minimum values. Maximum = 21, minimum = 3. Range = 21 − 3 = 18."
+    },
+    {
+      "question": "Six test scores are 88, 92, 85, 88, 90, and 91. What is the mean score?",
+      "answer": "89",
+      "explanation": "Sum all scores: 88 + 92 + 85 + 88 + 90 + 91 = 534. Divide by the number of scores: 534 ÷ 6 = 89."
+    },
+    {
+      "question": "The ages of six children are 4, 5, 5, 6, 7, and 8 years old. Find the median age.",
+      "answer": "5.5",
+      "explanation": "The values in order: 4, 5, 5, 6, 7, 8. With 6 values (even count), the median is the average of the 3rd and 4th values: (5 + 6) ÷ 2 = 5.5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:39:41.529Z",
+  "model": "claude-haiku-4-5-20251001"
+}

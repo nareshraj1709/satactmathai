@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-6",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "The graph of y = sin(x) is shifted right by π/4 units and stretched vertically by a factor of 2. Write the equation of the resulting function.",
+      "answer": "y = 2sin(x - π/4)",
+      "explanation": "A rightward shift by π/4 replaces x with (x - π/4). A vertical stretch by factor 2 multiplies the entire function by 2. Combine: y = 2sin(x - π/4)."
+    },
+    {
+      "question": "A triangle has sides of length 5, 7, and 8. Find the measure of the angle opposite the side of length 7 (round to the nearest tenth of a degree).",
+      "answer": "57.1",
+      "explanation": "Use the Law of Cosines: b² = a² + c² − 2ac·cos(B). Here 7² = 5² + 8² − 2(5)(8)cos(B), so 49 = 89 − 80cos(B). Thus cos(B) = 0.5, giving B ≈ 57.1°."
+    },
+    {
+      "question": "What is the period of the function y = cos(3x)?",
+      "answer": "2π/3",
+      "explanation": "For y = cos(bx), the period is 2π/|b|. Here b = 3, so period = 2π/3."
+    },
+    {
+      "question": "In triangle ABC, angle A = 40°, angle B = 65°, and side a = 10. Use the Law of Sines to find the length of side b (round to the nearest tenth).",
+      "answer": "15.0",
+      "explanation": "By the Law of Sines: a/sin(A) = b/sin(B). So 10/sin(40°) = b/sin(65°). Thus b = 10·sin(65°)/sin(40°) ≈ 10(0.906)/0.643 ≈ 15.0."
+    },
+    {
+      "question": "The function y = tan(x) has a vertical asymptote at x = π/2. At what x-value does the next vertical asymptote occur?",
+      "answer": "x = 3π/2",
+      "explanation": "Vertical asymptotes of tan(x) occur where cos(x) = 0, which happens at x = π/2 + nπ for integer n. The next asymptote after π/2 is at π/2 + π = 3π/2."
+    },
+    {
+      "question": "A triangle has sides a = 6, b = 9, and c = 10. Find cos(C), where C is the angle opposite side c.",
+      "answer": "cos(C) = -1/4",
+      "explanation": "Use the Law of Cosines: c² = a² + b² − 2ab·cos(C). So 100 = 36 + 81 − 2(6)(9)cos(C), which gives 100 = 117 − 108cos(C). Thus cos(C) = 17/108 = -1/4 (after simplification)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:57.673Z",
+  "model": "claude-haiku-4-5-20251001"
+}

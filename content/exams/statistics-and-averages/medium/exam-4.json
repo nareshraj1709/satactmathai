@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-4",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A student's quiz scores are 78, 85, 92, 88, and 82. What is the median score?",
+      "answer": "85",
+      "explanation": "Arrange scores in order: 78, 82, 85, 88, 92. The median is the middle value of 5 numbers, which is the 3rd score: 85."
+    },
+    {
+      "question": "The mean of five numbers is 24. If four of the numbers are 18, 22, 25, and 29, what is the fifth number?",
+      "answer": "26",
+      "explanation": "Mean = (sum of all numbers) / 5, so sum = 24 × 5 = 120. Sum of four numbers: 18 + 22 + 25 + 29 = 94. Fifth number: 120 − 94 = 26."
+    },
+    {
+      "question": "A dataset has values 12, 15, 18, 15, 20, and 15. What is the mode?",
+      "answer": "15",
+      "explanation": "The mode is the value that appears most frequently. The number 15 appears three times, more than any other value."
+    },
+    {
+      "question": "The range of a dataset is 36. If the minimum value is 8, what is the maximum value?",
+      "answer": "44",
+      "explanation": "Range = maximum − minimum, so 36 = maximum − 8. Therefore, maximum = 44."
+    },
+    {
+      "question": "Six test scores have a mean of 80. After adding a seventh score of 92, what is the new mean? Round to the nearest integer.",
+      "answer": "82",
+      "explanation": "Original sum: 6 × 80 = 480. New sum: 480 + 92 = 572. New mean: 572 ÷ 7 ≈ 81.7, which rounds to 82."
+    },
+    {
+      "question": "A teacher records homework completion rates (in percent) for 8 students: 75, 88, 92, 78, 95, 88, 82, 88. What is the difference between the mean and the median?",
+      "answer": "2",
+      "explanation": "Mean = (75 + 88 + 92 + 78 + 95 + 88 + 82 + 88) ÷ 8 = 686 ÷ 8 = 85.75. Median of ordered data (75, 78, 82, 88, 88, 88, 92, 95) = (88 + 88) ÷ 2 = 88. Difference: 88 − 85.75 = 2.25, which rounds to 2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:13.736Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-medium-4",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A parabola has vertex at the origin and focus at (0, 3). Write the equation of the parabola in the form y = ax² or x = ay².",
+      "answer": "x² = 12y",
+      "explanation": "For a parabola with vertex at origin and vertical axis, the standard form is x² = 4py where p is the distance from vertex to focus. Here p = 3, so x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has center at the origin, semi-major axis of length 5 along the x-axis, and semi-minor axis of length 3 along the y-axis. What is the distance from the center to each focus?",
+      "answer": "4",
+      "explanation": "For an ellipse, c² = a² − b² where a is the semi-major axis and b is the semi-minor axis. Here c² = 25 − 9 = 16, so c = 4."
+    },
+    {
+      "question": "A hyperbola has center at (0, 0), vertices at (±6, 0), and foci at (±10, 0). Write the equation of the hyperbola in standard form.",
+      "answer": "x²/36 − y²/64 = 1",
+      "explanation": "For a horizontal hyperbola, the form is x²/a² − y²/b² = 1. The vertices give a = 6, so a² = 36. From c² = a² + b² with c = 10: 100 = 36 + b², so b² = 64."
+    },
+    {
+      "question": "The parabola y = −2(x − 1)² + 5 opens downward. What are the coordinates of its vertex?",
+      "answer": "(1, 5)",
+      "explanation": "The vertex form of a parabola is y = a(x − h)² + k, where (h, k) is the vertex. Here h = 1 and k = 5."
+    },
+    {
+      "question": "An ellipse has the equation (x − 2)²/25 + (y + 3)²/9 = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The major axis is along the direction with the larger denominator. Here 25 > 9, so the semi-major axis has length √25 = 5, and the full major axis is 2(5) = 10."
+    },
+    {
+      "question": "For the hyperbola x²/16 − y²/9 = 1, what is the length of the transverse axis?",
+      "answer": "8",
+      "explanation": "The transverse axis connects the two vertices. For this horizontal hyperbola, a² = 16 so a = 4. The transverse axis has length 2a = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:49.690Z",
+  "model": "claude-haiku-4-5-20251001"
+}

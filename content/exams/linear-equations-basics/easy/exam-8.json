@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-8",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for y: 2y − 8 = 4",
+      "answer": "y = 6",
+      "explanation": "Add 8 to both sides: 2y = 12. Divide by 2: y = 6."
+    },
+    {
+      "question": "Solve for x: x/4 = 7",
+      "answer": "x = 28",
+      "explanation": "Multiply both sides by 4: x = 28."
+    },
+    {
+      "question": "A book costs $12 and you have $50. After buying the book, how much money do you have left? Write an equation and solve.",
+      "answer": "50 − 12 = 38; you have $38 left",
+      "explanation": "Let m = money left. Then m = 50 − 12 = 38."
+    },
+    {
+      "question": "Solve for z: 5z = 35",
+      "answer": "z = 7",
+      "explanation": "Divide both sides by 5: z = 35/5 = 7."
+    },
+    {
+      "question": "Solve for w: w + 9 = 16",
+      "answer": "w = 7",
+      "explanation": "Subtract 9 from both sides: w = 16 − 9 = 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:23.784Z",
+  "model": "claude-haiku-4-5-20251001"
+}

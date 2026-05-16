@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-1",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (2, −3) and focus at (2, 1). Write the equation of the parabola in the form (x − h)² = 4p(y − k).",
+      "answer": "(x − 2)² = 16(y + 3)",
+      "explanation": "The vertex is (h, k) = (2, −3). The focus is 4 units above the vertex, so p = 4. Substitute into (x − h)² = 4p(y − k): (x − 2)² = 4(4)(y − (−3)) = 16(y + 3)."
+    },
+    {
+      "question": "An ellipse has center at the origin, foci at (±5, 0), and the sum of distances from any point to the two foci is 26. Find the equation of the ellipse in the form (x²/a²) + (y²/b²) = 1.",
+      "answer": "x²/169 + y²/144 = 1",
+      "explanation": "The sum of distances equals 2a, so 2a = 26 and a = 13. With foci at (±5, 0), we have c = 5. Use b² = a² − c² = 169 − 25 = 144. The equation is x²/169 + y²/144 = 1."
+    },
+    {
+      "question": "A hyperbola has its center at the origin, a vertical transverse axis, vertices at (0, ±6), and foci at (0, ±10). What is the value of b² in the standard form (y²/a²) − (x²/b²) = 1?",
+      "answer": "64",
+      "explanation": "For a vertical hyperbola, vertices are at (0, ±a), so a = 6. Foci are at (0, ±c), so c = 10. Use c² = a² + b²: 100 = 36 + b², thus b² = 64."
+    },
+    {
+      "question": "A point P lies on the parabola y² = 12x. If P is 8 units from the directrix, what is the distance from P to the focus?",
+      "answer": "8",
+      "explanation": "For a parabola y² = 4px, the focus-directrix property states that the distance from any point to the focus equals its distance to the directrix. Therefore, the distance from P to the focus is 8."
+    },
+    {
+      "question": "The ellipse (x²/36) + (y²/20) = 1 is rotated 180° about the origin. Does the equation of the resulting ellipse change? Justify briefly.",
+      "answer": "No, the equation does not change.",
+      "explanation": "A 180° rotation about the origin maps (x, y) to (−x, −y). Substituting into the equation gives ((−x)²/36) + ((−y)²/20) = (x²/36) + (y²/20) = 1, which is identical. The ellipse is symmetric about the origin."
+    },
+    {
+      "question": "A hyperbola has the equation (x²/25) − (y²/11) = 1. A point on the right branch satisfies |d₁ − d₂| = 10, where d₁ and d₂ are distances to the two foci. Find the value of c, the distance from center to each focus.",
+      "answer": "6",
+      "explanation": "For a hyperbola, |d₁ − d₂| = 2a. Here 2a = 10, so a = 5 (matches the given a² = 25). Use c² = a² + b² = 25 + 11 = 36, so c = 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:31.092Z",
+  "model": "claude-haiku-4-5-20251001"
+}

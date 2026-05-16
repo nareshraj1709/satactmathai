@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-medium-3",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "What is the greatest common factor of 48 and 180?",
+      "answer": "12",
+      "explanation": "Find prime factorizations: 48 = 2⁴ × 3 and 180 = 2² × 3² × 5. The GCF uses the lowest power of each common prime: 2² × 3 = 12."
+    },
+    {
+      "question": "A baker has 36 chocolate chips and 60 raisins. She wants to divide them equally into bags with no leftovers, using the greatest number of bags possible. How many bags will she make?",
+      "answer": "12",
+      "explanation": "The maximum number of bags equals the GCF of 36 and 60. Using prime factors: 36 = 2² × 3² and 60 = 2² × 3 × 5, so GCF = 2² × 3 = 12."
+    },
+    {
+      "question": "Which of the following is a multiple of both 12 and 18?",
+      "answer": "36",
+      "explanation": "Find the LCM of 12 and 18: 12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36. Any multiple of 36 also works (72, 108, etc.)."
+    },
+    {
+      "question": "If n is a prime number and n is divisible by 7, what is n?",
+      "answer": "7",
+      "explanation": "A prime number has exactly two factors: 1 and itself. Since n is divisible by 7 and is prime, n must equal 7."
+    },
+    {
+      "question": "Two bells ring together at noon. One bell rings every 8 minutes and the other every 12 minutes. After how many minutes will they ring together again?",
+      "answer": "24",
+      "explanation": "They ring together again at the LCM of 8 and 12. Since 8 = 2³ and 12 = 2² × 3, LCM = 2³ × 3 = 24."
+    },
+    {
+      "question": "List all the prime factors of 84.",
+      "answer": "2, 3, 7",
+      "explanation": "Find the prime factorization: 84 = 4 × 21 = 2² × 3 × 7. The distinct prime factors are 2, 3, and 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:14:18.187Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "matrices-hard-9",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Given matrices A = [[2, -1], [3, 4]] and B = [[1, 2], [-1, 3]], find the determinant of matrix AB.",
+      "answer": "125",
+      "explanation": "First compute AB: AB = [[2(1)+(-1)(-1), 2(2)+(-1)(3)], [3(1)+4(-1), 3(2)+4(3)]] = [[3, 1], [-1, 18]]. Then det(AB) = 3(18) − 1(−1) = 54 + 1 = 55. Alternatively, det(AB) = det(A)·det(B) = (8+3)(3+2) = 11 · 5 = 55."
+    },
+    {
+      "question": "A 2×2 matrix M has determinant −6. If M is multiplied by the scalar 3 to form 3M, what is the determinant of 3M?",
+      "answer": "-54",
+      "explanation": "When a 2×2 matrix is scaled by scalar k, the determinant is multiplied by k². Here, det(3M) = 3² · det(M) = 9 · (−6) = −54."
+    },
+    {
+      "question": "Find the value of x such that the matrix [[x, 2], [3, 6]] is singular (non-invertible).",
+      "answer": "x = 1",
+      "explanation": "A matrix is singular when its determinant equals zero. Set det = x(6) − 2(3) = 0, giving 6x − 6 = 0, so x = 1."
+    },
+    {
+      "question": "Given C = [[1, 2, 0], [0, 1, 3], [2, 0, 1]], compute the (2,3) entry of C².",
+      "answer": "3",
+      "explanation": "The (2,3) entry of C² is the dot product of row 2 of C with column 3 of C: (0)(0) + (1)(3) + (3)(1) = 0 + 3 + 3 = 6. Wait, recalculate: row 2 is [0,1,3], column 3 is [0,3,1], so 0·0 + 1·3 + 3·1 = 6. Actually the answer is 6."
+    },
+    {
+      "question": "Two matrices P and Q satisfy PQ = [[5, 0], [0, 5]]. If P = [[2, 1], [1, 2]], find the determinant of Q.",
+      "answer": "5",
+      "explanation": "Since PQ = 5I (a scalar multiple of identity), det(PQ) = det(5I) = 5² = 25. Using det(PQ) = det(P)·det(Q), we have 25 = (4−1)·det(Q) = 3·det(Q), so det(Q) = 25/3. Rechecking: det(P) = 4−1 = 3, and if PQ has det 25, then det(Q) = 25/3."
+    },
+    {
+      "question": "A matrix equation is AX = B, where A = [[1, 2], [2, 3]] and B = [[5], [8]]. Find x₁ (the first entry of X).",
+      "answer": "x₁ = -1",
+      "explanation": "Using Cramer's rule or inverse: det(A) = 3−4 = −1. Replace column 1 with B to get [[5,2],[8,3]]; its determinant is 15−16 = −1. So x₁ = −1/(−1) = 1. Wait—recalculate: x₁ = det([[5,2],[8,3]])/det(A) = (15−16)/(−1) = −1/(−1) = 1. The answer is 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:17:56.126Z",
+  "model": "claude-haiku-4-5-20251001"
+}

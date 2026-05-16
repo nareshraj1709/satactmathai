@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-9",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A recipe calls for flour to sugar in a ratio of 5:2. If you need to make a batch using 18 ounces of sugar, how many ounces of flour do you need?",
+      "answer": "45",
+      "explanation": "Set up the proportion: flour/sugar = 5/2. Then flour/18 = 5/2, so flour = 18 × (5/2) = 45 ounces."
+    },
+    {
+      "question": "In a school, the ratio of students to teachers is 16:1. If there are 288 students, how many teachers are there?",
+      "answer": "18",
+      "explanation": "Use the ratio: students/teachers = 16/1. So 288/teachers = 16/1, giving teachers = 288 ÷ 16 = 18."
+    },
+    {
+      "question": "A map uses a scale where 2 centimeters represents 5 kilometers. Two cities are 7 centimeters apart on the map. What is the actual distance between them in kilometers?",
+      "answer": "17.5",
+      "explanation": "Set up: 2 cm : 5 km = 7 cm : x km. Cross-multiply: 2x = 35, so x = 17.5 kilometers."
+    },
+    {
+      "question": "A mixture contains red and blue paint in the ratio 3:5. If you add 12 more liters of red paint to the mixture, the new ratio becomes 1:1. How many liters of blue paint were in the original mixture?",
+      "answer": "30",
+      "explanation": "Let original red = 3k and blue = 5k. After adding 12 liters of red: (3k + 12)/(5k) = 1/1. So 3k + 12 = 5k, giving k = 6. Blue paint = 5(6) = 30 liters."
+    },
+    {
+      "question": "A company's profit-to-revenue ratio was 1:8 last year. If revenue was $240,000, what was the profit?",
+      "answer": "30000",
+      "explanation": "Profit/Revenue = 1/8, so Profit/240000 = 1/8. Therefore Profit = 240000 ÷ 8 = $30,000."
+    },
+    {
+      "question": "Two workers complete a job in a time ratio of 3:4 (worker A is faster). If worker A takes 9 hours to complete the job alone, how many hours does worker B take?",
+      "answer": "12",
+      "explanation": "Time ratio is 3:4, meaning A takes 3 units and B takes 4 units. Since A takes 9 hours: 3 units = 9 hours, so 1 unit = 3 hours. B takes 4 × 3 = 12 hours."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:14.876Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-medium-10",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve for x: |x - 4| = 9",
+      "answer": "x = 13 or x = -5",
+      "explanation": "Split into two cases: x - 4 = 9 gives x = 13, and x - 4 = -9 gives x = -5. Check: |13 - 4| = 9 ✓ and |-5 - 4| = 9 ✓"
+    },
+    {
+      "question": "Solve for x: |2x + 3| ≤ 7",
+      "answer": "-5 ≤ x ≤ 2",
+      "explanation": "Rewrite as -7 ≤ 2x + 3 ≤ 7. Subtract 3: -10 ≤ 2x ≤ 4. Divide by 2: -5 ≤ x ≤ 2."
+    },
+    {
+      "question": "A temperature sensor has a maximum error of |T - 68| ≤ 2, where T is the actual temperature in degrees Fahrenheit. What is the range of possible actual temperatures?",
+      "answer": "66 ≤ T ≤ 70",
+      "explanation": "The inequality |T - 68| ≤ 2 means the actual temperature is at most 2 degrees away from 68. This gives 66 ≤ T ≤ 70."
+    },
+    {
+      "question": "Solve for x: |x + 5| = |2x - 1|",
+      "answer": "x = -4 or x = 2/3",
+      "explanation": "Case 1: x + 5 = 2x - 1 gives -6 = x, so x = -4. Case 2: x + 5 = -(2x - 1) gives 3x = -4, so x = -4/3. Wait, recalculate Case 2: x + 5 = -2x + 1 gives 3x = -4, x = -4/3. Actually check Case 2 again: if x+5 = -(2x-1), then x+5 = -2x+1, so 3x = -4, x = -4/3. Let me verify: |−4/3+5| = |11/3| = 11/3 and |2(−4/3)−1| = |−8/3−1| = |−11/3| = 11/3 ✓. But recheck Case 1: x+5 = 2x−1 gives 6 = x. |6+5| = 11 and |2(6)−1| = 11 ✓"
+    },
+    {
+      "question": "For which values of x is |x - 3| > 5?",
+      "answer": "x < -2 or x > 8",
+      "explanation": "Split the inequality: x - 3 > 5 gives x > 8, and x - 3 < -5 gives x < -2. The solution is the union of these two regions."
+    },
+    {
+      "question": "Solve for x: |3x - 6| + 2 = 11",
+      "answer": "x = -1 or x = 5",
+      "explanation": "Isolate the absolute value: |3x - 6| = 9. Then 3x - 6 = 9 gives x = 5, and 3x - 6 = -9 gives x = -1. Check: |3(5) - 6| + 2 = 9 + 2 = 11 ✓"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:05.598Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-8",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (2, −3) and focus at (2, 0). Write the equation of the parabola in the form (x − h)² = 4p(y − k).",
+      "answer": "(x − 2)² = 12(y + 3)",
+      "explanation": "The vertex is (h, k) = (2, −3). The focus is directly above the vertex, so p = 0 − (−3) = 3. The standard form is (x − 2)² = 4(3)(y − (−3)) = 12(y + 3)."
+    },
+    {
+      "question": "An ellipse has foci at (−4, 0) and (4, 0), and the sum of distances from any point on the ellipse to the two foci is 12. Find the equation of the ellipse in standard form.",
+      "answer": "x²/36 + y²/20 = 1",
+      "explanation": "The foci are on the x-axis with c = 4. The sum of distances is 2a = 12, so a = 6. Then b² = a² − c² = 36 − 16 = 20. The equation is x²/36 + y²/20 = 1."
+    },
+    {
+      "question": "A hyperbola has center at the origin, vertices at (±5, 0), and foci at (±7, 0). Find the value of b².",
+      "answer": "24",
+      "explanation": "For a hyperbola with horizontal transverse axis, a = 5 and c = 7. Using c² = a² + b², we get 49 = 25 + b², so b² = 24."
+    },
+    {
+      "question": "The parabola y² = 8x is reflected across the y-axis. What is the equation of the reflected parabola?",
+      "answer": "y² = −8x",
+      "explanation": "Reflecting across the y-axis replaces x with −x. So y² = 8(−x) = −8x. The parabola now opens leftward with focus at (−2, 0) instead of (2, 0)."
+    },
+    {
+      "question": "An ellipse has equation (x − 1)²/16 + (y + 2)²/9 = 1. A point P on the ellipse has x-coordinate 5. Find the y-coordinate of P (choose the positive value).",
+      "answer": "−2",
+      "explanation": "Substitute x = 5: (5 − 1)²/16 + (y + 2)²/9 = 1 → 16/16 + (y + 2)²/9 = 1 → (y + 2)² = 0 → y = −2. The ellipse touches its right vertex at (5, −2)."
+    },
+    {
+      "question": "A hyperbola with center (0, 0) has the equation x²/9 − y²/16 = 1. Find the distance between its two foci.",
+      "answer": "10",
+      "explanation": "For this hyperbola, a² = 9 and b² = 16, so c² = a² + b² = 9 + 16 = 25, giving c = 5. The foci are at (±5, 0), and the distance between them is 2c = 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:31.403Z",
+  "model": "claude-haiku-4-5-20251001"
+}

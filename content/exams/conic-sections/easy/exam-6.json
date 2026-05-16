@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-6",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A parabola has its vertex at the origin and opens upward. Its focus is at (0, 3). What is the equation of the parabola?",
+      "answer": "x² = 12y",
+      "explanation": "For a parabola with vertex at origin and vertical axis, the equation is x² = 4py, where p is the distance from vertex to focus. Here p = 3, so x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has a semi-major axis of length 5 and a semi-minor axis of length 3. The center is at the origin and the major axis is horizontal. Write the equation of the ellipse.",
+      "answer": "x²/25 + y²/9 = 1",
+      "explanation": "The standard form for a horizontal ellipse centered at the origin is x²/a² + y²/b² = 1, where a is the semi-major axis and b is the semi-minor axis. Substitute a = 5 and b = 3."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 - y²/9 = 1. What are the coordinates of the two vertices?",
+      "answer": "(4, 0) and (-4, 0)",
+      "explanation": "For a hyperbola of the form x²/a² - y²/b² = 1, the vertices lie on the x-axis at (±a, 0). Here a² = 16, so a = 4, giving vertices at (±4, 0)."
+    },
+    {
+      "question": "A parabola has the equation y² = 8x. What is the directrix of this parabola?",
+      "answer": "x = -2",
+      "explanation": "For a parabola y² = 4px, the focus is at (p, 0) and the directrix is x = -p. Here 4p = 8, so p = 2, making the directrix x = -2."
+    },
+    {
+      "question": "An ellipse has equation (x - 2)²/36 + (y + 1)²/16 = 1. What are the coordinates of the center?",
+      "answer": "(2, -1)",
+      "explanation": "The standard form of an ellipse is (x - h)²/a² + (y - k)²/b² = 1, where (h, k) is the center. Comparing, h = 2 and k = -1."
+    },
+    {
+      "question": "A hyperbola is centered at the origin with the equation y²/25 - x²/9 = 1. Does it open vertically or horizontally?",
+      "answer": "Vertically",
+      "explanation": "When the y² term is positive and comes first, the hyperbola opens vertically (along the y-axis). The x² term being negative indicates the transverse axis is vertical."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:13.694Z",
+  "model": "claude-haiku-4-5-20251001"
+}

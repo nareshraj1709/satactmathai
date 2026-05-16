@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-8",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (0, 0) and focus at (0, 3). Write the equation of the parabola.",
+      "answer": "x² = 12y",
+      "explanation": "For a parabola with vertex at origin and vertical axis, the standard form is x² = 4py where p is the distance from vertex to focus. Here p = 3, so x² = 4(3)y = 12y."
+    },
+    {
+      "question": "An ellipse has semi-major axis a = 5 and semi-minor axis b = 3, centered at the origin with the major axis horizontal. What is the distance from the center to each focus?",
+      "answer": "4",
+      "explanation": "For an ellipse, c² = a² − b² where c is the focal distance. Here c² = 25 − 9 = 16, so c = 4."
+    },
+    {
+      "question": "A hyperbola has the equation (y²/16) − (x²/9) = 1. Is the transverse axis vertical or horizontal?",
+      "answer": "vertical",
+      "explanation": "The y² term is positive and comes first, which means the transverse axis opens vertically. If x² were positive first, the axis would be horizontal."
+    },
+    {
+      "question": "The parabola y = 2x² has its vertex at the origin. How many units is the focus from the vertex?",
+      "answer": "1/8",
+      "explanation": "Rewrite y = 2x² as x² = (1/2)y, which is in the form x² = 4py. So 4p = 1/2, giving p = 1/8."
+    },
+    {
+      "question": "An ellipse has the equation (x²/25) + (y²/9) = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The larger denominator is 25, so a² = 25 and a = 5. The major axis has length 2a = 2(5) = 10."
+    },
+    {
+      "question": "A hyperbola has equation (x²/4) − (y²/5) = 1. What are the values of a and b?",
+      "answer": "a = 2, b = √5",
+      "explanation": "In the standard form (x²/a²) − (y²/b²) = 1, we have a² = 4 and b² = 5. Therefore a = 2 and b = √5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:15.009Z",
+  "model": "claude-haiku-4-5-20251001"
+}

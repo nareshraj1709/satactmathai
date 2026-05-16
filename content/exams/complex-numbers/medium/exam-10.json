@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-medium-10",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Simplify: (3 + 2i)(4 - i)",
+      "answer": "14 + 5i",
+      "explanation": "Use FOIL: 3(4) + 3(-i) + 2i(4) + 2i(-i) = 12 - 3i + 8i - 2i² = 12 + 5i + 2 = 14 + 5i."
+    },
+    {
+      "question": "Evaluate i^47.",
+      "answer": "-i",
+      "explanation": "Powers of i cycle with period 4. Since 47 = 11(4) + 3, we have i^47 = i^3 = -i."
+    },
+    {
+      "question": "If z = 2 - 3i, find the modulus (absolute value) of z.",
+      "answer": "√13",
+      "explanation": "The modulus of a + bi is √(a² + b²). Here, |z| = √(2² + (-3)²) = √(4 + 9) = √13."
+    },
+    {
+      "question": "Divide and express in standard form: (5 + 4i) / (1 - 2i)",
+      "answer": "-3/5 + 14i/5",
+      "explanation": "Multiply numerator and denominator by the conjugate (1 + 2i): [(5 + 4i)(1 + 2i)] / [(1 - 2i)(1 + 2i)] = (5 + 10i + 4i - 8) / (1 + 4) = (-3 + 14i) / 5 = -3/5 + 14i/5."
+    },
+    {
+      "question": "A complex number has real part 6 and imaginary part -8. What is the product of this number and its complex conjugate?",
+      "answer": "100",
+      "explanation": "The number is z = 6 - 8i. Its conjugate is 6 + 8i. The product z · z̄ = (6 - 8i)(6 + 8i) = 36 + 64 = 100, which equals |z|²."
+    },
+    {
+      "question": "Simplify: (1 + i)^4",
+      "answer": "-4",
+      "explanation": "Calculate step-by-step: (1 + i)² = 1 + 2i - 1 = 2i. Then (2i)² = 4i² = -4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:09.522Z",
+  "model": "claude-haiku-4-5-20251001"
+}

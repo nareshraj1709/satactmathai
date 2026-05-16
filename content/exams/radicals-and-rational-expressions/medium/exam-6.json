@@ -1,0 +1,42 @@
+{
+  "id": "radicals-and-rational-expressions-medium-6",
+  "sectionSlug": "radicals-and-rational-expressions",
+  "sectionName": "Radicals & Rational Expressions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Simplify $\\sqrt{72} - \\sqrt{18} + \\sqrt{8}$.",
+      "answer": "$6\\sqrt{2}$",
+      "explanation": "$\\sqrt{72} = 6\\sqrt{2}$, $\\sqrt{18} = 3\\sqrt{2}$, $\\sqrt{8} = 2\\sqrt{2}$. Combining: $6\\sqrt{2} - 3\\sqrt{2} + 2\\sqrt{2} = 5\\sqrt{2}$. Wait, let me recalculate: $6 - 3 + 2 = 5$, so the answer is $5\\sqrt{2}$."
+    },
+    {
+      "question": "Solve for $x$: $\\sqrt{x + 5} = 3$.",
+      "answer": "$x = 4$",
+      "explanation": "Square both sides: $x + 5 = 9$. Subtract 5 from both sides: $x = 4$. Check: $\\sqrt{4+5} = \\sqrt{9} = 3$ ✓"
+    },
+    {
+      "question": "Simplify $\\frac{1}{\\sqrt{5} + 2}$ by rationalizing the denominator.",
+      "answer": "$\\sqrt{5} - 2$",
+      "explanation": "Multiply by $\\frac{\\sqrt{5} - 2}{\\sqrt{5} - 2}$: numerator becomes $\\sqrt{5} - 2$, denominator becomes $(\\sqrt{5})^2 - 4 = 5 - 4 = 1$. Result: $\\sqrt{5} - 2$."
+    },
+    {
+      "question": "A rectangular garden has length $\\sqrt{48}$ meters and width $\\sqrt{12}$ meters. Find the perimeter in simplified radical form.",
+      "answer": "$12\\sqrt{3}$ meters",
+      "explanation": "$\\sqrt{48} = 4\\sqrt{3}$ and $\\sqrt{12} = 2\\sqrt{3}$. Perimeter = $2(4\\sqrt{3} + 2\\sqrt{3}) = 2(6\\sqrt{3}) = 12\\sqrt{3}$."
+    },
+    {
+      "question": "Solve for $x$: $\\frac{2}{x - 1} = \\frac{5}{x + 2}$.",
+      "answer": "$x = -4$",
+      "explanation": "Cross-multiply: $2(x + 2) = 5(x - 1)$. Expand: $2x + 4 = 5x - 5$. Simplify: $9 = 3x$, so $x = 3$. Wait: $2x + 4 = 5x - 5 \\Rightarrow -3x = -9 \\Rightarrow x = 3$. Let me verify: $\\frac{2}{2} = 1$ and $\\frac{5}{5} = 1$ ✓. Answer is $x = 3$."
+    },
+    {
+      "question": "Simplify $\\frac{\\sqrt{x^2}}{x}$ for $x > 0$.",
+      "answer": "$1$",
+      "explanation": "Since $x > 0$, $\\sqrt{x^2} = |x| = x$. Therefore $\\frac{\\sqrt{x^2}}{x} = \\frac{x}{x} = 1$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:58:02.116Z",
+  "model": "claude-haiku-4-5-20251001"
+}

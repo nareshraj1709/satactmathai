@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-3",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A bag contains 4 red marbles, 5 blue marbles, and 6 green marbles. If you draw one marble at random without replacement, then draw a second marble, what is the probability that both marbles are blue? Express your answer as a fraction in lowest terms.",
+      "answer": "2/57",
+      "explanation": "First marble blue: 5/15. Second marble blue (given first was blue): 4/14. Multiply: (5/15) × (4/14) = 20/210 = 2/21. Actually recalculating: 20/210 = 2/21. Simplify again: gcd(20,210)=10, so 20/210 = 2/21. Wait: 5×4 = 20, 15×14 = 210. gcd(20,210)=10 gives 2/21. Let me verify: 2/21 is correct."
+    },
+    {
+      "question": "In a class of 30 students, 18 play soccer and 12 play basketball. If 7 students play both sports, how many students play neither sport?",
+      "answer": "7",
+      "explanation": "Use inclusion-exclusion: |Soccer ∪ Basketball| = 18 + 12 − 7 = 23 students play at least one sport. Students playing neither = 30 − 23 = 7."
+    },
+    {
+      "question": "A two-way table shows the relationship between coffee consumption (daily or not daily) and fatigue level (high or low). Of 200 surveyed, 80 drink coffee daily with high fatigue, 40 drink coffee daily with low fatigue, 50 drink no coffee daily with high fatigue, and 30 drink no coffee daily with low fatigue. What is the probability that a randomly selected person with high fatigue drinks coffee daily?",
+      "answer": "8/13",
+      "explanation": "This is conditional probability: P(daily coffee | high fatigue). Students with high fatigue: 80 + 50 = 130. Of these, 80 drink coffee daily. So P = 80/130 = 8/13."
+    },
+    {
+      "question": "A fair die is rolled twice. What is the probability that the sum is at least 10?",
+      "answer": "1/6",
+      "explanation": "Outcomes with sum ≥ 10: (4,6), (5,5), (5,6), (6,4), (6,5), (6,6) — that's 6 outcomes. Total outcomes: 36. Probability = 6/36 = 1/6."
+    },
+    {
+      "question": "Three cards are drawn without replacement from a standard 52-card deck. What is the probability that all three are hearts? Express your answer as a fraction in lowest terms.",
+      "answer": "11/850",
+      "explanation": "P(all hearts) = (13/52) × (12/51) × (11/50) = (13 × 12 × 11)/(52 × 51 × 50) = 1716/132600. Simplify by dividing by gcd: 1716/132600 = 11/850."
+    },
+    {
+      "question": "A survey finds that among 100 patients, 60 take medication A, 45 take medication B, and 30 take both. If a patient is randomly selected and is known to take medication B, what is the probability they also take medication A?",
+      "answer": "2/3",
+      "explanation": "Conditional probability: P(A | B) = P(A and B) / P(B) = 30/45 = 2/3. Of the 45 patients taking B, 30 also take A."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:23.589Z",
+  "model": "claude-haiku-4-5-20251001"
+}

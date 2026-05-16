@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-4",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² - 5x + 2 = 0. What are the two solutions?",
+      "answer": "x = 2 or x = 1/2",
+      "explanation": "Apply the quadratic formula with a = 2, b = -5, c = 2. x = (5 ± √(25 - 16))/4 = (5 ± 3)/4, giving x = 2 and x = 1/2."
+    },
+    {
+      "question": "For the equation x² + 6x + 10 = 0, calculate the discriminant. How many real solutions does this equation have?",
+      "answer": "Discriminant = -4; zero real solutions",
+      "explanation": "The discriminant is b² - 4ac = 36 - 40 = -4. Since it's negative, there are no real solutions (only complex ones)."
+    },
+    {
+      "question": "A projectile is launched and its height h (in meters) after t seconds is given by h = -4t² + 20t + 5. When does the projectile reach the ground (h = 0)? Round to the nearest tenth of a second.",
+      "answer": "t ≈ 5.2 seconds",
+      "explanation": "Solve -4t² + 20t + 5 = 0 using the quadratic formula. t = (-20 ± √(400 + 80))/(-8) = (-20 ± √480)/(-8). The positive solution is t ≈ 5.2."
+    },
+    {
+      "question": "For what value of k does the equation x² - 4x + k = 0 have exactly one real solution?",
+      "answer": "k = 4",
+      "explanation": "A quadratic has exactly one real solution when the discriminant equals zero. Set b² - 4ac = 0: 16 - 4k = 0, so k = 4."
+    },
+    {
+      "question": "Solve 3x² + 2x - 1 = 0 using the quadratic formula. Express your answers as fractions.",
+      "answer": "x = 1/3 or x = -1",
+      "explanation": "Using the quadratic formula with a = 3, b = 2, c = -1: x = (-2 ± √(4 + 12))/6 = (-2 ± 4)/6. This gives x = 1/3 and x = -1."
+    },
+    {
+      "question": "For the equation 2x² - 3x + c = 0, the discriminant is 25. What is the value of c?",
+      "answer": "c = -1",
+      "explanation": "Set the discriminant equal to 25: b² - 4ac = 9 - 4(2)c = 25. Solve: 9 - 8c = 25 → -8c = 16 → c = -2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:11.374Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-9",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is either red or green?",
+      "answer": "7/10",
+      "explanation": "Total marbles: 5 + 3 + 2 = 10. Red or green marbles: 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "The table below shows the distribution of 200 students by grade level and whether they play a sport.\n\n| Grade | Play Sport | Don't Play Sport | Total |\n|-------|-----------|------------------|-------|\n| 9     | 35        | 45               | 80    |\n| 10    | 40        | 80               | 120   |\n| Total | 75        | 125              | 200   |\n\nIf a student is selected at random, what is the probability the student is in grade 9 AND plays a sport?",
+      "answer": "7/40",
+      "explanation": "Students in grade 9 who play sport: 35. Total students: 200. Probability = 35/200 = 7/40."
+    },
+    {
+      "question": "A fair six-sided die is rolled twice. What is the probability that the sum of the two rolls is 7?",
+      "answer": "1/6",
+      "explanation": "Pairs summing to 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 outcomes. Total outcomes: 6 × 6 = 36. Probability = 6/36 = 1/6."
+    },
+    {
+      "question": "In a class, 60% of students passed the math test. Of those who passed, 75% also passed the science test. What is the probability that a randomly selected student passed both tests?",
+      "answer": "0.45 or 45/100 or 9/20",
+      "explanation": "P(both) = P(passed math) × P(passed science | passed math) = 0.60 × 0.75 = 0.45."
+    },
+    {
+      "question": "A deck of standard playing cards contains 52 cards. If you draw two cards without replacement, what is the probability that both cards are hearts?",
+      "answer": "13/102 or 1/17",
+      "explanation": "P(1st heart) = 13/52. P(2nd heart | 1st heart) = 12/51. P(both) = (13/52) × (12/51) = 156/2652 = 13/221 = 1/17."
+    },
+    {
+      "question": "A spinner is divided into 4 equal sections colored red, blue, yellow, and green. You spin it twice. What is the probability that you get the same color twice?",
+      "answer": "1/4",
+      "explanation": "P(same color) = P(RR) + P(BB) + P(YY) + P(GG) = (1/4)² × 4 = 4/16 = 1/4. Or: first spin any color (prob 1), second spin must match (prob 1/4)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:59.125Z",
+  "model": "claude-haiku-4-5-20251001"
+}

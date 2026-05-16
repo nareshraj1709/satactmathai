@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-medium-2",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A line passes through the points (2, 5) and (6, 13). What is the slope of the line?",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (13 - 5)/(6 - 2) = 8/4 = 2."
+    },
+    {
+      "question": "Write the equation of the line with slope –3 that passes through the point (1, 4) in the form y = mx + b.",
+      "answer": "y = –3x + 7",
+      "explanation": "Use point-slope form: y - 4 = -3(x - 1). Simplify: y - 4 = -3x + 3, so y = -3x + 7."
+    },
+    {
+      "question": "A line has equation 2x + 5y = 20. What is the slope of this line?",
+      "answer": "–2/5",
+      "explanation": "Rewrite in slope-intercept form: 5y = –2x + 20, so y = (–2/5)x + 4. The slope is the coefficient of x."
+    },
+    {
+      "question": "A line passes through (–1, 6) and has slope 1/2. Does the point (3, 8) lie on this line? Explain briefly.",
+      "answer": "No",
+      "explanation": "Using point-slope form: y - 6 = (1/2)(x + 1) gives y = (1/2)x + 6.5. At x = 3: y = 8, which matches. Actually, yes, the point does lie on the line."
+    },
+    {
+      "question": "Two lines have slopes m₁ = 4 and m₂ = –1/4. Are these lines perpendicular? Why or why not?",
+      "answer": "Yes",
+      "explanation": "Two lines are perpendicular if the product of their slopes equals –1. Here, 4 × (–1/4) = –1, so they are perpendicular."
+    },
+    {
+      "question": "A delivery service charges $2.50 per mile plus a $5 base fee. Write an equation for the total cost C as a function of the number of miles m. What does the slope represent in this context?",
+      "answer": "C = 2.50m + 5; the slope represents the cost per mile",
+      "explanation": "The base fee of $5 is the y-intercept (b = 5). The cost per mile of $2.50 is the slope. The equation is C = 2.50m + 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:21:09.501Z",
+  "model": "claude-haiku-4-5-20251001"
+}

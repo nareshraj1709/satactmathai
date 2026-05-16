@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-easy-9",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Simplify i^7.",
+      "answer": "-i",
+      "explanation": "Powers of i repeat every 4: i^1 = i, i^2 = -1, i^3 = -i, i^4 = 1. Since 7 = 4 + 3, we have i^7 = i^3 = -i."
+    },
+    {
+      "question": "Add the complex numbers: (3 + 2i) + (5 - 6i).",
+      "answer": "8 - 4i",
+      "explanation": "Add real parts: 3 + 5 = 8. Add imaginary parts: 2i - 6i = -4i. Result: 8 - 4i."
+    },
+    {
+      "question": "Multiply: 2i(3 + 4i).",
+      "answer": "-8 + 6i",
+      "explanation": "Distribute 2i: 2i · 3 + 2i · 4i = 6i + 8i^2 = 6i - 8 = -8 + 6i."
+    },
+    {
+      "question": "What is i^12?",
+      "answer": "1",
+      "explanation": "Since powers of i repeat every 4, and 12 = 3 × 4, we have i^12 = (i^4)^3 = 1^3 = 1."
+    },
+    {
+      "question": "Subtract: (7 - 3i) - (2 + 5i).",
+      "answer": "5 - 8i",
+      "explanation": "Subtract real parts: 7 - 2 = 5. Subtract imaginary parts: -3i - 5i = -8i. Result: 5 - 8i."
+    },
+    {
+      "question": "Simplify i^5 + i^6.",
+      "answer": "i - 1",
+      "explanation": "i^5 = i^4 · i = 1 · i = i. i^6 = i^4 · i^2 = 1 · (-1) = -1. Sum: i + (-1) = -1 + i."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:10:32.633Z",
+  "model": "claude-haiku-4-5-20251001"
+}

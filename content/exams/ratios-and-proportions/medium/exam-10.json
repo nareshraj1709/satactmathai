@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-10",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A recipe for lemonade calls for 3 parts lemon juice to 5 parts water. If you want to make 32 ounces of lemonade, how many ounces of lemon juice do you need?",
+      "answer": "12",
+      "explanation": "The ratio of lemon juice to total lemonade is 3:(3+5) = 3:8. Set up the proportion: 3/8 = x/32. Solving: x = (3 × 32)/8 = 12 ounces."
+    },
+    {
+      "question": "On a map, 2 inches represents 50 miles. If two cities are 7 inches apart on the map, how many miles apart are they in reality?",
+      "answer": "175",
+      "explanation": "Set up the proportion: 2 inches / 50 miles = 7 inches / x miles. Cross-multiply: 2x = 350, so x = 175 miles."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 4:5. If there are 27 students total, how many boys are in the class?",
+      "answer": "12",
+      "explanation": "Boys to total is 4:(4+5) = 4:9. So (4/9) × 27 = 12 boys."
+    },
+    {
+      "question": "A concrete mixture requires cement, sand, and gravel in the ratio 1:2:3. If you use 15 pounds of cement, how many pounds of the complete mixture do you have?",
+      "answer": "90",
+      "explanation": "Total ratio parts: 1 + 2 + 3 = 6. If cement (1 part) = 15 pounds, then 1 part = 15 pounds, and total = 6 × 15 = 90 pounds."
+    },
+    {
+      "question": "A phone plan charges $40 per month for 2 GB of data. At this rate, how much would 5 GB of data cost per month?",
+      "answer": "100",
+      "explanation": "Set up the proportion: $40 / 2 GB = x / 5 GB. Cross-multiply: 2x = 200, so x = $100."
+    },
+    {
+      "question": "In a survey, the ratio of people who prefer coffee to people who prefer tea is 7:3. If 210 people prefer coffee, how many people prefer tea?",
+      "answer": "90",
+      "explanation": "Set up the proportion: 7/3 = 210/x. Cross-multiply: 7x = 630, so x = 90 people prefer tea."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:37.177Z",
+  "model": "claude-haiku-4-5-20251001"
+}

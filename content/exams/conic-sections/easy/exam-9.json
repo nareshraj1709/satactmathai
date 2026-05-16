@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-easy-9",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A parabola has vertex at the origin and opens upward. Its focus is at (0, 3). Write the equation of the parabola in the form y = ax².",
+      "answer": "y = (1/12)x²",
+      "explanation": "For a parabola y = ax² with vertex at origin, the focus is at (0, 1/(4a)). Since the focus is (0, 3), we have 1/(4a) = 3, so a = 1/12."
+    },
+    {
+      "question": "An ellipse has the equation x²/25 + y²/9 = 1. What is the length of the major axis?",
+      "answer": "10",
+      "explanation": "The major axis has length 2a, where a² = 25 (the larger denominator). So a = 5, and the major axis length is 2(5) = 10."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 - y²/4 = 1. What are the coordinates of the vertices?",
+      "answer": "(4, 0) and (-4, 0)",
+      "explanation": "For a horizontal hyperbola x²/a² - y²/b² = 1, the vertices are at (±a, 0). Here a² = 16, so a = 4, giving vertices at (±4, 0)."
+    },
+    {
+      "question": "A parabola has equation (x - 2)² = 8(y - 1). What is the vertex of the parabola?",
+      "answer": "(2, 1)",
+      "explanation": "The vertex form of a parabola is (x - h)² = 4p(y - k), where (h, k) is the vertex. Here h = 2 and k = 1."
+    },
+    {
+      "question": "An ellipse has semi-major axis of length 7 and semi-minor axis of length 4. If the center is at the origin and the major axis is vertical, write the equation.",
+      "answer": "x²/16 + y²/49 = 1",
+      "explanation": "For a vertical ellipse, the larger denominator is under y². With semi-major axis 7 (vertical) and semi-minor axis 4 (horizontal): x²/4² + y²/7² = 1."
+    },
+    {
+      "question": "A hyperbola centered at the origin has vertices at (±5, 0) and foci at (±√61, 0). What is the value of b² in the equation x²/a² - y²/b² = 1?",
+      "answer": "36",
+      "explanation": "For a hyperbola, c² = a² + b² where a = 5 (vertex distance) and c = √61 (focus distance). So 61 = 25 + b², giving b² = 36."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:24:14.776Z",
+  "model": "claude-haiku-4-5-20251001"
+}

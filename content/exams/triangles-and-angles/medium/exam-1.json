@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-1",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55",
+      "explanation": "The sum of angles in a triangle is 180°. Therefore, angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one acute angle measuring 34°. What is the measure of the other acute angle?",
+      "answer": "56",
+      "explanation": "In a right triangle, the two acute angles are complementary (sum to 90°). The other acute angle = 90° − 34° = 56°."
+    },
+    {
+      "question": "An isosceles triangle has a vertex angle of 42°. What is the measure of each base angle?",
+      "answer": "69",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 42°, then each base angle = (180° − 42°) ÷ 2 = 69°."
+    },
+    {
+      "question": "Two parallel lines are cut by a transversal. One of the alternate interior angles measures 123°. What is the measure of the other alternate interior angle?",
+      "answer": "123",
+      "explanation": "Alternate interior angles formed by parallel lines and a transversal are congruent. Both angles measure 123°."
+    },
+    {
+      "question": "In triangle PQR, side PQ = 8, side QR = 10, and side PR = 12. Which angle in the triangle is the largest?",
+      "answer": "Angle Q",
+      "explanation": "In any triangle, the largest angle is opposite the longest side. Since PR = 12 is the longest side, the angle opposite it (angle Q) is the largest."
+    },
+    {
+      "question": "An exterior angle of a triangle measures 128°. One of the non-adjacent interior angles measures 47°. What is the measure of the other non-adjacent interior angle?",
+      "answer": "81",
+      "explanation": "By the exterior angle theorem, an exterior angle equals the sum of the two non-adjacent interior angles. So 128° = 47° + other angle; other angle = 81°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:22.246Z",
+  "model": "claude-haiku-4-5-20251001"
+}

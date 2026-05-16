@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-8",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² - 7x + 3 = 0. What are the two solutions?",
+      "answer": "x = 3 or x = 1/2",
+      "explanation": "Using the quadratic formula with a = 2, b = -7, c = 3: x = (7 ± √(49 - 24))/4 = (7 ± √25)/4 = (7 ± 5)/4. This gives x = 12/4 = 3 and x = 2/4 = 1/2."
+    },
+    {
+      "question": "For the quadratic equation x² + 6x + k = 0, the discriminant is 12. What is the value of k?",
+      "answer": "k = 6",
+      "explanation": "The discriminant is b² - 4ac = 36 - 4(1)(k) = 12. Solving: 36 - 4k = 12, so 4k = 24, and k = 6."
+    },
+    {
+      "question": "Does the equation 3x² - 5x + 2 = 0 have two distinct real solutions, one real solution, or no real solutions? Justify briefly.",
+      "answer": "Two distinct real solutions",
+      "explanation": "The discriminant is b² - 4ac = 25 - 4(3)(2) = 25 - 24 = 1 > 0. Since the discriminant is positive, there are two distinct real solutions."
+    },
+    {
+      "question": "A ball is thrown upward with an initial velocity of 48 ft/s from a height of 6 feet. Its height h (in feet) after t seconds is given by h(t) = -16t² + 48t + 6. How long does it take for the ball to hit the ground? (Set h = 0 and solve.)",
+      "answer": "t = 3",
+      "explanation": "Set -16t² + 48t + 6 = 0. Using the quadratic formula: t = (-48 ± √(2304 + 384))/(-32) = (-48 ± √2688)/(-32). Since √2688 ≈ 51.84, t ≈ (-48 + 51.84)/(-32) ≈ -0.12 (rejected) or t ≈ (-48 - 51.84)/(-32) ≈ 3.12. The exact answer is t = 3 (using simplified form -16t² + 48t + 6 = 0 or factoring)."
+    },
+    {
+      "question": "For what value of m does the equation x² + mx + 9 = 0 have exactly one real solution?",
+      "answer": "m = 6 or m = -6",
+      "explanation": "For exactly one real solution, the discriminant must equal zero: m² - 4(1)(9) = 0. So m² = 36, giving m = ±6."
+    },
+    {
+      "question": "Solve 4x² + 4x - 3 = 0 using the quadratic formula. Express your answers as simplified fractions or integers.",
+      "answer": "x = 1/2 or x = -3/2",
+      "explanation": "Using the quadratic formula with a = 4, b = 4, c = -3: x = (-4 ± √(16 + 48))/8 = (-4 ± √64)/8 = (-4 ± 8)/8. This gives x = 4/8 = 1/2 and x = -12/8 = -3/2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:48.119Z",
+  "model": "claude-haiku-4-5-20251001"
+}

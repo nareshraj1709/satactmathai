@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-2",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A shirt originally costs $60. It is on sale for 25% off, and then a customer uses a coupon for an additional 10% off the sale price. What is the final price?",
+      "answer": "$40.50",
+      "explanation": "After 25% off: $60 × 0.75 = $45. Then 10% off the sale price: $45 × 0.90 = $40.50."
+    },
+    {
+      "question": "A restaurant bill comes to $72 before tax. If the tax rate is 8%, what is the total amount due?",
+      "answer": "$77.76",
+      "explanation": "Tax = $72 × 0.08 = $5.76. Total = $72 + $5.76 = $77.76."
+    },
+    {
+      "question": "A stock price increases from $40 to $50. What is the percent increase?",
+      "answer": "25%",
+      "explanation": "Change = $50 − $40 = $10. Percent increase = ($10 ÷ $40) × 100 = 25%."
+    },
+    {
+      "question": "If you want to leave a 18% tip on a $85 meal, what is the tip amount?",
+      "answer": "$15.30",
+      "explanation": "Tip = $85 × 0.18 = $15.30."
+    },
+    {
+      "question": "A store buys items at a wholesale price of $20 and marks them up by 60% to set the retail price. What is the retail price?",
+      "answer": "$32",
+      "explanation": "Markup = $20 × 0.60 = $12. Retail price = $20 + $12 = $32."
+    },
+    {
+      "question": "A population decreased from 5,000 to 4,250. What was the percent decrease?",
+      "answer": "15%",
+      "explanation": "Decrease = 5,000 − 4,250 = 750. Percent decrease = (750 ÷ 5,000) × 100 = 15%."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:35:18.962Z",
+  "model": "claude-haiku-4-5-20251001"
+}

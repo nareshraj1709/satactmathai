@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-2",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A right triangle has legs of length 5 and 12. If θ is the acute angle opposite the side of length 5, what is sin(θ) + cos(θ)?",
+      "answer": "17/13",
+      "explanation": "The hypotenuse is √(25+144) = 13. Then sin(θ) = 5/13 and cos(θ) = 12/13, so sin(θ) + cos(θ) = 17/13."
+    },
+    {
+      "question": "If tan(α) = 3/4 and α is in the first quadrant, find the value of 5sin(α) + 4cos(α).",
+      "answer": "8",
+      "explanation": "From tan(α) = 3/4, construct a right triangle with opposite = 3, adjacent = 4, hypotenuse = 5. Then sin(α) = 3/5 and cos(α) = 4/5, so 5(3/5) + 4(4/5) = 3 + 16/5 = 8."
+    },
+    {
+      "question": "Simplify: sin²(x) · sec(x) · csc(x) − tan(x).",
+      "answer": "0",
+      "explanation": "sin²(x) · sec(x) · csc(x) = sin²(x) · (1/cos(x)) · (1/sin(x)) = sin(x)/cos(x) = tan(x). So tan(x) − tan(x) = 0."
+    },
+    {
+      "question": "In a circle of radius 10, a chord subtends a central angle of 60°. What is the length of the chord?",
+      "answer": "10",
+      "explanation": "The chord length is 2r·sin(θ/2) = 2(10)·sin(30°) = 20·(1/2) = 10."
+    },
+    {
+      "question": "If cos(2β) = 3/5 and β is acute, what is sin(β)?",
+      "answer": "√5/5 or 1/√5",
+      "explanation": "Use cos(2β) = 1 − 2sin²(β). Then 3/5 = 1 − 2sin²(β), so 2sin²(β) = 2/5, giving sin²(β) = 1/5. Since β is acute, sin(β) = √5/5."
+    },
+    {
+      "question": "A ladder leans against a wall, making an angle of 70° with the ground. If the ladder is 8 meters long, how many meters up the wall does it reach? (Round to the nearest tenth.)",
+      "answer": "7.5",
+      "explanation": "The height is 8·sin(70°) ≈ 8(0.9397) ≈ 7.5 meters."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:13.268Z",
+  "model": "claude-haiku-4-5-20251001"
+}

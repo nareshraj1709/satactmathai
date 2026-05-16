@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-10",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 8 = 4",
+      "answer": "m = 6",
+      "explanation": "Add 8 to both sides: 2m = 12. Divide by 2: m = 6."
+    },
+    {
+      "question": "A number decreased by 7 equals 13. Write an equation and solve for the number.",
+      "answer": "x - 7 = 13; x = 20",
+      "explanation": "The equation is x - 7 = 13. Add 7 to both sides: x = 20."
+    },
+    {
+      "question": "Solve for y: y/4 = 9",
+      "answer": "y = 36",
+      "explanation": "Multiply both sides by 4: y = 36."
+    },
+    {
+      "question": "Solve for x: 0.5x + 2 = 7",
+      "answer": "x = 10",
+      "explanation": "Subtract 2 from both sides: 0.5x = 5. Divide by 0.5: x = 10."
+    },
+    {
+      "question": "Solve for t: 5t = 2t + 12",
+      "answer": "t = 4",
+      "explanation": "Subtract 2t from both sides: 3t = 12. Divide by 3: t = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:26.771Z",
+  "model": "claude-haiku-4-5-20251001"
+}

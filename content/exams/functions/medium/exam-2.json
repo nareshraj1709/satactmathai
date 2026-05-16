@@ -1,0 +1,42 @@
+{
+  "id": "functions-medium-2",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "If f(x) = 3x - 5 and g(x) = x² + 2, find f(g(2)).",
+      "answer": "25",
+      "explanation": "First evaluate g(2) = 2² + 2 = 6. Then f(6) = 3(6) - 5 = 18 - 5 = 25."
+    },
+    {
+      "question": "A function h(x) = 2(x - 3)² + 4 is a transformation of the parent function y = x². Describe the transformations in order.",
+      "answer": "shift right 3 units, stretch vertically by factor of 2, shift up 4 units",
+      "explanation": "The term (x - 3) shifts the graph right 3 units; the coefficient 2 stretches vertically; the +4 shifts up 4 units."
+    },
+    {
+      "question": "Given f(x) = (x + 1)/(x - 2), find the value of x for which f(x) is undefined.",
+      "answer": "x = 2",
+      "explanation": "A rational function is undefined when its denominator equals zero. Setting x - 2 = 0 gives x = 2."
+    },
+    {
+      "question": "If p(x) = 5x + 1 and q(x) = x - 3, what is (p ∘ q)(x)?",
+      "answer": "5x - 14",
+      "explanation": "Composition (p ∘ q)(x) means p(q(x)). Substitute q(x) into p: p(x - 3) = 5(x - 3) + 1 = 5x - 15 + 1 = 5x - 14."
+    },
+    {
+      "question": "The function f(x) = √(x + 5) has domain restrictions. What is the domain?",
+      "answer": "x ≥ -5",
+      "explanation": "The expression under the square root must be non-negative: x + 5 ≥ 0, so x ≥ -5."
+    },
+    {
+      "question": "A linear function passes through (2, 7) and (5, 16). Write the function as f(x) = mx + b.",
+      "answer": "f(x) = 3x + 1",
+      "explanation": "Slope m = (16 - 7)/(5 - 2) = 9/3 = 3. Using point (2, 7): 7 = 3(2) + b gives b = 1. So f(x) = 3x + 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:01:15.045Z",
+  "model": "claude-haiku-4-5-20251001"
+}

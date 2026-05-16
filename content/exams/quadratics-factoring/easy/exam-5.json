@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-easy-5",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: those are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve by factoring: x² - 5x + 6 = 0",
+      "answer": "x = 2, x = 3",
+      "explanation": "Factor as (x - 2)(x - 3) = 0. Set each factor to zero: x - 2 = 0 gives x = 2, and x - 3 = 0 gives x = 3."
+    },
+    {
+      "question": "Factor completely: 2x² + 8x",
+      "answer": "2x(x + 4)",
+      "explanation": "Pull out the greatest common factor: 2x is common to both terms. 2x² + 8x = 2x(x + 4)."
+    },
+    {
+      "question": "A rectangle has area 24 square units. Its length is 2 more than its width. If the width is w, write and solve an equation to find w.",
+      "answer": "w(w + 2) = 24; w = 4",
+      "explanation": "Set up w(w + 2) = 24, which becomes w² + 2w - 24 = 0. Factor as (w + 6)(w - 4) = 0. Since width must be positive, w = 4."
+    },
+    {
+      "question": "Solve by factoring: x² - 9 = 0",
+      "answer": "x = 3, x = -3",
+      "explanation": "Recognize x² - 9 as a difference of squares: (x - 3)(x + 3) = 0. So x = 3 or x = -3."
+    },
+    {
+      "question": "Factor the quadratic: x² - 2x - 15",
+      "answer": "(x - 5)(x + 3)",
+      "explanation": "Find two numbers that multiply to -15 and add to -2: those are -5 and 3. So x² - 2x - 15 = (x - 5)(x + 3)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:27.206Z",
+  "model": "claude-haiku-4-5-20251001"
+}

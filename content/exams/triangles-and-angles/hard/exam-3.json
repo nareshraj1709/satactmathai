@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-hard-3",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A = 50°. The exterior angle at B is 110°. Find angle C.",
+      "answer": "60",
+      "explanation": "The exterior angle at B equals the sum of the two remote interior angles: 110° = 50° + C, so C = 60°."
+    },
+    {
+      "question": "Two sides of a triangle are 7 and 10. If the third side is an integer and the triangle is obtuse, what is the maximum possible length of the third side?",
+      "answer": "12",
+      "explanation": "For obtuse, the longest side must satisfy c² > a² + b². Testing c = 13: 169 > 49 + 100 = 149 ✓; but 13 > 7 + 10 fails the triangle inequality. Try c = 12: 144 > 149 fails. Try a = 12 opposite the largest known angle: 100 > 49 + 144 fails. The longest integer side making an obtuse triangle with sides 7 and 10 is 12."
+    },
+    {
+      "question": "In right triangle PQR with right angle at Q, PQ = 9 and QR = 12. Point S lies on hypotenuse PR such that QS is perpendicular to PR. Find the length of QS.",
+      "answer": "36/5 or 7.2",
+      "explanation": "First, PR = √(81 + 144) = 15. The area of triangle PQR is (1/2)(9)(12) = 54. Also, area = (1/2)(PR)(QS), so 54 = (1/2)(15)(QS), giving QS = 36/5."
+    },
+    {
+      "question": "In triangle ABC, the angle bisector from A meets BC at D. If AB = 15, AC = 20, and BD = 9, find DC.",
+      "answer": "12",
+      "explanation": "By the Angle Bisector Theorem, BD/DC = AB/AC, so 9/DC = 15/20. Thus DC = 9 × 20/15 = 12."
+    },
+    {
+      "question": "An isosceles triangle has a vertex angle of 36°. The two equal sides each have length 1. Find the length of the base to the nearest hundredth.",
+      "answer": "0.62",
+      "explanation": "The base angles are each (180° − 36°)/2 = 72°. Using the Law of Cosines: base² = 1² + 1² − 2(1)(1)cos(36°) ≈ 2 − 2(0.809) ≈ 0.382, so base ≈ 0.62."
+    },
+    {
+      "question": "In triangle ABC, sides are AB = 13, BC = 14, and AC = 15. A line parallel to BC intersects AB at P and AC at Q such that AP/AB = 2/5. Find the length of PQ.",
+      "answer": "28/5 or 5.6",
+      "explanation": "Since PQ is parallel to BC, triangle APQ is similar to triangle ABC with ratio 2/5. Therefore, PQ/BC = 2/5, so PQ = 14 × 2/5 = 28/5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:56.536Z",
+  "model": "claude-haiku-4-5-20251001"
+}

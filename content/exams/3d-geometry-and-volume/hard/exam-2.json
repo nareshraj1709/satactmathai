@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-hard-2",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A cylinder has radius 4 and height 9. A cone with the same base radius is inscribed inside the cylinder so that the cone's base coincides with the cylinder's base and the cone's apex touches the cylinder's top. What is the ratio of the cone's volume to the cylinder's volume?",
+      "answer": "1/3",
+      "explanation": "Cylinder volume: πr²h = π(4²)(9) = 144π. Cone volume: (1/3)πr²h = (1/3)π(4²)(9) = 48π. Ratio: 48π / 144π = 1/3."
+    },
+    {
+      "question": "A sphere has surface area 100π. What is its volume?",
+      "answer": "500π/3",
+      "explanation": "Surface area 4πr² = 100π gives r² = 25, so r = 5. Volume = (4/3)πr³ = (4/3)π(125) = 500π/3."
+    },
+    {
+      "question": "A rectangular prism has dimensions 3, 4, and 5. A smaller rectangular prism with dimensions 1.5, 2, and 2.5 is removed from one corner. What is the remaining volume?",
+      "answer": "55",
+      "explanation": "Original volume: 3 × 4 × 5 = 60. Removed volume: 1.5 × 2 × 2.5 = 7.5. Remaining: 60 − 7.5 = 52.5."
+    },
+    {
+      "question": "A cone has height 12 and slant height 13. If the cone is filled with water to half its height, what fraction of the cone's total volume contains water?",
+      "answer": "1/8",
+      "explanation": "Slant height 13 and height 12 give radius r = 5. At half height h = 6, the radius scales proportionally: r' = 5(6/12) = 2.5. Volume ratio = (h'/h)³ = (1/2)³ = 1/8."
+    },
+    {
+      "question": "Two spheres have radii in the ratio 2:3. What is the ratio of their volumes?",
+      "answer": "8/27",
+      "explanation": "If radii are r and (3/2)r, volumes are (4/3)πr³ and (4/3)π(27r³/8). Ratio: r³ : (27r³/8) = 8 : 27."
+    },
+    {
+      "question": "A cylindrical tank has radius 6 and height 10. Water fills it to a depth of 4. If the water is poured into a cone with base radius 8, what is the height the water reaches in the cone?",
+      "answer": "4.5",
+      "explanation": "Water volume in cylinder: π(6²)(4) = 144π. In cone: (1/3)π(8²)h = 144π, so (64/3)h = 144, giving h = 432/96 = 4.5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:59.271Z",
+  "model": "claude-haiku-4-5-20251001"
+}

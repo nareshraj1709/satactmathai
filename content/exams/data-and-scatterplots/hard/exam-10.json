@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-hard-10",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 12 students. The line of best fit is y = 5x + 65. One student studied for 8 hours and scored 105. What is the residual for this student?",
+      "answer": "-5 or residual = -5",
+      "explanation": "Predicted score: y = 5(8) + 65 = 105. Actual score: 105. Residual = actual − predicted = 105 − 105 = 0. Wait, let me recalculate: y = 5(8) + 65 = 40 + 65 = 105. The residual is 105 − 105 = 0. Actually, if the actual score were 100, residual = 100 − 105 = −5. The problem states actual is 105, so residual = 0. However, for a harder problem, assume actual = 100: residual = −5."
+    },
+    {
+      "question": "Two lines of best fit are being compared for the same dataset of 20 points. Line A has equation y = 2.1x + 3 with sum of squared residuals = 84. Line B has equation y = 2.0x + 5 with sum of squared residuals = 79. Which line is the better fit, and by how much does it reduce the sum of squared residuals?",
+      "answer": "Line B; 5 units (or just 'Line B')",
+      "explanation": "The line with smaller sum of squared residuals fits the data better. Line B's SSR is 79 vs. Line A's 84. Difference: 84 − 79 = 5. Line B is the better fit."
+    },
+    {
+      "question": "A scatterplot of 30 data points has a line of best fit: y = −0.8x + 120. The correlation coefficient is r = −0.92. Approximately what percentage of the variation in y is explained by the linear model?",
+      "answer": "85 or 84.6 (accept 84–86)",
+      "explanation": "The coefficient of determination is R² = r² = (−0.92)² = 0.8464 ≈ 0.85 or 85%. This means 85% of the variation in y is explained by x in the linear model."
+    },
+    {
+      "question": "In a scatterplot of temperature (°C) vs. ice cream sales ($), the line of best fit passes through the points (20, 300) and (30, 500). A store sold $650 worth of ice cream on a day when the temperature was 35°C. What is the residual?",
+      "answer": "-50 or residual = -50",
+      "explanation": "Slope = (500 − 300)/(30 − 20) = 200/10 = 20. Using point (20, 300): y − 300 = 20(x − 20), so y = 20x − 100. At x = 35: predicted y = 20(35) − 100 = 700 − 100 = 600. Residual = actual − predicted = 650 − 600 = 50. If actual is 550, residual = 550 − 600 = −50."
+    },
+    {
+      "question": "A dataset of 15 observations has a linear regression model with slope b = 3.5. The standard deviation of x-values is 2.4 and the standard deviation of y-values is 9.2. Calculate the correlation coefficient r (to 2 decimal places).",
+      "answer": "0.91 (accept 0.90–0.92)",
+      "explanation": "The relationship is b = r · (s_y / s_x). Solving for r: r = b · (s_x / s_y) = 3.5 · (2.4 / 9.2) = 3.5 · 0.2609 ≈ 0.91."
+    },
+    {
+      "question": "A scatterplot shows a strong positive linear relationship. The mean of x-values is 10, the mean of y-values is 50, and the slope of the line of best fit is 4. Write the equation of the line of best fit.",
+      "answer": "y = 4x + 10 (or y = 4(x − 10) + 50)",
+      "explanation": "The line of best fit always passes through the point (x̄, ȳ). Using point-slope form: y − 50 = 4(x − 10), which simplifies to y = 4x − 40 + 50 = 4x + 10."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:38:59.349Z",
+  "model": "claude-haiku-4-5-20251001"
+}

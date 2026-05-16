@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-easy-5",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Simplify i^23.",
+      "answer": "-i",
+      "explanation": "Divide the exponent by 4: 23 ÷ 4 = 5 remainder 3. So i^23 = i^3 = i² · i = -1 · i = -i."
+    },
+    {
+      "question": "Add the complex numbers: (3 + 2i) + (5 - 4i).",
+      "answer": "8 - 2i",
+      "explanation": "Combine real parts: 3 + 5 = 8. Combine imaginary parts: 2i - 4i = -2i. Result: 8 - 2i."
+    },
+    {
+      "question": "Multiply: (2 + i)(3 - i).",
+      "answer": "7 + i",
+      "explanation": "Use FOIL: (2)(3) + (2)(-i) + (i)(3) + (i)(-i) = 6 - 2i + 3i - i² = 6 + i - (-1) = 7 + i."
+    },
+    {
+      "question": "What is i^100?",
+      "answer": "1",
+      "explanation": "100 ÷ 4 = 25 remainder 0. When the remainder is 0, i^n = i^0 = 1."
+    },
+    {
+      "question": "Subtract: (6 - 3i) - (2 + i).",
+      "answer": "4 - 4i",
+      "explanation": "Distribute the negative: 6 - 3i - 2 - i = (6 - 2) + (-3i - i) = 4 - 4i."
+    },
+    {
+      "question": "Simplify (1 + i)².",
+      "answer": "2i",
+      "explanation": "(1 + i)² = 1² + 2(1)(i) + i² = 1 + 2i + (-1) = 2i."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:10:32.422Z",
+  "model": "claude-haiku-4-5-20251001"
+}

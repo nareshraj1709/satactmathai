@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-7",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (3, −2) and opens downward. Its focus is at (3, −4). Write the equation of the parabola in the form (x − h)² = 4p(y − k).",
+      "answer": "(x − 3)² = −8(y + 2)",
+      "explanation": "The vertex form is (x − h)² = 4p(y − k). Here h = 3, k = −2. The distance from vertex to focus is |−4 − (−2)| = 2, so 4p = −8 (negative because it opens down). Thus p = −2."
+    },
+    {
+      "question": "An ellipse has foci at (−5, 0) and (5, 0), and the sum of distances from any point on the ellipse to the two foci is 26. Find the equation of the ellipse in standard form.",
+      "answer": "x²/169 + y²/144 = 1",
+      "explanation": "The foci are on the x-axis, so the form is (x²/a²) + (y²/b²) = 1. The sum of distances is 2a = 26, so a = 13. Distance between foci is 2c = 10, so c = 5. Then b² = a² − c² = 169 − 25 = 144."
+    },
+    {
+      "question": "A hyperbola centered at the origin has vertices at (±8, 0) and passes through the point (10, 3). Find b² for the hyperbola.",
+      "answer": "b² = 9/4 or 2.25",
+      "explanation": "Vertices on x-axis give form x²/64 − y²/b² = 1. Substitute (10, 3): 100/64 − 9/b² = 1. Then 9/b² = 100/64 − 1 = 36/64, so b² = 9·64/(36) = 9/4."
+    },
+    {
+      "question": "A parabola has equation y² = 12x. A line through the focus with slope 2 intersects the parabola at two points. Find the distance between these two points.",
+      "answer": "15",
+      "explanation": "For y² = 12x, we have 4p = 12, so p = 3 and focus is (3, 0). Line through focus: y − 0 = 2(x − 3), so y = 2x − 6. Substitute into y² = 12x: (2x − 6)² = 12x gives 4x² − 24x + 36 = 12x, so 4x² − 36x + 36 = 0, or x² − 9x + 9 = 0. By focal chord formula or distance: the chord length is 4p(1 + m²)/(1) = 12(1 + 4) = 60 is not right; use direct calculation: x = (9 ± √(81−36))/2 = (9 ± 3√5)/2, giving distance √(1 + 4)·3√5 = 15."
+    },
+    {
+      "question": "An ellipse has equation (x − 2)²/25 + (y + 1)²/16 = 1. A point P on the ellipse has x-coordinate 7. Find the sum of the y-coordinates of all such points on the ellipse.",
+      "answer": "−1",
+      "explanation": "Substitute x = 7: (7 − 2)²/25 + (y + 1)²/16 = 1 gives 25/25 + (y + 1)²/16 = 1, so (y + 1)² = 0. Thus y = −1 (one point). By symmetry of the ellipse about its center (2, −1), if there were two points at x = 7, their y-coordinates would sum to −2. But here there's only one, so the sum is −1."
+    },
+    {
+      "question": "A hyperbola has equation x²/36 − y²/64 = 1. Find the length of the transverse axis and the distance between the foci.",
+      "answer": "Transverse axis = 12; distance between foci = 20",
+      "explanation": "For x²/a² − y²/b² = 1: a² = 36 so a = 6, and transverse axis = 2a = 12. Then c² = a² + b² = 36 + 64 = 100, so c = 10 and distance between foci = 2c = 20."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:31.813Z",
+  "model": "claude-haiku-4-5-20251001"
+}

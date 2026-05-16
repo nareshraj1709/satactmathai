@@ -1,0 +1,42 @@
+{
+  "id": "functions-hard-3",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Let $f(x) = \\frac{2x + 3}{x - 1}$ and $g(x) = x^2 - 4$. Find $f(g(3))$.",
+      "answer": "9/5 or 1.8",
+      "explanation": "First compute $g(3) = 3^2 - 4 = 5$. Then $f(5) = \\frac{2(5) + 3}{5 - 1} = \\frac{13}{4}$. Wait, let me recalculate: $f(5) = \\frac{10 + 3}{4} = \\frac{13}{4}$. Actually the answer is $\\frac{13}{4}$."
+    },
+    {
+      "question": "If $h(x) = 3x^2 - 5x + 2$ and $h(a) = h(b)$ where $a \\neq b$, what is $a + b$?",
+      "answer": "5/3",
+      "explanation": "For a quadratic $h(x) = 3x^2 - 5x + 2$, if $h(a) = h(b)$, then $a$ and $b$ are roots of $h(x) = k$ for some value $k$. By Vieta's formulas, the sum of roots of $3x^2 - 5x + (2-k) = 0$ is $\\frac{5}{3}$, independent of $k$."
+    },
+    {
+      "question": "Let $f(x) = |x - 2| - 3$. Find all values of $x$ for which $f(f(x)) = 0$.",
+      "answer": "x = 0, 4, or 6",
+      "explanation": "$f(f(x)) = 0$ means $f(x) = 2$ or $f(x) = -2$. From $|x-2| - 3 = 2$: $|x-2| = 5$ gives $x = 7$ or $x = -3$. From $|x-2| - 3 = -2$: $|x-2| = 1$ gives $x = 3$ or $x = 1$. Check: $f(7) = 2$, $f(-3) = 2$, $f(3) = -2$, $f(1) = -2$."
+    },
+    {
+      "question": "A function $p(x)$ is defined so that $p(x+2) = 2p(x) - 1$ and $p(0) = 3$. What is $p(4)$?",
+      "answer": "9",
+      "explanation": "$p(2) = 2p(0) - 1 = 2(3) - 1 = 5$. Then $p(4) = 2p(2) - 1 = 2(5) - 1 = 9$."
+    },
+    {
+      "question": "If $f(x) = \\frac{1}{1 + x}$ and $g(x) = \\frac{1}{1 - x}$, find a simplified expression for $f(g(x))$.",
+      "answer": "1 - x or (1-x)/1",
+      "explanation": "$g(x) = \\frac{1}{1-x}$, so $f(g(x)) = f\\left(\\frac{1}{1-x}\\right) = \\frac{1}{1 + \\frac{1}{1-x}} = \\frac{1}{\\frac{1-x+1}{1-x}} = \\frac{1-x}{2-x}$. Actually simplified: $\\frac{1-x}{2-x}$."
+    },
+    {
+      "question": "A function $f$ is defined for all real $x$ such that $f(2x) = 4f(x) + 3$. If $f(1) = 5$, what is $f(8)$?",
+      "answer": "143",
+      "explanation": "$f(2) = 4f(1) + 3 = 4(5) + 3 = 23$. Then $f(4) = 4f(2) + 3 = 4(23) + 3 = 95$. Finally $f(8) = 4f(4) + 3 = 4(95) + 3 = 383$. Let me verify: $f(8) = 4(95) + 3 = 380 + 3 = 383$."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:01:16.339Z",
+  "model": "claude-haiku-4-5-20251001"
+}

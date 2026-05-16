@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-6",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Factor completely: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve for x: 2x² - 8x = 0",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out 2x: 2x(x - 4) = 0. Setting each factor to zero gives x = 0 and x = 4."
+    },
+    {
+      "question": "A rectangle has length 3 cm more than its width. If the area is 28 cm², what is the width?",
+      "answer": "4 cm",
+      "explanation": "Let w = width. Then w(w + 3) = 28, so w² + 3w - 28 = 0. Factor: (w + 7)(w - 4) = 0. Since width is positive, w = 4."
+    },
+    {
+      "question": "Factor: 3x² - 12x + 9",
+      "answer": "3(x - 1)(x - 3)",
+      "explanation": "First factor out the GCF of 3: 3(x² - 4x + 3). Then factor the quadratic: x² - 4x + 3 = (x - 1)(x - 3)."
+    },
+    {
+      "question": "If x² - 5x + 6 = 0, what are the two solutions?",
+      "answer": "x = 2 and x = 3",
+      "explanation": "Factor: (x - 2)(x - 3) = 0. The solutions are x = 2 and x = 3."
+    },
+    {
+      "question": "Factor completely: 4x² - 9",
+      "answer": "(2x - 3)(2x + 3)",
+      "explanation": "Recognize this as a difference of squares: (2x)² - 3² = (2x - 3)(2x + 3)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:59.464Z",
+  "model": "claude-haiku-4-5-20251001"
+}

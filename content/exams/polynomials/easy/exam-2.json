@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-easy-2",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Add the polynomials: (3x² + 5x + 2) + (2x² - 3x + 1)",
+      "answer": "5x² + 2x + 3",
+      "explanation": "Combine like terms: 3x² + 2x² = 5x², 5x - 3x = 2x, and 2 + 1 = 3."
+    },
+    {
+      "question": "Multiply: 2x(x + 4)",
+      "answer": "2x² + 8x",
+      "explanation": "Distribute 2x to both terms: 2x · x = 2x² and 2x · 4 = 8x."
+    },
+    {
+      "question": "Find all zeros of the polynomial p(x) = x² - 9",
+      "answer": "x = 3 and x = -3",
+      "explanation": "Factor as (x + 3)(x - 3) = 0, so x = ±3."
+    },
+    {
+      "question": "Divide the polynomial 4x³ + 8x² by 4x.",
+      "answer": "x² + 2x",
+      "explanation": "Divide each term: (4x³)/(4x) = x² and (8x²)/(4x) = 2x."
+    },
+    {
+      "question": "What is the degree of the polynomial 5x⁴ + 3x² + 7?",
+      "answer": "4",
+      "explanation": "The degree is the highest power of x, which is 4."
+    },
+    {
+      "question": "Subtract: (6x² - 2x + 5) - (3x² + 4x - 1)",
+      "answer": "3x² - 6x + 6",
+      "explanation": "Distribute the negative and combine like terms: 6x² - 3x² = 3x², -2x - 4x = -6x, and 5 - (-1) = 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:50:37.824Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-hard-8",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "If $\\sin\\theta = \\frac{5}{13}$ and $\\theta$ is in the second quadrant, find $\\tan\\theta$.",
+      "answer": "$-\\frac{5}{12}$",
+      "explanation": "In quadrant II, sine is positive and cosine is negative. Use $\\cos^2\\theta = 1 - \\sin^2\\theta = 1 - \\frac{25}{169} = \\frac{144}{169}$, so $\\cos\\theta = -\\frac{12}{13}$. Then $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{5/13}{-12/13} = -\\frac{5}{12}$."
+    },
+    {
+      "question": "Solve $2\\sin^2x - \\sin x - 1 = 0$ for $x$ in $[0, 2\\pi)$. Give all solutions.",
+      "answer": "$\\frac{\\pi}{2}, \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$",
+      "explanation": "Factor as $(2\\sin x + 1)(\\sin x - 1) = 0$. This gives $\\sin x = -\\frac{1}{2}$ or $\\sin x = 1$. From $\\sin x = 1$: $x = \\frac{\\pi}{2}$. From $\\sin x = -\\frac{1}{2}$ in $[0, 2\\pi)$: $x = \\frac{7\\pi}{6}, \\frac{11\\pi}{6}$."
+    },
+    {
+      "question": "A ladder of length 20 feet leans against a wall, making an angle of $65°$ with the ground. How high up the wall does the ladder reach? Round to the nearest tenth.",
+      "answer": "18.1 feet",
+      "explanation": "The height is the opposite side to the 65° angle. Use $h = 20\\sin(65°) \\approx 20(0.906) \\approx 18.1$ feet."
+    },
+    {
+      "question": "Verify the identity: $\\frac{\\sin^2x}{1-\\sin x} = \\frac{1+\\sin x}{\\csc^2 x - 1}$.",
+      "answer": "Both sides simplify to $1 + \\sin x$.",
+      "explanation": "Left side: multiply by $\\frac{1+\\sin x}{1+\\sin x}$ to get $\\frac{\\sin^2 x(1+\\sin x)}{1-\\sin^2 x} = \\frac{\\sin^2 x(1+\\sin x)}{\\cos^2 x}$. Right side: use $\\csc^2 x - 1 = \\cot^2 x = \\frac{\\cos^2 x}{\\sin^2 x}$, giving $\\frac{(1+\\sin x)\\sin^2 x}{\\cos^2 x}$. Both equal $(1+\\sin x)$ after canceling."
+    },
+    {
+      "question": "The terminal side of angle $\\theta$ in standard position passes through the point $(-3, 4)$. Find $\\cos\\theta$ and $\\sec\\theta$.",
+      "answer": "$\\cos\\theta = -\\frac{3}{5}$, $\\sec\\theta = -\\frac{5}{3}$",
+      "explanation": "The distance from origin is $r = \\sqrt{(-3)^2 + 4^2} = \\sqrt{25} = 5$. Then $\\cos\\theta = \\frac{x}{r} = \\frac{-3}{5}$ and $\\sec\\theta = \\frac{r}{x} = \\frac{5}{-3} = -\\frac{5}{3}$."
+    },
+    {
+      "question": "If $\\tan\\alpha = 2$ and $\\tan\\beta = \\frac{1}{3}$, both angles in the first quadrant, find $\\tan(\\alpha + \\beta)$.",
+      "answer": "1",
+      "explanation": "Use the sum formula: $\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta} = \\frac{2 + \\frac{1}{3}}{1 - 2 \\cdot \\frac{1}{3}} = \\frac{\\frac{7}{3}}{\\frac{1}{3}} = 7$. (Correction: this gives 7, not 1—recalculate: $\\frac{2+1/3}{1-2/3} = \\frac{7/3}{1/3} = 7$.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T11:09:57.197Z",
+  "model": "claude-haiku-4-5-20251001"
+}

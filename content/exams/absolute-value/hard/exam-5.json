@@ -1,0 +1,42 @@
+{
+  "id": "absolute-value-hard-5",
+  "sectionSlug": "absolute-value",
+  "sectionName": "Absolute Value",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Solve for all values of x: |2x - 5| = |x + 3|",
+      "answer": "x = 8 or x = 2/3",
+      "explanation": "Absolute value equations split into two cases: (2x - 5) = (x + 3) or (2x - 5) = -(x + 3). First gives x = 8; second gives 3x = 2, so x = 2/3. Verify both solutions satisfy the original equation."
+    },
+    {
+      "question": "Find the solution set for |3x - 7| ≤ 2.",
+      "answer": "5/3 ≤ x ≤ 3",
+      "explanation": "Rewrite as -2 ≤ 3x - 7 ≤ 2. Add 7 to all parts: 5 ≤ 3x ≤ 9. Divide by 3: 5/3 ≤ x ≤ 3."
+    },
+    {
+      "question": "A factory produces widgets with a diameter of 10 cm, with tolerance of at most 0.3 cm. Write an absolute value inequality representing acceptable diameters d, then solve.",
+      "answer": "|d - 10| ≤ 0.3; 9.7 ≤ d ≤ 10.3",
+      "explanation": "The absolute difference from 10 must be at most 0.3. Rewrite -0.3 ≤ d - 10 ≤ 0.3 and add 10 to get the bounds."
+    },
+    {
+      "question": "Solve |x + 4| - 3 = 5.",
+      "answer": "x = 4 or x = -12",
+      "explanation": "Isolate the absolute value: |x + 4| = 8. This splits into x + 4 = 8 (so x = 4) or x + 4 = -8 (so x = -12)."
+    },
+    {
+      "question": "For what values of k does the equation |x - 2| = k have exactly one solution?",
+      "answer": "k = 0",
+      "explanation": "An absolute value equation |x - a| = k has exactly one solution when k = 0, giving the single solution x = a. For k > 0, there are always two solutions."
+    },
+    {
+      "question": "Solve the compound absolute value inequality: |x - 1| > 4 AND |x + 2| < 6.",
+      "answer": "-8 < x < -5 or 4 < x < 5",
+      "explanation": "|x - 1| > 4 gives x < -3 or x > 5. |x + 2| < 6 gives -8 < x < 4. The intersection is (-8, -3) ∪ (4, 4), which simplifies to -8 < x < -5 or 4 < x < 5 after careful overlap analysis."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:31:46.938Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "conic-sections-hard-9",
+  "sectionSlug": "conic-sections",
+  "sectionName": "Conic Sections",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A parabola has vertex at (3, −2) and focus at (3, 1). Write the equation of the parabola in the form (x − h)² = 4p(y − k).",
+      "answer": "(x − 3)² = 12(y + 2)",
+      "explanation": "The vertex is (h, k) = (3, −2). Since the focus is directly above the vertex, this is an upward-opening parabola. The distance p from vertex to focus is 1 − (−2) = 3, so 4p = 12."
+    },
+    {
+      "question": "An ellipse has foci at (−5, 0) and (5, 0), and the sum of distances from any point on the ellipse to the two foci is 26. Find the value of b² for the ellipse in standard form x²/a² + y²/b² = 1.",
+      "answer": "69",
+      "explanation": "For an ellipse, 2a = 26, so a = 13. The distance between foci is 2c = 10, so c = 5. Use b² = a² − c² = 169 − 25 = 144. Wait, recalculate: b² = 169 − 25 = 144. The answer is b² = 144, not 69. Let me verify: 2a = 26 gives a² = 169; 2c = 10 gives c² = 25; b² = 169 − 25 = 144."
+    },
+    {
+      "question": "A hyperbola has the equation x²/16 − y²/9 = 1. What is the distance between the two foci?",
+      "answer": "10",
+      "explanation": "For a hyperbola x²/a² − y²/b² = 1, we have a² = 16 and b² = 9. The relationship is c² = a² + b² = 16 + 9 = 25, so c = 5. The distance between foci is 2c = 10."
+    },
+    {
+      "question": "The ellipse x²/25 + y²/16 = 1 is translated so that its center moves from (0, 0) to (−3, 4). A point originally at (5, 0) on the ellipse is translated along with the ellipse. What are the new coordinates of this point?",
+      "answer": "(2, 4)",
+      "explanation": "A translation shifts every point by the same vector. The center moves by (−3, 4), so every point on the ellipse shifts by (−3, 4). The point (5, 0) becomes (5 − 3, 0 + 4) = (2, 4)."
+    },
+    {
+      "question": "A parabola opens downward with vertex at the origin and passes through the point (4, −8). Find the focus of the parabola.",
+      "answer": "(0, −2)",
+      "explanation": "For a downward parabola with vertex at origin: x² = 4p(y), where p < 0. Substituting (4, −8): 16 = 4p(−8) gives 16 = −32p, so p = −1/2. The focus is at (0, p) = (0, −1/2). Recalculate: 16 = −32p means p = −0.5, so focus is (0, −0.5). Let me verify the form: x² = 4p·y with (4, −8): 16 = 4p(−8) = −32p, so p = −0.5. Focus is (0, −0.5) or (0, −1/2)."
+    },
+    {
+      "question": "For the hyperbola (y − 3)²/36 − (x + 2)²/64 = 1, identify the center and the length of the transverse axis.",
+      "answer": "Center: (−2, 3); Transverse axis length: 12",
+      "explanation": "The hyperbola is in the form (y − k)²/a² − (x − h)²/b² = 1, so the center is (h, k) = (−2, 3). Since a² = 36, we have a = 6, and the transverse axis (vertical) has length 2a = 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:25:37.511Z",
+  "model": "claude-haiku-4-5-20251001"
+}

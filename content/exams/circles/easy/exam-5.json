@@ -1,0 +1,42 @@
+{
+  "id": "circles-easy-5",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A circle has a radius of 5. What is the circumference?",
+      "answer": "10π",
+      "explanation": "Circumference = 2πr = 2π(5) = 10π."
+    },
+    {
+      "question": "A circle has center (2, 3) and passes through the point (5, 3). Write the equation of the circle.",
+      "answer": "(x − 2)² + (y − 3)² = 9",
+      "explanation": "Radius is the distance from (2, 3) to (5, 3): r = 5 − 2 = 3. Standard form is (x − h)² + (y − k)² = r²."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of 60°. What is the arc length?",
+      "answer": "2π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (60/360) × 2π(6) = (1/6) × 12π = 2π."
+    },
+    {
+      "question": "A line is tangent to a circle with center O and point of tangency T. The radius OT has length 4. If a point P on the tangent line is 3 units from T, what is the distance OP?",
+      "answer": "5",
+      "explanation": "A tangent is perpendicular to the radius at the point of tangency. Triangle OTP is right-angled at T, so OP = √(4² + 3²) = √25 = 5."
+    },
+    {
+      "question": "A sector of a circle with radius 8 has a central angle of 90°. What is the area of the sector?",
+      "answer": "16π",
+      "explanation": "Sector area = (θ/360°) × πr² = (90/360) × π(8)² = (1/4) × 64π = 16π."
+    },
+    {
+      "question": "The equation of a circle is x² + y² = 25. What are the coordinates of the center and the radius?",
+      "answer": "Center (0, 0), radius 5",
+      "explanation": "The equation x² + y² = r² has center at the origin. Here r² = 25, so r = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:04:57.779Z",
+  "model": "claude-haiku-4-5-20251001"
+}

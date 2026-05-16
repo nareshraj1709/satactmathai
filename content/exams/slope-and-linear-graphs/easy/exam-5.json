@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-easy-5",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (2, 5) and (4, 9).",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ - y₁)/(x₂ - x₁) = (9 - 5)/(4 - 2) = 4/2 = 2."
+    },
+    {
+      "question": "Write the equation of the line with slope 3 and y-intercept -2 in the form y = mx + b.",
+      "answer": "y = 3x - 2",
+      "explanation": "In slope-intercept form, m is the slope and b is the y-intercept. Substitute m = 3 and b = -2."
+    },
+    {
+      "question": "What is the slope of the line y = -4x + 7?",
+      "answer": "-4",
+      "explanation": "In y = mx + b form, the coefficient of x is the slope. Here, m = -4."
+    },
+    {
+      "question": "A line passes through (0, 3) and (1, 8). What is its y-intercept?",
+      "answer": "3",
+      "explanation": "The y-intercept is the y-coordinate when x = 0. The point (0, 3) tells us the y-intercept is 3."
+    },
+    {
+      "question": "Find the slope of the line passing through (-1, 2) and (3, 2).",
+      "answer": "0",
+      "explanation": "Since both points have the same y-coordinate, the line is horizontal. The slope of a horizontal line is 0."
+    },
+    {
+      "question": "A line has slope 2 and passes through the point (1, 5). What is the y-intercept?",
+      "answer": "3",
+      "explanation": "Use y = mx + b: substitute y = 5, m = 2, and x = 1 to get 5 = 2(1) + b, so b = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:20:42.419Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-2",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 3 cm, and height 4 cm. What is its volume?",
+      "answer": "60 cubic cm",
+      "explanation": "Volume of a rectangular prism = length × width × height = 5 × 3 × 4 = 60 cm³."
+    },
+    {
+      "question": "A cylinder has radius 2 inches and height 7 inches. Using π ≈ 3.14, what is its volume to the nearest whole number?",
+      "answer": "88 cubic inches",
+      "explanation": "Volume of cylinder = πr²h = 3.14 × 2² × 7 = 3.14 × 4 × 7 = 87.92 ≈ 88 in³."
+    },
+    {
+      "question": "A sphere has radius 3 meters. Using π ≈ 3.14, approximately what is its volume?",
+      "answer": "113 cubic meters",
+      "explanation": "Volume of sphere = (4/3)πr³ = (4/3) × 3.14 × 3³ = (4/3) × 3.14 × 27 ≈ 113.04 m³."
+    },
+    {
+      "question": "A cone has radius 4 cm and height 9 cm. Using π ≈ 3.14, what is its volume to the nearest whole number?",
+      "answer": "151 cubic cm",
+      "explanation": "Volume of cone = (1/3)πr²h = (1/3) × 3.14 × 4² × 9 = (1/3) × 3.14 × 16 × 9 ≈ 150.72 cm³."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 12 square inches and a height (depth) of 5 inches. What is the volume?",
+      "answer": "60 cubic inches",
+      "explanation": "Volume of any prism = base area × height = 12 × 5 = 60 in³."
+    },
+    {
+      "question": "A cylinder has diameter 6 cm and height 10 cm. Using π ≈ 3.14, what is its volume to the nearest whole number?",
+      "answer": "283 cubic cm",
+      "explanation": "Radius = diameter ÷ 2 = 3 cm. Volume = πr²h = 3.14 × 3² × 10 = 3.14 × 9 × 10 = 282.6 ≈ 283 cm³."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:18:53.729Z",
+  "model": "claude-haiku-4-5-20251001"
+}

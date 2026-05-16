@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-easy-10",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Add the polynomials: (3x² + 2x + 5) + (x² − 4x + 1)",
+      "answer": "4x² − 2x + 6",
+      "explanation": "Combine like terms: 3x² + x² = 4x², 2x − 4x = −2x, and 5 + 1 = 6."
+    },
+    {
+      "question": "Multiply: (x + 3)(x + 2)",
+      "answer": "x² + 5x + 6",
+      "explanation": "Use FOIL: x·x + x·2 + 3·x + 3·2 = x² + 2x + 3x + 6 = x² + 5x + 6."
+    },
+    {
+      "question": "Find the zeros of the polynomial f(x) = (x − 4)(x + 1).",
+      "answer": "x = 4, x = −1",
+      "explanation": "Set each factor equal to zero: x − 4 = 0 gives x = 4, and x + 1 = 0 gives x = −1."
+    },
+    {
+      "question": "Divide the polynomial 2x³ + 6x² by 2x.",
+      "answer": "x² + 3x",
+      "explanation": "Divide each term: (2x³)/(2x) = x² and (6x²)/(2x) = 3x, so the answer is x² + 3x."
+    },
+    {
+      "question": "Subtract: (5x² + 3x − 2) − (2x² + x + 4)",
+      "answer": "3x² + 2x − 6",
+      "explanation": "Distribute the negative sign and combine like terms: 5x² − 2x² = 3x², 3x − x = 2x, −2 − 4 = −6."
+    },
+    {
+      "question": "Multiply: 3x(x² − 2x + 1)",
+      "answer": "3x³ − 6x² + 3x",
+      "explanation": "Distribute 3x to each term: 3x·x² = 3x³, 3x·(−2x) = −6x², and 3x·1 = 3x."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:51:10.428Z",
+  "model": "claude-haiku-4-5-20251001"
+}

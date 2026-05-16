@@ -1,0 +1,42 @@
+{
+  "id": "complex-numbers-medium-4",
+  "sectionSlug": "complex-numbers",
+  "sectionName": "Complex Numbers",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Simplify $(3 + 2i)(2 - i)$.",
+      "answer": "8 + i",
+      "explanation": "Use FOIL: $3 \\cdot 2 + 3 \\cdot (-i) + 2i \\cdot 2 + 2i \\cdot (-i) = 6 - 3i + 4i - 2i^2 = 6 + i + 2 = 8 + i$."
+    },
+    {
+      "question": "What is $i^{47}$?",
+      "answer": "−i",
+      "explanation": "Powers of $i$ repeat every 4 terms. $47 = 4(11) + 3$, so $i^{47} = i^3 = i^2 \\cdot i = -i$."
+    },
+    {
+      "question": "Divide $\\frac{5 + 3i}{2 - i}$. Express your answer in the form $a + bi$.",
+      "answer": "1 + i",
+      "explanation": "Multiply numerator and denominator by the conjugate of the denominator: $\\frac{5 + 3i}{2 - i} \\cdot \\frac{2 + i}{2 + i} = \\frac{(5 + 3i)(2 + i)}{5} = \\frac{7 + 11i}{5} = \\frac{7}{5} + \\frac{11}{5}i$."
+    },
+    {
+      "question": "If $z = 2 - 3i$, find $|z|$, the modulus of $z$.",
+      "answer": "$\\sqrt{13}$",
+      "explanation": "The modulus is $|z| = \\sqrt{a^2 + b^2} = \\sqrt{2^2 + (-3)^2} = \\sqrt{4 + 9} = \\sqrt{13}$."
+    },
+    {
+      "question": "Simplify $i^{100} + i^{99} + i^{98}$.",
+      "answer": "1",
+      "explanation": "$i^{100} = 1$, $i^{99} = -i$, $i^{98} = -1$. Sum: $1 + (-i) + (-1) = -i$. Wait: $100 = 4(25)$, so $i^{100} = 1$; $99 = 4(24) + 3$, so $i^{99} = i^3 = -i$; $98 = 4(24) + 2$, so $i^{98} = -1$. Thus $1 - i - 1 = -i$."
+    },
+    {
+      "question": "A complex number $w$ satisfies $w + 2i = 3 + 4i$. Find $w$.",
+      "answer": "$3 + 2i$",
+      "explanation": "Subtract $2i$ from both sides: $w = 3 + 4i - 2i = 3 + 2i$."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:11:05.053Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-4",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A bacteria population starts with 100 cells and doubles every hour. How many cells are there after 3 hours?",
+      "answer": "800",
+      "explanation": "After 1 hour: 100 × 2 = 200. After 2 hours: 200 × 2 = 400. After 3 hours: 400 × 2 = 800. Or use the formula: 100 × 2³ = 100 × 8 = 800."
+    },
+    {
+      "question": "A car's value depreciates exponentially. If it's worth $20,000 today and loses 10% of its value each year, what is it worth after 1 year?",
+      "answer": "$18,000",
+      "explanation": "Losing 10% means keeping 90% of the value. After 1 year: $20,000 × 0.9 = $18,000."
+    },
+    {
+      "question": "Write an exponential decay formula for a quantity that starts at 500 and decays at a rate of 5% per year, where t is time in years.",
+      "answer": "500(0.95)^t",
+      "explanation": "In exponential decay, the formula is A = A₀(1 - r)^t. Here A₀ = 500 and r = 0.05, so A = 500(0.95)^t."
+    },
+    {
+      "question": "A sample of radioactive material has an initial mass of 80 grams. After 2 half-lives, what is the mass remaining?",
+      "answer": "20 grams",
+      "explanation": "After 1 half-life: 80 ÷ 2 = 40 grams. After 2 half-lives: 40 ÷ 2 = 20 grams."
+    },
+    {
+      "question": "An investment of $1,000 grows at a constant rate of 20% per year. How much is it worth after 2 years?",
+      "answer": "$1,440",
+      "explanation": "After 1 year: $1,000 × 1.2 = $1,200. After 2 years: $1,200 × 1.2 = $1,440. Or use 1,000(1.2)² = 1,000 × 1.44 = $1,440."
+    },
+    {
+      "question": "If a population follows the model P(t) = 250(2)^(t/4), where t is time in years, what is the population when t = 4?",
+      "answer": "500",
+      "explanation": "Substitute t = 4: P(4) = 250(2)^(4/4) = 250(2)^1 = 250 × 2 = 500."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:02.302Z",
+  "model": "claude-haiku-4-5-20251001"
+}

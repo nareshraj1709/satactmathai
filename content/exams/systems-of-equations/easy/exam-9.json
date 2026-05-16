@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-easy-9",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "Solve the system:\n2x + y = 7\nx = 3\n\nWhat is y?",
+      "answer": "y = 1",
+      "explanation": "Substitute x = 3 into the first equation: 2(3) + y = 7 → 6 + y = 7 → y = 1."
+    },
+    {
+      "question": "Solve the system:\nx + y = 10\nx - y = 4\n\nWhat is x?",
+      "answer": "x = 7",
+      "explanation": "Add the two equations to eliminate y: (x + y) + (x - y) = 10 + 4 → 2x = 14 → x = 7."
+    },
+    {
+      "question": "At a store, notebooks cost $2 each and pens cost $1 each. Marcus buys 5 items for $8 total. If n is the number of notebooks and p is the number of pens, set up a system and find n.",
+      "answer": "n = 3",
+      "explanation": "System: n + p = 5 and 2n + p = 8. Subtract the first from the second: (2n + p) − (n + p) = 8 − 5 → n = 3."
+    },
+    {
+      "question": "Solve the system:\n3x = 9\nx + y = 5\n\nWhat is y?",
+      "answer": "y = 2",
+      "explanation": "From the first equation, x = 3. Substitute into the second: 3 + y = 5 → y = 2."
+    },
+    {
+      "question": "Solve the system:\nx + 2y = 11\nx + y = 8\n\nWhat is y?",
+      "answer": "y = 3",
+      "explanation": "Subtract the second equation from the first: (x + 2y) − (x + y) = 11 − 8 → y = 3."
+    },
+    {
+      "question": "Solve the system:\ny = 2x\nx + y = 9\n\nWhat is x?",
+      "answer": "x = 3",
+      "explanation": "Substitute y = 2x into the second equation: x + 2x = 9 → 3x = 9 → x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:35.276Z",
+  "model": "claude-haiku-4-5-20251001"
+}

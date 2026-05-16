@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-hard-7",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A = 50°. The external angle at B equals 120°. Find angle C.",
+      "answer": "70",
+      "explanation": "An external angle equals the sum of the two non-adjacent interior angles. So 120° = 50° + C, giving C = 70°. Check: 50° + 60° + 70° = 180° ✓"
+    },
+    {
+      "question": "Triangle PQR is isosceles with PQ = PR. The angle at P is 36°. A line from Q to point S on PR creates angle PQS = 72°. Find angle PSQ.",
+      "answer": "72",
+      "explanation": "Base angles of isosceles triangle PQR are each (180° - 36°)/2 = 72°. In triangle PQS, angle P = 36°, angle PQS = 72°, so angle PSQ = 180° - 36° - 72° = 72°."
+    },
+    {
+      "question": "In right triangle ABC with right angle at C, angle A = 35°. Point D lies on AB such that CD ⊥ AB. Express angle ACD in terms of angle B.",
+      "answer": "35",
+      "explanation": "Angle B = 180° - 90° - 35° = 55°. In right triangle ACD (right angle at D), angle ACD = 90° - angle A = 90° - 35° = 55°. Wait: angle ACD = 90° - A = 55°. Actually, angle A = 35°, so angle ACD = 55° = angle B. Equivalently, angle ACD = angle B."
+    },
+    {
+      "question": "In triangle ABC, angles are in the ratio 2:3:4. The largest angle is how many degrees greater than the smallest?",
+      "answer": "40",
+      "explanation": "Let angles be 2x, 3x, 4x. Then 2x + 3x + 4x = 180°, so 9x = 180° and x = 20°. Largest = 80°, smallest = 40°. Difference = 80° - 40° = 40°."
+    },
+    {
+      "question": "Two lines intersect forming four angles. One angle is (2k + 10)° and its adjacent angle is (3k - 20)°. Find k.",
+      "answer": "38",
+      "explanation": "Adjacent angles on a straight line sum to 180°. So (2k + 10) + (3k - 20) = 180°. This gives 5k - 10 = 180°, so 5k = 190° and k = 38."
+    },
+    {
+      "question": "In triangle XYZ, angle Y = 90°. If angle X = 2·(angle Z), find the measure of angle X.",
+      "answer": "60",
+      "explanation": "Let angle Z = θ. Then angle X = 2θ. Since X + Y + Z = 180° and Y = 90°: 2θ + 90° + θ = 180°, so 3θ = 90° and θ = 30°. Therefore angle X = 60°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:59.914Z",
+  "model": "claude-haiku-4-5-20251001"
+}

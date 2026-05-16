@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-medium-2",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Use the quadratic formula to solve 2x² + 5x - 3 = 0. What is the larger root?",
+      "answer": "x = 1/2",
+      "explanation": "Using x = (-5 ± √(25 + 24))/4 = (-5 ± 7)/4. The two roots are 2/4 = 1/2 and -12/4 = -3. The larger root is 1/2."
+    },
+    {
+      "question": "For the equation x² - 6x + 9 = 0, calculate the discriminant. How many real solutions does this equation have?",
+      "answer": "0; one real solution (repeated root)",
+      "explanation": "Discriminant: b² - 4ac = 36 - 36 = 0. When the discriminant equals 0, there is exactly one real solution (a repeated root at x = 3)."
+    },
+    {
+      "question": "A rectangular garden has length 3 meters more than its width. If the area is 40 square meters, write the quadratic equation in standard form and find the width using the quadratic formula.",
+      "answer": "w = 5 meters",
+      "explanation": "Let w = width. Then w(w + 3) = 40 gives w² + 3w - 40 = 0. Using the quadratic formula: w = (-3 ± √(9 + 160))/2 = (-3 ± 13)/2. Taking the positive root: w = 10/2 = 5."
+    },
+    {
+      "question": "Without solving, determine whether 3x² - 2x + 5 = 0 has real solutions. Explain why or why not.",
+      "answer": "No real solutions; discriminant is negative",
+      "explanation": "Discriminant: b² - 4ac = 4 - 60 = -56 < 0. A negative discriminant means the parabola does not cross the x-axis, so there are no real solutions."
+    },
+    {
+      "question": "Solve x² - 8x + 15 = 0 using the quadratic formula. Express both solutions as integers.",
+      "answer": "x = 3, x = 5",
+      "explanation": "x = (8 ± √(64 - 60))/2 = (8 ± 2)/2. This gives x = 10/2 = 5 and x = 6/2 = 3."
+    },
+    {
+      "question": "For what value of k does the equation x² + kx + 9 = 0 have exactly one real solution?",
+      "answer": "k = 6 or k = -6",
+      "explanation": "A quadratic has exactly one real solution when the discriminant equals 0. Set k² - 36 = 0, so k² = 36, giving k = ±6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:48:08.138Z",
+  "model": "claude-haiku-4-5-20251001"
+}

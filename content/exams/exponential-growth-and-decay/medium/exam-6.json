@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-6",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A bacterial colony starts with 500 cells and triples every 2 hours. How many cells will be present after 6 hours?",
+      "answer": "13,500",
+      "explanation": "After 6 hours, there are 6/2 = 3 doubling periods. Cells = 500 × 3³ = 500 × 27 = 13,500."
+    },
+    {
+      "question": "The value of a car depreciates according to V(t) = 25,000(0.85)^t, where t is measured in years. By what percent does the car's value decrease each year?",
+      "answer": "15%",
+      "explanation": "The decay factor is 0.85, meaning 85% of the value remains. So 100% − 85% = 15% is lost each year."
+    },
+    {
+      "question": "An investment of $2,000 grows at an annual rate of 4% per year. Write an expression for the value after n years, assuming compound annual interest.",
+      "answer": "2000(1.04)^n",
+      "explanation": "Compound growth formula is A = P(1 + r)^t. Here P = 2000 and r = 0.04, so A = 2000(1.04)^n."
+    },
+    {
+      "question": "A radioactive substance decays so that half of it remains after every 3 days. If you start with 80 grams, how much remains after 9 days?",
+      "answer": "10 grams",
+      "explanation": "In 9 days there are 9/3 = 3 half-lives. After 3 half-lives: 80 × (1/2)³ = 80 × 1/8 = 10 grams."
+    },
+    {
+      "question": "The population of a city increases by 2.5% each year. If the current population is 150,000, what will it be after 2 years? Round to the nearest whole number.",
+      "answer": "157,594",
+      "explanation": "P = 150,000(1.025)² = 150,000(1.050625) = 157,593.75 ≈ 157,594."
+    },
+    {
+      "question": "A scientist observes that a sample of bacteria follows the model N(t) = 1200(2)^(t/5), where t is in minutes. At what time t will the population reach 9,600 bacteria?",
+      "answer": "t = 15",
+      "explanation": "Set 1200(2)^(t/5) = 9600. Divide by 1200: (2)^(t/5) = 8 = 2³. So t/5 = 3, giving t = 15 minutes."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:46.718Z",
+  "model": "claude-haiku-4-5-20251001"
+}

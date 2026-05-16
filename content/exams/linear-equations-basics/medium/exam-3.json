@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-medium-3",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 7 = 22",
+      "answer": "x = 5",
+      "explanation": "Subtract 7 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: 2m - 8 = m + 3",
+      "answer": "m = 11",
+      "explanation": "Subtract m from both sides: m - 8 = 3. Add 8 to both sides: m = 11."
+    },
+    {
+      "question": "Solve for y: (1/2)y + 6 = 10",
+      "answer": "y = 8",
+      "explanation": "Subtract 6 from both sides: (1/2)y = 4. Multiply by 2: y = 8."
+    },
+    {
+      "question": "A smartphone costs $120 more than a tablet. Together they cost $620. If the tablet costs t dollars, write and solve an equation to find t.",
+      "answer": "t = 250",
+      "explanation": "Set up: t + (t + 120) = 620. Combine: 2t + 120 = 620. Solve: 2t = 500, so t = 250."
+    },
+    {
+      "question": "Solve for x: 0.5x - 3.2 = 1.8",
+      "answer": "x = 10",
+      "explanation": "Add 3.2 to both sides: 0.5x = 5. Divide by 0.5: x = 10."
+    },
+    {
+      "question": "Solve for b: 4(b - 2) = 12",
+      "answer": "b = 5",
+      "explanation": "Distribute: 4b - 8 = 12. Add 8: 4b = 20. Divide by 4: b = 5."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:27.363Z",
+  "model": "claude-haiku-4-5-20251001"
+}

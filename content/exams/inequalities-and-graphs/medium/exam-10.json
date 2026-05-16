@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-medium-10",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve for x: 3x - 7 < 2x + 5",
+      "answer": "x < 12",
+      "explanation": "Subtract 2x from both sides: x - 7 < 5. Add 7 to both sides: x < 12."
+    },
+    {
+      "question": "A movie theater charges $12 per ticket. You have $50 and want to buy as many tickets as possible while keeping at least $8 for concessions. How many tickets can you buy?",
+      "answer": "3",
+      "explanation": "Set up inequality: 12t ≤ 50 - 8, so 12t ≤ 42. Divide by 12: t ≤ 3.5. Since t must be a whole number, t = 3."
+    },
+    {
+      "question": "Graph the solution to 2x + 3y ≥ 6 on a coordinate plane. Which of the following points is in the solution region: (0, 2), (3, 0), or (1, 1)?",
+      "answer": "(0, 2) and (3, 0)",
+      "explanation": "Test each point: (0, 2) gives 0 + 6 = 6 ≥ 6 ✓; (3, 0) gives 6 + 0 = 6 ≥ 6 ✓; (1, 1) gives 2 + 3 = 5 ≱ 6 ✗."
+    },
+    {
+      "question": "Solve the system: x + y > 4 and x - y ≤ 2. Write the answer as a description or sketch of the region.",
+      "answer": "The region above the line x + y = 4 and on or below the line x - y = 2",
+      "explanation": "First inequality: y > 4 - x (above the line, dashed). Second: y ≥ x - 2 (on or below the line, solid). Solution is the intersection of these two regions."
+    },
+    {
+      "question": "Solve: -2(x + 3) ≥ 10",
+      "answer": "x ≤ -8",
+      "explanation": "Distribute: -2x - 6 ≥ 10. Add 6: -2x ≥ 16. Divide by -2 and flip the inequality: x ≤ -8."
+    },
+    {
+      "question": "A student's grade is between 80 and 95 (inclusive). Write an inequality representing the possible grade g.",
+      "answer": "80 ≤ g ≤ 95",
+      "explanation": "The grade must be at least 80 and at most 95, so both bounds are inclusive (≤). Use compound inequality notation."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:31.542Z",
+  "model": "claude-haiku-4-5-20251001"
+}

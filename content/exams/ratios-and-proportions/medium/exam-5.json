@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-5",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you use 15 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 5/2 = 15/x. Cross-multiply: 5x = 30. Solve: x = 6 cups."
+    },
+    {
+      "question": "At a school, the ratio of boys to girls is 3:4. If there are 252 students total, how many boys are there?",
+      "answer": "108",
+      "explanation": "The ratio 3:4 means 3 + 4 = 7 parts total. Boys = (3/7) × 252 = 3 × 36 = 108."
+    },
+    {
+      "question": "A map has a scale of 1 inch to 25 miles. Two cities are 3.5 inches apart on the map. What is the actual distance between the cities in miles?",
+      "answer": "87.5",
+      "explanation": "Use the proportion: 1/25 = 3.5/d. Cross-multiply: d = 25 × 3.5 = 87.5 miles."
+    },
+    {
+      "question": "A concrete mix requires cement, sand, and gravel in the ratio 1:3:5. If you have 12 pounds of cement, how many pounds of sand and gravel combined do you need?",
+      "answer": "96",
+      "explanation": "Cement is 1 part = 12 lbs, so each part = 12 lbs. Sand (3 parts) + Gravel (5 parts) = 8 parts = 8 × 12 = 96 lbs."
+    },
+    {
+      "question": "If 8 workers can paint a building in 6 days, how many days will it take 12 workers to paint the same building?",
+      "answer": "4",
+      "explanation": "Work is inversely proportional to workers. Use: 8 × 6 = 12 × d. Solve: d = 48/12 = 4 days."
+    },
+    {
+      "question": "In a survey, the ratio of people who prefer coffee to tea is 7:3. If 180 people prefer tea, how many prefer coffee?",
+      "answer": "420",
+      "explanation": "Set up: 7/3 = x/180. Cross-multiply: 3x = 1260. Solve: x = 420 people prefer coffee."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:04.677Z",
+  "model": "claude-haiku-4-5-20251001"
+}

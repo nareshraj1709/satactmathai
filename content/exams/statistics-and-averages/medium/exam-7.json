@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-7",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A student has test scores of 82, 78, 85, and 92. What is the mean score?",
+      "answer": "84.25",
+      "explanation": "Sum all scores: 82 + 78 + 85 + 92 = 337. Divide by the number of tests: 337 ÷ 4 = 84.25."
+    },
+    {
+      "question": "The median of five numbers is 15. Four of the numbers are 10, 12, 18, and 20. What is the fifth number?",
+      "answer": "15",
+      "explanation": "When arranged in order, the median is the middle (3rd) value. With four known numbers, one must equal 15 to make it the median when all five are sorted."
+    },
+    {
+      "question": "A dataset has a range of 24 and a minimum value of 8. What is the maximum value?",
+      "answer": "32",
+      "explanation": "Range = Maximum − Minimum. So 24 = Maximum − 8, giving Maximum = 32."
+    },
+    {
+      "question": "Eight students recorded the number of hours they studied: 2, 3, 5, 5, 6, 7, 8, 8. What is the mode?",
+      "answer": "5 and 8",
+      "explanation": "The mode is the value appearing most frequently. Both 5 and 8 appear twice, while others appear once, so there are two modes."
+    },
+    {
+      "question": "A basketball team's scores over five games are 68, 74, 71, 68, and 79. If they score 85 in a sixth game, how does the mean change?",
+      "answer": "The mean increases by 2 points",
+      "explanation": "Original mean: (68 + 74 + 71 + 68 + 79) ÷ 5 = 360 ÷ 5 = 72. New mean: (360 + 85) ÷ 6 = 445 ÷ 6 ≈ 74.17. Change: 74.17 − 72 = 2.17, or approximately 2 points."
+    },
+    {
+      "question": "A dataset consists of 6 numbers with a mean of 20. If five of the numbers are 15, 18, 22, 25, and 16, what is the sixth number?",
+      "answer": "24",
+      "explanation": "Mean = Sum ÷ Count, so Sum = 20 × 6 = 120. Sum of five known numbers: 15 + 18 + 22 + 25 + 16 = 96. Sixth number = 120 − 96 = 24."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:50.099Z",
+  "model": "claude-haiku-4-5-20251001"
+}

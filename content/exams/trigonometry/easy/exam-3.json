@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-3",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle is 8 cm and the hypotenuse is 14 cm. Find the sine of the 35° angle, rounded to the nearest hundredth.",
+      "answer": "0.57",
+      "explanation": "By definition, sin(35°) = opposite/hypotenuse = 8/14 ≈ 0.571, which rounds to 0.57."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 60° angle with the ground. If the ladder is 10 meters long, how far up the wall does it reach? Round to the nearest tenth.",
+      "answer": "8.7 meters",
+      "explanation": "The height is the side opposite the 60° angle: height = 10 × sin(60°) = 10 × (√3/2) ≈ 8.66 ≈ 8.7 m."
+    },
+    {
+      "question": "What is cos(90°)?",
+      "answer": "0",
+      "explanation": "At 90° on the unit circle, the point is (0, 1), so cosine (the x-coordinate) equals 0."
+    },
+    {
+      "question": "In a right triangle, one acute angle measures 28° and the adjacent side to that angle is 12 units. Find the length of the hypotenuse, rounded to the nearest whole number.",
+      "answer": "13 units",
+      "explanation": "Using cosine: cos(28°) = adjacent/hypotenuse = 12/h, so h = 12/cos(28°) ≈ 12/0.883 ≈ 13.6 ≈ 13."
+    },
+    {
+      "question": "Evaluate: sin²(45°) + cos²(45°)",
+      "answer": "1",
+      "explanation": "This is the Pythagorean identity: sin²(θ) + cos²(θ) = 1 for all angles θ."
+    },
+    {
+      "question": "If tan(θ) = 5/12 and θ is an acute angle in a right triangle, what is sin(θ)?",
+      "answer": "5/13",
+      "explanation": "Tan(θ) = opposite/adjacent = 5/12, so opposite = 5 and adjacent = 12. Hypotenuse = √(5² + 12²) = 13. Thus sin(θ) = 5/13."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:08.863Z",
+  "model": "claude-haiku-4-5-20251001"
+}

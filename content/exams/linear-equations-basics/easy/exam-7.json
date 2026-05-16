@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-7",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: m/4 = 6",
+      "answer": "m = 24",
+      "explanation": "Multiply both sides by 4 to isolate m: m = 6 × 4 = 24."
+    },
+    {
+      "question": "Maria has $12 more than twice her brother's savings. If Maria has $50, how much does her brother have?",
+      "answer": "$19",
+      "explanation": "Set up the equation: 2b + 12 = 50. Subtract 12: 2b = 38. Divide by 2: b = 19."
+    },
+    {
+      "question": "Solve for y: 2y − 7 = 3",
+      "answer": "y = 5",
+      "explanation": "Add 7 to both sides: 2y = 10. Divide both sides by 2: y = 5."
+    },
+    {
+      "question": "Solve for x: 0.5x = 8",
+      "answer": "x = 16",
+      "explanation": "Divide both sides by 0.5 (or multiply by 2): x = 8 ÷ 0.5 = 16."
+    },
+    {
+      "question": "Solve for p: 4p + 3 = 2p + 11",
+      "answer": "p = 4",
+      "explanation": "Subtract 2p from both sides: 2p + 3 = 11. Subtract 3: 2p = 8. Divide by 2: p = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:23.774Z",
+  "model": "claude-haiku-4-5-20251001"
+}

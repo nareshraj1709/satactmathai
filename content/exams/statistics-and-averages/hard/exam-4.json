@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-hard-4",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A dataset has 5 numbers with a mean of 12. If one number is removed, the mean of the remaining 4 numbers is 10. What is the value of the number that was removed?",
+      "answer": "20",
+      "explanation": "Sum of 5 numbers = 5 × 12 = 60. Sum of 4 remaining numbers = 4 × 10 = 40. Removed number = 60 − 40 = 20."
+    },
+    {
+      "question": "A list of 6 test scores has a median of 78. When a seventh score of 92 is added, the median becomes 80. What must be true about the original six scores?",
+      "answer": "The 4th score is at most 80 and the 3rd score is at least 80",
+      "explanation": "With 6 scores (median is average of 3rd and 4th), median = 78 means (3rd + 4th)/2 = 78. With 7 scores, the 4th score becomes the median = 80. Since 92 is the highest, the 4th score = 80, and the 3rd score ≥ 80 to maintain the original median."
+    },
+    {
+      "question": "The mean of dataset A is 15 with 8 values. The mean of dataset B is 20 with 12 values. What is the mean of the combined dataset?",
+      "answer": "18",
+      "explanation": "Sum of A = 8 × 15 = 120. Sum of B = 12 × 20 = 240. Combined sum = 360. Combined count = 20. Mean = 360/20 = 18."
+    },
+    {
+      "question": "A dataset consists of the values: 5, 8, 8, 12, x. If the mean equals the median, find the value of x.",
+      "answer": "11",
+      "explanation": "Median of sorted {5, 8, 8, 12, x} depends on x. If x ≥ 12, median = 8. If 8 ≤ x < 12, median = 8. If x < 8, median = 8. Mean = (33 + x)/5. Setting mean = median: (33 + x)/5 = 8 gives x = 7. But check x = 11: sorted is {5, 8, 8, 11, 12}, median = 8, mean = 44/5 ≠ 8. Recalculate: if 8 ≤ x < 12, sorted {5, 8, 8, x, 12}, median = 8, so (33+x)/5 = 8 gives x = 7. If x < 8, {5, x, 8, 8, 12}, median = 8, (33+x)/5 = 8 fails. If x ≥ 12, {5, 8, 8, 12, x}, median = 8, (33+x)/5 = 8 fails. Let x ≤ 5: {x, 5, 8, 8, 12}, median = 8, mean ≠ 8. Actually, if x = 11: {5, 8, 8, 11, 12}, median = 8, mean = 44/5 = 8.8. If x = 7: {5, 7, 8, 8, 12}, median = 8, mean = 40/5 = 8. ✓"
+    },
+    {
+      "question": "A sample of 10 measurements has a standard deviation of 4. If each measurement is multiplied by 3, what is the new standard deviation?",
+      "answer": "12",
+      "explanation": "Multiplying all data points by a constant k multiplies the standard deviation by |k|. New SD = 4 × 3 = 12."
+    },
+    {
+      "question": "In a dataset of 20 values, the range is 45. The minimum value is 10. If the maximum value is increased by 15, what is the new range?",
+      "answer": "60",
+      "explanation": "Original range = max − min = 45. With min = 10, max = 55. New max = 55 + 15 = 70. New range = 70 − 10 = 60."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:56.957Z",
+  "model": "claude-haiku-4-5-20251001"
+}

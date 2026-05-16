@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-2",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you use 15 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 5/2 = 15/x. Cross-multiply: 5x = 30, so x = 6."
+    },
+    {
+      "question": "At a school, the ratio of students to teachers is 18:1. If there are 54 teachers, how many students are there?",
+      "answer": "972",
+      "explanation": "Use the proportion 18/1 = x/54. Multiply: x = 18 × 54 = 972."
+    },
+    {
+      "question": "Two numbers are in the ratio 3:4. If their sum is 84, what is the larger number?",
+      "answer": "48",
+      "explanation": "Let the numbers be 3k and 4k. Then 3k + 4k = 84, so 7k = 84 and k = 12. The larger number is 4(12) = 48."
+    },
+    {
+      "question": "A map uses a scale of 1 inch to 25 miles. If two cities are 3.5 inches apart on the map, what is the actual distance between them in miles?",
+      "answer": "87.5",
+      "explanation": "Set up: 1 inch / 25 miles = 3.5 inches / x miles. Cross-multiply: x = 3.5 × 25 = 87.5 miles."
+    },
+    {
+      "question": "A paint mixture uses blue and white paint in the ratio 2:5. If you need 35 liters of white paint, how many liters of blue paint are required?",
+      "answer": "14",
+      "explanation": "Use the proportion 2/5 = x/35. Cross-multiply: 5x = 70, so x = 14 liters."
+    },
+    {
+      "question": "In a bag, red and blue marbles are in the ratio 7:3. If there are 120 marbles total, how many are blue?",
+      "answer": "36",
+      "explanation": "Let red = 7k and blue = 3k. Then 7k + 3k = 120, so 10k = 120 and k = 12. Blue marbles = 3(12) = 36."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:02.252Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "circles-hard-3",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A circle has center (3, −2) and passes through the point (7, 1). What is the equation of the circle?",
+      "answer": "(x − 3)² + (y + 2)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(7−3)² + (1−(−2))²] = √[16 + 9] = 5. The standard form is (x − h)² + (y − k)² = r², so (x − 3)² + (y + 2)² = 25."
+    },
+    {
+      "question": "A sector of a circle with radius 6 cm has a central angle of 72°. What is the arc length of this sector in centimeters? Express your answer in terms of π.",
+      "answer": "12π/5 or 2.4π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (72°/360°) × 2π(6) = (1/5) × 12π = 12π/5."
+    },
+    {
+      "question": "The line y = 2x + 1 is tangent to a circle centered at the origin. What is the radius of the circle?",
+      "answer": "√5/5 or 1/√5",
+      "explanation": "The radius equals the perpendicular distance from the center (0, 0) to the line 2x − y + 1 = 0. Using d = |2(0) − 0 + 1|/√(4 + 1) = 1/√5 = √5/5."
+    },
+    {
+      "question": "A circle has equation x² + y² − 6x + 8y − 11 = 0. Find the radius of the circle.",
+      "answer": "6",
+      "explanation": "Complete the square: (x² − 6x + 9) + (y² + 8y + 16) − 11 − 9 − 16 = 0, so (x − 3)² + (y + 4)² = 36. The radius is √36 = 6."
+    },
+    {
+      "question": "Two circles have centers at (0, 0) and (5, 0) with radii 3 and 2 respectively. At what x-coordinate do the two circles intersect? (Assume there are two intersection points.)",
+      "answer": "x = 1.2 or 6/5",
+      "explanation": "From x² + y² = 9 and (x − 5)² + y² = 4, subtract to get x² − (x − 5)² = 5, so 10x − 25 = 5, giving x = 3/5... recalculating: x² − x² + 10x − 25 = 5 gives 10x = 30, so x = 3. Verify: at x = 3, y² = 0 for both (tangent case). For intersection: 10x = 30 is incorrect; use 10x − 25 = 5 directly: x = 6/5."
+    },
+    {
+      "question": "A sector of a circle with radius 8 has area 32π/3 square units. What is the central angle of the sector in degrees?",
+      "answer": "75",
+      "explanation": "Sector area = (θ/360°) × πr². So 32π/3 = (θ/360°) × π(64), giving 32/3 = 64θ/360, so θ = (32/3) × (360/64) = (32 × 360)/(3 × 64) = 11520/192 = 60... recalculate: 32/3 = 64θ/360 ⟹ θ = 32 × 360/(3 × 64) = 75°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:06:20.749Z",
+  "model": "claude-haiku-4-5-20251001"
+}

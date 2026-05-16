@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-medium-9",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "The graph of y = sin(x) is shifted 3 units to the right and 2 units up. Write the equation of the transformed function.",
+      "answer": "y = sin(x - 3) + 2",
+      "explanation": "Horizontal shifts appear inside the function: shift right by 3 means replace x with (x - 3). Vertical shifts are added outside: shift up by 2 means add 2 to the output."
+    },
+    {
+      "question": "In triangle ABC, angle A = 45°, angle B = 60°, and side a = 10. Find side b using the Law of Sines. Round to the nearest tenth.",
+      "answer": "b ≈ 12.2",
+      "explanation": "By Law of Sines: a/sin(A) = b/sin(B), so 10/sin(45°) = b/sin(60°). Thus b = 10 · sin(60°)/sin(45°) = 10 · (√3/2)/(√2/2) = 10√3/√2 ≈ 12.2."
+    },
+    {
+      "question": "What is the period of the function y = cos(2x)?",
+      "answer": "π",
+      "explanation": "For y = cos(bx), the period is 2π/|b|. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle PQR, p = 5, q = 7, and angle R = 120°. Find side r using the Law of Cosines.",
+      "answer": "r = √109",
+      "explanation": "Law of Cosines: r² = p² + q² - 2pq·cos(R) = 25 + 49 - 2(5)(7)cos(120°) = 74 - 70(-1/2) = 74 + 35 = 109, so r = √109."
+    },
+    {
+      "question": "The amplitude of y = -3sin(x) is how much greater than the amplitude of y = sin(x/2)?",
+      "answer": "2",
+      "explanation": "Amplitude of y = -3sin(x) is |-3| = 3. Amplitude of y = sin(x/2) is |1| = 1. The difference is 3 - 1 = 2."
+    },
+    {
+      "question": "In triangle DEF, side d = 8, side e = 6, and side f = 7. Which angle is largest, and why?",
+      "answer": "Angle D is largest because the largest angle is opposite the longest side.",
+      "explanation": "In any triangle, the largest angle is opposite the largest side. Side d = 8 is the longest side, so angle D (opposite to d) is the largest."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:22:40.002Z",
+  "model": "claude-haiku-4-5-20251001"
+}

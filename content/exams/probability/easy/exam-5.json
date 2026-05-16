@@ -1,0 +1,42 @@
+{
+  "id": "probability-easy-5",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A bag contains 3 red marbles, 5 blue marbles, and 2 green marbles. If you randomly select one marble, what is the probability that it is blue?",
+      "answer": "5/10 or 1/2 or 0.5",
+      "explanation": "Total marbles = 3 + 5 + 2 = 10. Blue marbles = 5. Probability = 5/10 = 1/2."
+    },
+    {
+      "question": "In a class of 20 students, 12 play soccer and 8 play basketball. If a student is chosen at random, what is the probability they play soccer?",
+      "answer": "12/20 or 3/5 or 0.6",
+      "explanation": "Probability = (students who play soccer) / (total students) = 12/20 = 3/5."
+    },
+    {
+      "question": "A coin is flipped twice. List all possible outcomes and find the probability that both flips are heads.",
+      "answer": "1/4 or 0.25",
+      "explanation": "Possible outcomes: HH, HT, TH, TT (4 total). Only HH gives both heads. Probability = 1/4."
+    },
+    {
+      "question": "A two-way table shows that 30 people surveyed like coffee, and of those 30, exactly 18 also like tea. What is the probability that a randomly selected coffee-liker also likes tea?",
+      "answer": "18/30 or 3/5 or 0.6",
+      "explanation": "This is conditional probability: P(likes tea | likes coffee) = (people who like both) / (people who like coffee) = 18/30 = 3/5."
+    },
+    {
+      "question": "A spinner is divided into 4 equal sections numbered 1, 2, 3, and 4. What is the probability of spinning an even number?",
+      "answer": "2/4 or 1/2 or 0.5",
+      "explanation": "Even numbers on the spinner: 2 and 4 (2 outcomes). Total outcomes = 4. Probability = 2/4 = 1/2."
+    },
+    {
+      "question": "Of 50 students, 20 take math and 15 take science. If 8 students take both, how many take at least one subject?",
+      "answer": "27",
+      "explanation": "Use inclusion-exclusion: (Math) + (Science) − (Both) = 20 + 15 − 8 = 27 students."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:42:47.063Z",
+  "model": "claude-haiku-4-5-20251001"
+}

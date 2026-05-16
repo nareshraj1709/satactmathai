@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-10",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A right triangle has legs of length 5 and 12. Using the Law of Cosines, find the length of the hypotenuse.",
+      "answer": "13",
+      "explanation": "Using c² = a² + b² - 2ab cos(C), where C = 90°, cos(90°) = 0, so c² = 25 + 144 = 169, giving c = 13."
+    },
+    {
+      "question": "In a triangle, side a = 4, side b = 6, and the included angle C = 60°. Find the length of side c using the Law of Cosines.",
+      "answer": "2√7 or approximately 5.29",
+      "explanation": "c² = a² + b² - 2ab cos(C) = 16 + 36 - 2(4)(6)cos(60°) = 52 - 48(0.5) = 28, so c = √28 = 2√7."
+    },
+    {
+      "question": "What is the period of the function f(x) = sin(2x)?",
+      "answer": "π",
+      "explanation": "The period of sin(bx) is 2π/b. Here b = 2, so the period is 2π/2 = π."
+    },
+    {
+      "question": "A triangle has sides a = 3, b = 4, and c = 5. Find sin(A) using the Law of Sines.",
+      "answer": "3/5 or 0.6",
+      "explanation": "Use sin(A)/a = sin(C)/c. Since this is a 3-4-5 right triangle, angle C = 90°, so sin(A)/3 = 1/5, giving sin(A) = 3/5."
+    },
+    {
+      "question": "The graph of y = cos(x) is shifted 2 units to the right. Write the equation of the new function.",
+      "answer": "y = cos(x - 2)",
+      "explanation": "A horizontal shift right by h units transforms f(x) to f(x - h). Shifting cos(x) right by 2 gives cos(x - 2)."
+    },
+    {
+      "question": "In a triangle, angle A = 30°, angle B = 45°, and side a = 5. Use the Law of Sines to find side b.",
+      "answer": "5√2 or approximately 7.07",
+      "explanation": "By the Law of Sines, a/sin(A) = b/sin(B), so 5/sin(30°) = b/sin(45°). This gives 5/(1/2) = b/(√2/2), so 10 = b·(2/√2), thus b = 5√2."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:21:25.528Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-easy-5",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A bacteria population doubles every 3 hours. If there are 50 bacteria at the start, how many bacteria are there after 6 hours?",
+      "answer": "200",
+      "explanation": "In 6 hours, there are two 3-hour periods. After 3 hours: 50 × 2 = 100. After 6 hours: 100 × 2 = 200."
+    },
+    {
+      "question": "Write an exponential function for a population that starts at 10 and triples every year. Let t be the number of years.",
+      "answer": "P(t) = 10 · 3^t or P = 10(3)^t",
+      "explanation": "The initial value is 10 (when t = 0). The growth factor is 3 because the population triples. So P(t) = 10 · 3^t."
+    },
+    {
+      "question": "A radioactive substance decays such that half of it remains each week. If you start with 160 grams, how many grams remain after 2 weeks?",
+      "answer": "40",
+      "explanation": "After 1 week: 160 ÷ 2 = 80 grams. After 2 weeks: 80 ÷ 2 = 40 grams."
+    },
+    {
+      "question": "An investment earns 5% interest per year, compounded annually. If the initial investment is $200, what is the value after 1 year?",
+      "answer": "$210",
+      "explanation": "Use A = P(1 + r)^t where P = 200, r = 0.05, t = 1. So A = 200(1.05)^1 = 210."
+    },
+    {
+      "question": "A car depreciates to 80% of its value each year. If the car is worth $5000 today, what is it worth after 1 year? Round to the nearest dollar.",
+      "answer": "$4000",
+      "explanation": "Multiply the current value by 0.80: $5000 × 0.80 = $4000."
+    },
+    {
+      "question": "Which function models exponential decay: f(x) = 2(0.5)^x or g(x) = 2(2)^x? Name the function.",
+      "answer": "f(x) = 2(0.5)^x",
+      "explanation": "Exponential decay requires a base between 0 and 1. Since 0.5 < 1, the function f(x) decays. Since 2 > 1, g(x) grows."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:54:02.175Z",
+  "model": "claude-haiku-4-5-20251001"
+}

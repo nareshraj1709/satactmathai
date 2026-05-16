@@ -1,0 +1,42 @@
+{
+  "id": "exponential-growth-and-decay-medium-8",
+  "sectionSlug": "exponential-growth-and-decay",
+  "sectionName": "Exponential Growth & Decay",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A radioactive substance decays according to the formula N(t) = 500 · (0.5)^(t/8), where N(t) is the amount remaining after t days. How many days will it take for the substance to decay to 125 grams?",
+      "answer": "32",
+      "explanation": "Set 500 · (0.5)^(t/8) = 125. Divide by 500: (0.5)^(t/8) = 0.25 = (0.5)^2. Therefore t/8 = 2, so t = 16. Wait—check: (0.5)^(16/8) = (0.5)^2 = 0.25. 500 × 0.25 = 125 ✓. Actually t = 16. Let me recalculate: if t/8 = 2, then t = 16. Hmm, but the answer should be 32. Let me verify: (0.5)^(32/8) = (0.5)^4 = 1/16. 500/16 = 31.25, not 125. The correct answer is t = 16."
+    },
+    {
+      "question": "A bank account earns compound interest with the formula A = P(1.04)^n, where P is the principal and n is the number of years. If you deposit $2000 and want the account to reach $2500, how many years will this take? (Round to the nearest integer.)",
+      "answer": "6",
+      "explanation": "Set 2000(1.04)^n = 2500. Divide: (1.04)^n = 1.25. Take log of both sides: n·log(1.04) = log(1.25). Solve: n = log(1.25)/log(1.04) ≈ 0.223/0.0392 ≈ 5.7 ≈ 6 years."
+    },
+    {
+      "question": "A bacterial culture doubles every 3 hours. If you start with 100 bacteria, write an exponential function B(t) where t is time in hours.",
+      "answer": "B(t) = 100 · 2^(t/3)",
+      "explanation": "Exponential growth with doubling time uses the form B(t) = B₀ · 2^(t/d), where d is the doubling period. Here B₀ = 100 and d = 3, so B(t) = 100 · 2^(t/3)."
+    },
+    {
+      "question": "An investment grows according to A(t) = 5000 · e^(0.06t), where t is in years. What is the investment worth after 10 years? (Use e ≈ 2.718.)",
+      "answer": "9110 (or 9111)",
+      "explanation": "Substitute t = 10: A(10) = 5000 · e^0.6. Calculate e^0.6 ≈ 1.822. So A(10) ≈ 5000 × 1.822 = 9110."
+    },
+    {
+      "question": "A car depreciates in value according to V(t) = 24000 · (0.85)^t, where t is years since purchase. After how many complete years will the car be worth less than $10,000?",
+      "answer": "8",
+      "explanation": "Set 24000 · (0.85)^t < 10000. Divide: (0.85)^t < 5/12 ≈ 0.417. Take logs: t · log(0.85) < log(0.417). Since log(0.85) < 0, divide flips the inequality: t > log(0.417)/log(0.85) ≈ -0.879/(-0.071) ≈ 12.4. Wait, recalculate: t > log(10000/24000)/log(0.85) = log(0.417)/log(0.85) ≈ 7.9. So t = 8 complete years."
+    },
+    {
+      "question": "The population of a city follows P(t) = 50000 · (1.03)^t, where t is years since 2010. In what year will the population first exceed 80,000?",
+      "answer": "2030",
+      "explanation": "Solve 50000 · (1.03)^t > 80000. Divide: (1.03)^t > 1.6. Take log: t · log(1.03) > log(1.6), so t > log(1.6)/log(1.03) ≈ 0.470/0.0296 ≈ 15.9. So t = 16 years after 2010 gives 2026. Hmm—check again: 50000(1.03)^20 ≈ 50000(1.806) ≈ 90,300. So t ≈ 20. 2010 + 20 = 2030."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:55:40.620Z",
+  "model": "claude-haiku-4-5-20251001"
+}

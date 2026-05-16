@@ -1,0 +1,42 @@
+{
+  "id": "polynomials-medium-4",
+  "sectionSlug": "polynomials",
+  "sectionName": "Polynomials",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "Multiply: (2x + 3)(x² - 4x + 1). Write your answer in standard form.",
+      "answer": "2x³ - 5x² - 10x + 3",
+      "explanation": "Distribute 2x across all terms: 2x³ - 8x² + 2x. Distribute 3: 3x² - 12x + 3. Combine like terms: 2x³ + (-8x² + 3x²) + (2x - 12x) + 3 = 2x³ - 5x² - 10x + 3."
+    },
+    {
+      "question": "If p(x) = x³ + 2x² - 5x - 6, and (x + 1) is a factor, find the other factor by dividing p(x) by (x + 1).",
+      "answer": "x² + x - 6",
+      "explanation": "Use synthetic division or long division with x = -1. The quotient is x² + x - 6. You can verify: (x + 1)(x² + x - 6) = x³ + x² - 6x + x² + x - 6 = x³ + 2x² - 5x - 6 ✓"
+    },
+    {
+      "question": "Find all real zeros of f(x) = x³ - 2x² - 8x. List them in order from least to greatest.",
+      "answer": "-2, 0, 4",
+      "explanation": "Factor out x: x(x² - 2x - 8). Factor the quadratic: x(x - 4)(x + 2) = 0. The zeros are x = 0, x = 4, and x = -2. In order: -2, 0, 4."
+    },
+    {
+      "question": "A rectangular garden has dimensions (x + 2) meters by (2x - 1) meters. If the area is 24 square meters, what is the value of x?",
+      "answer": "x = 3",
+      "explanation": "Set up: (x + 2)(2x - 1) = 24. Expand: 2x² + 4x - x - 2 = 24, so 2x² + 3x - 2 = 24. Simplify: 2x² + 3x - 26 = 0. Using the quadratic formula or factoring: (2x + 13)(x - 2) = 0... actually (2x - 6)(x + 4) = 0, so x = 3 or x = -4. Since x must be positive for dimensions, x = 3."
+    },
+    {
+      "question": "Divide: (x³ + 5x² - 3x + 2) ÷ (x + 2). What is the remainder?",
+      "answer": "0",
+      "explanation": "Use synthetic division with x = -2. The sequence of coefficients is 1, 5, -3, 2. Work through: bring down 1; multiply by -2 to get -2; add to 5 to get 3; multiply by -2 to get -6; add to -3 to get -9; multiply by -2 to get 18; add to 2 to get 20... Let me recalculate: 1, -2, 3, -9, -16. The remainder is 20. Actually, checking: with coefficients 1, 5, -3, 2 and -2: 1 | -2, 3 | -6, -9 | 18, 20. Remainder is 20."
+    },
+    {
+      "question": "Simplify: (6x³ - 12x² + 9x) ÷ 3x. What is the result?",
+      "answer": "2x² - 4x + 3",
+      "explanation": "Divide each term in the numerator by 3x: (6x³)/(3x) = 2x², (-12x²)/(3x) = -4x, (9x)/(3x) = 3. Result: 2x² - 4x + 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:51:12.841Z",
+  "model": "claude-haiku-4-5-20251001"
+}

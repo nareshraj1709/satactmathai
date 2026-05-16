@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-hard-2",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A delivery company charges a base fee of $8 plus $0.50 per mile. The total cost must not exceed $35. Write an inequality and find the maximum number of miles that can be driven.",
+      "answer": "8 + 0.5m ≤ 35; m ≤ 54",
+      "explanation": "Set up 8 + 0.5m ≤ 35. Subtract 8 from both sides: 0.5m ≤ 27. Divide by 0.5: m ≤ 54 miles."
+    },
+    {
+      "question": "Solve for x: 3(2x - 1) > 4x + 5. Express your answer as an inequality.",
+      "answer": "x > 4",
+      "explanation": "Expand: 6x - 3 > 4x + 5. Subtract 4x: 2x - 3 > 5. Add 3: 2x > 8. Divide by 2: x > 4."
+    },
+    {
+      "question": "A student's grade in a class is the average of five test scores. Four scores are 78, 82, 85, and 88. What minimum score is needed on the fifth test to have an average of at least 82?",
+      "answer": "77",
+      "explanation": "Set up (78 + 82 + 85 + 88 + x)/5 ≥ 82. Simplify: (333 + x)/5 ≥ 82. Multiply by 5: 333 + x ≥ 410. So x ≥ 77."
+    },
+    {
+      "question": "Solve the compound inequality: -2 < 3x + 1 ≤ 10. Express your answer as a range.",
+      "answer": "-1 < x ≤ 3",
+      "explanation": "Split into two: -2 < 3x + 1 gives -3 < 3x, so x > -1. And 3x + 1 ≤ 10 gives 3x ≤ 9, so x ≤ 3. Combined: -1 < x ≤ 3."
+    },
+    {
+      "question": "A store sells notebooks for $2 each and pens for $1 each. A customer has $15 to spend. If they must buy at least 3 notebooks, what is the maximum number of pens they can buy?",
+      "answer": "9",
+      "explanation": "With at least 3 notebooks: 2(3) = $6 spent. Remaining: 15 - 6 = $9. At $1 per pen, they can buy 9 pens maximum."
+    },
+    {
+      "question": "Solve for x: |2x - 5| ≤ 7. Express your answer as a range.",
+      "answer": "-1 ≤ x ≤ 6",
+      "explanation": "Absolute value inequality gives -7 ≤ 2x - 5 ≤ 7. Add 5 to all parts: -2 ≤ 2x ≤ 12. Divide by 2: -1 ≤ x ≤ 6."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:28:32.968Z",
+  "model": "claude-haiku-4-5-20251001"
+}

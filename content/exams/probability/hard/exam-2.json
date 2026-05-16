@@ -1,0 +1,42 @@
+{
+  "id": "probability-hard-2",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. You draw two marbles without replacement. What is the probability that both marbles are red?",
+      "answer": "2/9",
+      "explanation": "Total marbles = 10. P(both red) = (5/10) × (4/9) = 20/90 = 2/9. The denominator is 10 × 9 because you draw without replacement."
+    },
+    {
+      "question": "A two-way table shows that of 200 students surveyed, 120 play sports and 80 do not. Of those who play sports, 75 have a GPA above 3.5. Of those who don't play sports, 40 have a GPA above 3.5. If a student is selected at random and has a GPA above 3.5, what is the probability they play sports? Round to the nearest hundredth.",
+      "answer": "0.65",
+      "explanation": "Total with GPA > 3.5: 75 + 40 = 115. P(plays sports | GPA > 3.5) = 75/115 ≈ 0.652, which rounds to 0.65."
+    },
+    {
+      "question": "Event A has probability 0.4 and Event B has probability 0.6. If A and B are independent, what is the probability that exactly one of them occurs?",
+      "answer": "0.52",
+      "explanation": "P(exactly one) = P(A and not B) + P(not A and B) = (0.4)(0.4) + (0.6)(0.6) = 0.16 + 0.36 = 0.52."
+    },
+    {
+      "question": "A factory produces widgets where 2% are defective. A quality test correctly identifies 98% of defective widgets and correctly identifies 99% of non-defective widgets as good. If a widget fails the test, what is the probability it is actually defective?",
+      "answer": "0.67",
+      "explanation": "Use Bayes' theorem. P(defective|fails) = P(fails|defective) × P(defective) / P(fails). P(fails|defective) = 0.98, P(defective) = 0.02, P(fails) = (0.98)(0.02) + (0.01)(0.98) ≈ 0.0296. Result: (0.98 × 0.02) / 0.0296 ≈ 0.66 or 0.67."
+    },
+    {
+      "question": "Three cards are drawn without replacement from a standard 52-card deck. What is the probability that all three are face cards (jack, queen, or king)?",
+      "answer": "11/850",
+      "explanation": "There are 12 face cards. P(all three face) = (12/52) × (11/51) × (10/50) = (12 × 11 × 10) / (52 × 51 × 50) = 1320/132600 = 11/850."
+    },
+    {
+      "question": "In a group of 50 students, 30 study math, 25 study science, and 15 study both. If you randomly select a student who studies math, what is the probability they also study science?",
+      "answer": "1/2",
+      "explanation": "P(science | math) = P(both) / P(math) = 15/30 = 1/2. There are 15 students studying both and 30 studying math total."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:59.784Z",
+  "model": "claude-haiku-4-5-20251001"
+}

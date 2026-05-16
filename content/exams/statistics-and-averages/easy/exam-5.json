@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-easy-5",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "The heights of five students are 60, 62, 65, 62, and 66 inches. What is the median height?",
+      "answer": "62",
+      "explanation": "Arrange the heights in order: 60, 62, 62, 65, 66. The median is the middle value, which is the third number: 62."
+    },
+    {
+      "question": "A data set has values: 4, 7, 9, 12, and 8. What is the mean?",
+      "answer": "8",
+      "explanation": "Sum all values: 4 + 7 + 9 + 12 + 8 = 40. Divide by the number of values: 40 ÷ 5 = 8."
+    },
+    {
+      "question": "The test scores for a class are 78, 85, 92, 85, and 88. What is the mode?",
+      "answer": "85",
+      "explanation": "The mode is the value that appears most frequently. The score 85 appears twice, while all others appear once."
+    },
+    {
+      "question": "A data set consists of the numbers 5, 11, 3, 18, and 8. What is the range?",
+      "answer": "15",
+      "explanation": "Range is the difference between the largest and smallest values. Maximum = 18, minimum = 3, so range = 18 − 3 = 15."
+    },
+    {
+      "question": "Six people have ages 22, 25, 28, 25, 30, and 24. If one more person of age 26 joins, what is the new mean age?",
+      "answer": "25.57 or 26 (rounded to nearest whole)",
+      "explanation": "Original sum: 22 + 25 + 28 + 25 + 30 + 24 = 154. New sum: 154 + 26 = 180. New mean: 180 ÷ 7 ≈ 25.57."
+    },
+    {
+      "question": "A store recorded daily sales of $120, $135, $150, and $145. If the mean daily sales is $137.50, what was the sales value on the missing fifth day?",
+      "answer": "$140",
+      "explanation": "Mean = (sum of all sales) ÷ 5. So 137.50 = (120 + 135 + 150 + 145 + x) ÷ 5. This gives 687.50 = 550 + x, so x = 137.50."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:39:40.948Z",
+  "model": "claude-haiku-4-5-20251001"
+}

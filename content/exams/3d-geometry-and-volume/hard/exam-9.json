@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-hard-9",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Hard",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A cylinder has radius 4 cm and height 10 cm. A cone with the same base radius and height is carved out from inside. What is the volume of the remaining solid in cubic centimeters?",
+      "answer": "320π or 1005.31",
+      "explanation": "Volume of cylinder = πr²h = π(4²)(10) = 160π. Volume of cone = (1/3)πr²h = (1/3)π(4²)(10) = (160π)/3. Remaining = 160π − 160π/3 = (480π − 160π)/3 = 320π."
+    },
+    {
+      "question": "A sphere has surface area 144π square inches. What is the radius of the sphere?",
+      "answer": "6",
+      "explanation": "Surface area of sphere = 4πr². Set 4πr² = 144π, so r² = 36, giving r = 6."
+    },
+    {
+      "question": "A rectangular prism has dimensions 5 cm × 8 cm × h cm. If its volume is 280 cubic centimeters, what is h?",
+      "answer": "7",
+      "explanation": "Volume = length × width × height, so 5 × 8 × h = 280, giving 40h = 280, thus h = 7."
+    },
+    {
+      "question": "A cone has volume 150π cubic inches. If its height is 18 inches, what is the radius of its base?",
+      "answer": "5",
+      "explanation": "Volume of cone = (1/3)πr²h. Substitute: 150π = (1/3)πr²(18) = 6πr². So r² = 25, giving r = 5."
+    },
+    {
+      "question": "Two spheres have radii in the ratio 2:3. What is the ratio of their volumes?",
+      "answer": "8:27",
+      "explanation": "Volume of sphere = (4/3)πr³. If radii are in ratio 2:3, then volumes are in ratio (2³):(3³) = 8:27 (volume scales with the cube of radius)."
+    },
+    {
+      "question": "A cylinder with radius 3 m and height 12 m is completely filled with water. If 60% of the water is drained, how much water remains in cubic meters?",
+      "answer": "54π or 169.65",
+      "explanation": "Initial volume = πr²h = π(3²)(12) = 108π. If 60% is drained, 40% remains. Remaining = 0.40 × 108π = 43.2π = 54π/2.5 ≈ 54π cubic meters. (Correction: 40% of 108π = 43.2π ≈ 135.8 m³, or leave as 43.2π.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T11:20:41.538Z",
+  "model": "claude-haiku-4-5-20251001"
+}

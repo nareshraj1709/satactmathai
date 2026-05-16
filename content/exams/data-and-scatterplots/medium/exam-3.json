@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-medium-3",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied (x) and exam score (y) for 10 students. The line of best fit has the equation y = 8x + 45. If a student studied for 6 hours, what score does the model predict?",
+      "answer": "93",
+      "explanation": "Substitute x = 6 into y = 8x + 45: y = 8(6) + 45 = 48 + 45 = 93."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°F) and ice cream sales (in dollars). The line of best fit passes through (70, 200) and (80, 300). What is the slope of this line?",
+      "answer": "10",
+      "explanation": "Slope = (300 − 200) / (80 − 70) = 100 / 10 = 10. This means sales increase by $10 per degree Fahrenheit."
+    },
+    {
+      "question": "A scatterplot shows data points that cluster tightly around a line going downward from left to right. Which of the following best describes the correlation: strong positive, weak positive, strong negative, or weak negative?",
+      "answer": "strong negative",
+      "explanation": "A downward trend indicates negative correlation. Points clustering tightly around the line indicate a strong relationship. Therefore, the correlation is strong negative."
+    },
+    {
+      "question": "The line of best fit for a dataset is y = −2x + 50. According to the model, by how much does y decrease when x increases by 5?",
+      "answer": "10",
+      "explanation": "The slope is −2, meaning y changes by −2 for each unit increase in x. When x increases by 5, y decreases by 2 × 5 = 10."
+    },
+    {
+      "question": "A scatterplot plots daily advertising spending (x, in hundreds of dollars) versus daily sales revenue (y, in thousands of dollars). The line of best fit is y = 1.5x + 8. If actual sales were $14,000 when spending was $400, what is the residual (actual − predicted)?",
+      "answer": "0",
+      "explanation": "When x = 4 (since $400 = 4 hundreds), predicted y = 1.5(4) + 8 = 14 thousand dollars. Actual y = 14 thousand dollars. Residual = 14 − 14 = 0."
+    },
+    {
+      "question": "A scatterplot shows website traffic (in thousands of visitors) versus day number over 30 days. A linear model fitted to the data has y-intercept 10 and slope 2. On which day would the model predict 50,000 visitors?",
+      "answer": "20",
+      "explanation": "The equation is y = 2x + 10. Set y = 50 (thousands): 50 = 2x + 10, so 40 = 2x, and x = 20."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:21.415Z",
+  "model": "claude-haiku-4-5-20251001"
+}

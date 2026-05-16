@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-10",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55°",
+      "explanation": "The sum of angles in a triangle is 180°. So angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one leg of length 5 and a hypotenuse of length 13. What is the length of the other leg?",
+      "answer": "12",
+      "explanation": "Use the Pythagorean theorem: 5² + b² = 13². Then 25 + b² = 169, so b² = 144 and b = 12."
+    },
+    {
+      "question": "In an isosceles triangle, the vertex angle (the angle between the two equal sides) measures 64°. What is the measure of each base angle?",
+      "answer": "58°",
+      "explanation": "In an isosceles triangle, the two base angles are equal. If the vertex angle is 64°, then 2x + 64 = 180, so x = 58°."
+    },
+    {
+      "question": "Two lines intersect, forming four angles. One of the angles measures 133°. What is the measure of the smallest angle formed?",
+      "answer": "47°",
+      "explanation": "Vertically opposite angles are equal. Adjacent angles are supplementary: 180° − 133° = 47°. The smallest angle is 47°."
+    },
+    {
+      "question": "In a 30-60-90 triangle, the side opposite the 30° angle has length 4. What is the length of the hypotenuse?",
+      "answer": "8",
+      "explanation": "In a 30-60-90 triangle, the sides are in ratio 1 : √3 : 2. The side opposite 30° is the shortest, so hypotenuse = 2 × 4 = 8."
+    },
+    {
+      "question": "Triangle XYZ has angle X = 42° and angle Y = 3 × angle Z. Find the measure of angle Y.",
+      "answer": "103.5°",
+      "explanation": "Let angle Z = a. Then angle Y = 3a. We have 42° + 3a + a = 180°, so 4a = 138° and a = 34.5°. Thus angle Y = 3(34.5°) = 103.5°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:54.081Z",
+  "model": "claude-haiku-4-5-20251001"
+}

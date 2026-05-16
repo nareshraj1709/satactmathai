@@ -1,0 +1,42 @@
+{
+  "id": "trig-graphs-and-laws-easy-1",
+  "sectionSlug": "trig-graphs-and-laws",
+  "sectionName": "Trig Graphs & Laws",
+  "topic": "Trigonometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "What is the period of the function y = sin(2x)?",
+      "answer": "π",
+      "explanation": "For y = sin(bx), the period is 2π/b. Here b = 2, so period = 2π/2 = π."
+    },
+    {
+      "question": "In triangle ABC, side a = 5, side b = 7, and angle C = 60°. Find side c using the law of cosines.",
+      "answer": "c = √39",
+      "explanation": "Law of cosines: c² = a² + b² − 2ab·cos(C) = 25 + 49 − 2(5)(7)cos(60°) = 74 − 70(0.5) = 39. So c = √39."
+    },
+    {
+      "question": "The amplitude of y = 3cos(x) is ___.",
+      "answer": "3",
+      "explanation": "Amplitude is the absolute value of the coefficient in front of the trig function. Here it's |3| = 3."
+    },
+    {
+      "question": "In triangle ABC, angle A = 40°, angle B = 75°, and side a = 10. Use the law of sines to find side b (round to nearest tenth).",
+      "answer": "b ≈ 15.3",
+      "explanation": "Law of sines: a/sin(A) = b/sin(B). So b = a·sin(B)/sin(A) = 10·sin(75°)/sin(40°) ≈ 10(0.966)/0.643 ≈ 15.3."
+    },
+    {
+      "question": "What is the y-intercept of y = 2sin(x)?",
+      "answer": "0",
+      "explanation": "At x = 0, y = 2sin(0) = 2(0) = 0. The y-intercept is 0."
+    },
+    {
+      "question": "In triangle ABC, a = 6, b = 8, and c = 10. Find cos(A) using the law of cosines.",
+      "answer": "cos(A) = 0.8 or 4/5",
+      "explanation": "Law of cosines: a² = b² + c² − 2bc·cos(A), so 36 = 64 + 100 − 160·cos(A). Thus 160·cos(A) = 128, and cos(A) = 128/160 = 4/5 = 0.8."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:20:41.097Z",
+  "model": "claude-haiku-4-5-20251001"
+}

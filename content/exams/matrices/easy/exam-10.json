@@ -1,0 +1,42 @@
+{
+  "id": "matrices-easy-10",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Find the sum of matrices A and B:\nA = [2  3]\n    [1  4]\n\nB = [1  0]\n    [2  1]\n\nWhat is A + B?",
+      "answer": "[3  3]\n[3  5]",
+      "explanation": "Add corresponding elements: top-left is 2+1=3, top-right is 3+0=3, bottom-left is 1+2=3, bottom-right is 4+1=5."
+    },
+    {
+      "question": "What is the determinant of the 2×2 matrix M = [5  2]?\n                                                        [3  1]\n\nUse the formula det(M) = ad − bc for a 2×2 matrix.",
+      "answer": "-1",
+      "explanation": "For a 2×2 matrix [a b; c d], determinant = ad − bc = (5)(1) − (2)(3) = 5 − 6 = −1."
+    },
+    {
+      "question": "Multiply the matrices:\nP = [2  1]\nQ = [3]\n    [1]  [2]\n\nWhat is P × Q?",
+      "answer": "[8]\n[5]",
+      "explanation": "For 2×2 times 2×1: first row is (2)(3) + (1)(2) = 8; second row is (1)(3) + (1)(2) = 5."
+    },
+    {
+      "question": "If matrix C = [0  0], what is the determinant of C?\n              [0  0]",
+      "answer": "0",
+      "explanation": "The zero matrix always has determinant 0. Using ad − bc: (0)(0) − (0)(0) = 0."
+    },
+    {
+      "question": "Subtract matrix B from matrix A:\nA = [7  2]\n    [3  6]\n\nB = [2  1]\n    [1  2]\n\nWhat is A − B?",
+      "answer": "[5  1]\n[2  4]",
+      "explanation": "Subtract corresponding elements: (7−2=5, 2−1=1) in the first row, and (3−1=2, 6−2=4) in the second row."
+    },
+    {
+      "question": "Find the determinant of the matrix N = [4  0].\n                                         [0  3]",
+      "answer": "12",
+      "explanation": "This is a diagonal matrix. Determinant = (4)(3) − (0)(0) = 12 − 0 = 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:16:24.723Z",
+  "model": "claude-haiku-4-5-20251001"
+}

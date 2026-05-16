@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-2",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: m/4 = 6",
+      "answer": "m = 24",
+      "explanation": "Multiply both sides by 4 to isolate m: m = 6 × 4 = 24."
+    },
+    {
+      "question": "A taxi charges $2.50 plus $1.50 per mile. If a trip costs $10.00, how many miles was the trip?",
+      "answer": "5 miles",
+      "explanation": "Set up: 2.50 + 1.50m = 10.00. Subtract 2.50: 1.50m = 7.50. Divide: m = 5."
+    },
+    {
+      "question": "Solve for y: 2y - 3 = y + 4",
+      "answer": "y = 7",
+      "explanation": "Subtract y from both sides: y - 3 = 4. Add 3: y = 7."
+    },
+    {
+      "question": "Solve for x: 0.5x + 2 = 7",
+      "answer": "x = 10",
+      "explanation": "Subtract 2 from both sides: 0.5x = 5. Divide by 0.5: x = 10."
+    },
+    {
+      "question": "Solve for p: 2(p + 3) = 14",
+      "answer": "p = 4",
+      "explanation": "Divide both sides by 2: p + 3 = 7. Subtract 3: p = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:25.947Z",
+  "model": "claude-haiku-4-5-20251001"
+}

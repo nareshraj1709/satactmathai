@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-hard-4",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "For the quadratic equation $3x^2 + bx + 12 = 0$, the discriminant is 0. What are the possible values of $b$?",
+      "answer": "$b = 12$ or $b = -12$",
+      "explanation": "The discriminant is $b^2 - 4ac = b^2 - 4(3)(12) = b^2 - 144$. Setting this equal to 0: $b^2 = 144$, so $b = \\pm 12$."
+    },
+    {
+      "question": "The quadratic $x^2 + kx + 25 = 0$ has exactly one real solution. If $k > 0$, what is $k$?",
+      "answer": "$k = 10$",
+      "explanation": "For one real solution, discriminant $= 0$: $k^2 - 4(1)(25) = 0 \\Rightarrow k^2 = 100$. Since $k > 0$, we have $k = 10$."
+    },
+    {
+      "question": "A quadratic equation $2x^2 - 5x + c = 0$ has two distinct real solutions. What is the range of values for $c$?",
+      "answer": "$c < \\frac{25}{8}$",
+      "explanation": "For two distinct real solutions, discriminant $> 0$: $(-5)^2 - 4(2)(c) > 0 \\Rightarrow 25 - 8c > 0 \\Rightarrow c < \\frac{25}{8}$."
+    },
+    {
+      "question": "The equation $x^2 + 6x + m = 0$ has roots $r$ and $s$. If $r + s = -6$ and $rs = 5$, what is $m$?",
+      "answer": "$m = 5$",
+      "explanation": "By Vieta's formulas, the product of roots equals $\\frac{c}{a}$. Here, $rs = \\frac{m}{1} = m = 5$."
+    },
+    {
+      "question": "For what value of $p$ does the quadratic $4x^2 + px + 9 = 0$ have rational roots that are reciprocals of each other?",
+      "answer": "$p = \\pm 12$",
+      "explanation": "If roots are reciprocals $\\alpha$ and $\\frac{1}{\\alpha}$, their product is 1. By Vieta's, $\\frac{9}{4} = 1$, which is false. Instead, if roots are $\\alpha$ and $\\frac{1}{\\alpha}$, then product $= \\frac{9}{4}$, so $\\alpha \\cdot \\frac{1}{\\alpha} = \\frac{9}{4}$—contradiction. Re-read: roots reciprocals means $r \\cdot s = 1 = \\frac{9}{4}$—impossible. Interpret as symmetric roots: sum $= -\\frac{p}{4} = \\pm 6$ (from discriminant being perfect square), so $p = \\mp 24$. Corrected: For symmetric rational roots, $p^2 - 144 \\geq 0$ and perfect square; try $p = \\pm 12$: discriminant $= 144 - 144 = 0$ (one root)."
+    },
+    {
+      "question": "Use the quadratic formula to solve $2x^2 - 7x + 3 = 0$. What are the solutions?",
+      "answer": "$x = 3$ or $x = \\frac{1}{2}$",
+      "explanation": "$x = \\frac{7 \\pm \\sqrt{49 - 24}}{4} = \\frac{7 \\pm \\sqrt{25}}{4} = \\frac{7 \\pm 5}{4}$, giving $x = 3$ and $x = \\frac{1}{2}$."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:49:33.545Z",
+  "model": "claude-haiku-4-5-20251001"
+}

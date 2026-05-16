@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-2",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If you draw one marble at random, what is the probability that it is NOT blue?",
+      "answer": "7/10",
+      "explanation": "Total marbles = 5 + 3 + 2 = 10. Non-blue marbles = 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "In a survey of 120 students, 72 play soccer and 48 play basketball. If 24 students play both sports, how many students play at least one sport?",
+      "answer": "96",
+      "explanation": "Use inclusion-exclusion: (students in soccer) + (students in basketball) − (students in both) = 72 + 48 − 24 = 96."
+    },
+    {
+      "question": "A two-way table shows 80 students surveyed on whether they like math and whether they like science. 45 like math, 50 like science, and 20 like both. How many students like neither subject?",
+      "answer": "5",
+      "explanation": "Students liking at least one subject = 45 + 50 − 20 = 75. Students liking neither = 80 − 75 = 5."
+    },
+    {
+      "question": "A spinner has 8 equal sections: 3 red, 2 blue, and 3 yellow. You spin twice. What is the probability of spinning red on both spins?",
+      "answer": "9/64",
+      "explanation": "P(red first) = 3/8. P(red second) = 3/8. P(both red) = (3/8) × (3/8) = 9/64."
+    },
+    {
+      "question": "In a group of 100 employees, 60 have a college degree. If an employee is selected at random, what is the probability they do NOT have a college degree?",
+      "answer": "2/5",
+      "explanation": "Employees without a degree = 100 − 60 = 40. Probability = 40/100 = 2/5."
+    },
+    {
+      "question": "A box contains 4 red balls and 6 black balls. Two balls are drawn without replacement. What is the probability that both are red?",
+      "answer": "2/15",
+      "explanation": "P(first red) = 4/10. P(second red | first red) = 3/9. P(both red) = (4/10) × (3/9) = 12/90 = 2/15."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:24.589Z",
+  "model": "claude-haiku-4-5-20251001"
+}

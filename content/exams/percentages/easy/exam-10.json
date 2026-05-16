@@ -1,0 +1,42 @@
+{
+  "id": "percentages-easy-10",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A sweater originally costs $80. It is on sale for 25% off. What is the sale price?",
+      "answer": "$60",
+      "explanation": "Find 25% of $80: 0.25 × 80 = $20. Subtract from original: $80 − $20 = $60."
+    },
+    {
+      "question": "Maria's hourly wage increased from $12 to $15. What is the percent increase in her wage?",
+      "answer": "25%",
+      "explanation": "Change is $15 − $12 = $3. Percent increase = (3 ÷ 12) × 100 = 25%."
+    },
+    {
+      "question": "A restaurant bill is $45. You want to leave a 20% tip. How much is the tip?",
+      "answer": "$9",
+      "explanation": "Tip = 20% of $45 = 0.20 × 45 = $9."
+    },
+    {
+      "question": "A video game costs $60 and has a 30% discount applied. After the discount, a 10% sales tax is added. What is the final price?",
+      "answer": "$46.20",
+      "explanation": "After discount: $60 − 0.30($60) = $42. After tax: $42 + 0.10($42) = $42 + $4.20 = $46.20."
+    },
+    {
+      "question": "Last month, a store sold 200 items. This month, it sold 15% fewer items. How many items did it sell this month?",
+      "answer": "170",
+      "explanation": "15% of 200 = 0.15 × 200 = 30. Items sold = 200 − 30 = 170."
+    },
+    {
+      "question": "If a price increases by 20%, and then decreases by 20%, is the final price equal to the original price? Explain.",
+      "answer": "No. The final price is 96% of the original.",
+      "explanation": "Start with 100. After 20% increase: 120. After 20% decrease of 120: 120 − 24 = 96. The percentage changes apply to different base amounts."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:52.981Z",
+  "model": "claude-haiku-4-5-20251001"
+}

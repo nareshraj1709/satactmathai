@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-easy-7",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Find the slope of the line passing through the points (2, 5) and (4, 9).",
+      "answer": "2",
+      "explanation": "Use the slope formula: m = (y₂ - y₁) / (x₂ - x₁) = (9 - 5) / (4 - 2) = 4 / 2 = 2."
+    },
+    {
+      "question": "What is the y-intercept of the line y = 3x - 7?",
+      "answer": "-7",
+      "explanation": "The equation is in slope-intercept form y = mx + b, where b is the y-intercept. Here b = -7."
+    },
+    {
+      "question": "A line passes through (1, 2) and (1, 8). What is its slope?",
+      "answer": "undefined",
+      "explanation": "The x-coordinates are the same, so this is a vertical line. Vertical lines have undefined slope because we cannot divide by zero."
+    },
+    {
+      "question": "Write the equation of a line with slope 4 and y-intercept 2.",
+      "answer": "y = 4x + 2",
+      "explanation": "Use slope-intercept form y = mx + b, where m = 4 and b = 2."
+    },
+    {
+      "question": "A line passes through (0, 3) and (5, 8). What is the slope?",
+      "answer": "1",
+      "explanation": "m = (8 - 3) / (5 - 0) = 5 / 5 = 1."
+    },
+    {
+      "question": "If a line has slope -2 and passes through (3, 1), find the y-intercept.",
+      "answer": "7",
+      "explanation": "Use y = mx + b: substitute 1 = -2(3) + b, so 1 = -6 + b, thus b = 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:20:44.167Z",
+  "model": "claude-haiku-4-5-20251001"
+}

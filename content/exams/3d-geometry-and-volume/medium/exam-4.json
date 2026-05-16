@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-medium-4",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A cylinder has a radius of 5 cm and a height of 12 cm. What is its volume in cubic centimeters? (Use π ≈ 3.14)",
+      "answer": "942",
+      "explanation": "Volume of a cylinder = πr²h. V = 3.14 × 5² × 12 = 3.14 × 25 × 12 = 3.14 × 300 = 942 cm³."
+    },
+    {
+      "question": "A rectangular prism has dimensions 4 m × 6 m × 9 m. If you double each dimension, by what factor does the volume increase?",
+      "answer": "8",
+      "explanation": "Original volume = 4 × 6 × 9 = 216 m³. New volume = 8 × 12 × 18 = 1728 m³. Ratio = 1728 ÷ 216 = 8. Scaling each dimension by 2 scales volume by 2³ = 8."
+    },
+    {
+      "question": "A cone has a base radius of 3 inches and a height of 8 inches. What is its volume in cubic inches? (Use π ≈ 3.14)",
+      "answer": "75.36",
+      "explanation": "Volume of a cone = (1/3)πr²h. V = (1/3) × 3.14 × 3² × 8 = (1/3) × 3.14 × 9 × 8 = (1/3) × 226.08 = 75.36 in³."
+    },
+    {
+      "question": "A sphere has a diameter of 10 cm. Express its volume in terms of π.",
+      "answer": "500π/3 or (500/3)π",
+      "explanation": "Radius = 5 cm. Volume = (4/3)πr³ = (4/3)π(5)³ = (4/3)π(125) = 500π/3 cm³."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 20 cm² and a height (length) of 7 cm. What is its volume?",
+      "answer": "140",
+      "explanation": "Volume of a prism = base area × height. V = 20 × 7 = 140 cm³. The shape of the base doesn't matter; only its area and the prism's length."
+    },
+    {
+      "question": "A cylinder has a volume of 144π cubic feet and a height of 9 feet. What is its radius in feet?",
+      "answer": "4",
+      "explanation": "Volume = πr²h, so 144π = πr²(9). Divide by π: 144 = 9r². Thus r² = 16, so r = 4 feet."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:23.821Z",
+  "model": "claude-haiku-4-5-20251001"
+}

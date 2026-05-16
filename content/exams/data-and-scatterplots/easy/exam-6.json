@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-6",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test scores for 10 students. The points cluster around a line that passes through (0, 40) and (5, 70). What is the slope of this line of best fit?",
+      "answer": "6",
+      "explanation": "Slope = (y₂ − y₁) / (x₂ − x₁) = (70 − 40) / (5 − 0) = 30 / 5 = 6. This means test score increases by 6 points for each hour studied."
+    },
+    {
+      "question": "A scatterplot displays the relationship between temperature (°C) and ice cream sales (dollars). The line of best fit is y = 15x + 50. What does the y-intercept represent in this context?",
+      "answer": "The predicted ice cream sales when the temperature is 0°C",
+      "explanation": "The y-intercept (50) is the value of y when x = 0. It represents the baseline sales amount before temperature affects the relationship."
+    },
+    {
+      "question": "A scatterplot shows a linear trend between car age (years) and resale value (thousands of dollars). The line of best fit passes through (2, 18) and (6, 10). What is the resale value predicted for a 4-year-old car?",
+      "answer": "14",
+      "explanation": "Slope = (10 − 18) / (6 − 2) = −8 / 4 = −2. Using point-slope form: y − 18 = −2(x − 2), so y = −2x + 22. At x = 4: y = −2(4) + 22 = 14 thousand dollars."
+    },
+    {
+      "question": "A scatterplot displays the number of hours worked per week versus weekly earnings for employees. The data shows a positive linear trend. Does the correlation coefficient for this relationship have a positive or negative value?",
+      "answer": "Positive",
+      "explanation": "A positive linear trend means as one variable increases, the other tends to increase. The correlation coefficient r is positive when variables move together in the same direction."
+    },
+    {
+      "question": "In a scatterplot of plant height (cm) versus days after planting, the line of best fit has equation y = 2x + 5. If a plant is 25 cm tall, approximately how many days after planting is it?",
+      "answer": "10",
+      "explanation": "Substitute y = 25 into y = 2x + 5: 25 = 2x + 5, so 20 = 2x, and x = 10 days."
+    },
+    {
+      "question": "A scatterplot shows the relationship between advertising spending and product sales. Most points fall close to the line of best fit, but two points lie far from the line. What are these points called?",
+      "answer": "Outliers",
+      "explanation": "Points that deviate significantly from the overall linear pattern in a scatterplot are called outliers. They may represent unusual cases or measurement errors."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:36:46.310Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-medium-4",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 4,
+  "questions": [
+    {
+      "question": "A recipe calls for 3 cups of flour for every 2 cups of sugar. If you want to make a batch using 9 cups of flour, how many cups of sugar do you need?",
+      "answer": "6",
+      "explanation": "Set up the proportion: 3/2 = 9/x. Cross-multiply: 3x = 18, so x = 6."
+    },
+    {
+      "question": "The ratio of boys to girls in a class is 4:5. If there are 20 boys, how many students are in the class total?",
+      "answer": "45",
+      "explanation": "If boys:girls = 4:5 and there are 20 boys, then 4 parts = 20, so 1 part = 5. Girls = 5 × 5 = 25. Total = 20 + 25 = 45."
+    },
+    {
+      "question": "On a map, 1 inch represents 50 miles. If two cities are 3.5 inches apart on the map, what is the actual distance between them in miles?",
+      "answer": "175",
+      "explanation": "Use the proportion: 1 inch / 50 miles = 3.5 inches / x miles. Solve: x = 3.5 × 50 = 175 miles."
+    },
+    {
+      "question": "A car travels 240 miles on 8 gallons of gas. At this rate, how many gallons are needed to travel 450 miles?",
+      "answer": "15",
+      "explanation": "Set up: 240 miles / 8 gallons = 450 miles / x gallons. Cross-multiply: 240x = 3600, so x = 15."
+    },
+    {
+      "question": "The ratio of red marbles to blue marbles is 7:3. If there are 28 red marbles, how many blue marbles are there?",
+      "answer": "12",
+      "explanation": "If red:blue = 7:3 and there are 28 red marbles, then 7 parts = 28, so 1 part = 4. Blue marbles = 3 × 4 = 12."
+    },
+    {
+      "question": "A juice mixture contains orange juice and cranberry juice in the ratio 5:2. If the mixture contains 35 ounces of orange juice, how many total ounces of juice are in the mixture?",
+      "answer": "49",
+      "explanation": "If orange:cranberry = 5:2 and orange juice = 35 oz, then 5 parts = 35, so 1 part = 7. Cranberry = 2 × 7 = 14 oz. Total = 35 + 14 = 49 oz."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:02.608Z",
+  "model": "claude-haiku-4-5-20251001"
+}

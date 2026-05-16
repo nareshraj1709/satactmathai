@@ -1,0 +1,42 @@
+{
+  "id": "slope-and-linear-graphs-hard-5",
+  "sectionSlug": "slope-and-linear-graphs",
+  "sectionName": "Slope & Linear Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A line passes through the points (−3, 5) and (2, −10). What is the slope of the line?",
+      "answer": "-3",
+      "explanation": "Slope = (−10 − 5) / (2 − (−3)) = −15 / 5 = −3. Use the formula m = (y₂ − y₁) / (x₂ − x₁) and simplify carefully."
+    },
+    {
+      "question": "The line 3x − 4y = 12 is rewritten in slope-intercept form. What is the slope?",
+      "answer": "3/4",
+      "explanation": "Solve for y: −4y = −3x + 12, so y = (3/4)x − 3. The slope is the coefficient of x in slope-intercept form y = mx + b."
+    },
+    {
+      "question": "A line with slope −2 passes through the point (4, −3). Write the equation of the line in the form y = mx + b.",
+      "answer": "y = -2x + 5",
+      "explanation": "Use point-slope form: y − (−3) = −2(x − 4). Simplify: y + 3 = −2x + 8, so y = −2x + 5."
+    },
+    {
+      "question": "Two parallel lines have the same slope. If one line is y = (2/3)x − 5, and another parallel line passes through (6, 4), what is the y-intercept of the second line?",
+      "answer": "0",
+      "explanation": "Parallel lines have slope m = 2/3. Substitute (6, 4) into y = (2/3)x + b: 4 = (2/3)(6) + b gives 4 = 4 + b, so b = 0."
+    },
+    {
+      "question": "The slope of line AB is 1/2. If A is at (−4, 3) and B is at (0, y), find y.",
+      "answer": "5",
+      "explanation": "Use slope formula: (y − 3) / (0 − (−4)) = 1/2. This gives (y − 3) / 4 = 1/2, so y − 3 = 2, thus y = 5."
+    },
+    {
+      "question": "A line has undefined slope and passes through (−2, 7). Write the equation of the line.",
+      "answer": "x = -2",
+      "explanation": "Undefined slope means the line is vertical. A vertical line has the form x = c, where c is the x-coordinate of all points on it. Since it passes through (−2, 7), the equation is x = −2."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:22:21.239Z",
+  "model": "claude-haiku-4-5-20251001"
+}

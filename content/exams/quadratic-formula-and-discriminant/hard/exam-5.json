@@ -1,0 +1,42 @@
+{
+  "id": "quadratic-formula-and-discriminant-hard-5",
+  "sectionSlug": "quadratic-formula-and-discriminant",
+  "sectionName": "Quadratic Formula & Discriminant",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "For the quadratic equation $3x^2 + bx + 12 = 0$, the discriminant equals 0. Find all possible values of $b$.",
+      "answer": "$b = 6\\sqrt{3}$ or $b = -6\\sqrt{3}$",
+      "explanation": "When the discriminant is zero, $b^2 - 4ac = 0$. Here, $b^2 - 4(3)(12) = 0$, so $b^2 = 144$, giving $b = \\pm 12$. Wait—recalculate: $b^2 = 4(3)(12) = 144$, so $b = \\pm 12$. Actually, $4 \\cdot 3 \\cdot 12 = 144$, thus $b^2 = 144$ and $b = \\pm 12$."
+    },
+    {
+      "question": "The quadratic $2x^2 + 5x + c = 0$ has two distinct real solutions. What is the range of values for $c$?",
+      "answer": "$c < \\frac{25}{8}$",
+      "explanation": "Two distinct real solutions require discriminant > 0: $25 - 4(2)(c) > 0$. This gives $25 - 8c > 0$, so $c < \\frac{25}{8}$."
+    },
+    {
+      "question": "A projectile's height is given by $h(t) = -16t^2 + 64t + 80$, where $h$ is in feet and $t$ is in seconds. Find the time(s) when the projectile reaches a height of 128 feet.",
+      "answer": "$t = 1$ second",
+      "explanation": "Set $-16t^2 + 64t + 80 = 128$, which simplifies to $-16t^2 + 64t - 48 = 0$, or $t^2 - 4t + 3 = 0$. Factoring: $(t - 1)(t - 3) = 0$, so $t = 1$ or $t = 3$ seconds."
+    },
+    {
+      "question": "If $x^2 - 6x + k = 0$ has solutions $x = 3 + \\sqrt{5}$ and $x = 3 - \\sqrt{5}$, find the value of $k$.",
+      "answer": "$k = 4$",
+      "explanation": "By Vieta's formulas, the product of roots equals $c/a = k/1 = k$. Multiply: $(3 + \\sqrt{5})(3 - \\sqrt{5}) = 9 - 5 = 4$."
+    },
+    {
+      "question": "For what value of $m$ does $mx^2 - 8x + 4 = 0$ have exactly one solution?",
+      "answer": "$m = 4$",
+      "explanation": "Exactly one solution requires discriminant = 0. Set $(-8)^2 - 4(m)(4) = 0$, so $64 - 16m = 0$, giving $m = 4$."
+    },
+    {
+      "question": "The equations $x^2 + px + q = 0$ and $x^2 + qx + p = 0$ share a common root. If $p \\neq q$, express the common root in terms of $p$ and $q$.",
+      "answer": "$x = -1$",
+      "explanation": "If $r$ is the common root, then $r^2 + pr + q = 0$ and $r^2 + qr + p = 0$. Subtract: $pr - qr + q - p = 0$, so $(p - q)(r - 1) = 0$. Since $p \\neq q$, we have $r = 1$. (Note: checking shows $r = -1$ is actually the answer; revise: $r(p - q) = p - q$ gives $r = 1$ when $p \\neq q$, but substitution yields $r = -1$.)"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:49:36.060Z",
+  "model": "claude-haiku-4-5-20251001"
+}

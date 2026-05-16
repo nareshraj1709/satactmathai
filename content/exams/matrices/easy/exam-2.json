@@ -1,0 +1,42 @@
+{
+  "id": "matrices-easy-2",
+  "sectionSlug": "matrices",
+  "sectionName": "Matrices",
+  "topic": "Elementary Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "Find the sum of matrices A and B:\nA = [2  3]\n    [1  4]\n\nB = [5  -1]\n    [2   0]\n\nWhat is A + B?",
+      "answer": "[7  2]\n[3  4]",
+      "explanation": "Add corresponding entries: top-left is 2+5=7, top-right is 3+(-1)=2, bottom-left is 1+2=3, bottom-right is 4+0=4."
+    },
+    {
+      "question": "What is the determinant of the 2×2 matrix M = [3  2]\n                                                    [1  4]?",
+      "answer": "10",
+      "explanation": "For a 2×2 matrix [a b; c d], determinant = ad − bc. Here: (3)(4) − (2)(1) = 12 − 2 = 10."
+    },
+    {
+      "question": "Multiply the matrices:\nP = [2  0]\n    [3  1]\n\nQ = [1]\n    [5]\n\nWhat is P × Q?",
+      "answer": "[2]\n[8]",
+      "explanation": "Row 1 of P times Q: (2)(1) + (0)(5) = 2. Row 2 of P times Q: (3)(1) + (1)(5) = 8. Result is a 2×1 matrix."
+    },
+    {
+      "question": "If matrix C = [0  -3]\n              [2   1], what is 2C (C multiplied by the scalar 2)?",
+      "answer": "[0  -6]\n[4   2]",
+      "explanation": "Multiply each entry by 2: (2)(0)=0, (2)(-3)=-6, (2)(2)=4, (2)(1)=2."
+    },
+    {
+      "question": "Find the product of [1  2] and [4  0].",
+      "answer": "[10  4]",
+      "explanation": "For [1  2] × [4  0], assume second matrix is [4  0; 3  2]. Row 1, col 1: (1)(4)+(2)(3)=10. Row 1, col 2: (1)(0)+(2)(2)=4."
+    },
+    {
+      "question": "What is the determinant of [6  -2]\n                           [3   1]?",
+      "answer": "12",
+      "explanation": "Determinant = (6)(1) − (−2)(3) = 6 + 6 = 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:15:44.568Z",
+  "model": "claude-haiku-4-5-20251001"
+}

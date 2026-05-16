@@ -1,0 +1,42 @@
+{
+  "id": "systems-of-equations-easy-10",
+  "sectionSlug": "systems-of-equations",
+  "sectionName": "Systems of Equations",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Solve the system:\n2x + y = 7\nx = 3\n\nWhat is y?",
+      "answer": "y = 1",
+      "explanation": "Substitute x = 3 into the first equation: 2(3) + y = 7, so 6 + y = 7. Therefore y = 1."
+    },
+    {
+      "question": "Solve the system:\nx + y = 5\nx - y = 1\n\nWhat is x?",
+      "answer": "x = 3",
+      "explanation": "Add the two equations to eliminate y: (x + y) + (x - y) = 5 + 1, giving 2x = 6, so x = 3."
+    },
+    {
+      "question": "A store sells notebooks for $2 each and pens for $1 each. Sarah buys 4 notebooks and some pens, spending $10 total. How many pens did she buy?",
+      "answer": "2",
+      "explanation": "Set up: 2(4) + 1p = 10, where p is the number of pens. So 8 + p = 10, and p = 2."
+    },
+    {
+      "question": "Solve the system:\n3x - 2y = 5\n3x + y = 8\n\nWhat is y?",
+      "answer": "y = 1",
+      "explanation": "Subtract the second equation from the first: (3x - 2y) - (3x + y) = 5 - 8, giving -3y = -3, so y = 1."
+    },
+    {
+      "question": "Solve using substitution:\ny = 2x\nx + y = 9\n\nWhat is x?",
+      "answer": "x = 3",
+      "explanation": "Substitute y = 2x into the second equation: x + 2x = 9, so 3x = 9 and x = 3."
+    },
+    {
+      "question": "Two numbers add to 12 and differ by 4. What is the larger number?",
+      "answer": "8",
+      "explanation": "Let the numbers be a and b with a > b. Set up: a + b = 12 and a - b = 4. Add to get 2a = 16, so a = 8."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:23:35.479Z",
+  "model": "claude-haiku-4-5-20251001"
+}

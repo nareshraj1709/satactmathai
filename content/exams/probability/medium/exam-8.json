@@ -1,0 +1,42 @@
+{
+  "id": "probability-medium-8",
+  "sectionSlug": "probability",
+  "sectionName": "Probability",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is either red or green?",
+      "answer": "7/10",
+      "explanation": "Total marbles = 5 + 3 + 2 = 10. Red or green = 5 + 2 = 7. Probability = 7/10."
+    },
+    {
+      "question": "In a school, 60% of students play soccer and 40% play basketball. If 25% of students play both sports, what is the probability that a randomly selected student plays soccer or basketball (or both)?",
+      "answer": "0.75 or 3/4",
+      "explanation": "Use inclusion-exclusion: P(S ∪ B) = P(S) + P(B) − P(S ∩ B) = 0.60 + 0.40 − 0.25 = 0.75."
+    },
+    {
+      "question": "A two-way table shows that 120 students were surveyed about coffee preference. 72 like coffee, and of those, 48 also like tea. 30 students like neither. How many students like tea but not coffee?",
+      "answer": "18",
+      "explanation": "Total liking tea = 120 − 30 (neither) − (72 − 48 who like coffee only) = 90 − 72 = 18."
+    },
+    {
+      "question": "If P(A) = 0.3 and P(B) = 0.5, and A and B are independent events, what is P(A and B)?",
+      "answer": "0.15",
+      "explanation": "For independent events, P(A and B) = P(A) × P(B) = 0.3 × 0.5 = 0.15."
+    },
+    {
+      "question": "A deck has 52 cards. You draw one card, do not replace it, then draw a second card. What is the probability that both cards are hearts? (Express as a fraction in lowest terms.)",
+      "answer": "13/52 × 12/51 = 1/17",
+      "explanation": "First card is a heart: 13/52. Second card is a heart (given first was): 12/51. Product = (13 × 12)/(52 × 51) = 156/2652 = 1/17."
+    },
+    {
+      "question": "In a group of 200 people, 80 exercise regularly and 120 do not. Among those who exercise, 60 eat healthy. Among those who don't exercise, 30 eat healthy. If a person is selected at random and eats healthy, what is the probability they also exercise regularly? (Round to the nearest hundredth.)",
+      "answer": "0.67",
+      "explanation": "Total eating healthy = 60 + 30 = 90. P(exercise | healthy) = 60/90 = 2/3 ≈ 0.67."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:43:23.149Z",
+  "model": "claude-haiku-4-5-20251001"
+}

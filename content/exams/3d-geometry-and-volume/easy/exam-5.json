@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-5",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 5,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 4 cm, and height 3 cm. What is its volume?",
+      "answer": "60 cm³",
+      "explanation": "Volume of a rectangular prism = length × width × height = 5 × 4 × 3 = 60 cm³."
+    },
+    {
+      "question": "A cylinder has a radius of 2 inches and a height of 7 inches. Using π ≈ 3.14, what is its volume to the nearest whole number?",
+      "answer": "88 cubic inches",
+      "explanation": "Volume of a cylinder = πr²h = 3.14 × 2² × 7 = 3.14 × 4 × 7 = 87.92 ≈ 88 cubic inches."
+    },
+    {
+      "question": "A sphere has a radius of 3 cm. Using π ≈ 3.14, what is its volume to the nearest whole number?",
+      "answer": "113 cm³",
+      "explanation": "Volume of a sphere = (4/3)πr³ = (4/3) × 3.14 × 3³ = (4/3) × 3.14 × 27 ≈ 113.04 ≈ 113 cm³."
+    },
+    {
+      "question": "A cone has a base radius of 4 meters and a height of 6 meters. Using π ≈ 3.14, what is its volume to the nearest whole number?",
+      "answer": "100 cubic meters",
+      "explanation": "Volume of a cone = (1/3)πr²h = (1/3) × 3.14 × 4² × 6 = (1/3) × 3.14 × 16 × 6 ≈ 100.48 ≈ 100 cubic meters."
+    },
+    {
+      "question": "A triangular prism has a triangular base with area 12 square inches and a height (length) of 5 inches. What is the volume?",
+      "answer": "60 cubic inches",
+      "explanation": "Volume of any prism = base area × height = 12 × 5 = 60 cubic inches. The base is the triangular face."
+    },
+    {
+      "question": "If a cube has a side length of 4 cm, what is its volume?",
+      "answer": "64 cm³",
+      "explanation": "A cube is a special rectangular prism where all sides are equal. Volume = side³ = 4³ = 64 cm³."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:18:54.390Z",
+  "model": "claude-haiku-4-5-20251001"
+}

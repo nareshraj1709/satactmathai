@@ -1,0 +1,42 @@
+{
+  "id": "number-properties-easy-2",
+  "sectionSlug": "number-properties",
+  "sectionName": "Number Properties",
+  "topic": "Pre-Algebra (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "What is the greatest common factor (GCF) of 24 and 36?",
+      "answer": "12",
+      "explanation": "List factors: 24 has factors 1, 2, 3, 4, 6, 8, 12, 24 and 36 has factors 1, 2, 3, 4, 6, 9, 12, 18, 36. The largest shared factor is 12."
+    },
+    {
+      "question": "Is 57 divisible by 3? Explain using the divisibility rule.",
+      "answer": "Yes",
+      "explanation": "The divisibility rule for 3 states: a number is divisible by 3 if the sum of its digits is divisible by 3. Here, 5 + 7 = 12, and 12 is divisible by 3, so 57 is divisible by 3."
+    },
+    {
+      "question": "List all prime numbers between 10 and 20.",
+      "answer": "11, 13, 17, 19",
+      "explanation": "A prime number has exactly two factors: 1 and itself. Check each: 11, 13, 17, and 19 are prime. Numbers like 12, 14, 15, 16, 18, 20 are composite."
+    },
+    {
+      "question": "Find the least common multiple (LCM) of 6 and 8.",
+      "answer": "24",
+      "explanation": "Multiples of 6: 6, 12, 18, 24, 30,... Multiples of 8: 8, 16, 24, 32,... The smallest common multiple is 24."
+    },
+    {
+      "question": "A baker has 48 chocolate chips and 36 nuts. She wants to divide them equally into bags with no leftovers, using the greatest number of bags possible. How many bags can she make?",
+      "answer": "12",
+      "explanation": "The number of bags is the GCF of 48 and 36. The GCF is 12, so she can make 12 bags (each with 4 chips and 3 nuts)."
+    },
+    {
+      "question": "Which of the following is a factor of 60: 7, 8, or 15?",
+      "answer": "15",
+      "explanation": "Check divisibility: 60 ÷ 7 ≈ 8.6 (not a factor), 60 ÷ 8 = 7.5 (not a factor), 60 ÷ 15 = 4 (15 is a factor)."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:12:57.169Z",
+  "model": "claude-haiku-4-5-20251001"
+}

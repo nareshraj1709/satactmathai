@@ -1,0 +1,42 @@
+{
+  "id": "inequalities-and-graphs-easy-1",
+  "sectionSlug": "inequalities-and-graphs",
+  "sectionName": "Inequalities & Graphs",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 2 < 11",
+      "answer": "x < 3",
+      "explanation": "Subtract 2 from both sides: 3x < 9. Divide by 3: x < 3."
+    },
+    {
+      "question": "Which value of x satisfies the inequality 2x - 5 ≥ 3?",
+      "answer": "x ≥ 4",
+      "explanation": "Add 5 to both sides: 2x ≥ 8. Divide by 2: x ≥ 4."
+    },
+    {
+      "question": "A student has $15. If she buys a notebook for $4, she will have at least $8 left. Write an inequality for the original amount she could have spent before buying the notebook.",
+      "answer": "15 - 4 ≥ 8 or equivalent",
+      "explanation": "Starting with $15, subtracting the $4 notebook cost must leave at least $8. This simplifies to 11 ≥ 8, which is true and confirms her budget works."
+    },
+    {
+      "question": "Solve for x: -2x > 6",
+      "answer": "x < -3",
+      "explanation": "Divide both sides by -2. Remember: dividing by a negative flips the inequality sign, so x < -3."
+    },
+    {
+      "question": "Graph the inequality x ≤ 2 on a number line. Describe your graph.",
+      "answer": "Closed dot at 2, shaded line extending left",
+      "explanation": "The ≤ symbol means 'less than or equal to,' so use a closed (filled) dot at 2 and shade all values to the left."
+    },
+    {
+      "question": "Solve: 5 + x < 12",
+      "answer": "x < 7",
+      "explanation": "Subtract 5 from both sides: x < 7."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:27:20.956Z",
+  "model": "claude-haiku-4-5-20251001"
+}

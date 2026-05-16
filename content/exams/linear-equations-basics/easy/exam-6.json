@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-easy-6",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5",
+      "explanation": "Subtract 5 from both sides: 3x = 15. Divide both sides by 3: x = 5."
+    },
+    {
+      "question": "Solve for m: m/4 = 9",
+      "answer": "m = 36",
+      "explanation": "Multiply both sides by 4 to isolate m: m = 9 × 4 = 36."
+    },
+    {
+      "question": "A notebook costs $2 and a pen costs $1. If Maria buys 3 notebooks and 4 pens, how much does she spend?",
+      "answer": "$10",
+      "explanation": "Cost = 3(2) + 4(1) = 6 + 4 = $10."
+    },
+    {
+      "question": "Solve for y: 2y - 7 = 3",
+      "answer": "y = 5",
+      "explanation": "Add 7 to both sides: 2y = 10. Divide by 2: y = 5."
+    },
+    {
+      "question": "Solve for x: 0.5x = 12",
+      "answer": "x = 24",
+      "explanation": "Divide both sides by 0.5 (or multiply by 2): x = 12 ÷ 0.5 = 24."
+    },
+    {
+      "question": "Solve for a: 4a + 2 = a + 11",
+      "answer": "a = 3",
+      "explanation": "Subtract a from both sides: 3a + 2 = 11. Subtract 2: 3a = 9. Divide by 3: a = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:23.827Z",
+  "model": "claude-haiku-4-5-20251001"
+}

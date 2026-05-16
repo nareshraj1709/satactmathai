@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-medium-6",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 58° and angle B measures 67°. What is the measure of angle C?",
+      "answer": "55°",
+      "explanation": "The sum of angles in a triangle is 180°. Therefore, angle C = 180° − 58° − 67° = 55°."
+    },
+    {
+      "question": "A right triangle has one acute angle measuring 34°. What is the measure of the other acute angle?",
+      "answer": "56°",
+      "explanation": "In a right triangle, the two acute angles are complementary (sum to 90°). The other angle = 90° − 34° = 56°."
+    },
+    {
+      "question": "In triangle PQR, angle P = 72°. If angle Q is twice angle R, what is the measure of angle Q?",
+      "answer": "72°",
+      "explanation": "Let angle R = x. Then angle Q = 2x. So 72° + 2x + x = 180°, giving 3x = 108°, thus x = 36°. Angle Q = 2(36°) = 72°."
+    },
+    {
+      "question": "Two sides of an isosceles triangle measure 8 cm and 8 cm. If the angle between them is 64°, what is the measure of each base angle?",
+      "answer": "58°",
+      "explanation": "In an isosceles triangle, the base angles (opposite the equal sides) are equal. Let each base angle = x. Then 64° + x + x = 180°, so 2x = 116°, and x = 58°."
+    },
+    {
+      "question": "An exterior angle of a triangle measures 115°. If one of the non-adjacent interior angles measures 43°, what is the measure of the other non-adjacent interior angle?",
+      "answer": "72°",
+      "explanation": "An exterior angle equals the sum of the two non-adjacent interior angles. So 115° = 43° + (other angle), giving the other angle = 72°."
+    },
+    {
+      "question": "In a right triangle, one acute angle is 3 times the other acute angle. Find the measure of the smaller acute angle.",
+      "answer": "22.5°",
+      "explanation": "Let the smaller acute angle = x. Then the larger = 3x. Since they're complementary: x + 3x = 90°, so 4x = 90°, and x = 22.5°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:03:22.863Z",
+  "model": "claude-haiku-4-5-20251001"
+}

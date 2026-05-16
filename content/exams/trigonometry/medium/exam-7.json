@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-7",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "A right triangle has legs of length 5 and 12. Find the sine of the angle opposite the side of length 5.",
+      "answer": "5/13",
+      "explanation": "The hypotenuse is √(5² + 12²) = √169 = 13. Sine equals opposite/hypotenuse = 5/13."
+    },
+    {
+      "question": "If cos(θ) = 3/5 and θ is in the first quadrant, what is sin(θ)?",
+      "answer": "4/5",
+      "explanation": "Use the Pythagorean identity sin²(θ) + cos²(θ) = 1. Then sin²(θ) = 1 − 9/25 = 16/25, so sin(θ) = 4/5 (positive in Q1)."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 65° angle with the ground. If the ladder is 10 feet long, how far up the wall does it reach? Round to the nearest tenth.",
+      "answer": "9.1 feet",
+      "explanation": "The height is the opposite side to the 65° angle. Use sin(65°) = height/10, so height = 10 × sin(65°) ≈ 10 × 0.906 ≈ 9.1."
+    },
+    {
+      "question": "On the unit circle, what is the value of tan(240°)?",
+      "answer": "√3",
+      "explanation": "240° is in Q3 where both sin and cos are negative. sin(240°) = −√3/2 and cos(240°) = −1/2, so tan(240°) = (−√3/2)/(−1/2) = √3."
+    },
+    {
+      "question": "Simplify: sin²(x) + sin²(x)tan²(x)",
+      "answer": "tan²(x)",
+      "explanation": "Factor: sin²(x)[1 + tan²(x)]. Use the identity 1 + tan²(x) = sec²(x), so sin²(x) · sec²(x) = sin²(x)/(cos²(x)) = tan²(x)."
+    },
+    {
+      "question": "A surveyor measures the angle of elevation to the top of a building as 35° from a point 60 meters away. What is the height of the building? Round to the nearest metre.",
+      "answer": "42 metres",
+      "explanation": "Use tan(35°) = height/60. Height = 60 × tan(35°) ≈ 60 × 0.700 ≈ 42 metres."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:37.225Z",
+  "model": "claude-haiku-4-5-20251001"
+}

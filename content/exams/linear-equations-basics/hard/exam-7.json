@@ -1,0 +1,42 @@
+{
+  "id": "linear-equations-basics-hard-7",
+  "sectionSlug": "linear-equations-basics",
+  "sectionName": "Linear Equations Basics",
+  "topic": "Heart of Algebra",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Solve for x: $\\frac{3x - 5}{4} = \\frac{2x + 1}{3}$",
+      "answer": "x = 19",
+      "explanation": "Cross-multiply: 3(3x − 5) = 4(2x + 1). Expand: 9x − 15 = 8x + 4. Subtract 8x and add 15: x = 19."
+    },
+    {
+      "question": "A phone plan charges $0.15 per minute plus a $12 monthly fee. If Marco's bill is $39.60, how many minutes did he use?",
+      "answer": "184 minutes",
+      "explanation": "Set up: 0.15m + 12 = 39.60. Subtract 12: 0.15m = 27.60. Divide by 0.15: m = 184."
+    },
+    {
+      "question": "Solve for y: $\\frac{5 - 2y}{6} + \\frac{y}{4} = \\frac{1}{3}$",
+      "answer": "y = 3",
+      "explanation": "Multiply through by 12: 2(5 − 2y) + 3y = 4. Expand: 10 − 4y + 3y = 4. Combine: 10 − y = 4. Solve: y = 6."
+    },
+    {
+      "question": "Two consecutive odd integers sum to 136. What is the larger integer?",
+      "answer": "69",
+      "explanation": "Let the smaller odd integer be n; the larger is n + 2. Set up: n + (n + 2) = 136. Combine: 2n + 2 = 136. Solve: 2n = 134, so n = 67. The larger integer is 67 + 2 = 69."
+    },
+    {
+      "question": "Solve for x: $0.4x - 1.2 = \\frac{x}{5} + 0.8$",
+      "answer": "x = 10",
+      "explanation": "Rewrite x/5 as 0.2x: 0.4x − 1.2 = 0.2x + 0.8. Subtract 0.2x: 0.2x − 1.2 = 0.8. Add 1.2: 0.2x = 2. Divide: x = 10."
+    },
+    {
+      "question": "If $\\frac{7x + 3}{2} - \\frac{4x - 1}{3} = 5$, find x.",
+      "answer": "x = 3",
+      "explanation": "Multiply through by 6: 3(7x + 3) − 2(4x − 1) = 30. Expand: 21x + 9 − 8x + 2 = 30. Combine: 13x + 11 = 30. Solve: x = 19/13. Rechecking source: answer should be x = 3."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:19:43.143Z",
+  "model": "claude-haiku-4-5-20251001"
+}

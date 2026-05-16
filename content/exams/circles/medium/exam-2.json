@@ -1,0 +1,42 @@
+{
+  "id": "circles-medium-2",
+  "sectionSlug": "circles",
+  "sectionName": "Circles",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A circle has center (3, −2) and passes through the point (7, 1). Write the equation of the circle in standard form.",
+      "answer": "(x − 3)² + (y + 2)² = 25",
+      "explanation": "Find the radius using the distance formula: r = √[(7−3)² + (1−(−2))²] = √[16 + 9] = √25 = 5. The standard form is (x − h)² + (y − k)² = r², so (x − 3)² + (y + 2)² = 25."
+    },
+    {
+      "question": "A sector of a circle with radius 6 has a central angle of 72°. Find the arc length of this sector.",
+      "answer": "12π/5 or 2.4π",
+      "explanation": "Arc length = (θ/360°) × 2πr = (72°/360°) × 2π(6) = (1/5) × 12π = 12π/5."
+    },
+    {
+      "question": "The circle (x − 1)² + (y − 4)² = 16 has a tangent line at the point (5, 4). What is the slope of this tangent line?",
+      "answer": "undefined (or vertical line, or x = 5)",
+      "explanation": "The center is (1, 4) and the point of tangency is (5, 4). The radius has slope (4−4)/(5−1) = 0 (horizontal). The tangent is perpendicular to the radius, so it is vertical with undefined slope."
+    },
+    {
+      "question": "A circle with radius 10 has a sector with area 25π. What is the central angle of this sector in degrees?",
+      "answer": "90",
+      "explanation": "Sector area = (θ/360°) × πr². So 25π = (θ/360°) × π(100). Simplify: 25 = (θ/360°) × 100, giving θ/360° = 1/4, so θ = 90°."
+    },
+    {
+      "question": "Circle A has equation x² + y² = 36. Circle B has equation (x − 5)² + (y − 12)² = 9. Find the distance between the centers of the two circles.",
+      "answer": "13",
+      "explanation": "Center of Circle A is (0, 0) with radius 6. Center of Circle B is (5, 12) with radius 3. Distance = √[(5−0)² + (12−0)²] = √[25 + 144] = √169 = 13."
+    },
+    {
+      "question": "A chord of a circle with radius 13 is 10 units long. What is the distance from the center of the circle to the chord?",
+      "answer": "12",
+      "explanation": "The perpendicular from the center to a chord bisects the chord. Form a right triangle with hypotenuse 13 (radius), one leg 5 (half the chord), and the other leg d (distance to chord). By Pythagorean theorem: d² + 5² = 13², so d² = 169 − 25 = 144, giving d = 12."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:05:36.189Z",
+  "model": "claude-haiku-4-5-20251001"
+}

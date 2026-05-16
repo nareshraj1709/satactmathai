@@ -1,0 +1,42 @@
+{
+  "id": "functions-hard-7",
+  "sectionSlug": "functions",
+  "sectionName": "Functions",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 7,
+  "questions": [
+    {
+      "question": "Let f(x) = 2x² - 3 and g(x) = x + 1. Find f(g(x)) and simplify completely.",
+      "answer": "2x² + 4x - 1",
+      "explanation": "Substitute g(x) = x + 1 into f: f(g(x)) = 2(x + 1)² - 3 = 2(x² + 2x + 1) - 3 = 2x² + 4x + 2 - 3 = 2x² + 4x - 1."
+    },
+    {
+      "question": "If h(x) = √(x - 4) and the domain of h is all real numbers x ≥ 4, what is the range of h?",
+      "answer": "[0, ∞) or y ≥ 0",
+      "explanation": "As x ranges from 4 to infinity, (x - 4) ranges from 0 to infinity. Taking square roots gives all non-negative outputs: the range is [0, ∞)."
+    },
+    {
+      "question": "Let f(x) = (3x + 2)/(x - 1). Find the value of x where f(f(x)) is undefined.",
+      "answer": "x = 4",
+      "explanation": "f(f(x)) is undefined when f(x) = 1 (making the denominator zero). Set (3x + 2)/(x - 1) = 1: 3x + 2 = x - 1, so 2x = -3, x = -3/2. Also when x = 1 (f undefined). Check: f(-3/2) = 1 ✓. For completeness, f(x) = 4 also makes f(f(x)) undefined since f(4) = 1."
+    },
+    {
+      "question": "A function f satisfies f(2x) = 4f(x) - 6 for all x. If f(1) = 3, find f(4).",
+      "answer": "6",
+      "explanation": "Use the functional equation twice. f(2) = 4f(1) - 6 = 4(3) - 6 = 6. Then f(4) = 4f(2) - 6 = 4(6) - 6 = 18."
+    },
+    {
+      "question": "The function p(x) is defined as p(x) = |x - 2| - 3. For which values of x is p(x) = 5?",
+      "answer": "x = -6 or x = 10",
+      "explanation": "Set |x - 2| - 3 = 5, so |x - 2| = 8. This gives x - 2 = 8 or x - 2 = -8, yielding x = 10 or x = -6."
+    },
+    {
+      "question": "Let f(x) = x² + bx + c. The graph of f passes through (1, 5) and (2, 11). Find b + c.",
+      "answer": "1",
+      "explanation": "From (1, 5): 1 + b + c = 5, so b + c = 4. From (2, 11): 4 + 2b + c = 11, so 2b + c = 7. Subtracting: b = 3, so c = 1. Thus b + c = 4."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:02.815Z",
+  "model": "claude-haiku-4-5-20251001"
+}

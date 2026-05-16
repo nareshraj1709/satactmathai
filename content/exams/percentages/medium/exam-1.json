@@ -1,0 +1,42 @@
+{
+  "id": "percentages-medium-1",
+  "sectionSlug": "percentages",
+  "sectionName": "Percentages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 1,
+  "questions": [
+    {
+      "question": "A jacket originally priced at $80 is on sale for 25% off. After the discount, a 6% sales tax is applied. What is the final price?",
+      "answer": "63.60",
+      "explanation": "Discount: $80 × 0.25 = $20, so sale price = $80 − $20 = $60. Tax: $60 × 0.06 = $3.60. Final price: $60 + $3.60 = $63.60."
+    },
+    {
+      "question": "If the population of a town increases by 20% in the first year and then decreases by 10% in the second year, what is the overall percent change from the original population?",
+      "answer": "8% increase",
+      "explanation": "Start with 100. After +20%: 100 × 1.20 = 120. After −10%: 120 × 0.90 = 108. Net change: (108 − 100)/100 = 0.08 = 8% increase."
+    },
+    {
+      "question": "A restaurant bill is $45 before tip. If you want to leave an 18% tip, how much should you leave as the tip?",
+      "answer": "8.10",
+      "explanation": "Tip = $45 × 0.18 = $8.10."
+    },
+    {
+      "question": "A stock price drops from $50 to $35. What is the percent decrease?",
+      "answer": "30",
+      "explanation": "Change = $35 − $50 = −$15. Percent change = (−$15)/$50 = −0.30 = −30%, or a 30% decrease."
+    },
+    {
+      "question": "If a product costs a store $12 and the store marks it up by 50%, what is the selling price?",
+      "answer": "18",
+      "explanation": "Markup = $12 × 0.50 = $6. Selling price = $12 + $6 = $18."
+    },
+    {
+      "question": "A book is discounted by 15%, bringing its price to $34. What was the original price?",
+      "answer": "40",
+      "explanation": "If discounted by 15%, the price is 85% of original: 0.85 × original = $34. Original = $34 ÷ 0.85 = $40."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:34:53.919Z",
+  "model": "claude-haiku-4-5-20251001"
+}

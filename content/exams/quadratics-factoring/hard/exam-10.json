@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-hard-10",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Hard",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "Factor completely: 6x² − 11x − 10",
+      "answer": "(2x − 5)(3x + 2)",
+      "explanation": "Find two numbers that multiply to (6)(−10) = −60 and add to −11: those are −15 and 4. Rewrite: 6x² − 15x + 4x − 10, then factor by grouping: 3x(2x − 5) + 2(2x − 5) = (2x − 5)(3x + 2)."
+    },
+    {
+      "question": "Solve for x: (3x + 2)² = 49",
+      "answer": "x = 5/3 or x = −3",
+      "explanation": "Take the square root of both sides: 3x + 2 = ±7. If 3x + 2 = 7, then x = 5/3. If 3x + 2 = −7, then x = −3."
+    },
+    {
+      "question": "A rectangle has length 3 cm more than twice its width. If the area is 35 cm², what is the width?",
+      "answer": "2.5 cm (or 5/2 cm)",
+      "explanation": "Let w = width. Then length = 2w + 3. Set up: w(2w + 3) = 35 → 2w² + 3w − 35 = 0. Factor: (2w − 7)(w + 5) = 0. So w = 7/2 or w = −5. Since width is positive, w = 3.5 cm. (Check: 3.5 × 10 = 35 ✓)"
+    },
+    {
+      "question": "If x² + bx + 12 factors as (x + 3)(x + 4), what is b?",
+      "answer": "b = 7",
+      "explanation": "Expand (x + 3)(x + 4) = x² + 7x + 12. Comparing with x² + bx + 12, we get b = 7."
+    },
+    {
+      "question": "Solve: 2x² = 3x + 20",
+      "answer": "x = 4 or x = −2.5 (or −5/2)",
+      "explanation": "Rearrange: 2x² − 3x − 20 = 0. Factor: (2x + 5)(x − 4) = 0. So 2x + 5 = 0 → x = −5/2, or x − 4 = 0 → x = 4."
+    },
+    {
+      "question": "Factor completely: 4x⁴ − 25x²",
+      "answer": "x²(2x − 5)(2x + 5)",
+      "explanation": "Factor out x²: x²(4x² − 25). Recognize 4x² − 25 as a difference of squares: (2x)² − 5² = (2x − 5)(2x + 5). Final answer: x²(2x − 5)(2x + 5)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:47:32.895Z",
+  "model": "claude-haiku-4-5-20251001"
+}

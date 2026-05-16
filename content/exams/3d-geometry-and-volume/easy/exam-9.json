@@ -1,0 +1,42 @@
+{
+  "id": "3d-geometry-and-volume-easy-9",
+  "sectionSlug": "3d-geometry-and-volume",
+  "sectionName": "3D Geometry & Volume",
+  "topic": "Geometry (ACT)",
+  "difficulty": "Easy",
+  "examNumber": 9,
+  "questions": [
+    {
+      "question": "A rectangular prism has length 5 cm, width 3 cm, and height 4 cm. What is its volume?",
+      "answer": "60 cubic cm",
+      "explanation": "Volume of a rectangular prism = length × width × height = 5 × 3 × 4 = 60 cm³."
+    },
+    {
+      "question": "A cylinder has a radius of 2 inches and a height of 6 inches. What is its volume in terms of π?",
+      "answer": "24π cubic inches",
+      "explanation": "Volume of a cylinder = πr²h = π(2)²(6) = π(4)(6) = 24π in³."
+    },
+    {
+      "question": "A sphere has a radius of 3 meters. What is its volume in terms of π?",
+      "answer": "36π cubic meters",
+      "explanation": "Volume of a sphere = (4/3)πr³ = (4/3)π(3)³ = (4/3)π(27) = 36π m³."
+    },
+    {
+      "question": "A cone has a radius of 4 cm and a height of 9 cm. What is its volume in terms of π?",
+      "answer": "48π cubic cm",
+      "explanation": "Volume of a cone = (1/3)πr²h = (1/3)π(4)²(9) = (1/3)π(16)(9) = 48π cm³."
+    },
+    {
+      "question": "A rectangular prism has a volume of 120 cubic units. If its length is 10 units and width is 3 units, what is its height?",
+      "answer": "4 units",
+      "explanation": "Volume = length × width × height, so 120 = 10 × 3 × h; therefore h = 120 ÷ 30 = 4 units."
+    },
+    {
+      "question": "A cylinder has a height of 5 inches and a volume of 45π cubic inches. What is its radius?",
+      "answer": "3 inches",
+      "explanation": "Volume = πr²h, so 45π = πr²(5); divide by 5π to get r² = 9, thus r = 3 inches."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:19:24.805Z",
+  "model": "claude-haiku-4-5-20251001"
+}

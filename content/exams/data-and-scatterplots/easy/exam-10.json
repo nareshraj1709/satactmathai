@@ -1,0 +1,42 @@
+{
+  "id": "data-and-scatterplots-easy-10",
+  "sectionSlug": "data-and-scatterplots",
+  "sectionName": "Data & Scatterplots",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Easy",
+  "examNumber": 10,
+  "questions": [
+    {
+      "question": "A scatterplot shows the relationship between hours studied and test score. The points roughly follow a line from (0, 50) to (10, 90). Using this line of best fit, what test score would you predict for a student who studied for 5 hours?",
+      "answer": "70",
+      "explanation": "The line goes from (0, 50) to (10, 90), so the slope is (90 − 50) / (10 − 0) = 4 points per hour. At x = 5, the predicted score is 50 + 4(5) = 70."
+    },
+    {
+      "question": "A scatterplot displays the cost of gas (in dollars) versus the number of gallons purchased. One point on the plot is (4, 12) and another is (8, 24). If the relationship is linear, what is the cost per gallon?",
+      "answer": "3",
+      "explanation": "Slope = (24 − 12) / (8 − 4) = 12 / 4 = 3. The cost per gallon is $3."
+    },
+    {
+      "question": "The scatter plot below shows the age of a car (in years) versus its resale value (in thousands of dollars). The data points suggest a line of best fit with equation v = 25 − 2a, where a is age and v is value. What does the value 25 represent in this context?",
+      "answer": "The initial value of the car in thousands of dollars (or when age is 0)",
+      "explanation": "In the equation v = 25 − 2a, when a = 0 (the car is brand new), v = 25. This is the y-intercept, representing the car's value as a new vehicle."
+    },
+    {
+      "question": "A scatterplot shows 5 data points: (1, 2), (2, 4), (3, 5), (4, 8), (5, 10). Which point appears to deviate most from the linear trend shown by the other four points?",
+      "answer": "(3, 5)",
+      "explanation": "The other points roughly follow y = 2x (or close to it). The point (3, 5) has a y-value of 5, but if the trend is y = 2x, we'd expect 6. This point is farthest from the line."
+    },
+    {
+      "question": "A line of best fit for a scatterplot is given by y = 3x + 1. Use this equation to predict the y-value when x = 4.",
+      "answer": "13",
+      "explanation": "Substitute x = 4 into y = 3x + 1: y = 3(4) + 1 = 12 + 1 = 13."
+    },
+    {
+      "question": "In a scatterplot of temperature (°F) versus ice cream sales (dollars), the line of best fit passes through (60, 200) and (80, 400). How many dollars in sales does the model predict for each additional degree of temperature?",
+      "answer": "10",
+      "explanation": "Slope = (400 − 200) / (80 − 60) = 200 / 20 = 10. The model predicts $10 more in sales for each degree increase."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:37:22.875Z",
+  "model": "claude-haiku-4-5-20251001"
+}

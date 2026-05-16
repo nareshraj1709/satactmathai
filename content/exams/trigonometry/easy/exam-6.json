@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-6",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite a 35° angle measures 7 cm, and the hypotenuse measures 12 cm. Find the sine of the 35° angle.",
+      "answer": "7/12",
+      "explanation": "By definition, sin(θ) = opposite/hypotenuse. Here, sin(35°) = 7/12."
+    },
+    {
+      "question": "A ladder leans against a wall, forming a 60° angle with the ground. If the ladder is 10 feet long, how far up the wall does it reach? Round to the nearest foot.",
+      "answer": "9 feet",
+      "explanation": "The height is the opposite side to the 60° angle. Use sin(60°) = height/10. Since sin(60°) ≈ 0.866, height ≈ 8.66 ≈ 9 feet."
+    },
+    {
+      "question": "On the unit circle, what is the y-coordinate of the point at angle 90°?",
+      "answer": "1",
+      "explanation": "At 90° on the unit circle, the point is (0, 1). The y-coordinate is sin(90°) = 1."
+    },
+    {
+      "question": "In a right triangle, cos(θ) = 4/5. What is sin(θ)?",
+      "answer": "3/5",
+      "explanation": "Use the Pythagorean identity: sin²(θ) + cos²(θ) = 1. So sin²(θ) = 1 − (4/5)² = 1 − 16/25 = 9/25. Thus sin(θ) = 3/5 (taking the positive root)."
+    },
+    {
+      "question": "What is tan(45°)?",
+      "answer": "1",
+      "explanation": "At 45°, sin(45°) = cos(45°) = √2/2. Therefore tan(45°) = sin/cos = 1."
+    },
+    {
+      "question": "A surveyor stands 50 meters from the base of a building and measures the angle of elevation to the top as 40°. What trigonometric ratio should be used to find the building's height?",
+      "answer": "tangent (or tan)",
+      "explanation": "The height is opposite the 40° angle and 50 m is adjacent to it. The ratio opposite/adjacent is tangent, so use tan(40°) = height/50."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:06.888Z",
+  "model": "claude-haiku-4-5-20251001"
+}

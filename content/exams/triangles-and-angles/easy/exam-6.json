@@ -1,0 +1,42 @@
+{
+  "id": "triangles-and-angles-easy-6",
+  "sectionSlug": "triangles-and-angles",
+  "sectionName": "Triangles & Angles",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 6,
+  "questions": [
+    {
+      "question": "In triangle ABC, angle A measures 50° and angle B measures 65°. What is the measure of angle C?",
+      "answer": "65°",
+      "explanation": "The sum of angles in a triangle equals 180°. So angle C = 180° − 50° − 65° = 65°."
+    },
+    {
+      "question": "An isosceles triangle has two equal sides and one of the base angles measures 42°. What is the measure of the vertex angle (the angle between the two equal sides)?",
+      "answer": "96°",
+      "explanation": "In an isosceles triangle, the two base angles are equal. So both base angles are 42°. The vertex angle = 180° − 42° − 42° = 96°."
+    },
+    {
+      "question": "A right triangle has one angle of 35°. What is the measure of the third angle?",
+      "answer": "55°",
+      "explanation": "A right triangle always has one 90° angle. The third angle = 180° − 90° − 35° = 55°."
+    },
+    {
+      "question": "Two angles in a triangle measure 48° and 73°. Is this triangle acute, right, or obtuse?",
+      "answer": "acute",
+      "explanation": "The third angle = 180° − 48° − 73° = 59°. Since all three angles (48°, 59°, 73°) are less than 90°, the triangle is acute."
+    },
+    {
+      "question": "In an equilateral triangle, what is the measure of each interior angle?",
+      "answer": "60°",
+      "explanation": "An equilateral triangle has three equal angles. Since the sum is 180°, each angle = 180° ÷ 3 = 60°."
+    },
+    {
+      "question": "A triangle has angles in the ratio 2:3:4. What is the measure of the smallest angle?",
+      "answer": "40°",
+      "explanation": "Let the angles be 2x, 3x, and 4x. Then 2x + 3x + 4x = 180°, so 9x = 180°, giving x = 20°. The smallest angle is 2x = 40°."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:02:55.488Z",
+  "model": "claude-haiku-4-5-20251001"
+}

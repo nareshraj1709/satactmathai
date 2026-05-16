@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-easy-8",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Easy",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "In a right triangle, the side opposite angle θ is 5 and the hypotenuse is 13. Find sin(θ).",
+      "answer": "5/13",
+      "explanation": "By SOH-CAH-TOA, sin(θ) = opposite/hypotenuse = 5/13."
+    },
+    {
+      "question": "In a right triangle, the side adjacent to angle α is 12 and the hypotenuse is 15. Find cos(α).",
+      "answer": "4/5 or 0.8",
+      "explanation": "cos(α) = adjacent/hypotenuse = 12/15 = 4/5. Simplify by dividing both by 3."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 60° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach?",
+      "answer": "5√3 feet",
+      "explanation": "The height is the side opposite the 60° angle. sin(60°) = √3/2, so height = 10 · (√3/2) = 5√3."
+    },
+    {
+      "question": "On the unit circle, what is the value of sin(90°)?",
+      "answer": "1",
+      "explanation": "At 90° on the unit circle, the point is (0, 1). The y-coordinate is sin(90°) = 1."
+    },
+    {
+      "question": "In a right triangle, tan(β) = 3/4. If the side adjacent to β is 4, what is the opposite side?",
+      "answer": "3",
+      "explanation": "tan(β) = opposite/adjacent, so 3/4 = opposite/4. Multiply both sides by 4 to get opposite = 3."
+    },
+    {
+      "question": "What is cos(0°) on the unit circle?",
+      "answer": "1",
+      "explanation": "At 0° on the unit circle, the point is (1, 0). The x-coordinate is cos(0°) = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:08.876Z",
+  "model": "claude-haiku-4-5-20251001"
+}

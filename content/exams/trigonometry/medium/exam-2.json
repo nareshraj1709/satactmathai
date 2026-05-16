@@ -1,0 +1,42 @@
+{
+  "id": "trigonometry-medium-2",
+  "sectionSlug": "trigonometry",
+  "sectionName": "Trigonometry",
+  "topic": "Additional Topics",
+  "difficulty": "Medium",
+  "examNumber": 2,
+  "questions": [
+    {
+      "question": "A right triangle has an angle of 35° and the side opposite to it measures 12 cm. Find the length of the hypotenuse to the nearest tenth.",
+      "answer": "20.9 cm",
+      "explanation": "Use the sine ratio: sin(35°) = opposite/hypotenuse = 12/h. Solve h = 12/sin(35°) ≈ 12/0.574 ≈ 20.9 cm."
+    },
+    {
+      "question": "If cos(θ) = 3/5 and θ is in the first quadrant, what is sin(θ)?",
+      "answer": "4/5",
+      "explanation": "Use the Pythagorean identity sin²(θ) + cos²(θ) = 1. Then sin²(θ) = 1 − (3/5)² = 1 − 9/25 = 16/25, so sin(θ) = 4/5 (positive in quadrant I)."
+    },
+    {
+      "question": "A ladder leans against a wall, making a 60° angle with the ground. If the ladder is 10 feet long, how high up the wall does it reach?",
+      "answer": "5√3 feet",
+      "explanation": "The height is the side opposite the 60° angle. Use sin(60°) = height/10, so height = 10 · sin(60°) = 10 · (√3/2) = 5√3 feet."
+    },
+    {
+      "question": "On the unit circle, what is the sine value of an angle whose cosine is −1/2 and which lies in the second quadrant?",
+      "answer": "√3/2",
+      "explanation": "Use sin²(θ) + cos²(θ) = 1 with cos(θ) = −1/2: sin²(θ) = 1 − 1/4 = 3/4, so sin(θ) = √3/2 (positive in quadrant II)."
+    },
+    {
+      "question": "From a point on the ground 50 meters from the base of a building, the angle of elevation to the top is 32°. What is the approximate height of the building?",
+      "answer": "31.2 m",
+      "explanation": "Use tan(32°) = height/50. Solve height = 50 · tan(32°) ≈ 50 · 0.625 ≈ 31.2 m."
+    },
+    {
+      "question": "Simplify: sin(θ)·sec(θ)·cot(θ)",
+      "answer": "1",
+      "explanation": "Rewrite in terms of sine and cosine: sin(θ) · (1/cos(θ)) · (cos(θ)/sin(θ)) = (sin(θ) · cos(θ))/(cos(θ) · sin(θ)) = 1."
+    }
+  ],
+  "generatedAt": "2026-05-16T11:08:38.561Z",
+  "model": "claude-haiku-4-5-20251001"
+}

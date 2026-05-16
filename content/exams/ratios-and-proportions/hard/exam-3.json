@@ -1,0 +1,42 @@
+{
+  "id": "ratios-and-proportions-hard-3",
+  "sectionSlug": "ratios-and-proportions",
+  "sectionName": "Ratios & Proportions",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Hard",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "A recipe calls for flour and sugar in the ratio 5:2. If you need to make a batch using 18 grams of sugar, how many grams of flour do you need?",
+      "answer": "45",
+      "explanation": "Set up the proportion: flour/sugar = 5/2. Then flour/18 = 5/2, so flour = 18 × (5/2) = 45 grams."
+    },
+    {
+      "question": "Three painters working at the same rate can paint a house in 12 days. If the job must be completed in 8 days, how many painters are needed?",
+      "answer": "4.5 or 4½",
+      "explanation": "Work is inversely proportional to number of painters. If 3 painters take 12 days, then n painters take 8 days: 3 × 12 = n × 8, so n = 36/8 = 4.5 painters."
+    },
+    {
+      "question": "A map has a scale of 1 cm : 25 km. Two cities are 7.5 cm apart on the map. If a car travels between them at 60 km/h, how many hours does the trip take?",
+      "answer": "3.125 or 25/8",
+      "explanation": "Real distance = 7.5 cm × 25 km/cm = 187.5 km. Time = distance/speed = 187.5/60 = 3.125 hours."
+    },
+    {
+      "question": "In a school, the ratio of students to teachers is 18:1. If there are 684 students, how many total people (students and teachers combined) are in the school?",
+      "answer": "722",
+      "explanation": "If ratio is 18:1, then for every 18 students there is 1 teacher. Number of teachers = 684/18 = 38. Total = 684 + 38 = 722 people."
+    },
+    {
+      "question": "A concrete mix requires cement, sand, and gravel in the ratio 1:2:3 by volume. If you use 15 cubic meters of gravel, what is the total volume of the final concrete mix?",
+      "answer": "30",
+      "explanation": "Ratio 1:2:3 means cement:sand:gravel parts sum to 6 parts. If gravel (3 parts) = 15 m³, then 1 part = 5 m³. Total = 6 × 5 = 30 m³."
+    },
+    {
+      "question": "A sample of 200 survey respondents showed that 3 out of every 8 people prefer Brand A. If the same proportion holds in a city of 120,000 people, how many people in the city prefer Brand A?",
+      "answer": "45000",
+      "explanation": "Proportion is 3/8. Number preferring Brand A = (3/8) × 120,000 = 3 × 15,000 = 45,000 people."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:33:34.910Z",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "quadratics-factoring-medium-3",
+  "sectionSlug": "quadratics-factoring",
+  "sectionName": "Quadratics: Factoring",
+  "topic": "Passport to Advanced Math",
+  "difficulty": "Medium",
+  "examNumber": 3,
+  "questions": [
+    {
+      "question": "Factor the quadratic: x² + 7x + 12",
+      "answer": "(x + 3)(x + 4)",
+      "explanation": "Find two numbers that multiply to 12 and add to 7. Those are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "question": "Solve for x: 2x² - 8x = 0",
+      "answer": "x = 0 or x = 4",
+      "explanation": "Factor out the common factor: 2x(x - 4) = 0. Set each factor to zero: 2x = 0 gives x = 0, and x - 4 = 0 gives x = 4."
+    },
+    {
+      "question": "A rectangular garden has an area of 60 square meters. Its length is 7 meters more than its width. If w is the width in meters, which equation models this situation?",
+      "answer": "w(w + 7) = 60 or w² + 7w - 60 = 0",
+      "explanation": "Area = length × width. If width is w, then length is w + 7. So w(w + 7) = 60. Expanding gives w² + 7w = 60, or w² + 7w - 60 = 0."
+    },
+    {
+      "question": "Factor the quadratic: 3x² - 12x + 9",
+      "answer": "3(x - 1)(x - 3)",
+      "explanation": "First factor out the GCF of 3: 3(x² - 4x + 3). Then factor the quadratic: x² - 4x + 3 = (x - 1)(x - 3). So the answer is 3(x - 1)(x - 3)."
+    },
+    {
+      "question": "Solve for x: x² - 5x + 6 = 0",
+      "answer": "x = 2 or x = 3",
+      "explanation": "Factor: (x - 2)(x - 3) = 0. Set each factor to zero: x - 2 = 0 gives x = 2, and x - 3 = 0 gives x = 3."
+    },
+    {
+      "question": "Factor the quadratic: x² - 9",
+      "answer": "(x - 3)(x + 3)",
+      "explanation": "This is a difference of squares: x² - 9 = x² - 3². Use the formula a² - b² = (a - b)(a + b) to get (x - 3)(x + 3)."
+    }
+  ],
+  "generatedAt": "2026-05-16T10:45:59.814Z",
+  "model": "claude-haiku-4-5-20251001"
+}

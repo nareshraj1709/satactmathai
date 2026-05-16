@@ -1,0 +1,42 @@
+{
+  "id": "statistics-and-averages-medium-8",
+  "sectionSlug": "statistics-and-averages",
+  "sectionName": "Statistics & Averages",
+  "topic": "Problem Solving & Data Analysis",
+  "difficulty": "Medium",
+  "examNumber": 8,
+  "questions": [
+    {
+      "question": "A student's test scores are 78, 85, 92, and 88. What is the median score?",
+      "answer": "86.5",
+      "explanation": "Arrange scores in order: 78, 85, 88, 92. With 4 values, the median is the average of the two middle values: (85 + 88) ÷ 2 = 86.5."
+    },
+    {
+      "question": "The mean of five numbers is 20. Four of the numbers are 18, 22, 19, and 21. What is the fifth number?",
+      "answer": "20",
+      "explanation": "Sum of five numbers = 20 × 5 = 100. Sum of four known numbers = 18 + 22 + 19 + 21 = 80. Fifth number = 100 − 80 = 20."
+    },
+    {
+      "question": "A data set has values 5, 8, 8, 12, 15. Which measure—mean, median, or mode—is affected most when the value 15 is changed to 50?",
+      "answer": "mean",
+      "explanation": "Original mean: (5 + 8 + 8 + 12 + 15) ÷ 5 = 9.6. New mean: (5 + 8 + 8 + 12 + 50) ÷ 5 = 16.6. Median and mode remain 8. Mean shifts by 7, the most dramatic change."
+    },
+    {
+      "question": "A class has 12 students with a mean height of 66 inches. A new student with height 72 inches joins the class. What is the new mean height, rounded to the nearest tenth?",
+      "answer": "66.5",
+      "explanation": "Original total height = 66 × 12 = 792 inches. New total = 792 + 72 = 864 inches. New mean = 864 ÷ 13 ≈ 66.5 inches."
+    },
+    {
+      "question": "The range of a data set is 45. The minimum value is 10. A new data point of 60 is added. What is the new range?",
+      "answer": "50",
+      "explanation": "Original maximum = 10 + 45 = 55. After adding 60, the new maximum is 60. New range = 60 − 10 = 50."
+    },
+    {
+      "question": "Six test scores have a mean of 85 and a median of 84. If five of the scores are 78, 82, 86, 90, and 92, what is the sixth score?",
+      "answer": "82",
+      "explanation": "Sum of six scores = 85 × 6 = 510. Sum of five known scores = 78 + 82 + 86 + 90 + 92 = 428. Sixth score = 510 − 428 = 82. Verify: ordered set {78, 82, 82, 86, 90, 92} has median (82 + 86) ÷ 2 = 84. ✓"
+    }
+  ],
+  "generatedAt": "2026-05-16T10:40:49.375Z",
+  "model": "claude-haiku-4-5-20251001"
+}
