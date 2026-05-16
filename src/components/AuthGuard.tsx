@@ -20,9 +20,8 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
 
   if (!ready) {
     return (
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-        <div style={{ width: 40, height: 40, border: '4px solid #E5E7EB', borderTop: '4px solid #2563EB', borderRadius: '50%', animation: 'spin 1s linear infinite' }} />
-        <style>{`@keyframes spin { to { transform: rotate(360deg) } }`}</style>
+      <div className="flex items-center justify-center min-h-[60vh]">
+        <div className="w-10 h-10 border-2 border-[color:var(--color-rule)] border-t-[color:var(--color-ink)] rounded-full animate-spin" />
       </div>
     )
   }

@@ -1,413 +1,377 @@
-'use client'
+import Link from 'next/link'
+import Container from '@/components/ui/Container'
+import Eyebrow from '@/components/ui/Eyebrow'
+import SectionHeading from '@/components/ui/SectionHeading'
+import StatPill from '@/components/ui/StatPill'
+import FeatureCard from '@/components/ui/FeatureCard'
+import SheetTile from '@/components/ui/SheetTile'
+import Quote from '@/components/ui/Quote'
+import RuleDivider from '@/components/ui/RuleDivider'
+import { SAT_CONTENT, ACT_ADDITIONAL_CONTENT } from '@/lib/study-content'
+import { HISTORICAL_SAT, HISTORICAL_ACT } from '@/lib/papers-data'
+import { toRoman } from '@/components/ui/RomanNumeral'
 
-import { useState, useEffect } from 'react'
-import Logo from '@/components/Logo'
-
-// ─── Score boost testimonials ─────────────────────────────────────
-const testimonials = [
-  { name: 'Sarah K.', score: '1520 SAT', quote: 'I went from a 1280 to a 1520 in just 6 weeks. The AI feedback showed me exactly where I was losing points.', avatar: 'S', color: '#2563EB' },
-  { name: 'Marcus T.', score: '34 ACT', quote: 'The practice papers feel exactly like the real ACT. I walked into test day feeling completely prepared.', avatar: 'M', color: '#7C3AED' },
-  { name: 'Priya R.', score: '780 SAT Math', quote: 'The instant marking is a game-changer. No more waiting for a tutor — I get feedback in seconds.', avatar: 'P', color: '#059669' },
+const FEATURES = [
+  { title: 'AI Examiner', emphasis: 'marks your working', body: 'Show your steps. Our model grades line by line against the official SAT and ACT rubrics — not just final answers.', tag: 'All tiers' },
+  { title: 'Weak-Spot', emphasis: 'Radar', body: 'After every session, see the three topics quietly costing you the most points. Drill them before they cost you on test day.', tag: 'All tiers' },
+  { title: 'Exam', emphasis: 'Simulator', body: 'Every released SAT and ACT math paper from 2016 to 2025, plus AI-generated papers, marked like the real thing.', tag: 'All boards' },
+  { title: 'Ask', emphasis: 'the Margin', body: 'Highlight any phrase mid-question. Get a tutor-style explanation in seconds — no leaving the page, no losing focus.', tag: 'Signature' },
+  { title: 'Score', emphasis: 'Tracker', body: 'XP, streaks, and a running predicted SAT/ACT score. Watch the number move with every question you answer.', tag: 'All tiers' },
+  { title: 'Formula', emphasis: 'Sheet', body: 'The complete reference — algebra, geometry, trig, statistics, plus ACT-only law of sines, conics, and 3D geometry.', tag: 'Free PDF' },
+  { title: 'Test-Day', emphasis: 'Planner', body: 'A 15-minute daily revision plan calibrated to your test date and weak spots. No guessing, no spreadsheets.', tag: 'Signature' },
+  { title: 'Working', emphasis: 'Pad', body: 'Type or sketch your working. The AI reads it, marks it, and shows you what the examiner would actually do with it.', tag: 'Signature' },
 ]
 
-// ─── Topic coverage ───────────────────────────────────────────────
-const satTopics = [
-  { name: 'Heart of Algebra', icon: '📐', items: ['Linear equations', 'Systems of equations', 'Inequalities', 'Absolute value'] },
-  { name: 'Problem Solving', icon: '📊', items: ['Ratios & percents', 'Statistics', 'Probability', 'Data interpretation'] },
-  { name: 'Advanced Math', icon: '🧮', items: ['Quadratics', 'Polynomials', 'Exponentials', 'Functions'] },
-  { name: 'Geometry & Trig', icon: '📏', items: ['Triangles', 'Circles', 'Trigonometry', 'Coordinate geometry'] },
-  { name: 'ACT Extras', icon: '➕', items: ['Matrices', '3D geometry', 'Conic sections', 'Law of sines/cosines'] },
+const PRINCIPLES = [
+  { i: 1, title: 'Marked working', body: 'Final answers are not the lesson. Every step in your method earns its own mark, and you see why.' },
+  { i: 2, title: 'Predicted score', body: 'A running 400–1600 SAT and 1–36 ACT estimate based on every question you have ever answered here.' },
+  { i: 3, title: 'Spaced topics', body: 'The planner returns you to weak spots at the right interval, not just whenever you remember to revisit them.' },
 ]
 
-// ─── How it works steps ───────────────────────────────────────────
-const steps = [
-  { num: '1', title: 'Pick your test', desc: 'Choose SAT or ACT and select a topic to focus on.', icon: '🎯' },
-  { num: '2', title: 'Show your work', desc: 'Solve problems and type your answers. No multiple choice guessing.', icon: '✍️' },
-  { num: '3', title: 'Get AI feedback', desc: 'Instant, detailed marking that shows you exactly how to improve.', icon: '⚡' },
+const TESTIMONIALS = [
+  { quote: 'I went from a 1280 to a 1520 in just 6 weeks. The AI feedback showed me exactly where I was losing points.', name: 'Sarah K.', detail: 'Lincoln HS · +240 SAT' },
+  { quote: 'The practice papers feel exactly like the real ACT. I walked into test day feeling completely prepared.', name: 'Marcus T.', detail: 'Class of 2026 · 34 ACT' },
+  { quote: 'The instant marking is a game-changer. No more waiting for a tutor — I get feedback in seconds.', name: 'Priya R.', detail: 'SAT Math · 780' },
 ]
 
 export default function Home() {
-  const [daysUntilSAT, setDaysUntilSAT] = useState(0)
-  const [daysUntilACT, setDaysUntilACT] = useState(0)
-  const [mobileMenu, setMobileMenu] = useState(false)
-
-  useEffect(() => {
-    const now = new Date()
-    // Next SAT: March 8, 2025 or nearest future date
-    const satDates = [
-      new Date('2026-05-02'), new Date('2026-06-06'),
-      new Date('2026-08-22'), new Date('2026-10-03'),
-      new Date('2026-11-07'), new Date('2026-12-05'),
-    ]
-    const actDates = [
-      new Date('2026-04-04'), new Date('2026-06-13'),
-      new Date('2026-07-18'), new Date('2026-09-12'),
-      new Date('2026-10-24'), new Date('2026-12-12'),
-    ]
-    const nextSAT = satDates.find(d => d > now) || satDates[0]
-    const nextACT = actDates.find(d => d > now) || actDates[0]
-    setDaysUntilSAT(Math.ceil((nextSAT.getTime() - now.getTime()) / 86400000))
-    setDaysUntilACT(Math.ceil((nextACT.getTime() - now.getTime()) / 86400000))
-  }, [])
+  const strandCount = SAT_CONTENT.length + ACT_ADDITIONAL_CONTENT.length
+  const subtopicCount = SAT_CONTENT.reduce((a, s) => a + s.subtopics.length, 0)
+    + ACT_ADDITIONAL_CONTENT.reduce((a, s) => a + s.subtopics.length, 0)
+  const weakSpots = [
+    ...SAT_CONTENT[2]?.subtopics.slice(0, 1).map(s => s.name) ?? [],
+    ...SAT_CONTENT[1]?.subtopics.slice(0, 1).map(s => s.name) ?? [],
+    ...SAT_CONTENT[3]?.subtopics.slice(0, 1).map(s => s.name) ?? [],
+  ]
+  const paperWall = [...HISTORICAL_SAT.slice(0, 6), ...HISTORICAL_ACT.slice(0, 6)]
 
   return (
-    <div style={{ background: '#fff' }}>
-      {/* ── HERO SECTION ─────────────────────────────────────────── */}
-      <section style={{
-        background: 'linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%)',
-        color: '#fff',
-        padding: '80px 24px 100px',
-        position: 'relative',
-        overflow: 'hidden',
-      }}>
-        {/* Animated background dots */}
-        <div style={{ position: 'absolute', inset: 0, opacity: 0.05 }}>
-          {[...Array(20)].map((_, i) => (
-            <div key={i} style={{
-              position: 'absolute',
-              width: 4, height: 4, borderRadius: '50%', background: '#60A5FA',
-              left: `${(i * 37) % 100}%`, top: `${(i * 53) % 100}%`,
-            }} />
-          ))}
-        </div>
+    <div>
+      {/* ─── HERO ─────────────────────────────────────────────────────── */}
+      <section className="pt-24 pb-28 lg:pt-32 lg:pb-36 border-b border-[color:var(--color-rule)]">
+        <Container>
+          <div className="max-w-[820px] mx-auto text-center">
+            <Eyebrow className="mb-8">EST. 2024 · USA · MMXXVI</Eyebrow>
+            <h1 className="headline text-[44px] sm:text-[60px] lg:text-[76px]">
+              Preparation <em>worthy</em> of the<br />score you want.
+            </h1>
+            <p className="mt-7 text-[17px] sm:text-[19px] text-[color:var(--color-ink-2)] leading-[1.55] max-w-[640px] mx-auto">
+              The SAT and ACT math prep that actually marks your working — every step, every question, every paper since 2016. Built for the test you actually take.
+            </p>
 
-        <div style={{ maxWidth: 1100, margin: '0 auto', position: 'relative', zIndex: 1 }}>
-          {/* Countdown badges */}
-          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 32 }}>
-            <div style={{
-              background: 'rgba(37, 99, 235, 0.2)', border: '1px solid rgba(37, 99, 235, 0.4)',
-              borderRadius: 100, padding: '8px 20px', fontSize: 14, fontWeight: 600,
-              display: 'flex', alignItems: 'center', gap: 8,
-            }}>
-              <span style={{ fontSize: 18 }}>📅</span>
-              Next SAT in <span style={{ color: '#60A5FA', fontWeight: 800 }}>{daysUntilSAT} days</span>
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+              <StatPill value={`${subtopicCount}`} label="topics" />
+              <StatPill value="+150 / +4" label="SAT / ACT average lift" />
+              <StatPill value="4.9★" label="from 812 students" />
             </div>
-            <div style={{
-              background: 'rgba(124, 58, 237, 0.2)', border: '1px solid rgba(124, 58, 237, 0.4)',
-              borderRadius: 100, padding: '8px 20px', fontSize: 14, fontWeight: 600,
-              display: 'flex', alignItems: 'center', gap: 8,
-            }}>
-              <span style={{ fontSize: 18 }}>📅</span>
-              Next ACT in <span style={{ color: '#A78BFA', fontWeight: 800 }}>{daysUntilACT} days</span>
+
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+              <Link href="/syllabus" className="btn-primary">Begin your first topic <span aria-hidden>→</span></Link>
+              <Link href="/syllabus" className="btn-ghost">View the syllabus</Link>
             </div>
           </div>
+        </Container>
+      </section>
 
-          {/* Main headline */}
-          <h1 style={{
-            fontSize: 'clamp(36px, 6vw, 64px)', fontWeight: 900, lineHeight: 1.1,
-            margin: '0 0 24px', fontFamily: 'Georgia, serif',
-            maxWidth: 700,
-          }}>
-            Your dream score<br />
-            <span style={{
-              background: 'linear-gradient(135deg, #60A5FA, #A78BFA)',
-              WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
-            }}>starts here.</span>
-          </h1>
+      {/* ─── № I — Everything for your SAT/ACT ──────────────────────── */}
+      <section className="py-24">
+        <Container>
+          <SectionHeading
+            roman={1}
+            kicker="Everything for your SAT &amp; ACT"
+            title={<>The platform that <em>replaces</em> the eight tabs you usually have open.</>}
+          />
+          <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {FEATURES.map((f, i) => (
+              <FeatureCard key={f.title} number={i + 1} title={f.title} emphasis={f.emphasis} body={f.body} tag={f.tag} />
+            ))}
+          </div>
+        </Container>
+      </section>
 
-          <p style={{
-            fontSize: 'clamp(18px, 2.5vw, 22px)', color: '#94A3B8', lineHeight: 1.6,
-            maxWidth: 560, margin: '0 0 40px',
-          }}>
-            Free AI-powered SAT & ACT math prep. Practice with real-style questions,
-            get instant feedback, and watch your score climb. No credit card. No catch.
+      <RuleDivider />
+
+      {/* ─── № II — One destination ─────────────────────────────────── */}
+      <section className="py-24 bg-[color:var(--color-bg-alt)]">
+        <Container>
+          <SectionHeading
+            roman={2}
+            kicker="The full stack"
+            title={<>One destination. <em>Nothing left to find elsewhere.</em></>}
+          />
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { title: 'Khan Academy', body: 'Free videos and a handful of practice questions. No marked working, no past paper archive, no predicted score.' },
+              { title: 'Princeton / Kaplan', body: 'Big books and pre-recorded courses. The questions are good. The feedback loop is days, not seconds.' },
+              { title: 'Private tutoring', body: 'Excellent — at $80 to $200 an hour. We give you the same line-by-line marking for the price of a textbook.' },
+            ].map((c, i) => (
+              <article key={c.title} className="card p-7">
+                <div className="marker text-[14px] not-italic font-serif mb-4">№ {String(i + 1).padStart(2, '0')}</div>
+                <h3 className="headline text-[22px] mb-3">{c.title}</h3>
+                <p className="text-[15px] text-[color:var(--color-ink-2)] leading-[1.6]">{c.body}</p>
+              </article>
+            ))}
+          </div>
+          <p className="mt-10 text-center text-[14px] text-[color:var(--color-muted)] max-w-[640px] mx-auto">
+            One subscription. The notes, the practice, the past papers, the marking, the planner, the formula sheet. Done.
           </p>
+        </Container>
+      </section>
 
-          {/* CTA buttons */}
-          <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-            <a href="/auth" style={{
-              padding: '16px 36px', borderRadius: 12, fontSize: 18, fontWeight: 800,
-              color: '#fff', background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-              textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 8,
-              boxShadow: '0 4px 24px rgba(37, 99, 235, 0.4)',
-              transition: 'transform 0.15s, box-shadow 0.15s',
-            }}>
-              Start Practicing Free <span style={{ fontSize: 22 }}>→</span>
-            </a>
-            <a href="/study" style={{
-              padding: '16px 36px', borderRadius: 12, fontSize: 18, fontWeight: 700,
-              color: '#CBD5E1', background: 'rgba(255,255,255,0.08)',
-              border: '1px solid rgba(255,255,255,0.15)',
-              textDecoration: 'none',
-            }}>
-              Browse Topics
-            </a>
+      {/* ─── № III — Predicted score ────────────────────────────────── */}
+      <section className="py-24">
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <SectionHeading
+                roman={3}
+                kicker="The number that moves"
+                title={<>Your predicted score, <em>recalculated every single question.</em></>}
+              />
+              <p className="mt-6 text-[16px] text-[color:var(--color-ink-2)] leading-[1.7]">
+                Every answer feeds a Bayesian estimate of your test-day score. You will see a 400 to 1600 for SAT and a 1 to 36 for ACT, with the confidence interval shrinking as you practice. The number moves. So do you.
+              </p>
+              <div className="mt-8"><Link href="/dashboard" className="btn-link">See your live score →</Link></div>
+            </div>
+            <div className="card p-8">
+              <Eyebrow className="mb-5">Predicted score · today</Eyebrow>
+              <div className="flex items-end gap-8">
+                <div>
+                  <div className="eyebrow mb-2">SAT Math</div>
+                  <div className="font-serif text-[64px] leading-none">780</div>
+                  <div className="eyebrow mt-2 text-[color:var(--color-marker)]">+40 this week</div>
+                </div>
+                <div className="rule h-20" style={{ borderLeft: '1px solid var(--color-rule)', borderTop: 0, width: 1 }} />
+                <div>
+                  <div className="eyebrow mb-2">ACT Math</div>
+                  <div className="font-serif text-[64px] leading-none">33</div>
+                  <div className="eyebrow mt-2 text-[color:var(--color-marker)]">+2 this week</div>
+                </div>
+              </div>
+              <div className="rule mt-8 pt-5">
+                <div className="eyebrow mb-2">Confidence interval</div>
+                <div className="h-1.5 bg-[color:var(--color-bg-alt)] rounded-full relative">
+                  <div className="absolute inset-y-0 left-[45%] right-[15%] bg-[color:var(--color-ink)] rounded-full" />
+                </div>
+              </div>
+            </div>
           </div>
+        </Container>
+      </section>
 
-          {/* Social proof */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginTop: 48, flexWrap: 'wrap' }}>
-            <div style={{ display: 'flex' }}>
-              {['#2563EB', '#7C3AED', '#059669', '#DC2626'].map((c, i) => (
-                <div key={i} style={{
-                  width: 36, height: 36, borderRadius: '50%', background: c,
-                  border: '2px solid #0F172A', marginLeft: i > 0 ? -10 : 0,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  fontSize: 14, fontWeight: 700, color: '#fff',
-                }}>{['S', 'M', 'P', 'J'][i]}</div>
-              ))}
+      <RuleDivider />
+
+      {/* ─── № IV — Marks your working ──────────────────────────────── */}
+      <section className="py-24 bg-[color:var(--color-bg-alt)]">
+        <Container>
+          <SectionHeading
+            roman={4}
+            kicker="Method marks"
+            title={<>The only AI that <em>marks your working</em>, not just your answer.</>}
+          />
+          <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className="card p-7">
+              <Eyebrow className="mb-4">Your working</Eyebrow>
+              <pre className="font-serif text-[16px] leading-[1.9] whitespace-pre-wrap m-0">{`3(2x − 4) + 5 = 2x + 9
+6x − 12 + 5 = 2x + 9
+6x − 7 = 2x + 9
+4x = 16
+x = 4`}</pre>
+            </div>
+            <div className="card p-7">
+              <Eyebrow className="mb-4">The AI examiner</Eyebrow>
+              <ul className="space-y-3 text-[15px] leading-[1.6]">
+                <li className="flex gap-3"><span className="marker not-italic">✓</span><span><strong>Distribution</strong> correct — you expanded 3(2x − 4) cleanly.</span></li>
+                <li className="flex gap-3"><span className="marker not-italic">✓</span><span><strong>Like terms</strong> combined on the left.</span></li>
+                <li className="flex gap-3"><span className="marker not-italic">✓</span><span><strong>Isolation</strong> of x on one side. Method mark earned.</span></li>
+                <li className="flex gap-3"><span className="marker not-italic">✓</span><span><strong>Answer</strong> matches the official rubric: x = 4.</span></li>
+                <li className="flex gap-3"><span className="text-[color:var(--color-muted)]">↳</span><span className="text-[color:var(--color-muted)]">Time: 38s. Average for this question: 52s.</span></li>
+              </ul>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* ─── № V — Weak-Spot Radar ──────────────────────────────────── */}
+      <section className="py-24">
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="card p-8">
+              <Eyebrow className="mb-5">Weak spots · this week</Eyebrow>
+              <ol className="space-y-5">
+                {weakSpots.map((t, i) => (
+                  <li key={t} className="flex items-baseline gap-4">
+                    <span className="marker not-italic font-serif text-[20px]">№ {toRoman(i + 1)}</span>
+                    <div className="flex-1">
+                      <div className="font-serif text-[18px]">{t}</div>
+                      <div className="eyebrow mt-1">{18 - i * 4} marks lost · {6 - i} questions</div>
+                    </div>
+                  </li>
+                ))}
+              </ol>
             </div>
             <div>
-              <div style={{ fontSize: 14, color: '#94A3B8' }}>
-                <span style={{ color: '#60A5FA', fontWeight: 700 }}>2,400+ students</span> already practicing
-              </div>
-              <div style={{ fontSize: 13, color: '#64748B' }}>Average score increase: +140 SAT / +4 ACT points</div>
+              <SectionHeading
+                roman={5}
+                kicker="The Radar"
+                title={<>Find the <em>three topics</em> holding your score back.</>}
+              />
+              <p className="mt-6 text-[16px] text-[color:var(--color-ink-2)] leading-[1.7]">
+                After every session, three topics — never more — get flagged. They are the ones costing you the most marks, weighted by frequency on real papers. The planner schedules them. You revise. You stop losing points.
+              </p>
+              <div className="mt-8"><Link href="/practice" className="btn-link">Start a diagnostic →</Link></div>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
 
-      {/* ── STATS BAR ────────────────────────────────────────────── */}
-      <section style={{
-        background: '#F8FAFC', borderBottom: '1px solid #E2E8F0',
-        padding: '32px 24px',
-      }}>
-        <div style={{
-          maxWidth: 900, margin: '0 auto',
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 24,
-          textAlign: 'center',
-        }}>
-          {[
-            { value: '100%', label: 'Free Forever', icon: '🎓' },
-            { value: '25+', label: 'Topic Sections', icon: '📚' },
-            { value: 'Instant', label: 'AI Marking', icon: '⚡' },
-            { value: 'SAT + ACT', label: 'Both Exams', icon: '✅' },
-          ].map(s => (
-            <div key={s.label}>
-              <div style={{ fontSize: 28 }}>{s.icon}</div>
-              <div style={{ fontSize: 24, fontWeight: 800, color: '#1E293B' }}>{s.value}</div>
-              <div style={{ fontSize: 14, color: '#64748B', fontWeight: 600 }}>{s.label}</div>
+      <RuleDivider />
+
+      {/* ─── № VI — Every past paper ────────────────────────────────── */}
+      <section className="py-24 bg-[color:var(--color-bg-alt)]">
+        <Container>
+          <SectionHeading
+            roman={6}
+            kicker="The archive"
+            title={<>Every past paper, marked <em>like the real thing.</em></>}
+          />
+          <p className="mt-6 text-[15px] text-[color:var(--color-muted)] max-w-[640px]">
+            2016 through 2025, SAT and ACT, every released math section. Plus AI-generated papers calibrated to the same rubric.
+          </p>
+          <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            {paperWall.map((p, i) => (
+              <SheetTile
+                key={p.id}
+                number={i + 1}
+                title={`${p.exam} ${p.year} · Test ${p.paperNumber}`}
+                meta={`${p.timeMinutes} min · ${p.questionCount} Q`}
+                href={`/past-papers/${p.id}`}
+                tier={p.exam}
+              />
+            ))}
+          </div>
+          <div className="mt-10"><Link href="/past-papers" className="btn-link">Open the archive →</Link></div>
+        </Container>
+      </section>
+
+      {/* ─── № VII — Ask the Margin ─────────────────────────────────── */}
+      <section className="py-24">
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <SectionHeading
+                roman={7}
+                kicker="The margin"
+                title={<>Highlight anything. <em>Get a tutor&rsquo;s explanation.</em></>}
+              />
+              <p className="mt-6 text-[16px] text-[color:var(--color-ink-2)] leading-[1.7]">
+                Stuck on the word &ldquo;discriminant&rdquo;? Don&rsquo;t know what an asymptote does in this problem? Highlight it. A clear, exam-shaped explanation appears in the margin — without you ever leaving the question.
+              </p>
             </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ── MOTIVATION SECTION ───────────────────────────────────── */}
-      <section style={{ padding: '80px 24px', background: '#fff' }}>
-        <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
-          <h2 style={{ fontSize: 36, fontWeight: 800, color: '#1E293B', fontFamily: 'Georgia, serif', margin: '0 0 20px' }}>
-            Every point matters for college admissions
-          </h2>
-          <p style={{ fontSize: 18, color: '#64748B', lineHeight: 1.7, maxWidth: 640, margin: '0 auto 48px' }}>
-            A higher math score doesn&apos;t just look good — it opens doors. Scholarships, dream schools,
-            and opportunities all start with putting in the work now. The students who succeed aren&apos;t
-            the ones who are &quot;naturally smart&quot; — they&apos;re the ones who practiced consistently.
-          </p>
-
-          <div style={{
-            display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 24,
-          }}>
-            {[
-              { emoji: '🎯', title: 'Top 10% scores', desc: 'get 3x more scholarship offers', color: '#2563EB', bg: '#EFF6FF' },
-              { emoji: '💰', title: '$20,000+', desc: 'average scholarship for 1400+ SAT', color: '#059669', bg: '#ECFDF5' },
-              { emoji: '🏫', title: '85% of colleges', desc: 'consider SAT/ACT scores in admissions', color: '#7C3AED', bg: '#F5F3FF' },
-            ].map(card => (
-              <div key={card.title} style={{
-                background: card.bg, borderRadius: 16, padding: 32,
-                textAlign: 'center',
-              }}>
-                <div style={{ fontSize: 40, marginBottom: 12 }}>{card.emoji}</div>
-                <div style={{ fontSize: 22, fontWeight: 800, color: card.color }}>{card.title}</div>
-                <div style={{ fontSize: 15, color: '#64748B', marginTop: 8 }}>{card.desc}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── HOW IT WORKS ─────────────────────────────────────────── */}
-      <section style={{ padding: '80px 24px', background: '#F8FAFC' }}>
-        <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 36, fontWeight: 800, color: '#1E293B', textAlign: 'center', fontFamily: 'Georgia, serif', margin: '0 0 48px' }}>
-            Three steps to a higher score
-          </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 32 }}>
-            {steps.map(step => (
-              <div key={step.num} style={{
-                background: '#fff', borderRadius: 16, padding: 32,
-                border: '1px solid #E2E8F0', position: 'relative',
-              }}>
-                <div style={{
-                  position: 'absolute', top: -16, left: 24,
-                  width: 32, height: 32, borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-                  color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  fontSize: 16, fontWeight: 800,
-                }}>{step.num}</div>
-                <div style={{ fontSize: 32, marginBottom: 12, marginTop: 8 }}>{step.icon}</div>
-                <h3 style={{ fontSize: 20, fontWeight: 700, color: '#1E293B', margin: '0 0 8px' }}>{step.title}</h3>
-                <p style={{ fontSize: 15, color: '#64748B', lineHeight: 1.6, margin: 0 }}>{step.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── TOPIC COVERAGE ───────────────────────────────────────── */}
-      <section style={{ padding: '80px 24px', background: '#fff' }}>
-        <div style={{ maxWidth: 1000, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 36, fontWeight: 800, color: '#1E293B', textAlign: 'center', fontFamily: 'Georgia, serif', margin: '0 0 16px' }}>
-            Complete SAT & ACT math coverage
-          </h2>
-          <p style={{ textAlign: 'center', color: '#64748B', fontSize: 16, margin: '0 0 48px' }}>
-            Every topic you&apos;ll see on test day, with practice questions and study notes
-          </p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 20 }}>
-            {satTopics.map(t => (
-              <div key={t.name} style={{
-                background: '#F8FAFC', borderRadius: 16, padding: 24,
-                border: '1px solid #E2E8F0',
-              }}>
-                <div style={{ fontSize: 28, marginBottom: 8 }}>{t.icon}</div>
-                <h3 style={{ fontSize: 16, fontWeight: 700, color: '#1E293B', margin: '0 0 12px' }}>{t.name}</h3>
-                <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
-                  {t.items.map(item => (
-                    <li key={item} style={{
-                      fontSize: 13, color: '#64748B', padding: '3px 0',
-                      display: 'flex', alignItems: 'center', gap: 6,
-                    }}>
-                      <span style={{ color: '#2563EB', fontSize: 10 }}>●</span> {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── VALUE PROPS ──────────────────────────────────────────── */}
-      <section style={{ padding: '80px 24px', background: '#F8FAFC' }}>
-        <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 36, fontWeight: 800, color: '#1E293B', textAlign: 'center', fontFamily: 'Georgia, serif', margin: '0 0 48px' }}>
-            Why students choose us
-          </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 24 }}>
-            {[
-              { icon: '🎯', title: 'Exam-Aligned Questions', desc: 'Questions match the exact style, difficulty, and format of the real SAT and ACT.' },
-              { icon: '⚡', title: 'Instant AI Feedback', desc: 'Get detailed explanations and step-by-step solutions within seconds.' },
-              { icon: '📈', title: 'Progress Tracking', desc: 'See your strengths and weaknesses. Focus your time where it matters most.' },
-              { icon: '🔥', title: 'Daily Streaks & XP', desc: 'Stay motivated with streaks, levels, and badges. Make practice a habit.' },
-            ].map(v => (
-              <div key={v.title} style={{
-                background: '#fff', borderRadius: 16, padding: 28,
-                border: '1px solid #E2E8F0',
-              }}>
-                <div style={{ fontSize: 32, marginBottom: 12 }}>{v.icon}</div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: '#1E293B', margin: '0 0 8px' }}>{v.title}</h3>
-                <p style={{ fontSize: 14, color: '#64748B', lineHeight: 1.6, margin: 0 }}>{v.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── TESTIMONIALS ─────────────────────────────────────────── */}
-      <section style={{ padding: '80px 24px', background: '#fff' }}>
-        <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 36, fontWeight: 800, color: '#1E293B', textAlign: 'center', fontFamily: 'Georgia, serif', margin: '0 0 48px' }}>
-            Real students, real results
-          </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 24 }}>
-            {testimonials.map(t => (
-              <div key={t.name} style={{
-                background: '#F8FAFC', borderRadius: 16, padding: 28,
-                border: '1px solid #E2E8F0',
-              }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-                  <div style={{
-                    width: 40, height: 40, borderRadius: '50%', background: t.color,
-                    color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontSize: 18, fontWeight: 700,
-                  }}>{t.avatar}</div>
-                  <div>
-                    <div style={{ fontWeight: 700, color: '#1E293B', fontSize: 15 }}>{t.name}</div>
-                    <div style={{ fontSize: 13, color: t.color, fontWeight: 700 }}>{t.score}</div>
-                  </div>
-                </div>
-                <p style={{ fontSize: 15, color: '#475569', lineHeight: 1.6, margin: 0, fontStyle: 'italic' }}>
-                  &ldquo;{t.quote}&rdquo;
+            <div className="card p-7 relative">
+              <p className="font-serif text-[17px] leading-[1.7]">
+                The quadratic 2x² − 5x − 3 = 0 has a <span style={{ background: 'var(--color-marker)', color: 'var(--color-ink)', padding: '0 4px' }}>discriminant</span> of 49. How many real roots does the equation have?
+              </p>
+              <div className="mt-6 border-l-2 border-[color:var(--color-marker)] pl-4">
+                <Eyebrow className="mb-2">Margin · discriminant</Eyebrow>
+                <p className="text-[14px] leading-[1.6] text-[color:var(--color-ink-2)]">
+                  The discriminant is b² − 4ac. If it&rsquo;s positive, two real roots. Zero, one repeated root. Negative, no real roots. Here it&rsquo;s 49 — positive — so two real roots.
                 </p>
               </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <RuleDivider />
+
+      {/* ─── № VIII — Score Tracker (Study Hall replacement) ────────── */}
+      <section className="py-24 bg-[color:var(--color-bg-alt)]">
+        <Container>
+          <SectionHeading
+            roman={8}
+            kicker="The tracker"
+            title={<>Your score, <em>tracked every session.</em></>}
+            align="center"
+          />
+          <div className="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-[1000px] mx-auto">
+            {[
+              { label: 'Current streak', value: '12', unit: 'days' },
+              { label: 'XP earned', value: '4,820', unit: 'this month' },
+              { label: 'Rank', value: 'Gold', unit: 'Silver → Gold → Platinum' },
+              { label: 'Questions answered', value: '847', unit: 'last 30 days' },
+            ].map(s => (
+              <div key={s.label} className="card p-6 text-center">
+                <Eyebrow className="mb-3">{s.label}</Eyebrow>
+                <div className="font-serif text-[42px] leading-none">{s.value}</div>
+                <div className="eyebrow mt-3">{s.unit}</div>
+              </div>
             ))}
           </div>
-        </div>
+        </Container>
       </section>
 
-      {/* ── URGENCY CTA ──────────────────────────────────────────── */}
-      <section style={{
-        padding: '80px 24px',
-        background: 'linear-gradient(135deg, #0F172A 0%, #1E293B 100%)',
-        color: '#fff', textAlign: 'center',
-      }}>
-        <div style={{ maxWidth: 600, margin: '0 auto' }}>
-          <div style={{ fontSize: 48, marginBottom: 16 }}>🎓</div>
-          <h2 style={{
-            fontSize: 'clamp(28px, 5vw, 42px)', fontWeight: 900, fontFamily: 'Georgia, serif',
-            margin: '0 0 16px', lineHeight: 1.2,
-          }}>
-            Your test is in {Math.min(daysUntilSAT, daysUntilACT)} days
-          </h2>
-          <p style={{ fontSize: 18, color: '#94A3B8', lineHeight: 1.7, margin: '0 0 32px' }}>
-            Every day you wait is a day of practice lost. The best time to start was yesterday.
-            The second best time is <strong style={{ color: '#60A5FA' }}>right now</strong>.
-          </p>
-          <a href="/auth" style={{
-            display: 'inline-flex', alignItems: 'center', gap: 10,
-            padding: '18px 44px', borderRadius: 12, fontSize: 20, fontWeight: 800,
-            color: '#fff', background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-            textDecoration: 'none',
-            boxShadow: '0 4px 24px rgba(37, 99, 235, 0.4)',
-          }}>
-            Start Practicing Now — It&apos;s Free <span style={{ fontSize: 24 }}>→</span>
-          </a>
-          <p style={{ fontSize: 13, color: '#64748B', marginTop: 16 }}>
-            No credit card required. No account needed to browse topics.
-          </p>
-        </div>
+      {/* ─── № IX — The Method ──────────────────────────────────────── */}
+      <section className="py-24">
+        <Container>
+          <SectionHeading
+            roman={9}
+            kicker="The Method"
+            title={<>Three principles that <em>actually move scores.</em></>}
+            align="center"
+          />
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-[1000px] mx-auto">
+            {PRINCIPLES.map(p => (
+              <div key={p.i} className="text-center">
+                <div className="marker font-serif text-[28px] italic mb-4">{toRoman(p.i).toLowerCase()}</div>
+                <h3 className="headline text-[22px] mb-3">{p.title}</h3>
+                <p className="text-[15px] text-[color:var(--color-ink-2)] leading-[1.7]">{p.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
       </section>
 
-      {/* ── FOOTER ───────────────────────────────────────────────── */}
-      <footer style={{
-        background: '#0F172A', color: '#94A3B8', padding: '48px 24px',
-        borderTop: '1px solid #1E293B',
-      }}>
-        <div style={{
-          maxWidth: 900, margin: '0 auto',
-          display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 32,
-        }}>
-          <div>
-            <Logo size={32} showName nameSize={16} nameColor="#E2E8F0" />
-            <p style={{ fontSize: 13, color: '#64748B', marginTop: 12, lineHeight: 1.6 }}>
-              Free AI-powered math prep for SAT and ACT. Built by students, for students.
+      <RuleDivider />
+
+      {/* ─── № X — Student Journeys ─────────────────────────────────── */}
+      <section className="py-24 bg-[color:var(--color-bg-alt)]">
+        <Container>
+          <SectionHeading
+            roman={10}
+            kicker="Student Journeys"
+            title={<>The scores speak <em>for themselves.</em></>}
+          />
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4">
+            {TESTIMONIALS.map(t => (
+              <Quote key={t.name} quote={t.quote} name={t.name} detail={t.detail} />
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* ─── № XI — Urgency CTA ─────────────────────────────────────── */}
+      <section className="bg-[color:var(--color-ink)] text-white py-28">
+        <Container>
+          <div className="max-w-[820px] mx-auto text-center">
+            <div className="eyebrow mb-6" style={{ color: 'var(--color-marker)' }}>№ {toRoman(11)} · The invitation</div>
+            <h2 className="headline text-[40px] sm:text-[56px] lg:text-[64px]" style={{ color: 'white' }}>
+              Start tonight.<br /><em>Thank yourself on test day.</em>
+            </h2>
+            <p className="mt-7 text-[17px] leading-[1.6]" style={{ color: '#D6D3CB' }}>
+              {strandCount} strands. {subtopicCount} topics. Every paper since 2016. One subscription. No credit card for the free tier.
             </p>
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+              <Link href="/auth" className="btn-primary" style={{ background: 'white', color: 'var(--color-ink)', borderColor: 'white' }}>
+                Start for free <span aria-hidden>→</span>
+              </Link>
+              <Link href="/pricing" className="btn-ghost" style={{ borderColor: '#3A3A3A', color: 'white' }}>
+                See pricing
+              </Link>
+            </div>
           </div>
-          <div>
-            <h4 style={{ color: '#E2E8F0', fontSize: 14, fontWeight: 700, margin: '0 0 12px' }}>Practice</h4>
-            {[
-              { href: '/study', label: 'Study Notes' },
-              { href: '/practice', label: 'Quick Practice' },
-              { href: '/sections', label: 'Topic Tests' },
-              { href: '/papers', label: 'Full Papers' },
-            ].map(l => (
-              <a key={l.href} href={l.href} style={{ display: 'block', color: '#64748B', textDecoration: 'none', fontSize: 13, padding: '3px 0' }}>{l.label}</a>
-            ))}
-          </div>
-          <div>
-            <h4 style={{ color: '#E2E8F0', fontSize: 14, fontWeight: 700, margin: '0 0 12px' }}>Company</h4>
-            {[
-              { href: '/blog', label: 'Blog' },
-              { href: '/contact', label: 'Contact' },
-              { href: '/privacy', label: 'Privacy Policy' },
-              { href: '/terms', label: 'Terms of Service' },
-            ].map(l => (
-              <a key={l.href} href={l.href} style={{ display: 'block', color: '#64748B', textDecoration: 'none', fontSize: 13, padding: '3px 0' }}>{l.label}</a>
-            ))}
-          </div>
-        </div>
-        <div style={{ maxWidth: 900, margin: '32px auto 0', paddingTop: 24, borderTop: '1px solid #1E293B', textAlign: 'center', fontSize: 12, color: '#475569' }}>
-          &copy; {new Date().getFullYear()} SAT ACT MathAI. All rights reserved. Not affiliated with College Board or ACT, Inc.
-        </div>
-      </footer>
+        </Container>
+      </section>
     </div>
   )
 }

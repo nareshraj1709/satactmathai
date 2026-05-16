@@ -2,7 +2,10 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
+import Container from '@/components/ui/Container'
+import Eyebrow from '@/components/ui/Eyebrow'
 import Logo from '@/components/Logo'
 
 export default function AuthPage() {
@@ -36,77 +39,76 @@ export default function AuthPage() {
 
   if (confirmSent) {
     return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#F8FAFC', padding: 24 }}>
-        <div style={{ background: '#fff', borderRadius: 20, padding: 40, maxWidth: 420, width: '100%', textAlign: 'center', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
-          <div style={{ fontSize: 48, marginBottom: 16 }}>📧</div>
-          <h2 style={{ fontSize: 24, fontWeight: 800, color: '#1E293B', margin: '0 0 12px' }}>Check your email</h2>
-          <p style={{ color: '#64748B', fontSize: 15, lineHeight: 1.6 }}>We sent a confirmation link to <strong>{email}</strong>. Click it to activate your account.</p>
+      <Container className="py-20 max-w-[480px]">
+        <div className="card p-10 text-center">
+          <Eyebrow className="mb-4">Confirmation sent</Eyebrow>
+          <h2 className="headline text-[28px] mb-3">Check your email</h2>
+          <p className="text-[15px] text-[color:var(--color-ink-2)] leading-[1.6]">
+            We sent a confirmation link to <strong>{email}</strong>. Click it to activate your account.
+          </p>
         </div>
-      </div>
+      </Container>
     )
   }
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#F8FAFC', padding: 24 }}>
-      <div style={{ background: '#fff', borderRadius: 20, padding: 40, maxWidth: 420, width: '100%', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
-        <div style={{ textAlign: 'center', marginBottom: 32 }}>
-          <Logo size={44} />
-          <h1 style={{ fontSize: 24, fontWeight: 800, color: '#1E293B', margin: '16px 0 4px' }}>
-            {mode === 'login' ? 'Welcome back' : 'Create your account'}
-          </h1>
-          <p style={{ color: '#64748B', fontSize: 14 }}>
-            {mode === 'login' ? 'Sign in to continue practicing' : 'Start your journey to a higher score'}
-          </p>
-        </div>
+    <Container className="py-20 max-w-[480px]">
+      <div className="text-center mb-10">
+        <div className="inline-block mb-6"><Logo size={18} /></div>
+        <Eyebrow className="mb-4">EST. 2024 · USA · MMXXVI</Eyebrow>
+        <h1 className="headline text-[36px] mb-2">
+          {mode === 'login' ? <>Welcome <em>back</em>.</> : <>Begin your <em>first topic</em>.</>}
+        </h1>
+        <p className="text-[15px] text-[color:var(--color-muted)]">
+          {mode === 'login' ? 'Sign in to continue.' : 'Create an account — no credit card required.'}
+        </p>
+      </div>
 
+      <div className="card p-8">
         {error && (
-          <div style={{ background: '#FEF2F2', color: '#DC2626', padding: '12px 16px', borderRadius: 10, fontSize: 14, marginBottom: 16, fontWeight: 600 }}>
-            {error}
-          </div>
+          <div className="mb-5 p-3 border border-[color:var(--color-ink)] text-[14px] text-[color:var(--color-ink)]">{error}</div>
         )}
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+        <div className="space-y-5">
           <div>
-            <label style={{ fontSize: 13, fontWeight: 600, color: '#374151', display: 'block', marginBottom: 6 }}>Email</label>
+            <label className="eyebrow block mb-2">Email</label>
             <input
               type="email" value={email} onChange={e => setEmail(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleSubmit()}
               placeholder="you@example.com"
-              style={{ width: '100%', padding: '12px 16px', borderRadius: 10, border: '1.5px solid #E5E7EB', fontSize: 15, outline: 'none', boxSizing: 'border-box' }}
+              className="w-full px-4 py-3 border border-[color:var(--color-rule)] rounded-[4px] text-[15px] outline-none focus:border-[color:var(--color-ink)]"
             />
           </div>
           <div>
-            <label style={{ fontSize: 13, fontWeight: 600, color: '#374151', display: 'block', marginBottom: 6 }}>Password</label>
+            <label className="eyebrow block mb-2">Password</label>
             <input
               type="password" value={password} onChange={e => setPassword(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleSubmit()}
               placeholder="At least 6 characters"
-              style={{ width: '100%', padding: '12px 16px', borderRadius: 10, border: '1.5px solid #E5E7EB', fontSize: 15, outline: 'none', boxSizing: 'border-box' }}
+              className="w-full px-4 py-3 border border-[color:var(--color-rule)] rounded-[4px] text-[15px] outline-none focus:border-[color:var(--color-ink)]"
             />
           </div>
           <button
             onClick={handleSubmit} disabled={loading}
-            style={{
-              padding: '14px', borderRadius: 10, border: 'none', fontSize: 16, fontWeight: 700,
-              color: '#fff', background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-              cursor: loading ? 'wait' : 'pointer', opacity: loading ? 0.7 : 1,
-              marginTop: 8,
-            }}
+            className="btn-primary w-full justify-center disabled:opacity-60"
           >
-            {loading ? 'Please wait...' : mode === 'login' ? 'Sign In' : 'Create Account'}
+            {loading ? 'Please wait…' : mode === 'login' ? 'Sign in' : 'Create account'} <span aria-hidden>→</span>
           </button>
         </div>
 
-        <p style={{ textAlign: 'center', marginTop: 24, fontSize: 14, color: '#64748B' }}>
+        <p className="text-center mt-8 text-[14px] text-[color:var(--color-muted)]">
           {mode === 'login' ? "Don't have an account? " : 'Already have an account? '}
           <button
             onClick={() => { setMode(mode === 'login' ? 'signup' : 'login'); setError('') }}
-            style={{ background: 'none', border: 'none', color: '#2563EB', fontWeight: 700, cursor: 'pointer', fontSize: 14 }}
+            className="text-[color:var(--color-ink)] font-semibold underline underline-offset-2"
           >
-            {mode === 'login' ? 'Sign Up' : 'Sign In'}
+            {mode === 'login' ? 'Sign up' : 'Sign in'}
           </button>
         </p>
       </div>
-    </div>
+
+      <p className="text-center mt-6 text-[13px] text-[color:var(--color-muted)]">
+        ← <Link href="/" className="hover:text-[color:var(--color-ink)]">Back to home</Link>
+      </p>
+    </Container>
   )
 }

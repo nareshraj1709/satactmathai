@@ -1,208 +1,100 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { supabase } from '@/lib/supabase'
-import { ALL_CONTENT } from '@/lib/study-content'
-import AuthGuard from '@/components/AuthGuard'
+import { useMemo, useState } from 'react'
+import Link from 'next/link'
+import Container from '@/components/ui/Container'
+import Eyebrow from '@/components/ui/Eyebrow'
+import FilterTabs from '@/components/ui/FilterTabs'
+import { SECTIONS } from '@/lib/sections-data'
+import { toSlug } from '@/lib/study-content'
 
-interface Question {
-  question: string
-  answer: string
-  explanation: string
-}
+type Filter = 'Both' | 'SAT' | 'ACT'
 
-export default function PracticePage() {
-  const [topic, setTopic] = useState('')
-  const [questions, setQuestions] = useState<Question[]>([])
-  const [answers, setAnswers] = useState<string[]>([])
-  const [results, setResults] = useState<{ correct: boolean; explanation: string }[] | null>(null)
-  const [loading, setLoading] = useState(false)
-  const [generating, setGenerating] = useState(false)
+export default function PracticeIndexPage() {
+  const [filter, setFilter] = useState<Filter>('Both')
+  const [query, setQuery] = useState('')
 
-  const allSubtopics = ALL_CONTENT.flatMap(s => s.subtopics.map(sub => ({ topic: s.topic, ...sub })))
+  const filtered = useMemo(() => {
+    return SECTIONS.filter(s => {
+      const matchesExam = filter === 'Both' || s.tier === filter || s.tier === 'Both'
+      const q = query.trim().toLowerCase()
+      const matchesQuery = !q || s.name.toLowerCase().includes(q) || s.topic.toLowerCase().includes(q)
+      return matchesExam && matchesQuery
+    })
+  }, [filter, query])
 
-  async function generateQuestions() {
-    setGenerating(true)
-    setResults(null)
-    setAnswers([])
-    try {
-      const res = await fetch('/api/generate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ topic: topic || 'mixed SAT/ACT math', count: 5, type: 'practice' }),
-      })
-      const data = await res.json()
-      setQuestions(data.questions || [])
-      setAnswers(new Array(data.questions?.length || 5).fill(''))
-    } catch {
-      setQuestions([])
+  // Group by topic
+  const grouped = useMemo(() => {
+    const map = new Map<string, typeof filtered>()
+    for (const s of filtered) {
+      if (!map.has(s.topic)) map.set(s.topic, [])
+      map.get(s.topic)!.push(s)
     }
-    setGenerating(false)
-  }
-
-  async function submitAnswers() {
-    setLoading(true)
-    try {
-      const res = await fetch('/api/mark', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ questions, answers, exam: 'SAT' }),
-      })
-      const data = await res.json()
-      setResults(data.results || [])
-
-      // Save attempts
-      const session = (await supabase.auth.getSession()).data.session
-      if (session) {
-        for (let i = 0; i < questions.length; i++) {
-          await supabase.from('attempts').insert({
-            user_id: session.user.id,
-            topic: topic || 'Mixed',
-            subtopic: topic || 'Mixed Practice',
-            question: questions[i].question,
-            student_answer: answers[i],
-            score: data.results?.[i]?.correct ? 1 : 0,
-            out_of: 1,
-            feedback: data.results?.[i]?.explanation || '',
-          })
-        }
-      }
-    } catch {
-      // Handle error
-    }
-    setLoading(false)
-  }
-
-  const score = results ? results.filter(r => r.correct).length : 0
+    return Array.from(map.entries())
+  }, [filtered])
 
   return (
-    <AuthGuard>
-      <div style={{ background: '#F8FAFC', minHeight: '100vh' }}>
-        <div style={{ maxWidth: 700, margin: '0 auto', padding: '32px 24px' }}>
-          <h1 style={{ fontSize: 28, fontWeight: 800, color: '#1E293B', margin: '0 0 8px', fontFamily: 'Georgia, serif' }}>Quick Practice</h1>
-          <p style={{ color: '#64748B', fontSize: 15, margin: '0 0 24px' }}>5 AI-generated questions with instant feedback</p>
+    <div>
+      <section className="pt-20 pb-12 border-b border-[color:var(--color-rule)]">
+        <Container>
+          <Eyebrow className="mb-6">EST. 2024 · USA · MMXXVI</Eyebrow>
+          <h1 className="headline text-[42px] sm:text-[56px] max-w-[820px]">
+            Practice. <em>Marked the way it counts.</em>
+          </h1>
+          <p className="mt-6 text-[17px] text-[color:var(--color-ink-2)] max-w-[640px] leading-[1.6]">
+            Pick a topic. Get ten AI-generated questions calibrated to the SAT or ACT rubric. Your working is marked line by line.
+          </p>
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <FilterTabs
+              value={filter}
+              onChange={v => setFilter(v as Filter)}
+              options={[
+                { label: 'Both', value: 'Both' },
+                { label: 'SAT', value: 'SAT' },
+                { label: 'ACT', value: 'ACT' },
+              ]}
+            />
+            <input
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              placeholder="Search topics…"
+              className="px-4 py-2 border border-[color:var(--color-rule)] rounded-full bg-[color:var(--color-surface)] text-[14px] outline-none focus:border-[color:var(--color-ink)] min-w-[220px]"
+            />
+            <span className="eyebrow">{filtered.length} topics</span>
+          </div>
+        </Container>
+      </section>
 
-          {/* Topic selection */}
-          {questions.length === 0 && (
-            <div style={{ background: '#fff', borderRadius: 16, padding: 32, border: '1px solid #E2E8F0' }}>
-              <h3 style={{ fontSize: 18, fontWeight: 700, color: '#1E293B', margin: '0 0 16px' }}>Choose a topic</h3>
-              <select
-                value={topic}
-                onChange={e => setTopic(e.target.value)}
-                style={{ width: '100%', padding: '12px 16px', borderRadius: 10, border: '1.5px solid #E5E7EB', fontSize: 15, marginBottom: 16, outline: 'none' }}
-              >
-                <option value="">Mixed (all topics)</option>
-                {allSubtopics.map(s => (
-                  <option key={s.slug} value={s.name}>{s.topic} → {s.name}</option>
-                ))}
-              </select>
-              <button
-                onClick={generateQuestions}
-                disabled={generating}
-                style={{
-                  width: '100%', padding: '14px', borderRadius: 10, border: 'none', fontSize: 16, fontWeight: 700,
-                  color: '#fff', background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-                  cursor: generating ? 'wait' : 'pointer', opacity: generating ? 0.7 : 1,
-                }}
-              >
-                {generating ? 'Generating questions...' : 'Generate 5 Questions'}
-              </button>
-            </div>
-          )}
-
-          {/* Questions */}
-          {questions.length > 0 && !results && (
-            <div>
-              {questions.map((q, i) => (
-                <div key={i} style={{
-                  background: '#fff', borderRadius: 16, padding: 24,
-                  border: '1px solid #E2E8F0', marginBottom: 16,
-                }}>
-                  <div style={{ display: 'flex', gap: 12, marginBottom: 12 }}>
-                    <div style={{
-                      width: 28, height: 28, borderRadius: '50%',
-                      background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-                      color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                      fontSize: 13, fontWeight: 700, flexShrink: 0,
-                    }}>{i + 1}</div>
-                    <p style={{ fontSize: 15, color: '#1E293B', lineHeight: 1.6, margin: 0, fontWeight: 500 }}>{q.question}</p>
-                  </div>
-                  <input
-                    value={answers[i] || ''}
-                    onChange={e => {
-                      const newAnswers = [...answers]
-                      newAnswers[i] = e.target.value
-                      setAnswers(newAnswers)
-                    }}
-                    placeholder="Type your answer..."
-                    style={{
-                      width: '100%', padding: '12px 16px', borderRadius: 10,
-                      border: '1.5px solid #E5E7EB', fontSize: 15, outline: 'none', boxSizing: 'border-box',
-                    }}
-                  />
+      <section className="py-16">
+        <Container>
+          <div className="space-y-16">
+            {grouped.map(([topic, sections]) => (
+              <div key={topic}>
+                <div className="flex items-baseline justify-between mb-6">
+                  <h2 className="headline text-[26px]">{topic}</h2>
+                  <span className="eyebrow">{sections.length} topics</span>
                 </div>
-              ))}
-              <button
-                onClick={submitAnswers}
-                disabled={loading}
-                style={{
-                  width: '100%', padding: '14px', borderRadius: 10, border: 'none', fontSize: 16, fontWeight: 700,
-                  color: '#fff', background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-                  cursor: loading ? 'wait' : 'pointer', opacity: loading ? 0.7 : 1,
-                }}
-              >
-                {loading ? 'Marking...' : 'Submit Answers'}
-              </button>
-            </div>
-          )}
-
-          {/* Results */}
-          {results && (
-            <div>
-              <div style={{
-                background: score >= 4 ? '#ECFDF5' : score >= 2 ? '#FFFBEB' : '#FEF2F2',
-                borderRadius: 16, padding: 24, textAlign: 'center', marginBottom: 24,
-                border: `1px solid ${score >= 4 ? '#A7F3D0' : score >= 2 ? '#FDE68A' : '#FECACA'}`,
-              }}>
-                <div style={{ fontSize: 40, fontWeight: 800, color: '#1E293B' }}>{score}/{questions.length}</div>
-                <p style={{ color: '#64748B', margin: '8px 0 0' }}>
-                  {score === questions.length ? 'Perfect! Amazing work!' : score >= 3 ? 'Great job! Keep it up!' : 'Keep practicing, you\'ll get there!'}
-                </p>
-              </div>
-
-              {questions.map((q, i) => (
-                <div key={i} style={{
-                  background: '#fff', borderRadius: 16, padding: 24,
-                  border: `1px solid ${results[i]?.correct ? '#A7F3D0' : '#FECACA'}`,
-                  marginBottom: 12,
-                }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
-                    <span style={{ fontSize: 18 }}>{results[i]?.correct ? '✅' : '❌'}</span>
-                    <span style={{ fontSize: 14, fontWeight: 600, color: '#374151' }}>Q{i + 1}: {q.question}</span>
-                  </div>
-                  <p style={{ fontSize: 13, color: '#64748B', margin: '4px 0' }}>Your answer: <strong>{answers[i] || '(blank)'}</strong></p>
-                  <p style={{ fontSize: 13, color: '#059669', margin: '4px 0' }}>Correct answer: <strong>{q.answer}</strong></p>
-                  {results[i]?.explanation && (
-                    <p style={{ fontSize: 13, color: '#64748B', margin: '8px 0 0', lineHeight: 1.6 }}>{results[i].explanation}</p>
-                  )}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+                  {sections.map(sec => (
+                    <Link
+                      key={sec.id}
+                      href={`/practice/${toSlug(sec.name)}`}
+                      className="card p-5 flex flex-col gap-3 hover:bg-[color:var(--color-bg-alt)] transition-colors min-h-[140px]"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="marker not-italic font-serif text-[13px]">№ {String(sec.number).padStart(2, '0')}</span>
+                        <span className="eyebrow text-[10px]">{sec.tier === 'Both' ? 'SAT + ACT' : sec.tier}</span>
+                      </div>
+                      <div className="font-serif text-[18px] leading-tight mt-1">{sec.name}</div>
+                      <div className="text-[13px] text-[color:var(--color-muted)] leading-[1.5] mt-auto">{sec.description}</div>
+                    </Link>
+                  ))}
                 </div>
-              ))}
-
-              <div style={{ display: 'flex', gap: 12, marginTop: 20 }}>
-                <button onClick={() => { setQuestions([]); setResults(null); setAnswers([]) }} style={{
-                  flex: 1, padding: '14px', borderRadius: 10, border: '2px solid #2563EB',
-                  background: '#fff', color: '#2563EB', fontSize: 15, fontWeight: 700, cursor: 'pointer',
-                }}>Try Again</button>
-                <a href="/dashboard" style={{
-                  flex: 1, padding: '14px', borderRadius: 10, border: 'none',
-                  background: 'linear-gradient(135deg, #2563EB, #7C3AED)', color: '#fff',
-                  fontSize: 15, fontWeight: 700, textDecoration: 'none', textAlign: 'center',
-                }}>View Dashboard</a>
               </div>
-            </div>
-          )}
-        </div>
-      </div>
-    </AuthGuard>
+            ))}
+          </div>
+        </Container>
+      </section>
+    </div>
   )
 }

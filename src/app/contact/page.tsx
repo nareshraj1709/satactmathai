@@ -1,6 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import Container from '@/components/ui/Container'
+import Eyebrow from '@/components/ui/Eyebrow'
 
 export default function ContactPage() {
   const [name, setName] = useState('')
@@ -22,42 +24,41 @@ export default function ContactPage() {
   }
 
   return (
-    <div style={{ background: '#F8FAFC', minHeight: '100vh' }}>
-      <div style={{ maxWidth: 560, margin: '0 auto', padding: '48px 24px' }}>
-        <h1 style={{ fontSize: 32, fontWeight: 800, color: '#1E293B', margin: '0 0 8px', fontFamily: 'Georgia, serif' }}>Contact Us</h1>
-        <p style={{ color: '#64748B', fontSize: 16, margin: '0 0 32px' }}>Have a question or feedback? We&apos;d love to hear from you.</p>
+    <Container className="py-20 max-w-[640px]">
+      <Eyebrow className="mb-5">EST. 2024 · USA · MMXXVI</Eyebrow>
+      <h1 className="headline text-[40px] mb-4">
+        Get in <em>touch</em>.
+      </h1>
+      <p className="text-[15px] text-[color:var(--color-muted)] mb-10 max-w-[480px]">A question, a bug, an idea — we read everything that comes through.</p>
 
-        {sent ? (
-          <div style={{ background: '#ECFDF5', borderRadius: 16, padding: 32, textAlign: 'center', border: '1px solid #A7F3D0' }}>
-            <div style={{ fontSize: 40, marginBottom: 12 }}>✅</div>
-            <h2 style={{ fontSize: 20, fontWeight: 700, color: '#059669' }}>Message sent!</h2>
-            <p style={{ color: '#64748B' }}>We&apos;ll get back to you as soon as possible.</p>
+      {sent ? (
+        <div className="card p-10 text-center">
+          <div className="marker font-serif text-[28px] not-italic mb-3">✓</div>
+          <h2 className="headline text-[24px] mb-3">Message sent</h2>
+          <p className="text-[14px] text-[color:var(--color-muted)]">We&rsquo;ll get back to you as soon as we can.</p>
+        </div>
+      ) : (
+        <form onSubmit={handleSubmit} className="card p-8 space-y-5">
+          <div>
+            <label className="eyebrow block mb-2">Name</label>
+            <input value={name} onChange={e => setName(e.target.value)} required
+              className="w-full px-4 py-3 border border-[color:var(--color-rule)] rounded-[4px] text-[15px] outline-none focus:border-[color:var(--color-ink)]" />
           </div>
-        ) : (
-          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            <div>
-              <label style={{ fontSize: 13, fontWeight: 600, color: '#374151', display: 'block', marginBottom: 6 }}>Name</label>
-              <input value={name} onChange={e => setName(e.target.value)} required
-                style={{ width: '100%', padding: '12px 16px', borderRadius: 10, border: '1.5px solid #E5E7EB', fontSize: 15, outline: 'none', boxSizing: 'border-box' }} />
-            </div>
-            <div>
-              <label style={{ fontSize: 13, fontWeight: 600, color: '#374151', display: 'block', marginBottom: 6 }}>Email</label>
-              <input type="email" value={email} onChange={e => setEmail(e.target.value)} required
-                style={{ width: '100%', padding: '12px 16px', borderRadius: 10, border: '1.5px solid #E5E7EB', fontSize: 15, outline: 'none', boxSizing: 'border-box' }} />
-            </div>
-            <div>
-              <label style={{ fontSize: 13, fontWeight: 600, color: '#374151', display: 'block', marginBottom: 6 }}>Message</label>
-              <textarea value={message} onChange={e => setMessage(e.target.value)} required rows={5}
-                style={{ width: '100%', padding: '12px 16px', borderRadius: 10, border: '1.5px solid #E5E7EB', fontSize: 15, outline: 'none', boxSizing: 'border-box', resize: 'vertical', fontFamily: 'inherit' }} />
-            </div>
-            <button type="submit" disabled={loading} style={{
-              padding: '14px', borderRadius: 10, border: 'none', fontSize: 16, fontWeight: 700,
-              color: '#fff', background: 'linear-gradient(135deg, #2563EB, #7C3AED)',
-              cursor: loading ? 'wait' : 'pointer', opacity: loading ? 0.7 : 1,
-            }}>{loading ? 'Sending...' : 'Send Message'}</button>
-          </form>
-        )}
-      </div>
-    </div>
+          <div>
+            <label className="eyebrow block mb-2">Email</label>
+            <input type="email" value={email} onChange={e => setEmail(e.target.value)} required
+              className="w-full px-4 py-3 border border-[color:var(--color-rule)] rounded-[4px] text-[15px] outline-none focus:border-[color:var(--color-ink)]" />
+          </div>
+          <div>
+            <label className="eyebrow block mb-2">Message</label>
+            <textarea value={message} onChange={e => setMessage(e.target.value)} required rows={6}
+              className="w-full px-4 py-3 border border-[color:var(--color-rule)] rounded-[4px] text-[15px] font-serif outline-none focus:border-[color:var(--color-ink)] resize-none" />
+          </div>
+          <button type="submit" disabled={loading} className="btn-primary w-full justify-center disabled:opacity-60">
+            {loading ? 'Sending…' : 'Send message'} <span aria-hidden>→</span>
+          </button>
+        </form>
+      )}
+    </Container>
   )
 }

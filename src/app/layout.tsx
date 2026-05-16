@@ -1,28 +1,30 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, EB_Garamond } from 'next/font/google'
 import NavWrapper from '@/components/NavWrapper'
+import Footer from '@/components/Footer'
 import './globals.css'
 
-const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
-const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
+const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'], display: 'swap' })
+const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'], display: 'swap' })
+const garamond = EB_Garamond({ variable: '--font-eb-garamond', subsets: ['latin'], display: 'swap', weight: ['400', '500', '600', '700'], style: ['normal', 'italic'] })
 
 export const metadata: Metadata = {
-  title: 'SAT ACT MathAI — Free AI-Powered Math Prep',
-  description: 'Free SAT and ACT math prep powered by AI. Practice with real-style questions, get instant AI marking, track your progress, and boost your score. 100% free.',
-  keywords: ['SAT math prep', 'ACT math prep', 'SAT practice test', 'ACT practice test', 'free SAT prep', 'AI math tutor', 'SAT math questions', 'ACT math questions', 'college board', 'math practice'],
+  title: 'SATACTMathAI — Preparation worthy of the score you want',
+  description: 'AI-marked SAT and ACT math preparation. 22 topics, every past paper from 2016 to 2025, instant feedback on your working. Built for the test you actually take.',
+  keywords: ['SAT math prep', 'ACT math prep', 'SAT practice test', 'ACT practice test', 'AI math marking', 'SAT past papers', 'ACT past papers', 'AI math tutor'],
   metadataBase: new URL('https://www.satactmathai.com'),
   openGraph: {
-    title: 'SAT ACT MathAI — Free AI-Powered Math Prep',
-    description: 'Boost your SAT/ACT math score with AI-powered practice. Instant marking, detailed feedback, and progress tracking. 100% free.',
+    title: 'SATACTMathAI — Preparation worthy of the score you want',
+    description: 'AI-marked SAT and ACT math prep. Every past paper from 2016 to 2025, marked like the real thing.',
     url: 'https://www.satactmathai.com',
-    siteName: 'SAT ACT MathAI',
+    siteName: 'SATACTMathAI',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SAT ACT MathAI — Free AI-Powered Math Prep',
-    description: 'Boost your SAT/ACT math score with AI-powered practice.',
+    title: 'SATACTMathAI — Preparation worthy of the score you want',
+    description: 'AI-marked SAT and ACT math prep.',
   },
   robots: { index: true, follow: true },
   verification: {
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${garamond.variable}`}>
       <head>
         <script
           type="application/ld+json"
@@ -41,16 +43,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'SAT ACT MathAI',
+              name: 'SATACTMathAI',
               url: 'https://www.satactmathai.com',
-              description: 'Free AI-powered SAT and ACT math preparation platform.',
+              description: 'AI-marked SAT and ACT math preparation.',
             }),
           }}
         />
       </head>
-      <body style={{ margin: 0 }}>
+      <body>
         <NavWrapper />
-        {children}
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )

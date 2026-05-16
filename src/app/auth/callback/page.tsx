@@ -3,6 +3,8 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
+import Container from '@/components/ui/Container'
+import Eyebrow from '@/components/ui/Eyebrow'
 
 export default function AuthCallback() {
   const router = useRouter()
@@ -19,8 +21,9 @@ export default function AuthCallback() {
   }, [router])
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-      <p style={{ color: '#64748B', fontSize: 16 }}>Signing you in...</p>
-    </div>
+    <Container className="py-32 text-center max-w-[400px]">
+      <Eyebrow className="mb-4">Authenticating</Eyebrow>
+      <div className="font-serif text-[24px]">Signing you in…</div>
+    </Container>
   )
 }

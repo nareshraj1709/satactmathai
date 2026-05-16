@@ -1,8 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { supabase } from '@/lib/supabase'
 import AuthGuard from '@/components/AuthGuard'
+import Container from '@/components/ui/Container'
+import Eyebrow from '@/components/ui/Eyebrow'
+import FilterTabs from '@/components/ui/FilterTabs'
 
 interface Attempt {
   id: string
@@ -24,63 +28,62 @@ export default function ReviewPage() {
     supabase.auth.getSession().then(async ({ data: { session } }) => {
       if (!session) return
       const { data } = await supabase
-        .from('attempts')
-        .select('*')
+        .from('attempts').select('*')
         .eq('user_id', session.user.id)
         .order('created_at', { ascending: false })
-        .limit(50)
       setAttempts(data || [])
     })
   }, [])
 
-  const filtered = filter === 'incorrect' ? attempts.filter(a => a.score === 0) : attempts
+  const filtered = filter === 'incorrect' ? attempts.filter(a => a.score < a.out_of) : attempts
 
   return (
     <AuthGuard>
-      <div style={{ background: '#F8FAFC', minHeight: '100vh' }}>
-        <div style={{ maxWidth: 700, margin: '0 auto', padding: '32px 24px' }}>
-          <h1 style={{ fontSize: 28, fontWeight: 800, color: '#1E293B', margin: '0 0 8px', fontFamily: 'Georgia, serif' }}>Review</h1>
-          <p style={{ color: '#64748B', fontSize: 15, margin: '0 0 24px' }}>Review your recent answers and learn from mistakes</p>
+      <div>
+        <section className="pt-16 pb-8 border-b border-[color:var(--color-rule)]">
+          <Container>
+            <Eyebrow className="mb-5">EST. 2024 · USA · MMXXVI</Eyebrow>
+            <h1 className="headline text-[40px]">Your <em>working</em>, marked.</h1>
+            <p className="mt-4 text-[15px] text-[color:var(--color-muted)] max-w-[640px]">Every question you have answered. Every comment the examiner left.</p>
+            <div className="mt-8">
+              <FilterTabs
+                value={filter}
+                onChange={v => setFilter(v as 'all' | 'incorrect')}
+                options={[
+                  { label: `All (${attempts.length})`, value: 'all' },
+                  { label: `Incorrect only (${attempts.filter(a => a.score < a.out_of).length})`, value: 'incorrect' },
+                ]}
+              />
+            </div>
+          </Container>
+        </section>
 
-          <div style={{ display: 'flex', gap: 10, marginBottom: 24 }}>
-            {[
-              { key: 'all', label: 'All Attempts' },
-              { key: 'incorrect', label: 'Incorrect Only' },
-            ].map(f => (
-              <button key={f.key} onClick={() => setFilter(f.key as 'all' | 'incorrect')} style={{
-                padding: '8px 20px', borderRadius: 8, fontSize: 14, fontWeight: 700,
-                border: filter === f.key ? '2px solid #2563EB' : '2px solid #E5E7EB',
-                background: filter === f.key ? '#EFF6FF' : '#fff',
-                color: filter === f.key ? '#2563EB' : '#374151',
-                cursor: 'pointer',
-              }}>{f.label}</button>
-            ))}
-          </div>
-
+        <Container className="py-12">
           {filtered.length === 0 ? (
-            <div style={{ textAlign: 'center', padding: 48, color: '#94A3B8' }}>
-              <div style={{ fontSize: 32, marginBottom: 8 }}>📝</div>
-              <p>No attempts to review yet. Start practicing!</p>
+            <div className="card p-12 text-center">
+              <p className="text-[15px] text-[color:var(--color-muted)] mb-5">Nothing to review yet.</p>
+              <Link href="/practice" className="btn-primary">Start a session <span aria-hidden>→</span></Link>
             </div>
           ) : (
-            filtered.map((a, i) => (
-              <div key={i} style={{
-                background: '#fff', borderRadius: 12, padding: 20, marginBottom: 12,
-                border: `1px solid ${a.score > 0 ? '#A7F3D0' : '#FECACA'}`,
-              }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
-                  <span style={{ fontSize: 12, color: '#64748B' }}>{a.topic} · {a.subtopic}</span>
-                  <span style={{ fontSize: 12, color: '#64748B' }}>{new Date(a.created_at).toLocaleDateString()}</span>
+            <div className="space-y-3">
+              {filtered.map(a => (
+                <div key={a.id} className="card p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className={`marker not-italic font-serif text-[15px] ${a.score >= a.out_of ? '' : 'text-[color:var(--color-ink)]'}`}>
+                      {a.score >= a.out_of ? '✓' : '✗'}
+                    </span>
+                    <Eyebrow>{a.subtopic || a.topic} · {new Date(a.created_at).toLocaleDateString()}</Eyebrow>
+                  </div>
+                  <p className="font-serif text-[16px] leading-[1.6] mb-3">{a.question}</p>
+                  <div className="text-[13px] text-[color:var(--color-muted)]">Your answer: <strong className="text-[color:var(--color-ink)]">{a.student_answer || '(blank)'}</strong></div>
+                  {a.feedback && (
+                    <p className="mt-3 text-[13px] leading-[1.7] text-[color:var(--color-ink-2)] border-t border-[color:var(--color-rule)] pt-3">{a.feedback}</p>
+                  )}
                 </div>
-                <p style={{ fontSize: 15, fontWeight: 600, color: '#1E293B', margin: '0 0 8px' }}>{a.question}</p>
-                <p style={{ fontSize: 13, color: a.score > 0 ? '#059669' : '#DC2626', margin: '0 0 4px' }}>
-                  {a.score > 0 ? '✅' : '❌'} Your answer: <strong>{a.student_answer || '(blank)'}</strong>
-                </p>
-                {a.feedback && <p style={{ fontSize: 13, color: '#64748B', margin: '8px 0 0', lineHeight: 1.6 }}>{a.feedback}</p>}
-              </div>
-            ))
+              ))}
+            </div>
           )}
-        </div>
+        </Container>
       </div>
     </AuthGuard>
   )
